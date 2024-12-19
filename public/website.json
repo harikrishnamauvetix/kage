@@ -1,0 +1,75 @@
+{
+  "bannerimage": [
+    {
+      "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_10_1720786743.jpg"
+    },
+    {
+      "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_01_1_1683635455.jpg"
+    },
+    {
+      "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_02_1683635460.jpg"
+    },
+    {
+      "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_07_1720786814.jpg"
+    }
+  ],
+  "introimages": [
+    {
+      "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_10_1720786743.jpg"
+    },
+    {
+      "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_01_1_1683635455.jpg"
+    }
+  ],
+  "doctorsList": [
+    {
+      "name": "Dr Sreekanth Appasani",
+      "qualifications": "MD (Int. Med), DM (Med. Gastro)",
+      "designation": "Consultant Interventional Gastroenterologist & Hepatologist, Advanced Therapeutic Endoscopist",
+      "registrationNumber": "TSMC/FMR/49190",
+      "profileImage": "https://picsum.photos/seed/picsum/500/400"
+    },
+    {
+      "name": "Dr Harsha Vardhan Reddy G",
+      "qualifications": "MD (Int. Med), DM (Med. Gastro)",
+      "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
+      "registrationNumber": "TSMC/FMR/14877",
+      "profileImage": "https://picsum.photos/seed/picsum/500/400"
+    },
+    {
+      "name": "Dr. Bhaskar Kante",
+      "qualifications": "MD (Int. Med), DM (Med. Gastro), Fellowship (IBD AIIMS)",
+      "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
+      "registrationNumber": "APMC/FMR/77039",
+      "profileImage": "https://picsum.photos/seed/picsum/500/400"
+    },
+    {
+      "name": "Dr Spoorthi Kolla",
+      "qualifications": "M.D (Int. Med), D.M (Med.Gastro)",
+      "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
+      "registrationNumber": "TSMC/FMR/79477",
+      "profileImage": "https://picsum.photos/seed/picsum/500/400"
+    },
+    {
+      "name": "Dr. Venu Gongati",
+      "qualifications": "MD (Int. Med), DM (Med. Gastro)",
+      "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
+      "registrationNumber": "APMC/FMR/80134",
+      "profileImage": "https://picsum.photos/seed/picsum/500/400"
+    },
+    {
+      "name": "Dr. Viswanath Kamisetty",
+      "qualifications": "MD (Int. Med), DM (Med. Gastro)",
+      "designation": "Consultant Gastroenterologist & Hepatologist",
+      "registrationNumber": "TSMC/FMR/09030",
+      "profileImage": "https://picsum.photos/seed/picsum/500/400"
+    },
+    {
+      "name": "Dr Harsha Vardhan Telaprolu",
+      "qualifications": "MD (JIPMER), DM (PIGMER, Chandigarh)",
+      "designation": "Consultant Gastroenterologist & Hepatologist, Interventional Endoscopist",
+      "registrationNumber": "TSMC/FMR/34378",
+        "profileImage": "https://picsum.photos/seed/picsum/500/400"
+    }
+  ]
+}
