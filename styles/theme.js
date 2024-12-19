@@ -1,5 +1,5 @@
 import { createTheme } from '@mui/material/styles';
-import "@fontsource/open-sans"; 
+import "@fontsource/open-sans";
 const theme = createTheme({
   palette: {
     primary: {
