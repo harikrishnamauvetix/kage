@@ -20,9 +20,14 @@ export default function Footer() {
         <Grid container spacing={4} justifyContent="space-between">
           {/* Column 1: Company Info */}
           <Grid item xs={12} sm={4}>
-            <Typography variant="h6" gutterBottom>
-              Company Name
-            </Typography>
+          <Box sx={{ display: "block", alignItems: "center", gap: 1 }}>
+            <Box
+              component="img"
+              src="https://kage.co.in/assets/img/KAGE.jpg"
+              alt="Logo"
+              sx={{ height: 50 }}
+            />
+          </Box>
             <Typography variant="body2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod metus sit amet turpis ultrices, at faucibus nulla dignissim.
             </Typography>
