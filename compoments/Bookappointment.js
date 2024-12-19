@@ -1,12 +1,19 @@
-import React, { useState } from 'react';
-import { TextField, Button, Container, Box, Typography, Grid } from '@mui/material';
+import React, { useState } from "react";
+import {
+  TextField,
+  Button,
+  Container,
+  Box,
+  Typography,
+  Grid2,
+} from "@mui/material";
 
 export default function AppointmentForm() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [id, setId] = useState('');
-  const [department, setDepartment] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [id, setId] = useState("");
+  const [department, setDepartment] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -17,30 +24,32 @@ export default function AppointmentForm() {
     <div>
       <Box
         sx={{
-          position: 'sticky',
+          position: "sticky",
           bottom: 0,
-          backgroundColor: 'background.paper',
+          backgroundColor: "background.paper",
           padding: 2,
           boxShadow: 3,
           zIndex: 10,
-          width: '100%',
+          width: "100%",
         }}
       >
         <Container>
           <Typography variant="h6">Book an Appointment</Typography>
           <form onSubmit={handleSubmit}>
-            <Grid container spacing={2}>
-              <Grid item xs={12} md={2}>
+            <Grid2 container spacing={2}>
+              <Grid2 item xs={12} md={2}>
                 <TextField
                   fullWidth
                   label="Name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   margin="normal"
+                  defaultValue="Small"
+                   size="small"
                   required
                 />
-              </Grid>
-              <Grid item xs={12} md={2}>
+              </Grid2>
+              <Grid2 item xs={12} md={2}>
                 <TextField
                   fullWidth
                   label="Email"
@@ -48,30 +57,25 @@ export default function AppointmentForm() {
                   onChange={(e) => setEmail(e.target.value)}
                   margin="normal"
                   type="email"
+                  defaultValue="Small"
+                   size="small"
                   required
                 />
-              </Grid>
-              <Grid item xs={12} md={2}>
-                <TextField
-                  fullWidth
-                  label="ID"
-                  value={id}
-                  onChange={(e) => setId(e.target.value)}
-                  margin="normal"
-                  required
-                />
-              </Grid>
-              <Grid item xs={12} md={2}>
+              </Grid2>
+              
+              <Grid2 item xs={12} md={2}>
                 <TextField
                   fullWidth
                   label="Department"
                   value={department}
                   onChange={(e) => setDepartment(e.target.value)}
                   margin="normal"
+                  defaultValue="Small"
+                   size="small"
                   required
                 />
-              </Grid>
-              <Grid item xs={12} md={2}>
+              </Grid2>
+              <Grid2 item xs={12} md={2}>
                 <TextField
                   fullWidth
                   label="Phone Number"
@@ -79,21 +83,25 @@ export default function AppointmentForm() {
                   onChange={(e) => setPhoneNumber(e.target.value)}
                   margin="normal"
                   type="tel"
+                  defaultValue="Small"
+                   size="small"
                   required
                 />
-              </Grid>
-              <Grid item xs={12} md={2}>
+              </Grid2>
+              <Grid2 item xs={12} md={2}>
                 <Button
                   fullWidth
                   variant="contained"
                   color="primary"
                   type="submit"
-                  sx={{ marginTop: 2 }}
+                  sx={{
+                mt:2
+                  }}
                 >
                   Submit
                 </Button>
-              </Grid>
-            </Grid>
+              </Grid2>
+            </Grid2>
           </form>
         </Container>
       </Box>

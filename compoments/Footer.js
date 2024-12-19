@@ -28,9 +28,7 @@ export default function Footer() {
               sx={{ height: 50 }}
             />
           </Box>
-            <Typography variant="body2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod metus sit amet turpis ultrices, at faucibus nulla dignissim.
-            </Typography>
+            <Typography variant="body2">Welcome to KIMS Hospitals, your trusted destination for Endoscopic Treatment for Weight Loss in Hyderabad. We specialize in using cutting-edge techniques such as the Endo Stitch & Double Channel Olympus Endoscope to help you achieve your weight loss goals.     </Typography>
           </Grid>
 
           {/* Column 2: Links */}
@@ -74,7 +72,7 @@ export default function Footer() {
         {/* Footer Bottom */}
         <Box sx={{ marginTop: 4, textAlign: 'center' }}>
           <Typography variant="body2">
-            © {new Date().getFullYear()} Company Name. All rights reserved.
+            © {new Date().getFullYear()} KAGE. All rights reserved.
           </Typography>
         </Box>
       </Container>
