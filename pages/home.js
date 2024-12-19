@@ -8,7 +8,7 @@ import Intro from "@/compoments/Intro";
 import AboutUs from "@/compoments/About";
 import DoctorsList from "@/compoments/Doctorslist";
 import AppointmentForm from "@/compoments/Bookappointment";
-import Footer from "@/compoments/footer";
+import Footer from "@/compoments/Footer";
 
 const Home = () => {
   return (
