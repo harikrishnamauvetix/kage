@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Typography, Grid } from '@mui/material';
-import TestimonialCard from '../components/TestimonialCard';
+
 
 const Testimonials = () => {
   const testimonials = [
