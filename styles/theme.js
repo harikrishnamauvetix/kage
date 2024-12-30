@@ -2,6 +2,7 @@ import { createTheme } from '@mui/material/styles';
 import "@fontsource/open-sans";
 const theme = createTheme({
   palette: {
+    mode: 'light', 
     primary: {
       main: "#007cb0",
     },

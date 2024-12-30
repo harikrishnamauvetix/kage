@@ -1,5 +1,5 @@
 {
-  "bannerimage": [
+  "bannerImage": [
     {
       "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_10_1720786743.jpg"
     },
@@ -13,7 +13,7 @@
       "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_07_1720786814.jpg"
     }
   ],
-  "introimages": [
+  "introImages": [
     {
       "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_10_1720786743.jpg"
     },
@@ -27,49 +27,278 @@
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist, Advanced Therapeutic Endoscopist",
       "registrationNumber": "TSMC/FMR/49190",
-      "profileImage": "https://picsum.photos/seed/picsum/500/400"
+      "profileImage": "https://picsum.photos/seed/picsum/800/700",
+      "achievements": [
+        "Secured 1st rank in schooling from L.K.G. to 10th std",
+        "Stood 1st in the college during Intermediate Education",
+        "Secured 52nd rank in Medical Entrance in 1st attempt - 1995",
+        "Best outgoing student of the 1997 batch – Andhra Medical College",
+        "Secured 1st rank in NIMSET (MD Entrance) in 1st attempt - 2003",
+        "Secured 1st rank in All India PGI entrance for DM gastroenterology – 2008",
+        "'10' Gold Medals during Graduation in Andhra Medical College",
+        "Best poster award in small bowel section @ ISGCON 2010",
+        "JGH Travel award @ APDW 2011",
+        "Presidential Poster Award @ ACG 2011",
+        "Best Oral Paper @ ISGCON 2011",
+        "Best International Paper Award @ ACG 2012",
+        "Travel Award @ APDW 2012",
+        "Young Investigator Award @ APDW 2012",
+        "Poster of Distinction @ DDW 2013",
+        "Best Poster Award @ ISG 2013",
+        "Best Oral Paper (2nd Prize) @ ISG 2013"
+      ],
+      "publications": [
+        "Benign gastric outlet obstruction – spectrum and management. Tropical Gastroenterology 2011;32(4):259–266.",
+        "An Uncommon Cause of Dysphagia. Dysphagia. 2012 Mar;27(1):145-7.",
+        "Hepatic artery aneurysm: a rare presentation as cholangitis and portal hypertension. Gastrointest Endosc. 2012 Jan;75(1):190.",
+        "Lamotrigine Induced Vanishing Bile Duct Syndrome in a Child. J Pediatr Gastroenterol Nutr. 2012 Dec;55(6):e147-8.",
+        "Fluid replacement in acute pancreatitis. Nutritional Therapy & Metabolism 2012; 30(2);67-78.",
+        "Biliary stent with a tied suture! Gastrointest Endosc. 2012 Sep;76(3):669-71.",
+        "Celiac Disease Complicated By Lymphoma: A Case Report. Trop Gastroenterol. 2014 Jan-Mar;35(1):55-6.",
+        "Celiac disease presenting as recurrent pancreatitis and pseudocyst. JOP. 2012 Sep 10;13(5):533-5.",
+        "Prospective validation of 4-category classification of acute pancreatitis severity. Pancreas. 2013 Apr;42(3):392-6.",
+        "Dynamic nature of organ failure in severe acute pancreatitis. HPB (Oxford). 2013 Jul;15(7):523-8.",
+        "Biodegradable stents: truly biodegradable with good tissue harmony. Endoscopy. 2013 May;45 Suppl 2:E116-7.",
+        "Endoscopic ultrasound assisted etiological localization in acute pancreatitis. Endosc Ultrasound 2013;2:162-4.",
+        "Stents for benign and malignant esophageal strictures. Ann N Y Acad Sci. 2013 Oct;1300:119-43.",
+        "Implementation of the Asia-Pacific Guidelines of Obesity Classification on the APACHEO Scoring System. Dig Dis Sci. 2014 Jun;59(6):1316-21.",
+        "Hypotension in the First Week of Acute Pancreatitis and APACHE II Score Predict Development of Infected Pancreatic Necrosis. Dig Dis Sci. 2015 Feb;60(2):537-42.",
+        "Mega stents - New option for management of leaks following laparoscopic sleeve gastrectomy. Endoscopy. 2014;46 Suppl 1 UCTN:E49-50.",
+        "Role of 13NH3 PET/CT in delineating pancreatic necrosis in acute pancreatitis. Pancreatology. 2014 May-Jun;14(3):154-8.",
+        "Utility of narrow band imaging in predicting histology in celiac disease. Indian J Gastroenterol. 2020 Aug;39(4):370-376.",
+        "Pancreatic fluid collections: What is the ideal imaging technique? World J Gastroenterol. 2015 Dec 28;21(48):13403-10."
+      ],
+      "awards": [
+        " VAIDYA RATNA AWARD in Sankranti Puraskar 2015 by Suman Art Theaters for services rendered in the field of gastroenterology ",
+        "NATIONAL ITEGRATION AWARD on the eve of republic day 2015 for services rendered in the field of gastroenterology "
+      ],
+      "patientTestimonials": [
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Bob Johnson",
+          "testimonial": "I highly recommend Dr. Sreekanth for his expertise and kindness.",
+          "rating": 4.9
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        }
+      ],
+      "gallery": [
+        {
+          "image": "https://example.com/gallery1.jpg",
+          "caption": "Dr. Appasani receiving an award for his research work."
+        },
+        {
+          "image": "https://example.com/gallery2.jpg",
+          "caption": "Speaking at an international medical conference."
+        },
+        {
+          "image": "https://example.com/gallery3.jpg",
+          "caption": "During a live endoscopy workshop."
+        }
+      ]
     },
     {
       "name": "Dr Harsha Vardhan Reddy G",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
       "registrationNumber": "TSMC/FMR/14877",
-      "profileImage": "https://picsum.photos/seed/picsum/500/400"
+      "profileImage": "https://picsum.photos/seed/picsum/800/700"
     },
     {
       "name": "Dr. Bhaskar Kante",
       "qualifications": "MD (Int. Med), DM (Med. Gastro), Fellowship (IBD AIIMS)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
       "registrationNumber": "APMC/FMR/77039",
-      "profileImage": "https://picsum.photos/seed/picsum/500/400"
+      "profileImage": "https://picsum.photos/seed/picsum/800/700"
     },
     {
       "name": "Dr Spoorthi Kolla",
       "qualifications": "M.D (Int. Med), D.M (Med.Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
       "registrationNumber": "TSMC/FMR/79477",
-      "profileImage": "https://picsum.photos/seed/picsum/500/400"
+      "profileImage": "https://picsum.photos/seed/picsum/800/700"
     },
     {
       "name": "Dr. Venu Gongati",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
       "registrationNumber": "APMC/FMR/80134",
-      "profileImage": "https://picsum.photos/seed/picsum/500/400"
+      "profileImage": "https://picsum.photos/seed/picsum/800/700"
     },
     {
       "name": "Dr. Viswanath Kamisetty",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Gastroenterologist & Hepatologist",
       "registrationNumber": "TSMC/FMR/09030",
-      "profileImage": "https://picsum.photos/seed/picsum/500/400"
+      "profileImage": "https://picsum.photos/seed/picsum/800/700"
     },
     {
       "name": "Dr Harsha Vardhan Telaprolu",
       "qualifications": "MD (JIPMER), DM (PIGMER, Chandigarh)",
       "designation": "Consultant Gastroenterologist & Hepatologist, Interventional Endoscopist",
       "registrationNumber": "TSMC/FMR/34378",
-        "profileImage": "https://picsum.photos/seed/picsum/500/400"
+      "profileImage": "https://picsum.photos/seed/picsum/800/700"
+    }
+  ],
+  "items": [
+    {
+      "icon": "SettingsSuggestRoundedIcon",
+      "title": "POEM (Peroral Endoscopic Myotomy)",
+      "description": "Our product effortlessly adjusts to your needs, boosting efficiency and simplifying your tasks."
+    },
+    {
+      "icon": "ConstructionRoundedIcon",
+      "title": "EMR (Endoscopic Mucosal Resection)",
+      "description": "Experience unmatched durability that goes above and beyond with lasting investment."
+    },
+    {
+      "icon": "ThumbUpAltRoundedIcon",
+      "title": "ESD (Endoscopic Submucosal Dissection)",
+      "description": "Integrate our product into your routine with an intuitive and easy-to-use interface."
+    },
+    {
+      "icon": "AutoFixHighRoundedIcon",
+      "title": "STER (Submucosal Tunneling Endoscopic Resection)",
+      "description": "Stay ahead with features that set new standards, addressing your evolving needs better than the rest."
+    },
+    {
+      "icon": "HealingRoundedIcon",
+      "title": "ARMA (Anti-reflux Mucosal Ablation)",
+      "description": "A cutting-edge solution for reflux management with long-term relief."
+    },
+    {
+      "icon": "LocalHospitalRoundedIcon",
+      "title": "GERDx (Anti-Reflux Mucosal Ablation Therapy)",
+      "description": "Effective anti-reflux therapy designed to provide relief and improve patient outcomes."
+    },
+    {
+      "icon": "MedicalServicesRoundedIcon",
+      "title": "FTRD (Full-Thickness Resection Device)",
+      "description": "Innovative technology for precise tissue resection and minimal complications."
+    },
+    {
+      "icon": "ImportantDevicesRoundedIcon",
+      "title": "EUS- Biliary Drainage",
+      "description": "Advanced procedure for biliary drainage using Endoscopic Ultrasound."
+    },
+    {
+      "icon": "EmergencyRoundedIcon",
+      "title": "EUS- GJ (Gastrojejunostomy)",
+      "description": "A minimally invasive approach to treating obstructed gastric bypasses."
+    },
+    {
+      "icon": "SettingsSuggestRoundedIcon",
+      "title": "EUS- RF Ablation",
+      "description": "Revolutionary treatment option using radiofrequency for enhanced therapeutic results."
+    },
+    {
+      "icon": "HelpRoundedIcon",
+      "title": "EUS Cystogastrostomy",
+      "description": "Endoscopic ultrasound-assisted technique for drainage of pancreatic cysts."
+    },
+    {
+      "icon": "MedicalServicesRoundedIcon",
+      "title": "Endoscopic Necrosectomy",
+      "description": "Minimally invasive procedure for managing pancreatic necrosis."
+    },
+    {
+      "icon": "HealthAndSafetyRoundedIcon",
+      "title": "ERCP- Endoscopic Retrograde Cholangiopancreatography",
+      "description": "A diagnostic and therapeutic procedure to treat biliary and pancreatic disorders."
+    },
+    {
+      "icon": "FitnessCenterRoundedIcon",
+      "title": "Bariatric Endoscopy- ESG (Endoscopic Sleeve Gastrectomy)",
+      "description": "A minimally invasive bariatric procedure for weight loss."
+    },
+    {
+      "icon": "AccessibilityRoundedIcon",
+      "title": "Biofeedback",
+      "description": "A non-invasive approach to managing stress and improving overall health."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Jane Doe",
+      "location": "Chicago, IL",
+      "text": "The Infinite Social kickstarted the next stage of my life. I used to be too afraid to start conversations with new people.",
+      "avatar": "https://via.placeholder.com/150",
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "location": "New York, NY",
+      "text": "Joining The Infinite Social transformed my ability to network and connect with others. It gave me the tools and confidence.",
+      "avatar": "https://via.placeholder.com/150",
+      "rating": 4
+    }
+  ],
+  "services":[
+    {
+      "id": 1,
+      "title": "IBD Clinic",
+      "description": "Clinic for Inflammatory Bowel Disease",
+      "icon": "clinic"
+    },
+    {
+      "id": 2,
+      "title": "Pancreas Clinic",
+      "description": "Clinic for Pancreatic disorders",
+      "icon": "local_hospital"
+    },
+    {
+      "id": 3,
+      "title": "Obesity Clinic",
+      "description": "Clinic for Obesity and related health issues",
+      "icon": "fitness_center"
+    },
+    {
+      "id": 4,
+      "title": "Corrosive Injury Clinic",
+      "description": "Clinic for treatment of corrosive injuries",
+      "icon": "healing"
+    },
+    {
+      "id": 5,
+      "title": "Advanced Endoscopy Clinic",
+      "description": "Clinic specializing in advanced endoscopic procedures",
+      "icon": "medical_services"
+    },
+    {
+      "id": 6,
+      "title": "Advanced Motility Clinic",
+      "description": "Clinic focusing on gastrointestinal motility disorders",
+      "icon": "tune"
+    },
+    {
+      "id": 7,
+      "title": "Advanced Liver Care and Transplant Clinic",
+      "description": "Specialized care for liver diseases and transplantation",
+      "icon": "liver"
     }
   ]
 }

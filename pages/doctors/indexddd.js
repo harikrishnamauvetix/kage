@@ -1,33 +1,16 @@
 import React from "react";
-import {
-  Box,
-  Container,
-  Typography,
-  Divider,
-  Card,
-  CardContent,
-  Icon,
-  Grid2,
-  CardMedia,
-  Button,
-  Stack,
-  Rating,
-  Avatar,
-  Grid 
-} from "@mui/material";
-
-import SendIcon from "@mui/icons-material/Send";
-
+import { Container, Grid } from "@mui/material";
+import websiteJson from "../../public/website.json";
 import Link from "next/link";
 
-const DoctorsList = () => {
+const Doctors = () => {
   return (
-    <>
+    <Container>
       {websiteJson.doctorsList.map((doctor) => (
         <div key={doctor.id}>
           <Card sx={{ maxWidth: "100%", mx: "auto", height: "500px" }}>
             <Link
-              href={`/doctor/${doctor.name.replace(/\s+/g, "-").toLowerCase()}`}
+              href={`doctor.id}`}
               passHref
             >
               <CardMedia
@@ -37,6 +20,7 @@ const DoctorsList = () => {
                 alt={doctor.name}
               />
             </Link>
+
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
                 {doctor.name}
@@ -58,8 +42,8 @@ const DoctorsList = () => {
           </Card>
         </div>
       ))}
-    </>
+    </Container>
   );
 };
 
-export default DoctorsList;
+export default Doctors;
