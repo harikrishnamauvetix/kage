@@ -3,7 +3,8 @@ import { Container, Typography, Box } from '@mui/material';
 
 const About = () => {
   return (
-
+<>
+</>
   );
 };
 
