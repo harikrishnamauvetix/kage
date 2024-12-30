@@ -14,11 +14,7 @@ const Testimonials = () => {
         Patient Testimonials
       </Typography>
       <Grid container spacing={3}>
-        {testimonials.map((testimonial) => (
-          <Grid item xs={12} sm={6} md={4} key={testimonial.id}>
-            <TestimonialCard testimonial={testimonial} />
-          </Grid>
-        ))}
+      <p>test</p>
       </Grid>
     </Container>
   );
