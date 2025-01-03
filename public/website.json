@@ -255,6 +255,22 @@
       "text": "Joining The Infinite Social transformed my ability to network and connect with others. It gave me the tools and confidence.",
       "avatar": "https://via.placeholder.com/150",
       "rating": 4
+    },
+    {
+      "id": 3,
+      "name": "Jane Doe",
+      "location": "Chicago, IL",
+      "text": "The Infinite Social kickstarted the next stage of my life. I used to be too afraid to start conversations with new people.",
+      "avatar": "https://via.placeholder.com/150",
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "name": "John Smith",
+      "location": "New York, NY",
+      "text": "Joining The Infinite Social transformed my ability to network and connect with others. It gave me the tools and confidence.",
+      "avatar": "https://via.placeholder.com/150",
+      "rating": 4
     }
   ],
   "services":[

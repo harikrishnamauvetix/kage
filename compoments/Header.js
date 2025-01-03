@@ -7,14 +7,22 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
-import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import Drawer from "@mui/material/Drawer";
+import IconButton from "@mui/material/IconButton";
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
 import MailIcon from "@mui/icons-material/Mail";
 import PhoneIcon from "@mui/icons-material/Phone";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import { useTheme } from "@mui/material/styles";
 
 const Navbar = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [activeMenu, setActiveMenu] = React.useState(null);
+  const [drawerOpen, setDrawerOpen] = React.useState(false);
+
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   const handleMenuOpen = (event, menuName) => {
     setAnchorEl(event.currentTarget);
@@ -26,47 +34,27 @@ const Navbar = () => {
     setActiveMenu(null);
   };
 
-  const navItems = [
-    {
-      label: "About us",
-    },
-    {
-      label: "Doctors",
-    },
-    {
-      label: "Patient Testimonials",
-    },
-    {
-      label: "Doctor Videos",
-    },
-    {
-      label: "Health Blogs",
-    },
-    {
-      label: "News & Events",
-    },
-    {
-      label: "Contact us",
-    },
-    // {
-    //   label: "Paediatrics",
-    //   subItems: [
-    //     { label: "Paediatrics Services", href: "/services/web-development" },
+  const toggleDrawer = (open) => () => {
+    setDrawerOpen(open);
+  };
 
-    //   ],
-    // },
+  const navItems = [
+    { label: "About us",href:"#" },
+    { label: "Doctors" ,href:"doctors"},
+    { label: "Patient Testimonials",href:"testimonials" },
+    { label: "Doctor Videos" ,href:"doctorvideos"},
+    { label: "Health Blogs",href:"blogs" },
+    { label: "News & Events" },
+    { label: "Contact us" },
   ];
 
   return (
     <>
       {/* Top Navbar */}
-      <div
-        position="static" 
-        sx={{ backgroundColor: "white", boxShadow: "none" }}
-      >
+      <Box sx={{ backgroundColor: "white", boxShadow: "none" }}>
         <Toolbar sx={{ justifyContent: "space-between", padding: "0 2rem" }}>
           {/* Logo Section */}
-          <Box sx={{ display: "block", alignItems: "center", gap: 1 }}>
+          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
             <Box
               component="img"
               src="https://kage.co.in/assets/img/KAGE.jpg"
@@ -75,67 +63,111 @@ const Navbar = () => {
             />
           </Box>
 
-          <Box sx={{ display: "block", gap: 3 }}>
-            {/* Contact Info and Navigation Links */}
-            <Box sx={{ display: "block", alignItems: "center", gap: 4 }}>
+          {!isMobile && (
+            <Box sx={{ display: "flex", alignItems: "center", gap: 4 }}>
               {/* Contact Info */}
               <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                 <MailIcon sx={{ color: "primary.main" }} />
                 <Typography variant="body2" sx={{ color: "black" }}>
                   hello@kimscuddles.com
                 </Typography>
-                <PhoneIcon sx={{color:"primary.main" }} />
-                <Typography
-                  variant="body2"
-                  sx={{color: "black"  }}
-                >
+                <PhoneIcon sx={{ color: "primary.main" }} />
+                <Typography variant="body2" sx={{ color: "black" }}>
                   Call: 040 4488 5333
                 </Typography>
               </Box>
             </Box>
-          </Box>
+          )}
         </Toolbar>
-      </div>
+      </Box>
 
       {/* Sticky Navbar */}
       <AppBar position="sticky" color="primary" sx={{ top: 0, zIndex: 1200 }}>
-
         <Toolbar>
-          <Box sx={{ display: "flex", gap: 2 }}>
-            {navItems.map((item, index) => (
-              <Box
-                key={index}
-                onMouseEnter={(e) => item.subItems && handleMenuOpen(e, index)}
-                onMouseLeave={handleMenuClose}
+          {isMobile ? (
+            <>
+            <Box>
+            
+            <IconButton
+                color="inherit"
+                edge="start"
+                onClick={toggleDrawer(true)}
               >
-                <Button color="inherit" href={item.href}>
-                  {item.label}
-                </Button>
-                {item.subItems && (
-                  <Menu
-                    anchorEl={anchorEl}
-                    open={activeMenu === index}
-                    onClose={handleMenuClose}
-                    MenuListProps={{
-                      onMouseEnter: () => setActiveMenu(index),
-                      onMouseLeave: handleMenuClose,
+                <MenuIcon />
+              </IconButton>
+            </Box>
+        
+              <Drawer
+                anchor="left"
+                open={drawerOpen}
+                onClose={toggleDrawer(false)}
+              >
+                <Box
+                  sx={{ width: 250 }}
+                  role="presentation"
+                  onClick={toggleDrawer(false)}
+                  onKeyDown={toggleDrawer(false)}
+                >
+                  <Box
+                    sx={{
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      p: 2,
                     }}
                   >
-                    {item.subItems.map((subItem, subIndex) => (
-                      <MenuItem
-                        key={subIndex}
-                        onClick={handleMenuClose}
-                        component="a"
-                        href={subItem.href}
-                      >
-                        {subItem.label}
-                      </MenuItem>
-                    ))}
-                  </Menu>
-                )}
-              </Box>
-            ))}
-          </Box>
+                 
+                    <IconButton onClick={toggleDrawer(false)}>
+                      <CloseIcon />
+                    </IconButton>
+                  </Box>
+                  {navItems.map((item, index) => (
+                    <MenuItem key={index} component="a" href={item.href}>
+                      {item.label}
+                    </MenuItem>
+                  ))}
+                </Box>
+              </Drawer>
+            </>
+          ) : (
+            <Box sx={{ display: "flex", gap: 2 }}>
+              {navItems.map((item, index) => (
+                <Box
+                  key={index}
+                  onMouseEnter={(e) =>
+                    item.subItems && handleMenuOpen(e, index)
+                  }
+                  onMouseLeave={handleMenuClose}
+                >
+                  <Button color="inherit" href={item.href}>
+                    {item.label}
+                  </Button>
+                  {item.subItems && (
+                    <Menu
+                      anchorEl={anchorEl}
+                      open={activeMenu === index}
+                      onClose={handleMenuClose}
+                      MenuListProps={{
+                        onMouseEnter: () => setActiveMenu(index),
+                        onMouseLeave: handleMenuClose,
+                      }}
+                    >
+                      {item.subItems.map((subItem, subIndex) => (
+                        <MenuItem
+                          key={subIndex}
+                          onClick={handleMenuClose}
+                          component="a"
+                          href={subItem.href}
+                        >
+                          {subItem.label}
+                        </MenuItem>
+                      ))}
+                    </Menu>
+                  )}
+                </Box>
+              ))}
+            </Box>
+          )}
         </Toolbar>
       </AppBar>
     </>

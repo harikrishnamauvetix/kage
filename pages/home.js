@@ -13,7 +13,7 @@ import {
   Stack,
   Rating,
   Avatar,
-  Grid 
+  Grid,
 } from "@mui/material";
 import Header from "../compoments/Header";
 
@@ -35,8 +35,6 @@ import SupportAgentRoundedIcon from "@mui/icons-material/SupportAgentRounded";
 import ThumbUpAltRoundedIcon from "@mui/icons-material/ThumbUpAltRounded";
 // Import Swiper styles
 import "swiper/css";
-
-
 
 const Home = () => {
   return (
@@ -143,6 +141,7 @@ const Home = () => {
                 sx={{
                   textTransform: "none",
                   backgroundColor: "#fff",
+                  color: "primary.main",
                   "&:hover": {
                     backgroundColor: "primary.main",
                     color: "#fff",
@@ -226,28 +225,26 @@ const Home = () => {
         <Box sx={{ py: 5, px: 3, position: "relative" }}>
           {/* Background Shades */}
 
-          <Grid  container spacing={3} alignItems="center">
+          <Grid container spacing={3} alignItems="center">
             {/* Image Section */}
-            <Grid  item xs={12} sm={6} md={6} xl={6}>
+            <Grid item xs={12} sm={6} md={6} xl={6}>
               <Box
                 sx={{
                   position: "relative",
-                width:"100%",
+                  width: "100%",
                   borderRadius: "16px",
                   overflow: "hidden",
-                
                 }}
               >
                 <img
                   src="https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_10_1720786743.jpg" // Replace with the actual image URL
                   alt="KIMS Hospital"
-                 
                 />
               </Box>
-           </Grid>
+            </Grid>
 
             {/* Text Section */}
-            <Grid  item xs={12} sm={6} md={6} xl={6}>
+            <Grid item xs={12} sm={6} md={6} xl={6}>
               <Typography
                 variant="h4"
                 sx={{
@@ -281,8 +278,8 @@ const Home = () => {
                 already a mother, our team is here to provide you with the best
                 care and guidance.
               </Typography>
-           </Grid>
-         </Grid>
+            </Grid>
+          </Grid>
         </Box>
         <Stack sx={{ backgroundColor: "background.default", py: 5, px: 3 }}>
           <Container>
@@ -314,17 +311,19 @@ const Home = () => {
               {websiteJson.doctorsList.map((doctor) => (
                 <SwiperSlide key={doctor.id}>
                   <Card sx={{ maxWidth: "100%", mx: "auto", height: "500px" }}>
-                  <Link
-              href={`/doctors/${doctor.name.replace(/\s+/g, "-").toLowerCase()}`}
-              passHref
-            >
-              <CardMedia
-                component="img"
-                height="270"
-                image={doctor.profileImage}
-                alt={doctor.name}
-              />
-            </Link>
+                    <Link
+                      href={`/doctors/${doctor.name
+                        .replace(/\s+/g, "-")
+                        .toLowerCase()}`}
+                      passHref
+                    >
+                      <CardMedia
+                        component="img"
+                        height="270"
+                        image={doctor.profileImage}
+                        alt={doctor.name}
+                      />
+                    </Link>
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
                         {doctor.name}
@@ -377,9 +376,9 @@ const Home = () => {
                   Procedures
                 </Typography>
               </Box>
-              <Grid2  container spacing={2}>
+              <Grid2 container spacing={2}>
                 {websiteJson.items.slice(0, 6).map((item, index) => (
-                  <Grid2  size={{ xs: 12, sm: 6, md: 4 }} key={index}>
+                  <Grid2 size={{ xs: 12, sm: 6, md: 4 }} key={index}>
                     <Stack
                       direction="column"
                       component={Card}
@@ -397,20 +396,28 @@ const Home = () => {
                         {item.icon}
                       </Box>
                       <div>
-                        <Typography
-                          gutterBottom
-                          sx={{ fontWeight: "bold", color: "primary.main" }}
+                        <Link
+                          href={`/procedures/${item.title
+                            .replace(/\s+/g, "-")
+                            .toLowerCase()}`}
+                          passHref
                         >
-                          {item.title}
-                        </Typography>
+                          <Typography
+                            gutterBottom
+                            sx={{ fontWeight: "bold", color: "primary.main" }}
+                          >
+                            {item.title}
+                          </Typography>
+                        </Link>
+
                         <Typography variant="body2" sx={{ color: "black" }}>
                           {item.description}
                         </Typography>
                       </div>
                     </Stack>
-                 </Grid2>
+                  </Grid2>
                 ))}
-             </Grid2>
+              </Grid2>
             </Container>
           </Box>
           <Stack sx={{ backgroundColor: "background.default", py: 5, px: 3 }}>
@@ -427,9 +434,9 @@ const Home = () => {
                   Our Equipments
                 </Typography>
 
-                <Grid2  container spacing={4}>
+                <Grid2 container spacing={4}>
                   {/* Sample Equipment 1 */}
-                  <Grid2  item xs={12} sm={6} md={4} xl={4}>
+                  <Grid2 item xs={12} sm={6} md={4} xl={4}>
                     <Card>
                       <CardMedia
                         component="img"
@@ -444,9 +451,9 @@ const Home = () => {
                         </Typography>
                       </CardContent>
                     </Card>
-                 </Grid2>
+                  </Grid2>
                   {/* Sample Equipment 2 */}
-                  <Grid2  item xs={12} sm={6} md={4} xl={4}>
+                  <Grid2 item xs={12} sm={6} md={4} xl={4}>
                     <Card>
                       <CardMedia
                         component="img"
@@ -461,8 +468,8 @@ const Home = () => {
                         </Typography>
                       </CardContent>
                     </Card>
-                 </Grid2>
-                  <Grid2  item xs={12} sm={6} md={4} xl={4}>
+                  </Grid2>
+                  <Grid2 item xs={12} sm={6} md={4} xl={4}>
                     <Card>
                       <CardMedia
                         component="img"
@@ -477,8 +484,8 @@ const Home = () => {
                         </Typography>
                       </CardContent>
                     </Card>
-                 </Grid2>
-                  <Grid2  item xs={12} sm={6} md={4} xl={4}>
+                  </Grid2>
+                  <Grid2 item xs={12} sm={6} md={4} xl={4}>
                     <Card>
                       <CardMedia
                         component="img"
@@ -493,8 +500,8 @@ const Home = () => {
                         </Typography>
                       </CardContent>
                     </Card>
-                 </Grid2>
-               </Grid2>
+                  </Grid2>
+                </Grid2>
               </Box>
             </Container>
           </Stack>
@@ -619,9 +626,9 @@ const Home = () => {
                 </Typography>
                 {/* Doctor Videos Section */}
                 <Box>
-                  <Grid  container spacing={4}>
+                  <Grid container spacing={4}>
                     {/* Sample Doctor Video 1 */}
-                    <Grid  item xs={12} sm={6} md={4} xl={4}>
+                    <Grid item xs={12} sm={6} md={4} xl={4}>
                       <Card>
                         <CardMedia
                           component="iframe"
@@ -637,9 +644,9 @@ const Home = () => {
                           </Typography>
                         </CardContent>
                       </Card>
-                   </Grid>
+                    </Grid>
                     {/* Sample Doctor Video 2 */}
-                    <Grid  item xs={12} sm={6} md={4} xl={4}>
+                    <Grid item xs={12} sm={6} md={4} xl={4}>
                       <Card>
                         <CardMedia
                           component="iframe"
@@ -655,8 +662,8 @@ const Home = () => {
                           </Typography>
                         </CardContent>
                       </Card>
-                   </Grid>
-                    <Grid  item xs={12} sm={6} md={4} xl={4}>
+                    </Grid>
+                    <Grid item xs={12} sm={6} md={4} xl={4}>
                       <Card>
                         <CardMedia
                           component="iframe"
@@ -672,10 +679,10 @@ const Home = () => {
                           </Typography>
                         </CardContent>
                       </Card>
-                   </Grid>
+                    </Grid>
 
                     {/* Add more Doctor videos as needed */}
-                 </Grid>
+                  </Grid>
                 </Box>
               </Box>
             </Container>
