@@ -18,17 +18,6 @@ const theme = createTheme({
       primary: "#000",  // Primary text color in light mode
       secondary: "#555", // Secondary text color
     },
-    // Dark mode customizations
-    ...(mode === 'dark' && {
-      background: {
-        default: "#000", // Set background to black in dark mode
-        paper: "#333",    // Paper background darker in dark mode
-      },
-      text: {
-        primary: "#fff",  // Text color becomes white in dark mode
-        secondary: "#ccc", // Secondary text lighter in dark mode
-      },
-    }),
   },
   typography: {
     fontFamily: "Open Sans, sans-serif", // Font remains consistent
@@ -36,12 +25,9 @@ const theme = createTheme({
   components: {
     MuiPaper: {
       styleOverrides: {
-        root: {
-          backgroundColor: "#fff", // Paper component background in light mode
-          ...(mode === 'dark' && {
-            backgroundColor: "#fff", // Paper background darker in dark mode
-          }),
-        },
+        root: ({ theme }) => ({
+          backgroundColor: theme.palette.mode === 'dark' ? '#333' : '#fff', // Adjust for dark mode
+        }),
       },
     },
     MuiButton: {
