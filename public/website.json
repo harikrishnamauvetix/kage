@@ -21,6 +21,17 @@
       "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_01_1_1683635455.jpg"
     }
   ],
+  "home_intro": [
+    {
+      "description": "Welcome to KIMS Advanced Gastroenterology & Endoscopy - KAGE – KIMS Advanced Gastreroenterology & Endoscopy Clinic For Hyderabad’s Leading Center for Advanced Gastroenterology and Digestive Care."
+    },
+    {
+      "description2": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we bring together innovation, expertise, and compassion to address complex gastrointestinal and liver disorders. With specialized clinics and cutting-edge facilities, we are dedicated to redefining healthcare standards in Medical and Surgical Gastroenterology, Advanced Endoscopy, and Hepatology."
+    },
+    {
+      "description3": "With a state-of-the-art Endoscopy Unit and a dedicated team of specialists, KIMS Advanced Gastroenterology & Endoscopy - KAGE ensures precise diagnostics, minimally invasive therapies, and superior outcomes. Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for advanced care in Gastrointestinal Diseases, Liver Disorders, and beyond."
+    }
+  ],
   "doctorsList": [
     {
       "name": "Dr Sreekanth Appasani",
@@ -162,83 +173,6 @@
       "profileImage": "https://picsum.photos/seed/picsum/800/700"
     }
   ],
-  "items": [
-    {
-      "icon": "SettingsSuggestRoundedIcon",
-      "title": "POEM (Peroral Endoscopic Myotomy)",
-      "description": "Our product effortlessly adjusts to your needs, boosting efficiency and simplifying your tasks."
-    },
-    {
-      "icon": "ConstructionRoundedIcon",
-      "title": "EMR (Endoscopic Mucosal Resection)",
-      "description": "Experience unmatched durability that goes above and beyond with lasting investment."
-    },
-    {
-      "icon": "ThumbUpAltRoundedIcon",
-      "title": "ESD (Endoscopic Submucosal Dissection)",
-      "description": "Integrate our product into your routine with an intuitive and easy-to-use interface."
-    },
-    {
-      "icon": "AutoFixHighRoundedIcon",
-      "title": "STER (Submucosal Tunneling Endoscopic Resection)",
-      "description": "Stay ahead with features that set new standards, addressing your evolving needs better than the rest."
-    },
-    {
-      "icon": "HealingRoundedIcon",
-      "title": "ARMA (Anti-reflux Mucosal Ablation)",
-      "description": "A cutting-edge solution for reflux management with long-term relief."
-    },
-    {
-      "icon": "LocalHospitalRoundedIcon",
-      "title": "GERDx (Anti-Reflux Mucosal Ablation Therapy)",
-      "description": "Effective anti-reflux therapy designed to provide relief and improve patient outcomes."
-    },
-    {
-      "icon": "MedicalServicesRoundedIcon",
-      "title": "FTRD (Full-Thickness Resection Device)",
-      "description": "Innovative technology for precise tissue resection and minimal complications."
-    },
-    {
-      "icon": "ImportantDevicesRoundedIcon",
-      "title": "EUS- Biliary Drainage",
-      "description": "Advanced procedure for biliary drainage using Endoscopic Ultrasound."
-    },
-    {
-      "icon": "EmergencyRoundedIcon",
-      "title": "EUS- GJ (Gastrojejunostomy)",
-      "description": "A minimally invasive approach to treating obstructed gastric bypasses."
-    },
-    {
-      "icon": "SettingsSuggestRoundedIcon",
-      "title": "EUS- RF Ablation",
-      "description": "Revolutionary treatment option using radiofrequency for enhanced therapeutic results."
-    },
-    {
-      "icon": "HelpRoundedIcon",
-      "title": "EUS Cystogastrostomy",
-      "description": "Endoscopic ultrasound-assisted technique for drainage of pancreatic cysts."
-    },
-    {
-      "icon": "MedicalServicesRoundedIcon",
-      "title": "Endoscopic Necrosectomy",
-      "description": "Minimally invasive procedure for managing pancreatic necrosis."
-    },
-    {
-      "icon": "HealthAndSafetyRoundedIcon",
-      "title": "ERCP- Endoscopic Retrograde Cholangiopancreatography",
-      "description": "A diagnostic and therapeutic procedure to treat biliary and pancreatic disorders."
-    },
-    {
-      "icon": "FitnessCenterRoundedIcon",
-      "title": "Bariatric Endoscopy- ESG (Endoscopic Sleeve Gastrectomy)",
-      "description": "A minimally invasive bariatric procedure for weight loss."
-    },
-    {
-      "icon": "AccessibilityRoundedIcon",
-      "title": "Biofeedback",
-      "description": "A non-invasive approach to managing stress and improving overall health."
-    }
-  ],
   "testimonials": [
     {
       "id": 1,
@@ -273,7 +207,174 @@
       "rating": 4
     }
   ],
-  "services":[
+  "items": [
+    {
+      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "title": "POEM (Peroral Endoscopic Myotomy)",
+      "subtitle": "Revolutionizing Treatment for Achalasia with Precision and Care",
+      "sections": [
+        {
+          "heading": "What is POEM?",
+          "content": "POEM (Peroral Endoscopic Myotomy) is a cutting-edge, minimally invasive procedure designed to treat Achalasia—a condition that affects the esophagus, making it difficult for food and liquids to pass into the stomach. Unlike traditional surgeries, POEM utilizes advanced endoscopic technology to offer a solution that is not only effective but also comes with a faster recovery time and reduced discomfort. At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we bring this innovative technique directly to our patients. We believe in harnessing the power of precision medicine to ensure that each patient experiences a smoother journey from diagnosis to recovery."
+        },
+        {
+          "heading": "How POEM Works",
+          "steps": [
+            {
+              "step": 1,
+              "title": "Accessing the Esophagus",
+              "description": "The procedure begins with a small incision in the inner lining of your esophagus, which is done using a flexible endoscope. This allows the surgeon to navigate without the need for large incisions or traditional surgery."
+            },
+            {
+              "step": 2,
+              "title": "Disrupting the Muscle",
+              "description": "The next step involves cutting the muscle fibers in the lower esophagus (the myotomy) to relieve the pressure that prevents food from moving into the stomach. This part of the procedure is performed with a high level of precision, targeting only the muscle layers that need to be addressed."
+            },
+            {
+              "step": 3,
+              "title": "Sealing the Incision",
+              "description": "After the muscle is divided, the small incision in the esophagus is carefully sealed to ensure minimal post-operative risk and faster healing."
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose POEM at KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
+          "benefits": [
+            "Minimally Invasive, Maximum Results: Say goodbye to the days of large surgical scars and long recovery times. With POEM, most patients can go home the same day or the day after, with a much faster recovery process than traditional surgery.",
+            "Tailored to You: At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we understand that every patient is unique. Our specialized team works with you to craft a treatment plan that’s tailored to your specific needs, ensuring a smooth, personalized experience.",
+            "Advanced Technology: We use the latest in medical technology to ensure that the procedure is done with precision, reducing the chances of complications and optimizing healing.",
+            "Compassionate Care: We’re not just a clinic—we’re a partner in your health journey. From the moment you walk in, we focus on providing care that’s compassionate, informative, and empowering."
+          ]
+        },
+        {
+          "heading": "Is POEM Right for You?",
+          "content": "If you're struggling with Achalasia and traditional treatments haven’t been effective, POEM might be the solution you've been searching for. Some signs you might be a candidate for POEM include:",
+          "symptoms": [
+            "Difficulty swallowing solid foods and liquids",
+            "Regurgitation of food",
+            "Chest pain or discomfort",
+            "Weight loss due to trouble eating",
+            "Reflux or heartburn"
+          ],
+          "content_2": "A comprehensive consultation at KIMS Advanced Gastroenterology & Endoscopy - KAGE with our expert gastroenterologists will help determine if POEM is the best treatment for your condition."
+        },
+        {
+          "heading": "What to Expect After POEM",
+          "recovery": [
+            {
+              "stage": "Immediate Recovery",
+              "description": "Most patients experience only mild discomfort post-procedure, and many return to normal activities within a few days. You'll be able to eat soft foods almost immediately and gradually transition to regular foods."
+            },
+            {
+              "stage": "Faster Healing",
+              "description": "Thanks to the precision of the technique, recovery is quicker than traditional surgery. With regular follow-up appointments, we ensure that your healing is progressing as it should."
+            },
+            {
+              "stage": "Long-Term Outcomes",
+              "description": "Most patients report significant improvements in swallowing and reduction in symptoms. The majority experience lasting relief, with minimal recurrence of symptoms over time."
+            }
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "faq": [
+            {
+              "question": "How long does the POEM procedure take?",
+              "answer": "POEM typically takes about 1.5 to 2 hours. The procedure is minimally invasive, so you won’t need to stay in the hospital for long."
+            },
+            {
+              "question": "Is POEM painful?",
+              "answer": "While there might be some discomfort immediately after the procedure, POEM is less painful than traditional surgery, and recovery time is faster. Most patients report only mild soreness or throat discomfort."
+            },
+            {
+              "question": "What is the recovery like?",
+              "answer": "You can usually go home the same day or the day after the procedure. Many patients return to normal activities within a week. A soft-food diet is recommended for a short period following the procedure."
+            },
+            {
+              "question": "Will POEM cure my Achalasia completely?",
+              "answer": "POEM is a highly effective treatment, and most patients experience complete or near-complete symptom relief. As with any procedure, outcomes may vary, and we’ll work with you to ensure the best possible result."
+            }
+          ]
+        },
+        {
+          "heading": "Experience the Future of Esophageal Care with POEM at KIMS Advanced Gastroenterology & Endoscopy - KAGE",
+          "content": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are committed to offering the most advanced treatments available, providing our patients with effective, minimally invasive solutions that significantly improve quality of life. If you or a loved one are dealing with Achalasia, POEM may be the transformative treatment you've been looking for. Let us guide you on the path to better health.",
+          "call_to_action": "Ready to take the next step? Contact KIMS Advanced Gastroenterology & Endoscopy - KAGE today to schedule your consultation and learn more about how POEM can help you reclaim your health."
+        }
+      ]
+    },
+    {
+      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "title": "EMR (Endoscopic Mucosal Resection)",
+      "description": "Experience unmatched durability that goes above and beyond with lasting investment."
+    },
+    {
+      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "title": "ESD (Endoscopic Submucosal Dissection)",
+      "description": "Integrate our product into your routine with an intuitive and easy-to-use interface."
+    },
+    {
+      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "title": "STER (Submucosal Tunneling Endoscopic Resection)",
+      "description": "Stay ahead with features that set new standards, addressing your evolving needs better than the rest."
+    },
+    {
+      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "title": "ARMA (Anti-reflux Mucosal Ablation)",
+      "description": "A cutting-edge solution for reflux management with long-term relief."
+    },
+    {
+      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "title": "GERDx (Anti-Reflux Mucosal Ablation Therapy)",
+      "description": "Effective anti-reflux therapy designed to provide relief and improve patient outcomes."
+    },
+    {
+      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "title": "FTRD (Full-Thickness Resection Device)",
+      "description": "Innovative technology for precise tissue resection and minimal complications."
+    },
+    {
+      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "title": "EUS- Biliary Drainage",
+      "description": "Advanced procedure for biliary drainage using Endoscopic Ultrasound."
+    },
+    {
+      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "title": "EUS- GJ (Gastrojejunostomy)",
+      "description": "A minimally invasive approach to treating obstructed gastric bypasses."
+    },
+    {
+      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "title": "EUS- RF Ablation",
+      "description": "Revolutionary treatment option using radiofrequency for enhanced therapeutic results."
+    },
+    {
+      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "title": "EUS Cystogastrostomy",
+      "description": "Endoscopic ultrasound-assisted technique for drainage of pancreatic cysts."
+    },
+    {
+      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "title": "Endoscopic Necrosectomy",
+      "description": "Minimally invasive procedure for managing pancreatic necrosis."
+    },
+    {
+      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "title": "ERCP- Endoscopic Retrograde Cholangiopancreatography",
+      "description": "A diagnostic and therapeutic procedure to treat biliary and pancreatic disorders."
+    },
+    {
+      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "title": "Bariatric Endoscopy- ESG (Endoscopic Sleeve Gastrectomy)",
+      "description": "A minimally invasive bariatric procedure for weight loss."
+    },
+    {
+      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "title": "Biofeedback",
+      "description": "A non-invasive approach to managing stress and improving overall health."
+    }
+  ],
+  "services": [
     {
       "id": 1,
       "title": "IBD Clinic",

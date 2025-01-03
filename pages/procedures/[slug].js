@@ -123,36 +123,95 @@ const Procedures = () => {
 
               <Box mt={2}>
                 <Typography>{procedures.description}</Typography>
-                <Typography>
-                  Nullam luctus ultricies tortor in tempus. Aenean condimentum,
-                  libero eget sodales bibendum, dolor metus sodales felis, vel
-                  egestas erat lacus ac sem. Maecenas ornare mauris non finibus
-                  dignissim. Etiam gravida vitae sem eu ultrices. Vestibulum
-                  eleifend facilisis nisl at rhoncus. Etiam dictum mi vel lectus
-                  consequat, vitae eleifend dolor egestas. In gravida imperdiet
-                  facilisis. Class aptent taciti sociosqu ad litora torquent per
-                  conubia nostra, per inceptos himenaeos. Proin quis ex ac ipsum
-                  pretium posuere sit amet non massa. Cras vel dolor luctus,
-                  varius neque nec, condimentum ligula. Donec sit amet dictum
-                  purus.
-                </Typography>
-                <Typography>
-                  Nullam luctus ultricies tortor in tempus. Aenean condimentum,
-                  libero eget sodales bibendum, dolor metus sodales felis, vel
-                  egestas erat lacus ac sem. Maecenas ornare mauris non finibus
-                  dignissim. Etiam gravida vitae sem eu ultrices. Vestibulum
-                  eleifend facilisis nisl at rhoncus. Etiam dictum mi vel lectus
-                  consequat, vitae eleifend dolor egestas. In gravida imperdiet
-                  facilisis. Class aptent taciti sociosqu ad litora torquent per
-                  conubia nostra, per inceptos himenaeos. Proin quis ex ac ipsum
-                  pretium posuere sit amet non massa. Cras vel dolor luctus,
-                  varius neque nec, condimentum ligula. Donec sit amet dictum
-                  purus.
-                </Typography>
+                <Typography variant="h5" gutterBottom>
+        {procedures.subtitle}
+      </Typography> 
+                
               </Box>
             </Grid>
           </Grid>
         </Container>
+        <Container>
+     
+     
+      {procedures.sections.map((section, idx) => (
+        <Box key={idx} sx={{ mb: 4 }}>
+          <Typography variant="h4" gutterBottom>
+            {section.heading}
+          </Typography>
+          {section.content && <Typography paragraph>{section.content}</Typography>}
+          
+          {section.steps && (
+            <List>
+              {section.steps.map((step, stepIdx) => (
+                <ListItem key={stepIdx}>
+                  <ListItemText 
+                    primary={`${step.step}. ${step.title}`} 
+                    secondary={step.description} 
+                  />
+                </ListItem>
+              ))}
+            </List>
+          )}
+
+          {section.benefits && (
+            <List>
+              {section.benefits.map((benefit, benefitIdx) => (
+                <ListItem key={benefitIdx}>
+                  <ListItemText primary={benefit} />
+                </ListItem>
+              ))}
+            </List>
+          )}
+
+          {section.symptoms && (
+            <List>
+              {section.symptoms.map((symptom, symptomIdx) => (
+                <ListItem key={symptomIdx}>
+                  <ListItemText primary={symptom} />
+                </ListItem>
+              ))}
+            </List>
+          )}
+
+          {section.recovery && (
+            <Grid container spacing={2}>
+              {section.recovery.map((recoveryStage, recoveryIdx) => (
+                <Grid item xs={12} md={4} key={recoveryIdx}>
+                  <Card>
+                    <CardContent>
+                      <Typography variant="h6">{recoveryStage.stage}</Typography>
+                      <Typography>{recoveryStage.description}</Typography>
+                    </CardContent>
+                  </Card>
+                </Grid>
+              ))}
+            </Grid>
+          )}
+
+          {section.faq && (
+            <List>
+              {section.faq.map((faq, faqIdx) => (
+                <ListItem key={faqIdx}>
+                  <ListItemText 
+                    primary={faq.question} 
+                    secondary={faq.answer} 
+                  />
+                </ListItem>
+              ))}
+            </List>
+          )}
+
+          {section.content_2 && <Typography paragraph>{section.content_2}</Typography>}
+        </Box>
+      ))}
+
+      <Box sx={{ mt: 4 }}>
+        <Typography variant="h5" gutterBottom>
+          {procedures.sections[procedures.sections.length - 1].call_to_action}
+        </Typography>
+      </Box>
+    </Container>
       </Box>
 
       <Footer></Footer>

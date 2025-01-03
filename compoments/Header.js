@@ -1,4 +1,3 @@
-// components/Navbar.js
 import React from "react";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
@@ -15,11 +14,12 @@ import MailIcon from "@mui/icons-material/Mail";
 import PhoneIcon from "@mui/icons-material/Phone";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-
+import Link from 'next/link';
 const Navbar = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [activeMenu, setActiveMenu] = React.useState(null);
   const [drawerOpen, setDrawerOpen] = React.useState(false);
+  const [activeSubMenu, setActiveSubMenu] = React.useState(null); // New state for subSubItems
 
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
@@ -29,9 +29,14 @@ const Navbar = () => {
     setActiveMenu(menuName);
   };
 
+  const handleSubMenuOpen = (event, index, subIndex) => {
+    setActiveSubMenu(`${index}-${subIndex}`);
+  };
+
   const handleMenuClose = () => {
     setAnchorEl(null);
     setActiveMenu(null);
+    setActiveSubMenu(null);
   };
 
   const toggleDrawer = (open) => () => {
@@ -39,11 +44,16 @@ const Navbar = () => {
   };
 
   const navItems = [
-    { label: "About us",href:"#" },
-    { label: "Doctors" ,href:"doctors"},
-    { label: "Patient Testimonials",href:"testimonials" },
-    { label: "Doctor Videos" ,href:"doctorvideos"},
-    { label: "Health Blogs",href:"blogs" },
+    { label: "About us", href: "#" },
+    { label: "Doctors", href: "/doctors" },
+    {
+      label: "Speciality",
+      href: "Services",
+     
+    },
+    { label: "Patient Testimonials", href: "testimonials" },
+    { label: "Doctor Videos", href: "doctorvideos" },
+    { label: "Health Blogs", href: "blogs" },
     { label: "News & Events" },
     { label: "Contact us" },
   ];
@@ -55,12 +65,15 @@ const Navbar = () => {
         <Toolbar sx={{ justifyContent: "space-between", padding: "0 2rem" }}>
           {/* Logo Section */}
           <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <Box
+          <Link  href="/home" passHref>
+          <Box
               component="img"
               src="https://kage.co.in/assets/img/KAGE.jpg"
               alt="Logo"
               sx={{ height: 50 }}
             />
+        </Link>
+           
           </Box>
 
           {!isMobile && (
@@ -86,17 +99,16 @@ const Navbar = () => {
         <Toolbar>
           {isMobile ? (
             <>
-            <Box>
-            
-            <IconButton
-                color="inherit"
-                edge="start"
-                onClick={toggleDrawer(true)}
-              >
-                <MenuIcon />
-              </IconButton>
-            </Box>
-        
+              <Box>
+                <IconButton
+                  color="inherit"
+                  edge="start"
+                  onClick={toggleDrawer(true)}
+                >
+                  <MenuIcon />
+                </IconButton>
+              </Box>
+
               <Drawer
                 anchor="left"
                 open={drawerOpen}
@@ -116,7 +128,6 @@ const Navbar = () => {
                       p: 2,
                     }}
                   >
-                 
                     <IconButton onClick={toggleDrawer(false)}>
                       <CloseIcon />
                     </IconButton>
@@ -138,6 +149,7 @@ const Navbar = () => {
                     item.subItems && handleMenuOpen(e, index)
                   }
                   onMouseLeave={handleMenuClose}
+                  sx={{ position: "relative" }} // Ensure sub-menus can be positioned
                 >
                   <Button color="inherit" href={item.href}>
                     {item.label}
@@ -151,6 +163,7 @@ const Navbar = () => {
                         onMouseEnter: () => setActiveMenu(index),
                         onMouseLeave: handleMenuClose,
                       }}
+                      inert
                     >
                       {item.subItems.map((subItem, subIndex) => (
                         <MenuItem
@@ -158,8 +171,32 @@ const Navbar = () => {
                           onClick={handleMenuClose}
                           component="a"
                           href={subItem.href}
+                          onMouseEnter={(e) =>
+                            subItem.subSubItems &&
+                            handleSubMenuOpen(e, index, subIndex)
+                          }
                         >
                           {subItem.label}
+                          {subItem.subSubItems && activeSubMenu === `${index}-${subIndex}` && (
+                            <Menu
+                              anchorEl={anchorEl}
+                              open={true}
+                              onClose={handleMenuClose}
+                              sx={{
+                                position: "absolute",
+                                left: "200px", // Position sub-sub-menu to the right of the sub-item
+                                top: 0,
+                                zIndex: 1300, // Make sure it's above the parent menu
+                              }}
+                              inert
+                            >
+                              {subItem.subSubItems.map((subSubItem, subSubIndex) => (
+                                <MenuItem key={subSubIndex} component="a" href={subSubItem.href}>
+                                  {subSubItem.label}
+                                </MenuItem>
+                              ))}
+                            </Menu>
+                          )}
                         </MenuItem>
                       ))}
                     </Menu>

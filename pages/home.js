@@ -33,6 +33,7 @@ import QueryStatsRoundedIcon from "@mui/icons-material/QueryStatsRounded";
 import SettingsSuggestRoundedIcon from "@mui/icons-material/SettingsSuggestRounded";
 import SupportAgentRoundedIcon from "@mui/icons-material/SupportAgentRounded";
 import ThumbUpAltRoundedIcon from "@mui/icons-material/ThumbUpAltRounded";
+
 // Import Swiper styles
 import "swiper/css";
 
@@ -104,149 +105,6 @@ const Home = () => {
             >
               <Typography
                 variant="h4"
-                sx={{ fontWeight: "bold", color: "secondary.main" }}
-              >
-                IBD clinic Intro
-              </Typography>
-              <Typography
-                sx={{
-                  color: "#555",
-                  margin: "16px 0",
-                }}
-              >
-                We take pride in offering a wide range of best-in-class medical
-                services and popular treatments to cater to your diverse
-                healthcare needs.
-              </Typography>
-              <Box sx={{ color: "#1e1e1e", marginBottom: 2 }}>
-                <Typography
-                  sx={{ display: "flex", alignItems: "center", gap: 1 }}
-                >
-                  ✔ Mental Health Solutions
-                </Typography>
-                <Typography
-                  sx={{ display: "flex", alignItems: "center", gap: 1 }}
-                >
-                  ✔ Rapid Patient Improvement
-                </Typography>
-                <Typography
-                  sx={{ display: "flex", alignItems: "center", gap: 1 }}
-                >
-                  ✔ World-Class Treatment
-                </Typography>
-              </Box>
-              <Button
-                variant="contained"
-                color="primary.main"
-                sx={{
-                  textTransform: "none",
-                  backgroundColor: "#fff",
-                  color: "primary.main",
-                  "&:hover": {
-                    backgroundColor: "primary.main",
-                    color: "#fff",
-                  },
-                }}
-              >
-                Read More ➔
-              </Button>
-            </Box>
-          </Box>
-        </Stack>
-
-        <div>
-          <Box sx={{ backgroundColor: "background.default", padding: 4 }}>
-            <Typography
-              variant="h4"
-              sx={{
-                fontWeight: "bold",
-                marginBottom: 2,
-                color: "secondary.main",
-              }}
-            >
-              Our specialities
-            </Typography>
-            <Typography variant="body1" sx={{ marginBottom: 4, color: "#555" }}>
-              We are privileged to work with hundreds of future-thinking medical
-              professionals.
-            </Typography>
-
-            <Box
-              sx={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
-                gap: 3,
-              }}
-            >
-              {websiteJson.services.map((service) => (
-                <Card
-                  key={service.id}
-                  sx={{
-                    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-                    borderRadius: "12px",
-                    backgroundColor: "#fff",
-                    transition: "transform 0.3s, box-shadow 0.3s",
-                    "&:hover": {
-                      transform: "scale(1.05)",
-                      boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
-                    },
-                    padding: 2,
-                  }}
-                >
-                  <CardContent sx={{ textAlign: "center" }}>
-                    <Icon
-                      sx={{
-                        fontSize: "40px",
-                        color: "#1976d2",
-                        marginBottom: 2,
-                      }}
-                    >
-                      {service.icon}
-                    </Icon>
-                    <Typography
-                      variant="h6"
-                      sx={{
-                        fontWeight: "bold",
-                        marginBottom: 1,
-                        color: "primary.main",
-                      }}
-                    >
-                      {service.title}
-                    </Typography>
-                    <Typography variant="body2" sx={{ color: "#555" }}>
-                      {service.description}
-                    </Typography>
-                  </CardContent>
-                </Card>
-              ))}
-            </Box>
-          </Box>
-        </div>
-        <Box sx={{ py: 5, px: 3, position: "relative" }}>
-          {/* Background Shades */}
-
-          <Grid container spacing={3} alignItems="center">
-            {/* Image Section */}
-            <Grid item xs={12} sm={6} md={6} xl={6}>
-              <Box
-                sx={{
-                  position: "relative",
-                  width: "100%",
-                  borderRadius: "16px",
-                  overflow: "hidden",
-                }}
-              >
-                <img
-                  src="https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_10_1720786743.jpg" // Replace with the actual image URL
-                  alt="KIMS Hospital"
-                />
-              </Box>
-            </Grid>
-
-            {/* Text Section */}
-            <Grid item xs={12} sm={6} md={6} xl={6}>
-              <Typography
-                variant="h4"
                 sx={{
                   fontWeight: "bold",
                   color: "secondary.main",
@@ -264,24 +122,129 @@ const Home = () => {
               >
                 About Us
               </Typography>
-              <Typography variant="body1" sx={{ mb: 2, color: "#555" }}>
-                Bringing a new life into existence is one of the most precious
-                moments of any parent’s life. At KIMS Cuddles, we strive to make
-                those precious moments of a mother even more memorable and
-                cherishing. Our expert team of gynecologists, pediatricians,
-                surgeons, obstetricians, etc., not only understand what these
-                moments mean to the parents, but also make every possible effort
-                to make this new journey even more healthy and happy.
+              <Typography
+                variant="h4"
+                sx={{ fontWeight: "bold", color: "secondary.main" }}
+              ></Typography>
+              <Typography
+                sx={{
+                  color: "#000",
+                  margin: "16px 0",
+                }}
+              >
+                {/* {console.log(websiteJson.home_intro)} */}
+                {websiteJson.home_intro[0].description}
               </Typography>
-              <Typography variant="body1" sx={{ color: "#555" }}>
-                Whether you want to be a mother or soon going to be a mother or
-                already a mother, our team is here to provide you with the best
-                care and guidance.
+              <Typography
+                sx={{
+                  color: "#000",
+                  margin: "16px 0",
+                }}
+              >
+                {/* {console.log(websiteJson.home_intro)} */}
+                {websiteJson.home_intro[1].description2}
               </Typography>
-            </Grid>
-          </Grid>
-        </Box>
-        <Stack sx={{ backgroundColor: "background.default", py: 5, px: 3 }}>
+              <Typography
+                sx={{
+                  color: "#000",
+                  margin: "16px 0",
+                }}
+              >
+                {/* {console.log(websiteJson.home_intro)} */}
+                {websiteJson.home_intro[2].description3}
+              </Typography>
+              <Link href="/about" passHref>
+                <Button
+                  variant="contained"
+                  color="primary.main"
+                  sx={{
+                    textTransform: "none",
+                    backgroundColor: "#fff",
+                    color: "primary.main",
+                    "&:hover": {
+                      backgroundColor: "primary.main",
+                      color: "#fff",
+                    },
+                  }}
+                >
+                  Read More ➔
+                </Button>
+              </Link>
+            </Box>
+          </Box>
+        </Stack>
+
+        <Stack>
+          <Box sx={{ backgroundColor: "background.default", padding: 4 }}>
+            <Container>
+              <Typography
+                variant="h4"
+                sx={{
+                  fontWeight: "bold",
+                  marginBottom: 2,
+                  color: "secondary.main",
+                }}
+              >
+                Speciality Clinics at KAGE
+              </Typography>
+              {/* <Typography variant="body1" sx={{ marginBottom: 4, color: "#555" }}>
+              We are privileged to work with hundreds of future-thinking medical
+              professionals.
+            </Typography> */}
+
+              <Box
+                sx={{
+                  display: "grid",
+                  gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
+                  gap: 3,
+                }}
+              >
+                {websiteJson.services.map((service) => (
+                  <Card
+                    key={service.id}
+                    sx={{
+                      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+                      borderRadius: "12px",
+                      backgroundColor: "#fff",
+                      transition: "transform 0.3s, box-shadow 0.3s",
+                      "&:hover": {
+                        transform: "scale(1.05)",
+                        boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
+                      },
+                      padding: 2,
+                    }}
+                  >
+                    <CardContent sx={{ textAlign: "center" }}>
+                      <Icon
+                        sx={{
+                          fontSize: "40px",
+                          color: "#1976d2",
+                          marginBottom: 2,
+                        }}
+                      >
+                        {service.icon}
+                      </Icon>
+                      <Typography
+                        variant="h6"
+                        sx={{
+                          fontWeight: "bold",
+                          marginBottom: 1,
+                          color: "primary.main",
+                        }}
+                      >
+                        {service.title}
+                      </Typography>
+                      {/* <Typography variant="body2" sx={{ color: "#555" }}>
+                      {service.description}
+                    </Typography> */}
+                    </CardContent>
+                  </Card>
+                ))}
+              </Box>
+            </Container>
+          </Box>
+        </Stack>
+        <Stack sx={{ py: 5, px: 3 }}>
           <Container>
             <Box>
               <Typography
@@ -294,23 +257,21 @@ const Home = () => {
                 Doctors
               </Typography>
             </Box>
-            <Swiper
-              modules={[Navigation, Pagination]}
-              spaceBetween={20}
-              slidesPerView={3}
-              navigation
-              pagination={{ clickable: true }}
-              breakpoints={{
-                640: { slidesPerView: 1 },
-                768: { slidesPerView: 2 },
-                1024: { slidesPerView: 4 },
-                1368: { slidesPerView: 5 },
-              }}
-              //   style={{ padding: "20px" }}
-            >
-              {websiteJson.doctorsList.map((doctor) => (
-                <SwiperSlide key={doctor.id}>
-                  <Card sx={{ maxWidth: "100%", mx: "auto", height: "500px" }}>
+            <Grid container spacing={3}>
+              {websiteJson.doctorsList.slice(0, 8).map((doctor) => (
+                <Grid item xs={12} sm={6} md={3} key={doctor.id}>
+                  <Card
+                    sx={{
+                      display: "flex",
+                      flexDirection: "column",
+                      height: "auto", // Auto height on mobile
+                      maxWidth: "100%",
+                      mx: "auto",
+                      "@media (min-width: 768px)": {
+                        height: "100%", // Equal height on desktop
+                      },
+                    }}
+                  >
                     <Link
                       href={`/doctors/${doctor.name
                         .replace(/\s+/g, "-")
@@ -324,7 +285,7 @@ const Home = () => {
                         alt={doctor.name}
                       />
                     </Link>
-                    <CardContent>
+                    <CardContent sx={{ flexGrow: 1 }}>
                       <Typography gutterBottom variant="h5" component="div">
                         {doctor.name}
                       </Typography>
@@ -334,18 +295,21 @@ const Home = () => {
                       <Typography variant="body2" color="text.secondary">
                         {doctor.designation}
                       </Typography>
-                      <Button
-                        variant="contained"
-                        endIcon={<SendIcon />}
-                        sx={{ marginTop: "10px" }}
+                      <Link
+                        href={`/doctors/${doctor.name
+                          .replace(/\s+/g, "-")
+                          .toLowerCase()}`}
+                        passHref
                       >
-                        Book Now
-                      </Button>
+                        <Button variant="contained" sx={{ marginTop: "10px" }}>
+                          Know More
+                        </Button>
+                      </Link>
                     </CardContent>
                   </Card>
-                </SwiperSlide>
+                </Grid>
               ))}
-            </Swiper>
+            </Grid>
           </Container>
         </Stack>
         <div>
@@ -377,7 +341,7 @@ const Home = () => {
                 </Typography>
               </Box>
               <Grid2 container spacing={2}>
-                {websiteJson.items.slice(0, 6).map((item, index) => (
+                {websiteJson.items.map((item, index) => (
                   <Grid2 size={{ xs: 12, sm: 6, md: 4 }} key={index}>
                     <Stack
                       direction="column"
@@ -386,16 +350,21 @@ const Home = () => {
                       useFlexGap
                       sx={(theme) => ({
                         color: "#fff",
-                        p: 3,
+                       
                         height: "100%",
-                        borderColor: "hsla(220, 25%, 25%, 0.3)",
-                        backgroundColor: "background.default",
+                       
                       })}
                     >
-                      <Box sx={{ opacity: "50%", color: "primary.main" }}>
-                        {item.icon}
+                      <Box sx={{ color: "primary.main" }}>
+                        <Link href={``} passHref>
+                          <CardMedia
+                            component="img"
+                            height="270"
+                            image={item.icon}
+                          />
+                        </Link>
                       </Box>
-                      <div>
+                      <Box sx={{ p:2  }}>
                         <Link
                           href={`/procedures/${item.title
                             .replace(/\s+/g, "-")
@@ -410,10 +379,10 @@ const Home = () => {
                           </Typography>
                         </Link>
 
-                        <Typography variant="body2" sx={{ color: "black" }}>
+                        {/* <Typography variant="body2" sx={{ color: "black" }}>
                           {item.description}
-                        </Typography>
-                      </div>
+                        </Typography> */}
+                      </Box>
                     </Stack>
                   </Grid2>
                 ))}
@@ -431,77 +400,68 @@ const Home = () => {
                   color="secondary"
                   textAlign="left"
                 >
-                  Our Equipments
+                  Patient  Videos
                 </Typography>
+                {/* Doctor Videos Section */}
+                <Box>
+                  <Grid container spacing={4}>
+                    {/* Sample Doctor Video 1 */}
+                    <Grid item xs={12} sm={6} md={4} xl={4}>
+                      <Card>
+                        <CardMedia
+                          component="iframe"
+                          alt="Doctor Video"
+                          height="200"
+                          src="https://www.youtube.com/embed/video_id" // replace with real video URL
+                          title="Doctor's Video"
+                        />
+                        <CardContent>
+                          <Typography variant="h6">Patient  1</Typography>
+                          <Typography variant="body2" color="text.secondary">
+                            A brief description of the video .
+                          </Typography>
+                        </CardContent>
+                      </Card>
+                    </Grid>
+                    {/* Sample Patient  Video 2 */}
+                    <Grid item xs={12} sm={6} md={4} xl={4}>
+                      <Card>
+                        <CardMedia
+                          component="iframe"
+                          alt="Patient  Video"
+                          height="200"
+                          src="https://www.youtube.com/embed/video_id" // replace with real video URL
+                          title="Patient 's Video"
+                        />
+                        <CardContent>
+                          <Typography variant="h6">Patient  2</Typography>
+                          <Typography variant="body2" color="text.secondary">
+                            A brief description of the video.
+                          </Typography>
+                        </CardContent>
+                      </Card>
+                    </Grid>
+                    <Grid item xs={12} sm={6} md={4} xl={4}>
+                      <Card>
+                        <CardMedia
+                          component="iframe"
+                          alt="Patient  Video"
+                          height="200"
+                          src="https://www.youtube.com/embed/video_id" // replace with real video URL
+                          title="Patient 's Video"
+                        />
+                        <CardContent>
+                          <Typography variant="h6">Patient  2</Typography>
+                          <Typography variant="body2" color="text.secondary">
+                            A brief description of the video .
+                          </Typography>
+                        </CardContent>
+                      </Card>
+                    </Grid>
 
-                <Grid2 container spacing={4}>
-                  {/* Sample Equipment 1 */}
-                  <Grid2 item xs={12} sm={6} md={4} xl={4}>
-                    <Card>
-                      <CardMedia
-                        component="img"
-                        alt="Equipment Image"
-                        height="200"
-                        image="https://picsum.photos/seed/picsum/500/400" // replace with real image URL
-                      />
-                      <CardContent>
-                        <Typography variant="h6">Equipment 1</Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          Description
-                        </Typography>
-                      </CardContent>
-                    </Card>
-                  </Grid2>
-                  {/* Sample Equipment 2 */}
-                  <Grid2 item xs={12} sm={6} md={4} xl={4}>
-                    <Card>
-                      <CardMedia
-                        component="img"
-                        alt="Equipment Image"
-                        height="200"
-                        image="https://picsum.photos/seed/picsum/500/400" // replace with real image URL
-                      />
-                      <CardContent>
-                        <Typography variant="h6">Equipment 2</Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          Description
-                        </Typography>
-                      </CardContent>
-                    </Card>
-                  </Grid2>
-                  <Grid2 item xs={12} sm={6} md={4} xl={4}>
-                    <Card>
-                      <CardMedia
-                        component="img"
-                        alt="Equipment Image"
-                        height="200"
-                        image="https://picsum.photos/seed/picsum/500/400" // replace with real image URL
-                      />
-                      <CardContent>
-                        <Typography variant="h6">Equipment 2</Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          Description
-                        </Typography>
-                      </CardContent>
-                    </Card>
-                  </Grid2>
-                  <Grid2 item xs={12} sm={6} md={4} xl={4}>
-                    <Card>
-                      <CardMedia
-                        component="img"
-                        alt="Equipment Image"
-                        height="200"
-                        image="https://picsum.photos/seed/picsum/500/400" // replace with real image URL
-                      />
-                      <CardContent>
-                        <Typography variant="h6">Equipment 2</Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          Description
-                        </Typography>
-                      </CardContent>
-                    </Card>
-                  </Grid2>
-                </Grid2>
+                    {/* Add more Doctor videos as needed */}
+                  </Grid>
+                </Box>
               </Box>
             </Container>
           </Stack>
