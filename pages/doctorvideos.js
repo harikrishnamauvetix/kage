@@ -52,7 +52,7 @@ const Doctorvideos = () => {
           })}
         >
           {websiteJson.testimonials.map((testimonial) => (
-            <Grid2 size={{ xs: 12, sm: 6, md: 6 }} key={testimonial.index}>
+            <Grid2 size={{ xs: 12, sm: 6, md: 4 }} key={testimonial.index}>
               <Stack
                 direction="column"
                
@@ -64,7 +64,7 @@ const Doctorvideos = () => {
                   <CardMedia
                     component="iframe"
                     alt="Doctor Video"
-                    height="200"
+                    height="400"
                     src="https://www.youtube.com/embed/video_id" // replace with real video URL
                     title="Doctor's Video"
                   />
