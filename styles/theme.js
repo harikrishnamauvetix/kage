@@ -33,28 +33,7 @@ const theme = createTheme({
   typography: {
     fontFamily: "Open Sans, sans-serif", // Font remains consistent
   },
-  components: {
-    MuiPaper: {
-      styleOverrides: {
-        root: ({ theme }) => ({
-          backgroundColor: theme.palette.mode === 'dark' 
-            ? theme.palette.darkMode.paper 
-            : theme.palette.background.paper,
-        }),
-      },
-    },
-    MuiButton: {
-      styleOverrides: {
-        root: {
-          color: "#fff", // Button text color remains white
-          backgroundColor: "#007cb0", // Button background remains the same
-          '&:hover': {
-            backgroundColor: "#005b75", // Button hover state color remains the same
-          },
-        },
-      },
-    },
-  },
+
 });
 
 export default theme;
