@@ -26,7 +26,7 @@ const theme = createTheme({
     MuiPaper: {
       styleOverrides: {
         root: ({ theme }) => ({
-          backgroundColor: theme.palette.mode === 'dark' ? '#333' : '#fff', // Adjust for dark mode
+          backgroundColor: theme.palette.mode === 'dark' ? '#fff' : '#fff', // Adjust for dark mode
         }),
       },
     },
