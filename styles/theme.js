@@ -3,7 +3,7 @@ import "@fontsource/open-sans";
 
 const theme = createTheme({
   palette: {
-    mode: 'light', // Set to 'dark' if you prefer the dark mode as default
+    mode: 'light', // Set to 'dark' if you prefer dark mode as default
     primary: {
       main: "#007cb0", // Primary color stays the same
     },
@@ -11,13 +11,24 @@ const theme = createTheme({
       main: "#e31a47", // Secondary color stays the same
     },
     background: {
-      default: "#eee", // Background remains the same for both modes
+      default: "#eee", // Light mode background color
       paper: "#fff",    // Paper background stays white in both modes
     },
     text: {
-      primary: "#000",  // Text color remains black
-      secondary: "#555", // Secondary text color remains consistent
+      primary: "#000",  // Primary text color in light mode
+      secondary: "#555", // Secondary text color
     },
+    // Dark mode customizations
+    ...(mode === 'dark' && {
+      background: {
+        default: "#000", // Set background to black in dark mode
+        paper: "#333",    // Paper background darker in dark mode
+      },
+      text: {
+        primary: "#fff",  // Text color becomes white in dark mode
+        secondary: "#ccc", // Secondary text lighter in dark mode
+      },
+    }),
   },
   typography: {
     fontFamily: "Open Sans, sans-serif", // Font remains consistent
@@ -26,11 +37,13 @@ const theme = createTheme({
     MuiPaper: {
       styleOverrides: {
         root: {
-          backgroundColor: "#fff", // Paper component background remains white
+          backgroundColor: "#fff", // Paper component background in light mode
+          ...(mode === 'dark' && {
+            backgroundColor: "#fff", // Paper background darker in dark mode
+          }),
         },
       },
     },
-    // Ensure other components are unaffected by theme mode changes
     MuiButton: {
       styleOverrides: {
         root: {
