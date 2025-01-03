@@ -66,7 +66,7 @@ const Home = () => {
               flexDirection: { xs: "column", md: "row" }, // Column layout for small screens, row for larger screens
               alignItems: "center",
               justifyContent: "space-between",
-
+              background:"#fff",
               padding: 4,
               borderRadius: 2,
               gap: 4,
