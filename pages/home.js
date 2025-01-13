@@ -66,7 +66,7 @@ const Home = () => {
               flexDirection: { xs: "column", md: "row" }, // Column layout for small screens, row for larger screens
               alignItems: "center",
               justifyContent: "space-between",
-              background:"#fff",
+              background: "#fff",
               padding: 4,
               borderRadius: 2,
               gap: 4,
@@ -224,16 +224,24 @@ const Home = () => {
                       >
                         {service.icon}
                       </Icon>
-                      <Typography
-                        variant="h6"
-                        sx={{
-                          fontWeight: "bold",
-                          marginBottom: 1,
-                          color: "primary.main",
-                        }}
+                      <Link
+                        href={`/speciality-clinics/${service.title
+                          .replace(/\s+/g, "-")
+                          .toLowerCase()}`}
+                        passHref
                       >
-                        {service.title}
-                      </Typography>
+                        <Typography
+                          variant="h6"
+                          sx={{
+                            fontWeight: "bold",
+                            marginBottom: 1,
+                            color: "primary.main",
+                          }}
+                        >
+                          {service.title}
+                        </Typography>
+                      </Link>
+
                       {/* <Typography variant="body2" sx={{ color: "#555" }}>
                       {service.description}
                     </Typography> */}
@@ -350,9 +358,8 @@ const Home = () => {
                       useFlexGap
                       sx={(theme) => ({
                         color: "#fff",
-                       
+
                         height: "100%",
-                       
                       })}
                     >
                       <Box sx={{ color: "primary.main" }}>
@@ -364,7 +371,7 @@ const Home = () => {
                           />
                         </Link>
                       </Box>
-                      <Box sx={{ p:2  }}>
+                      <Box sx={{ p: 2 }}>
                         <Link
                           href={`/procedures/${item.title
                             .replace(/\s+/g, "-")
@@ -400,7 +407,7 @@ const Home = () => {
                   color="secondary"
                   textAlign="left"
                 >
-                  Patient  Videos
+                  Patient Videos
                 </Typography>
                 {/* Doctor Videos Section */}
                 <Box>
@@ -416,7 +423,7 @@ const Home = () => {
                           title="Doctor's Video"
                         />
                         <CardContent>
-                          <Typography variant="h6">Patient  1</Typography>
+                          <Typography variant="h6">Patient 1</Typography>
                           <Typography variant="body2" color="text.secondary">
                             A brief description of the video .
                           </Typography>
@@ -434,7 +441,7 @@ const Home = () => {
                           title="Patient 's Video"
                         />
                         <CardContent>
-                          <Typography variant="h6">Patient  2</Typography>
+                          <Typography variant="h6">Patient 2</Typography>
                           <Typography variant="body2" color="text.secondary">
                             A brief description of the video.
                           </Typography>
@@ -451,7 +458,7 @@ const Home = () => {
                           title="Patient 's Video"
                         />
                         <CardContent>
-                          <Typography variant="h6">Patient  2</Typography>
+                          <Typography variant="h6">Patient 2</Typography>
                           <Typography variant="body2" color="text.secondary">
                             A brief description of the video .
                           </Typography>
