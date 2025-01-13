@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{ useState }from "react";
 import { useRouter } from "next/router";
 import {
   Container,
@@ -12,6 +12,9 @@ import {
   List,
   ListItem,
   ListItemText,
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
   Divider,
   Card,
   CardContent,
@@ -29,10 +32,13 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 const Procedures = () => {
   const router = useRouter();
   const { slug } = router.query;
+  const [expanded, setExpanded] = useState(false); 
   // const doctor="dd"
   console.log(websiteJson);
   // const doctor="dd"
@@ -54,7 +60,9 @@ const Procedures = () => {
       </Container>
     );
   }
-
+  const handleFaqToggle = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
+  }
   return (
     <>
       <Header></Header>
@@ -124,94 +132,110 @@ const Procedures = () => {
               <Box mt={2}>
                 <Typography>{procedures.description}</Typography>
                 <Typography variant="h5" gutterBottom>
-        {procedures.subtitle}
-      </Typography> 
-                
+                  {procedures.subtitle}
+                </Typography>
               </Box>
             </Grid>
           </Grid>
         </Container>
         <Container>
-     
-     
-      {procedures.sections.map((section, idx) => (
-        <Box key={idx} sx={{ mb: 4 }}>
-          <Typography variant="h4" gutterBottom>
-            {section.heading}
-          </Typography>
-          {section.content && <Typography paragraph>{section.content}</Typography>}
-          
-          {section.steps && (
-            <List>
-              {section.steps.map((step, stepIdx) => (
-                <ListItem key={stepIdx}>
-                  <ListItemText 
-                    primary={`${step.step}. ${step.title}`} 
-                    secondary={step.description} 
-                  />
-                </ListItem>
-              ))}
-            </List>
-          )}
+          {procedures.sections.map((section, idx) => (
+            <Box key={idx} sx={{ mb: 4 }}>
+              <Typography variant="h4" gutterBottom>
+                {section.heading}
+              </Typography>
+              {section.content && (
+                <Typography paragraph>{section.content}</Typography>
+              )}
 
-          {section.benefits && (
-            <List>
-              {section.benefits.map((benefit, benefitIdx) => (
-                <ListItem key={benefitIdx}>
-                  <ListItemText primary={benefit} />
-                </ListItem>
-              ))}
-            </List>
-          )}
+              {section.steps && (
+                <List>
+                  {section.steps.map((step, stepIdx) => (
+                    <ListItem key={stepIdx}>
+                      <ListItemText
+                        primary={`${step.step}. ${step.title}`}
+                        secondary={step.description}
+                      />
+                    </ListItem>
+                  ))}
+                </List>
+              )}
 
-          {section.symptoms && (
-            <List>
-              {section.symptoms.map((symptom, symptomIdx) => (
-                <ListItem key={symptomIdx}>
-                  <ListItemText primary={symptom} />
-                </ListItem>
-              ))}
-            </List>
-          )}
+              {section.benefits && (
+                <List>
+                  {section.benefits.map((benefit, benefitIdx) => (
+                    <ListItem key={benefitIdx}>
+                      <ListItemText primary={benefit} />
+                    </ListItem>
+                  ))}
+                </List>
+              )}
 
-          {section.recovery && (
-            <Grid container spacing={2}>
-              {section.recovery.map((recoveryStage, recoveryIdx) => (
-                <Grid item xs={12} md={4} key={recoveryIdx}>
-                  <Card>
-                    <CardContent>
-                      <Typography variant="h6">{recoveryStage.stage}</Typography>
-                      <Typography>{recoveryStage.description}</Typography>
-                    </CardContent>
-                  </Card>
+              {section.symptoms && (
+                <List>
+                  {section.symptoms.map((symptom, symptomIdx) => (
+                    <ListItem key={symptomIdx}>
+                      <ListItemText primary={symptom} />
+                    </ListItem>
+                  ))}
+                </List>
+              )}
+
+              {section.recovery && (
+                <Grid container spacing={2}>
+                  {section.recovery.map((recoveryStage, recoveryIdx) => (
+                    <Grid item xs={12} md={4} size={4} key={recoveryIdx}>
+                      <Card>
+                        <CardContent>
+                          <Typography variant="h6">
+                            {recoveryStage.stage}
+                          </Typography>
+                          <Typography>{recoveryStage.description}</Typography>
+                        </CardContent>
+                      </Card>
+                    </Grid>
+                  ))}
                 </Grid>
-              ))}
-            </Grid>
-          )}
+              )}
 
-          {section.faq && (
-            <List>
-              {section.faq.map((faq, faqIdx) => (
-                <ListItem key={faqIdx}>
-                  <ListItemText 
-                    primary={faq.question} 
-                    secondary={faq.answer} 
-                  />
-                </ListItem>
-              ))}
-            </List>
-          )}
+              {section.faq && (
+                <Grid container spacing={2}>
+                  {section.faq.map((faq, faqIdx) => (
+                    <Grid item xs={12} sm={6} size={6} key={faqIdx}>
+                      <Accordion
+                       expanded={expanded === faqIdx}
+                       onChange={handleFaqToggle(faqIdx)}
+                      >
+                        <AccordionSummary
+                          expandIcon={<ExpandMoreIcon />}
+                          aria-controls={`panel-${faqIdx}-content`}
+                          id={`panel-${faqIdx}-header`}
+                        >
+                          <ListItemText primary={faq.question} />
+                        </AccordionSummary>
+                        <AccordionDetails>
+                          <ListItemText secondary={faq.answer} />
+                        </AccordionDetails>
+                      </Accordion>
+                    </Grid>
+                  ))}
+                </Grid>
+              )}
+              {section.content_2 && (
+                <Typography paragraph>{section.content_2}</Typography>
+              )}
+            </Box>
+          ))}
 
-          {section.content_2 && <Typography paragraph>{section.content_2}</Typography>}
-        </Box>
-      ))}
-
-      <Box sx={{ mt: 4 }}>
-        <Typography variant="h5" gutterBottom>
-          {procedures.sections[procedures.sections.length - 1].call_to_action}
-        </Typography>
-      </Box>
-    </Container>
+          <Box sx={{ mt: 4 }}>
+            <Typography variant="h5" gutterBottom>
+              {
+                procedures.sections[procedures.sections.length - 1]
+                  .call_to_action
+              }
+            </Typography>
+          </Box>
+        </Container>
       </Box>
 
       <Footer></Footer>
