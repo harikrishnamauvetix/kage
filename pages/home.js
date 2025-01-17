@@ -418,7 +418,7 @@ const Home = () => {
                         <CardMedia
                           component="iframe"
                           alt="Doctor Video"
-                          height="200"
+                          height="400"
                           src="https://www.youtube.com/embed/video_id" // replace with real video URL
                           title="Doctor's Video"
                         />
@@ -436,7 +436,7 @@ const Home = () => {
                         <CardMedia
                           component="iframe"
                           alt="Patient  Video"
-                          height="200"
+                        height="400"
                           src="https://www.youtube.com/embed/video_id" // replace with real video URL
                           title="Patient 's Video"
                         />
@@ -453,7 +453,7 @@ const Home = () => {
                         <CardMedia
                           component="iframe"
                           alt="Patient  Video"
-                          height="200"
+                         height="400"
                           src="https://www.youtube.com/embed/video_id" // replace with real video URL
                           title="Patient 's Video"
                         />
@@ -600,7 +600,7 @@ const Home = () => {
                         <CardMedia
                           component="iframe"
                           alt="Doctor Video"
-                          height="200"
+                          height="400"
                           src="https://www.youtube.com/embed/video_id" // replace with real video URL
                           title="Doctor's Video"
                         />
@@ -618,7 +618,7 @@ const Home = () => {
                         <CardMedia
                           component="iframe"
                           alt="Doctor Video"
-                          height="200"
+                            height="400"
                           src="https://www.youtube.com/embed/video_id" // replace with real video URL
                           title="Doctor's Video"
                         />
@@ -635,7 +635,7 @@ const Home = () => {
                         <CardMedia
                           component="iframe"
                           alt="Doctor Video"
-                          height="200"
+                           height="400"
                           src="https://www.youtube.com/embed/video_id" // replace with real video URL
                           title="Doctor's Video"
                         />
