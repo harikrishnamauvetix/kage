@@ -28,6 +28,7 @@ const theme = createTheme({
         root: {
           backgroundColor: "#fff", // Paper component background remains white
         },
+        
       },
     },
     // Ensure other components are unaffected by theme mode changes
@@ -42,6 +43,7 @@ const theme = createTheme({
         },
       },
     },
+ 
   },
 });
 

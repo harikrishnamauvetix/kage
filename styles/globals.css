@@ -35,5 +35,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.p0{
+  padding: 0 !important;
+}
+
 
 
