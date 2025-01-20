@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
@@ -10,33 +9,39 @@ import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import MailIcon from "@mui/icons-material/Mail";
-import PhoneIcon from "@mui/icons-material/Phone";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import Link from 'next/link';
+import Typography from "@mui/material/Typography";
+import Link from "next/link";
+import MailIcon from "@mui/icons-material/Mail";
+import PhoneIcon from "@mui/icons-material/Phone";
+import websiteJson from "../public/website.json";
 const Navbar = () => {
-  const [anchorEl, setAnchorEl] = React.useState(null);
-  const [activeMenu, setActiveMenu] = React.useState(null);
-  const [drawerOpen, setDrawerOpen] = React.useState(false);
-  const [activeSubMenu, setActiveSubMenu] = React.useState(null); // New state for subSubItems
+  const [anchorEl, setAnchorEl] = useState(null);
+  const [subMenuAnchorEl, setSubMenuAnchorEl] = useState(null);
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const [activeMenuIndex, setActiveMenuIndex] = useState(null);
+  const [activeSubMenuIndex, setActiveSubMenuIndex] = useState(null);
 
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
-  const handleMenuOpen = (event, menuName) => {
+  const handleMenuOpen = (event, index) => {
     setAnchorEl(event.currentTarget);
-    setActiveMenu(menuName);
+    setActiveMenuIndex(index);
+    setActiveSubMenuIndex(null); // Close any open submenu when the main menu is opened
   };
 
-  const handleSubMenuOpen = (event, index, subIndex) => {
-    setActiveSubMenu(`${index}-${subIndex}`);
+  const handleSubMenuOpen = (event, subIndex) => {
+    setSubMenuAnchorEl(event.currentTarget);
+    setActiveSubMenuIndex(subIndex);
   };
 
   const handleMenuClose = () => {
     setAnchorEl(null);
-    setActiveMenu(null);
-    setActiveSubMenu(null);
+    setSubMenuAnchorEl(null);
+    setActiveMenuIndex(null);
+    setActiveSubMenuIndex(null); // Ensure the submenu is closed too
   };
 
   const toggleDrawer = (open) => () => {
@@ -44,36 +49,48 @@ const Navbar = () => {
   };
 
   const navItems = [
-    { label: "About us", href: "#" },
+    { label: "About us", href: "/about-us" },
     { label: "Doctors", href: "/doctors" },
     {
-      label: "Speciality",
-      href: "Services",
-     
+      label: "Speciality Clinics",
+      href: "/speciality-clinics" ,
+      subItems: websiteJson?.services?.map((service) => ({
+        label: service.title,
+        href: `/speciality-clinics/${service.title
+          .replace(/\s+/g, "-")
+          .toLowerCase()}`,
+      })),
+    },
+    {
+      label: "Procedures",
+      subItems: websiteJson?.procedures?.map((procedure) => ({
+        label: procedure.title,
+        href: `/procedures/${procedure.title
+          .replace(/\s+/g, "-")
+          .toLowerCase()}`,
+      })),
     },
     { label: "Patient Testimonials", href: "testimonials" },
     { label: "Doctor Videos", href: "doctorvideos" },
     { label: "Health Blogs", href: "blogs" },
-    { label: "News & Events" },
-    { label: "Contact us" },
+    { label: "News & Events", href: "#" },
+    { label: "Contact us", href: "#" },
   ];
 
   return (
     <>
-      {/* Top Navbar */}
       <Box sx={{ backgroundColor: "white", boxShadow: "none" }}>
         <Toolbar sx={{ justifyContent: "space-between", padding: "0 2rem" }}>
           {/* Logo Section */}
           <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-          <Link  href="/home" passHref>
-          <Box
-              component="img"
-              src="https://kage.co.in/assets/img/KAGE.jpg"
-              alt="Logo"
-              sx={{ height: 50 }}
-            />
-        </Link>
-           
+            <Link href="/home" passHref>
+              <Box
+                component="img"
+                src="https://kage.co.in/assets/img/KAGE.jpg"
+                alt="Logo"
+                sx={{ height: 50 }}
+              />
+            </Link>
           </Box>
 
           {!isMobile && (
@@ -93,22 +110,17 @@ const Navbar = () => {
           )}
         </Toolbar>
       </Box>
-
-      {/* Sticky Navbar */}
       <AppBar position="sticky" color="primary" sx={{ top: 0, zIndex: 1200 }}>
         <Toolbar>
           {isMobile ? (
             <>
-              <Box>
-                <IconButton
-                  color="inherit"
-                  edge="start"
-                  onClick={toggleDrawer(true)}
-                >
-                  <MenuIcon />
-                </IconButton>
-              </Box>
-
+              <IconButton
+                color="inherit"
+                edge="start"
+                onClick={toggleDrawer(true)}
+              >
+                <MenuIcon />
+              </IconButton>
               <Drawer
                 anchor="left"
                 open={drawerOpen}
@@ -133,9 +145,46 @@ const Navbar = () => {
                     </IconButton>
                   </Box>
                   {navItems.map((item, index) => (
-                    <MenuItem key={index} component="a" href={item.href}>
-                      {item.label}
-                    </MenuItem>
+                    <Box key={index}>
+                      {item.href ? (
+                        <MenuItem component={Link} href={item.href}>
+                          {item.label}
+                        </MenuItem>
+                      ) : (
+                        <Typography>{item.label}</Typography>
+                      )}
+                      {item.subItems &&
+                        item.subItems.map((subItem, subIndex) => (
+                          <Box key={subIndex} sx={{ pl: 2 }}>
+                            {subItem.href ? (
+                              <MenuItem component={Link} href={subItem.href}>
+                                {subItem.label}
+                              </MenuItem>
+                            ) : (
+                              <Typography>{subItem.label}</Typography>
+                            )}
+                            {subItem.subItems &&
+                              subItem.subItems.map(
+                                (nestedItem, nestedIndex) => (
+                                  <Box key={nestedIndex} sx={{ pl: 4 }}>
+                                    {nestedItem.href ? (
+                                      <MenuItem
+                                        component={Link}
+                                        href={nestedItem.href}
+                                      >
+                                        {nestedItem.label}
+                                      </MenuItem>
+                                    ) : (
+                                      <Typography>
+                                        {nestedItem.label}
+                                      </Typography>
+                                    )}
+                                  </Box>
+                                )
+                              )}
+                          </Box>
+                        ))}
+                    </Box>
                   ))}
                 </Box>
               </Drawer>
@@ -149,53 +198,38 @@ const Navbar = () => {
                     item.subItems && handleMenuOpen(e, index)
                   }
                   onMouseLeave={handleMenuClose}
-                  sx={{ position: "relative" }} // Ensure sub-menus can be positioned
+                  sx={{ position: "relative" }}
                 >
-                  <Button color="inherit" href={item.href}>
-                    {item.label}
-                  </Button>
+                  {item.href ? (
+                    <Link href={item.href} passHref>
+                      <Button color="inherit">{item.label}</Button>
+                    </Link>
+                  ) : (
+                    <Button color="inherit">{item.label}</Button>
+                  )}
+
                   {item.subItems && (
                     <Menu
                       anchorEl={anchorEl}
-                      open={activeMenu === index}
+                      open={activeMenuIndex === index}
                       onClose={handleMenuClose}
-                      MenuListProps={{
-                        onMouseEnter: () => setActiveMenu(index),
-                        onMouseLeave: handleMenuClose,
-                      }}
-                      inert
+                      aria-hidden={activeMenuIndex !== index}
+                      onClick={handleMenuClose}
+                       className="menulist"
                     >
                       {item.subItems.map((subItem, subIndex) => (
                         <MenuItem
                           key={subIndex}
-                          onClick={handleMenuClose}
-                          component="a"
-                          href={subItem.href}
+                         
                           onMouseEnter={(e) =>
-                            subItem.subSubItems &&
-                            handleSubMenuOpen(e, index, subIndex)
+                            subItem.subItems && handleSubMenuOpen(e, subIndex)
                           }
+                          sx={{ cursor: "pointer" }} // Ensure submenu items are clickable
                         >
-                          {subItem.label}
-                          {subItem.subSubItems && activeSubMenu === `${index}-${subIndex}` && (
-                            <Menu
-                              anchorEl={anchorEl}
-                              open={true}
-                              onClose={handleMenuClose}
-                              sx={{
-                                position: "absolute",
-                                left: "200px", // Position sub-sub-menu to the right of the sub-item
-                                top: 0,
-                                zIndex: 1300, // Make sure it's above the parent menu
-                              }}
-                              inert
-                            >
-                              {subItem.subSubItems.map((subSubItem, subSubIndex) => (
-                                <MenuItem key={subSubIndex} component="a" href={subSubItem.href}>
-                                  {subSubItem.label}
-                                </MenuItem>
-                              ))}
-                            </Menu>
+                          {subItem.href ? (
+                            <Link href={subItem.href}>{subItem.label}</Link>
+                          ) : (
+                            <Typography>{subItem.label}</Typography>
                           )}
                         </MenuItem>
                       ))}

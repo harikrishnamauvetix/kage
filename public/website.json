@@ -32,13 +32,55 @@
       "description3": "With a state-of-the-art Endoscopy Unit and a dedicated team of specialists, KIMS Advanced Gastroenterology & Endoscopy - KAGE ensures precise diagnostics, minimally invasive therapies, and superior outcomes. Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for advanced care in Gastrointestinal Diseases, Liver Disorders, and beyond."
     }
   ],
+  "about": {
+    "subHeading": "KIMS Advanced Gastroenterology & Endoscopy - KAGE – Pioneering Gastroenterology and Hepatology in Hyderabad",
+    "Description": "KIMS Advanced Gastroenterology & Endoscopy - KAGE is a specialized center dedicated to delivering cutting-edge care in gastroenterology and liver diseases. Combining advanced technology with the expertise of highly skilled specialists, KIMS Advanced Gastroenterology & Endoscopy - KAGE addresses complex digestive disorders with precision and compassion.",
+    "specialtyClinics": {
+      "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we offer focused care through dedicated specialty clinics designed to address a wide spectrum of gastrointestinal diseases:",
+      "list": [
+        {
+          "heading": "IBD & Luminal Gastroenterology Clinic",
+          "description": "Advanced treatments for Inflammatory Bowel Disease (IBD) and complex conditions involving enteroscopy, metallic stenting, and luminal GI diseases."
+        },
+        {
+          "heading": "Pancreatic Clinic",
+          "description": "Specialized care for pancreatic disorders, including ERCP, Cholangioscopy, and Pancreatic ESWL."
+        },
+        {
+          "heading": "Advanced Endoscopy Clinic",
+          "description": "Cutting-edge procedures like Third Space Endoscopy, Artificial Intelligence (AI)-assisted endoscopy, and NBI (Narrow Band Imaging)."
+        }
+      ]
+    },
+    "stateOfTheArtEndoscopyUnit": {
+      "heading": "Our advanced endoscopy unit is designed to provide best-in-class care with:",
+      "Details": [
+        "5 Functioning Rooms for routine and therapeutic endoscopies.",
+        "A dedicated Motility Lab equipped with Fibroscan technology.",
+        "The latest endoscopy systems, including the Fuji 7000 series and Olympus X1 Hybrid Systems.",
+        "Centralized CO2 supply for enhanced efficiency and patient safety.",
+        "A dedicated anesthesia team to ensure safe and comfortable procedures."
+      ]
+    },
+    "centerOfExcellence": {
+      "heading": "KIMS Advanced Gastroenterology & Endoscopy - KAGE is proud to be a recognized Center of Excellence for advanced gastroenterological procedures, certified by globally reputed organizations:",
+      "Certifications": [
+        "ERBE Certification for Third Space Endoscopy.",
+        "GastroNeuro-Motility Society Certification for motility studies.",
+        "Olympus Certification for EUS training."
+      ],
+      "description": "Our VET training lab and conference facilities enable us to conduct certifications and hands-on training programs, furthering the advancement of gastroenterology and hepatology care."
+    },
+    "Mission": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, our mission is to deliver world-class care for GI tract disorders, foster innovation, and establish benchmarks in gastroenterology and hepatology. Whether it’s managing complex conditions like IBD, pancreatic diseases, or performing minimally invasive procedures like therapeutic endoscopies, KIMS Advanced Gastroenterology & Endoscopy - KAGE ensures every patient receives compassionate, expert care.",
+    "Tagline": "Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE as your trusted partner for digestive health—because your health is our mission."
+  },
   "doctorsList": [
     {
       "name": "Dr Sreekanth Appasani",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist, Advanced Therapeutic Endoscopist",
       "registrationNumber": "TSMC/FMR/49190",
-      "profileImage": "https://picsum.photos/seed/picsum/800/700",
+      "profileImage": "imagespublic/Images/doctors/",
       "achievements": [
         "Secured 1st rank in schooling from L.K.G. to 10th std",
         "Stood 1st in the college during Intermediate Education",
@@ -135,28 +177,388 @@
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
       "registrationNumber": "TSMC/FMR/14877",
-      "profileImage": "https://picsum.photos/seed/picsum/800/700"
+      "profileImage": "https://picsum.photos/seed/picsum/800/700",
+      "achievements": [
+        "Secured 1st rank in schooling from L.K.G. to 10th std",
+        "Stood 1st in the college during Intermediate Education",
+        "Secured 52nd rank in Medical Entrance in 1st attempt - 1995",
+        "Best outgoing student of the 1997 batch – Andhra Medical College",
+        "Secured 1st rank in NIMSET (MD Entrance) in 1st attempt - 2003",
+        "Secured 1st rank in All India PGI entrance for DM gastroenterology – 2008",
+        "'10' Gold Medals during Graduation in Andhra Medical College",
+        "Best poster award in small bowel section @ ISGCON 2010",
+        "JGH Travel award @ APDW 2011",
+        "Presidential Poster Award @ ACG 2011",
+        "Best Oral Paper @ ISGCON 2011",
+        "Best International Paper Award @ ACG 2012",
+        "Travel Award @ APDW 2012",
+        "Young Investigator Award @ APDW 2012",
+        "Poster of Distinction @ DDW 2013",
+        "Best Poster Award @ ISG 2013",
+        "Best Oral Paper (2nd Prize) @ ISG 2013"
+      ],
+      "publications": [
+        "Benign gastric outlet obstruction – spectrum and management. Tropical Gastroenterology 2011;32(4):259–266.",
+        "An Uncommon Cause of Dysphagia. Dysphagia. 2012 Mar;27(1):145-7.",
+        "Hepatic artery aneurysm: a rare presentation as cholangitis and portal hypertension. Gastrointest Endosc. 2012 Jan;75(1):190.",
+        "Lamotrigine Induced Vanishing Bile Duct Syndrome in a Child. J Pediatr Gastroenterol Nutr. 2012 Dec;55(6):e147-8.",
+        "Fluid replacement in acute pancreatitis. Nutritional Therapy & Metabolism 2012; 30(2);67-78.",
+        "Biliary stent with a tied suture! Gastrointest Endosc. 2012 Sep;76(3):669-71.",
+        "Celiac Disease Complicated By Lymphoma: A Case Report. Trop Gastroenterol. 2014 Jan-Mar;35(1):55-6.",
+        "Celiac disease presenting as recurrent pancreatitis and pseudocyst. JOP. 2012 Sep 10;13(5):533-5.",
+        "Prospective validation of 4-category classification of acute pancreatitis severity. Pancreas. 2013 Apr;42(3):392-6.",
+        "Dynamic nature of organ failure in severe acute pancreatitis. HPB (Oxford). 2013 Jul;15(7):523-8.",
+        "Biodegradable stents: truly biodegradable with good tissue harmony. Endoscopy. 2013 May;45 Suppl 2:E116-7.",
+        "Endoscopic ultrasound assisted etiological localization in acute pancreatitis. Endosc Ultrasound 2013;2:162-4.",
+        "Stents for benign and malignant esophageal strictures. Ann N Y Acad Sci. 2013 Oct;1300:119-43.",
+        "Implementation of the Asia-Pacific Guidelines of Obesity Classification on the APACHEO Scoring System. Dig Dis Sci. 2014 Jun;59(6):1316-21.",
+        "Hypotension in the First Week of Acute Pancreatitis and APACHE II Score Predict Development of Infected Pancreatic Necrosis. Dig Dis Sci. 2015 Feb;60(2):537-42.",
+        "Mega stents - New option for management of leaks following laparoscopic sleeve gastrectomy. Endoscopy. 2014;46 Suppl 1 UCTN:E49-50.",
+        "Role of 13NH3 PET/CT in delineating pancreatic necrosis in acute pancreatitis. Pancreatology. 2014 May-Jun;14(3):154-8.",
+        "Utility of narrow band imaging in predicting histology in celiac disease. Indian J Gastroenterol. 2020 Aug;39(4):370-376.",
+        "Pancreatic fluid collections: What is the ideal imaging technique? World J Gastroenterol. 2015 Dec 28;21(48):13403-10."
+      ],
+      "awards": [
+        " VAIDYA RATNA AWARD in Sankranti Puraskar 2015 by Suman Art Theaters for services rendered in the field of gastroenterology ",
+        "NATIONAL ITEGRATION AWARD on the eve of republic day 2015 for services rendered in the field of gastroenterology "
+      ],
+      "patientTestimonials": [
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Bob Johnson",
+          "testimonial": "I highly recommend Dr. Sreekanth for his expertise and kindness.",
+          "rating": 4.9
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        }
+      ],
+      "gallery": [
+        {
+          "image": "https://example.com/gallery1.jpg",
+          "caption": "Dr. Appasani receiving an award for his research work."
+        },
+        {
+          "image": "https://example.com/gallery2.jpg",
+          "caption": "Speaking at an international medical conference."
+        },
+        {
+          "image": "https://example.com/gallery3.jpg",
+          "caption": "During a live endoscopy workshop."
+        }
+      ]
     },
     {
       "name": "Dr. Bhaskar Kante",
       "qualifications": "MD (Int. Med), DM (Med. Gastro), Fellowship (IBD AIIMS)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
       "registrationNumber": "APMC/FMR/77039",
-      "profileImage": "https://picsum.photos/seed/picsum/800/700"
+      "profileImage": "https://picsum.photos/seed/picsum/800/700",
+      "achievements": [
+        "Secured 1st rank in schooling from L.K.G. to 10th std",
+        "Stood 1st in the college during Intermediate Education",
+        "Secured 52nd rank in Medical Entrance in 1st attempt - 1995",
+        "Best outgoing student of the 1997 batch – Andhra Medical College",
+        "Secured 1st rank in NIMSET (MD Entrance) in 1st attempt - 2003",
+        "Secured 1st rank in All India PGI entrance for DM gastroenterology – 2008",
+        "'10' Gold Medals during Graduation in Andhra Medical College",
+        "Best poster award in small bowel section @ ISGCON 2010",
+        "JGH Travel award @ APDW 2011",
+        "Presidential Poster Award @ ACG 2011",
+        "Best Oral Paper @ ISGCON 2011",
+        "Best International Paper Award @ ACG 2012",
+        "Travel Award @ APDW 2012",
+        "Young Investigator Award @ APDW 2012",
+        "Poster of Distinction @ DDW 2013",
+        "Best Poster Award @ ISG 2013",
+        "Best Oral Paper (2nd Prize) @ ISG 2013"
+      ],
+      "publications": [
+        "Benign gastric outlet obstruction – spectrum and management. Tropical Gastroenterology 2011;32(4):259–266.",
+        "An Uncommon Cause of Dysphagia. Dysphagia. 2012 Mar;27(1):145-7.",
+        "Hepatic artery aneurysm: a rare presentation as cholangitis and portal hypertension. Gastrointest Endosc. 2012 Jan;75(1):190.",
+        "Lamotrigine Induced Vanishing Bile Duct Syndrome in a Child. J Pediatr Gastroenterol Nutr. 2012 Dec;55(6):e147-8.",
+        "Fluid replacement in acute pancreatitis. Nutritional Therapy & Metabolism 2012; 30(2);67-78.",
+        "Biliary stent with a tied suture! Gastrointest Endosc. 2012 Sep;76(3):669-71.",
+        "Celiac Disease Complicated By Lymphoma: A Case Report. Trop Gastroenterol. 2014 Jan-Mar;35(1):55-6.",
+        "Celiac disease presenting as recurrent pancreatitis and pseudocyst. JOP. 2012 Sep 10;13(5):533-5.",
+        "Prospective validation of 4-category classification of acute pancreatitis severity. Pancreas. 2013 Apr;42(3):392-6.",
+        "Dynamic nature of organ failure in severe acute pancreatitis. HPB (Oxford). 2013 Jul;15(7):523-8.",
+        "Biodegradable stents: truly biodegradable with good tissue harmony. Endoscopy. 2013 May;45 Suppl 2:E116-7.",
+        "Endoscopic ultrasound assisted etiological localization in acute pancreatitis. Endosc Ultrasound 2013;2:162-4.",
+        "Stents for benign and malignant esophageal strictures. Ann N Y Acad Sci. 2013 Oct;1300:119-43.",
+        "Implementation of the Asia-Pacific Guidelines of Obesity Classification on the APACHEO Scoring System. Dig Dis Sci. 2014 Jun;59(6):1316-21.",
+        "Hypotension in the First Week of Acute Pancreatitis and APACHE II Score Predict Development of Infected Pancreatic Necrosis. Dig Dis Sci. 2015 Feb;60(2):537-42.",
+        "Mega stents - New option for management of leaks following laparoscopic sleeve gastrectomy. Endoscopy. 2014;46 Suppl 1 UCTN:E49-50.",
+        "Role of 13NH3 PET/CT in delineating pancreatic necrosis in acute pancreatitis. Pancreatology. 2014 May-Jun;14(3):154-8.",
+        "Utility of narrow band imaging in predicting histology in celiac disease. Indian J Gastroenterol. 2020 Aug;39(4):370-376.",
+        "Pancreatic fluid collections: What is the ideal imaging technique? World J Gastroenterol. 2015 Dec 28;21(48):13403-10."
+      ],
+      "awards": [
+        " VAIDYA RATNA AWARD in Sankranti Puraskar 2015 by Suman Art Theaters for services rendered in the field of gastroenterology ",
+        "NATIONAL ITEGRATION AWARD on the eve of republic day 2015 for services rendered in the field of gastroenterology "
+      ],
+      "patientTestimonials": [
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Bob Johnson",
+          "testimonial": "I highly recommend Dr. Sreekanth for his expertise and kindness.",
+          "rating": 4.9
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        }
+      ],
+      "gallery": [
+        {
+          "image": "https://example.com/gallery1.jpg",
+          "caption": "Dr. Appasani receiving an award for his research work."
+        },
+        {
+          "image": "https://example.com/gallery2.jpg",
+          "caption": "Speaking at an international medical conference."
+        },
+        {
+          "image": "https://example.com/gallery3.jpg",
+          "caption": "During a live endoscopy workshop."
+        }
+      ]
     },
     {
       "name": "Dr Spoorthi Kolla",
       "qualifications": "M.D (Int. Med), D.M (Med.Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
       "registrationNumber": "TSMC/FMR/79477",
-      "profileImage": "https://picsum.photos/seed/picsum/800/700"
+      "profileImage": "https://picsum.photos/seed/picsum/800/700",
+      "achievements": [
+        "Secured 1st rank in schooling from L.K.G. to 10th std",
+        "Stood 1st in the college during Intermediate Education",
+        "Secured 52nd rank in Medical Entrance in 1st attempt - 1995",
+        "Best outgoing student of the 1997 batch – Andhra Medical College",
+        "Secured 1st rank in NIMSET (MD Entrance) in 1st attempt - 2003",
+        "Secured 1st rank in All India PGI entrance for DM gastroenterology – 2008",
+        "'10' Gold Medals during Graduation in Andhra Medical College",
+        "Best poster award in small bowel section @ ISGCON 2010",
+        "JGH Travel award @ APDW 2011",
+        "Presidential Poster Award @ ACG 2011",
+        "Best Oral Paper @ ISGCON 2011",
+        "Best International Paper Award @ ACG 2012",
+        "Travel Award @ APDW 2012",
+        "Young Investigator Award @ APDW 2012",
+        "Poster of Distinction @ DDW 2013",
+        "Best Poster Award @ ISG 2013",
+        "Best Oral Paper (2nd Prize) @ ISG 2013"
+      ],
+      "publications": [
+        "Benign gastric outlet obstruction – spectrum and management. Tropical Gastroenterology 2011;32(4):259–266.",
+        "An Uncommon Cause of Dysphagia. Dysphagia. 2012 Mar;27(1):145-7.",
+        "Hepatic artery aneurysm: a rare presentation as cholangitis and portal hypertension. Gastrointest Endosc. 2012 Jan;75(1):190.",
+        "Lamotrigine Induced Vanishing Bile Duct Syndrome in a Child. J Pediatr Gastroenterol Nutr. 2012 Dec;55(6):e147-8.",
+        "Fluid replacement in acute pancreatitis. Nutritional Therapy & Metabolism 2012; 30(2);67-78.",
+        "Biliary stent with a tied suture! Gastrointest Endosc. 2012 Sep;76(3):669-71.",
+        "Celiac Disease Complicated By Lymphoma: A Case Report. Trop Gastroenterol. 2014 Jan-Mar;35(1):55-6.",
+        "Celiac disease presenting as recurrent pancreatitis and pseudocyst. JOP. 2012 Sep 10;13(5):533-5.",
+        "Prospective validation of 4-category classification of acute pancreatitis severity. Pancreas. 2013 Apr;42(3):392-6.",
+        "Dynamic nature of organ failure in severe acute pancreatitis. HPB (Oxford). 2013 Jul;15(7):523-8.",
+        "Biodegradable stents: truly biodegradable with good tissue harmony. Endoscopy. 2013 May;45 Suppl 2:E116-7.",
+        "Endoscopic ultrasound assisted etiological localization in acute pancreatitis. Endosc Ultrasound 2013;2:162-4.",
+        "Stents for benign and malignant esophageal strictures. Ann N Y Acad Sci. 2013 Oct;1300:119-43.",
+        "Implementation of the Asia-Pacific Guidelines of Obesity Classification on the APACHEO Scoring System. Dig Dis Sci. 2014 Jun;59(6):1316-21.",
+        "Hypotension in the First Week of Acute Pancreatitis and APACHE II Score Predict Development of Infected Pancreatic Necrosis. Dig Dis Sci. 2015 Feb;60(2):537-42.",
+        "Mega stents - New option for management of leaks following laparoscopic sleeve gastrectomy. Endoscopy. 2014;46 Suppl 1 UCTN:E49-50.",
+        "Role of 13NH3 PET/CT in delineating pancreatic necrosis in acute pancreatitis. Pancreatology. 2014 May-Jun;14(3):154-8.",
+        "Utility of narrow band imaging in predicting histology in celiac disease. Indian J Gastroenterol. 2020 Aug;39(4):370-376.",
+        "Pancreatic fluid collections: What is the ideal imaging technique? World J Gastroenterol. 2015 Dec 28;21(48):13403-10."
+      ],
+      "awards": [
+        " VAIDYA RATNA AWARD in Sankranti Puraskar 2015 by Suman Art Theaters for services rendered in the field of gastroenterology ",
+        "NATIONAL ITEGRATION AWARD on the eve of republic day 2015 for services rendered in the field of gastroenterology "
+      ],
+      "patientTestimonials": [
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Bob Johnson",
+          "testimonial": "I highly recommend Dr. Sreekanth for his expertise and kindness.",
+          "rating": 4.9
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        }
+      ],
+      "gallery": [
+        {
+          "image": "https://example.com/gallery1.jpg",
+          "caption": "Dr. Appasani receiving an award for his research work."
+        },
+        {
+          "image": "https://example.com/gallery2.jpg",
+          "caption": "Speaking at an international medical conference."
+        },
+        {
+          "image": "https://example.com/gallery3.jpg",
+          "caption": "During a live endoscopy workshop."
+        }
+      ]
     },
     {
       "name": "Dr. Venu Gongati",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
       "registrationNumber": "APMC/FMR/80134",
-      "profileImage": "https://picsum.photos/seed/picsum/800/700"
+      "profileImage": "https://picsum.photos/seed/picsum/800/700",
+      "achievements": [
+        "Secured 1st rank in schooling from L.K.G. to 10th std",
+        "Stood 1st in the college during Intermediate Education",
+        "Secured 52nd rank in Medical Entrance in 1st attempt - 1995",
+        "Best outgoing student of the 1997 batch – Andhra Medical College",
+        "Secured 1st rank in NIMSET (MD Entrance) in 1st attempt - 2003",
+        "Secured 1st rank in All India PGI entrance for DM gastroenterology – 2008",
+        "'10' Gold Medals during Graduation in Andhra Medical College",
+        "Best poster award in small bowel section @ ISGCON 2010",
+        "JGH Travel award @ APDW 2011",
+        "Presidential Poster Award @ ACG 2011",
+        "Best Oral Paper @ ISGCON 2011",
+        "Best International Paper Award @ ACG 2012",
+        "Travel Award @ APDW 2012",
+        "Young Investigator Award @ APDW 2012",
+        "Poster of Distinction @ DDW 2013",
+        "Best Poster Award @ ISG 2013",
+        "Best Oral Paper (2nd Prize) @ ISG 2013"
+      ],
+      "publications": [
+        "Benign gastric outlet obstruction – spectrum and management. Tropical Gastroenterology 2011;32(4):259–266.",
+        "An Uncommon Cause of Dysphagia. Dysphagia. 2012 Mar;27(1):145-7.",
+        "Hepatic artery aneurysm: a rare presentation as cholangitis and portal hypertension. Gastrointest Endosc. 2012 Jan;75(1):190.",
+        "Lamotrigine Induced Vanishing Bile Duct Syndrome in a Child. J Pediatr Gastroenterol Nutr. 2012 Dec;55(6):e147-8.",
+        "Fluid replacement in acute pancreatitis. Nutritional Therapy & Metabolism 2012; 30(2);67-78.",
+        "Biliary stent with a tied suture! Gastrointest Endosc. 2012 Sep;76(3):669-71.",
+        "Celiac Disease Complicated By Lymphoma: A Case Report. Trop Gastroenterol. 2014 Jan-Mar;35(1):55-6.",
+        "Celiac disease presenting as recurrent pancreatitis and pseudocyst. JOP. 2012 Sep 10;13(5):533-5.",
+        "Prospective validation of 4-category classification of acute pancreatitis severity. Pancreas. 2013 Apr;42(3):392-6.",
+        "Dynamic nature of organ failure in severe acute pancreatitis. HPB (Oxford). 2013 Jul;15(7):523-8.",
+        "Biodegradable stents: truly biodegradable with good tissue harmony. Endoscopy. 2013 May;45 Suppl 2:E116-7.",
+        "Endoscopic ultrasound assisted etiological localization in acute pancreatitis. Endosc Ultrasound 2013;2:162-4.",
+        "Stents for benign and malignant esophageal strictures. Ann N Y Acad Sci. 2013 Oct;1300:119-43.",
+        "Implementation of the Asia-Pacific Guidelines of Obesity Classification on the APACHEO Scoring System. Dig Dis Sci. 2014 Jun;59(6):1316-21.",
+        "Hypotension in the First Week of Acute Pancreatitis and APACHE II Score Predict Development of Infected Pancreatic Necrosis. Dig Dis Sci. 2015 Feb;60(2):537-42.",
+        "Mega stents - New option for management of leaks following laparoscopic sleeve gastrectomy. Endoscopy. 2014;46 Suppl 1 UCTN:E49-50.",
+        "Role of 13NH3 PET/CT in delineating pancreatic necrosis in acute pancreatitis. Pancreatology. 2014 May-Jun;14(3):154-8.",
+        "Utility of narrow band imaging in predicting histology in celiac disease. Indian J Gastroenterol. 2020 Aug;39(4):370-376.",
+        "Pancreatic fluid collections: What is the ideal imaging technique? World J Gastroenterol. 2015 Dec 28;21(48):13403-10."
+      ],
+      "awards": [
+        " VAIDYA RATNA AWARD in Sankranti Puraskar 2015 by Suman Art Theaters for services rendered in the field of gastroenterology ",
+        "NATIONAL ITEGRATION AWARD on the eve of republic day 2015 for services rendered in the field of gastroenterology "
+      ],
+      "patientTestimonials": [
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Bob Johnson",
+          "testimonial": "I highly recommend Dr. Sreekanth for his expertise and kindness.",
+          "rating": 4.9
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        },
+        {
+          "name": "Alice Smith",
+          "testimonial": "Dr. Appasani provided excellent care and guidance throughout my treatment.",
+          "rating": 5
+        }
+      ],
+      "gallery": [
+        {
+          "image": "https://example.com/gallery1.jpg",
+          "caption": "Dr. Appasani receiving an award for his research work."
+        },
+        {
+          "image": "https://example.com/gallery2.jpg",
+          "caption": "Speaking at an international medical conference."
+        },
+        {
+          "image": "https://example.com/gallery3.jpg",
+          "caption": "During a live endoscopy workshop."
+        }
+      ]
     },
     {
       "name": "Dr. Viswanath Kamisetty",
@@ -207,7 +609,7 @@
       "rating": 4
     }
   ],
-  "items": [
+  "procedures": [
     {
       "icon": "https://picsum.photos/seed/picsum/800/400",
       "title": "POEM (Peroral Endoscopic Myotomy)",
@@ -1878,9 +2280,7 @@
           "content": [
             "The pancreas is a vital organ that works quietly behind the scenes, regulating digestion and blood sugar levels. When something goes wrong, the effects can be life-altering, from persistent pain to life-threatening conditions.",
             "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, our dedicated Pancreas Clinic in Hyderabad offers specialized care for a wide range of pancreatic conditions. From early detection to advanced treatments, we’re here to give your pancreas the attention it deserves."
-            
           ],
-        
           "conditions": {
             "heading": "Conditions We Treat at the Pancreas Clinic",
             "lists": [
@@ -1940,7 +2340,7 @@
               ]
             }
           },
-          "treatments_mutiple":{
+          "treatments_mutiple": {
             "heading": "Modern Treatments for Pancreatic Disorders at KIMS Advanced Gastroenterology & Endoscopy - KAGE",
             "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we combine medical innovation with personalized care to create treatment plans tailored for you.",
             "treatments_list": [
@@ -1991,7 +2391,6 @@
               }
             ]
           },
-          
           "why_choose": {
             "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE’s Pancreas Clinic in Hyderabad?",
             "steps": [
@@ -4438,313 +4837,311 @@
             }
           }
         },
-          {
-            "page": "Irritable Bowel Syndrome (IBS)",
-            "title": "Irritable Bowel Syndrome (IBS)",
-            "sections": {
-              "introduction": {
-                "heading": "Overview",
-                "description": "IBS is a functional disorder affecting the large intestine, leading to abdominal pain, bloating, and altered bowel habits. Though the exact cause is unknown, IBS is treatable with a combination of lifestyle changes, medications, and stress management."
-              },
-              "symptoms": {
-                "heading": "Symptoms",
-                "list": [
-                  {
-                    "heading": "Abdominal pain or cramping",
-                    "description": "Pain or discomfort, typically relieved after bowel movements."
-                  },
-                  {
-                    "heading": "Chronic diarrhea or constipation",
-                    "description": "Persistent or alternating diarrhea and constipation are hallmark symptoms."
-                  },
-                  {
-                    "heading": "Bloating and excessive gas",
-                    "description": "A frequent sensation of fullness and increased gas production."
-                  },
-                  {
-                    "heading": "Mucus in stool",
-                    "description": "Noticeable mucus discharge during bowel movements."
-                  }
-                ]
-              },
-              "causes": {
-                "heading": "Causes and Risk Factors",
-                "list": [
-                  {
-                    "heading": "Gut-brain interaction disturbances",
-                    "description": "Abnormal communication between the brain and gut affects bowel function."
-                  },
-                  {
-                    "heading": "Food sensitivities or intolerance",
-                    "description": "Certain foods can trigger or worsen symptoms in sensitive individuals."
-                  },
-                  {
-                    "heading": "Stress and mental health issues",
-                    "description": "Stress, anxiety, or depression can exacerbate IBS symptoms."
-                  },
-                  {
-                    "heading": "Family history of IBS",
-                    "description": "A genetic predisposition may increase the likelihood of developing IBS."
-                  }
-                ]
-              },
-              "complications": {
-                "heading": "Complications",
-                "list": [
-                  {
-                    "heading": "Poor quality of life",
-                    "description": "Persistent symptoms can significantly impact daily activities and overall well-being."
-                  },
-                  {
-                    "heading": "Nutritional deficiencies",
-                    "description": "Restricted diets may lead to insufficient nutrient intake."
-                  },
-                  {
-                    "heading": "Increased risk of anxiety or depression",
-                    "description": "The chronic nature of IBS can contribute to mental health challenges."
-                  }
-                ]
-              },
-              "diagnosis": {
-                "heading": "Diagnosis",
-                "list": [
-                  {
-                    "heading": "Exclusion of Other Conditions",
-                    "description": "Tests like blood work, stool analysis, or colonoscopy rule out other GI conditions."
-                  },
-                  {
-                    "heading": "Rome IV Criteria",
-                    "description": "Diagnostic guidelines focus on symptom patterns and duration."
-                  }
-                ]
-              },
-              "treatment": {
-                "heading": "Treatment Options",
-                "list": [
-                  {
-                    "heading": "Dietary Changes",
-                    "description": "A low FODMAP diet helps reduce triggers and alleviate symptoms."
-                  },
-                  {
-                    "heading": "Medications",
-                    "description": "Includes antispasmodics, fiber supplements, and drugs for diarrhea or constipation."
-                  },
-                  {
-                    "heading": "Lifestyle Modifications",
-                    "description": "Stress reduction, regular exercise, and improved sleep support overall health."
-                  }
-                ]
-              },
-              "why_to_choose": {
-                "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for IBS Management?",
-                "description": "Experienced gastroenterologists specialize in functional GI disorders. Personalized diet plans by expert dietitians. Multidisciplinary care ensures holistic symptom management."
-              }
-            }
-          },
-          {
-            "page": "Chronic Constipation",
-            "title": "Chronic Constipation",
-            "sections": {
-              "introduction": {
-                "heading": "Overview",
-                "description": "Chronic constipation is characterized by infrequent bowel movements or difficulty passing stool. It can significantly impact daily life and may indicate an underlying motility disorder."
-              },
-              "symptoms": {
-                "heading": "Symptoms",
-                "list": [
-                  {
-                    "heading": "Fewer than three bowel movements per week",
-                    "description": "An infrequent pattern of bowel movements compared to normal."
-                  },
-                  {
-                    "heading": "Hard or lumpy stools",
-                    "description": "Stools that are difficult to pass due to their texture."
-                  },
-                  {
-                    "heading": "Straining during bowel movements",
-                    "description": "Excessive effort required to pass stool."
-                  },
-                  {
-                    "heading": "Incomplete evacuation sensation",
-                    "description": "A feeling that the bowel hasn’t completely emptied."
-                  }
-                ]
-              },
-              "causes": {
-                "heading": "Causes and Risk Factors",
-                "list": [
-                  {
-                    "heading": "Low-fiber diet or dehydration",
-                    "description": "Inadequate dietary fiber and water intake contribute to hard stools."
-                  },
-                  {
-                    "heading": "Sedentary lifestyle",
-                    "description": "Lack of physical activity slows down bowel movements."
-                  },
-                  {
-                    "heading": "Medications like opioids or antidepressants",
-                    "description": "Certain drugs can slow intestinal motility, worsening constipation."
-                  },
-                  {
-                    "heading": "Pelvic floor dysfunction",
-                    "description": "Impaired coordination of pelvic muscles during bowel movements."
-                  }
-                ]
-              },
-              "complications": {
-                "heading": "Complications",
-                "list": [
-                  {
-                    "heading": "Hemorrhoids",
-                    "description": "Swollen blood vessels around the anus caused by excessive straining."
-                  },
-                  {
-                    "heading": "Anal fissures",
-                    "description": "Painful tears in the skin around the anus due to passing hard stools."
-                  },
-                  {
-                    "heading": "Rectal prolapse",
-                    "description": "The rectum protrudes outside the anus from severe straining."
-                  }
-                ]
-              },
-              "diagnosis": {
-                "heading": "Diagnosis",
-                "list": [
-                  {
-                    "heading": "Anorectal Manometry",
-                    "description": "Assesses the function of pelvic floor muscles and rectal coordination."
-                  },
-                  {
-                    "heading": "Colonoscopy",
-                    "description": "Examines the colon to rule out structural abnormalities."
-                  },
-                  {
-                    "heading": "Transit Studies",
-                    "description": "Measures how quickly food moves through the colon."
-                  }
-                ]
-              },
-              "treatment": {
-                "heading": "Treatment Options",
-                "list": [
-                  {
-                    "heading": "Lifestyle Changes",
-                    "description": "Increasing fiber and water intake, combined with regular exercise."
-                  },
-                  {
-                    "heading": "Medications",
-                    "description": "Laxatives, stool softeners, or prescription motility agents help manage symptoms."
-                  },
-                  {
-                    "heading": "Pelvic Floor Rehabilitation",
-                    "description": "Biofeedback therapy to improve muscle coordination during defecation."
-                  }
-                ]
-              },
-              "why_to_choose": {
-                "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for Constipation Management?",
-                "description": "Comprehensive testing identifies the root causes of constipation. Expertise in managing pelvic floor dysfunction. Holistic care tailored for lasting symptom relief."
-              }
-            }
-          },
-          {
-            "page": "Fecal Incontinence",
-            "title": "Fecal Incontinence: Regaining Control and Confidence",
-            "sections": {
-              "introduction": {
-                "heading": "Overview",
-                "description": "Fecal incontinence is the inability to control bowel movements, leading to unintentional leakage. This condition can severely affect emotional and physical well-being but is treatable."
-              },
-              "symptoms": {
-                "heading": "Symptoms",
-                "list": [
-                  {
-                    "heading": "Unintentional leakage of stool",
-                    "description": "Difficulty controlling bowel movements resulting in stool leakage."
-                  },
-                  {
-                    "heading": "Urgency to defecate",
-                    "description": "A sudden and strong need to have a bowel movement."
-                  },
-                  {
-                    "heading": "Gas or liquid stool leakage",
-                    "description": "Involuntary release of gas or liquid stool."
-                  }
-                ]
-              },
-              "causes": {
-                "heading": "Causes and Risk Factors",
-                "list": [
-                  {
-                    "heading": "Weak pelvic floor muscles",
-                    "description": "Reduced muscle strength compromises control over bowel movements."
-                  },
-                  {
-                    "heading": "Nerve damage from surgery or childbirth",
-                    "description": "Injuries to nerves controlling the anal muscles can lead to incontinence."
-                  },
-                  {
-                    "heading": "Chronic diarrhea",
-                    "description": "Frequent loose stools can weaken the ability to control bowel movements."
-                  }
-                ]
-              },
-              "complications": {
-                "heading": "Complications",
-                "list": [
-                  {
-                    "heading": "Skin irritation around the anus",
-                    "description": "Prolonged exposure to stool causes redness and discomfort."
-                  },
-                  {
-                    "heading": "Emotional distress or social withdrawal",
-                    "description": "The embarrassment of symptoms can impact mental well-being and social life."
-                  }
-                ]
-              },
-              "diagnosis": {
-                "heading": "Diagnosis",
-                "list": [
-                  {
-                    "heading": "Anorectal Manometry",
-                    "description": "Measures the strength and coordination of anal muscles."
-                  },
-                  {
-                    "heading": "Endoanal Ultrasound",
-                    "description": "Provides a detailed view of the anal sphincter structure."
-                  },
-                  {
-                    "heading": "MRI Defecography",
-                    "description": "Uses advanced imaging to assess pelvic floor mechanics during defecation."
-                  }
-                ]
-              },
-              "treatment": {
-                "heading": "Treatment Options",
-                "list": [
-                  {
-                    "heading": "Lifestyle Modifications",
-                    "description": "Includes diet changes to improve stool consistency and avoid triggers."
-                  },
-                  {
-                    "heading": "Pelvic Floor Therapy",
-                    "description": "Exercises and biofeedback to strengthen and improve muscle control."
-                  },
-                  {
-                    "heading": "Surgical Interventions",
-                    "description": "Procedures like sphincter repair or sacral nerve stimulation for severe cases."
-                  }
-                ]
-              },
-              "why_to_choose": {
-                "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for Fecal Incontinence Treatment?",
-                "description": "Access to the latest diagnostic techniques. Expertise in minimally invasive and surgical solutions. Compassionate, patient-centered care tailored to individual needs."
-              }
+        {
+          "page": "Irritable Bowel Syndrome (IBS)",
+          "title": "Irritable Bowel Syndrome (IBS)",
+          "sections": {
+            "introduction": {
+              "heading": "Overview",
+              "description": "IBS is a functional disorder affecting the large intestine, leading to abdominal pain, bloating, and altered bowel habits. Though the exact cause is unknown, IBS is treatable with a combination of lifestyle changes, medications, and stress management."
+            },
+            "symptoms": {
+              "heading": "Symptoms",
+              "list": [
+                {
+                  "heading": "Abdominal pain or cramping",
+                  "description": "Pain or discomfort, typically relieved after bowel movements."
+                },
+                {
+                  "heading": "Chronic diarrhea or constipation",
+                  "description": "Persistent or alternating diarrhea and constipation are hallmark symptoms."
+                },
+                {
+                  "heading": "Bloating and excessive gas",
+                  "description": "A frequent sensation of fullness and increased gas production."
+                },
+                {
+                  "heading": "Mucus in stool",
+                  "description": "Noticeable mucus discharge during bowel movements."
+                }
+              ]
+            },
+            "causes": {
+              "heading": "Causes and Risk Factors",
+              "list": [
+                {
+                  "heading": "Gut-brain interaction disturbances",
+                  "description": "Abnormal communication between the brain and gut affects bowel function."
+                },
+                {
+                  "heading": "Food sensitivities or intolerance",
+                  "description": "Certain foods can trigger or worsen symptoms in sensitive individuals."
+                },
+                {
+                  "heading": "Stress and mental health issues",
+                  "description": "Stress, anxiety, or depression can exacerbate IBS symptoms."
+                },
+                {
+                  "heading": "Family history of IBS",
+                  "description": "A genetic predisposition may increase the likelihood of developing IBS."
+                }
+              ]
+            },
+            "complications": {
+              "heading": "Complications",
+              "list": [
+                {
+                  "heading": "Poor quality of life",
+                  "description": "Persistent symptoms can significantly impact daily activities and overall well-being."
+                },
+                {
+                  "heading": "Nutritional deficiencies",
+                  "description": "Restricted diets may lead to insufficient nutrient intake."
+                },
+                {
+                  "heading": "Increased risk of anxiety or depression",
+                  "description": "The chronic nature of IBS can contribute to mental health challenges."
+                }
+              ]
+            },
+            "diagnosis": {
+              "heading": "Diagnosis",
+              "list": [
+                {
+                  "heading": "Exclusion of Other Conditions",
+                  "description": "Tests like blood work, stool analysis, or colonoscopy rule out other GI conditions."
+                },
+                {
+                  "heading": "Rome IV Criteria",
+                  "description": "Diagnostic guidelines focus on symptom patterns and duration."
+                }
+              ]
+            },
+            "treatment": {
+              "heading": "Treatment Options",
+              "list": [
+                {
+                  "heading": "Dietary Changes",
+                  "description": "A low FODMAP diet helps reduce triggers and alleviate symptoms."
+                },
+                {
+                  "heading": "Medications",
+                  "description": "Includes antispasmodics, fiber supplements, and drugs for diarrhea or constipation."
+                },
+                {
+                  "heading": "Lifestyle Modifications",
+                  "description": "Stress reduction, regular exercise, and improved sleep support overall health."
+                }
+              ]
+            },
+            "why_to_choose": {
+              "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for IBS Management?",
+              "description": "Experienced gastroenterologists specialize in functional GI disorders. Personalized diet plans by expert dietitians. Multidisciplinary care ensures holistic symptom management."
             }
           }
-          
-        
+        },
+        {
+          "page": "Chronic Constipation",
+          "title": "Chronic Constipation",
+          "sections": {
+            "introduction": {
+              "heading": "Overview",
+              "description": "Chronic constipation is characterized by infrequent bowel movements or difficulty passing stool. It can significantly impact daily life and may indicate an underlying motility disorder."
+            },
+            "symptoms": {
+              "heading": "Symptoms",
+              "list": [
+                {
+                  "heading": "Fewer than three bowel movements per week",
+                  "description": "An infrequent pattern of bowel movements compared to normal."
+                },
+                {
+                  "heading": "Hard or lumpy stools",
+                  "description": "Stools that are difficult to pass due to their texture."
+                },
+                {
+                  "heading": "Straining during bowel movements",
+                  "description": "Excessive effort required to pass stool."
+                },
+                {
+                  "heading": "Incomplete evacuation sensation",
+                  "description": "A feeling that the bowel hasn’t completely emptied."
+                }
+              ]
+            },
+            "causes": {
+              "heading": "Causes and Risk Factors",
+              "list": [
+                {
+                  "heading": "Low-fiber diet or dehydration",
+                  "description": "Inadequate dietary fiber and water intake contribute to hard stools."
+                },
+                {
+                  "heading": "Sedentary lifestyle",
+                  "description": "Lack of physical activity slows down bowel movements."
+                },
+                {
+                  "heading": "Medications like opioids or antidepressants",
+                  "description": "Certain drugs can slow intestinal motility, worsening constipation."
+                },
+                {
+                  "heading": "Pelvic floor dysfunction",
+                  "description": "Impaired coordination of pelvic muscles during bowel movements."
+                }
+              ]
+            },
+            "complications": {
+              "heading": "Complications",
+              "list": [
+                {
+                  "heading": "Hemorrhoids",
+                  "description": "Swollen blood vessels around the anus caused by excessive straining."
+                },
+                {
+                  "heading": "Anal fissures",
+                  "description": "Painful tears in the skin around the anus due to passing hard stools."
+                },
+                {
+                  "heading": "Rectal prolapse",
+                  "description": "The rectum protrudes outside the anus from severe straining."
+                }
+              ]
+            },
+            "diagnosis": {
+              "heading": "Diagnosis",
+              "list": [
+                {
+                  "heading": "Anorectal Manometry",
+                  "description": "Assesses the function of pelvic floor muscles and rectal coordination."
+                },
+                {
+                  "heading": "Colonoscopy",
+                  "description": "Examines the colon to rule out structural abnormalities."
+                },
+                {
+                  "heading": "Transit Studies",
+                  "description": "Measures how quickly food moves through the colon."
+                }
+              ]
+            },
+            "treatment": {
+              "heading": "Treatment Options",
+              "list": [
+                {
+                  "heading": "Lifestyle Changes",
+                  "description": "Increasing fiber and water intake, combined with regular exercise."
+                },
+                {
+                  "heading": "Medications",
+                  "description": "Laxatives, stool softeners, or prescription motility agents help manage symptoms."
+                },
+                {
+                  "heading": "Pelvic Floor Rehabilitation",
+                  "description": "Biofeedback therapy to improve muscle coordination during defecation."
+                }
+              ]
+            },
+            "why_to_choose": {
+              "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for Constipation Management?",
+              "description": "Comprehensive testing identifies the root causes of constipation. Expertise in managing pelvic floor dysfunction. Holistic care tailored for lasting symptom relief."
+            }
+          }
+        },
+        {
+          "page": "Fecal Incontinence",
+          "title": "Fecal Incontinence: Regaining Control and Confidence",
+          "sections": {
+            "introduction": {
+              "heading": "Overview",
+              "description": "Fecal incontinence is the inability to control bowel movements, leading to unintentional leakage. This condition can severely affect emotional and physical well-being but is treatable."
+            },
+            "symptoms": {
+              "heading": "Symptoms",
+              "list": [
+                {
+                  "heading": "Unintentional leakage of stool",
+                  "description": "Difficulty controlling bowel movements resulting in stool leakage."
+                },
+                {
+                  "heading": "Urgency to defecate",
+                  "description": "A sudden and strong need to have a bowel movement."
+                },
+                {
+                  "heading": "Gas or liquid stool leakage",
+                  "description": "Involuntary release of gas or liquid stool."
+                }
+              ]
+            },
+            "causes": {
+              "heading": "Causes and Risk Factors",
+              "list": [
+                {
+                  "heading": "Weak pelvic floor muscles",
+                  "description": "Reduced muscle strength compromises control over bowel movements."
+                },
+                {
+                  "heading": "Nerve damage from surgery or childbirth",
+                  "description": "Injuries to nerves controlling the anal muscles can lead to incontinence."
+                },
+                {
+                  "heading": "Chronic diarrhea",
+                  "description": "Frequent loose stools can weaken the ability to control bowel movements."
+                }
+              ]
+            },
+            "complications": {
+              "heading": "Complications",
+              "list": [
+                {
+                  "heading": "Skin irritation around the anus",
+                  "description": "Prolonged exposure to stool causes redness and discomfort."
+                },
+                {
+                  "heading": "Emotional distress or social withdrawal",
+                  "description": "The embarrassment of symptoms can impact mental well-being and social life."
+                }
+              ]
+            },
+            "diagnosis": {
+              "heading": "Diagnosis",
+              "list": [
+                {
+                  "heading": "Anorectal Manometry",
+                  "description": "Measures the strength and coordination of anal muscles."
+                },
+                {
+                  "heading": "Endoanal Ultrasound",
+                  "description": "Provides a detailed view of the anal sphincter structure."
+                },
+                {
+                  "heading": "MRI Defecography",
+                  "description": "Uses advanced imaging to assess pelvic floor mechanics during defecation."
+                }
+              ]
+            },
+            "treatment": {
+              "heading": "Treatment Options",
+              "list": [
+                {
+                  "heading": "Lifestyle Modifications",
+                  "description": "Includes diet changes to improve stool consistency and avoid triggers."
+                },
+                {
+                  "heading": "Pelvic Floor Therapy",
+                  "description": "Exercises and biofeedback to strengthen and improve muscle control."
+                },
+                {
+                  "heading": "Surgical Interventions",
+                  "description": "Procedures like sphincter repair or sacral nerve stimulation for severe cases."
+                }
+              ]
+            },
+            "why_to_choose": {
+              "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for Fecal Incontinence Treatment?",
+              "description": "Access to the latest diagnostic techniques. Expertise in minimally invasive and surgical solutions. Compassionate, patient-centered care tailored to individual needs."
+            }
+          }
+        }
       ]
     },
     {
@@ -4892,7 +5289,7 @@
           }
         }
       },
-      "subpages":[
+      "subpages": [
         {
           "page": "Chronic Liver Disease",
           "title": "Chronic Liver Disease",
@@ -6354,16 +6751,6 @@
             }
           }
         }
-        
-        
-        
-        
-        
-        
-        
-
-        
-        
       ]
     }
   ]

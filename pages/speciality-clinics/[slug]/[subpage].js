@@ -21,10 +21,12 @@ import {
   CardMedia,
   ListItemIcon,
   CardActionArea,
+  Breadcrumbs,
 } from "@mui/material";
 import HealthAndSafetyIcon from "@mui/icons-material/HealthAndSafety";
 import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
 import CheckIcon from "@mui/icons-material/Check"; // Icon for advantages
+import SidebarMenu from "@/compoments/SidebarMenu";
 
 export default function SubServicePage() {
   const router = useRouter();
@@ -146,7 +148,7 @@ export default function SubServicePage() {
               {causesAndRisk.heading}
             </Typography>
           </Grid>
-          {causesAndRisk.list.map((item, index) => (
+          {causesAndRisk?.list?.map((item, index) => (
             <Grid item xs={12} md={4} key={index}>
               <List className="p0">
                 <ListItem className="p0">
@@ -235,214 +237,258 @@ export default function SubServicePage() {
   return (
     <>
       <Header></Header>
-      <Container>
-        {subService?.title && (
-          <Grid item xs={12} sx={{ margin: "40px 0" }}>
-            <Typography
-              variant="h5"
-              gutterBottom
-              sx={{ color: "primary.main" }}
+      <Box
+        sx={{
+          backgroundColor: "#f5f5f5", // Replace with your desired color
+          padding: "10px",
+          borderRadius: "8px",
+        }}
+      >
+        <Container>
+          <Breadcrumbs aria-label="breadcrumb" sx={{ padding: "20px" }}>
+            <Link underline="hover" color="inherit" href="/home">
+              Speciality Clinics
+            </Link>
+            <Link
+              underline="hover"
+              color="inherit"
+              href={`/speciality-clinics/${service.title
+                .replace(/\s+/g, "-")
+                .toLowerCase()}`}
+            >
+              {service.title}
+            </Link>
+            <Link
+              underline="hover"
+              color="text.primary"
+              href="#"
+              aria-current="page"
             >
               {subService?.title}
-            </Typography>
+            </Link>
+          </Breadcrumbs>
+        </Container>
+      </Box>
+      <Container>
+        <Grid container>
+        <Grid item xs={12} md={3}>
+          <SidebarMenu service={service} slug={slug} subService={subService}/>
+       
           </Grid>
-        )}
-        {subService.sections && subService.sections.introduction && (
-          <Grid container>
-            <Grid item xs={12} md={6}>
-              <Typography
-                variant="h5"
-                sx={{ margin: "10px 0", color: "secondary.main" }}
-              >
-                {subService.sections.introduction?.heading}
-              </Typography>
-              <Typography variant="body1">
-                {subService.sections.introduction?.description}
-              </Typography>
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <Box
-                component="img"
-                src={
-                  subService.sections.introduction?.image ||
-                  "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_10_1720786743.jpg"
-                }
-                alt="Introduction Image"
-                width="100%"
-              />
-            </Grid>
-          </Grid>
-        )}
-
-        {subServicelist?.map((item) => {
-          // Access the service information for each item in subServicelist (e.g., "Acute_Pancreatitis")
-          const serviceInfo = subService?.sections?.services_info[item];
-
-          if (serviceInfo) {
-            return (
-              <div key={item}>
-                {serviceInfo?.heading && (
-                  <Grid container>
-                    <Grid item xs={12} md={6}>
-                      <Typography
-                        variant="h5"
-                        sx={{ margin: "10px 0", color: "secondary.main" }}
-                      >
-                        {serviceInfo?.heading}
-                      </Typography>
-                      <Typography variant="body1">
-                        {serviceInfo?.description}
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={12} md={6}>
-                      <Box
-                        component="img"
-                        src={
-                          subService.sections.introduction?.image ||
-                          "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_10_1720786743.jpg"
-                        }
-                        alt="Introduction Image"
-                        width="100%"
-                      />
-                    </Grid>
-                  </Grid>
-                )}
-                <Symptoms symptoms={serviceInfo?.Symptoms} />
-                <CausesAndRisk causesAndRisk={serviceInfo?.Causes_and_Risk} />
-                <Complications complications={serviceInfo?.Complications} />
-              </div>
-            );
-          }
-          return null;
-        })}
-
-        <Symptoms symptoms={subService?.sections?.Symptoms} />
-        <CausesAndRisk causesAndRisk={subService?.sections?.Causes_and_Risk} />
-        <Complications complications={subService?.sections?.Complications} />
-        {subService?.sections?.conditions && (
-          <>
-            <Typography
-              variant="h5"
-              sx={{ margin: "10px 0", color: "secondary.main" }}
-            >
-              {subService?.sections?.conditions.heading}
-            </Typography>
-            <List>
-              {subService?.sections?.conditions?.list?.map((constext, index) => (
-                <ListItem key={index}>
-                  <ListItemIcon>
-                    <MedicalServicesIcon /> {/* Icon for conditions */}
-                  </ListItemIcon>
-                  <Typography variant="body1">{constext}</Typography>
-                 
-                </ListItem>
-              ))}
-            </List>
-          </>
-        )}
-        {subService?.sections?.procedure && (
-          <>
-            <Typography
-              variant="h5"
-              sx={{ margin: "10px 0", color: "secondary.main" }}
-            >
-              {subService?.sections?.procedure.heading}{" "}
-            </Typography>
-            <Typography variant="body1">
-              {subService?.sections?.procedure.description}
-            </Typography>
-          </>
-        )}
-        {subService?.sections?.advantages && (
-          <>
-            <Typography
-              variant="h5"
-              sx={{ margin: "10px 0", color: "secondary.main" }}
-            >
-              {subService?.sections?.advantages?.heading}
-            </Typography>
-            <List>
-              {subService?.sections?.advantages.list.map((advantage, index) => (
-                <ListItem key={index}>
-                  <ListItemIcon>
-                    <CheckIcon /> {/* Icon for advantages */}
-                  </ListItemIcon>
-                  <Typography variant="body1">{advantage}</Typography>
-                </ListItem>
-              ))}
-            </List>
-          </>
-        )}
-        <Diagnosis
-          diagnosis={subService?.sections?.Diagnosis}
-          introduction={subService?.sections?.introduction}
-        />
-
-        {subService?.sections?.Treatment && (
-          <Grid container>
-            <Grid item xs={12} className="p0">
-              <Typography
-                variant="h5"
-                sx={{ margin: "10px 0", color: "secondary.main" }}
-              >
-                {subService.sections.Treatment.heading}
-              </Typography>
-            </Grid>
-            <Grid container>
-              {subService.sections.Treatment.list.map((item, index) => (
-                <Grid item xs={12} md={4} key={index} className="p0">
-                  <List className="p0">
-                    <ListItem className="p0">
-                      <ListItemIcon
-                        sx={{ padding: "0px !important", minWidth: "30px" }}
-                      >
-                        <HealthAndSafetyIcon className="p0" />
-                      </ListItemIcon>
-                      <ListItemText
-                        className="p0"
-                        primary={item.heading}
-                        secondary={item.description}
-                      />
-                    </ListItem>
-                  </List>
-                </Grid>
-              ))}
-            </Grid>
-          </Grid>
-        )}
-
-        {subService?.sections?.Why_to_choose && (
-          <Grid container spacing={2} sx={{ margin: "30px 0" }}>
-            <Grid item xs={12} className="p0">
-              <Typography
-                variant="h5"
-                sx={{ margin: "10px 0", color: "secondary.main" }}
-              >
-                {subService.sections.Why_to_choose?.heading}
-              </Typography>
-            </Grid>
-            {subService.sections.Why_to_choose?.list?.map((item, index) => (
-              <Grid item xs={12} sm={6} md={3} key={index} spacing={2}>
-                <Card>
-                  <CardMedia
-                    component="img"
-                    height="140"
-                    image="https://via.placeholder.com/150"
-                    alt={item.heading}
-                  />
-                  <CardContent>
-                    <Typography variant="h6" component="div">
-                      {item.heading}
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      {item.description}
-                    </Typography>
-                  </CardContent>
-                </Card>
+          <Grid item xs={12} md={9}>
+            {subService?.title && (
+              <Grid item xs={12} sx={{ margin: "40px 0" }}>
+                <Typography
+                  variant="h5"
+                  gutterBottom
+                  sx={{ color: "primary.main" }}
+                >
+                  {subService?.title}
+                </Typography>
               </Grid>
-            ))}
+            )}
+            {subService.sections && subService.sections.introduction && (
+              <Grid container>
+                <Grid item xs={12} md={6}>
+                  <Typography
+                    variant="h5"
+                    sx={{ margin: "10px 0", color: "secondary.main" }}
+                  >
+                    {subService.sections.introduction?.heading}
+                  </Typography>
+                  <Typography variant="body1">
+                    {subService.sections.introduction?.description}
+                  </Typography>
+                </Grid>
+                <Grid item xs={12} md={6}>
+                  <Box
+                    component="img"
+                    src={
+                      subService.sections.introduction?.image ||
+                      "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_10_1720786743.jpg"
+                    }
+                    alt="Introduction Image"
+                    width="100%"
+                  />
+                </Grid>
+              </Grid>
+            )}
+
+            {subServicelist?.map((item) => {
+              // Access the service information for each item in subServicelist (e.g., "Acute_Pancreatitis")
+              const serviceInfo = subService?.sections?.services_info[item];
+
+              if (serviceInfo) {
+                return (
+                  <div key={item}>
+                    {serviceInfo?.heading && (
+                      <Grid container>
+                        <Grid item xs={12} md={6}>
+                          <Typography
+                            variant="h5"
+                            sx={{ margin: "10px 0", color: "secondary.main" }}
+                          >
+                            {serviceInfo?.heading}
+                          </Typography>
+                          <Typography variant="body1">
+                            {serviceInfo?.description}
+                          </Typography>
+                        </Grid>
+                        <Grid item xs={12} md={6}>
+                          <Box
+                            component="img"
+                            src={
+                              subService.sections.introduction?.image ||
+                              "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_10_1720786743.jpg"
+                            }
+                            alt="Introduction Image"
+                            width="100%"
+                          />
+                        </Grid>
+                      </Grid>
+                    )}
+                    <Symptoms symptoms={serviceInfo?.Symptoms} />
+                    <CausesAndRisk
+                      causesAndRisk={serviceInfo?.Causes_and_Risk}
+                    />
+                    <Complications complications={serviceInfo?.Complications} />
+                  </div>
+                );
+              }
+              return null;
+            })}
+
+            <Symptoms symptoms={subService?.sections?.Symptoms} />
+            <CausesAndRisk
+              causesAndRisk={subService?.sections?.Causes_and_Risk}
+            />
+            <Complications
+              complications={subService?.sections?.Complications}
+            />
+            {subService?.sections?.conditions && (
+              <>
+                <Typography
+                  variant="h5"
+                  sx={{ margin: "10px 0", color: "secondary.main" }}
+                >
+                  {subService?.sections?.conditions.heading}
+                </Typography>
+                <List>
+                  {subService?.sections?.conditions?.list?.map(
+                    (constext, index) => (
+                      <ListItem key={index}>
+                        <ListItemIcon>
+                          <MedicalServicesIcon /> {/* Icon for conditions */}
+                        </ListItemIcon>
+                        <Typography variant="body1">{constext}</Typography>
+                      </ListItem>
+                    )
+                  )}
+                </List>
+              </>
+            )}
+            {subService?.sections?.procedure && (
+              <>
+                <Typography
+                  variant="h5"
+                  sx={{ margin: "10px 0", color: "secondary.main" }}
+                >
+                  {subService?.sections?.procedure.heading}{" "}
+                </Typography>
+                <Typography variant="body1">
+                  {subService?.sections?.procedure.description}
+                </Typography>
+              </>
+            )}
+            {subService?.sections?.advantages && (
+              <>
+                <Typography
+                  variant="h5"
+                  sx={{ margin: "10px 0", color: "secondary.main" }}
+                >
+                  {subService?.sections?.advantages?.heading}
+                </Typography>
+                <List>
+                  {subService?.sections?.advantages.list.map(
+                    (advantage, index) => (
+                      <ListItem key={index}>
+                        <ListItemIcon>
+                          <CheckIcon /> {/* Icon for advantages */}
+                        </ListItemIcon>
+                        <Typography variant="body1">{advantage}</Typography>
+                      </ListItem>
+                    )
+                  )}
+                </List>
+              </>
+            )}
+            <Diagnosis
+              diagnosis={subService?.sections?.Diagnosis}
+              introduction={subService?.sections?.introduction}
+            />
+
+            {subService?.sections?.Treatment && (
+              <Grid container>
+                <Grid item xs={12} className="p0">
+                  <Typography
+                    variant="h5"
+                    sx={{ margin: "10px 0", color: "secondary.main" }}
+                  >
+                    {subService.sections.Treatment.heading}
+                  </Typography>
+                </Grid>
+                <Grid container>
+                  {subService.sections.Treatment.list.map((item, index) => (
+                    <Grid item xs={12} md={4} key={index} className="p0">
+                      <List className="p0">
+                        <ListItem className="p0">
+                          <ListItemIcon
+                            sx={{ padding: "0px !important", minWidth: "30px" }}
+                          >
+                            <HealthAndSafetyIcon className="p0" />
+                          </ListItemIcon>
+                          <ListItemText
+                            className="p0"
+                            primary={item.heading}
+                            secondary={item.description}
+                          />
+                        </ListItem>
+                      </List>
+                    </Grid>
+                  ))}
+                </Grid>
+              </Grid>
+            )}
+
+            {subService?.sections?.Why_to_choose && (
+              <Grid container spacing={2} sx={{ margin: "30px 0" }}>
+                <Grid item xs={12} className="p0">
+                  <Typography
+                    variant="h5"
+                    sx={{ margin: "10px 0", color: "secondary.main" }}
+                  >
+                    {subService.sections.Why_to_choose?.heading}
+                  </Typography>
+                </Grid>
+                {subService.sections.Why_to_choose?.list?.map((item, index) => (
+                  <Grid item xs={12} sm={6} md={6} key={index} spacing={2}>
+                    <Card>
+                     
+                      <CardContent>
+                        <Typography variant="h6" component="div">
+                          {item.heading}
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          {item.description}
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                ))}
+              </Grid>
+            )}
           </Grid>
-        )}
+        </Grid>
       </Container>
 
       <Footer></Footer>

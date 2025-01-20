@@ -45,7 +45,7 @@ const Procedures = () => {
   // const doctor="dd"
   console.log(websiteJson.items);
   // Fetch doctor details by matching the name from the JSON data
-  const procedures = websiteJson.items.find(
+  const procedures = websiteJson?.procedures?.find(
     (item) => item.title.replace(/\s+/g, "-").toLowerCase() === slug
   );
 

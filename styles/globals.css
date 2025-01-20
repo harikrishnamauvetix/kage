@@ -12,8 +12,11 @@
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+
+    max-width: 100vw;
+    overflow-x: hidden;
+    padding: 0 !important;
+  
 }
 
 body {
@@ -37,6 +40,19 @@ a {
 }
 .p0{
   padding: 0 !important;
+}
+.sideSubmenu{
+  margin-right: 20px;
+  background-color: #ffc7d6;
+  margin-top: 40px;
+  padding: 0;
+  color: #fff;
+ margin-left: 20px;
+}
+.menulist{
+  height: 500px;
+  overflow:hidden;
+
 }
 
 

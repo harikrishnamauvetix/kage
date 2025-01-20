@@ -39,7 +39,7 @@ import "swiper/css";
 
 const Home = () => {
   return (
-    <div>
+    <div >
       <Header></Header>
       <div>
         <Swiper
@@ -349,7 +349,7 @@ const Home = () => {
                 </Typography>
               </Box>
               <Grid2 container spacing={2}>
-                {websiteJson.items.map((item, index) => (
+                {websiteJson?.procedures?.map((item, index) => (
                   <Grid2 size={{ xs: 12, sm: 6, md: 4 }} key={index}>
                     <Stack
                       direction="column"
