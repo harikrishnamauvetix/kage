@@ -80,7 +80,7 @@
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist, Advanced Therapeutic Endoscopist",
       "registrationNumber": "TSMC/FMR/49190",
-      "profileImage": "imagespublic/Images/doctors/",
+      "profileImage": "Images/doctors/",
       "achievements": [
         "Secured 1st rank in schooling from L.K.G. to 10th std",
         "Stood 1st in the college during Intermediate Education",
@@ -177,7 +177,7 @@
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
       "registrationNumber": "TSMC/FMR/14877",
-      "profileImage": "https://picsum.photos/seed/picsum/800/700",
+      "profileImage": "Images/doctors/dr-harsha.png",
       "achievements": [
         "Secured 1st rank in schooling from L.K.G. to 10th std",
         "Stood 1st in the college during Intermediate Education",
@@ -274,7 +274,7 @@
       "qualifications": "MD (Int. Med), DM (Med. Gastro), Fellowship (IBD AIIMS)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
       "registrationNumber": "APMC/FMR/77039",
-      "profileImage": "https://picsum.photos/seed/picsum/800/700",
+      "profileImage": "Images/doctors/dr-bhaskar.png",
       "achievements": [
         "Secured 1st rank in schooling from L.K.G. to 10th std",
         "Stood 1st in the college during Intermediate Education",
@@ -371,7 +371,7 @@
       "qualifications": "M.D (Int. Med), D.M (Med.Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
       "registrationNumber": "TSMC/FMR/79477",
-      "profileImage": "https://picsum.photos/seed/picsum/800/700",
+      "profileImage": "Images/doctors/dr-spoorthi.png",
       "achievements": [
         "Secured 1st rank in schooling from L.K.G. to 10th std",
         "Stood 1st in the college during Intermediate Education",
@@ -468,7 +468,7 @@
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
       "registrationNumber": "APMC/FMR/80134",
-      "profileImage": "https://picsum.photos/seed/picsum/800/700",
+      "profileImage": "Images/doctors/dr-venu.png",
       "achievements": [
         "Secured 1st rank in schooling from L.K.G. to 10th std",
         "Stood 1st in the college during Intermediate Education",
@@ -565,14 +565,14 @@
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Gastroenterologist & Hepatologist",
       "registrationNumber": "TSMC/FMR/09030",
-      "profileImage": "https://picsum.photos/seed/picsum/800/700"
+      "profileImage": "Images/doctors/dr-viswanath.png"
     },
     {
       "name": "Dr Harsha Vardhan Telaprolu",
       "qualifications": "MD (JIPMER), DM (PIGMER, Chandigarh)",
       "designation": "Consultant Gastroenterologist & Hepatologist, Interventional Endoscopist",
       "registrationNumber": "TSMC/FMR/34378",
-      "profileImage": "https://picsum.photos/seed/picsum/800/700"
+      "profileImage": "Images/doctors/dr-harsha-t.png"
     }
   ],
   "testimonials": [
@@ -6755,3 +6755,4 @@
     }
   ]
 }
+

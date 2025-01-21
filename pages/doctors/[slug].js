@@ -116,12 +116,12 @@ const DoctorDetails = () => {
             sx={{ width: "100%", position: "relative" }}
           >
             {/* Ensure full width */}
-            <Grid size={{ xs: 12, md: 4 }}>
+            <Grid size={{ xs: 12, md: 3 }}>
               <Box sx={{ position: "absolute", marginTop: "-200px" }}>
                 <CardMedia
                   component="img"
-                  height="270"
-                  image={doctor.profileImage}
+                  height="240"
+                  image={`/${doctor.profileImage}`}
                   alt={doctor.name}
                 />
                 <Button

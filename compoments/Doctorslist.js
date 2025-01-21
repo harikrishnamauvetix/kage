@@ -33,7 +33,8 @@ const DoctorsList = () => {
               <CardMedia
                 component="img"
                 height="270"
-                image={doctor.profileImage}
+                image={`/${doctor.profileImage}`}
+             
                 alt={doctor.name}
               />
             </Link>
