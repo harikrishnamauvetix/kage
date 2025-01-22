@@ -9,6 +9,7 @@ const AboutsidebarMenu = ({ service }) => {
 
 console.log(router.route,"currentslug");
   // Define main page and subpage links
+  console.log(service,"pagename")
   const pageLink = `/about/`;
   const isMainPageActive =  router.route && !currentSlug;
   console.log(pageLink,"pagelink");
@@ -34,7 +35,7 @@ console.log(router.route,"currentslug");
                 color={isMainPageActive ? "white" : "textSecondary"}
                 sx={{ fontSize: 14 }}
               >
-                {service?.page || "Main Page"}
+                {service?.page || service?.page}
               </Typography>
             }
           />
