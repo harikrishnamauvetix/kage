@@ -178,11 +178,12 @@
   },
   "doctorsList": [
     {
+      "id":1,
       "name": "Dr Sreekanth Appasani",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist, Advanced Therapeutic Endoscopist",
       "registrationNumber": "TSMC/FMR/49190",
-      "profileImage": "Images/doctors/",
+      "profileImage": "Images/doctors/dr-srikanth.png",
       "achievements": [
         "Secured 1st rank in schooling from L.K.G. to 10th std",
         "Stood 1st in the college during Intermediate Education",
@@ -275,6 +276,7 @@
       ]
     },
     {
+      "id":2 ,
       "name": "Dr Harsha Vardhan Reddy G",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
@@ -372,6 +374,7 @@
       ]
     },
     {
+      "id":3 ,
       "name": "Dr. Bhaskar Kante",
       "qualifications": "MD (Int. Med), DM (Med. Gastro), Fellowship (IBD AIIMS)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
@@ -468,7 +471,8 @@
         }
       ]
     },
-    {
+    { 
+      "id":4 ,
       "name": "Dr Spoorthi Kolla",
       "qualifications": "M.D (Int. Med), D.M (Med.Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
@@ -566,6 +570,7 @@
       ]
     },
     {
+      "id":5,
       "name": "Dr. Venu Gongati",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
@@ -663,6 +668,7 @@
       ]
     },
     {
+      "id":6,
       "name": "Dr. Viswanath Kamisetty",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Gastroenterologist & Hepatologist",
@@ -670,6 +676,7 @@
       "profileImage": "Images/doctors/dr-viswanath.png"
     },
     {
+      "id":7,
       "name": "Dr Harsha Vardhan Telaprolu",
       "qualifications": "MD (JIPMER), DM (PIGMER, Chandigarh)",
       "designation": "Consultant Gastroenterologist & Hepatologist, Interventional Endoscopist",
@@ -814,7 +821,7 @@
       "sections": [
         {
           "heading": "EMR (Endoscopic Mucosal Resection)",
-          "content": "  \n*Precision in Treating Early-Stage GI Tumors*  \n\n#What is EMR?**  \n**Endoscopic Mucosal Resection (EMR)** is a minimally invasive technique used to remove early-stage tumors or abnormal growths from the gastrointestinal (GI) tract. This procedure is performed using advanced endoscopic tools, allowing for the removal of cancerous or pre-cancerous cells without the need for invasive surgery.\n\nAt **KIMS Advanced Gastroenterology & Endoscopy - KAGE**, we prioritize innovation and precision. EMR offers an effective treatment option for a variety of GI tract conditions, including early esophageal, stomach, and colon cancers, as well as non-cancerous polyps. By using EMR, we can provide targeted, effective treatment with minimal discomfort and a faster recovery time."
+          "content": "Precision in Treating Early-Stage GI Tumors*  \n\n#What is EMR?**  \n**Endoscopic Mucosal Resection (EMR)** is a minimally invasive technique used to remove early-stage tumors or abnormal growths from the gastrointestinal (GI) tract. This procedure is performed using advanced endoscopic tools, allowing for the removal of cancerous or pre-cancerous cells without the need for invasive surgery.\n\nAt **KIMS Advanced Gastroenterology & Endoscopy - KAGE**, we prioritize innovation and precision. EMR offers an effective treatment option for a variety of GI tract conditions, including early esophageal, stomach, and colon cancers, as well as non-cancerous polyps. By using EMR, we can provide targeted, effective treatment with minimal discomfort and a faster recovery time."
         },
         {
           "heading": "How EMR Works",
@@ -904,7 +911,7 @@
       "sections": [
         {
           "heading": "ESD (Endoscopic Submucosal Dissection)",
-          "content": "  \n*Advanced Precision in Removing Tumors and Lesions*  \n\n#What is ESD?**  \nEndoscopic Submucosal Dissection (ESD) is a highly advanced, minimally invasive procedure designed to remove tumors, lesions, or early-stage cancers from the gastrointestinal (GI) tract. Unlike traditional techniques, ESD allows for the precise removal of larger lesions and tumors in a single piece, reducing the need for more invasive surgery.\n\nAt KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are proud to offer this state-of-the-art procedure, using the latest technology to deliver effective, minimally invasive treatment. Whether it's for benign growths or early-stage cancer, ESD offers a solution that ensures safety, accuracy, and quick recovery."
+          "content": "Advanced Precision in Removing Tumors and Lesions*  \n\n#What is ESD?**  \nEndoscopic Submucosal Dissection (ESD) is a highly advanced, minimally invasive procedure designed to remove tumors, lesions, or early-stage cancers from the gastrointestinal (GI) tract. Unlike traditional techniques, ESD allows for the precise removal of larger lesions and tumors in a single piece, reducing the need for more invasive surgery.\n\nAt KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are proud to offer this state-of-the-art procedure, using the latest technology to deliver effective, minimally invasive treatment. Whether it's for benign growths or early-stage cancer, ESD offers a solution that ensures safety, accuracy, and quick recovery."
         },
         {
           "heading": "How ESD Works",
@@ -6858,20 +6865,92 @@
   ],
   "Patientvideos": [
     {
-      "title": "Understanding Diabetes: A Patient's Journey",
-      "description": "A comprehensive video explaining diabetes management through a patient's perspective.",
-      "url": "https://www.youtube.com/embed/video_id"
+      "title": "Mr. Samuel Sane | Peroral Endoscopic Myotomy (POEM)  | Dr. Sreekanth Appasani ",
+      "description": "Discover how Peroral Endoscopic Myotomy (POEM) is transforming lives for patients with swallowing disorders like achalasia. In this insightful video, Mr Samuel Sane shares his inspiring journey of recovery and improved quality of life after undergoing this advanced endoscopic procedure. Learn how POEM offers a minimally invasive, pain-free solution for conditions that make swallowing difficult.\nDon’t let swallowing disorders affect your life! Watch now to learn about this revolutionary procedure and its incredible benefits.",
+      "url": "https://www.youtube.com/embed/3ILXhuXQK84"
     },
     {
-      "title": "Living with Hypertension: Tips for Patients",
-      "description": "A detailed guide for patients managing hypertension, featuring practical advice.",
-      "url": "https://www.youtube.com/embed/video_id"
+      "title": "Ms. Mallika’s Story | Esophageal and Pyloric Dilatation | Dr. Sreekanth Appasani | Best Gastroenterologist",
+      "description": "Struggling with swallowing difficulties or digestive issues? Discover how esophageal and pyloric dilatation can transform lives! Meet Ms Mallika, who shares her inspiring recovery story after undergoing this procedure at KIMS Hospitals. Learn how this minimally invasive treatment improves swallowing and relieves gastric outlet obstruction for patients with conditions like achalasia, strictures, or pyloric stenosis.\nDon't let digestive issues disrupt your life! Watch now to see how esophageal and pyloric dilatation can help you regain comfort and health.",
+      "url": "https://www.youtube.com/embed/Ysu5_EgSZ7s"
     },
     {
-      "title": "Living with Hypertension: Tips for Patients",
-      "description": "A detailed guide for patients managing hypertension, featuring practical advice.",
-      "url": "https://www.youtube.com/embed/video_id"
+      "title": "Mrs. G. Chilakamma’s POEM Journey | Dr. Sreekanth Appasani | KIMS Hospitals",
+      "description": "Experience the life-changing impact of Peroral Endoscopic Myotomy (POEM) through the inspiring journey of Mrs. G. Chilakamma. In this video, Mrs Chilakamma shares her experience of struggling with swallowing difficulties and how the advanced, minimally invasive POEM procedure brought her relief and restored her quality of life.\nDon’t let swallowing disorders hold you back! Learn how POEM can make a difference in your life.",
+      "url": "https://www.youtube.com/embed/O-W84-YkDVw"
     }
-    
-  ]
+  ],
+  "doctorvideos": [
+    {
+      "title": "POEM Procedure: Advanced Care for Achalasia Cardia | Dr. Sreekanth Appasani",
+      "description": "Explore the cutting-edge Peroral Endoscopic Myotomy (POEM) procedure for treating Achalasia Cardia in this in-depth video tailored for medical professionals. Dr. Sreekanth Appasani, a leading gastroenterologist at KIMS Hospitals, explains the technical nuances, benefits, and outcomes of POEM, an innovative, minimally invasive endoscopic solution for esophageal motility disorders.",
+      "url": "https://www.youtube.com/embed/YweGu3MzXiE"
+    },
+    {
+      "title": "Non-Surgical GI Cancer Solutions for Doctors | Dr. Sreekanth Appasani",
+      "description": "Discover the transformative role of non-surgical endoscopic treatments in managing gastrointestinal (GI) cancers. In this educational video, Dr. Sreekanth Appasani, a leading gastroenterologist at KIMS Hospitals, delves into the latest advancements in endoscopic techniques designed to treat early-stage GI cancers and precancerous lesions.",
+      "url": "https://www.youtube.com/embed/42_TIRInGLc"
+    },
+    {
+      "title": " Think You Know Jaundice? Get the Facts! | Dr. Sreekanth Appasani",
+      "description": "Think you know everything about jaundice? Think again! In this eye-opening video, Dr. Sreekanth Appasani, a leading gastroenterologist at KIMS Hospitals, debunks common myths about jaundice and explains the facts you need to know.",
+      "url": "https://www.youtube.com/embed/n8laf4GSDhw"
+    }
+  ],
+  "footer": {
+    "companyInfo": {
+      "logoAlt": "Logo",
+      "description": "Welcome to KIMS Hospitals, your trusted destination for Endoscopic Treatment for Weight Loss in Hyderabad. We specialize in using cutting-edge techniques such as the Endo Stitch & Double Channel Olympus Endoscope to help you achieve your weight loss goals."
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "links": [
+        {
+          "text": "About Us",
+          "href": "#"
+        },
+        {
+          "text": "Services",
+          "href": "#"
+        },
+        {
+          "text": "Contact",
+          "href": "#"
+        },
+        {
+          "text": "Health Blogs",
+          "href": "#"
+        },
+        {
+          "text": "News & Events",
+          "href": "#"
+        }
+       
+      ]
+    },
+    "socialMedia": {
+      "title": "Follow Us",
+      "links": [
+        {
+          "platform": "Facebook",
+          "href": "https://www.facebook.com"
+        },
+        {
+          "platform": "Twitter",
+          "href": "https://twitter.com"
+        },
+        {
+          "platform": "Instagram",
+          "href": "https://www.instagram.com"
+        },
+        {
+          "platform": "LinkedIn",
+          "href": "https://www.linkedin.com"
+        }
+      ]
+    },
+    "footerBottom": {
+      "text": "© 2025 KAGE. All rights reserved."
+    }
+  }
 }

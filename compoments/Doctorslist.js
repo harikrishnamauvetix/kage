@@ -25,7 +25,7 @@ const DoctorsList = () => {
     <>
       {websiteJson.doctorsList.map((doctor) => (
         <div key={doctor.id}>
-          <Card sx={{ maxWidth: "100%", mx: "auto", height: "500px" }}>
+          <Card sx={{ maxWidth: "100%", mx: "auto", height: "500px" ,padding:"10px"}}>
             <Link
               href={`/doctor/${doctor.name.replace(/\s+/g, "-").toLowerCase()}`}
               passHref

@@ -28,8 +28,8 @@ import Link from "next/link";
 import Header from "@/compoments/Header";
 import AppointmentForm from "@/compoments/Bookappointment";
 import Footer from "@/compoments/Footer";
-import IntroductionSection from "../../compoments/Uicompoments/intro"
-import KimsAchievementsTable from "../../compoments/Uicompoments/awards"
+import IntroductionSection from "../../compoments/About/intro"
+import KimsAchievementsTable from "../../compoments/About/awards"
 import SidebarMenu from "@/compoments/SidebarMenu";
 import AboutsidebarMenu from "@/compoments/aboutSidebar";
 const Aboutpage = () => {

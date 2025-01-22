@@ -62,13 +62,38 @@ const Navbar = () => {
     },
     { label: "Patient Testimonials", href: "testimonials" },
     { label: "Doctor Videos", href: "doctorvideos" },
-    { label: "Health Blogs", href: "blogs" },
-    { label: "News & Events", href: "#" },
+    // { label: "Health Blogs", href: "blogs" },
+    // { label: "News & Events", href: "#" },
     { label: "Contact us", href: "#" },
   ];
 
   return (
     <>
+      <Box
+        sx={{
+          backgroundColor: "primary.main",
+          boxShadow: "none",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Typography
+          variant="body2"
+          sx={{
+            color: "#fff",
+            padding: "10px 0",
+            textAlign: "center",
+            fontSize: "20px",
+            justifyContent: "center",
+            display: "flex",
+            alignItems: "center",
+          }}
+        >
+          <PhoneIcon sx={{ color: "#fff", marginRight: "5px" }} /> Call: 040
+          4488 5333
+        </Typography>
+      </Box>
       <Box sx={{ backgroundColor: "white", boxShadow: "none" }}>
         <Toolbar sx={{ justifyContent: "space-between", padding: "0 2rem" }}>
           {/* Logo Section */}
@@ -78,7 +103,7 @@ const Navbar = () => {
                 component="img"
                 src="https://kage.co.in/assets/img/KAGE.jpg"
                 alt="Logo"
-                sx={{ height: 50 }}
+                sx={{ height: 100 }}
               />
             </Link>
           </Box>
@@ -101,7 +126,7 @@ const Navbar = () => {
         </Toolbar>
       </Box>
       <AppBar position="sticky" color="primary" sx={{ top: 0, zIndex: 1200 }}>
-        <Toolbar>
+        <Toolbar sx={{alignItems:"ceneter",justifyContent:"space-between"}}>
           {isMobile ? (
             <>
               <IconButton
@@ -180,35 +205,48 @@ const Navbar = () => {
               </Drawer>
             </>
           ) : (
-            <Box className="navbar" sx={{ display: "flex", gap: 2 }}>
-              {navItems.map((item, index) => (
-                <Box
-                  key={index}
-                  className="menu-item"
-                  onMouseEnter={() => handleMouseEnter(index)}
-                  onMouseLeave={handleMouseLeave}
+            <>
+              <Box className="navbar" sx={{ display: "flex" }}>
+                {navItems.map((item, index) => (
+                  <Box
+                    key={index}
+                    className="menu-item"
+                    onMouseEnter={() => handleMouseEnter(index)}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    <Link href={item.href || "#"} passHref>
+                      <Button color="inherit">{item.label}</Button>
+                    </Link>
+                    {item.subItems && openMenu === index && (
+                      <Box className="submenu">
+                        {item.subItems.map((subItem, subIndex) => (
+                          <Link
+                            href={subItem.href || "#"}
+                            passHref
+                            key={subIndex}
+                          >
+                            <Typography className="submenulist">
+                              {subItem.label}
+                            </Typography>
+                          </Link>
+                        ))}
+                      </Box>
+                    )}
+                  </Box>
+                ))}
+              </Box>
+              <Box>
+                <Button
+                  variant="contained"
+                  sx={{
+                    backgroundColor: "secondary.main",
+                    justifyContent: "right",
+                  }}
                 >
-                  <Link href={item.href || "#"} passHref>
-                    <Button color="inherit">{item.label}</Button>
-                  </Link>
-                  {item.subItems && openMenu === index && (
-                    <Box className="submenu">
-                      {item.subItems.map((subItem, subIndex) => (
-                        <Link
-                          href={subItem.href || "#"}
-                          passHref
-                          key={subIndex}
-                        >
-                          <Typography className="submenulist">
-                            {subItem.label}
-                          </Typography>
-                        </Link>
-                      ))}
-                    </Box>
-                  )}
-                </Box>
-              ))}
-            </Box>
+                  Book an Appointment
+                </Button>
+              </Box>
+            </>
           )}
         </Toolbar>
       </AppBar>

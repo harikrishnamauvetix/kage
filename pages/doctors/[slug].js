@@ -90,7 +90,7 @@ const DoctorDetails = () => {
           >
             {" "}
             {/* Ensure full width */}
-            <Grid size={{ xs: 12, md: 4 }}>
+            <Grid size={{ xs: 12, md: 3 }}>
               {/* <Box>
                 <CardMedia
                   component="img"
@@ -100,7 +100,7 @@ const DoctorDetails = () => {
                 />
               </Box> */}
             </Grid>
-            <Grid size={{ xs: 12, md: 8 }} sx={{ py: "30px" }}>
+            <Grid size={{ xs: 12, md: 9 }} sx={{ py: "30px" }}>
               <Typography variant="h4">{doctor.name}</Typography>
               <Typography variant="h6">{doctor.designation}</Typography>
             </Grid>
@@ -116,7 +116,7 @@ const DoctorDetails = () => {
             sx={{ width: "100%", position: "relative" }}
           >
             {/* Ensure full width */}
-            <Grid size={{ xs: 12, md: 3 }}>
+            <Grid size={{ xs: 12, md: 3, lg:3 }}>
               <Box sx={{ position: "absolute", marginTop: "-200px" }}>
                 <CardMedia
                   component="img"
@@ -134,7 +134,7 @@ const DoctorDetails = () => {
                 </Button>
               </Box>
             </Grid>
-            <Grid size={{ xs: 12, md: 8 }}>
+            <Grid size={{ xs: 12, md: 9 ,lg:9}}>
               {/* <Typography variant="h4">{doctor.name}</Typography> */}
               <Typography variant="h6" sx={{ padding: "10px 0" }}>
                 {doctor.qualifications}
@@ -145,27 +145,10 @@ const DoctorDetails = () => {
               <Box mt={2}>
                 <Typography variant="h6">Profile</Typography>
                 <Typography>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  in lacinia urna. Praesent id erat dapibus, euismod velit nec,
-                  varius sem. Aliquam ante ligula, suscipit at tellus a,
-                  consectetur facilisis erat. Nulla ligula nunc, imperdiet eget
-                  sodales quis, viverra pulvinar elit. Cras ac varius elit. Duis
-                  quis maximus ex, eu euismod metus. Duis leo nulla, congue non
-                  diam quis, gravida tristique mi. Nullam dapibus vel purus eget
-                  consectetur.
+                
                 </Typography>
                 <Typography>
-                  Nullam luctus ultricies tortor in tempus. Aenean condimentum,
-                  libero eget sodales bibendum, dolor metus sodales felis, vel
-                  egestas erat lacus ac sem. Maecenas ornare mauris non finibus
-                  dignissim. Etiam gravida vitae sem eu ultrices. Vestibulum
-                  eleifend facilisis nisl at rhoncus. Etiam dictum mi vel lectus
-                  consequat, vitae eleifend dolor egestas. In gravida imperdiet
-                  facilisis. Class aptent taciti sociosqu ad litora torquent per
-                  conubia nostra, per inceptos himenaeos. Proin quis ex ac ipsum
-                  pretium posuere sit amet non massa. Cras vel dolor luctus,
-                  varius neque nec, condimentum ligula. Donec sit amet dictum
-                  purus.
+                 
                 </Typography>
                 <Typography
                   variant="h6"
