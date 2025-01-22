@@ -7,14 +7,14 @@ import {
   Card,
   CardContent,
   Icon,
-  Grid2,
   CardMedia,
   Button,
   Stack,
   Rating,
   Avatar,
-  Grid,
 } from "@mui/material";
+import Grid from "@mui/material/Grid2";
+
 import Header from "../compoments/Header";
 
 import AppointmentForm from "@/compoments/Bookappointment";
@@ -39,7 +39,7 @@ import "swiper/css";
 
 const Home = () => {
   return (
-    <div >
+    <div>
       <Header></Header>
       <div>
         <Swiper
@@ -267,7 +267,7 @@ const Home = () => {
             </Box>
             <Grid container spacing={3}>
               {websiteJson.doctorsList.slice(0, 8).map((doctor) => (
-                <Grid item xs={12} sm={6} md={3} key={doctor.id}>
+                <Grid size={{ xs: 12, sm: 6, md: 3 }} key={doctor.id}>
                   <Card
                     sx={{
                       display: "flex",
@@ -289,7 +289,6 @@ const Home = () => {
                       <CardMedia
                         component="img"
                         height="270"
-                     
                         image={`/${doctor.profileImage}`}
                         alt={doctor.name}
                       />
@@ -349,9 +348,9 @@ const Home = () => {
                   Procedures
                 </Typography>
               </Box>
-              <Grid2 container spacing={2}>
+              <Grid container spacing={2}>
                 {websiteJson?.procedures?.map((item, index) => (
-                  <Grid2 size={{ xs: 12, sm: 6, md: 4 }} key={index}>
+                  <Grid size={{ xs: 12, sm: 6, md: 4 }} key={index}>
                     <Stack
                       direction="column"
                       component={Card}
@@ -392,14 +391,13 @@ const Home = () => {
                         </Typography> */}
                       </Box>
                     </Stack>
-                  </Grid2>
+                  </Grid>
                 ))}
-              </Grid2>
+              </Grid>
             </Container>
           </Box>
-          <Stack sx={{ backgroundColor: "background.default", py: 5, px: 3 }}>
+          <Stack sx={{ backgroundColor: "background.default", py: 5 }}>
             <Container>
-              {/* Equipments Section */}
               <Box sx={{ mb: 6 }}>
                 <Typography
                   component="h2"
@@ -410,71 +408,45 @@ const Home = () => {
                 >
                   Patient Videos
                 </Typography>
-                {/* Doctor Videos Section */}
-                <Box>
-                  <Grid container spacing={4}>
-                    {/* Sample Doctor Video 1 */}
-                    <Grid item xs={12} sm={6} md={4} xl={4}>
+                <Grid container spacing={2}>
+                  {websiteJson.Patientvideos.map((video, index) => (
+                    <Grid  size={{ xs: 12, sm: 6, md: 4 }} key={index}>
                       <Card>
-                        <CardMedia
-                          component="iframe"
-                          alt="Doctor Video"
-                          height="400"
-                          src="https://www.youtube.com/embed/video_id" // replace with real video URL
-                          title="Doctor's Video"
-                        />
+                        <div
+                          style={{
+                            position: "relative",
+                            paddingTop: "56.25%", // 16:9 aspect ratio
+                          }}
+                        >
+                          <iframe
+                            src={video.url}
+                            title={video.title}
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                            style={{
+                              position: "absolute",
+                              top: 0,
+                              left: 0,
+                              width: "100%",
+                              height: "100%",
+                            }}
+                          />
+                        </div>
                         <CardContent>
-                          <Typography variant="h6">Patient 1</Typography>
+                          <Typography variant="h6">{video.title}</Typography>
                           <Typography variant="body2" color="text.secondary">
-                            A brief description of the video .
+                            {video.description}
                           </Typography>
                         </CardContent>
                       </Card>
                     </Grid>
-                    {/* Sample Patient  Video 2 */}
-                    <Grid item xs={12} sm={6} md={4} xl={4}>
-                      <Card>
-                        <CardMedia
-                          component="iframe"
-                          alt="Patient  Video"
-                        height="400"
-                          src="https://www.youtube.com/embed/video_id" // replace with real video URL
-                          title="Patient 's Video"
-                        />
-                        <CardContent>
-                          <Typography variant="h6">Patient 2</Typography>
-                          <Typography variant="body2" color="text.secondary">
-                            A brief description of the video.
-                          </Typography>
-                        </CardContent>
-                      </Card>
-                    </Grid>
-                    <Grid item xs={12} sm={6} md={4} xl={4}>
-                      <Card>
-                        <CardMedia
-                          component="iframe"
-                          alt="Patient  Video"
-                         height="400"
-                          src="https://www.youtube.com/embed/video_id" // replace with real video URL
-                          title="Patient 's Video"
-                        />
-                        <CardContent>
-                          <Typography variant="h6">Patient 2</Typography>
-                          <Typography variant="body2" color="text.secondary">
-                            A brief description of the video .
-                          </Typography>
-                        </CardContent>
-                      </Card>
-                    </Grid>
-
-                    {/* Add more Doctor videos as needed */}
-                  </Grid>
-                </Box>
+                  ))}
+                </Grid>
               </Box>
             </Container>
           </Stack>
           <Container>
-            {/* Patient Testimonials Section */}
             <Box sx={{ mb: 6 }}>
               <Box>
                 <Typography
@@ -489,8 +461,6 @@ const Home = () => {
                 </Typography>
               </Box>
               <Box>
-                {/* Title Section */}
-
                 {/* Testimonial Cards */}
                 <Swiper
                   modules={[Pagination]}
@@ -579,7 +549,7 @@ const Home = () => {
               </Box>
             </Box>
           </Container>
-          <Stack sx={{ backgroundColor: "background.default", py: 5, px: 3 }}>
+          <Stack sx={{ backgroundColor: "background.default" ,py: 5}}>
             <Container>
               {/* Equipments Section */}
               <Box sx={{ mb: 6 }}>
@@ -594,63 +564,41 @@ const Home = () => {
                 </Typography>
                 {/* Doctor Videos Section */}
                 <Box>
-                  <Grid container spacing={4}>
-                    {/* Sample Doctor Video 1 */}
-                    <Grid item xs={12} sm={6} md={4} xl={4}>
+                <Grid container spacing={2}>
+                  {websiteJson.Patientvideos.map((video, index) => (
+                    <Grid  size={{ xs: 12, sm: 6, md: 4 }} key={index}>
                       <Card>
-                        <CardMedia
-                          component="iframe"
-                          alt="Doctor Video"
-                          height="400"
-                          src="https://www.youtube.com/embed/video_id" // replace with real video URL
-                          title="Doctor's Video"
-                        />
+                        <div
+                          style={{
+                            position: "relative",
+                            paddingTop: "56.25%", // 16:9 aspect ratio
+                          }}
+                        >
+                          <iframe
+                            src={video.url}
+                            title={video.title}
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                            style={{
+                              position: "absolute",
+                              top: 0,
+                              left: 0,
+                              width: "100%",
+                              height: "100%",
+                            }}
+                          />
+                        </div>
                         <CardContent>
-                          <Typography variant="h6">Doctor 1</Typography>
+                          <Typography variant="h6">{video.title}</Typography>
                           <Typography variant="body2" color="text.secondary">
-                            A brief description of the video or doctor.
+                            {video.description}
                           </Typography>
                         </CardContent>
                       </Card>
                     </Grid>
-                    {/* Sample Doctor Video 2 */}
-                    <Grid item xs={12} sm={6} md={4} xl={4}>
-                      <Card>
-                        <CardMedia
-                          component="iframe"
-                          alt="Doctor Video"
-                            height="400"
-                          src="https://www.youtube.com/embed/video_id" // replace with real video URL
-                          title="Doctor's Video"
-                        />
-                        <CardContent>
-                          <Typography variant="h6">Doctor 2</Typography>
-                          <Typography variant="body2" color="text.secondary">
-                            A brief description of the video or doctor.
-                          </Typography>
-                        </CardContent>
-                      </Card>
-                    </Grid>
-                    <Grid item xs={12} sm={6} md={4} xl={4}>
-                      <Card>
-                        <CardMedia
-                          component="iframe"
-                          alt="Doctor Video"
-                           height="400"
-                          src="https://www.youtube.com/embed/video_id" // replace with real video URL
-                          title="Doctor's Video"
-                        />
-                        <CardContent>
-                          <Typography variant="h6">Doctor 2</Typography>
-                          <Typography variant="body2" color="text.secondary">
-                            A brief description of the video or doctor.
-                          </Typography>
-                        </CardContent>
-                      </Card>
-                    </Grid>
-
-                    {/* Add more Doctor videos as needed */}
-                  </Grid>
+                  ))}
+                </Grid>
                 </Box>
               </Box>
             </Container>

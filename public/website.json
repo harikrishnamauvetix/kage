@@ -72,7 +72,107 @@
       "description": "Our VET training lab and conference facilities enable us to conduct certifications and hands-on training programs, furthering the advancement of gastroenterology and hepatology care."
     },
     "Mission": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, our mission is to deliver world-class care for GI tract disorders, foster innovation, and establish benchmarks in gastroenterology and hepatology. Whether it’s managing complex conditions like IBD, pancreatic diseases, or performing minimally invasive procedures like therapeutic endoscopies, KIMS Advanced Gastroenterology & Endoscopy - KAGE ensures every patient receives compassionate, expert care.",
-    "Tagline": "Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE as your trusted partner for digestive health—because your health is our mission."
+    "Tagline": "Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE as your trusted partner for digestive health—because your health is our mission.",
+    "subpages": [
+      {
+        "page": "Kims",
+        "title": "Kims",
+        "sections": {
+          "introduction": {
+            "heading": "Kims",
+            "description": [
+              "We are one of India's largest corporate healthcare groups, with a strong presence in Telangana, Andhra Pradesh, Maharashtra, and Kerala. Our network of hospitals under the 'KIMS Hospitals' brand provides integrated, multi-disciplinary healthcare services, focusing on tertiary and quaternary care at affordable prices. With 15 multi-specialty hospitals and a combined capacity of over 4,900 beds, we offer a comprehensive range of services across more than 25 specialties and super specialties, including cardiac sciences, oncology, neurosciences, gastroenterology, orthopedics, organ transplantation, renal sciences, and mother & child care.",
+              "Our journey began with a single hospital, and under the visionary leadership of Dr. Bhaskar Rao Bollineni, Founder and Chairman, and Dr. Abhinay Bollineni, Executive Director and CEO, we have grown into a chain of multi-specialty hospitals. The first hospital in our network was established in Nellore in 2000, with around 200 beds. Our flagship hospital in Secunderabad, with a 1,000-bed capacity, is one of the largest private hospitals in India (excluding medical colleges), as noted by the CRISIL Report. Recent acquisitions have expanded our network to cities like Ongole, Vizag, Anantapur, Kurnool, Nagpur, Nashik, and Kannur between fiscal years 2017 and 2025.",
+              "We focus on the southern & western Indian healthcare market, where we understand regional cultures and healthcare needs, providing high-quality care at affordable rates. Each of our hospitals integrates diagnostic services and pharmacies to offer comprehensive care to our patients.",
+              "Dr. Bhaskar Rao Bollineni, a distinguished cardiothoracic surgeon with over 27 years of experience, established the KIMS Hospitals brand with the vision of creating a world-class healthcare system. Under his leadership and that of Dr. Abhinay Bollineni, who joined in 2014 and became CEO in 2019, we have strategically expanded across Andhra Pradesh, Telangana, Maharashtra, and Kerala through greenfield projects, acquisitions, and organic growth.",
+              "Our success is driven by our commitment to affordable, high-quality healthcare and our strong relationships with medical professionals, which have been key to building the KIMS Hospitals brand."
+            ]
+          }
+        }
+      },
+      {
+        "page": "Awards & Accreditation",
+        "title": "Awards & Accreditation",
+        "sections": {
+          "introduction": {
+            "heading": "Awards & Accreditation",
+            "description": [
+              "KIMS Secunderabad has received accreditation from National Accreditation Board for Hospitals & Healthcare Providers (NABH) since 2011 & National Accreditation Board for Testing and Calibration Laboratories (NABL) since 2015. KIMS Secunderabad has also received ISO 9001-2015 certification from NSF – International Strategic Registrations."
+            ]
+          },
+          "AwardsAccreditation": [
+            {
+              "year": 2008,
+              "details": [
+                "KIMS Secunderabad received its first ISO 9001-2008 certification from AQA International LLC"
+              ]
+            },
+            {
+              "year": 2011,
+              "details": [
+                "KIMS Secunderabad received its first accreditation from NABH"
+              ]
+            },
+            {
+              "year": 2015,
+              "details": [
+                "KIMS Secunderabad was awarded the ‘Healthcare Excellence Award’ by the Indo Global Healthcare Summit and Expo",
+                "KIMS Secunderabad was awarded ‘Nursing Excellence’ award by AHPI",
+                "KIMS Secunderabad was accredited with ISO 9001:2015 certification"
+              ]
+            },
+            {
+              "year": 2017,
+              "details": [
+                "KIMS Secunderabad was awarded by AHPI as a ‘Patient Friendly Hospital’",
+                "KIMS Secunderabad became laureate of the Asia Pacific Society of Infection Control CSSD Center of Excellence Silver Award 2015-2016",
+                "KIMS Secunderabad was awarded ‘Best Hospital of the Year’ in the multispecialty hospital category in Hyderabad and eight other specialities by Times Healthcare Achievers Awards"
+              ]
+            },
+            {
+              "year": 2019,
+              "details": [
+                "KIMS Secunderabad received certificate of excellence in the category of ‘Best Super-Speciality Hospital in Telangana’ at the National Quality Excellence Awards, 2019 hosted by Praxis Media Institute",
+                "KIMS Secunderabad was awarded ‘Best Hospital to Work For’ from AHPI Global Conclave",
+                "KIMS Secunderabad was recognised as the ‘Energy Efficient Unit’ at the 20th National Award for Excellence in Energy Management 2019, hosted by CII",
+                "KIMS Secunderabad was accredited by NABL",
+                "KIMS Secunderabad was issued ISO 22000:2005 certificate for receipt, storage, preparation, cooking, hold and serving of food items (vegetarian and non-vegetarian) within the hospital by TUV NORD Cert GmbH"
+              ]
+            },
+            {
+              "year": 2020,
+              "details": [
+                "KIMS Secunderabad ranked the third best hospital in Hyderabad by The Week magazine",
+                "KIMS Secunderabad was issued a certificate of accreditation for being compliant with the ‘NABH Standards for Emergency Department in Hospitals’ by the National Accreditation Board for Hospitals and Healthcare Providers"
+              ]
+            },
+            {
+              "year": 2021,
+              "details": [
+                "KIMS Secunderabad ranked the second best hospital in Hyderabad by The Week magazine",
+                "KIMS Hospital, Secunderabad has received CSSD - ACE Certification"
+              ]
+            },
+            {
+              "year": 2022,
+              "details": [
+                "KIMS Secunderabad - Ranked 2nd Best Hospital in Hyderabad by The Week magazine"
+              ]
+            },
+            {
+              "year": 2023,
+              "details": [
+                "AHPI Healthcare Excellence Award in the category of ‘Excellence in Nursing Practices’",
+                "Appreciation award for conducting pre-conference workshop at KIMS Hospitals by CAHOCON 2023",
+                "Accredited by American Accreditation Commission International (AACI) 2023",
+                "KIMS Hospitals, Secunderabad ranked the Second Best Multispeciality Hospital in Hyderabad by The Week Magazine",
+                "KIMS Hospitals, Secunderabad ranked the Second Best Multispeciality Private Hospital in Hyderabad by The Week Magazine"
+              ]
+            }
+          ]
+        }
+      }
+    ]
   },
   "doctorsList": [
     {
@@ -6753,6 +6853,23 @@
         }
       ]
     }
+  ],
+  "Patientvideos": [
+    {
+      "title": "Understanding Diabetes: A Patient's Journey",
+      "description": "A comprehensive video explaining diabetes management through a patient's perspective.",
+      "url": "https://www.youtube.com/embed/video_id"
+    },
+    {
+      "title": "Living with Hypertension: Tips for Patients",
+      "description": "A detailed guide for patients managing hypertension, featuring practical advice.",
+      "url": "https://www.youtube.com/embed/video_id"
+    },
+    {
+      "title": "Living with Hypertension: Tips for Patients",
+      "description": "A detailed guide for patients managing hypertension, featuring practical advice.",
+      "url": "https://www.youtube.com/embed/video_id"
+    }
+    
   ]
 }
-

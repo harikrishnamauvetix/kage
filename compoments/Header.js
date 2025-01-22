@@ -25,35 +25,25 @@ const Navbar = () => {
 
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+  const [openMenu, setOpenMenu] = useState(null); // State to track open submenu
 
-  const handleMenuOpen = (event, index) => {
-    setAnchorEl(event.currentTarget);
-    setActiveMenuIndex(index);
-    setActiveSubMenuIndex(null); // Close any open submenu when the main menu is opened
+  const handleMouseEnter = (index) => {
+    setOpenMenu(index); // Open submenu when hovering
   };
 
-  const handleSubMenuOpen = (event, subIndex) => {
-    setSubMenuAnchorEl(event.currentTarget);
-    setActiveSubMenuIndex(subIndex);
+  const handleMouseLeave = () => {
+    setOpenMenu(null); // Close submenu when leaving
   };
-
-  const handleMenuClose = () => {
-    setAnchorEl(null);
-    setSubMenuAnchorEl(null);
-    setActiveMenuIndex(null);
-    setActiveSubMenuIndex(null); // Ensure the submenu is closed too
-  };
-
   const toggleDrawer = (open) => () => {
     setDrawerOpen(open);
   };
 
   const navItems = [
-    { label: "About us", href: "/about-us" },
+    { label: "About us", href: "/about" },
     { label: "Doctors", href: "/doctors" },
     {
       label: "Speciality Clinics",
-      href: "/speciality-clinics" ,
+      href: "/speciality-clinics",
       subItems: websiteJson?.services?.map((service) => ({
         label: service.title,
         href: `/speciality-clinics/${service.title
@@ -190,50 +180,31 @@ const Navbar = () => {
               </Drawer>
             </>
           ) : (
-            <Box sx={{ display: "flex", gap: 2 }}>
+            <Box className="navbar" sx={{ display: "flex", gap: 2 }}>
               {navItems.map((item, index) => (
                 <Box
                   key={index}
-                  onMouseEnter={(e) =>
-                    item.subItems && handleMenuOpen(e, index)
-                  }
-                  onMouseLeave={handleMenuClose}
-                  sx={{ position: "relative" }}
+                  className="menu-item"
+                  onMouseEnter={() => handleMouseEnter(index)}
+                  onMouseLeave={handleMouseLeave}
                 >
-                  {item.href ? (
-                    <Link href={item.href} passHref>
-                      <Button color="inherit">{item.label}</Button>
-                    </Link>
-                  ) : (
+                  <Link href={item.href || "#"} passHref>
                     <Button color="inherit">{item.label}</Button>
-                  )}
-
-                  {item.subItems && (
-                    <Menu
-                      anchorEl={anchorEl}
-                      open={activeMenuIndex === index}
-                      onClose={handleMenuClose}
-                      aria-hidden={activeMenuIndex !== index}
-                      onClick={handleMenuClose}
-                       className="menulist"
-                    >
+                  </Link>
+                  {item.subItems && openMenu === index && (
+                    <Box className="submenu">
                       {item.subItems.map((subItem, subIndex) => (
-                        <MenuItem
+                        <Link
+                          href={subItem.href || "#"}
+                          passHref
                           key={subIndex}
-                         
-                          onMouseEnter={(e) =>
-                            subItem.subItems && handleSubMenuOpen(e, subIndex)
-                          }
-                          sx={{ cursor: "pointer" }} // Ensure submenu items are clickable
                         >
-                          {subItem.href ? (
-                            <Link href={subItem.href}>{subItem.label}</Link>
-                          ) : (
-                            <Typography>{subItem.label}</Typography>
-                          )}
-                        </MenuItem>
+                          <Typography className="submenulist">
+                            {subItem.label}
+                          </Typography>
+                        </Link>
                       ))}
-                    </Menu>
+                    </Box>
                   )}
                 </Box>
               ))}

@@ -16,8 +16,9 @@ import {
   Stack,
   Rating,
   Avatar,
-  Grid,
+
 } from "@mui/material";
+import Grid from "@mui/material/Grid2";
 import Link from "next/link";
 import Header from "@/compoments/Header";
 import Footer from "@/compoments/Footer";
@@ -44,41 +45,41 @@ const Doctorvideos = () => {
         </Container>
       </Box>
       <Container>
-        <Grid2
-          container
-          spacing={2}
-          sx={(theme) => ({
-            margin: "20px 0",
-          })}
-        >
-          {websiteJson.testimonials.map((testimonial) => (
-            <Grid2 size={{ xs: 12, sm: 6, md: 4 }} key={testimonial.index}>
-              <Stack
-                direction="column"
-               
-                spacing={3}
-                useFlexGap
-           
-              >
-                <Card>
-                  <CardMedia
-                    component="iframe"
-                    alt="Doctor Video"
-                    height="400"
-                    src="https://www.youtube.com/embed/video_id" // replace with real video URL
-                    title="Doctor's Video"
+        <Grid container spacing={2} sx={{py: 5}}>
+          {websiteJson.Patientvideos.map((video, index) => (
+            <Grid size={{ xs: 12, sm: 6, md: 4 }} key={index}>
+              <Card>
+                <div
+                  style={{
+                    position: "relative",
+                    paddingTop: "56.25%", // 16:9 aspect ratio
+                  }}
+                >
+                  <iframe
+                    src={video.url}
+                    title={video.title}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    style={{
+                      position: "absolute",
+                      top: 0,
+                      left: 0,
+                      width: "100%",
+                      height: "100%",
+                    }}
                   />
-                  <CardContent>
-                    <Typography variant="h6">Doctor 1</Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      A brief description of the video or doctor.
-                    </Typography>
-                  </CardContent>
-                </Card>
-              </Stack>
-            </Grid2>
+                </div>
+                <CardContent>
+                  <Typography variant="h6">{video.title}</Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    {video.description}
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Grid>
           ))}
-        </Grid2>
+        </Grid>
       </Container>
       <Footer />
     </>

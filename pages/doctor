@@ -10,7 +10,7 @@ import {
   CardContent,
   Icon,
   Breadcrumbs,
-  Grid2,
+   
   CardMedia,
   Button,
   Stack,
@@ -44,11 +44,11 @@ const Testimonials = () => {
         </Container>
       </Box>
       <Container>
-        <Grid2 container spacing={2}  sx={(theme) => ({
+        <Grid container spacing={2}  sx={(theme) => ({
                 margin:"20px 0"
                 })}>
           {websiteJson.testimonials.map((testimonial) => (
-            <Grid2 size={{ xs: 12, sm: 6, md: 6 }} key={testimonial.index}>
+            <Grid size={{ xs: 12, sm: 6, md: 6 }} key={testimonial.index}>
               <Stack
                 direction="column"
                 component={Card}
@@ -117,9 +117,9 @@ const Testimonials = () => {
                   </Box>
                 </CardContent>
               </Stack>
-            </Grid2>
+            </Grid>
           ))}
-        </Grid2>
+        </Grid>
       </Container>
       <Footer />
     </>

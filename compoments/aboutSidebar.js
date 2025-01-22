@@ -3,29 +3,20 @@ import { List, ListItem, ListItemText, Typography } from "@mui/material";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const SidebarMenu = ({ service }) => {
+const AboutsidebarMenu = ({ service }) => {
   const router = useRouter();
-  const { subpage: currentSubpage } = router.query;
+  const { slug: currentSlug} = router.query;
 
-  // Helper function to format slugs
-  const formatSlug = (slug) => slug?.replace(/ /g, "-") || "";
-
-  // Extract current slug and base path
-  const currentSlug = service?.slug || router.query.slug;
-  const basePath = router.pathname.split("/")[1];
-
-  // Generate main page link
-  const pageLink = `/${basePath}/${formatSlug(currentSlug)}`;
-
-  // Check if the main page is active
-  const isMainPageActive = currentSlug === formatSlug(currentSlug) && !currentSubpage;
-
+console.log(router.route,"currentslug");
+  // Define main page and subpage links
+  const pageLink = `/about/`;
+  const isMainPageActive =  router.route && !currentSlug;
+  console.log(pageLink,"pagelink");
   return (
     <List className="sideSubmenu">
-      {/* Main Page Link */}
+     
       <ListItem
         button
-        disabled={!currentSlug}
         sx={{
           backgroundColor: isMainPageActive ? "primary.main" : "transparent",
           "&:hover": {
@@ -50,15 +41,16 @@ const SidebarMenu = ({ service }) => {
         </Link>
       </ListItem>
 
-      {/* Subpages */}
+   
       {service?.subpages?.map((subpage) => {
-        const subpageLink = `/${basePath}/${formatSlug(currentSlug)}/${formatSlug(subpage?.page)}`;
-        const isSubpageActive = currentSubpage === formatSlug(subpage?.page);
+        
+        const subpageLink = `/about/${subpage.page.replace(/ /g, "-")}`;;
+        const isSubpageActive = currentSlug ===  subpage.page.replace(/ /g, "-")
 
         return (
           <ListItem
             button
-            key={subpage?.page}
+            key={subpage.slug}
             sx={{
               backgroundColor: isSubpageActive ? "primary.main" : "transparent",
               "&:hover": {
@@ -76,7 +68,7 @@ const SidebarMenu = ({ service }) => {
                     color={isSubpageActive ? "#fff" : "textSecondary"}
                     sx={{ fontSize: 14 }}
                   >
-                    {subpage?.title || "No Subpage Title"}
+                    {subpage.title || "No Subpage Title"}
                   </Typography>
                 }
               />
@@ -88,4 +80,4 @@ const SidebarMenu = ({ service }) => {
   );
 };
 
-export default SidebarMenu;
+export default AboutsidebarMenu;
