@@ -61,8 +61,7 @@ const Contactinfo = () => {
                         Address:
                       </Typography>
                       <Typography>
-                        KIMS Cuddles (KIMS Hospitals Campus) Near RTA Office,
-                        Kondapur, Hyderabad.
+                      1-8-31/1, Minister Rd, Krishna Nagar Colony, Begumpet, Secunderabad - 500003 Telangana INDIA.
                       </Typography>
                     </Box>
                   </ListItem>
@@ -81,7 +80,7 @@ const Contactinfo = () => {
                       <Typography variant="subtitle1" fontWeight="bold">
                         Appointment Number:
                       </Typography>
-                      <Typography>040 4488 5333</Typography>
+                      <Typography>7288842255</Typography>
                     </Box>
                   </ListItem>
                   <ListItem>
@@ -90,7 +89,7 @@ const Contactinfo = () => {
                       <Typography variant="subtitle1" fontWeight="bold">
                         Email:
                       </Typography>
-                      <Typography>hello@kimscuddles.com</Typography>
+                      <Typography>appointments.kage@gmail.com</Typography>
                     </Box>
                   </ListItem>
                 </List>

@@ -1,23 +1,34 @@
 import React, { useState } from "react";
 import {
-  TextField,
   Button,
-  Container,
-  Box,
+  TextField,
+  Modal,
   Typography,
+  MenuItem,
+  Select,
+  FormControl,
+  InputLabel,
+  Box,
   Grid2,
+  Container,
 } from "@mui/material";
-
+import websiteJson from "../public/website.json";
 export default function AppointmentForm() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [id, setId] = useState("");
-  const [department, setDepartment] = useState("");
-  const [phoneNumber, setPhoneNumber] = useState("");
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    doctor: "",
+    date: "",
+  });
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log({ name, email, id, department, phoneNumber });
+    console.log({ name, email, id, department, phoneNumber, doctor, date });
   };
 
   return (
@@ -33,69 +44,92 @@ export default function AppointmentForm() {
           width: "100%",
         }}
       >
-        <Container>
+        <>
           <Typography variant="h6">Book an Appointment</Typography>
           <form onSubmit={handleSubmit}>
             <Grid2 container spacing={2}>
-              <Grid2 item xs={12} md={2}>
+              <Grid2 size={{ xs: 12, sm: 12, md: 2 }}>
                 <TextField
                   fullWidth
                   label="Name"
-                  value={name}
+                  value={formData.name}
                   onChange={(e) => setName(e.target.value)}
                   margin="normal"
-                  defaultValue="Small"
-                   size="small"
+                  defaultValue="name"
+                  size="small"
                   required
                 />
               </Grid2>
-              <Grid2 item xs={12} md={2}>
+              <Grid2 size={{ xs: 12, sm: 12, md: 2 }}>
                 <TextField
                   fullWidth
                   label="Email"
-                  value={email}
+                  value={formData.email}
                   onChange={(e) => setEmail(e.target.value)}
                   margin="normal"
                   type="email"
                   defaultValue="Small"
-                   size="small"
+                  size="small"
                   required
                 />
               </Grid2>
-              
-              <Grid2 item xs={12} md={2}>
-                <TextField
-                  fullWidth
-                  label="Department"
-                  value={department}
-                  onChange={(e) => setDepartment(e.target.value)}
-                  margin="normal"
-                  defaultValue="Small"
-                   size="small"
-                  required
-                />
-              </Grid2>
-              <Grid2 item xs={12} md={2}>
+              <Grid2 size={{ xs: 12, sm: 12, md: 2 }}>
                 <TextField
                   fullWidth
                   label="Phone Number"
-                  value={phoneNumber}
+                  value={formData.phoneNumber}
                   onChange={(e) => setPhoneNumber(e.target.value)}
                   margin="normal"
                   type="tel"
-                  defaultValue="Small"
-                   size="small"
+                  defaultValue="9876543210"
+                  size="small"
                   required
                 />
               </Grid2>
-              <Grid2 item xs={12} md={2}>
+              <Grid2 size={{ xs: 12, sm: 12, md: 2 }}>
+                <FormControl fullWidth margin="normal">
+               
+                  <Select
+                   
+                    id="doctor-select"
+                    name="doctor"
+                    value={formData.doctor}
+                    onChange={handleChange}
+                    label="Select Doctor"
+                    required
+                     size="small"
+                  >
+                    {websiteJson.doctorsList.map((doctor) => (
+                      <MenuItem key={doctor.id} value={doctor.name}>
+                        {doctor.name}
+                      </MenuItem>
+                    ))}
+                  </Select>
+                </FormControl>
+              </Grid2>
+              <Grid2 size={{ xs: 12, sm: 12, md: 2 }}>
+                <TextField
+                  fullWidth
+                  margin="normal"
+                  label="Date"
+                  name="date"
+                  value={formData.date}
+                  onChange={handleChange}
+                  type="date"
+                   size="small"
+                  InputLabelProps={{ shrink: true }}
+                  required
+                />
+              </Grid2>
+
+              <Grid2 size={{ xs: 12, sm: 12, md: 2 }}>
                 <Button
                   fullWidth
                   variant="contained"
                   color="primary"
                   type="submit"
                   sx={{
-                mt:2
+                    mt: 2,
                   }}
                 >
                   Submit
@@ -103,7 +137,7 @@ export default function AppointmentForm() {
               </Grid2>
             </Grid2>
           </form>
-        </Container>
+        </>
       </Box>
     </div>
   );

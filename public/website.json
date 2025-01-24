@@ -35,6 +35,7 @@
   "about": {
     "page": "About",
     "title": "About",
+    "slug": "about",
     "subHeading": "KIMS Advanced Gastroenterology & Endoscopy - KAGE – Pioneering Gastroenterology and Hepatology in Hyderabad",
     "Description": "KIMS Advanced Gastroenterology & Endoscopy - KAGE is a specialized center dedicated to delivering cutting-edge care in gastroenterology and liver diseases. Combining advanced technology with the expertise of highly skilled specialists, KIMS Advanced Gastroenterology & Endoscopy - KAGE addresses complex digestive disorders with precision and compassion.",
     "specialtyClinics": {
@@ -77,11 +78,11 @@
     "Tagline": "Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE as your trusted partner for digestive health—because your health is our mission.",
     "subpages": [
       {
-        "page": "Kims",
-        "title": "Kims",
+        "page": "kims",
+        "title": "KIMS",
         "sections": {
           "introduction": {
-            "heading": "Kims",
+            "heading": "KIMS",
             "description": [
               "We are one of India's largest corporate healthcare groups, with a strong presence in Telangana, Andhra Pradesh, Maharashtra, and Kerala. Our network of hospitals under the 'KIMS Hospitals' brand provides integrated, multi-disciplinary healthcare services, focusing on tertiary and quaternary care at affordable prices. With 15 multi-specialty hospitals and a combined capacity of over 4,900 beds, we offer a comprehensive range of services across more than 25 specialties and super specialties, including cardiac sciences, oncology, neurosciences, gastroenterology, orthopedics, organ transplantation, renal sciences, and mother & child care.",
               "Our journey began with a single hospital, and under the visionary leadership of Dr. Bhaskar Rao Bollineni, Founder and Chairman, and Dr. Abhinay Bollineni, Executive Director and CEO, we have grown into a chain of multi-specialty hospitals. The first hospital in our network was established in Nellore in 2000, with around 200 beds. Our flagship hospital in Secunderabad, with a 1,000-bed capacity, is one of the largest private hospitals in India (excluding medical colleges), as noted by the CRISIL Report. Recent acquisitions have expanded our network to cities like Ongole, Vizag, Anantapur, Kurnool, Nagpur, Nashik, and Kannur between fiscal years 2017 and 2025.",
@@ -178,7 +179,7 @@
   },
   "doctorsList": [
     {
-      "id":1,
+      "id": 1,
       "name": "Dr Sreekanth Appasani",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist, Advanced Therapeutic Endoscopist",
@@ -276,7 +277,7 @@
       ]
     },
     {
-      "id":2 ,
+      "id": 2,
       "name": "Dr Harsha Vardhan Reddy G",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
@@ -374,7 +375,7 @@
       ]
     },
     {
-      "id":3 ,
+      "id": 3,
       "name": "Dr. Bhaskar Kante",
       "qualifications": "MD (Int. Med), DM (Med. Gastro), Fellowship (IBD AIIMS)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
@@ -471,8 +472,8 @@
         }
       ]
     },
-    { 
-      "id":4 ,
+    {
+      "id": 4,
       "name": "Dr Spoorthi Kolla",
       "qualifications": "M.D (Int. Med), D.M (Med.Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
@@ -570,7 +571,7 @@
       ]
     },
     {
-      "id":5,
+      "id": 5,
       "name": "Dr. Venu Gongati",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
@@ -668,7 +669,7 @@
       ]
     },
     {
-      "id":6,
+      "id": 6,
       "name": "Dr. Viswanath Kamisetty",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Gastroenterologist & Hepatologist",
@@ -676,7 +677,7 @@
       "profileImage": "Images/doctors/dr-viswanath.png"
     },
     {
-      "id":7,
+      "id": 7,
       "name": "Dr Harsha Vardhan Telaprolu",
       "qualifications": "MD (JIPMER), DM (PIGMER, Chandigarh)",
       "designation": "Consultant Gastroenterologist & Hepatologist, Interventional Endoscopist",
@@ -2016,8 +2017,7 @@
         "title": "IBD Clinic",
         "description": "Clinic for Inflammatory Bowel Disease",
         "heading": "IBD Clinic at KIMS Advanced Gastroenterology & Endoscopy - KAGE",
-        "subtext": "Comprehensive Care for Inflammatory Bowel Diseases",
-        "location": "Hyderabad/Secunderabad",
+        "subtext": "Comprehensive Care for Inflammatory Bowel Diseases In Hyderabad / Secunderabad",
         "overview": {
           "heading": "Overview",
           "content": [
@@ -2132,7 +2132,7 @@
       "subpages": [
         {
           "page": "Crohns Disease",
-          "title": "Crohns Disease",
+          "title": "Crohns Disease In In Hyderabad / Secunderabad",
           "sections": {
             "introduction": {
               "heading": "What Is Crohn’s Disease?",
@@ -2247,7 +2247,7 @@
         },
         {
           "page": "Ulcerative Colitis",
-          "title": "Ulcerative Colitis",
+          "title": "Ulcerative Colitis In Hyderabad / Secunderabad",
           "sections": {
             "introduction": {
               "heading": "What Is Ulcerative Colitis?",
@@ -2378,12 +2378,11 @@
     {
       "id": 2,
       "title": "Pancreas Clinic",
-      "description": "Clinic for Pancreatic disorders",
+      "description": "Clinic for Pancreatic disorders In Hyderabad / Secunderabad",
       "icon": "local_hospital",
       "page": "Pancreas Clinic",
       "content": {
-        "heading": "Pancreas Clinic at KIMS Advanced Gastroenterology & Endoscopy - KAGE – Your Partner in Pancreatic Health",
-        "location": "Hyderabad/Secunderabad",
+        "heading": "Pancreas Clinic at KIMS Advanced Gastroenterology & Endoscopy - KAGE – Your Partner in Pancreatic Health In Hyderabad / Secunderabad",
         "overview": {
           "heading": "Why the Pancreas Deserves Special Attention",
           "content": [
@@ -2544,8 +2543,8 @@
       },
       "subpages": [
         {
-          "page": "Acute and Chronic Pancreatitis",
-          "title": "Acute and Chronic Pancreatitis",
+          "page": "Acute and Chronic Pancreatitis ",
+          "title": "Acute and Chronic Pancreatitis In Hyderabad / Secunderabad",
           "sections": {
             "introduction": {
               "heading": "Understanding Pancreatitis",
@@ -2806,7 +2805,7 @@
         },
         {
           "page": "Pancreatic Cysts and Pseudocysts",
-          "title": "Pancreatic Cysts and Pseudocysts",
+          "title": "Pancreatic Cysts and Pseudocysts In Hyderabad / Secunderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -2982,7 +2981,7 @@
         },
         {
           "page": "Pancreatic Cancer",
-          "title": "Pancreatic Cancer",
+          "title": "Pancreatic Cancer In Hyderabad / Secunderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -3194,7 +3193,7 @@
         },
         {
           "page": "Pancreatic Exocrine Insufficiency (PEI)",
-          "title": "Pancreatic Exocrine Insufficiency (PEI)",
+          "title": "Pancreatic Exocrine Insufficiency (PEI) In Hyderabad / Secunderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -3384,7 +3383,7 @@
         },
         {
           "page": "Autoimmune Pancreatitis (AIP)",
-          "title": "Autoimmune Pancreatitis (AIP)",
+          "title": "Autoimmune Pancreatitis (AIP) In Hyderabad / Secunderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -3548,165 +3547,148 @@
     {
       "id": 3,
       "title": "Obesity Clinic",
-      "description": "Clinic for Obesity and related health issues",
+      "description": "Clinic for Obesity and related health issues ",
       "icon": "fitness_center",
       "page": "Obesity Clinic",
       "content": {
-        "heading": "Obesity Clinic",
+        "heading": "Advanced Liver Care and Transplant Clinic",
         "sub_heading": "KIMS Advanced Gastroenterology & Endoscopy - KAGE Hospitals | Hyderabad",
         "overview": {
-          "heading": "What Is Obesity?",
+          "heading": "Overview",
           "content": [
-            "Obesity is a chronic condition characterized by excessive body fat that can harm your health. Measured through Body Mass Index (BMI), obesity is defined as having a BMI of 30 or higher. However, obesity isn’t just about numbers—it involves metabolic, hormonal, and genetic factors that require a tailored treatment plan."
-          ],
-          "overview2": {
-            "heading": "Reclaim Your Health with Precision Care for Obesity",
-            "content": [
-              "Obesity isn’t just about weight—it’s a complex health condition that can significantly impact your quality of life, increasing the risk of diabetes, heart disease, joint problems, and more. At the KIMS Advanced Gastroenterology & Endoscopy - KAGE Obesity Clinic in Hyderabad, we take a science-backed, personalized approach to obesity management, helping you achieve sustainable results. With a team of expert gastroenterologists, dietitians, and lifestyle coaches, we specialize in advanced diagnostic techniques and innovative treatments to tackle obesity at its root cause."
-            ]
-          },
-          "symptoms": {
-            "heading": "Symptoms and Indicators of Obesity",
-            "list": [
-              "Persistent weight gain despite efforts to lose weight",
-              "Fatigue and low energy levels",
-              "Difficulty in daily activities due to joint or muscle pain",
-              "Shortness of breath during physical exertion",
-              "Increased waist circumference (abdominal obesity)"
-            ]
-          },
-          "health_risks": {
-            "heading": "Health Risks Associated with Obesity",
-            "list": [
-              {
-                "condition": "Type 2 Diabetes",
-                "description": "Obesity increases insulin resistance, leading to elevated blood sugar levels."
-              },
-              {
-                "condition": "Heart Disease",
-                "description": "High cholesterol, hypertension, and arterial plaque buildup are common."
-              },
-              {
-                "condition": "Liver Diseases",
-                "description": "Conditions like Non-Alcoholic Fatty Liver Disease (NAFLD) are directly linked to obesity."
-              },
-              {
-                "condition": "Joint Problems",
-                "description": "Excess weight can strain the knees, hips, and spine, leading to osteoarthritis."
-              },
-              {
-                "condition": "Sleep Apnea",
-                "description": "Fat deposits around the neck can block airways during sleep."
-              }
-            ]
-          },
-          "conditions": {
-            "heading": "Why Does Obesity Occur?",
-            "lists": [
-              {
-                "step": 1,
-                "title": "Genetics",
-                "description": "Family history plays a significant role in how your body stores and processes fat."
-              },
-              {
-                "step": 2,
-                "title": "Hormonal Imbalances",
-                "description": "Conditions like hypothyroidism or polycystic ovary syndrome (PCOS) can contribute to weight gain."
-              },
-              {
-                "step": 3,
-                "title": "Lifestyle Factors",
-                "description": "A sedentary lifestyle and high-calorie diets are contributing factors."
-              },
-              {
-                "step": 4,
-                "title": "Psychological Stress",
-                "description": "Stress and emotional eating can exacerbate weight gain."
-              }
-            ]
-          },
-          "diagnosed": {
-            "heading": "How We Diagnose Obesity at KIMS Advanced Gastroenterology & Endoscopy - KAGE",
-            "procedures": {
-              "heading": "Diagnostic Procedures",
-              "steps": [
-                {
-                  "step": 1,
-                  "title": "Body Composition Analysis",
-                  "description": "Assessing fat percentage, muscle mass, and water retention."
-                },
-                {
-                  "step": 2,
-                  "title": "Blood Tests",
-                  "description": "Evaluating glucose levels, thyroid function, and lipid profiles."
-                },
-                {
-                  "step": 3,
-                  "title": "Metabolic Rate Assessment",
-                  "description": "Identifying how efficiently your body burns calories."
-                },
-                {
-                  "step": 4,
-                  "title": "Advanced Imaging",
-                  "description": "Identifying fat deposits and their impact on organs like the liver."
-                }
+            "The liver is one of the most vital organs, performing over 500 essential functions, including detoxification, protein synthesis, and aiding digestion. When liver function declines due to chronic disease, infections, or other conditions, specialized care is crucial. The Advanced Liver Care and Transplant Clinic at KIMS Advanced Gastroenterology & Endoscopy - KAGE, Hyderabad, is dedicated to diagnosing, managing, and treating all liver-related diseases, offering state-of-the-art liver transplant services when necessary.",
+            "Our team of highly experienced hepatologists, liver transplant surgeons, and support staff ensures a multidisciplinary approach to care, backed by cutting-edge technology. From preventive care to advanced treatments, we are a trusted destination for liver health in Hyderabad and Secunderabad."
+          ]
+        },
+        "conditions": {
+          "heading": "Conditions We Treat",
+          "lists": [
+            "Chronic Liver Disease (CLD)",
+            "Acute Liver Failure (ALF)",
+            "Hepatitis (A, B, C, E)",
+            "Non-Alcoholic Fatty Liver Disease (NAFLD)",
+            "Liver Cancer (Hepatocellular Carcinoma)",
+            "Portal Hypertension",
+            "Alcoholic Liver Disease (ALD)",
+            "Biliary Atresia and Other Pediatric Liver Conditions",
+            "Genetic Liver Disorders (Wilson’s disease, hemochromatosis, etc.)"
+          ]
+        },
+        "key_services": {
+          "heading": "Key Services at the Advanced Liver Care and Transplant Clinic",
+          "lists": [
+            "Comprehensive Diagnostic Services",
+            "Advanced Liver Transplant Services",
+            "Management of Viral Hepatitis",
+            "Minimally Invasive Procedures",
+            "Pediatric Hepatology Care",
+            "Liver Cancer Treatment"
+          ]
+        },
+        "services_details": {
+          "services": [
+            {
+              "heading": "Comprehensive Diagnostic Services",
+              "list": [
+                "FibroScan for liver fibrosis and stiffness.",
+                "Advanced imaging (CT, MRI) for liver and bile duct evaluation.",
+                "Liver function tests (LFTs) to assess liver health."
+              ]
+            },
+            {
+              "heading": "Advanced Liver Transplant Services",
+              "list": [
+                "Expertise in living-donor and deceased-donor liver transplants.",
+                "Tailored transplant plans with pre- and post-transplant support."
+              ]
+            },
+            {
+              "heading": "Management of Viral Hepatitis",
+              "list": [
+                "Antiviral therapies for Hepatitis B and C.",
+                "Immunization and preventive strategies."
+              ]
+            },
+            {
+              "heading": "Minimally Invasive Procedures",
+              "list": [
+                "Transjugular intrahepatic portosystemic shunt (TIPS) for portal hypertension.",
+                "Endoscopic management of varices and bile duct stones."
+              ]
+            },
+            {
+              "heading": "Pediatric Hepatology Care",
+              "list": [
+                "Specialized team for congenital and pediatric liver diseases."
+              ]
+            },
+            {
+              "heading": "Liver Cancer Treatment",
+              "list": [
+                "Targeted therapies, radiofrequency ablation (RFA), transarterial chemoembolization (TACE), and surgical resections."
               ]
             }
-          },
-          "treatments": {
-            "heading": "Treatment Options at KIMS Advanced Gastroenterology & Endoscopy - KAGE Obesity Clinic",
-            "steps": [
-              {
-                "step": 1,
-                "title": "Medical Weight Loss Programs",
-                "description": "Tailored, doctor-supervised plans focusing on nutrition, exercise, and lifestyle changes."
-              },
-              {
-                "step": 2,
-                "title": "Bariatric Surgery",
-                "description": "For those with severe obesity, options like gastric bypass and sleeve gastrectomy provide lasting results."
-              },
-              {
-                "step": 3,
-                "title": "Non-Surgical Weight Loss Interventions",
-                "description": "Including endoscopic procedures like gastric balloon placement."
-              }
-            ]
-          },
-          "why_choose": {
-            "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for Obesity Management?",
-            "steps": [
-              {
-                "step": 1,
-                "title": "Comprehensive Approach",
-                "description": "From medical therapies to surgical options, we offer end-to-end care."
-              },
-              {
-                "step": 2,
-                "title": "Expert Team",
-                "description": "Our specialists have extensive experience in obesity management and related conditions."
-              },
-              {
-                "step": 3,
-                "title": "Advanced Technology",
-                "description": "Non-invasive diagnostics and state-of-the-art surgical tools ensure optimal outcomes."
-              },
-              {
-                "step": 4,
-                "title": "Holistic Support",
-                "description": "Addressing not just weight but also related conditions like diabetes, hypertension, and fatty liver."
-              },
-              {
-                "step": 5,
-                "title": "Located in Hyderabad",
-                "description": "Accessible, world-class care in India’s healthcare hub."
-              }
-            ]
-          },
-          "take_charge": {
-            "heading": "Take the First Step Toward a Healthier You!",
-            "description": "Our experts at KIMS Advanced Gastroenterology & Endoscopy - KAGE are here to guide you on your journey to better health. Book a consultation today and start your path to a healthier weight and lifestyle."
-          }
+          ]
+        },
+        "why_choose": {
+          "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for Advanced Liver Care?",
+          "steps": [
+            {
+              "step": 1,
+              "title": "World-Class Expertise",
+              "description": "A team of hepatologists, transplant surgeons, anesthetists, and critical care specialists with decades of experience."
+            },
+            {
+              "step": 2,
+              "title": "State-of-the-Art Technology",
+              "description": "From high-resolution imaging to robotic-assisted surgeries, we ensure precision and safety in every procedure."
+            },
+            {
+              "step": 3,
+              "title": "Holistic Care",
+              "description": "Integrated pre- and post-transplant programs, including physiotherapy, nutritional counseling, and psychological support."
+            },
+            {
+              "step": 4,
+              "title": "Proven Success Rates",
+              "description": "High survival and success rates for liver transplants."
+            },
+            {
+              "step": 5,
+              "title": "Accessible Location",
+              "description": "Conveniently located in Hyderabad and Secunderabad, making liver care accessible for patients across Telangana and beyond."
+            },
+            {
+              "step": 6,
+              "title": "Patient-Centered Approach",
+              "description": "Transparent communication and personalized care at every stage."
+            }
+          ]
+        },
+        "faq": {
+          "heading": "FAQs for the Advanced Liver Care and Transplant Clinic",
+          "questions": [
+            {
+              "question": "Who qualifies for a liver transplant?",
+              "answer": "Patients with end-stage liver disease or liver cancer who meet medical and transplant eligibility criteria."
+            },
+            {
+              "question": "What is the recovery period for a liver transplant?",
+              "answer": "Most patients recover within 3-6 months, with follow-up care."
+            },
+            {
+              "question": "Can liver disease be reversed?",
+              "answer": "Early-stage liver conditions can often be reversed with lifestyle changes and medical care. Advanced stages like cirrhosis require long-term management or transplantation."
+            },
+            {
+              "question": "What is TACE?",
+              "answer": "Transarterial Chemoembolization is a minimally invasive procedure used to treat liver cancer by blocking blood flow to the tumor and delivering chemotherapy directly."
+            },
+            {
+              "question": "Why is KIMS Advanced Gastroenterology & Endoscopy - KAGE preferred for liver care in Hyderabad?",
+              "answer": "With expert hepatologists, cutting-edge technology, and high success rates in transplants, KIMS Advanced Gastroenterology & Endoscopy - KAGE is a trusted name for liver care in India."
+            }
+          ]
         }
       },
       "subpages": [
@@ -3884,7 +3866,7 @@
               "heading": "What Are Endoscopic Bariatric Procedures?",
               "description": "These minimally invasive treatments use an endoscope (a thin, flexible tube with a camera) inserted through the mouth to reshape the stomach or limit food intake. They are performed as outpatient procedures, offering faster recovery and reduced downtime."
             },
-            "Types_Of_Endoscopic_Procedures": {
+            "Causes_and_Risk": {
               "heading": "Types of Endoscopic Bariatric Procedures",
               "list": [
                 {
@@ -3901,7 +3883,7 @@
                 }
               ]
             },
-            "Who_Should_Consider_Endoscopic_Bariatric_Procedures": {
+            "conditions": {
               "heading": "Who Should Consider Endoscopic Bariatric Procedures?",
               "list": [
                 {
@@ -3918,7 +3900,7 @@
                 }
               ]
             },
-            "Benefits_Of_Endoscopic_Bariatric_Procedures": {
+            "Benefits": {
               "heading": "Benefits of Endoscopic Bariatric Procedures",
               "list": [
                 {
@@ -3939,7 +3921,7 @@
                 }
               ]
             },
-            "Our_Expertise_in_Endoscopic_Bariatrics": {
+            "Our_Expertise": {
               "heading": "Our Expertise in Endoscopic Bariatrics",
               "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE Obesity Clinic, we leverage the latest technologies and techniques to ensure optimal results. Our process includes:",
               "list": [
@@ -4242,29 +4224,24 @@
           ],
           "conditions": {
             "heading": "Conditions Treated at the Advanced Endoscopy Clinic",
-            "steps": [
+            "lists": [
               {
-                "step": 1,
                 "title": "Gastrointestinal Bleeding",
                 "description": "Identification and treatment of bleeding ulcers, varices, and tears."
               },
               {
-                "step": 2,
                 "title": "Biliary and Pancreatic Disorders",
                 "description": "Including bile duct stones, strictures, and pancreatic duct issues."
               },
               {
-                "step": 3,
                 "title": "Esophageal Disorders",
                 "description": "Barrett's esophagus, strictures, and achalasia."
               },
               {
-                "step": 4,
                 "title": "Colorectal Conditions",
                 "description": "Polyp removal, cancer detection, and inflammatory bowel disease complications."
               },
               {
-                "step": 5,
                 "title": "Early-Stage Cancers",
                 "description": "Precise diagnosis and minimally invasive removal of early-stage tumors."
               }
@@ -4389,18 +4366,10 @@
             "conditions": {
               "heading": "Conditions Addressed",
               "list": [
-                {
-                  "condition": "Pancreatic tumors and cysts"
-                },
-                {
-                  "condition": "Bile duct stones and obstructions"
-                },
-                {
-                  "condition": "GI cancers (esophagus, stomach, rectum)"
-                },
-                {
-                  "condition": "Lymph node evaluation for cancer staging"
-                }
+                "Pancreatic tumors and cysts",
+                "Bile duct stones and obstructions",
+                "GI cancers (esophagus, stomach, rectum)",
+                "Lymph node evaluation for cancer staging"
               ]
             },
             "procedure": {
@@ -4408,18 +4377,14 @@
               "description": "During EUS, a flexible endoscope with an ultrasound probe is inserted into the digestive tract. This provides high-resolution images, enabling accurate diagnoses and guided treatments like fine-needle aspiration or biopsies."
             },
             "advantages": {
-              "heading": "Advantages",
-              "list": [
-                {
-                  "advantage": "Minimally invasive"
-                },
-                {
-                  "advantage": "Real-time imaging and guided biopsy capabilities"
-                },
-                {
-                  "advantage": "Effective staging of cancers"
-                }
-              ]
+              "advantages": {
+                "heading": "Advantages",
+                "list": [
+                  "Minimally invasive",
+                  "Real-time imaging and guided biopsy capabilities",
+                  "Effective staging of cancers"
+                ]
+              }
             },
             "Why_to_choose": [
               {
@@ -4566,41 +4531,6 @@
             "why_to_choose": {
               "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for DBE?",
               "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, our specialists are highly trained in DBE, providing comprehensive solutions for small bowel disorders with unparalleled precision."
-            }
-          }
-        },
-        {
-          "page": "Endoscopic Ultrasound (EUS)",
-          "title": "Endoscopic Ultrasound (EUS)",
-          "sections": {
-            "introduction": {
-              "heading": "Overview",
-              "description": "Endoscopic Ultrasound (EUS) combines endoscopy and ultrasound to obtain highly detailed images of the digestive tract and nearby organs. This cutting-edge diagnostic tool allows us to identify and treat conditions that are not visible through traditional imaging methods."
-            },
-            "conditions": {
-              "heading": "Conditions Addressed",
-              "list": [
-                "Pancreatic tumors and cysts",
-                "Bile duct stones and obstructions",
-                "GI cancers (esophagus, stomach, rectum)",
-                "Lymph node evaluation for cancer staging"
-              ]
-            },
-            "procedure": {
-              "heading": "Procedure",
-              "description": "During EUS, a flexible endoscope with an ultrasound probe is inserted into the digestive tract. This provides high-resolution images, enabling accurate diagnoses and guided treatments like fine-needle aspiration or biopsies."
-            },
-            "advantages": {
-              "heading": "Advantages",
-              "list": [
-                "Minimally invasive",
-                "Real-time imaging and guided biopsy capabilities",
-                "Effective staging of cancers"
-              ]
-            },
-            "why_to_choose": {
-              "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for EUS?",
-              "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, Hyderabad, our expert gastroenterologists utilize the latest EUS technology for early detection and precise management of GI disorders, ensuring faster recovery and improved outcomes."
             }
           }
         }
@@ -4850,7 +4780,7 @@
                 }
               ]
             },
-            "diagnosis": {
+            "Diagnosis": {
               "heading": "Diagnosis",
               "list": [
                 {
@@ -4867,7 +4797,7 @@
                 }
               ]
             },
-            "treatment": {
+            "Treatment": {
               "heading": "Treatment Options",
               "list": [
                 {
@@ -4902,7 +4832,7 @@
               "heading": "Overview",
               "description": "Gastroparesis is a chronic motility disorder where the stomach muscles fail to move food effectively into the small intestine. This condition can lead to nausea, bloating, and malnutrition. KIMS Advanced Gastroenterology & Endoscopy - KAGE offers comprehensive care for gastroparesis, including advanced diagnostics and tailored treatment plans."
             },
-            "symptoms": {
+            "Symptoms": {
               "heading": "Symptoms",
               "list": [
                 {
@@ -4923,7 +4853,7 @@
                 }
               ]
             },
-            "causes": {
+            "Causes_and_Risk": {
               "heading": "Causes and Risk Factors",
               "list": [
                 {
@@ -4954,7 +4884,7 @@
               "heading": "Overview",
               "description": "IBS is a functional disorder affecting the large intestine, leading to abdominal pain, bloating, and altered bowel habits. Though the exact cause is unknown, IBS is treatable with a combination of lifestyle changes, medications, and stress management."
             },
-            "symptoms": {
+            "Symptoms": {
               "heading": "Symptoms",
               "list": [
                 {
@@ -4975,7 +4905,7 @@
                 }
               ]
             },
-            "causes": {
+            "Causes_and_Risk": {
               "heading": "Causes and Risk Factors",
               "list": [
                 {
@@ -4996,7 +4926,7 @@
                 }
               ]
             },
-            "complications": {
+            "Complications": {
               "heading": "Complications",
               "list": [
                 {
@@ -5013,7 +4943,7 @@
                 }
               ]
             },
-            "diagnosis": {
+            "Diagnosis": {
               "heading": "Diagnosis",
               "list": [
                 {
@@ -5026,7 +4956,7 @@
                 }
               ]
             },
-            "treatment": {
+            "Treatment": {
               "heading": "Treatment Options",
               "list": [
                 {
@@ -5057,7 +4987,7 @@
               "heading": "Overview",
               "description": "Chronic constipation is characterized by infrequent bowel movements or difficulty passing stool. It can significantly impact daily life and may indicate an underlying motility disorder."
             },
-            "symptoms": {
+            "Symptoms": {
               "heading": "Symptoms",
               "list": [
                 {
@@ -5078,7 +5008,7 @@
                 }
               ]
             },
-            "causes": {
+            "Causes_and_Risk": {
               "heading": "Causes and Risk Factors",
               "list": [
                 {
@@ -5099,7 +5029,7 @@
                 }
               ]
             },
-            "complications": {
+            "Complications": {
               "heading": "Complications",
               "list": [
                 {
@@ -5116,7 +5046,7 @@
                 }
               ]
             },
-            "diagnosis": {
+            "Diagnosis": {
               "heading": "Diagnosis",
               "list": [
                 {
@@ -5133,7 +5063,7 @@
                 }
               ]
             },
-            "treatment": {
+            "Treatment": {
               "heading": "Treatment Options",
               "list": [
                 {
@@ -5164,7 +5094,7 @@
               "heading": "Overview",
               "description": "Fecal incontinence is the inability to control bowel movements, leading to unintentional leakage. This condition can severely affect emotional and physical well-being but is treatable."
             },
-            "symptoms": {
+            "Symptoms": {
               "heading": "Symptoms",
               "list": [
                 {
@@ -5181,7 +5111,7 @@
                 }
               ]
             },
-            "causes": {
+            "Causes_and_Risk": {
               "heading": "Causes and Risk Factors",
               "list": [
                 {
@@ -5198,7 +5128,7 @@
                 }
               ]
             },
-            "complications": {
+            "Complications": {
               "heading": "Complications",
               "list": [
                 {
@@ -5211,7 +5141,7 @@
                 }
               ]
             },
-            "diagnosis": {
+            "Diagnosis": {
               "heading": "Diagnosis",
               "list": [
                 {
@@ -5228,7 +5158,7 @@
                 }
               ]
             },
-            "treatment": {
+            "Treatment": {
               "heading": "Treatment Options",
               "list": [
                 {
@@ -5270,7 +5200,7 @@
           ],
           "conditions": {
             "heading": "Conditions We Treat",
-            "list": [
+            "conditionsList": [
               "Chronic Liver Disease (CLD)",
               "Acute Liver Failure (ALF)",
               "Hepatitis (A, B, C, E)",
@@ -5284,7 +5214,7 @@
           },
           "key_services": {
             "heading": "Key Services at the Advanced Liver Care and Transplant Clinic",
-            "list": [
+            "keyServiceslist": [
               "Comprehensive Diagnostic Services",
               "Advanced Liver Transplant Services",
               "Management of Viral Hepatitis",
@@ -5294,47 +5224,50 @@
             ]
           },
           "services_details": {
-            "comprehensive_diagnostic_services": {
-              "heading": "Comprehensive Diagnostic Services",
-              "list": [
-                "FibroScan for liver fibrosis and stiffness.",
-                "Advanced imaging (CT, MRI) for liver and bile duct evaluation.",
-                "Liver function tests (LFTs) to assess liver health."
-              ]
-            },
-            "advanced_liver_transplant_services": {
-              "heading": "Advanced Liver Transplant Services",
-              "list": [
-                "Expertise in living-donor and deceased-donor liver transplants.",
-                "Tailored transplant plans with pre- and post-transplant support."
-              ]
-            },
-            "management_of_viral_hepatitis": {
-              "heading": "Management of Viral Hepatitis",
-              "list": [
-                "Antiviral therapies for Hepatitis B and C.",
-                "Immunization and preventive strategies."
-              ]
-            },
-            "minimally_invasive_procedures": {
-              "heading": "Minimally Invasive Procedures",
-              "list": [
-                "Transjugular intrahepatic portosystemic shunt (TIPS) for portal hypertension.",
-                "Endoscopic management of varices and bile duct stones."
-              ]
-            },
-            "pediatric_hepatology_care": {
-              "heading": "Pediatric Hepatology Care",
-              "list": [
-                "Specialized team for congenital and pediatric liver diseases."
-              ]
-            },
-            "liver_cancer_treatment": {
-              "heading": "Liver Cancer Treatment",
-              "list": [
-                "Targeted therapies, radiofrequency ablation (RFA), transarterial chemoembolization (TACE), and surgical resections."
-              ]
-            }
+            "heading": "Services",
+            "services": [
+              {
+                "heading": "Comprehensive Diagnostic Services",
+                "list": [
+                  "FibroScan for liver fibrosis and stiffness.",
+                  "Advanced imaging (CT, MRI) for liver and bile duct evaluation.",
+                  "Liver function tests (LFTs) to assess liver health."
+                ]
+              },
+              {
+                "heading": "Advanced Liver Transplant Services",
+                "list": [
+                  "Expertise in living-donor and deceased-donor liver transplants.",
+                  "Tailored transplant plans with pre- and post-transplant support."
+                ]
+              },
+              {
+                "heading": "Management of Viral Hepatitis",
+                "list": [
+                  "Antiviral therapies for Hepatitis B and C.",
+                  "Immunization and preventive strategies."
+                ]
+              },
+              {
+                "heading": "Minimally Invasive Procedures",
+                "list": [
+                  "Transjugular intrahepatic portosystemic shunt (TIPS) for portal hypertension.",
+                  "Endoscopic management of varices and bile duct stones."
+                ]
+              },
+              {
+                "heading": "Pediatric Hepatology Care",
+                "list": [
+                  "Specialized team for congenital and pediatric liver diseases."
+                ]
+              },
+              {
+                "heading": "Liver Cancer Treatment",
+                "list": [
+                  "Targeted therapies, radiofrequency ablation (RFA), transarterial chemoembolization (TACE), and surgical resections."
+                ]
+              }
+            ]
           },
           "why_choose": {
             "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for Advanced Liver Care?",
@@ -5770,7 +5703,7 @@
                 }
               ]
             },
-            "causes": {
+            "Causes_and_Risk": {
               "heading": "Causes",
               "list": [
                 {
@@ -5866,7 +5799,7 @@
                 }
               ]
             },
-            "treatment": {
+            "Treatment": {
               "heading": "Treatment Options",
               "list": [
                 {
@@ -5951,7 +5884,7 @@
                 }
               ]
             },
-            "causes": {
+            "Causes_and_Risk": {
               "heading": "Causes",
               "list": [
                 {
@@ -6001,7 +5934,7 @@
                 }
               ]
             },
-            "complications": {
+            "Cmplications": {
               "heading": "Complications",
               "list": [
                 {
@@ -6018,7 +5951,7 @@
                 }
               ]
             },
-            "diagnosis": {
+            "Diagnosis": {
               "heading": "Diagnosis",
               "list": [
                 {
@@ -6039,7 +5972,7 @@
                 }
               ]
             },
-            "treatment": {
+            "Treatment": {
               "heading": "Treatment Options",
               "list": [
                 {
@@ -6099,7 +6032,7 @@
               "heading": "Overview",
               "description": "Portal Hypertension is a condition where there is an abnormally high blood pressure in the portal vein, which carries blood from the digestive organs to the liver. This condition is commonly seen in patients with cirrhosis or other chronic liver diseases. It can lead to severe complications, including variceal bleeding and ascites. At KIMS Advanced Gastroenterology & Endoscopy - KAGE’s Advanced Liver Care and Transplant Clinic in Hyderabad, we specialize in diagnosing and managing portal hypertension with a multidisciplinary approach and advanced interventions."
             },
-            "symptoms": {
+            "Symptoms": {
               "heading": "Symptoms of Portal Hypertension",
               "list": [
                 {
@@ -6128,7 +6061,7 @@
                 }
               ]
             },
-            "causes": {
+            "Causes_and_Risk": {
               "heading": "Causes",
               "list": [
                 {
@@ -6178,7 +6111,7 @@
                 }
               ]
             },
-            "complications": {
+            "Complications": {
               "heading": "Complications",
               "list": [
                 {
@@ -6199,7 +6132,7 @@
                 }
               ]
             },
-            "diagnosis": {
+            "Diagnosis": {
               "heading": "Diagnosis",
               "list": [
                 {
@@ -6220,7 +6153,7 @@
                 }
               ]
             },
-            "treatment": {
+            "Treatment": {
               "heading": "Treatment Options",
               "list": [
                 {
@@ -6280,7 +6213,7 @@
               "heading": "Overview",
               "description": "Alcoholic Liver Disease (ALD) occurs due to excessive alcohol consumption, leading to liver inflammation, fatty liver, cirrhosis, or even liver cancer. ALD is a significant health issue in India, especially among individuals with prolonged alcohol abuse. At KIMS Advanced Gastroenterology & Endoscopy - KAGE’s Advanced Liver Care and Transplant Clinic, we offer comprehensive evaluation, counseling, and treatment for ALD, focusing on both liver health and alcohol rehabilitation."
             },
-            "symptoms": {
+            "Symptoms": {
               "heading": "Symptoms of ALD",
               "list": [
                 {
@@ -6309,7 +6242,7 @@
                 }
               ]
             },
-            "causes": {
+            "Causes_and_Risk": {
               "heading": "Causes",
               "list": [
                 {
@@ -6347,7 +6280,7 @@
                 }
               ]
             },
-            "complications": {
+            "Complications": {
               "heading": "Complications",
               "list": [
                 {
@@ -6368,7 +6301,7 @@
                 }
               ]
             },
-            "diagnosis": {
+            "Diagnosis": {
               "heading": "Diagnosis",
               "list": [
                 {
@@ -6389,7 +6322,7 @@
                 }
               ]
             },
-            "treatment": {
+            "Treatment": {
               "heading": "Treatment Options",
               "list": [
                 {
@@ -6449,7 +6382,7 @@
               "heading": "Overview",
               "description": "Acute Liver Failure (ALF) is a life-threatening condition where the liver suddenly loses its ability to function, often within days or weeks. Unlike chronic liver disease, ALF occurs rapidly in people without pre-existing liver conditions. It requires urgent medical care, and in many cases, a liver transplant becomes necessary to save the patient’s life. At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we provide expert, timely intervention with state-of-the-art facilities for diagnosing and managing ALF, ensuring the best possible outcomes for our patients."
             },
-            "symptoms": {
+            "Symptoms": {
               "heading": "Symptoms of Acute Liver Failure",
               "list": [
                 {
@@ -6478,7 +6411,7 @@
                 }
               ]
             },
-            "causes": {
+            "Causes_and_Risk": {
               "heading": "Causes",
               "list": [
                 {
@@ -6532,7 +6465,7 @@
                 }
               ]
             },
-            "complications": {
+            "Complications": {
               "heading": "Complications",
               "list": [
                 {
@@ -6553,7 +6486,7 @@
                 }
               ]
             },
-            "diagnosis": {
+            "Diagnosis": {
               "heading": "Diagnosis",
               "list": [
                 {
@@ -6574,7 +6507,7 @@
                 }
               ]
             },
-            "treatment": {
+            "Treatment": {
               "heading": "Treatment Options",
               "list": [
                 {
@@ -6626,7 +6559,7 @@
               "heading": "Overview",
               "description": "Biliary Atresia is a rare pediatric liver disease where the bile ducts are either absent or blocked, leading to bile buildup and liver damage. It is the most common reason for liver transplantation in children. Along with biliary atresia, KIMS Advanced Gastroenterology & Endoscopy - KAGE also specializes in managing other pediatric liver conditions like neonatal hepatitis, metabolic liver disorders, and liver tumors. Our team at the Advanced Liver Care and Transplant Clinic in Hyderabad provides specialized care for children with liver conditions, focusing on early diagnosis and customized treatment plans."
             },
-            "symptoms": {
+            "Symptoms": {
               "heading": "Symptoms of Pediatric Liver Diseases",
               "list": [
                 {
@@ -6651,7 +6584,7 @@
                 }
               ]
             },
-            "common_conditions": {
+            "Causes_and_Risk": {
               "heading": "Common Pediatric Liver Conditions",
               "list": [
                 {
@@ -6672,7 +6605,7 @@
                 }
               ]
             },
-            "diagnosis": {
+            "Diagnosis": {
               "heading": "Diagnosis",
               "list": [
                 {
@@ -6689,7 +6622,7 @@
                 }
               ]
             },
-            "treatment": {
+            "Treatment": {
               "heading": "Treatment Options",
               "list": [
                 {
@@ -6745,7 +6678,7 @@
               "heading": "Overview",
               "description": "Genetic liver disorders are inherited conditions that affect liver function, often leading to chronic liver disease, cirrhosis, or liver failure. Conditions like Wilson’s disease, Hemochromatosis, and Alpha-1 Antitrypsin Deficiency are common genetic liver problems seen in children and adults. At KIMS Advanced Gastroenterology & Endoscopy - KAGE, our specialized team offers advanced diagnostics and personalized treatment for genetic liver disorders in Hyderabad, ensuring early intervention to improve patient outcomes."
             },
-            "common_conditions": {
+            "Causes_and_Risk": {
               "heading": "Common Genetic Liver Disorders",
               "list": [
                 {
@@ -6766,7 +6699,7 @@
                 }
               ]
             },
-            "symptoms": {
+            "Symptoms": {
               "heading": "Symptoms",
               "list": [
                 {
@@ -6795,7 +6728,7 @@
                 }
               ]
             },
-            "diagnosis": {
+            "Diagnosis": {
               "heading": "Diagnosis",
               "list": [
                 {
@@ -6816,7 +6749,7 @@
                 }
               ]
             },
-            "treatment": {
+            "Treatment": {
               "heading": "Treatment Options",
               "list": [
                 {
@@ -6866,34 +6799,31 @@
   "Patientvideos": [
     {
       "title": "Mr. Samuel Sane | Peroral Endoscopic Myotomy (POEM)  | Dr. Sreekanth Appasani ",
-      "description": "Discover how Peroral Endoscopic Myotomy (POEM) is transforming lives for patients with swallowing disorders like achalasia. In this insightful video, Mr Samuel Sane shares his inspiring journey of recovery and improved quality of life after undergoing this advanced endoscopic procedure. Learn how POEM offers a minimally invasive, pain-free solution for conditions that make swallowing difficult.\nDon’t let swallowing disorders affect your life! Watch now to learn about this revolutionary procedure and its incredible benefits.",
+      "description": "Discover how Peroral Endoscopic Myotomy (POEM) is transforming lives for patients with swallowing disorders like achalasia",
       "url": "https://www.youtube.com/embed/3ILXhuXQK84"
     },
     {
       "title": "Ms. Mallika’s Story | Esophageal and Pyloric Dilatation | Dr. Sreekanth Appasani | Best Gastroenterologist",
-      "description": "Struggling with swallowing difficulties or digestive issues? Discover how esophageal and pyloric dilatation can transform lives! Meet Ms Mallika, who shares her inspiring recovery story after undergoing this procedure at KIMS Hospitals. Learn how this minimally invasive treatment improves swallowing and relieves gastric outlet obstruction for patients with conditions like achalasia, strictures, or pyloric stenosis.\nDon't let digestive issues disrupt your life! Watch now to see how esophageal and pyloric dilatation can help you regain comfort and health.",
+      "description": "Struggling with swallowing difficulties or digestive issues? Discover how esophageal and pyloric dilatation can transform lives!",
       "url": "https://www.youtube.com/embed/Ysu5_EgSZ7s"
     },
     {
       "title": "Mrs. G. Chilakamma’s POEM Journey | Dr. Sreekanth Appasani | KIMS Hospitals",
-      "description": "Experience the life-changing impact of Peroral Endoscopic Myotomy (POEM) through the inspiring journey of Mrs. G. Chilakamma. In this video, Mrs Chilakamma shares her experience of struggling with swallowing difficulties and how the advanced, minimally invasive POEM procedure brought her relief and restored her quality of life.\nDon’t let swallowing disorders hold you back! Learn how POEM can make a difference in your life.",
+      "description": "Experience the life-changing impact of Peroral Endoscopic Myotomy (POEM) through the inspiring journey of Mrs. G. Chilakamma",
       "url": "https://www.youtube.com/embed/O-W84-YkDVw"
     }
   ],
   "doctorvideos": [
     {
       "title": "POEM Procedure: Advanced Care for Achalasia Cardia | Dr. Sreekanth Appasani",
-      "description": "Explore the cutting-edge Peroral Endoscopic Myotomy (POEM) procedure for treating Achalasia Cardia in this in-depth video tailored for medical professionals. Dr. Sreekanth Appasani, a leading gastroenterologist at KIMS Hospitals, explains the technical nuances, benefits, and outcomes of POEM, an innovative, minimally invasive endoscopic solution for esophageal motility disorders.",
       "url": "https://www.youtube.com/embed/YweGu3MzXiE"
     },
     {
       "title": "Non-Surgical GI Cancer Solutions for Doctors | Dr. Sreekanth Appasani",
-      "description": "Discover the transformative role of non-surgical endoscopic treatments in managing gastrointestinal (GI) cancers. In this educational video, Dr. Sreekanth Appasani, a leading gastroenterologist at KIMS Hospitals, delves into the latest advancements in endoscopic techniques designed to treat early-stage GI cancers and precancerous lesions.",
       "url": "https://www.youtube.com/embed/42_TIRInGLc"
     },
     {
-      "title": " Think You Know Jaundice? Get the Facts! | Dr. Sreekanth Appasani",
-      "description": "Think you know everything about jaundice? Think again! In this eye-opening video, Dr. Sreekanth Appasani, a leading gastroenterologist at KIMS Hospitals, debunks common myths about jaundice and explains the facts you need to know.",
+      "title": "Think You Know Jaundice? Get the Facts! | Dr. Sreekanth Appasani",
       "url": "https://www.youtube.com/embed/n8laf4GSDhw"
     }
   ],
@@ -6925,7 +6855,6 @@
           "text": "News & Events",
           "href": "#"
         }
-       
       ]
     },
     "socialMedia": {

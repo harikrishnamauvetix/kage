@@ -1,21 +1,29 @@
 import React from "react";
-import { Container, Typography, Box, Paper } from "@mui/material";
+import { Container, Typography, Box, Paper, Stack } from "@mui/material";
 
 const IntroductionSection = ({ section }) => {
   return (
-    <Paper sx={{ padding: 3, marginBottom: 3 }}>
-      <Typography variant="h4" sx={{ marginBottom: 2 }}>
+    <Stack sx={{ marginBottom: 3 }}>
+      <Typography
+        variant="h6"
+        gutterBottom
+        sx={{
+          margin: "10px 0",
+          color: "secondary.main",
+          textAlign: "left",
+        }}
+      >
         {section.heading}
       </Typography>
       <div>
         {section?.description?.length > 0 &&
           section.description.map((text, index) => (
-            <Typography key={index} variant="body1" sx={{ marginBottom: 1 }}>
+            <Typography key={index} variant="body1" sx={{ marginBottom: 1 ,textAlign:"justify"}}>
               {text}
             </Typography>
           ))}
       </div>
-    </Paper>
+    </Stack>
   );
 };
 

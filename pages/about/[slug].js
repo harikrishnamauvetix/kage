@@ -28,10 +28,12 @@ import Link from "next/link";
 import Header from "@/compoments/Header";
 import AppointmentForm from "@/compoments/Bookappointment";
 import Footer from "@/compoments/Footer";
-import IntroductionSection from "../../compoments/About/intro"
-import KimsAchievementsTable from "../../compoments/About/awards"
+import IntroductionSection from "../../compoments/About/intro";
+import KimsAchievementsTable from "../../compoments/About/awards";
 import SidebarMenu from "@/compoments/SidebarMenu";
 import AboutsidebarMenu from "@/compoments/aboutSidebar";
+import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
+
 const Aboutpage = () => {
   const router = useRouter();
   const { slug } = router.query;
@@ -50,13 +52,13 @@ const Aboutpage = () => {
       .trim();
     const sanitizedSlug = slug?.toLowerCase()?.trim();
 
-   // console.log("Sanitized Slug:", sanitizedSlug);
+    // console.log("Sanitized Slug:", sanitizedSlug);
     // console.log("Sanitized Service Title:", sanitizedTitle);
 
     return sanitizedTitle === sanitizedSlug;
   });
   const section = about?.sections;
-//  console.log(section);
+  //  console.log(section);
   if (!about) {
     return (
       <Container>
@@ -73,46 +75,50 @@ const Aboutpage = () => {
   return (
     <>
       <Header></Header>
+      <Breadcrumbsinfo
+        service={"about"}
+        pagename={about.title}
+      ></Breadcrumbsinfo>
 
-      <Box
-        sx={{
-          backgroundColor: "#f5f5f5", // Replace with your desired color
-          padding: "10px",
-          borderRadius: "8px",
-        }}
-      >
-        <Container>
-          <Breadcrumbs aria-label="breadcrumb" sx={{ padding: "20px" }}>
-            <Link underline="hover" color="inherit" href="/home">
-              Home
-            </Link>
-            <Link underline="hover" color="inherit" href="/about">
-              About
-            </Link>
-            <Link
-              underline="hover"
-              color="text.primary"
-              href="#"
-              aria-current="page"
-            >
-              {about.title}
-            </Link>
-          </Breadcrumbs>
-        </Container>
-      </Box>
-    
       <Container>
-        <Grid container>
-          <Grid size={{ xs: 12, sm: 3, md: 3 }}>
-            {/* <SidebarMenu /> */}
-            <AboutsidebarMenu  service={websiteJson?.about}></AboutsidebarMenu>
-          </Grid>
-          <Grid size={{ xs: 12, sm: 9, md: 9 }} sx={{margin:"20px 0"}}>
-          {section?.introduction &&  <IntroductionSection section={ section?.introduction} />}
-          {section?.AwardsAccreditation && <KimsAchievementsTable section={section?.AwardsAccreditation} /> }
-          
-          </Grid>
-        </Grid>
+        <Box
+          sx={{
+            width: "100%",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <Box
+            sx={{
+              width: "80%", // Adjust width for content responsiveness
+              maxWidth: "1200px", // Limit maximum width for large screens
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <Grid container>
+              <Grid size={{ xs: 12, sm: 3, md: 3 }}>
+                {/* <SidebarMenu /> */}
+                <AboutsidebarMenu
+                  service={websiteJson?.about}
+                ></AboutsidebarMenu>
+              </Grid>
+              <Grid size={{ xs: 12, sm: 9, md: 9 }} sx={{ margin: "20px 0" }}>
+                <Stack sx={{ margin: "10px 0" }}>
+                  {section?.introduction && (
+                    <IntroductionSection section={section?.introduction} />
+                  )}
+                  {section?.AwardsAccreditation && (
+                    <KimsAchievementsTable
+                      section={section?.AwardsAccreditation}
+                    />
+                  )}
+                </Stack>
+              </Grid>
+            </Grid>
+          </Box>
+        </Box>
       </Container>
 
       <Footer></Footer>

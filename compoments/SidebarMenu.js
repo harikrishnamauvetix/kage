@@ -2,7 +2,7 @@ import React from "react";
 import { List, ListItem, ListItemText, Typography } from "@mui/material";
 import Link from "next/link";
 import { useRouter } from "next/router";
-
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 const SidebarMenu = ({ service }) => {
   const router = useRouter();
   const { subpage: currentSubpage } = router.query;
@@ -43,6 +43,13 @@ const SidebarMenu = ({ service }) => {
                 color={isMainPageActive ? "white" : "textSecondary"}
                 sx={{ fontSize: 14 }}
               >
+                  <ArrowForwardIosIcon
+                  sx={{
+                    fontSize: 14, 
+                    color: isMainPageActive ? "white" : "text.secondary",
+                       marginRight:"5px"
+                  }}
+                />
                 {service?.page || "Main Page"}
               </Typography>
             }
@@ -76,7 +83,14 @@ const SidebarMenu = ({ service }) => {
                     color={isSubpageActive ? "#fff" : "textSecondary"}
                     sx={{ fontSize: 14 }}
                   >
-                    {subpage?.title || "No Subpage Title"}
+                         <ArrowForwardIosIcon
+                  sx={{
+                    fontSize: 14, 
+                    color: isSubpageActive ? "white" : "text.secondary",
+                       marginRight:"5px"
+                  }}
+                />
+                    {subpage?.page || "No Subpage Title"}
                   </Typography>
                 }
               />

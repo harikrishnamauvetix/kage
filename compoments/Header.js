@@ -16,6 +16,8 @@ import Link from "next/link";
 import MailIcon from "@mui/icons-material/Mail";
 import PhoneIcon from "@mui/icons-material/Phone";
 import websiteJson from "../public/website.json";
+import BookAppointmentModal from "./BookAppointmentModal";
+
 const Navbar = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const [subMenuAnchorEl, setSubMenuAnchorEl] = useState(null);
@@ -37,7 +39,10 @@ const Navbar = () => {
   const toggleDrawer = (open) => () => {
     setDrawerOpen(open);
   };
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const handleOpen = () => setIsModalOpen(true);
+  const handleClose = () => setIsModalOpen(false);
   const navItems = [
     { label: "About us", href: "/about" },
     { label: "Doctors", href: "/doctors" },
@@ -90,8 +95,8 @@ const Navbar = () => {
             alignItems: "center",
           }}
         >
-          <PhoneIcon sx={{ color: "#fff", marginRight: "5px" }} /> Call: 040
-          4488 5333
+          <PhoneIcon sx={{ color: "#fff", marginRight: "5px" }} /> Call 040 4488
+          5333 To Book An Appointment
         </Typography>
       </Box>
       <Box sx={{ backgroundColor: "white", boxShadow: "none" }}>
@@ -109,24 +114,31 @@ const Navbar = () => {
           </Box>
 
           {!isMobile && (
-            <Box sx={{ display: "flex", alignItems: "center", gap: 4 }}>
-              {/* Contact Info */}
-              <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-                <MailIcon sx={{ color: "primary.main" }} />
-                <Typography variant="body2" sx={{ color: "black" }}>
-                  hello@kimscuddles.com
-                </Typography>
-                <PhoneIcon sx={{ color: "primary.main" }} />
-                <Typography variant="body2" sx={{ color: "black" }}>
-                  Call: 040 4488 5333
-                </Typography>
-              </Box>
+          <Box sx={{ padding: 2, bgcolor: "background.paper", borderRadius: 1 }}>
+          {/* Contact Info */}
+          <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <MailIcon sx={{ color: "primary.main" }} aria-label="Email Icon" />
+              <Typography variant="body2" sx={{ color: "text.primary" }}>
+                appointments.kage@gmail.com
+              </Typography>
             </Box>
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <PhoneIcon sx={{ color: "primary.main" }} aria-label="Phone Icon" />
+              <Typography variant="body2" sx={{ color: "text.primary" }}>
+                Call: 7288842255
+              </Typography>
+            </Box>
+          </Box>
+        </Box>
+        
           )}
         </Toolbar>
       </Box>
       <AppBar position="sticky" color="primary" sx={{ top: 0, zIndex: 1200 }}>
-        <Toolbar sx={{alignItems:"ceneter",justifyContent:"space-between"}}>
+        <Toolbar
+          sx={{ alignItems: "ceneter", justifyContent: "space-between" }}
+        >
           {isMobile ? (
             <>
               <IconButton
@@ -242,6 +254,7 @@ const Navbar = () => {
                     backgroundColor: "secondary.main",
                     justifyContent: "right",
                   }}
+                  onClick={handleOpen}
                 >
                   Book an Appointment
                 </Button>
@@ -250,6 +263,8 @@ const Navbar = () => {
           )}
         </Toolbar>
       </AppBar>
+
+      <BookAppointmentModal open={isModalOpen} handleClose={handleClose} />
     </>
   );
 };
