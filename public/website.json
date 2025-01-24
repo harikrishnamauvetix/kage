@@ -3558,11 +3558,11 @@
           "content": [
             "The liver is one of the most vital organs, performing over 500 essential functions, including detoxification, protein synthesis, and aiding digestion. When liver function declines due to chronic disease, infections, or other conditions, specialized care is crucial. The Advanced Liver Care and Transplant Clinic at KIMS Advanced Gastroenterology & Endoscopy - KAGE, Hyderabad, is dedicated to diagnosing, managing, and treating all liver-related diseases, offering state-of-the-art liver transplant services when necessary.",
             "Our team of highly experienced hepatologists, liver transplant surgeons, and support staff ensures a multidisciplinary approach to care, backed by cutting-edge technology. From preventive care to advanced treatments, we are a trusted destination for liver health in Hyderabad and Secunderabad."
-          ]
-        },
+          ],
+       
         "conditions": {
           "heading": "Conditions We Treat",
-          "lists": [
+          "conditionsList": [
             "Chronic Liver Disease (CLD)",
             "Acute Liver Failure (ALF)",
             "Hepatitis (A, B, C, E)",
@@ -3576,7 +3576,7 @@
         },
         "key_services": {
           "heading": "Key Services at the Advanced Liver Care and Transplant Clinic",
-          "lists": [
+          "keyServiceslist": [
             "Comprehensive Diagnostic Services",
             "Advanced Liver Transplant Services",
             "Management of Viral Hepatitis",
@@ -3690,6 +3690,7 @@
             }
           ]
         }
+      }
       },
       "subpages": [
         {
