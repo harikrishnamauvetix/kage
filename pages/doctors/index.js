@@ -20,7 +20,7 @@ import {
 } from "@mui/material";
 import websiteJson from "../../public/website.json";
 import Link from "next/link";
-import DoctorsList from "@/compoments/Doctors/Doctorslist";
+import DoctorsList from "@/components/Doctors/DoctorsList";
 import SendIcon from "@mui/icons-material/Send";
 import Footer from "@/compoments/Footer";
 import Header from "@/compoments/Header";
