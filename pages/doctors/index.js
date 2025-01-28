@@ -20,11 +20,11 @@ import {
 } from "@mui/material";
 import websiteJson from "../../public/website.json";
 import Link from "next/link";
-
+import DoctorsList from "@/compoments/Doctors/Doctorslist";
 import SendIcon from "@mui/icons-material/Send";
 import Footer from "@/compoments/Footer";
 import Header from "@/compoments/Header";
-import DoctorsList from "@/compoments/Doctors/Doctorslist";
+
 
 
 const Doctors = () => {
@@ -62,7 +62,7 @@ const Doctors = () => {
         <Grid2 container spacing={2}>
      
         <DoctorsList doctorsList={websiteJson.doctorsList}/>
-        
+
         </Grid2>
       </Container>
       <Footer></Footer>
