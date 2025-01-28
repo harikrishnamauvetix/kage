@@ -26,6 +26,7 @@ import Footer from "@/compoments/Footer";
 import Header from "@/compoments/Header";
 import DoctorsList from "@/compoments/Doctors/Doctorslist";
 
+
 const Doctors = () => {
   return (
     <>
@@ -59,6 +60,7 @@ const Doctors = () => {
       </Box>
       <Container>
         <Grid2 container spacing={2}>
+     
         <DoctorsList doctorsList={websiteJson.doctorsList}/>
         
         </Grid2>
