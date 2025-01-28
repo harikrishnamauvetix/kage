@@ -36,7 +36,7 @@ import ProceduresList from "@/compoments/Home/ProceduresList";
 
 import DoctorVideos from "@/compoments/Home/DoctorVideos";
 import PatientVideos from "@/compoments/Home/PatientVideos";
-import DoctorsList from "@/components/Doctors/DoctorsLists";
+import DoctorsLists from "@/components/Doctors/DoctorsLists";
 
 
 const Home = () => {
@@ -178,7 +178,7 @@ const Home = () => {
 
         <SpecialityClinics specialityclinics={websiteJson.services} />
 
-      <DoctorsList doctorsList={websiteJson.doctorsList}></DoctorsList>
+      <DoctorsLists doctorsList={websiteJson.doctorsList}></DoctorsLists>
         <ProceduresList procedures={websiteJson.procedures}></ProceduresList>
         <PatientVideos patientvideos={websiteJson.Patientvideos} />
         <DoctorVideos doctorvideos={websiteJson.doctorvideos} />
