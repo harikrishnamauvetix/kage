@@ -9,7 +9,7 @@ function WhyChooseSection({ whyChoose }) {
 
   return (
     <Box sx={{padding:"20px"}}>
-      <Grid container>
+      <Grid container >
         <Grid  size={{ xs: 12, sm: 12, md: 12 }}>
           {/* Heading */}
           <Typography
@@ -20,7 +20,7 @@ function WhyChooseSection({ whyChoose }) {
           </Typography>
 
           {/* Steps */}
-          <Grid container spacing={2}>
+          <Grid container spacing={2} justifyContent="center">
             {whyChoose.steps.map((step, index) => (
               <Grid size={{ xs: 12, sm: 12, md: 4 }} key={index}>
                 <Card  sx={{

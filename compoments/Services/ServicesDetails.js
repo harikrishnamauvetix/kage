@@ -1,6 +1,6 @@
 import { Typography, List, ListItem, ListItemText,Box,ListItemIcon } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 function ServicesInfo({ servicesinfo }) {
   const services = servicesinfo?.services || [];
   // console.log(servicesinfo);
@@ -27,7 +27,7 @@ function ServicesInfo({ servicesinfo }) {
               {service.list.map((item, idx) => (
                 <ListItem key={idx} sx={{ padding: "0" }}>
                      <ListItemIcon sx={{ padding: "0px", minWidth: "30px" }}>
-                        <CheckCircleIcon color="primary" />
+                        <ArrowForwardIosIcon color="primary" />
                       </ListItemIcon>
                   <ListItemText sx={{ padding: "0" }} primary={item} />
                 </ListItem>

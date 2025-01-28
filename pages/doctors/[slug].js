@@ -15,8 +15,8 @@ import {
   Divider,
   Card,
   CardContent,
-  Rating ,
-  Avatar 
+  Rating,
+  Avatar,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import websiteJson from "../../public/website.json";
@@ -30,6 +30,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import Optimings from "@/compoments/Doctors/Optimings";
 const DoctorDetails = () => {
   const router = useRouter();
   const { slug } = router.query;
@@ -116,7 +117,7 @@ const DoctorDetails = () => {
             sx={{ width: "100%", position: "relative" }}
           >
             {/* Ensure full width */}
-            <Grid size={{ xs: 12, md: 3, lg:3 }}>
+            <Grid size={{ xs: 12, md: 3, lg: 3 }}>
               <Box sx={{ position: "absolute", marginTop: "-200px" }}>
                 <CardMedia
                   component="img"
@@ -134,7 +135,7 @@ const DoctorDetails = () => {
                 </Button>
               </Box>
             </Grid>
-            <Grid size={{ xs: 12, md: 9 ,lg:9}}>
+            <Grid size={{ xs: 12, md: 9, lg: 9 }}>
               {/* <Typography variant="h4">{doctor.name}</Typography> */}
               <Typography variant="h6" sx={{ padding: "10px 0" }}>
                 {doctor.qualifications}
@@ -143,13 +144,24 @@ const DoctorDetails = () => {
                 Registration Number: {doctor.registrationNumber}
               </Typography>
               <Box mt={2}>
-                <Typography variant="h6">Profile</Typography>
-                <Typography>
-                
+                <Stack>
+                  <Typography
+                    variant="h6"
+                    sx={{ padding: "10px 0", color: "primary.main" }}
+                  >
+                    OP Timings
+                  </Typography>
+                  <Optimings timing={doctor.opTiming} />
+                </Stack>
+
+                <Typography
+                  variant="h6"
+                  sx={{ padding: "10px 0", color: "primary.main" }}
+                >
+                  Profile
                 </Typography>
-                <Typography>
-                 
-                </Typography>
+                <Typography></Typography>
+                <Typography></Typography>
                 <Typography
                   variant="h6"
                   sx={{ padding: "10px 0", color: "primary.main" }}
@@ -163,7 +175,7 @@ const DoctorDetails = () => {
                   }}
                 >
                   {doctor?.achievements?.map((achievement, index) => (
-                    <ListItem key={index}  sx={{ display: "list-item", py: 0 }}>
+                    <ListItem key={index} sx={{ display: "list-item", py: 0 }}>
                       <ListItemText primary={achievement} />
                     </ListItem>
                   ))}
@@ -181,7 +193,7 @@ const DoctorDetails = () => {
                   }}
                 >
                   {doctor?.awards?.map((achievement, index) => (
-                    <ListItem key={index}  sx={{ display: "list-item", py: 0 }}>
+                    <ListItem key={index} sx={{ display: "list-item", py: 0 }}>
                       <ListItemText primary={achievement} />
                     </ListItem>
                   ))}
@@ -192,113 +204,109 @@ const DoctorDetails = () => {
         </Container>
       </Box>
       <Box>
+        <Container>
+          {/* Patient Testimonials Section */}
+          <Box sx={{ mb: 6 }}>
+            <Box>
+              <Typography
+                component="h2"
+                variant="h4"
+                gutterBottom
+                color="secondary"
+                textAlign="left"
+                sx={{ mb: 3, mt: 3 }}
+              >
+                Patient Testimonials
+              </Typography>
+            </Box>
+            <Box>
+              {/* Title Section */}
 
-      <Container>
-            {/* Patient Testimonials Section */}
-            <Box sx={{ mb: 6 }}>
-              <Box>
-                <Typography
-                  component="h2"
-                  variant="h4"
-                  gutterBottom
-                  color="secondary"
-                  textAlign="left"
-                  sx={{ mb: 3, mt: 3 }}
-                >
-                  Patient Testimonials
-                </Typography>
-              </Box>
-              <Box>
-                {/* Title Section */}
-
-                {/* Testimonial Cards */}
-                <Swiper
-                  modules={[Pagination]}
-                  spaceBetween={30}
-                  slidesPerView={1}
-                  pagination={{ clickable: true }}
-                  breakpoints={{
-                    640: { slidesPerView: 2 },
-                    1024: { slidesPerView: 3 },
-                  }}
-                >
-                  {doctor.patientTestimonials?.map((testimonial) => (
-                    <SwiperSlide key={testimonial.id}>
-                      <Card
+              {/* Testimonial Cards */}
+              <Swiper
+                modules={[Pagination]}
+                spaceBetween={30}
+                slidesPerView={1}
+                pagination={{ clickable: true }}
+                breakpoints={{
+                  640: { slidesPerView: 2 },
+                  1024: { slidesPerView: 3 },
+                }}
+              >
+                {doctor.patientTestimonials?.map((testimonial) => (
+                  <SwiperSlide key={testimonial.id}>
+                    <Card
+                      sx={{
+                        maxWidth: 345,
+                        margin: "0 auto",
+                        boxShadow: 3,
+                        borderRadius: 2,
+                        p: 0,
+                      }}
+                    >
+                      <CardContent
                         sx={{
                           maxWidth: 345,
-                          margin: "0 auto",
-                          boxShadow: 3,
-                          borderRadius: 2,
-                          p: 0,
+                          padding: "0px !important",
                         }}
                       >
-                        <CardContent
+                        <Typography
+                          variant="body2"
+                          color="textSecondary"
+                          sx={{ mb: 1, lineHeight: 1.6, p: 1 }}
+                        >
+                          {testimonial.testimonial}
+                        </Typography>
+                        <Rating
+                          value={testimonial.rating}
+                          precision={0.5}
+                          readOnly
                           sx={{
-                            maxWidth: 345,
-                            padding: "0px !important",
+                            p: 1,
+                            color: "primary.main",
+                          }}
+                        />
+
+                        <Box
+                          display="flex"
+                          alignItems="center"
+                          sx={{
+                            lineHeight: 1.6,
+                            p: 1,
+                            backgroundColor: "secondary.main",
+                            color: "#fff",
                           }}
                         >
-                          <Typography
-                            variant="body2"
-                            color="textSecondary"
-                            sx={{ mb: 1, lineHeight: 1.6, p: 1 }}
-                          >
-                            {testimonial.testimonial}
-                          </Typography>
-                          <Rating
-                            value={testimonial.rating}
-                            precision={0.5}
-                            readOnly
+                          <Avatar
+                            src={testimonial.avatar}
+                            alt={testimonial.name}
                             sx={{
-                              p: 1,
-                              color: "primary.main",
+                              width: 56,
+                              height: 56,
+                              border: "2px solid #ff5722",
+                              mr: 2,
                             }}
                           />
-
-                          <Box
-                            display="flex"
-                            alignItems="center"
-                            sx={{
-                              lineHeight: 1.6,
-                              p: 1,
-                              backgroundColor: "secondary.main",
-                              color: "#fff",
-                            }}
-                          >
-                            <Avatar
-                              src={testimonial.avatar}
-                              alt={testimonial.name}
-                              sx={{
-                                width: 56,
-                                height: 56,
-                                border: "2px solid #ff5722",
-                                mr: 2,
-                              }}
-                            />
-                            <Box>
-                              <Typography
-                                variant="subtitle1"
-                                sx={{ fontWeight: 600, color: "#fff" }}
-                              >
-                                {testimonial.name}
-                              </Typography>
-                              <Typography
-                                variant="caption"
-                                color="textSecondary"
-                              >
-                                {testimonial.title}
-                              </Typography>
-                            </Box>
+                          <Box>
+                            <Typography
+                              variant="subtitle1"
+                              sx={{ fontWeight: 600, color: "#fff" }}
+                            >
+                              {testimonial.name}
+                            </Typography>
+                            <Typography variant="caption" color="textSecondary">
+                              {testimonial.title}
+                            </Typography>
                           </Box>
-                        </CardContent>
-                      </Card>
-                    </SwiperSlide>
-                  ))}
-                </Swiper>
-              </Box>
+                        </Box>
+                      </CardContent>
+                    </Card>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
             </Box>
-          </Container>
+          </Box>
+        </Container>
       </Box>
 
       <Footer></Footer>

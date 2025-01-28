@@ -7,7 +7,7 @@ import {
   ListItemText,
   ListItemIcon,
 } from "@mui/material";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Grid from "@mui/material/Grid2";
 function WhenToSeeSpecialist({ whenToSee }) {
   if (!whenToSee || !whenToSee.heading || !whenToSee.list?.length) {
@@ -28,7 +28,7 @@ function WhenToSeeSpecialist({ whenToSee }) {
             <List sx={{ padding: "0" }}>
               <ListItem sx={{ padding: "0" }}>
                 <ListItemIcon sx={{ padding: "0px", minWidth: "30px" }}>
-                  <CheckCircleIcon color="primary" />
+                  <ArrowForwardIosIcon color="primary" />
                 </ListItemIcon>
                 <ListItemText primary={item} sx={{ padding: "0" }} />
               </ListItem>

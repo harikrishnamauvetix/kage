@@ -1,17 +1,15 @@
 {
   "bannerImage": [
     {
-      "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_10_1720786743.jpg"
+      "image": "Images/Home/banner1.jpg"
     },
     {
-      "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_01_1_1683635455.jpg"
+     "image": "Images/Home/banner2.jpg"
     },
     {
-      "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_02_1683635460.jpg"
-    },
-    {
-      "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_07_1720786814.jpg"
+     "image": "Images/Home/banner3.jpg"
     }
+  
   ],
   "introImages": [
     {
@@ -33,9 +31,9 @@
     }
   ],
   "about": {
-    "page": "About",
-    "title": "About",
-    "slug": "about",
+    "page": "KAGE",
+    "title": "KAGE",
+    "slug": "KAGE",
     "subHeading": "KIMS Advanced Gastroenterology & Endoscopy - KAGE – Pioneering Gastroenterology and Hepatology in Hyderabad",
     "Description": "KIMS Advanced Gastroenterology & Endoscopy - KAGE is a specialized center dedicated to delivering cutting-edge care in gastroenterology and liver diseases. Combining advanced technology with the expertise of highly skilled specialists, KIMS Advanced Gastroenterology & Endoscopy - KAGE addresses complex digestive disorders with precision and compassion.",
     "specialtyClinics": {
@@ -274,6 +272,36 @@
           "image": "https://example.com/gallery3.jpg",
           "caption": "During a live endoscopy workshop."
         }
+      ],
+      "opTiming": [
+        {
+          "day": "Monday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Tuesday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Wednesday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Thursday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Friday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Saturday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Sunday",
+          "timing": "Not Available"
+        }
       ]
     },
     {
@@ -371,6 +399,36 @@
         {
           "image": "https://example.com/gallery3.jpg",
           "caption": "During a live endoscopy workshop."
+        }
+      ],
+      "opTiming": [
+        {
+          "day": "Monday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Tuesday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Wednesday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Thursday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Friday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Saturday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Sunday",
+          "timing": "Not Available"
         }
       ]
     },
@@ -470,6 +528,36 @@
           "image": "https://example.com/gallery3.jpg",
           "caption": "During a live endoscopy workshop."
         }
+      ],
+      "opTiming": [
+        {
+          "day": "Monday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Tuesday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Wednesday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Thursday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Friday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Saturday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Sunday",
+          "timing": "Not Available"
+        }
       ]
     },
     {
@@ -567,6 +655,36 @@
         {
           "image": "https://example.com/gallery3.jpg",
           "caption": "During a live endoscopy workshop."
+        }
+      ],
+      "opTiming": [
+        {
+          "day": "Monday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Tuesday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Wednesday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Thursday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Friday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Saturday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Sunday",
+          "timing": "Not Available"
         }
       ]
     },
@@ -666,6 +784,36 @@
           "image": "https://example.com/gallery3.jpg",
           "caption": "During a live endoscopy workshop."
         }
+      ],
+      "opTiming": [
+        {
+          "day": "Monday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Tuesday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Wednesday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Thursday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Friday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Saturday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Sunday",
+          "timing": "Not Available"
+        }
       ]
     },
     {
@@ -674,7 +822,37 @@
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Gastroenterologist & Hepatologist",
       "registrationNumber": "TSMC/FMR/09030",
-      "profileImage": "Images/doctors/dr-viswanath.png"
+      "profileImage": "Images/doctors/dr-viswanath.png",
+      "opTiming": [
+        {
+          "day": "Monday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Tuesday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Wednesday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Thursday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Friday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Saturday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Sunday",
+          "timing": "Not Available"
+        }
+      ]
     },
     {
       "id": 7,
@@ -682,7 +860,37 @@
       "qualifications": "MD (JIPMER), DM (PIGMER, Chandigarh)",
       "designation": "Consultant Gastroenterologist & Hepatologist, Interventional Endoscopist",
       "registrationNumber": "TSMC/FMR/34378",
-      "profileImage": "Images/doctors/dr-harsha-t.png"
+      "profileImage": "Images/doctors/dr-harsha-t.png",
+      "opTiming": [
+        {
+          "day": "Monday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Tuesday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Wednesday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Thursday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Friday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Saturday",
+          "timing": "9:00am - 5:30pm"
+        },
+        {
+          "day": "Sunday",
+          "timing": "Not Available"
+        }
+      ]
     }
   ],
   "testimonials": [
@@ -721,13 +929,17 @@
   ],
   "procedures": [
     {
-      "icon": "https://picsum.photos/seed/picsum/800/400",
+  
+      "icon": "/Images/Icons/POEM.png",
       "title": "POEM (Peroral Endoscopic Myotomy)",
       "subtitle": "Revolutionizing Treatment for Achalasia with Precision and Care",
       "sections": [
         {
           "heading": "What is POEM?",
-          "content": "POEM (Peroral Endoscopic Myotomy) is a cutting-edge, minimally invasive procedure designed to treat Achalasia—a condition that affects the esophagus, making it difficult for food and liquids to pass into the stomach. Unlike traditional surgeries, POEM utilizes advanced endoscopic technology to offer a solution that is not only effective but also comes with a faster recovery time and reduced discomfort. At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we bring this innovative technique directly to our patients. We believe in harnessing the power of precision medicine to ensure that each patient experiences a smoother journey from diagnosis to recovery."
+          "content": [
+            "POEM (Peroral Endoscopic Myotomy) is a cutting-edge, minimally invasive procedure designed to treat Achalasia—a condition that affects the esophagus, making it difficult for food and liquids to pass into the stomach. Unlike traditional surgeries, POEM utilizes advanced endoscopic technology to offer a solution that is not only effective but also comes with a faster recovery time and reduced discomfort.",
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we bring this innovative technique directly to our patients. We believe in harnessing the power of precision medicine to ensure that each patient experiences a smoother journey from diagnosis to recovery."
+          ]
         },
         {
           "heading": "How POEM Works",
@@ -816,13 +1028,16 @@
       ]
     },
     {
-      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "icon": "/Images/Icons/EMR.png",
       "title": "EMR (Endoscopic Mucosal Resection)",
       "description": "Experience unmatched durability that goes above and beyond with lasting investment.",
       "sections": [
         {
           "heading": "EMR (Endoscopic Mucosal Resection)",
-          "content": "Precision in Treating Early-Stage GI Tumors*  \n\n#What is EMR?**  \n**Endoscopic Mucosal Resection (EMR)** is a minimally invasive technique used to remove early-stage tumors or abnormal growths from the gastrointestinal (GI) tract. This procedure is performed using advanced endoscopic tools, allowing for the removal of cancerous or pre-cancerous cells without the need for invasive surgery.\n\nAt **KIMS Advanced Gastroenterology & Endoscopy - KAGE**, we prioritize innovation and precision. EMR offers an effective treatment option for a variety of GI tract conditions, including early esophageal, stomach, and colon cancers, as well as non-cancerous polyps. By using EMR, we can provide targeted, effective treatment with minimal discomfort and a faster recovery time."
+          "content": [
+            "Endoscopic Mucosal Resection (EMR) is a minimally invasive technique used to remove early-stage tumors or abnormal growths from the gastrointestinal (GI) tract. This procedure is performed using advanced endoscopic tools, allowing for the removal of cancerous or pre-cancerous cells without the need for invasive surgery.",
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we prioritize innovation and precision. EMR offers an effective treatment option for a variety of GI tract conditions, including early esophageal, stomach, and colon cancers, as well as non-cancerous polyps. By using EMR, we can provide targeted, effective treatment with minimal discomfort and a faster recovery time."
+          ]
         },
         {
           "heading": "How EMR Works",
@@ -862,7 +1077,7 @@
           "heading": "Conditions Treated with EMR",
           "content": "#Conditions Treated with EMR",
           "symptoms": [],
-          "content_2": "- **Early-Stage GI Cancers**: For cancers of the esophagus, stomach, and colon that are still confined to the mucosal layer, EMR offers an effective way to remove the tumor while preserving healthy tissue.\n- **Precancerous Lesions**: Polyps or abnormal growths that have the potential to develop into cancer can be safely and efficiently removed with EMR.\n- **Benign Growths**: Non-cancerous tumors or lesions in the GI tract can also be treated using this technique, preventing further complications."
+          "content_2": "- Early-Stage GI Cancers: For cancers of the esophagus, stomach, and colon that are still confined to the mucosal layer, EMR offers an effective way to remove the tumor while preserving healthy tissue.\n- Precancerous Lesions: Polyps or abnormal growths that have the potential to develop into cancer can be safely and efficiently removed with EMR.\n- Benign Growths: Non-cancerous tumors or lesions in the GI tract can also be treated using this technique, preventing further complications."
         },
         {
           "heading": "What to Expect After EMR",
@@ -900,19 +1115,22 @@
         },
         {
           "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for Your EMR Procedure?",
-          "content": "At **KIMS Advanced Gastroenterology & Endoscopy - KAGE**, we bring you more than just advanced technology—we offer a personalized, compassionate approach to your health. Whether you’re dealing with early-stage cancer, precancerous lesions, or benign growths, our experienced team is dedicated to providing the best possible care using the least invasive methods.\n\nWe combine cutting-edge procedures like EMR with a focus on your overall well-being, ensuring that your treatment plan is both effective and comfortable.",
-          "call_to_action": "Ready to learn more about EMR and how it can help you? **Contact KIMS Advanced Gastroenterology & Endoscopy - KAGE** today to schedule a consultation and take the first step toward a healthier, brighter future."
+          "content": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we bring you more than just advanced technology—we offer a personalized, compassionate approach to your health. Whether you’re dealing with early-stage cancer, precancerous lesions, or benign growths, our experienced team is dedicated to providing the best possible care using the least invasive methods.\n\nWe combine cutting-edge procedures like EMR with a focus on your overall well-being, ensuring that your treatment plan is both effective and comfortable.",
+          "call_to_action": "Ready to learn more about EMR and how it can help you? Contact KIMS Advanced Gastroenterology & Endoscopy - KAGE today to schedule a consultation and take the first step toward a healthier, brighter future."
         }
       ]
     },
     {
-      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "icon": "/Images/Icons/ESD.png",
       "title": "ESD (Endoscopic Submucosal Dissection)",
       "description": "Integrate our product into your routine with an intuitive and easy-to-use interface.",
       "sections": [
         {
           "heading": "ESD (Endoscopic Submucosal Dissection)",
-          "content": "Advanced Precision in Removing Tumors and Lesions*  \n\n#What is ESD?**  \nEndoscopic Submucosal Dissection (ESD) is a highly advanced, minimally invasive procedure designed to remove tumors, lesions, or early-stage cancers from the gastrointestinal (GI) tract. Unlike traditional techniques, ESD allows for the precise removal of larger lesions and tumors in a single piece, reducing the need for more invasive surgery.\n\nAt KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are proud to offer this state-of-the-art procedure, using the latest technology to deliver effective, minimally invasive treatment. Whether it's for benign growths or early-stage cancer, ESD offers a solution that ensures safety, accuracy, and quick recovery."
+          "content": [
+            "Endoscopic Submucosal Dissection (ESD) is a procedure designed to remove tumors, lesions, or early-stage cancers from the gastrointestinal (GI) tract. Unlike traditional techniques, ESD allows for the precise removal of larger lesions and tumors in a single piece, reducing the need for more invasive surgery.",
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are proud to offer this state-of-the-art procedure, using the latest technology to deliver effective, minimally invasive treatment. Whether it's for benign growths or early-stage cancer, ESD offers a solution that ensures safety, accuracy, and quick recovery."
+          ]
         },
         {
           "heading": "How ESD Works",
@@ -941,13 +1159,13 @@
         },
         {
           "heading": "Why Choose ESD at KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
-          "content": "- **Unmatched Precision**: ESD is the gold standard for removing larger lesions or tumors that are confined to the mucosal layer of the GI tract. This advanced technique allows for more accurate removal compared to traditional methods, reducing the risk of leaving behind any abnormal tissue.\n\n- **Minimally Invasive**: With no need for large incisions, ESD offers a faster recovery time, less discomfort, and fewer complications compared to traditional surgery. You can get back to your routine sooner, with minimal downtime.\n\n- **Expert Care**: The team at KIMS Advanced Gastroenterology & Endoscopy - KAGE consists of experienced gastroenterologists and specialists who are highly skilled in performing ESD. We ensure that each procedure is done with precision, care, and attention to your individual needs.\n\n- **Comprehensive Treatment**: At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we take a holistic approach to treatment, offering not just cutting-edge procedures but also comprehensive care that focuses on long-term health and well-being."
+          "content": "- Unmatched Precision: ESD is the gold standard for removing larger lesions or tumors that are confined to the mucosal layer of the GI tract. This advanced technique allows for more accurate removal compared to traditional methods, reducing the risk of leaving behind any abnormal tissue.\n\n- Minimally Invasive: With no need for large incisions, ESD offers a faster recovery time, less discomfort, and fewer complications compared to traditional surgery. You can get back to your routine sooner, with minimal downtime.\n\n- Expert Care: The team at KIMS Advanced Gastroenterology & Endoscopy - KAGE consists of experienced gastroenterologists and specialists who are highly skilled in performing ESD. We ensure that each procedure is done with precision, care, and attention to your individual needs.\n\n- Comprehensive Treatment: At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we take a holistic approach to treatment, offering not just cutting-edge procedures but also comprehensive care that focuses on long-term health and well-being."
         },
         {
           "heading": "Conditions Treated with ESD",
           "content": "#Conditions Treated with ESD",
           "symptoms": [],
-          "content_2": "- **Early-Stage Gastrointestinal Cancers**: When cancers are confined to the mucosal layer of the GI tract, ESD allows for the precise removal of the tumor without the need for invasive surgery.\n- **Benign Tumors and Polyps**: Non-cancerous growths in the esophagus, stomach, or colon can be effectively removed using ESD, preventing future complications.\n- **Precancerous Lesions**: ESD is also effective in removing precancerous growths or lesions, reducing the risk of these lesions developing into cancer in the future."
+          "content_2": "- Early-Stage Gastrointestinal Cancers: When cancers are confined to the mucosal layer of the GI tract, ESD allows for the precise removal of the tumor without the need for invasive surgery.\n- Benign Tumors and Polyps: Non-cancerous growths in the esophagus, stomach, or colon can be effectively removed using ESD, preventing future complications.\n- Precancerous Lesions: ESD is also effective in removing precancerous growths or lesions, reducing the risk of these lesions developing into cancer in the future."
         },
         {
           "heading": "What to Expect After ESD",
@@ -970,15 +1188,19 @@
           "heading": "Frequently Asked Questions",
           "faq": [
             {
+              "question": " How long does ESD take?",
               "answer": "The procedure typically takes between 1 and 2 hours, depending on the size and location of the lesion."
             },
             {
+              "question": "Is ESD painful",
               "answer": "ESD is minimally invasive and most patients report only mild discomfort afterward. Local anesthesia is used during the procedure, and patients are closely monitored during recovery."
             },
             {
+              "question": "How soon can I return to normal activities?",
               "answer": "Most patients can return to their normal activities within a week. A follow-up plan will be provided to monitor healing and recovery."
             },
             {
+              "question": "Will I need additional treatment after ESD?",
               "answer": "Follow-up appointments are essential for monitoring your recovery and ensuring that there is no recurrence of abnormal tissue. In some cases, additional treatments or surveillance may be necessary, but many patients experience a full recovery after ESD."
             }
           ]
@@ -991,17 +1213,17 @@
       ]
     },
     {
-      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "icon": "/Images/Icons/STER.png",
       "title": "STER (Submucosal Tunneling Endoscopic Resection)",
       "description": "Stay ahead with features that set new standards, addressing your evolving needs better than the rest.",
       "sections": [
-        {
-          "heading": "STER (Submucosal Tunneling Endoscopic Resection)",
-          "content": "Revolutionizing the Removal of GI Tract Tumors with Precision"
-        },
+      
         {
           "heading": "What is STER?",
-          "content": "Submucosal Tunneling Endoscopic Resection (STER) is an advanced, minimally invasive technique used to treat tumors and lesions in the gastrointestinal (GI) tract, particularly those located in hard-to-reach areas like the esophagus or the stomach. This innovative procedure allows for the precise and complete removal of abnormal tissue, offering a safer and more effective alternative to traditional surgery. At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we provide cutting-edge STER procedures designed to treat gastrointestinal tumors with minimal disruption to surrounding tissues. This modern technique enables us to deliver quicker recovery times, fewer complications, and superior results for our patients."
+          "content": [
+            "Submucosal Tunneling Endoscopic Resection (STER) is an advanced, minimally invasive technique used to treat tumors and lesions in the gastrointestinal (GI) tract, particularly those located in hard-to-reach areas like the esophagus or the stomach. This innovative procedure allows for the precise and complete removal of abnormal tissue, offering a safer and more effective alternative to traditional surgery.",
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we provide cutting-edge STER procedures designed to treat gastrointestinal tumors with minimal disruption to surrounding tissues. This modern technique enables us to deliver quicker recovery times, fewer complications, and superior results for our patients."
+          ]
         },
         {
           "heading": "How STER Works",
@@ -1030,15 +1252,15 @@
         },
         {
           "heading": "Why Choose STER at KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
-          "content": "- **Precise and Minimally Invasive**: Unlike traditional surgeries, STER uses a minimally invasive approach to remove tumors with high precision. The small size of the incisions and the minimally disruptive nature of the procedure make recovery easier and faster.\n\n- **Ideal for Hard-to-Reach Lesions**: STER is especially useful for tumors located in difficult-to-reach areas, such as the esophagus or deep within the stomach. This technique provides a safer, more effective way to access and remove these growths.\n\n- **Faster Recovery**: Because STER does not require large incisions, recovery time is much quicker. Most patients experience little downtime and are able to return to normal activities sooner than with traditional surgery.\n\n- **Expert Care at KIMS Advanced Gastroenterology & Endoscopy - KAGE**: The KIMS Advanced Gastroenterology & Endoscopy - KAGE team is equipped with the latest knowledge and technology to ensure a safe, successful procedure. Our specialists are highly trained in STER, providing you with the highest level of expertise and care."
+          "content": "- Precise and Minimally Invasive: Unlike traditional surgeries, STER uses a minimally invasive approach to remove tumors with high precision. The small size of the incisions and the minimally disruptive nature of the procedure make recovery easier and faster.\n\n- Ideal for Hard-to-Reach Lesions: STER is especially useful for tumors located in difficult-to-reach areas, such as the esophagus or deep within the stomach. This technique provides a safer, more effective way to access and remove these growths.\n\n- Faster Recovery: Because STER does not require large incisions, recovery time is much quicker. Most patients experience little downtime and are able to return to normal activities sooner than with traditional surgery.\n\n- Expert Care at KIMS Advanced Gastroenterology & Endoscopy - KAGE: The KIMS Advanced Gastroenterology & Endoscopy - KAGE team is equipped with the latest knowledge and technology to ensure a safe, successful procedure. Our specialists are highly trained in STER, providing you with the highest level of expertise and care."
         },
         {
           "heading": "Conditions Treated with STER",
-          "content": "STER is typically used to treat a range of conditions, including:\n\n- **Gastrointestinal Tumors**: Benign or early-stage malignant tumors in the GI tract that are difficult to remove through traditional methods.\n- **Esophageal Lesions**: Abnormal growths in the esophagus, such as early-stage cancers or large benign tumors.\n- **Stomach and Colonic Tumors**: Lesions located in the stomach or colon that require precise removal without disrupting surrounding healthy tissue."
+          "content": "STER is typically used to treat a range of conditions, including:\n\n- Gastrointestinal Tumors: Benign or early-stage malignant tumors in the GI tract that are difficult to remove through traditional methods.\n- Esophageal Lesions: Abnormal growths in the esophagus, such as early-stage cancers or large benign tumors.\n- Stomach and Colonic Tumors: Lesions located in the stomach or colon that require precise removal without disrupting surrounding healthy tissue."
         },
         {
           "heading": "What to Expect After STER",
-          "content": "- **Quick Recovery**: Most patients recover quickly, with many being able to go home the same day as the procedure. Follow-up visits are scheduled to monitor recovery and ensure there are no signs of recurrence.\n\n- **Post-Procedure Care**: After the procedure, you may be asked to follow specific guidelines for diet and activity to aid healing. Any necessary follow-up procedures or treatments will be discussed during your recovery appointments.\n\n- **Minimal Complications**: STER is a low-risk procedure, with rare complications such as bleeding or perforation. These are carefully managed by the team at KIMS Advanced Gastroenterology & Endoscopy - KAGE, ensuring the best outcomes for our patients."
+          "content": "- Quick Recovery: Most patients recover quickly, with many being able to go home the same day as the procedure. Follow-up visits are scheduled to monitor recovery and ensure there are no signs of recurrence.\n\n- Post-Procedure Care: After the procedure, you may be asked to follow specific guidelines for diet and activity to aid healing. Any necessary follow-up procedures or treatments will be discussed during your recovery appointments.\n\n- Minimal Complications: STER is a low-risk procedure, with rare complications such as bleeding or perforation. These are carefully managed by the team at KIMS Advanced Gastroenterology & Endoscopy - KAGE, ensuring the best outcomes for our patients."
         },
         {
           "heading": "Frequently Asked Questions",
@@ -1068,17 +1290,17 @@
       ]
     },
     {
-      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "icon": "/Images/Icons/ARMA.png",
       "title": "ARMA (Anti-reflux Mucosal Ablation)",
       "description": "A cutting-edge solution for reflux management with long-term relief.",
       "sections": [
-        {
-          "heading": "ARMA (Anti-Reflux Mucosal Ablation)",
-          "content": "Innovative Treatment for GERD-Related Damage"
-        },
+       
         {
           "heading": "What is ARMA?",
-          "content": "Anti-Reflux Mucosal Ablation (ARMA) is a cutting-edge procedure designed to treat Gastroesophageal Reflux Disease (GERD) and the damage caused by chronic acid reflux. This minimally invasive treatment targets and ablates (destroys) the abnormal mucosal tissue that develops due to the long-term effects of acid reflux, improving symptoms and preventing further damage to the esophagus. At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we offer ARMA as an advanced, safe, and effective solution for GERD patients suffering from persistent heartburn, acid regurgitation, and esophageal damage. This procedure provides long-lasting relief, with a significantly lower risk of complications compared to traditional surgery."
+          "content": [
+            "Anti-Reflux Mucosal Ablation (ARMA) is a cutting-edge procedure designed to treat Gastroesophageal Reflux Disease (GERD) and the damage caused by chronic acid reflux. This minimally invasive treatment targets and ablates (destroys) the abnormal mucosal tissue that develops due to the long-term effects of acid reflux, improving symptoms and preventing further damage to the esophagus.",
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we offer ARMA as an advanced, safe, and effective solution for GERD patients suffering from persistent heartburn, acid regurgitation, and esophageal damage. This procedure provides long-lasting relief, with a significantly lower risk of complications compared to traditional surgery."
+          ]
         },
         {
           "heading": "How ARMA Works",
@@ -1107,15 +1329,15 @@
         },
         {
           "heading": "Why Choose ARMA at KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
-          "content": "- **Effective for GERD-Related Damage**: ARMA specifically targets the mucosal damage caused by GERD, helping to reduce symptoms like heartburn and regurgitation while preventing long-term complications such as esophageal stricture or Barrett’s esophagus.\n\n- **Minimally Invasive**: Unlike traditional surgeries, ARMA is performed using an endoscope, which requires no incisions. This means less discomfort, a faster recovery, and a significantly lower risk of complications.\n\n- **Long-Lasting Relief**: By addressing the root cause of GERD-related damage, ARMA provides lasting relief from the chronic symptoms of acid reflux, helping patients to regain their quality of life.\n\n- **Expert Care at KIMS Advanced Gastroenterology & Endoscopy - KAGE**: Our team of skilled gastroenterologists specializes in performing ARMA with precision and care. We’re committed to providing personalized treatment that meets your unique needs."
+          "content": "- Effective for GERD-Related Damage: ARMA specifically targets the mucosal damage caused by GERD, helping to reduce symptoms like heartburn and regurgitation while preventing long-term complications such as esophageal stricture or Barrett’s esophagus.\n\n- Minimally Invasive: Unlike traditional surgeries, ARMA is performed using an endoscope, which requires no incisions. This means less discomfort, a faster recovery, and a significantly lower risk of complications.\n\n- Long-Lasting Relief: By addressing the root cause of GERD-related damage, ARMA provides lasting relief from the chronic symptoms of acid reflux, helping patients to regain their quality of life.\n\n- Expert Care at KIMS Advanced Gastroenterology & Endoscopy - KAGE: Our team of skilled gastroenterologists specializes in performing ARMA with precision and care. We’re committed to providing personalized treatment that meets your unique needs."
         },
         {
           "heading": "Conditions Treated with ARMA",
-          "content": "ARMA is most commonly used to treat the following conditions:\n\n- **Gastroesophageal Reflux Disease (GERD)**: Chronic acid reflux that causes damage to the esophagus, leading to symptoms like heartburn, regurgitation, and difficulty swallowing.\n- **Esophageal Damage from GERD**: If GERD has led to complications such as esophageal inflammation, ulcers, or even Barrett’s esophagus, ARMA can help reverse or prevent further damage.\n- **Persistent Heartburn**: For patients who suffer from chronic heartburn despite lifestyle changes and medication, ARMA offers a treatment option to address the underlying tissue damage."
+          "content": "ARMA is most commonly used to treat the following conditions:\n\n- Gastroesophageal Reflux Disease (GERD): Chronic acid reflux that causes damage to the esophagus, leading to symptoms like heartburn, regurgitation, and difficulty swallowing.\n- Esophageal Damage from GERD: If GERD has led to complications such as esophageal inflammation, ulcers, or even Barrett’s esophagus, ARMA can help reverse or prevent further damage.\n- Persistent Heartburn: For patients who suffer from chronic heartburn despite lifestyle changes and medication, ARMA offers a treatment option to address the underlying tissue damage."
         },
         {
           "heading": "What to Expect After ARMA",
-          "content": "- **Quick Recovery**: Most patients can return to normal activities within a few days after the procedure. Since it’s minimally invasive, the healing process is quicker compared to traditional surgery.\n\n- **Post-Procedure Care**: After the procedure, you’ll be asked to follow a modified diet and avoid certain activities to help your esophagus heal. A follow-up visit will be scheduled to monitor your recovery and assess symptom improvement.\n\n- **Minimal Complications**: ARMA is a low-risk procedure, with rare complications such as infection or bleeding. These risks are closely managed by the expert team at KIMS Advanced Gastroenterology & Endoscopy - KAGE to ensure the best outcomes."
+          "content": "- Quick Recovery: Most patients can return to normal activities within a few days after the procedure. Since it’s minimally invasive, the healing process is quicker compared to traditional surgery.\n\n- Post-Procedure Care: After the procedure, you’ll be asked to follow a modified diet and avoid certain activities to help your esophagus heal. A follow-up visit will be scheduled to monitor your recovery and assess symptom improvement.\n\n- Minimal Complications: ARMA is a low-risk procedure, with rare complications such as infection or bleeding. These risks are closely managed by the expert team at KIMS Advanced Gastroenterology & Endoscopy - KAGE to ensure the best outcomes."
         },
         {
           "heading": "Frequently Asked Questions",
@@ -1145,17 +1367,17 @@
       ]
     },
     {
-      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "icon": "/Images/Icons/GERDx.png",
       "title": "GERDx (Anti-Reflux Mucosal Ablation Therapy)",
       "description": "Effective anti-reflux therapy designed to provide relief and improve patient outcomes.",
       "sections": [
-        {
-          "heading": "GERDx (Anti-Reflux Mucosal Ablation Therapy)",
-          "content": "Targeted Treatment for Chronic GERD and Esophageal Damage"
-        },
+       
         {
           "heading": "What is GERDx?",
-          "content": "GERDx (Anti-Reflux Mucosal Ablation Therapy) is a revolutionary, minimally invasive procedure designed to treat Gastroesophageal Reflux Disease (GERD) and the damage it causes to the esophagus. GERD is a chronic condition where acid from the stomach frequently flows back into the esophagus, leading to persistent heartburn, acid regurgitation, and even damage to the esophageal lining. GERDx offers a targeted approach to treat the underlying damage by ablation of the abnormal tissue, leading to long-term relief and prevention of further complications. At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we offer the latest in GERDx therapy, providing an effective and safe solution for those suffering from chronic acid reflux. This advanced treatment addresses both the symptoms and the underlying tissue damage, helping you feel better and live without the discomfort of GERD."
+          "content": [
+            "GERDx (Anti-Reflux Mucosal Ablation Therapy) is a revolutionary, minimally invasive procedure designed to treat Gastroesophageal Reflux Disease (GERD) and the damage it causes to the esophagus. GERD is a chronic condition where acid from the stomach frequently flows back into the esophagus, leading to persistent heartburn, acid regurgitation, and even damage to the esophageal lining. GERDx offers a targeted approach to treat the underlying damage by ablation of the abnormal tissue, leading to long-term relief and prevention of further complications.",
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we offer the latest in GERDx therapy, providing an effective and safe solution for those suffering from chronic acid reflux. This advanced treatment addresses both the symptoms and the underlying tissue damage, helping you feel better and live without the discomfort of GERD."
+          ]
         },
         {
           "heading": "How GERDx Works",
@@ -1184,15 +1406,15 @@
         },
         {
           "heading": "Why Choose GERDx at KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
-          "content": "- **Advanced Treatment for GERD**: GERDx offers an effective solution for individuals with GERD who haven’t found relief from lifestyle changes or medication. It specifically targets the mucosal damage caused by acid reflux, improving both symptoms and esophageal health.\n\n- **Minimally Invasive**: Unlike traditional surgeries, GERDx is performed through a small endoscopic camera, requiring no incisions. This means less pain, faster recovery, and a significantly lower risk of complications.\n\n- **Long-Term Relief**: GERDx addresses the root cause of GERD-related damage, offering lasting relief from acid reflux symptoms and preventing long-term damage to the esophagus.\n\n- **Expert Care at KIMS Advanced Gastroenterology & Endoscopy - KAGE**: Our team of highly skilled gastroenterologists specializes in GERDx therapy. With state-of-the-art equipment and a patient-first approach, we provide the highest quality care to ensure the best outcomes for our patients."
+          "content": "- Advanced Treatment for GERD: GERDx offers an effective solution for individuals with GERD who haven’t found relief from lifestyle changes or medication. It specifically targets the mucosal damage caused by acid reflux, improving both symptoms and esophageal health.\n\n- Minimally Invasive: Unlike traditional surgeries, GERDx is performed through a small endoscopic camera, requiring no incisions. This means less pain, faster recovery, and a significantly lower risk of complications.\n\n- Long-Term Relief: GERDx addresses the root cause of GERD-related damage, offering lasting relief from acid reflux symptoms and preventing long-term damage to the esophagus.\n\n- Expert Care at KIMS Advanced Gastroenterology & Endoscopy - KAGE: Our team of highly skilled gastroenterologists specializes in GERDx therapy. With state-of-the-art equipment and a patient-first approach, we provide the highest quality care to ensure the best outcomes for our patients."
         },
         {
           "heading": "Conditions Treated with GERDx",
-          "content": "GERDx is ideal for patients suffering from:\n\n- **Chronic GERD**: When lifestyle modifications and medications no longer provide relief, GERDx offers a targeted solution for controlling symptoms and healing esophageal damage.\n- **Esophageal Inflammation and Damage**: GERDx is effective in treating the inflammation, ulcers, or scarring in the esophagus caused by long-term acid reflux.\n- **Barrett’s Esophagus**: A condition caused by chronic GERD, where the lining of the esophagus changes. GERDx can help reduce the risk of progression to esophageal cancer by removing damaged tissue."
+          "content": "GERDx is ideal for patients suffering from:\n\n- Chronic GERD: When lifestyle modifications and medications no longer provide relief, GERDx offers a targeted solution for controlling symptoms and healing esophageal damage.\n- Esophageal Inflammation and Damage: GERDx is effective in treating the inflammation, ulcers, or scarring in the esophagus caused by long-term acid reflux.\n- Barrett’s Esophagus: A condition caused by chronic GERD, where the lining of the esophagus changes. GERDx can help reduce the risk of progression to esophageal cancer by removing damaged tissue."
         },
         {
           "heading": "What to Expect After GERDx",
-          "content": "- **Quick Recovery**: Most patients recover quickly and can return to normal activities within 1-2 days after the procedure. Since it’s minimally invasive, there’s less discomfort and faster healing compared to traditional surgery.\n\n- **Post-Procedure Guidelines**: After GERDx, you may need to follow specific dietary and activity recommendations for a short period to help the healing process. You’ll be given detailed instructions on how to care for yourself post-procedure.\n\n- **Follow-Up Care**: Regular follow-up visits will be scheduled to monitor your recovery and ensure that the esophagus is healing properly. Additional treatments may be necessary based on your recovery and ongoing symptoms."
+          "content": "- Quick Recovery: Most patients recover quickly and can return to normal activities within 1-2 days after the procedure. Since it’s minimally invasive, there’s less discomfort and faster healing compared to traditional surgery.\n\n- Post-Procedure Guidelines: After GERDx, you may need to follow specific dietary and activity recommendations for a short period to help the healing process. You’ll be given detailed instructions on how to care for yourself post-procedure.\n\n- Follow-Up Care: Regular follow-up visits will be scheduled to monitor your recovery and ensure that the esophagus is healing properly. Additional treatments may be necessary based on your recovery and ongoing symptoms."
         },
         {
           "heading": "Frequently Asked Questions",
@@ -1222,17 +1444,17 @@
       ]
     },
     {
-      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "icon": "/Images/Icons/FTRD.png",
       "title": "FTRD (Full-Thickness Resection Device)",
       "description": "Innovative technology for precise tissue resection and minimal complications.",
       "sections": [
-        {
-          "heading": "FTRD (Full-Thickness Resection Device)",
-          "content": "Revolutionizing the Treatment of Colorectal Lesions with Precision and Care"
-        },
+       
         {
           "heading": "What is FTRD?",
-          "content": "The Full-Thickness Resection Device (FTRD) is a groundbreaking, minimally invasive procedure designed to treat benign tumors, polyps, and other abnormal growths in the colon and rectum. Unlike traditional surgery, FTRD uses advanced endoscopic techniques to remove full-thickness lesions (tumors or polyps that extend through all layers of the bowel wall) with precision and minimal discomfort. This advanced treatment offers a safer, more efficient alternative to traditional surgeries, leading to faster recovery and fewer complications. At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are proud to offer the latest in FTRD treatment, delivering cutting-edge care to patients seeking a reliable and less invasive solution for their colorectal health concerns."
+          "content": [
+            "The Full-Thickness Resection Device (FTRD) is a groundbreaking, minimally invasive procedure designed to treat benign tumors, polyps, and other abnormal growths in the colon and rectum. Unlike traditional surgery, FTRD uses advanced endoscopic techniques to remove full-thickness lesions (tumors or polyps that extend through all layers of the bowel wall) with precision and minimal discomfort. This advanced treatment offers a safer, more efficient alternative to traditional surgeries, leading to faster recovery and fewer complications.",
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are proud to offer the latest in FTRD treatment, delivering cutting-edge care to patients seeking a reliable and less invasive solution for their colorectal health concerns."
+          ]
         },
         {
           "heading": "How FTRD Works",
@@ -1261,15 +1483,15 @@
         },
         {
           "heading": "Why Choose FTRD at KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
-          "content": "- **Minimally Invasive**: FTRD is performed through a small endoscope inserted into the bowel, meaning no incisions are required. This results in less pain, faster recovery, and a significantly lower risk of complications compared to traditional surgical methods.\n\n- **Precision and Effectiveness**: The FTRD offers highly precise removal of full-thickness lesions, ensuring that all abnormal tissue is carefully excised while preserving healthy tissue. This precision leads to improved outcomes and fewer chances of recurrence.\n\n- **Faster Recovery**: With minimal disruption to surrounding tissues, most patients recover quickly and can resume their daily activities within a short time frame.\n\n- **Expert Care at KIMS Advanced Gastroenterology & Endoscopy - KAGE**: Our skilled gastroenterologists specialize in performing FTRD procedures using the latest techniques and equipment. You can trust our team to provide the best care, personalized to your unique health needs."
+          "content": "- Minimally Invasive: FTRD is performed through a small endoscope inserted into the bowel, meaning no incisions are required. This results in less pain, faster recovery, and a significantly lower risk of complications compared to traditional surgical methods.\n\n- Precision and Effectiveness: The FTRD offers highly precise removal of full-thickness lesions, ensuring that all abnormal tissue is carefully excised while preserving healthy tissue. This precision leads to improved outcomes and fewer chances of recurrence.\n\n- Faster Recovery: With minimal disruption to surrounding tissues, most patients recover quickly and can resume their daily activities within a short time frame.\n\n- Expert Care at KIMS Advanced Gastroenterology & Endoscopy - KAGE: Our skilled gastroenterologists specialize in performing FTRD procedures using the latest techniques and equipment. You can trust our team to provide the best care, personalized to your unique health needs."
         },
         {
           "heading": "Conditions Treated with FTRD",
-          "content": "FTRD is primarily used to treat:\n\n- **Benign Polyps**: Growths in the colon or rectum that may have the potential to develop into cancer if left untreated.\n- **Colorectal Tumors**: Non-cancerous tumors that may need to be removed to prevent further complications.\n- **Precancerous Lesions**: Abnormal growths or cells that have the potential to become cancerous over time.\n- **Early-stage Colorectal Cancer**: In some cases, FTRD can be used to remove early-stage cancers confined to the colon or rectum."
+          "content": "FTRD is primarily used to treat:\n\n- Benign Polyps: Growths in the colon or rectum that may have the potential to develop into cancer if left untreated.\n- Colorectal Tumors: Non-cancerous tumors that may need to be removed to prevent further complications.\n- Precancerous Lesions: Abnormal growths or cells that have the potential to become cancerous over time.\n- Early-stage Colorectal Cancer: In some cases, FTRD can be used to remove early-stage cancers confined to the colon or rectum."
         },
         {
           "heading": "What to Expect After FTRD",
-          "content": "- **Quick Recovery**: Since FTRD is a minimally invasive procedure, most patients experience only mild discomfort after the procedure and are able to return home the same day. You can typically resume normal activities within a few days.\n\n- **Post-Procedure Care**: You will be provided with detailed aftercare instructions, including dietary recommendations and guidelines to help you heal. It is important to follow these instructions carefully for the best results.\n\n- **Follow-Up Appointments**: You’ll be scheduled for follow-up visits to monitor your recovery and ensure that no further abnormal growths develop. If necessary, additional procedures can be scheduled to address any ongoing concerns."
+          "content": "- Quick Recovery: Since FTRD is a minimally invasive procedure, most patients experience only mild discomfort after the procedure and are able to return home the same day. You can typically resume normal activities within a few days.\n\n- Post-Procedure Care: You will be provided with detailed aftercare instructions, including dietary recommendations and guidelines to help you heal. It is important to follow these instructions carefully for the best results.\n\n- Follow-Up Appointments: You’ll be scheduled for follow-up visits to monitor your recovery and ensure that no further abnormal growths develop. If necessary, additional procedures can be scheduled to address any ongoing concerns."
         },
         {
           "heading": "Frequently Asked Questions",
@@ -1303,17 +1525,17 @@
       ]
     },
     {
-      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "icon": "/Images/Icons/EUS.png",
       "title": "EUS- Biliary Drainage",
       "description": "Advanced procedure for biliary drainage using Endoscopic Ultrasound.",
       "sections": [
-        {
-          "heading": "EUS - Biliary Drainage",
-          "content": "Advanced Biliary Care with Precision and Expertise"
-        },
+       
         {
           "heading": "What is EUS Biliary Drainage?",
-          "content": "EUS (Endoscopic Ultrasound)-guided Biliary Drainage is a minimally invasive procedure used to treat patients with blocked bile ducts or gallstones that are causing biliary obstructions. It is an advanced technique that combines endoscopy with ultrasound imaging to deliver accurate, real-time visual guidance for drainage. This procedure helps relieve symptoms associated with bile duct blockages, such as jaundice, pain, and digestive issues, while avoiding the need for traditional surgery. At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are committed to providing the latest in gastroenterology treatments, including EUS-guided biliary drainage, ensuring faster recovery, reduced risk, and enhanced outcomes for our patients."
+          "content": [
+            "EUS (Endoscopic Ultrasound)-guided Biliary Drainage is a minimally invasive procedure used to treat patients with blocked bile ducts or gallstones that are causing biliary obstructions. It is an advanced technique that combines endoscopy with ultrasound imaging to deliver accurate, real-time visual guidance for drainage. This procedure helps relieve symptoms associated with bile duct blockages, such as jaundice, pain, and digestive issues, while avoiding the need for traditional surgery.",
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are committed to providing the latest in gastroenterology treatments, including EUS-guided biliary drainage, ensuring faster recovery, reduced risk, and enhanced outcomes for our patients."
+          ]
         },
         {
           "heading": "How EUS Biliary Drainage Works",
@@ -1342,19 +1564,19 @@
         },
         {
           "heading": "Benefits of EUS Biliary Drainage",
-          "content": "- **Minimally Invasive**: EUS biliary drainage is performed through the digestive tract, without the need for open surgery. This results in smaller incisions, less pain, and faster recovery.\n\n- **High Precision**: The combination of ultrasound and endoscopic guidance provides the highest level of accuracy in locating and draining blocked bile ducts, reducing the chances of complications.\n\n- **Faster Recovery**: Since the procedure is minimally invasive, recovery times are shorter compared to traditional surgery, allowing patients to return to normal activities sooner.\n\n- **Improved Symptom Relief**: EUS biliary drainage effectively relieves symptoms such as jaundice, abdominal pain, and nausea, improving the patient’s quality of life."
+          "content": "- Minimally Invasive: EUS biliary drainage is performed through the digestive tract, without the need for open surgery. This results in smaller incisions, less pain, and faster recovery.\n\n- High Precision: The combination of ultrasound and endoscopic guidance provides the highest level of accuracy in locating and draining blocked bile ducts, reducing the chances of complications.\n\n- Faster Recovery: Since the procedure is minimally invasive, recovery times are shorter compared to traditional surgery, allowing patients to return to normal activities sooner.\n\n- Improved Symptom Relief: EUS biliary drainage effectively relieves symptoms such as jaundice, abdominal pain, and nausea, improving the patient’s quality of life."
         },
         {
           "heading": "Conditions Treated with EUS Biliary Drainage",
-          "content": "EUS-guided biliary drainage is commonly used to treat a variety of conditions affecting the biliary system, including:\n\n- **Cholestasis**: A condition where bile flow is reduced or blocked, causing bile to accumulate in the liver.\n- **Cholangiocarcinoma**: A type of cancer that affects the bile ducts, leading to obstruction and bile flow issues.\n- **Gallstones**: Large gallstones that become lodged in the bile duct, causing a blockage.\n- **Biliary Strictures**: Narrowing of the bile ducts, often due to chronic inflammation or scarring.\n- **Pancreatic Cancer**: Tumors in the pancreas that may block the bile ducts and affect bile flow."
+          "content": "EUS-guided biliary drainage is commonly used to treat a variety of conditions affecting the biliary system, including:\n\n- Cholestasis: A condition where bile flow is reduced or blocked, causing bile to accumulate in the liver.\n- Cholangiocarcinoma: A type of cancer that affects the bile ducts, leading to obstruction and bile flow issues.\n- Gallstones: Large gallstones that become lodged in the bile duct, causing a blockage.\n- Biliary Strictures: Narrowing of the bile ducts, often due to chronic inflammation or scarring.\n- Pancreatic Cancer: Tumors in the pancreas that may block the bile ducts and affect bile flow."
         },
         {
           "heading": "What to Expect After EUS Biliary Drainage",
-          "content": "- **Minimal Downtime**: Most patients experience only mild discomfort after the procedure, which can be managed with over-the-counter pain relievers. Since the procedure is minimally invasive, you can usually return home the same day.\n\n- **Post-Procedure Care**: After the procedure, you’ll be given specific instructions on how to care for yourself during recovery. This may include diet recommendations, monitoring for signs of infection, and follow-up visits for check-ups and to monitor the effectiveness of the drainage.\n\n- **Follow-Up Appointments**: Regular follow-up visits are crucial to ensure that the bile duct remains clear and functioning. The stent may need to be replaced periodically, depending on your condition and the type of stent used."
+          "content": "- Minimal Downtime: Most patients experience only mild discomfort after the procedure, which can be managed with over-the-counter pain relievers. Since the procedure is minimally invasive, you can usually return home the same day.\n\n- Post-Procedure Care: After the procedure, you’ll be given specific instructions on how to care for yourself during recovery. This may include diet recommendations, monitoring for signs of infection, and follow-up visits for check-ups and to monitor the effectiveness of the drainage.\n\n- Follow-Up Appointments: Regular follow-up visits are crucial to ensure that the bile duct remains clear and functioning. The stent may need to be replaced periodically, depending on your condition and the type of stent used."
         },
         {
           "heading": "Why Choose EUS Biliary Drainage at KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
-          "content": "- **State-of-the-Art Technology**: At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we use the latest endoscopic ultrasound technology for the most accurate and efficient biliary drainage procedures. This ensures that we can treat your condition with the utmost precision.\n\n- **Expert Gastroenterologists**: Our team of skilled gastroenterologists is experienced in performing EUS-guided biliary drainage, providing personalized care tailored to your specific needs and condition.\n\n- **Patient-Centered Care**: We prioritize your comfort and well-being throughout the treatment process. Our team will guide you every step of the way, from consultation to post-procedure care, ensuring the best possible outcome."
+          "content": "- State-of-the-Art Technology: At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we use the latest endoscopic ultrasound technology for the most accurate and efficient biliary drainage procedures. This ensures that we can treat your condition with the utmost precision.\n\n- Expert Gastroenterologists: Our team of skilled gastroenterologists is experienced in performing EUS-guided biliary drainage, providing personalized care tailored to your specific needs and condition.\n\n- Patient-Centered Care: We prioritize your comfort and well-being throughout the treatment process. Our team will guide you every step of the way, from consultation to post-procedure care, ensuring the best possible outcome."
         },
         {
           "heading": "Frequently Asked Questions",
@@ -1388,17 +1610,17 @@
       ]
     },
     {
-      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "icon": "/Images/Icons/EUS-GJ.png",
       "title": "EUS- GJ (Gastrojejunostomy)",
       "description": "A minimally invasive approach to treating obstructed gastric bypasses.",
       "sections": [
-        {
-          "heading": "EUS-GJ (Endoscopic Ultrasound-Guided Gastrojejunostomy)",
-          "content": "Revolutionizing Digestive Care with Precision and Innovation"
-        },
+       
         {
           "heading": "What is EUS-GJ?",
-          "content": "EUS-GJ (Endoscopic Ultrasound-Guided Gastrojejunostomy) is an advanced, minimally invasive procedure used to bypass blockages or obstructions in the upper gastrointestinal tract, specifically in the stomach. This procedure involves using endoscopic ultrasound (EUS) to guide the creation of a new connection between the stomach and the jejunum (a part of the small intestine), ensuring proper food and fluid passage. It’s an innovative approach for patients who cannot undergo traditional surgical procedures due to medical conditions, making it a game-changer for digestive health. At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are at the forefront of EUS-GJ, providing patients with cutting-edge treatments that offer faster recovery, minimal discomfort, and long-term relief from digestive issues."
+          "content": [
+            "EUS-GJ (Endoscopic Ultrasound-Guided Gastrojejunostomy) is an advanced, minimally invasive procedure used to bypass blockages or obstructions in the upper gastrointestinal tract, specifically in the stomach. This procedure involves using endoscopic ultrasound (EUS) to guide the creation of a new connection between the stomach and the jejunum (a part of the small intestine), ensuring proper food and fluid passage. It’s an innovative approach for patients who cannot undergo traditional surgical procedures due to medical conditions, making it a game-changer for digestive health.",
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are at the forefront of EUS-GJ, providing patients with cutting-edge treatments that offer faster recovery, minimal discomfort, and long-term relief from digestive issues."
+          ]
         },
         {
           "heading": "How EUS-GJ Works",
@@ -1427,19 +1649,19 @@
         },
         {
           "heading": "Benefits of EUS-GJ",
-          "content": "- **Minimally Invasive**: EUS-GJ is performed without the need for open surgery, reducing the risk of complications and minimizing post-procedure pain.\n\n- **Fast Recovery**: Patients can typically return to normal activities within a few days, as the procedure is less invasive and requires fewer resources compared to traditional surgeries.\n\n- **Improved Quality of Life**: By bypassing blockages in the stomach, EUS-GJ helps alleviate symptoms such as nausea, vomiting, and malnutrition, improving overall well-being and digestive function.\n\n- **High Precision**: The combination of endoscopy and ultrasound guidance ensures the most accurate placement of the gastrojejunostomy, leading to better outcomes and fewer complications."
+          "content": "- Minimally Invasive: EUS-GJ is performed without the need for open surgery, reducing the risk of complications and minimizing post-procedure pain.\n\n- Fast Recovery: Patients can typically return to normal activities within a few days, as the procedure is less invasive and requires fewer resources compared to traditional surgeries.\n\n- Improved Quality of Life: By bypassing blockages in the stomach, EUS-GJ helps alleviate symptoms such as nausea, vomiting, and malnutrition, improving overall well-being and digestive function.\n\n- High Precision: The combination of endoscopy and ultrasound guidance ensures the most accurate placement of the gastrojejunostomy, leading to better outcomes and fewer complications."
         },
         {
           "heading": "Conditions Treated with EUS-GJ",
-          "content": "EUS-GJ is particularly beneficial for patients who have gastrointestinal tract conditions that cause blockages or severe narrowing, including:\n\n- **Gastric Outlet Obstruction**: A condition where the passage from the stomach to the small intestine is blocked, leading to issues with food passage and digestion.\n- **Cancer**: Malignant tumors, particularly in the stomach, pancreas, or duodenum, can cause obstruction and prevent normal food movement through the digestive system.\n- **Peptic Ulcers and Scar Tissue**: Chronic ulcers or scarring caused by previous surgeries can create blockages in the digestive tract.\n- **Crohn's Disease**: Inflammatory bowel disease like Crohn's can cause narrowing of the intestines, leading to blockages and difficulties in digestion.\n- **Pancreatitis**: Chronic inflammation of the pancreas may lead to severe complications like duodenal obstructions, which EUS-GJ can effectively bypass."
+          "content": "EUS-GJ is particularly beneficial for patients who have gastrointestinal tract conditions that cause blockages or severe narrowing, including:\n\n- Gastric Outlet Obstruction: A condition where the passage from the stomach to the small intestine is blocked, leading to issues with food passage and digestion.\n- Cancer: Malignant tumors, particularly in the stomach, pancreas, or duodenum, can cause obstruction and prevent normal food movement through the digestive system.\n- Peptic Ulcers and Scar Tissue: Chronic ulcers or scarring caused by previous surgeries can create blockages in the digestive tract.\n- Crohn's Disease: Inflammatory bowel disease like Crohn's can cause narrowing of the intestines, leading to blockages and difficulties in digestion.\n- Pancreatitis: Chronic inflammation of the pancreas may lead to severe complications like duodenal obstructions, which EUS-GJ can effectively bypass."
         },
         {
           "heading": "What to Expect After EUS-GJ",
-          "content": "- **Recovery Time**: Most patients recover quickly after EUS-GJ, with minimal discomfort and a short hospital stay. You can generally resume eating soft foods within a few days.\n\n- **Post-Procedure Care**: After the procedure, you will be monitored for a short period to ensure that the new connection between the stomach and jejunum is functioning properly. You may be advised to avoid heavy meals for a few days to allow the procedure site to heal.\n\n- **Long-Term Management**: Patients who undergo EUS-GJ may need follow-up care to ensure the connection remains open and functioning. However, the need for re-intervention is rare."
+          "content": "- Recovery Time: Most patients recover quickly after EUS-GJ, with minimal discomfort and a short hospital stay. You can generally resume eating soft foods within a few days.\n\n- Post-Procedure Care: After the procedure, you will be monitored for a short period to ensure that the new connection between the stomach and jejunum is functioning properly. You may be advised to avoid heavy meals for a few days to allow the procedure site to heal.\n\n- Long-Term Management: Patients who undergo EUS-GJ may need follow-up care to ensure the connection remains open and functioning. However, the need for re-intervention is rare."
         },
         {
           "heading": "Why Choose EUS-GJ at KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
-          "content": "- **State-of-the-Art Technology**: KIMS Advanced Gastroenterology & Endoscopy - KAGE is committed to using the most advanced technology available for EUS-GJ. Our endoscopic ultrasound equipment offers precise guidance, ensuring the procedure is as effective and safe as possible.\n\n- **Expert Care Team**: Our team of experienced gastroenterologists is skilled in performing EUS-GJ, providing expert care tailored to your specific needs. We work closely with you to determine the best course of action for your condition.\n\n- **Patient-Centered Approach**: We believe in providing comprehensive care that focuses on your comfort and well-being. From your initial consultation to post-procedure follow-up, we are here to guide you every step of the way."
+          "content": "- State-of-the-Art Technology: KIMS Advanced Gastroenterology & Endoscopy - KAGE is committed to using the most advanced technology available for EUS-GJ. Our endoscopic ultrasound equipment offers precise guidance, ensuring the procedure is as effective and safe as possible.\n\n- Expert Care Team: Our team of experienced gastroenterologists is skilled in performing EUS-GJ, providing expert care tailored to your specific needs. We work closely with you to determine the best course of action for your condition.\n\n- Patient-Centered Approach: We believe in providing comprehensive care that focuses on your comfort and well-being. From your initial consultation to post-procedure follow-up, we are here to guide you every step of the way."
         },
         {
           "heading": "Frequently Asked Questions",
@@ -1473,17 +1695,17 @@
       ]
     },
     {
-      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "icon": "/Images/Icons/EUS-RF.png",
       "title": "EUS- RF Ablation",
       "description": "Revolutionary treatment option using radiofrequency for enhanced therapeutic results.",
       "sections": [
-        {
-          "heading": "EUS-RF Ablation (Endoscopic Ultrasound-Guided Radiofrequency Ablation)",
-          "content": "Revolutionary Treatment for Targeted Cancer Care and Tissue Ablation"
-        },
+       
         {
           "heading": "What is EUS-RF Ablation?",
-          "content": "EUS-RF Ablation (Endoscopic Ultrasound-Guided Radiofrequency Ablation) is a minimally invasive procedure that uses high-frequency radio waves to target and destroy abnormal tissues or tumors in the digestive tract. Guided by Endoscopic Ultrasound (EUS), this procedure offers unparalleled precision in treating gastrointestinal cancers and other lesions by directly targeting the affected tissue, minimizing harm to surrounding healthy areas. At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are committed to providing advanced, patient-centered treatments like EUS-RF Ablation that are designed to offer effective results with fewer complications, faster recovery, and a more comfortable experience."
+          "content": [
+            "EUS-RF Ablation (Endoscopic Ultrasound-Guided Radiofrequency Ablation) is a minimally invasive procedure that uses high-frequency radio waves to target and destroy abnormal tissues or tumors in the digestive tract. Guided by Endoscopic Ultrasound (EUS), this procedure offers unparalleled precision in treating gastrointestinal cancers and other lesions by directly targeting the affected tissue, minimizing harm to surrounding healthy areas.",
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are committed to providing advanced, patient-centered treatments like EUS-RF Ablation that are designed to offer effective results with fewer complications, faster recovery, and a more comfortable experience."
+          ]
         },
         {
           "heading": "How EUS-RF Ablation Works",
@@ -1512,19 +1734,19 @@
         },
         {
           "heading": "Benefits of EUS-RF Ablation",
-          "content": "- **Targeted Treatment**: With EUS providing real-time imaging, the procedure allows for accurate targeting of tumors or abnormal tissue without the need for open surgery, ensuring high precision.\n\n- **Minimally Invasive**: The procedure does not require large incisions, reducing the risk of complications, infection, and scarring.\n\n- **Faster Recovery**: Most patients experience a quick recovery, returning to normal activities within a few days due to the minimally invasive nature of the procedure.\n\n- **Reduced Pain**: Because EUS-RF Ablation involves no major cuts or incisions, patients typically report less pain and discomfort compared to traditional surgical options.\n\n- **Versatility**: EUS-RF Ablation is used for a range of conditions, including early-stage gastrointestinal cancers, precancerous lesions, and other benign growths, making it a versatile treatment option for many patients."
+          "content": "- Targeted Treatment: With EUS providing real-time imaging, the procedure allows for accurate targeting of tumors or abnormal tissue without the need for open surgery, ensuring high precision.\n\n- Minimally Invasive: The procedure does not require large incisions, reducing the risk of complications, infection, and scarring.\n\n- Faster Recovery: Most patients experience a quick recovery, returning to normal activities within a few days due to the minimally invasive nature of the procedure.\n\n- Reduced Pain: Because EUS-RF Ablation involves no major cuts or incisions, patients typically report less pain and discomfort compared to traditional surgical options.\n\n- Versatility: EUS-RF Ablation is used for a range of conditions, including early-stage gastrointestinal cancers, precancerous lesions, and other benign growths, making it a versatile treatment option for many patients."
         },
         {
           "heading": "Conditions Treated with EUS-RF Ablation",
-          "content": "EUS-RF Ablation is primarily used for treating a variety of tumors, lesions, and abnormal growths within the digestive tract. It is particularly effective for patients with:\n\n- **Gastrointestinal Cancers**: Including tumors in the esophagus, stomach, pancreas, and colon.\n- **Pre-cancerous Lesions**: Early stages of cancer or abnormal tissue growth that have not yet spread.\n- **Pancreatic Tumors**: EUS-RF Ablation can be used to treat tumors in the pancreas that are difficult to access using traditional surgery.\n- **Barrett’s Esophagus**: A condition that increases the risk of esophageal cancer, where EUS-RF Ablation helps remove abnormal cells.\n- **Benign Tumors**: Non-cancerous growths in the digestive tract that require removal to improve function or alleviate symptoms."
+          "content": "EUS-RF Ablation is primarily used for treating a variety of tumors, lesions, and abnormal growths within the digestive tract. It is particularly effective for patients with:\n\n- Gastrointestinal Cancers: Including tumors in the esophagus, stomach, pancreas, and colon.\n- Pre-cancerous Lesions: Early stages of cancer or abnormal tissue growth that have not yet spread.\n- Pancreatic Tumors: EUS-RF Ablation can be used to treat tumors in the pancreas that are difficult to access using traditional surgery.\n- Barrett’s Esophagus: A condition that increases the risk of esophageal cancer, where EUS-RF Ablation helps remove abnormal cells.\n- Benign Tumors: Non-cancerous growths in the digestive tract that require removal to improve function or alleviate symptoms."
         },
         {
           "heading": "What to Expect After EUS-RF Ablation",
-          "content": "- **Recovery**: Since EUS-RF Ablation is minimally invasive, recovery time is typically short. You can expect to be monitored for a few hours following the procedure and, in most cases, can go home the same day.\n\n- **Post-Procedure Care**: You may be advised to rest for a few days and gradually return to normal activities. Mild discomfort or swelling at the treatment site is common but usually resolves quickly. Your doctor will guide you on dietary restrictions and lifestyle changes for optimal healing.\n\n- **Follow-Up**: After the procedure, follow-up appointments will be scheduled to monitor the treatment area and ensure the tumor or abnormal tissue has been successfully treated. Your doctor may recommend additional imaging to check for any changes."
+          "content": "- Recovery: Since EUS-RF Ablation is minimally invasive, recovery time is typically short. You can expect to be monitored for a few hours following the procedure and, in most cases, can go home the same day.\n\n- Post-Procedure Care: You may be advised to rest for a few days and gradually return to normal activities. Mild discomfort or swelling at the treatment site is common but usually resolves quickly. Your doctor will guide you on dietary restrictions and lifestyle changes for optimal healing.\n\n- Follow-Up: After the procedure, follow-up appointments will be scheduled to monitor the treatment area and ensure the tumor or abnormal tissue has been successfully treated. Your doctor may recommend additional imaging to check for any changes."
         },
         {
           "heading": "Why Choose EUS-RF Ablation at KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
-          "content": "- **Advanced Technology**: At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we use state-of-the-art EUS and RF Ablation technology to deliver targeted, effective treatments with minimal discomfort and quicker recovery times.\n\n- **Expert Team of Specialists**: Our gastroenterologists and oncologists are highly trained in performing EUS-RF Ablation, with years of experience in managing complex gastrointestinal conditions.\n\n- **Patient-Centered Care**: From consultation to recovery, our team provides personalized care tailored to your specific condition and needs. We are committed to providing the highest standards of care, making your treatment journey as comfortable and stress-free as possible."
+          "content": "- Advanced Technology: At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we use state-of-the-art EUS and RF Ablation technology to deliver targeted, effective treatments with minimal discomfort and quicker recovery times.\n\n- Expert Team of Specialists: Our gastroenterologists and oncologists are highly trained in performing EUS-RF Ablation, with years of experience in managing complex gastrointestinal conditions.\n\n- Patient-Centered Care: From consultation to recovery, our team provides personalized care tailored to your specific condition and needs. We are committed to providing the highest standards of care, making your treatment journey as comfortable and stress-free as possible."
         },
         {
           "heading": "Frequently Asked Questions",
@@ -1558,17 +1780,17 @@
       ]
     },
     {
-      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "icon": "/Images/Icons/EUS-Cystogastrostomy.png",
       "title": "EUS Cystogastrostomy",
       "description": "Endoscopic ultrasound-assisted technique for drainage of pancreatic cysts.",
       "sections": [
-        {
-          "heading": "EUS Cystogastrostomy",
-          "content": "Advanced Minimally Invasive Treatment for Pancreatic and Gastrointestinal Cysts"
-        },
+      
         {
           "heading": "What is EUS Cystogastrostomy?",
-          "content": "EUS Cystogastrostomy is a cutting-edge, minimally invasive procedure used to drain fluid-filled cysts in the pancreas or gastrointestinal tract. This procedure, performed under the guidance of Endoscopic Ultrasound (EUS), creates a direct connection between the cyst and the stomach to allow the contents to drain safely, alleviating symptoms and preventing complications such as infection or rupture.\n\nAt KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are dedicated to offering innovative treatments like EUS Cystogastrostomy that provide precise, effective results with minimal recovery time. This procedure can significantly improve the quality of life for patients with pancreatic or gastrointestinal cysts, often avoiding the need for more invasive surgery."
+          "content": [
+            "EUS Cystogastrostomy is a cutting-edge, minimally invasive procedure used to drain fluid-filled cysts in the pancreas or gastrointestinal tract. This procedure, performed under the guidance of Endoscopic Ultrasound (EUS), creates a direct connection between the cyst and the stomach to allow the contents to drain safely, alleviating symptoms and preventing complications such as infection or rupture.",
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are dedicated to offering innovative treatments like EUS Cystogastrostomy that provide precise, effective results with minimal recovery time. This procedure can significantly improve the quality of life for patients with pancreatic or gastrointestinal cysts, often avoiding the need for more invasive surgery."
+          ]
         },
         {
           "heading": "How EUS Cystogastrostomy Works",
@@ -1597,19 +1819,19 @@
         },
         {
           "heading": "Benefits of EUS Cystogastrostomy",
-          "content": "- **Minimally Invasive**: The procedure requires no large incisions, reducing the risk of infection and other complications associated with traditional surgery.\n\n- **Targeted Treatment**: EUS provides real-time imaging that ensures the cyst is drained with high precision, offering effective treatment with minimal disruption to surrounding tissues.\n\n- **Faster Recovery**: Most patients can go home the same day, with a faster recovery time compared to open surgery.\n\n- **Reduced Pain and Discomfort**: As the procedure involves no large cuts or stitches, patients generally experience less pain and discomfort post-treatment.\n\n- **Preventing Complications**: EUS Cystogastrostomy helps prevent complications associated with cysts, such as rupture, infection, or obstruction, providing lasting relief."
+          "content": "- Minimally Invasive: The procedure requires no large incisions, reducing the risk of infection and other complications associated with traditional surgery.\n\n- Targeted Treatment: EUS provides real-time imaging that ensures the cyst is drained with high precision, offering effective treatment with minimal disruption to surrounding tissues.\n\n- Faster Recovery: Most patients can go home the same day, with a faster recovery time compared to open surgery.\n\n- Reduced Pain and Discomfort: As the procedure involves no large cuts or stitches, patients generally experience less pain and discomfort post-treatment.\n\n- Preventing Complications: EUS Cystogastrostomy helps prevent complications associated with cysts, such as rupture, infection, or obstruction, providing lasting relief."
         },
         {
           "heading": "Conditions Treated with EUS Cystogastrostomy",
-          "content": "EUS Cystogastrostomy is primarily used to treat cysts within the pancreas or gastrointestinal tract. These may include:\n\n- **Pancreatic Cysts**: Fluid-filled sacs within the pancreas that may cause pain, infection, or other complications.\n- **Pseudocysts**: Typically formed after pancreatic inflammation or injury, these cysts can lead to abdominal pain or infection if not treated.\n- **Mucinous Cysts**: Potentially precancerous cysts found in the pancreas that require drainage to prevent complications.\n- **Other Gastrointestinal Cysts**: Cysts in the stomach or surrounding areas that can cause discomfort or other health issues."
+          "content": "EUS Cystogastrostomy is primarily used to treat cysts within the pancreas or gastrointestinal tract. These may include:\n\n- Pancreatic Cysts: Fluid-filled sacs within the pancreas that may cause pain, infection, or other complications.\n- Pseudocysts: Typically formed after pancreatic inflammation or injury, these cysts can lead to abdominal pain or infection if not treated.\n- Mucinous Cysts: Potentially precancerous cysts found in the pancreas that require drainage to prevent complications.\n- Other Gastrointestinal Cysts: Cysts in the stomach or surrounding areas that can cause discomfort or other health issues."
         },
         {
           "heading": "What to Expect After EUS Cystogastrostomy",
-          "content": "- **Recovery**: Since EUS Cystogastrostomy is a minimally invasive procedure, recovery is quick. Most patients are able to go home on the same day, with only mild discomfort.\n\n- **Post-Procedure Care**: You may be asked to avoid certain foods or activities for a short period to allow the stomach to heal and the drainage to stabilize. Mild pain or bloating is common but usually resolves within a few days.\n\n- **Follow-Up Appointments**: Regular follow-up visits will be scheduled to monitor the cyst and ensure proper drainage. In some cases, the stent may be removed once the cyst is sufficiently drained."
+          "content": "- Recovery: Since EUS Cystogastrostomy is a minimally invasive procedure, recovery is quick. Most patients are able to go home on the same day, with only mild discomfort.\n\n- Post-Procedure Care: You may be asked to avoid certain foods or activities for a short period to allow the stomach to heal and the drainage to stabilize. Mild pain or bloating is common but usually resolves within a few days.\n\n- Follow-Up Appointments: Regular follow-up visits will be scheduled to monitor the cyst and ensure proper drainage. In some cases, the stent may be removed once the cyst is sufficiently drained."
         },
         {
           "heading": "Why Choose EUS Cystogastrostomy at KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
-          "content": "- **State-of-the-Art Technology**: At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we use the latest EUS and endoscopic technology to ensure the highest level of precision and care during your procedure.\n\n- **Expert Medical Team**: Our team of highly skilled gastroenterologists and endoscopists has extensive experience in performing EUS Cystogastrostomy, ensuring you receive the best possible care.\n\n- **Patient-Centered Approach**: We understand that each patient’s needs are unique. Our team works closely with you to provide a treatment plan tailored to your specific condition, ensuring a smooth and successful outcome."
+          "content": "- State-of-the-Art Technology: At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we use the latest EUS and endoscopic technology to ensure the highest level of precision and care during your procedure.\n\n- Expert Medical Team: Our team of highly skilled gastroenterologists and endoscopists has extensive experience in performing EUS Cystogastrostomy, ensuring you receive the best possible care.\n\n- Patient-Centered Approach: We understand that each patient’s needs are unique. Our team works closely with you to provide a treatment plan tailored to your specific condition, ensuring a smooth and successful outcome."
         },
         {
           "heading": "Frequently Asked Questions",
@@ -1643,17 +1865,17 @@
       ]
     },
     {
-      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "icon": "/Images/Icons/Endoscopic-Necrosectomy.png",
       "title": "Endoscopic Necrosectomy",
       "description": "Minimally invasive procedure for managing pancreatic necrosis.",
       "sections": [
-        {
-          "heading": "Endoscopic Necrosectomy",
-          "content": "Minimally Invasive Treatment for Severe Pancreatic Necrosis"
-        },
+      
         {
           "heading": "What is Endoscopic Necrosectomy?",
-          "content": "Endoscopic Necrosectomy is a state-of-the-art procedure used to treat severe cases of pancreatic necrosis, a serious condition where parts of the pancreas die due to infection or inflammation. This procedure allows for the safe removal of necrotic tissue using a minimally invasive endoscopic approach, providing a more effective and less invasive alternative to traditional surgery.\n\nAt KIMS Advanced Gastroenterology & Endoscopy - KAGE, we specialize in cutting-edge treatments like Endoscopic Necrosectomy, offering patients a faster recovery time, reduced complications, and a significantly lower risk than open surgery."
+          "content": [
+            "Endoscopic Necrosectomy is a state-of-the-art procedure used to treat severe cases of pancreatic necrosis, a serious condition where parts of the pancreas die due to infection or inflammation. This procedure allows for the safe removal of necrotic tissue using a minimally invasive endoscopic approach, providing a more effective and less invasive alternative to traditional surgery.",
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we specialize in cutting-edge treatments like Endoscopic Necrosectomy, offering patients a faster recovery time, reduced complications, and a significantly lower risk than open surgery."
+          ]
         },
         {
           "heading": "How Endoscopic Necrosectomy Works",
@@ -1687,19 +1909,19 @@
         },
         {
           "heading": "Benefits of Endoscopic Necrosectomy",
-          "content": "- **Minimally Invasive**: Unlike traditional open surgery, Endoscopic Necrosectomy requires only small incisions, reducing the risk of infection, blood loss, and complications.\n\n- **Faster Recovery**: Most patients recover faster than with open surgery, often going home the same day or within a few days after the procedure.\n\n- **Reduced Pain**: Smaller incisions mean less post-operative pain and a quicker return to daily activities.\n\n- **Precision**: With the help of real-time imaging and endoscopic tools, we can target and remove the necrotic tissue with great accuracy, minimizing damage to surrounding healthy tissue.\n\n- **Lower Risk of Complications**: The endoscopic approach minimizes the risk of complications such as infection, bleeding, and organ damage that are more common with traditional surgery."
+          "content": "- Minimally Invasive: Unlike traditional open surgery, Endoscopic Necrosectomy requires only small incisions, reducing the risk of infection, blood loss, and complications.\n\n- Faster Recovery: Most patients recover faster than with open surgery, often going home the same day or within a few days after the procedure.\n\n- Reduced Pain: Smaller incisions mean less post-operative pain and a quicker return to daily activities.\n\n- Precision: With the help of real-time imaging and endoscopic tools, we can target and remove the necrotic tissue with great accuracy, minimizing damage to surrounding healthy tissue.\n\n- Lower Risk of Complications: The endoscopic approach minimizes the risk of complications such as infection, bleeding, and organ damage that are more common with traditional surgery."
         },
         {
           "heading": "Conditions Treated with Endoscopic Necrosectomy",
-          "content": "Endoscopic Necrosectomy is primarily used to treat patients with severe pancreatic necrosis, including those with:\n\n- **Infected Pancreatic Necrosis**: This occurs when part of the pancreas dies due to severe inflammation or pancreatitis, leading to infection.\n- **Pancreatic Abscesses**: Pockets of infection that can form in the pancreas as a result of necrosis.\n- **Pancreatic Fluid Collections**: Fluid-filled areas that form in the pancreas after injury or pancreatitis and can become infected or infected with necrotic tissue."
+          "content": "Endoscopic Necrosectomy is primarily used to treat patients with severe pancreatic necrosis, including those with:\n\n- Infected Pancreatic Necrosis: This occurs when part of the pancreas dies due to severe inflammation or pancreatitis, leading to infection.\n- Pancreatic Abscesses: Pockets of infection that can form in the pancreas as a result of necrosis.\n- Pancreatic Fluid Collections: Fluid-filled areas that form in the pancreas after injury or pancreatitis and can become infected or infected with necrotic tissue."
         },
         {
           "heading": "What to Expect After Endoscopic Necrosectomy",
-          "content": "- **Recovery**: Most patients can expect a faster recovery compared to traditional surgery. The procedure is minimally invasive, so pain and hospital stay are minimized.\n\n- **Post-Procedure Care**: You may be asked to stay on a liquid diet for a few days to allow your digestive system to recover. You may also be monitored for any potential complications, though these are rare due to the minimally invasive nature of the procedure.\n\n- **Follow-Up Appointments**: Regular follow-up appointments will be necessary to monitor the healing process and ensure that the infection has been cleared and the necrotic tissue is fully removed."
+          "content": "- Recovery: Most patients can expect a faster recovery compared to traditional surgery. The procedure is minimally invasive, so pain and hospital stay are minimized.\n\n- Post-Procedure Care: You may be asked to stay on a liquid diet for a few days to allow your digestive system to recover. You may also be monitored for any potential complications, though these are rare due to the minimally invasive nature of the procedure.\n\n- Follow-Up Appointments: Regular follow-up appointments will be necessary to monitor the healing process and ensure that the infection has been cleared and the necrotic tissue is fully removed."
         },
         {
           "heading": "Why Choose Endoscopic Necrosectomy at KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
-          "content": "- **Advanced Technology**: At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we use the latest endoscopic and imaging technology, ensuring the highest precision and success in treating pancreatic necrosis with Endoscopic Necrosectomy.\n\n- **Experienced Specialists**: Our team of skilled gastroenterologists and endoscopists have extensive experience in performing Endoscopic Necrosectomy and other minimally invasive procedures, ensuring you receive top-quality care.\n\n- **Personalized Care**: We understand that each patient’s condition is unique. Our team takes a personalized approach to treatment, designing a plan tailored to your specific needs for the best possible outcome."
+          "content": "- Advanced Technology: At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we use the latest endoscopic and imaging technology, ensuring the highest precision and success in treating pancreatic necrosis with Endoscopic Necrosectomy.\n\n- Experienced Specialists: Our team of skilled gastroenterologists and endoscopists have extensive experience in performing Endoscopic Necrosectomy and other minimally invasive procedures, ensuring you receive top-quality care.\n\n- Personalized Care: We understand that each patient’s condition is unique. Our team takes a personalized approach to treatment, designing a plan tailored to your specific needs for the best possible outcome."
         },
         {
           "heading": "Frequently Asked Questions",
@@ -1733,17 +1955,17 @@
       ]
     },
     {
-      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "icon": "/Images/Icons/ERCP.png",
       "title": "ERCP- Endoscopic Retrograde Cholangiopancreatography",
       "description": "A diagnostic and therapeutic procedure to treat biliary and pancreatic disorders.",
       "sections": [
-        {
-          "heading": "Endoscopic Retrograde Cholangiopancreatography (ERCP)",
-          "content": "Advanced Diagnostics and Treatment for Bile and Pancreatic Duct Issues"
-        },
+      
         {
           "heading": "What is ERCP?",
-          "content": "Endoscopic Retrograde Cholangiopancreatography (ERCP) is a specialized procedure that combines endoscopy and fluoroscopy to diagnose and treat issues in the bile ducts, pancreatic ducts, and gallbladder. This minimally invasive procedure is used to identify conditions such as gallstones, pancreatitis, bile duct blockages, and more, all while providing immediate treatment when necessary.\n\nAt KIMS Advanced Gastroenterology & Endoscopy - KAGE, we offer ERCP as part of our comprehensive digestive care services, enabling precise diagnosis and treatment with minimal discomfort and quicker recovery."
+          "content": [
+            "Endoscopic Retrograde Cholangiopancreatography (ERCP) is a specialized procedure that combines endoscopy and fluoroscopy to diagnose and treat issues in the bile ducts, pancreatic ducts, and gallbladder. This minimally invasive procedure is used to identify conditions such as gallstones, pancreatitis, bile duct blockages, and more, all while providing immediate treatment when necessary.",
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we offer ERCP as part of our comprehensive digestive care services, enabling precise diagnosis and treatment with minimal discomfort and quicker recovery."
+          ]
         },
         {
           "heading": "How ERCP Works",
@@ -1776,19 +1998,19 @@
         },
         {
           "heading": "Conditions Treated with ERCP",
-          "content": "ERCP is highly effective for diagnosing and treating a range of biliary and pancreatic conditions, including:\n\n- **Gallstones**: Stones that form in the gallbladder and may block the bile ducts, causing pain, nausea, or jaundice.\n- **Bile Duct Obstruction**: Blockages in the bile duct due to stones, tumors, or strictures.\n- **Pancreatitis**: Inflammation of the pancreas, often caused by gallstones or blockages in the bile duct.\n- **Biliary Strictures**: Narrowing of the bile duct due to scarring or inflammation.\n- **Pancreatic Duct Abnormalities**: Issues such as blockages or narrowing in the pancreatic duct that affect the flow of digestive enzymes.\n- **Sphincter of Oddi Dysfunction**: Dysfunction of the muscle controlling the flow of bile and pancreatic juices into the small intestine."
+          "content": "ERCP is highly effective for diagnosing and treating a range of biliary and pancreatic conditions, including:\n\n- Gallstones: Stones that form in the gallbladder and may block the bile ducts, causing pain, nausea, or jaundice.\n- Bile Duct Obstruction: Blockages in the bile duct due to stones, tumors, or strictures.\n- Pancreatitis: Inflammation of the pancreas, often caused by gallstones or blockages in the bile duct.\n- Biliary Strictures: Narrowing of the bile duct due to scarring or inflammation.\n- Pancreatic Duct Abnormalities: Issues such as blockages or narrowing in the pancreatic duct that affect the flow of digestive enzymes.\n- Sphincter of Oddi Dysfunction: Dysfunction of the muscle controlling the flow of bile and pancreatic juices into the small intestine."
         },
         {
           "heading": "Benefits of ERCP",
-          "content": "- **Minimally Invasive**: Unlike traditional surgery, ERCP requires only small incisions or no incisions at all, reducing the risk of infection and shortening recovery time.\n\n- **Diagnostic and Therapeutic**: ERCP not only provides an accurate diagnosis but also allows for immediate treatment, such as stone removal or stent placement, in a single procedure.\n\n- **Quick Recovery**: Most patients experience minimal downtime and can resume normal activities within a short time, typically within a day or two.\n\n- **Real-Time Imaging**: The use of X-ray during the procedure allows for immediate visualization, ensuring precise treatment of the bile and pancreatic ducts."
+          "content": "- Minimally Invasive: Unlike traditional surgery, ERCP requires only small incisions or no incisions at all, reducing the risk of infection and shortening recovery time.\n\n- Diagnostic and Therapeutic: ERCP not only provides an accurate diagnosis but also allows for immediate treatment, such as stone removal or stent placement, in a single procedure.\n\n- Quick Recovery: Most patients experience minimal downtime and can resume normal activities within a short time, typically within a day or two.\n\n- Real-Time Imaging: The use of X-ray during the procedure allows for immediate visualization, ensuring precise treatment of the bile and pancreatic ducts."
         },
         {
           "heading": "What to Expect During and After ERCP",
-          "content": "- **During the Procedure**: The procedure typically lasts between 30 minutes to an hour. You will be sedated, so you should not feel any pain or discomfort during the process. However, you may experience some bloating or cramping afterward.\n\n- **Post-Procedure Care**: After the procedure, you will be monitored for a short time as the sedative wears off. Most patients can go home the same day, though you may need someone to drive you home.\n\n- **Recovery Time**: Recovery from ERCP is usually quick, with most patients able to return to normal activities within a day or two. Mild discomfort such as bloating or a sore throat (from the endoscope) is common but temporary."
+          "content": "- During the Procedure: The procedure typically lasts between 30 minutes to an hour. You will be sedated, so you should not feel any pain or discomfort during the process. However, you may experience some bloating or cramping afterward.\n\n- Post-Procedure Care: After the procedure, you will be monitored for a short time as the sedative wears off. Most patients can go home the same day, though you may need someone to drive you home.\n\n- Recovery Time: Recovery from ERCP is usually quick, with most patients able to return to normal activities within a day or two. Mild discomfort such as bloating or a sore throat (from the endoscope) is common but temporary."
         },
         {
           "heading": "Why Choose ERCP at KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
-          "content": "- **Expert Care**: Our team of gastroenterologists and specialists at KIMS Advanced Gastroenterology & Endoscopy - KAGE has extensive experience with ERCP, ensuring that you receive the most advanced care for your condition.\n\n- **State-of-the-Art Technology**: We use the latest endoscopic and imaging technologies for precise diagnostics and treatment, ensuring optimal results.\n\n- **Personalized Treatment Plans**: Each patient is unique, and we tailor treatment plans based on your individual health needs and condition.\n\n- **Comprehensive Digestive Care**: In addition to ERCP, we offer a wide range of diagnostic and therapeutic services to treat all aspects of your digestive health."
+          "content": "- Expert Care: Our team of gastroenterologists and specialists at KIMS Advanced Gastroenterology & Endoscopy - KAGE has extensive experience with ERCP, ensuring that you receive the most advanced care for your condition.\n\n- State-of-the-Art Technology: We use the latest endoscopic and imaging technologies for precise diagnostics and treatment, ensuring optimal results.\n\n- Personalized Treatment Plans: Each patient is unique, and we tailor treatment plans based on your individual health needs and condition.\n\n- Comprehensive Digestive Care: In addition to ERCP, we offer a wide range of diagnostic and therapeutic services to treat all aspects of your digestive health."
         },
         {
           "heading": "Frequently Asked Questions",
@@ -1822,17 +2044,17 @@
       ]
     },
     {
-      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "icon": "/Images/Icons/Bariatric-Endoscopy.png",
       "title": "Bariatric Endoscopy- ESG (Endoscopic Sleeve Gastrectomy)",
       "description": "A minimally invasive bariatric procedure for weight loss.",
       "sections": [
-        {
-          "heading": "Endoscopic Sleeve Gastroplasty (ESG)",
-          "content": "An Innovative, Minimally Invasive Solution for Weight Loss"
-        },
+       
         {
           "heading": "What is Endoscopic Sleeve Gastroplasty (ESG)?",
-          "content": "Endoscopic Sleeve Gastroplasty (ESG) is a groundbreaking, minimally invasive weight loss procedure that helps patients achieve significant and sustainable weight loss without the need for traditional surgery. Utilizing advanced endoscopic technology, ESG involves no incisions, and patients can typically return to normal activities within a short time.\n\nAt KIMS Advanced Gastroenterology & Endoscopy - KAGE, we offer ESG as part of our comprehensive bariatric endoscopy services, providing a modern, effective alternative for those looking to lose weight and improve their health without the complexities of surgery."
+          "content": [
+            "Endoscopic Sleeve Gastroplasty (ESG) is a groundbreaking, minimally invasive weight loss procedure that helps patients achieve significant and sustainable weight loss without the need for traditional surgery. Utilizing advanced endoscopic technology, ESG involves no incisions, and patients can typically return to normal activities within a short time.",
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we offer ESG as part of our comprehensive bariatric endoscopy services, providing a modern, effective alternative for those looking to lose weight and improve their health without the complexities of surgery."
+          ]
         },
         {
           "heading": "How ESG Works",
@@ -1840,11 +2062,11 @@
         },
         {
           "heading": "Benefits of ESG",
-          "content": "- **Minimally Invasive**: ESG is performed without the need for any cuts or incisions, significantly reducing recovery time and risk compared to traditional surgery.\n\n- **No Hospital Stay**: Most patients can go home the same day after the procedure, making it a convenient and outpatient procedure.\n\n- **Sustainable Weight Loss**: ESG helps reduce the stomach’s capacity, allowing for more controlled food intake, which leads to gradual and sustainable weight loss over time.\n\n- **Quick Recovery**: Patients can typically return to their normal activities within a few days, as the recovery is much faster compared to invasive surgeries.\n\n- **Improved Health Outcomes**: Along with weight loss, ESG can lead to improvements in conditions associated with obesity, such as type 2 diabetes, high blood pressure, and sleep apnea."
+          "content": "- Minimally Invasive: ESG is performed without the need for any cuts or incisions, significantly reducing recovery time and risk compared to traditional surgery.\n\n- No Hospital Stay: Most patients can go home the same day after the procedure, making it a convenient and outpatient procedure.\n\n- Sustainable Weight Loss: ESG helps reduce the stomach’s capacity, allowing for more controlled food intake, which leads to gradual and sustainable weight loss over time.\n\n- Quick Recovery: Patients can typically return to their normal activities within a few days, as the recovery is much faster compared to invasive surgeries.\n\n- Improved Health Outcomes: Along with weight loss, ESG can lead to improvements in conditions associated with obesity, such as type 2 diabetes, high blood pressure, and sleep apnea."
         },
         {
           "heading": "Conditions Treated with ESG",
-          "content": "ESG is a highly effective solution for those struggling with obesity and related conditions, including:\n\n- **Obesity**: For patients with a BMI (Body Mass Index) of 30 or higher who have struggled to lose weight through traditional methods such as diet and exercise.\n- **Type 2 Diabetes**: Weight loss from ESG can help improve insulin sensitivity and may even lead to a reduction in the need for diabetes medications.\n- **Hypertension**: ESG has been shown to help lower blood pressure by promoting weight loss.\n- **Sleep Apnea**: As excess weight is a common cause of sleep apnea, reducing weight through ESG can improve sleep quality and breathing."
+          "content": "ESG is a highly effective solution for those struggling with obesity and related conditions, including:\n\n- Obesity: For patients with a BMI (Body Mass Index) of 30 or higher who have struggled to lose weight through traditional methods such as diet and exercise.\n- Type 2 Diabetes: Weight loss from ESG can help improve insulin sensitivity and may even lead to a reduction in the need for diabetes medications.\n- Hypertension: ESG has been shown to help lower blood pressure by promoting weight loss.\n- Sleep Apnea: As excess weight is a common cause of sleep apnea, reducing weight through ESG can improve sleep quality and breathing."
         },
         {
           "heading": "The ESG Procedure: What to Expect",
@@ -1878,11 +2100,11 @@
         },
         {
           "heading": "What to Expect After ESG",
-          "content": "- **Recovery**: Most patients can return to normal activities within 3-5 days, though some mild discomfort, such as bloating, nausea, or abdominal pain, is common in the first few days after the procedure. These symptoms typically resolve within a week.\n\n- **Diet**: Following the procedure, you will be put on a liquid diet for the first few weeks, gradually transitioning to soft foods and then solid foods over time. It’s important to follow the dietary guidelines provided by your doctor for optimal results.\n\n- **Follow-up Care**: Regular follow-up visits will be scheduled to monitor your progress, track your weight loss, and ensure that you are healing properly. Our team will provide continuous support and guidance to help you maintain a healthy lifestyle after your procedure."
+          "content": "- Recovery: Most patients can return to normal activities within 3-5 days, though some mild discomfort, such as bloating, nausea, or abdominal pain, is common in the first few days after the procedure. These symptoms typically resolve within a week.\n\n- Diet: Following the procedure, you will be put on a liquid diet for the first few weeks, gradually transitioning to soft foods and then solid foods over time. It’s important to follow the dietary guidelines provided by your doctor for optimal results.\n\n- Follow-up Care: Regular follow-up visits will be scheduled to monitor your progress, track your weight loss, and ensure that you are healing properly. Our team will provide continuous support and guidance to help you maintain a healthy lifestyle after your procedure."
         },
         {
           "heading": "Why Choose ESG at KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
-          "content": "- **Expert Bariatric Team**: Our team of skilled gastroenterologists and bariatric specialists have extensive experience in performing ESG, ensuring you receive the highest level of care.\n\n- **State-of-the-Art Technology**: We utilize the latest endoscopic techniques and equipment to perform ESG with precision and care, ensuring the best possible outcomes for our patients.\n\n- **Patient-Centered Care**: At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we focus on providing compassionate, personalized care. From consultation to post-procedure support, we are here for you every step of the way.\n\n- **Comprehensive Weight Loss Support**: ESG is part of a complete weight loss program that includes dietary support, lifestyle changes, and ongoing monitoring to ensure your success in reaching your weight loss goals."
+          "content": "- Expert Bariatric Team: Our team of skilled gastroenterologists and bariatric specialists have extensive experience in performing ESG, ensuring you receive the highest level of care.\n\n- State-of-the-Art Technology: We utilize the latest endoscopic techniques and equipment to perform ESG with precision and care, ensuring the best possible outcomes for our patients.\n\n- Patient-Centered Care: At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we focus on providing compassionate, personalized care. From consultation to post-procedure support, we are here for you every step of the way.\n\n- Comprehensive Weight Loss Support: ESG is part of a complete weight loss program that includes dietary support, lifestyle changes, and ongoing monitoring to ensure your success in reaching your weight loss goals."
         },
         {
           "heading": "Frequently Asked Questions (FAQ)",
@@ -1916,13 +2138,16 @@
       ]
     },
     {
-      "icon": "https://picsum.photos/seed/picsum/800/400",
+      "icon": "/Images/Icons/POEM.png",
       "title": "Biofeedback",
       "description": "A non-invasive approach to managing stress and improving overall health.",
       "sections": [
         {
           "heading": "Biofeedback Therapy",
-          "content": "Harness the Power of Your Body for Better Health"
+          "content": [
+            "Biofeedback is a non-invasive therapeutic technique that helps individuals gain control over physiological functions, such as heart rate, muscle tension, and breathing. By using sensors to monitor specific bodily functions, biofeedback allows you to receive real-time feedback, teaching you how to regulate these processes consciously. This cutting-edge therapy can be a powerful tool in managing stress, chronic pain, and a variety of other conditions.",
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we offer biofeedback therapy as part of our holistic approach to wellness, helping patients unlock the potential of their own body to promote healing, relaxation, and overall well-being."
+          ]
         },
         {
           "heading": "What is Biofeedback Therapy?",
@@ -1930,11 +2155,11 @@
         },
         {
           "heading": "How Biofeedback Works",
-          "content": "During a biofeedback session, sensors are placed on your body to measure specific physiological activities such as:\n\n- **Heart rate**\n- **Muscle tension**\n- **Brain wave activity**\n- **Breathing patterns**\n- **Skin temperature**\n\nThese signals are displayed on a monitor, providing visual or auditory feedback that allows you to recognize patterns in your body’s responses. With practice, you can learn to adjust your responses consciously to improve your health.\n\nFor example, by seeing your heart rate increase during stress, you can practice relaxation techniques, such as deep breathing or visualization, to lower it back to a healthier level. Over time, biofeedback helps individuals achieve more control over their body, reducing the need for medications and improving overall health."
+          "content": "During a biofeedback session, sensors are placed on your body to measure specific physiological activities such as:\n\n- Heart rate\n- Muscle tension\n- Brain wave activity\n- Breathing patterns\n- Skin temperature\n\nThese signals are displayed on a monitor, providing visual or auditory feedback that allows you to recognize patterns in your body’s responses. With practice, you can learn to adjust your responses consciously to improve your health.\n\nFor example, by seeing your heart rate increase during stress, you can practice relaxation techniques, such as deep breathing or visualization, to lower it back to a healthier level. Over time, biofeedback helps individuals achieve more control over their body, reducing the need for medications and improving overall health."
         },
         {
           "heading": "Conditions Treated with Biofeedback Therapy",
-          "content": "Biofeedback therapy is effective in managing a wide range of physical and psychological conditions, including:\n\n- **Stress & Anxiety**: Biofeedback can help you manage stress by teaching you how to lower your heart rate and relax your muscles, leading to a calmer mind and body.\n- **Chronic Pain**: Patients with conditions such as fibromyalgia, migraines, and tension headaches can benefit from biofeedback by learning to relax muscles and reduce pain.\n- **Insomnia**: By learning how to control your stress response, biofeedback can promote relaxation and improve sleep quality.\n- **High Blood Pressure**: Biofeedback helps patients reduce stress and regulate their heart rate, contributing to lower blood pressure.\n- **Irritable Bowel Syndrome (IBS)**: Biofeedback can improve gastrointestinal symptoms by teaching relaxation techniques to reduce stress-induced flare-ups.\n- **Urinary Incontinence**: Biofeedback helps individuals strengthen pelvic muscles, improving bladder control.\n- **Post-Traumatic Stress Disorder (PTSD)**: For those struggling with PTSD, biofeedback can teach relaxation techniques to help manage triggers and anxiety."
+          "content": "Biofeedback therapy is effective in managing a wide range of physical and psychological conditions, including:\n\n- Stress & Anxiety: Biofeedback can help you manage stress by teaching you how to lower your heart rate and relax your muscles, leading to a calmer mind and body.\n- Chronic Pain: Patients with conditions such as fibromyalgia, migraines, and tension headaches can benefit from biofeedback by learning to relax muscles and reduce pain.\n- Insomnia: By learning how to control your stress response, biofeedback can promote relaxation and improve sleep quality.\n- High Blood Pressure: Biofeedback helps patients reduce stress and regulate their heart rate, contributing to lower blood pressure.\n- Irritable Bowel Syndrome (IBS): Biofeedback can improve gastrointestinal symptoms by teaching relaxation techniques to reduce stress-induced flare-ups.\n- Urinary Incontinence: Biofeedback helps individuals strengthen pelvic muscles, improving bladder control.\n- Post-Traumatic Stress Disorder (PTSD): For those struggling with PTSD, biofeedback can teach relaxation techniques to help manage triggers and anxiety."
         },
         {
           "heading": "The Biofeedback Therapy Process: What to Expect",
@@ -1968,11 +2193,11 @@
         },
         {
           "heading": "Benefits of Biofeedback Therapy",
-          "content": "- **Non-Invasive**: Biofeedback requires no medication or surgery. It works by helping you use your body’s natural processes to achieve better health.\n\n- **Long-Term Results**: Biofeedback isn’t just about quick fixes—it’s about empowering you to make lasting changes in how your body responds to stress and other triggers.\n\n- **Customized Approach**: Your biofeedback sessions are tailored to your unique needs, ensuring the techniques work specifically for you.\n\n- **Reduced Reliance on Medications**: Many patients find that biofeedback allows them to reduce their reliance on medications for conditions like anxiety, pain, and high blood pressure."
+          "content": "- Non-Invasive: Biofeedback requires no medication or surgery. It works by helping you use your body’s natural processes to achieve better health.\n\n- Long-Term Results: Biofeedback isn’t just about quick fixes—it’s about empowering you to make lasting changes in how your body responds to stress and other triggers.\n\n- Customized Approach: Your biofeedback sessions are tailored to your unique needs, ensuring the techniques work specifically for you.\n\n- Reduced Reliance on Medications: Many patients find that biofeedback allows them to reduce their reliance on medications for conditions like anxiety, pain, and high blood pressure."
         },
         {
           "heading": "Why Choose Biofeedback Therapy at KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
-          "content": "- **Expert Therapists**: Our trained biofeedback specialists are experienced in guiding patients through personalized therapy, ensuring that you achieve the best possible results.\n\n- **State-of-the-Art Technology**: At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we use the latest biofeedback equipment, providing real-time feedback with high precision for the best therapeutic outcomes.\n\n- **Holistic Approach to Wellness**: Biofeedback therapy complements other treatments and wellness programs we offer, providing a comprehensive approach to improving your physical and mental health.\n\n- **Patient-Centered Care**: We focus on creating a relaxed and supportive environment for our patients, ensuring you feel comfortable and confident throughout your therapy."
+          "content": "- Expert Therapists: Our trained biofeedback specialists are experienced in guiding patients through personalized therapy, ensuring that you achieve the best possible results.\n\n- State-of-the-Art Technology: At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we use the latest biofeedback equipment, providing real-time feedback with high precision for the best therapeutic outcomes.\n\n- Holistic Approach to Wellness: Biofeedback therapy complements other treatments and wellness programs we offer, providing a comprehensive approach to improving your physical and mental health.\n\n- Patient-Centered Care: We focus on creating a relaxed and supportive environment for our patients, ensuring you feel comfortable and confident throughout your therapy."
         },
         {
           "heading": "Frequently Asked Questions (FAQ)",
@@ -3559,138 +3784,137 @@
             "The liver is one of the most vital organs, performing over 500 essential functions, including detoxification, protein synthesis, and aiding digestion. When liver function declines due to chronic disease, infections, or other conditions, specialized care is crucial. The Advanced Liver Care and Transplant Clinic at KIMS Advanced Gastroenterology & Endoscopy - KAGE, Hyderabad, is dedicated to diagnosing, managing, and treating all liver-related diseases, offering state-of-the-art liver transplant services when necessary.",
             "Our team of highly experienced hepatologists, liver transplant surgeons, and support staff ensures a multidisciplinary approach to care, backed by cutting-edge technology. From preventive care to advanced treatments, we are a trusted destination for liver health in Hyderabad and Secunderabad."
           ],
-       
-        "conditions": {
-          "heading": "Conditions We Treat",
-          "conditionsList": [
-            "Chronic Liver Disease (CLD)",
-            "Acute Liver Failure (ALF)",
-            "Hepatitis (A, B, C, E)",
-            "Non-Alcoholic Fatty Liver Disease (NAFLD)",
-            "Liver Cancer (Hepatocellular Carcinoma)",
-            "Portal Hypertension",
-            "Alcoholic Liver Disease (ALD)",
-            "Biliary Atresia and Other Pediatric Liver Conditions",
-            "Genetic Liver Disorders (Wilson’s disease, hemochromatosis, etc.)"
-          ]
-        },
-        "key_services": {
-          "heading": "Key Services at the Advanced Liver Care and Transplant Clinic",
-          "keyServiceslist": [
-            "Comprehensive Diagnostic Services",
-            "Advanced Liver Transplant Services",
-            "Management of Viral Hepatitis",
-            "Minimally Invasive Procedures",
-            "Pediatric Hepatology Care",
-            "Liver Cancer Treatment"
-          ]
-        },
-        "services_details": {
-          "services": [
-            {
-              "heading": "Comprehensive Diagnostic Services",
-              "list": [
-                "FibroScan for liver fibrosis and stiffness.",
-                "Advanced imaging (CT, MRI) for liver and bile duct evaluation.",
-                "Liver function tests (LFTs) to assess liver health."
-              ]
-            },
-            {
-              "heading": "Advanced Liver Transplant Services",
-              "list": [
-                "Expertise in living-donor and deceased-donor liver transplants.",
-                "Tailored transplant plans with pre- and post-transplant support."
-              ]
-            },
-            {
-              "heading": "Management of Viral Hepatitis",
-              "list": [
-                "Antiviral therapies for Hepatitis B and C.",
-                "Immunization and preventive strategies."
-              ]
-            },
-            {
-              "heading": "Minimally Invasive Procedures",
-              "list": [
-                "Transjugular intrahepatic portosystemic shunt (TIPS) for portal hypertension.",
-                "Endoscopic management of varices and bile duct stones."
-              ]
-            },
-            {
-              "heading": "Pediatric Hepatology Care",
-              "list": [
-                "Specialized team for congenital and pediatric liver diseases."
-              ]
-            },
-            {
-              "heading": "Liver Cancer Treatment",
-              "list": [
-                "Targeted therapies, radiofrequency ablation (RFA), transarterial chemoembolization (TACE), and surgical resections."
-              ]
-            }
-          ]
-        },
-        "why_choose": {
-          "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for Advanced Liver Care?",
-          "steps": [
-            {
-              "step": 1,
-              "title": "World-Class Expertise",
-              "description": "A team of hepatologists, transplant surgeons, anesthetists, and critical care specialists with decades of experience."
-            },
-            {
-              "step": 2,
-              "title": "State-of-the-Art Technology",
-              "description": "From high-resolution imaging to robotic-assisted surgeries, we ensure precision and safety in every procedure."
-            },
-            {
-              "step": 3,
-              "title": "Holistic Care",
-              "description": "Integrated pre- and post-transplant programs, including physiotherapy, nutritional counseling, and psychological support."
-            },
-            {
-              "step": 4,
-              "title": "Proven Success Rates",
-              "description": "High survival and success rates for liver transplants."
-            },
-            {
-              "step": 5,
-              "title": "Accessible Location",
-              "description": "Conveniently located in Hyderabad and Secunderabad, making liver care accessible for patients across Telangana and beyond."
-            },
-            {
-              "step": 6,
-              "title": "Patient-Centered Approach",
-              "description": "Transparent communication and personalized care at every stage."
-            }
-          ]
-        },
-        "faq": {
-          "heading": "FAQs for the Advanced Liver Care and Transplant Clinic",
-          "questions": [
-            {
-              "question": "Who qualifies for a liver transplant?",
-              "answer": "Patients with end-stage liver disease or liver cancer who meet medical and transplant eligibility criteria."
-            },
-            {
-              "question": "What is the recovery period for a liver transplant?",
-              "answer": "Most patients recover within 3-6 months, with follow-up care."
-            },
-            {
-              "question": "Can liver disease be reversed?",
-              "answer": "Early-stage liver conditions can often be reversed with lifestyle changes and medical care. Advanced stages like cirrhosis require long-term management or transplantation."
-            },
-            {
-              "question": "What is TACE?",
-              "answer": "Transarterial Chemoembolization is a minimally invasive procedure used to treat liver cancer by blocking blood flow to the tumor and delivering chemotherapy directly."
-            },
-            {
-              "question": "Why is KIMS Advanced Gastroenterology & Endoscopy - KAGE preferred for liver care in Hyderabad?",
-              "answer": "With expert hepatologists, cutting-edge technology, and high success rates in transplants, KIMS Advanced Gastroenterology & Endoscopy - KAGE is a trusted name for liver care in India."
-            }
-          ]
+          "conditions": {
+            "heading": "Conditions We Treat",
+            "conditionsList": [
+              "Chronic Liver Disease (CLD)",
+              "Acute Liver Failure (ALF)",
+              "Hepatitis (A, B, C, E)",
+              "Non-Alcoholic Fatty Liver Disease (NAFLD)",
+              "Liver Cancer (Hepatocellular Carcinoma)",
+              "Portal Hypertension",
+              "Alcoholic Liver Disease (ALD)",
+              "Biliary Atresia and Other Pediatric Liver Conditions",
+              "Genetic Liver Disorders (Wilson’s disease, hemochromatosis, etc.)"
+            ]
+          },
+          "key_services": {
+            "heading": "Key Services at the Advanced Liver Care and Transplant Clinic",
+            "keyServiceslist": [
+              "Comprehensive Diagnostic Services",
+              "Advanced Liver Transplant Services",
+              "Management of Viral Hepatitis",
+              "Minimally Invasive Procedures",
+              "Pediatric Hepatology Care",
+              "Liver Cancer Treatment"
+            ]
+          },
+          "services_details": {
+            "services": [
+              {
+                "heading": "Comprehensive Diagnostic Services",
+                "list": [
+                  "FibroScan for liver fibrosis and stiffness.",
+                  "Advanced imaging (CT, MRI) for liver and bile duct evaluation.",
+                  "Liver function tests (LFTs) to assess liver health."
+                ]
+              },
+              {
+                "heading": "Advanced Liver Transplant Services",
+                "list": [
+                  "Expertise in living-donor and deceased-donor liver transplants.",
+                  "Tailored transplant plans with pre- and post-transplant support."
+                ]
+              },
+              {
+                "heading": "Management of Viral Hepatitis",
+                "list": [
+                  "Antiviral therapies for Hepatitis B and C.",
+                  "Immunization and preventive strategies."
+                ]
+              },
+              {
+                "heading": "Minimally Invasive Procedures",
+                "list": [
+                  "Transjugular intrahepatic portosystemic shunt (TIPS) for portal hypertension.",
+                  "Endoscopic management of varices and bile duct stones."
+                ]
+              },
+              {
+                "heading": "Pediatric Hepatology Care",
+                "list": [
+                  "Specialized team for congenital and pediatric liver diseases."
+                ]
+              },
+              {
+                "heading": "Liver Cancer Treatment",
+                "list": [
+                  "Targeted therapies, radiofrequency ablation (RFA), transarterial chemoembolization (TACE), and surgical resections."
+                ]
+              }
+            ]
+          },
+          "why_choose": {
+            "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for Advanced Liver Care?",
+            "steps": [
+              {
+                "step": 1,
+                "title": "World-Class Expertise",
+                "description": "A team of hepatologists, transplant surgeons, anesthetists, and critical care specialists with decades of experience."
+              },
+              {
+                "step": 2,
+                "title": "State-of-the-Art Technology",
+                "description": "From high-resolution imaging to robotic-assisted surgeries, we ensure precision and safety in every procedure."
+              },
+              {
+                "step": 3,
+                "title": "Holistic Care",
+                "description": "Integrated pre- and post-transplant programs, including physiotherapy, nutritional counseling, and psychological support."
+              },
+              {
+                "step": 4,
+                "title": "Proven Success Rates",
+                "description": "High survival and success rates for liver transplants."
+              },
+              {
+                "step": 5,
+                "title": "Accessible Location",
+                "description": "Conveniently located in Hyderabad and Secunderabad, making liver care accessible for patients across Telangana and beyond."
+              },
+              {
+                "step": 6,
+                "title": "Patient-Centered Approach",
+                "description": "Transparent communication and personalized care at every stage."
+              }
+            ]
+          },
+          "faq": {
+            "heading": "FAQs for the Advanced Liver Care and Transplant Clinic",
+            "questions": [
+              {
+                "question": "Who qualifies for a liver transplant?",
+                "answer": "Patients with end-stage liver disease or liver cancer who meet medical and transplant eligibility criteria."
+              },
+              {
+                "question": "What is the recovery period for a liver transplant?",
+                "answer": "Most patients recover within 3-6 months, with follow-up care."
+              },
+              {
+                "question": "Can liver disease be reversed?",
+                "answer": "Early-stage liver conditions can often be reversed with lifestyle changes and medical care. Advanced stages like cirrhosis require long-term management or transplantation."
+              },
+              {
+                "question": "What is TACE?",
+                "answer": "Transarterial Chemoembolization is a minimally invasive procedure used to treat liver cancer by blocking blood flow to the tumor and delivering chemotherapy directly."
+              },
+              {
+                "question": "Why is KIMS Advanced Gastroenterology & Endoscopy - KAGE preferred for liver care in Hyderabad?",
+                "answer": "With expert hepatologists, cutting-edge technology, and high success rates in transplants, KIMS Advanced Gastroenterology & Endoscopy - KAGE is a trusted name for liver care in India."
+              }
+            ]
+          }
         }
-      }
       },
       "subpages": [
         {
@@ -6840,7 +7064,6 @@
           "text": "About Us",
           "href": "#"
         },
-       
         {
           "text": "Contact",
           "href": "#"
@@ -6862,18 +7085,20 @@
           "platform": "Facebook",
           "href": "https://www.facebook.com"
         },
-        {
-          "platform": "Twitter",
-          "href": "https://twitter.com"
-        },
+    
         {
           "platform": "Instagram",
-          "href": "https://www.instagram.com"
+          "href": "https://www.instagram.com/kagekims"
         },
         {
           "platform": "LinkedIn",
           "href": "https://www.linkedin.com"
+        },
+        {
+          "platform":"youtube",
+          "href":"https://www.youtube.com/@KIMS-KAGE"
         }
+
       ]
     },
     "footerBottom": {

@@ -9,7 +9,7 @@ import {
   ListItemIcon,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 import HealthAndSafetyIcon from "@mui/icons-material/HealthAndSafety";
 const Mutipletreatment = ({ treatmentContent }) => {
@@ -43,7 +43,7 @@ const Mutipletreatment = ({ treatmentContent }) => {
                     <ListItem>
                       <ListItemIcon>
                     
-                        <CheckCircleIcon />
+                        <ArrowForwardIosIcon />
                       </ListItemIcon>
 
                       <ListItemText

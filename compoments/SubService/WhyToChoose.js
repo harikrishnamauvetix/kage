@@ -1,13 +1,13 @@
 
 import React from "react";
-import { Grid, Card, CardContent, Typography } from "@mui/material";
-
+import { Card, CardContent, Typography } from "@mui/material";
+import Grid from "@mui/material/Grid2";
 const WhyToChoose = ({ whytochoose }) => {
   return (
-    <Grid container spacing={2} sx={{ margin: "30px 0" }}>
+    <Grid container spacing={2} justifyContent="center" sx={{ margin: "30px 0" }}>
       {whytochoose && (
         <>
-          <Grid item xs={12} className="p0">
+          <Grid  size={{ xs: 12, sm: 12, md: 12 }}className="p0">
             <Typography
               variant="h5"
               sx={{ margin: "10px 0", color: "secondary.main" }}
@@ -16,7 +16,7 @@ const WhyToChoose = ({ whytochoose }) => {
             </Typography>
           </Grid>
           {whytochoose.list?.map((item, index) => (
-            <Grid item xs={12} sm={6} md={6} key={index} spacing={2}>
+            <Grid size={{ xs: 12, sm: 12, md: 4 }} key={index} spacing={2}>
               <Card>
                 <CardContent>
                   <Typography variant="h6" component="div">

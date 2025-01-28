@@ -15,7 +15,7 @@ import {
   ListItemIcon,
   Breadcrumbs,
 } from "@mui/material";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Grid from "@mui/material/Grid2";
 
 function HealthRisks({ healthrisks }) {

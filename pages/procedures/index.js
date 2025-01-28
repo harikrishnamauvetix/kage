@@ -19,7 +19,7 @@ import {
   Stack,
 } from "@mui/material";
 import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { AccessAlarm, Description, CheckCircle } from "@mui/icons-material"; // Import icons of your choice
 
 import { useState, useEffect } from "react";
@@ -30,14 +30,15 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import SidebarMenu from "@/compoments/SidebarMenu";
 import SpecialityClinics from "@/compoments/Home/SpecialityClinics";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
+import ProceduresList from "@/compoments/Home/ProceduresList";
 
 export default function specialityList() {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo service={websiteJson.services.page}  />
+      <Breadcrumbsinfo service={websiteJson.services.page} />
 
-      <SpecialityClinics specialityclinics={websiteJson.services} />
+      <ProceduresList procedures={websiteJson.procedures}></ProceduresList>
 
       <Footer></Footer>
     </>

@@ -32,7 +32,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import "swiper/css";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
@@ -129,7 +129,17 @@ const Procedures = () => {
                   >
                     {section.heading}
                   </Typography>
-                  {section.content && (
+                  {section.content && Array.isArray(section.content) ? (
+                    section.content.map((contentItem, index) => (
+                      <Typography
+                        key={index}
+                        paragraph
+                        sx={{ textAlign: "justify" }}
+                      >
+                        {contentItem}
+                      </Typography>
+                    ))
+                  ) : (
                     <Typography paragraph sx={{ textAlign: "justify" }}>
                       {section.content}
                     </Typography>
@@ -156,7 +166,7 @@ const Procedures = () => {
                           <ListItemIcon
                             sx={{ padding: "0px", minWidth: "30px" }}
                           >
-                            <CheckCircleIcon color="primary" />
+                            <ArrowForwardIosIcon color="primary" />
                           </ListItemIcon>
 
                           <ListItemText
@@ -175,7 +185,7 @@ const Procedures = () => {
                           <ListItemIcon
                             sx={{ padding: "0px", minWidth: "30px" }}
                           >
-                            <CheckCircleIcon color="primary" />
+                            <ArrowForwardIosIcon color="primary" />
                           </ListItemIcon>
                           <ListItemText
                             primary={symptom}
@@ -217,7 +227,7 @@ const Procedures = () => {
                   {section.faq && (
                     <Grid container spacing={2}>
                       {section.faq.map((faq, faqIdx) => (
-                        <Grid item xs={12} sm={6} size={6} key={faqIdx}>
+                        <Grid size={{ xs: 12, sm: 12, md: 12   }}  key={faqIdx}>
                           <Accordion
                             expanded={expanded === faqIdx}
                             onChange={handleFaqToggle(faqIdx)}

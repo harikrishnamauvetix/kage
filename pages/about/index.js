@@ -19,7 +19,7 @@ import AppointmentForm from "@/compoments/Bookappointment";
 import Footer from "@/compoments/Footer";
 import SidebarMenu from "@/compoments/SidebarMenu";
 import AboutsidebarMenu from "@/compoments/aboutSidebar";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 const About = () => {
   const [service, setService] = useState(websiteJson?.about);
@@ -29,7 +29,7 @@ const About = () => {
     <>
       <Header></Header>
       <Breadcrumbsinfo
-        service={"about"}
+        service={"About Us"}
         pagename={service.slug}
       ></Breadcrumbsinfo>
       <Container>
@@ -43,8 +43,8 @@ const About = () => {
         >
           <Box
             sx={{
-              width: "80%", 
-              maxWidth: "1200px", 
+              width: "80%",
+              maxWidth: "1200px",
               display: "flex",
               justifyContent: "center",
             }}
@@ -70,7 +70,11 @@ const About = () => {
                   >
                     {websiteJson.about.subHeading}
                   </Typography>
-                  <Typography variant="body1" color="text.secondary" sx={{textAlign:"justify"}}>
+                  <Typography
+                    variant="body1"
+                    color="text.secondary"
+                    sx={{ textAlign: "justify" }}
+                  >
                     {websiteJson.about.Description}
                   </Typography>
                 </Stack>
@@ -87,16 +91,37 @@ const About = () => {
                 <Grid container spacing={4}>
                   {websiteJson.about.specialtyClinics.list.map(
                     (clinic, index) => (
-                      <Grid size={{ xs: 12, sm: 12, md: 12 }} key={index}>
-                        <Paper elevation={3} sx={{ padding: 2 }}>
+                      <Grid size={{ xs: 12, sm: 12, md: 4 }} key={index}>
+                        <Paper
+                          elevation={3}
+                          sx={{
+                            padding: 2,
+                            display: "flex",
+                            flexDirection: "column",
+                            height: "100%", 
+                          }}
+                        >
                           <Typography
                             variant="h6"
                             gutterBottom
-                            sx={{ color: "primary.main" }}
+                            sx={{
+                              color: "primary.main",
+                             
+                              alignItems: "start",  
+                              minHeight: "97px",     
+                              display: "flex",  
+                            }}
                           >
                             {clinic.heading}
                           </Typography>
-                          <Typography variant="body1" sx={{textAlign:"justify"}}>
+                          <Typography
+                            variant="body1"
+                            sx={{
+                              textAlign: "justify",
+                              flexGrow: 1, 
+                              minHeight: "80px", 
+                            }}
+                          >
                             {clinic.description}
                           </Typography>
                         </Paper>
@@ -121,7 +146,7 @@ const About = () => {
                             alignItems="center"
                             sx={{ gap: 1 }}
                           >
-                            <CheckCircleIcon
+                            <ArrowForwardIosIcon
                               sx={{
                                 color: "primary.main",
                                 fontSize: 20,
@@ -158,7 +183,7 @@ const About = () => {
                     (cert, index) => (
                       <ListItem key={index} disableGutters>
                         <Box display="flex" alignItems="center" sx={{ gap: 1 }}>
-                          <CheckCircleIcon
+                          <ArrowForwardIosIcon
                             sx={{
                               color: "primary.main",
                               fontSize: 20,

@@ -7,7 +7,7 @@ import {
   Container,
   IconButton,
 } from "@mui/material";
-import { Facebook, Twitter, Instagram, LinkedIn } from "@mui/icons-material";
+import { Facebook, Twitter, Instagram, LinkedIn, YouTube } from "@mui/icons-material";
 import websiteJson from "../public/website.json";
 
 export default function Footer() {
@@ -59,8 +59,8 @@ export default function Footer() {
             ))}
           </Grid>
           <Grid item xs={12} sm={4} md={3}>
-          <Typography variant="h6" gutterBottom>
-          Speciality Clinics
+            <Typography variant="h6" gutterBottom>
+              Speciality Clinics
             </Typography>
             {websiteJson?.services?.map((service) => (
               <Grid item xs={12} sm={6} md={6} key={service.title}>
@@ -84,11 +84,18 @@ export default function Footer() {
             </Typography>
             <Box>
               {websiteJson.footer.socialMedia.links.map((social, index) => (
-                <IconButton key={index} href={social.href} color="inherit">
+                <IconButton
+                  key={index}
+                  href={social.href}
+                  color="inherit"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                >
                   {social.platform === "Facebook" && <Facebook />}
                   {social.platform === "Twitter" && <Twitter />}
                   {social.platform === "Instagram" && <Instagram />}
                   {social.platform === "LinkedIn" && <LinkedIn />}
+                  {social.platform === "youtube" && <YouTube />}
                 </IconButton>
               ))}
             </Box>

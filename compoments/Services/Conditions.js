@@ -6,7 +6,7 @@ import {
   Box,
   ListItemIcon,
 } from "@mui/material";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Grid from "@mui/material/Grid2";
 function Conditions({ conditions }) {
   console.log(conditions);
@@ -25,7 +25,7 @@ function Conditions({ conditions }) {
         {conditions?.conditionsList?.map((condition, index) => (
           <ListItem key={index}  sx={{ padding: "0px" }}>
             <ListItemIcon sx={{minWidth:"30px",color:"primary.main"}}> 
-              <CheckCircleIcon />
+              <ArrowForwardIosIcon />
             </ListItemIcon>
             <ListItemText primary={condition} />
           </ListItem>

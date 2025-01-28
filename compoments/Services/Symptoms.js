@@ -17,7 +17,7 @@ import {
     Breadcrumbs,
    
   } from "@mui/material";
-  import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+  import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Grid from "@mui/material/Grid2";
 function Symptoms({ symptoms }) {
   if (!symptoms) return null;
@@ -41,7 +41,7 @@ function Symptoms({ symptoms }) {
                   <List sx={{ padding: "0px" }}>
                     <ListItem sx={{ padding: "0px" }}>
                       <ListItemIcon sx={{ padding: "0px", minWidth: "30px" }}>
-                        <CheckCircleIcon color="primary" />
+                        <ArrowForwardIosIcon color="primary" />
                       </ListItemIcon>
                       <ListItemText primary={symptom} sx={{ padding: "0px" }} />
                     </ListItem>

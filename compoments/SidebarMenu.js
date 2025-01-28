@@ -68,6 +68,7 @@ const SidebarMenu = ({ service }) => {
             key={subpage?.page}
             sx={{
               backgroundColor: isSubpageActive ? "primary.main" : "transparent",
+           
               "&:hover": {
                 backgroundColor: isSubpageActive
                   ? "primary.main"

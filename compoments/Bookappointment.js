@@ -81,7 +81,7 @@ export default function AppointmentForm() {
                   onChange={(e) => setPhoneNumber(e.target.value)}
                   margin="normal"
                   type="tel"
-                  defaultValue="9876543210"
+               
                   size="small"
                   required
                 />

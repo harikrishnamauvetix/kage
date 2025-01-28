@@ -76,7 +76,7 @@ const Aboutpage = () => {
     <>
       <Header></Header>
       <Breadcrumbsinfo
-        service={"about"}
+        service={"About Us"}
         pagename={about.title}
       ></Breadcrumbsinfo>
 

@@ -1,6 +1,6 @@
 import { List, ListItem, ListItemIcon, Typography, Box, ListItemText } from "@mui/material";
 import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const SubServiceListItems = ({ servicelist }) => (
   <List>
@@ -18,7 +18,7 @@ const SubServiceListItems = ({ servicelist }) => (
       ) : (
         <ListItem key={index} sx={{ padding: "0px" }}>
           <ListItemIcon sx={{ minWidth: "30px", color: "primary.main" }}>
-            <CheckCircleIcon />
+            <ArrowForwardIosIcon />
           </ListItemIcon>
           <ListItemText primary={item} />
         </ListItem>

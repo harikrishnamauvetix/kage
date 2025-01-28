@@ -58,6 +58,7 @@ const Navbar = () => {
     },
     {
       label: "Procedures",
+      href: "/procedures",
       subItems: websiteJson?.procedures?.map((procedure) => ({
         label: procedure.title,
         href: `/procedures/${procedure.title
@@ -65,8 +66,8 @@ const Navbar = () => {
           .toLowerCase()}`,
       })),
     },
-    { label: "Patient Testimonials", href: "testimonials" },
-    { label: "Doctor Videos", href: "doctorvideos" },
+    { label: "Patient Testimonials", href: "/testimonials" },
+    { label: "Doctor Videos", href: "/doctorvideos" },
     // { label: "Health Blogs", href: "blogs" },
     // { label: "News & Events", href: "#" },
     { label: "Contact us", href: "#" },

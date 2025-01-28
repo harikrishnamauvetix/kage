@@ -14,11 +14,7 @@ import {
   Avatar,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
-import PhoneIcon from "@mui/icons-material/Phone";
-import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
-import EmailIcon from "@mui/icons-material/Email";
-import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
+import Image from "next/image";
 import Link from "next/link";
 const ProceduresList = (props) => {
   return (
@@ -67,11 +63,17 @@ const ProceduresList = (props) => {
                   <Box sx={{ color: "primary.main" }}>
                     <Icon
                       sx={{
-                        fontSize: "40px",
+                        fontSize: "60px",
                         color: "#1976d2",
                       }}
                     >
-                      <MedicalServicesIcon />
+                      <Image
+                        src={item.icon}
+                        alt="Doctor Profile"
+                        width={60}
+                        height={60}
+                       
+                      />
                     </Icon>
                   </Box>
                   <Box sx={{ px: 1 }}>
@@ -89,16 +91,26 @@ const ProceduresList = (props) => {
                       </Typography>
                     </Link>
 
-                    {item.sections?.[0]?.content && (
+                    {item.sections?.[0]?.content &&
+                    Array.isArray(item.sections[0].content) ? (
+                      <Typography
+                        key={0}
+                        variant="body1"
+                        sx={{ color: "#000", marginBottom: "10px" }}
+                      >
+                        {item.sections[0].content[0].length > 100
+                          ? `${item.sections[0].content[0].slice(0, 100)}...`
+                          : item.sections[0].content[0]}
+                      </Typography>
+                    ) : (
                       <Typography
                         variant="body1"
                         sx={{ color: "#000", marginBottom: "10px" }}
                       >
-                        {item.sections[0].content.length > 100
-                          ? `${item.sections[0].content.slice(0, 100)}...`
-                          : item.sections[0].content}
+                        {item.sections?.[0]?.content}
                       </Typography>
                     )}
+
                     <Link
                       href={`/procedures/${item.title
                         .replace(/\s+/g, "-")
@@ -109,6 +121,7 @@ const ProceduresList = (props) => {
                         variant="contained"
                         sx={{
                           backgroundColor: "secondary.main",
+                          margin: "10px 0",
                         }}
                       >
                         Read more

@@ -33,7 +33,7 @@ import "swiper/css";
 import Contactinfo from "@/compoments/Home/Contactinfo";
 import SpecialityClinics from "@/compoments/Home/SpecialityClinics";
 import ProceduresList from "@/compoments/Home/ProceduresList";
-import DoctorsList from "@/compoments/Home/DoctorsList";
+import DoctorsList from "@/compoments/Doctors/Doctorslist";
 import DoctorVideos from "@/compoments/Home/DoctorVideos";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 
