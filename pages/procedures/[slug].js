@@ -39,6 +39,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import { Padding } from "@mui/icons-material";
+import PatientVideos from "@/compoments/Home/PatientVideos";
 const Procedures = () => {
   const router = useRouter();
   const { slug } = router.query;
@@ -266,7 +267,10 @@ const Procedures = () => {
             </Container>
           </Box>
         </Box>
+        
       </Box>
+      <PatientVideos  patientvideos={websiteJson?.Patientvideos}/>
+    
       <Footer></Footer>
     </>
   );

@@ -27,7 +27,7 @@ const Testimonials = () => {
   return (
     <>
       <Header></Header>
-   <Breadcrumbsinfo  services={"Testimonials"}/>
+   <Breadcrumbsinfo  pagename={"Testimonials"}/>
       <Container>
         <Grid2
           container

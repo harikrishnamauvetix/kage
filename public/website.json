@@ -1,21 +1,22 @@
 {
   "bannerImage": [
     {
-      "image": "Images/Home/banner1.jpg"
+      "image": "Images/Home/banner1.jpg",
+      "alt": "Banner Image 1"
     },
     {
-      "image": "Images/Home/banner2.jpg"
+      "image": "Images/Home/banner2.jpg",
+      "alt": "Banner Image 2"
     },
     {
-      "image": "Images/Home/banner3.jpg"
+      "image": "Images/Home/banner3.jpg",
+      "alt": "Banner Image 3"
     }
   ],
-  "introImages": [
+  "about_images": [
     {
-      "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_10_1720786743.jpg"
-    },
-    {
-      "image": "https://assets.kimscuddles.com/production/docs/Kims_cuddles_home_page_banners_01_1_1683635455.jpg"
+      "image": "Images/Home/about-us.jpg",
+      "alt": "About Us Image"
     }
   ],
   "home_intro": [
@@ -23,10 +24,10 @@
       "description": "Welcome to KIMS Advanced Gastroenterology & Endoscopy - KAGE – KIMS Advanced Gastreroenterology & Endoscopy Clinic For Hyderabad’s Leading Center for Advanced Gastroenterology and Digestive Care."
     },
     {
-      "description2": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we bring together innovation, expertise, and compassion to address complex gastrointestinal and liver disorders. With specialized clinics and cutting-edge facilities, we are dedicated to redefining healthcare standards in Medical and Surgical Gastroenterology, Advanced Endoscopy, and Hepatology."
+      "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we bring together innovation, expertise, and compassion to address complex gastrointestinal and liver disorders. With specialized clinics and cutting-edge facilities, we are dedicated to redefining healthcare standards in Medical and Surgical Gastroenterology, Advanced Endoscopy, and Hepatology."
     },
     {
-      "description3": "With a state-of-the-art Endoscopy Unit and a dedicated team of specialists, KIMS Advanced Gastroenterology & Endoscopy - KAGE ensures precise diagnostics, minimally invasive therapies, and superior outcomes. Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for advanced care in Gastrointestinal Diseases, Liver Disorders, and beyond."
+      "description": "With a state-of-the-art Endoscopy Unit and a dedicated team of specialists, KIMS Advanced Gastroenterology & Endoscopy - KAGE ensures precise diagnostics, minimally invasive therapies, and superior outcomes. Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for advanced care in Gastrointestinal Diseases, Liver Disorders, and beyond."
     }
   ],
   "about": {
@@ -1098,15 +1099,19 @@
           "heading": "Frequently Asked Questions",
           "faq": [
             {
+              "question": " How long does EMR take?",
               "answer": "EMR usually takes between 30 to 90 minutes, depending on the size and location of the abnormal growth."
             },
             {
+              "question": "Is the procedure painful?",
               "answer": "EMR is typically well-tolerated with minimal discomfort. Patients may feel some soreness in the throat (if the procedure is done through the mouth) or mild abdominal discomfort afterward."
             },
             {
+              "question": "Do I need to stay overnight?",
               "answer": "In most cases, EMR is performed on an outpatient basis, meaning you can go home the same day. Some patients may be advised to stay in the hospital for observation if needed."
             },
             {
+              "question": "What are the risks of EMR?",
               "answer": "While EMR is a safe and effective procedure, there are some risks, including bleeding or perforation (a hole in the wall of the GI tract). However, these complications are rare, and the procedure is closely monitored to minimize risk."
             }
           ]
@@ -2264,22 +2269,26 @@
                 {
                   "step": 1,
                   "title": "Endoscopy (Colonoscopy and Sigmoidoscopy)",
-                  "description": "To visualize and biopsy the intestinal lining."
+                  "description": "To visualize and biopsy the intestinal lining.",
+                  "icon":"/Images/Icons/IBD-Clinic/Endoscopy.png"
                 },
                 {
                   "step": 2,
                   "title": "Imaging Tests",
-                  "description": "CT/MRI enterography for detailed images of the digestive tract."
+                  "description": "CT/MRI enterography for detailed images of the digestive tract.",
+                   "icon":"/Images/Icons/IBD-Clinic/Imaging-Tests.png"
                 },
                 {
                   "step": 3,
                   "title": "Blood Tests",
-                  "description": "To check for inflammation markers and anemia."
+                  "description": "To check for inflammation markers and anemia.",
+                   "icon":"/Images/Icons/IBD-Clinic/Blood-Tests.png"
                 },
                 {
                   "step": 4,
                   "title": "Stool Tests",
-                  "description": "To detect infections or signs of intestinal inflammation."
+                  "description": "To detect infections or signs of intestinal inflammation.",
+                   "icon":"/Images/Icons/IBD-Clinic/Stool-Tests.png"
                 }
               ]
             }
@@ -2290,22 +2299,26 @@
               {
                 "step": 1,
                 "title": "Medication",
-                "description": "Including anti-inflammatory drugs, immune modulators, and biologics."
+                "description": "Including anti-inflammatory drugs, immune modulators, and biologics.",
+                   "icon":"/Images/Icons/IBD-Clinic/Medication.png"
               },
               {
                 "step": 2,
                 "title": "Dietary Guidance",
-                "description": "Personalized nutrition plans to minimize flare-ups and improve gut health."
+                "description": "Personalized nutrition plans to minimize flare-ups and improve gut health.",
+                 "icon":"/Images/Icons/IBD-Clinic/Dietary-Guidance.png"
               },
               {
                 "step": 3,
                 "title": "Surgery",
-                "description": "Performed in advanced cases, focusing on removing affected portions or repairing damage."
+                "description": "Performed in advanced cases, focusing on removing affected portions or repairing damage.",
+                 "icon":"/Images/Icons/IBD-Clinic/Surgery.png"
               },
               {
                 "step": 4,
                 "title": "Psychological Support",
-                "description": "Addressing the emotional challenges of living with a chronic illness."
+                "description": "Addressing the emotional challenges of living with a chronic illness.",
+                 "icon":"/Images/Icons/IBD-Clinic/Psychological-Support.png"
               }
             ]
           },
@@ -4234,7 +4247,7 @@
       "title": "Corrosive Injury Clinic",
       "description": "Clinic for treatment of corrosive injuries",
       "icon": "/Images/Icons/Corrosive-Injury-Clinic.png",
-      "page": "corrosive_injury_clinic",
+      "page": "Corrosive Injury Clinic",
       "content": {
         "heading": "Corrosive Injury Clinic",
         "sub_heading": "KIMS Advanced Gastroenterology & Endoscopy - KAGE Hospitals | Hyderabad",
@@ -7089,5 +7102,16 @@
     "footerBottom": {
       "text": "© 2025 KAGE. All rights reserved."
     }
+  },
+  "hospitalInfo": {
+    "companylogo": "/Images/Home/KAGE-logo.png",
+    "emailid": "appointments.kage@gmail.com",
+    "phoneNumber": "7288842255",
+    "address": "C/O Gastroenterology department, KIM's Hospital , 1-8-31/1, Minister Road Krishna Nagar Colony, Ramgopalpet, Begumpet, Secunderabad, Hyderabad, Telangana 500003",
+    "map": {
+      "iframelink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15047.476207008736!2d78.46386398715822!3d17.436907700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9be10c4c5013%3A0x5581bd5a2711edb!2sKAGE!5e1!3m2!1sen!2sin!4v1738058832256!5m2!1sen!2sin"
+     
+    }
   }
+
 }

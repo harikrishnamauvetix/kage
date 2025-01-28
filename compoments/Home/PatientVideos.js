@@ -59,7 +59,7 @@ const PatientVideos = (props) => {
                       </div>
                       <CardContent
                         sx={{
-                          height: "200px", // Ensures equal height for all cards
+                          height: "220px", // Ensures equal height for all cards
                         }}
                       >
                         <Typography variant="h6">{video.title}</Typography>

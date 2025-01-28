@@ -37,13 +37,13 @@ import ProceduresList from "@/compoments/Home/ProceduresList";
 import DoctorVideos from "@/compoments/Home/DoctorVideos";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import DoctorsLists from "../compoments/Doctors/DoctorsLists";
-
+import AboutSection from "@/compoments/Home/AboutSection";
 
 const Home = () => {
   return (
-    <div>
+    <Box>
       <Header></Header>
-      <div>
+      <Box>
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, A11y]}
@@ -57,136 +57,23 @@ const Home = () => {
         >
           {websiteJson.bannerImage.map((slide, index) => (
             <SwiperSlide key={index}>
-              <img src={slide.image} alt={`Slide ${index + 1}`} />
+              <img src={slide.image} alt={slide.alt} width={"100%"} />
             </SwiperSlide>
           ))}
         </Swiper>
-        <Stack>
-          <Box
-            sx={{
-              display: "flex",
-              flexDirection: { xs: "column", md: "row" }, // Column layout for small screens, row for larger screens
-              alignItems: "center",
-              justifyContent: "space-between",
-              background: "#fff",
-              padding: 4,
-              borderRadius: 2,
-              gap: 4,
-            }}
-          >
-            {/* Left Section (Images) */}
-            <Box
-              sx={{
-                flexBasis: { xs: "100%", md: "50%" }, // Full width on small screens, 50% on medium and larger
-                display: "grid",
-                gridTemplateColumns: { xs: "1fr", md: "repeat(2, 1fr)" }, // Single column on small screens, two columns on larger
-                gap: 2,
-              }}
-            >
-              {websiteJson.introImages.map((slide, index) => (
-                <Box
-                  key={index}
-                  component="img"
-                  src={slide.image} // Dynamically use the image source from the `slide` object
-                  alt={slide.alt || `Slide ${index + 1}`} // Provide a fallback for the alt text
-                  sx={{
-                    width: "100%",
-                    borderRadius: "20px",
-                    objectFit: "cover",
-                  }}
-                />
-              ))}
-            </Box>
-
-            {/* Right Section (Content) */}
-            <Box
-              sx={{
-                flexBasis: { xs: "100%", md: "50%" }, // Full width on small screens, 50% on medium and larger
-                textAlign: { xs: "center", md: "left" }, // Centered text on small screens
-              }}
-            >
-              <Typography
-                variant="h4"
-                sx={{
-                  fontWeight: "bold",
-                  color: "secondary.main",
-                  mb: 2,
-                  position: "relative",
-                  // "&::after": {
-                  //   content: '""',
-                  //   display: "block",
-                  //   width: "50px",
-                  //   height: "2px",
-                  //   backgroundColor: "#9C27B0",
-                  //   marginTop: "8px",
-                  // },
-                }}
-              >
-                About Us
-              </Typography>
-              <Typography
-                variant="h4"
-                sx={{ fontWeight: "bold", color: "secondary.main" }}
-              ></Typography>
-              <Typography
-                sx={{
-                  color: "#000",
-                  margin: "16px 0",
-                }}
-              >
-                {/* {console.log(websiteJson.home_intro)} */}
-                {websiteJson.home_intro[0].description}
-              </Typography>
-              <Typography
-                sx={{
-                  color: "#000",
-                  margin: "16px 0",
-                }}
-              >
-                {/* {console.log(websiteJson.home_intro)} */}
-                {websiteJson.home_intro[1].description2}
-              </Typography>
-              <Typography
-                sx={{
-                  color: "#000",
-                  margin: "16px 0",
-                }}
-              >
-                {/* {console.log(websiteJson.home_intro)} */}
-                {websiteJson.home_intro[2].description3}
-              </Typography>
-              <Link href="/about" passHref>
-                <Button
-                  variant="contained"
-                  color="primary.main"
-                  sx={{
-                    textTransform: "none",
-                    backgroundColor: "#fff",
-                    color: "primary.main",
-                    "&:hover": {
-                      backgroundColor: "primary.main",
-                      color: "#fff",
-                    },
-                  }}
-                >
-                  Read More ➔
-                </Button>
-              </Link>
-            </Box>
-          </Box>
-        </Stack>
+        <AboutSection homeabout={websiteJson} />
 
         <SpecialityClinics specialityclinics={websiteJson.services} />
 
-      <DoctorsLists doctorsList={websiteJson.doctorsList}></DoctorsLists>
+        <DoctorsLists doctorsList={websiteJson.doctorsList}></DoctorsLists>
         <ProceduresList procedures={websiteJson.procedures}></ProceduresList>
         <PatientVideos patientvideos={websiteJson.Patientvideos} />
         <DoctorVideos doctorvideos={websiteJson.doctorvideos} />
-      </div>
+      </Box>
       <Contactinfo />
-      <AppointmentForm></AppointmentForm>
+      {/* <AppointmentForm></AppointmentForm> */}
       <Footer></Footer>
-    </div>
+    </Box>
   );
 };
 

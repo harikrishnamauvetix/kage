@@ -70,7 +70,7 @@ const Navbar = () => {
     { label: "Doctor Videos", href: "/doctorvideos" },
     // { label: "Health Blogs", href: "blogs" },
     // { label: "News & Events", href: "#" },
-    { label: "Contact us", href: "#" },
+    { label: "Contact us", href: "/contact" },
   ];
 
   return (
@@ -96,8 +96,7 @@ const Navbar = () => {
             alignItems: "center",
           }}
         >
-          <PhoneIcon sx={{ color: "#fff", marginRight: "5px" }} /> Call 040 4488
-          5333 To Book An Appointment
+          <PhoneIcon sx={{ color: "#fff", marginRight: "5px" }} /> Call {websiteJson.hospitalInfo?.phoneNumber} To Book An Appointment
         </Typography>
       </Box>
       <Box sx={{ backgroundColor: "white", boxShadow: "none" }}>
@@ -107,7 +106,7 @@ const Navbar = () => {
             <Link href="/home" passHref>
               <Box
                 component="img"
-                src="https://kage.co.in/assets/img/KAGE.jpg"
+                src={websiteJson.hospitalInfo?.companylogo}
                 alt="Logo"
                 sx={{ height: 100 }}
               />
@@ -121,13 +120,13 @@ const Navbar = () => {
             <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
               <MailIcon sx={{ color: "primary.main" }} aria-label="Email Icon" />
               <Typography variant="body2" sx={{ color: "text.primary" }}>
-                appointments.kage@gmail.com
+              {websiteJson.hospitalInfo?.emailid}
               </Typography>
             </Box>
             <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
               <PhoneIcon sx={{ color: "primary.main" }} aria-label="Phone Icon" />
               <Typography variant="body2" sx={{ color: "text.primary" }}>
-                Call: 7288842255
+                Call: {websiteJson.hospitalInfo?.phoneNumber}
               </Typography>
             </Box>
           </Box>

@@ -31,15 +31,16 @@ import SidebarMenu from "@/compoments/SidebarMenu";
 import SpecialityClinics from "@/compoments/Home/SpecialityClinics";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import ProceduresList from "@/compoments/Home/ProceduresList";
+import PatientVideos from "@/compoments/Home/PatientVideos";
 
 export default function specialityList() {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo service={websiteJson.services.page} />
+      <Breadcrumbsinfo pagename={"Procedures"} />
 
       <ProceduresList procedures={websiteJson.procedures}></ProceduresList>
-
+      <PatientVideos  patientvideos={websiteJson?.Patientvideos}/>
       <Footer></Footer>
     </>
   );

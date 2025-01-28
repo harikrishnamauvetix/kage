@@ -32,6 +32,7 @@ import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import Treatment from "@/compoments/SubService/Treatment";
 import WhyToChoose from "@/compoments/SubService/WhyToChoose";
 import SubServiceListItems from "@/compoments/SubService/SubServiceListItems";
+import PatientVideos from "@/compoments/Home/PatientVideos";
 
 export default function SubServicePage() {
   const router = useRouter();
@@ -272,6 +273,7 @@ export default function SubServicePage() {
         
         </Box>
         <WhyToChoose whytochoose={subService?.sections?.Why_to_choose} />
+        <PatientVideos  patientvideos={websiteJson?.Patientvideos}/>
       </Container>
 
       <Footer></Footer>

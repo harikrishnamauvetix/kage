@@ -9,10 +9,13 @@ import {
 } from "@mui/material";
 import { Facebook, Twitter, Instagram, LinkedIn, YouTube } from "@mui/icons-material";
 import websiteJson from "../public/website.json";
+import AppointmentForm from "./Bookappointment";
 
 export default function Footer() {
   return (
-    <Box
+    <>
+      <AppointmentForm/>
+      <Box
       sx={{
         backgroundColor: "primary.main",
         color: "white",
@@ -110,5 +113,7 @@ export default function Footer() {
         </Box>
       </Container>
     </Box>
+    </>
+  
   );
 }

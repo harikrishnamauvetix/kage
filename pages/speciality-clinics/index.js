@@ -35,7 +35,7 @@ export default function specialityList() {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo service={websiteJson.services.page}  />
+      <Breadcrumbsinfo pagename={"Speciality Clinics"}  />
 
       <SpecialityClinics specialityclinics={websiteJson.services} />
 

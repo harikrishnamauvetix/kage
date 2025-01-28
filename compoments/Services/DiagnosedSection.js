@@ -1,6 +1,5 @@
 import React from "react";
 import {
-
   Typography,
   List,
   ListItem,
@@ -17,7 +16,10 @@ function DiagnosedSection({ diagnosed }) {
   return (
     <Grid item xs={12} md={12}>
       {/* Diagnosed Heading */}
-      <Typography variant="h5" sx={{ margin: "10px 0", color: "secondary.main" }}>
+      <Typography
+        variant="h5"
+        sx={{ margin: "10px 0", color: "secondary.main" }}
+      >
         {diagnosed.heading}
       </Typography>
 
@@ -43,7 +45,20 @@ function DiagnosedSection({ diagnosed }) {
                 <List>
                   <ListItem>
                     <ListItemIcon>
-                      <MedicalServicesIcon />
+                      {step?.icon ? (
+                        <img
+                          src={step.icon}
+                          alt="Hospital Icon"
+                          width="40"
+                          height="40"
+                          style={{
+                            borderRadius: "50%",
+                            objectFit: "contain",
+                          }}
+                        />
+                      ) : (
+                        <MedicalServicesIcon fontSize="large" color="primary" />
+                      )}
                     </ListItemIcon>
                     <ListItemText
                       primary={step.title}

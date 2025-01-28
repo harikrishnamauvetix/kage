@@ -21,6 +21,7 @@ import DiagnosedSection from "@/compoments/Services/DiagnosedSection";
 import WhyChooseSection from "@/compoments/Services/WhyChooseUs";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import ServicesDetails from "@/compoments/Services/ServicesDetails";
+import PatientVideos from "@/compoments/Home/PatientVideos";
 
 export default function ServicePage() {
   const router = useRouter();
@@ -170,7 +171,7 @@ export default function ServicePage() {
 
         <WhyChooseSection whyChoose={content?.overview?.why_choose} />
         <TakeChargeSection takeCharge={content?.overview?.take_charge} />
-
+        <PatientVideos  patientvideos={websiteJson?.Patientvideos}/>
         {/* <Faqstabcompoment Faqstabcompoment={content?.overview?.faqs}/> */}
       </Container>
 
