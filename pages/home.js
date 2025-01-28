@@ -36,7 +36,7 @@ import ProceduresList from "@/compoments/Home/ProceduresList";
 
 import DoctorVideos from "@/compoments/Home/DoctorVideos";
 import PatientVideos from "@/compoments/Home/PatientVideos";
-import DoctorsList from "@/components/Doctors/DoctorsList";
+import DoctorsList from "@/components/Doctors/DoctorsLists";
 
 
 const Home = () => {
