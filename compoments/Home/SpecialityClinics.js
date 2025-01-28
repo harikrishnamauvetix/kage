@@ -13,6 +13,7 @@ import {
   Rating,
   Avatar,
 } from "@mui/material";
+import Image from "next/image";
 import Link from "next/link";
 import Grid from "@mui/material/Grid2";
 import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
@@ -54,12 +55,18 @@ const SpecialityClinics = (props) => {
                       <CardContent sx={{ padding: "0px" }}>
                         <Icon
                           sx={{
-                            fontSize: "40px",
+                            fontSize: "60px",
                             color: "#1976d2",
                             marginBottom: 2,
                           }}
                         >
-                          <MedicalServicesIcon />
+                          <Image
+                        src={service.icon}
+                        alt="Doctor Profile"
+                        width={60}
+                        height={60}
+                       
+                      />
                         </Icon>
                         <Link
                           href={`/speciality-clinics/${service.title

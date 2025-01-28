@@ -4,12 +4,11 @@
       "image": "Images/Home/banner1.jpg"
     },
     {
-     "image": "Images/Home/banner2.jpg"
+      "image": "Images/Home/banner2.jpg"
     },
     {
-     "image": "Images/Home/banner3.jpg"
+      "image": "Images/Home/banner3.jpg"
     }
-  
   ],
   "introImages": [
     {
@@ -929,7 +928,6 @@
   ],
   "procedures": [
     {
-  
       "icon": "/Images/Icons/POEM.png",
       "title": "POEM (Peroral Endoscopic Myotomy)",
       "subtitle": "Revolutionizing Treatment for Achalasia with Precision and Care",
@@ -1217,7 +1215,6 @@
       "title": "STER (Submucosal Tunneling Endoscopic Resection)",
       "description": "Stay ahead with features that set new standards, addressing your evolving needs better than the rest.",
       "sections": [
-      
         {
           "heading": "What is STER?",
           "content": [
@@ -1294,7 +1291,6 @@
       "title": "ARMA (Anti-reflux Mucosal Ablation)",
       "description": "A cutting-edge solution for reflux management with long-term relief.",
       "sections": [
-       
         {
           "heading": "What is ARMA?",
           "content": [
@@ -1371,7 +1367,6 @@
       "title": "GERDx (Anti-Reflux Mucosal Ablation Therapy)",
       "description": "Effective anti-reflux therapy designed to provide relief and improve patient outcomes.",
       "sections": [
-       
         {
           "heading": "What is GERDx?",
           "content": [
@@ -1448,7 +1443,6 @@
       "title": "FTRD (Full-Thickness Resection Device)",
       "description": "Innovative technology for precise tissue resection and minimal complications.",
       "sections": [
-       
         {
           "heading": "What is FTRD?",
           "content": [
@@ -1529,7 +1523,6 @@
       "title": "EUS- Biliary Drainage",
       "description": "Advanced procedure for biliary drainage using Endoscopic Ultrasound.",
       "sections": [
-       
         {
           "heading": "What is EUS Biliary Drainage?",
           "content": [
@@ -1614,7 +1607,6 @@
       "title": "EUS- GJ (Gastrojejunostomy)",
       "description": "A minimally invasive approach to treating obstructed gastric bypasses.",
       "sections": [
-       
         {
           "heading": "What is EUS-GJ?",
           "content": [
@@ -1699,7 +1691,6 @@
       "title": "EUS- RF Ablation",
       "description": "Revolutionary treatment option using radiofrequency for enhanced therapeutic results.",
       "sections": [
-       
         {
           "heading": "What is EUS-RF Ablation?",
           "content": [
@@ -1784,7 +1775,6 @@
       "title": "EUS Cystogastrostomy",
       "description": "Endoscopic ultrasound-assisted technique for drainage of pancreatic cysts.",
       "sections": [
-      
         {
           "heading": "What is EUS Cystogastrostomy?",
           "content": [
@@ -1869,7 +1859,6 @@
       "title": "Endoscopic Necrosectomy",
       "description": "Minimally invasive procedure for managing pancreatic necrosis.",
       "sections": [
-      
         {
           "heading": "What is Endoscopic Necrosectomy?",
           "content": [
@@ -1959,7 +1948,6 @@
       "title": "ERCP- Endoscopic Retrograde Cholangiopancreatography",
       "description": "A diagnostic and therapeutic procedure to treat biliary and pancreatic disorders.",
       "sections": [
-      
         {
           "heading": "What is ERCP?",
           "content": [
@@ -2048,7 +2036,6 @@
       "title": "Bariatric Endoscopy- ESG (Endoscopic Sleeve Gastrectomy)",
       "description": "A minimally invasive bariatric procedure for weight loss.",
       "sections": [
-       
         {
           "heading": "What is Endoscopic Sleeve Gastroplasty (ESG)?",
           "content": [
@@ -2236,7 +2223,7 @@
       "id": 1,
       "title": "IBD Clinic",
       "description": "Clinic for Inflammatory Bowel Disease",
-      "icon": "clinic",
+      "icon": "/Images/Icons/IBD-Clinic.png",
       "page": "IBD Clinic",
       "content": {
         "title": "IBD Clinic",
@@ -2604,7 +2591,7 @@
       "id": 2,
       "title": "Pancreas Clinic",
       "description": "Clinic for Pancreatic disorders In Hyderabad / Secunderabad",
-      "icon": "local_hospital",
+      "icon": "/Images/Icons/Pancreas-Clinic.png",
       "page": "Pancreas Clinic",
       "content": {
         "heading": "Pancreas Clinic at KIMS Advanced Gastroenterology & Endoscopy - KAGE – Your Partner in Pancreatic Health In Hyderabad / Secunderabad",
@@ -3773,7 +3760,7 @@
       "id": 3,
       "title": "Obesity Clinic",
       "description": "Clinic for Obesity and related health issues ",
-      "icon": "fitness_center",
+      "icon": "/Images/Icons/Obesity-Clinic.png",
       "page": "Obesity Clinic",
       "content": {
         "heading": "Advanced Liver Care and Transplant Clinic",
@@ -4246,7 +4233,7 @@
       "id": 4,
       "title": "Corrosive Injury Clinic",
       "description": "Clinic for treatment of corrosive injuries",
-      "icon": "healing",
+      "icon": "/Images/Icons/Corrosive-Injury-Clinic.png",
       "page": "corrosive_injury_clinic",
       "content": {
         "heading": "Corrosive Injury Clinic",
@@ -4437,7 +4424,7 @@
       "id": 5,
       "title": "Advanced Endoscopy Clinic",
       "description": "Clinic for Advanced Endoscopy and related diagnostic and therapeutic services.",
-      "icon": "procedure",
+      "icon": "/Images/Icons/Advacned-Endoscopy-Clinic.png",
       "page": "Advanced Endoscopy Clinic",
       "content": {
         "heading": "Advanced Endoscopy Clinic",
@@ -4765,7 +4752,7 @@
       "id": 6,
       "title": "Advanced Motility Clinic",
       "description": "Diagnosing and Treating Digestive Motion Disorders",
-      "icon": "motion_photos",
+      "icon": "/Images/Icons/Advanced-Motility-Clinic.png",
       "page": "Advanced Motility Clinic",
       "content": {
         "heading": "Advanced Motility Clinic",
@@ -5412,7 +5399,7 @@
       "id": 7,
       "title": "Advanced Liver Care and Transplant Clinic",
       "description": "Comprehensive Hepatology and Transplant Services",
-      "icon": "liver",
+      "icon": "/Images/Icons/Advacned-Liver-Care-and-Transplant-Clinic.png",
       "page": "Advanced Liver Care and Transplant Clinic",
       "content": {
         "heading": "Advanced Liver Care and Transplant Clinic",
@@ -7085,7 +7072,6 @@
           "platform": "Facebook",
           "href": "https://www.facebook.com"
         },
-    
         {
           "platform": "Instagram",
           "href": "https://www.instagram.com/kagekims"
@@ -7095,10 +7081,9 @@
           "href": "https://www.linkedin.com"
         },
         {
-          "platform":"youtube",
-          "href":"https://www.youtube.com/@KIMS-KAGE"
+          "platform": "youtube",
+          "href": "https://www.youtube.com/@KIMS-KAGE"
         }
-
       ]
     },
     "footerBottom": {
