@@ -24,8 +24,23 @@ const CausesAndRisk = ({ causesAndRisk = {} }) => {
         {list?.map((item, index) => (
           <List disablePadding>
             <ListItem disableGutters>
-              <ListItemIcon sx={{ minWidth: "30px" }}>
-                <HealthAndSafetyIcon />
+              <ListItemIcon sx={{ minWidth: "30px",marginRight:"10px" }}>
+              {item?.icon ? (
+                    <img
+                      src={item.icon}
+                      alt="Hospital Icon"
+                      width="40"
+                      height="40"
+                      style={{
+                        borderRadius: "50%",
+                        objectFit: "contain",
+                      }}
+                    />
+                  ) : (
+                    <HealthAndSafetyIcon />
+                  )}
+          
+                
               </ListItemIcon>
               <ListItemText
                 primary={item.heading}

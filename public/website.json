@@ -2270,25 +2270,25 @@
                   "step": 1,
                   "title": "Endoscopy (Colonoscopy and Sigmoidoscopy)",
                   "description": "To visualize and biopsy the intestinal lining.",
-                  "icon":"/Images/Icons/IBD-Clinic/Endoscopy.png"
+                  "icon": "/Images/Icons/Endoscopy.png"
                 },
                 {
                   "step": 2,
                   "title": "Imaging Tests",
                   "description": "CT/MRI enterography for detailed images of the digestive tract.",
-                   "icon":"/Images/Icons/IBD-Clinic/Imaging-Tests.png"
+                  "icon": "/Images/Icons/Imaging-Tests.png"
                 },
                 {
                   "step": 3,
                   "title": "Blood Tests",
                   "description": "To check for inflammation markers and anemia.",
-                   "icon":"/Images/Icons/IBD-Clinic/Blood-Tests.png"
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 },
                 {
                   "step": 4,
                   "title": "Stool Tests",
                   "description": "To detect infections or signs of intestinal inflammation.",
-                   "icon":"/Images/Icons/IBD-Clinic/Stool-Tests.png"
+                  "icon": "/Images/Icons/Stool-Tests.png"
                 }
               ]
             }
@@ -2300,25 +2300,25 @@
                 "step": 1,
                 "title": "Medication",
                 "description": "Including anti-inflammatory drugs, immune modulators, and biologics.",
-                   "icon":"/Images/Icons/IBD-Clinic/Medication.png"
+                "icon": "/Images/Icons/Medication.png"
               },
               {
                 "step": 2,
                 "title": "Dietary Guidance",
                 "description": "Personalized nutrition plans to minimize flare-ups and improve gut health.",
-                 "icon":"/Images/Icons/IBD-Clinic/Dietary-Guidance.png"
+                "icon": "/Images/Icons/Dietary-Guidance.png"
               },
               {
                 "step": 3,
                 "title": "Surgery",
                 "description": "Performed in advanced cases, focusing on removing affected portions or repairing damage.",
-                 "icon":"/Images/Icons/IBD-Clinic/Surgery.png"
+                "icon": "/Images/Icons/Surgery.png"
               },
               {
                 "step": 4,
                 "title": "Psychological Support",
                 "description": "Addressing the emotional challenges of living with a chronic illness.",
-                 "icon":"/Images/Icons/IBD-Clinic/Psychological-Support.png"
+                "icon": "/Images/Icons/Psychological-Support.png"
               }
             ]
           },
@@ -2368,23 +2368,28 @@
               "list": [
                 {
                   "heading": "Persistent diarrhea",
-                  "description": "Frequent, loose, and watery stools that can disrupt daily life."
+                  "description": "Frequent, loose, and watery stools that can disrupt daily life.",
+                  "icon": "/Images/Icons/Lifestyle.png"
                 },
                 {
                   "heading": "Abdominal pain and cramping",
-                  "description": "Pain and discomfort caused by inflammation in the digestive tract."
+                  "description": "Pain and discomfort caused by inflammation in the digestive tract.",
+                  "icon": "/Images/Icons/Abdominal-pain.png"
                 },
                 {
                   "heading": "Weight loss and malnutrition",
-                  "description": "Inadequate nutrient absorption leading to unintentional weight loss."
+                  "description": "Inadequate nutrient absorption leading to unintentional weight loss.",
+                  "icon": "/Images/Icons/Weight-loss.png"
                 },
                 {
                   "heading": "Fatigue and fever",
-                  "description": "Ongoing tiredness and occasional fever due to inflammation."
+                  "description": "Ongoing tiredness and occasional fever due to inflammation.",
+                  "icon": "/Images/Icons/fever.png"
                 },
                 {
                   "heading": "Blood in stool",
-                  "description": "Presence of blood in bowel movements, indicating intestinal inflammation."
+                  "description": "Presence of blood in bowel movements, indicating intestinal inflammation.",
+                  "icon": "/Images/Icons/Blood-in-stool.png"
                 }
               ]
             },
@@ -2393,15 +2398,18 @@
               "list": [
                 {
                   "heading": "Immune System Dysfunction",
-                  "description": "The immune system attacks the body’s own cells in response to triggers."
+                  "description": "The immune system attacks the body’s own cells in response to triggers.",
+                  "icon": "/Images/Icons/Immune-System.png"
                 },
                 {
                   "heading": "Genetics",
-                  "description": "A family history of IBD increases susceptibility to Crohn’s Disease."
+                  "description": "A family history of IBD increases susceptibility to Crohn’s Disease.",
+                  "icon": "/Images/Icons/Genetics.png"
                 },
                 {
                   "heading": "Environmental Triggers",
-                  "description": "Factors like smoking, diet, and stress can exacerbate symptoms."
+                  "description": "Factors like smoking, diet, and stress can exacerbate symptoms.",
+                  "icon": "/Images/Icons/Environmental-Triggers.png"
                 }
               ]
             },
@@ -2410,19 +2418,23 @@
               "list": [
                 {
                   "heading": "Bowel Obstruction",
-                  "description": "Thickening of intestinal walls due to chronic inflammation, leading to blockage."
+                  "description": "Thickening of intestinal walls due to chronic inflammation, leading to blockage.",
+                  "icon": "/Images/Icons/Bowel.png"
                 },
                 {
                   "heading": "Fistulas",
-                  "description": "Abnormal connections between the bowel and other organs, causing infections or leakage."
+                  "description": "Abnormal connections between the bowel and other organs, causing infections or leakage.",
+                  "icon": "/Images/Icons/Fistula.png"
                 },
                 {
                   "heading": "Nutritional Deficiencies",
-                  "description": "Malabsorption of essential nutrients leading to anemia and other issues."
+                  "description": "Malabsorption of essential nutrients leading to anemia and other issues.",
+                  "icon": "/Images/Icons/Nutritional-Deficiencies.png"
                 },
                 {
                   "heading": "Colon Cancer",
-                  "description": "Increased risk of developing colon cancer in long-term cases of Crohn’s Disease."
+                  "description": "Increased risk of developing colon cancer in long-term cases of Crohn’s Disease.",
+                  "icon": "/Images/Icons/Colon.png"
                 }
               ]
             },
@@ -2435,15 +2447,18 @@
               "list": [
                 {
                   "heading": "Medications",
-                  "description": "Includes corticosteroids, immunomodulators, and biologics like anti-TNF agents to control inflammation."
+                  "description": "Includes corticosteroids, immunomodulators, and biologics like anti-TNF agents to control inflammation.",
+                  "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Lifestyle Modifications",
-                  "description": "Stress management and dietary adjustments to help reduce symptoms."
+                  "description": "Stress management and dietary adjustments to help reduce symptoms.",
+                  "icon": "/Images/Icons/Lifestyle.png"
                 },
                 {
                   "heading": "Surgery",
-                  "description": "Surgical intervention may be required for complications like bowel obstructions or fistulas."
+                  "description": "Surgical intervention may be required for complications like bowel obstructions or fistulas.",
+                  "icon": "/Images/Icons/Surgery.png"
                 }
               ]
             },
@@ -2483,23 +2498,28 @@
               "list": [
                 {
                   "heading": "Diarrhea, often with blood or pus",
-                  "description": "Frequent, loose stools that may contain blood or pus."
+                  "description": "Frequent, loose stools that may contain blood or pus.",
+                  "icon": "/Images/Icons/diarrhea.png"
                 },
                 {
                   "heading": "Urgency to defecate",
-                  "description": "A sudden, strong need to pass stool."
+                  "description": "A sudden, strong need to pass stool.",
+                  "icon": "/Images/Icons/Urgency-to-defecate.png"
                 },
                 {
                   "heading": "Abdominal discomfort or cramps",
-                  "description": "Pain or cramping in the abdomen caused by inflammation."
+                  "description": "Pain or cramping in the abdomen caused by inflammation.",
+                  "icon": "/Images/Icons/Abdominal-pain.png"
                 },
                 {
                   "heading": "Weight loss and fatigue",
-                  "description": "Unintended weight loss and persistent tiredness due to malabsorption."
+                  "description": "Unintended weight loss and persistent tiredness due to malabsorption.",
+                  "icon": "/Images/Icons/Weight-loss.png"
                 },
                 {
                   "heading": "Rectal pain or bleeding",
-                  "description": "Pain in the rectum or bleeding during bowel movements."
+                  "description": "Pain in the rectum or bleeding during bowel movements.",
+                  "icon": "/Images/Icons/Rectal-pain.png"
                 }
               ]
             },
@@ -2508,15 +2528,18 @@
               "list": [
                 {
                   "heading": "Immune System",
-                  "description": "Overreaction of the immune system to gut bacteria, leading to inflammation."
+                  "description": "Overreaction of the immune system to gut bacteria, leading to inflammation.",
+                  "icon": "/Images/Icons/Immune-System.png"
                 },
                 {
                   "heading": "Genetics",
-                  "description": "A strong familial link has been identified, increasing susceptibility."
+                  "description": "A strong familial link has been identified, increasing susceptibility.",
+                  "icon": "/Images/Icons/Genetics.png"
                 },
                 {
                   "heading": "Environmental Factors",
-                  "description": "Diet and lifestyle, including a high-fat diet, may trigger or exacerbate symptoms."
+                  "description": "Diet and lifestyle, including a high-fat diet, may trigger or exacerbate symptoms.",
+                  "icon": "/Images/Icons/Surgery.png"
                 }
               ]
             },
@@ -2525,19 +2548,23 @@
               "list": [
                 {
                   "heading": "Severe Bleeding",
-                  "description": "Chronic ulcers may result in significant blood loss."
+                  "description": "Chronic ulcers may result in significant blood loss.",
+                  "icon": "/Images/Icons/Severe-Bleeding.png"
                 },
                 {
                   "heading": "Toxic Megacolon",
-                  "description": "A life-threatening condition where the colon becomes severely dilated."
+                  "description": "A life-threatening condition where the colon becomes severely dilated.",
+                  "icon": "/Images/Icons/Toxic-Megacolon.png"
                 },
                 {
                   "heading": "Colon Cancer",
-                  "description": "Long-standing UC increases the risk of developing colon cancer."
+                  "description": "Long-standing UC increases the risk of developing colon cancer.",
+                  "icon": "/Images/Icons/Colon-Cancer.png"
                 },
                 {
                   "heading": "Dehydration and Malnutrition",
-                  "description": "Persistent diarrhea can lead to dehydration and nutrient deficiencies."
+                  "description": "Persistent diarrhea can lead to dehydration and nutrient deficiencies.",
+                  "icon": "/Images/Icons/Dehydration.png"
                 }
               ]
             },
@@ -2546,15 +2573,18 @@
               "list": [
                 {
                   "heading": "Colonoscopy",
-                  "description": "A procedure to visualize the extent of inflammation and ulcers in the colon."
+                  "description": "A procedure to visualize the extent of inflammation and ulcers in the colon.",
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 },
                 {
                   "heading": "Biopsy",
-                  "description": "Tissue samples are taken during colonoscopy for histopathological examination."
+                  "description": "Tissue samples are taken during colonoscopy for histopathological examination.",
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 },
                 {
                   "heading": "Imaging (CT/MRI) and blood tests",
-                  "description": "Used to assess inflammation and rule out other conditions."
+                  "description": "Used to assess inflammation and rule out other conditions.",
+                  "icon": "/Images/Icons/Imaging-Tests.png"
                 }
               ]
             },
@@ -2563,15 +2593,18 @@
               "list": [
                 {
                   "heading": "Medications",
-                  "description": "Includes aminosalicylates, corticosteroids, and biologics to control inflammation."
+                  "description": "Includes aminosalicylates, corticosteroids, and biologics to control inflammation.",
+                  "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Nutritional Support",
-                  "description": "Personalized diets to help manage symptoms and prevent malnutrition."
+                  "description": "Personalized diets to help manage symptoms and prevent malnutrition.",
+                  "icon": "/Images/Icons/Nutritional-Deficiencies.png"
                 },
                 {
                   "heading": "Surgery",
-                  "description": "Colectomy (removal of the colon) may be necessary for severe, refractory cases."
+                  "description": "Colectomy (removal of the colon) may be necessary for severe, refractory cases.",
+                  "icon": "/Images/Icons/Surgery.png"
                 }
               ]
             },
@@ -2683,12 +2716,14 @@
                   {
                     "step": 1,
                     "title": "Medications",
-                    "description": "Pain relievers, enzyme supplements, and advanced biologics."
+                    "description": "Pain relievers, enzyme supplements, and advanced biologics.",
+                    "icon": "/Images/Icons/Medication.png"
                   },
                   {
                     "step": 2,
                     "title": "Lifestyle Modifications",
-                    "description": "Diet plans crafted by expert nutritionists to ease symptoms and improve digestion."
+                    "description": "Diet plans crafted by expert nutritionists to ease symptoms and improve digestion.",
+                    "icon": "/Images/Icons/Medic"
                   }
                 ]
               },
@@ -2788,19 +2823,23 @@
                   "list": [
                     {
                       "heading": "Severe abdominal pain that may radiate to the back",
-                      "description": "Intense abdominal pain that can extend to the back."
+                      "description": "Intense abdominal pain that can extend to the back.",
+                      "icon": "/Images/Icons/abdomen.png"
                     },
                     {
                       "heading": "Nausea and vomiting",
-                      "description": "Frequent nausea and vomiting due to inflammation."
+                      "description": "Frequent nausea and vomiting due to inflammation.",
+                      "icon": "/Images/Icons/vomiting.png"
                     },
                     {
                       "heading": "Fever",
-                      "description": "A rise in body temperature as part of the inflammatory response."
+                      "description": "A rise in body temperature as part of the inflammatory response.",
+                      "icon": "/Images/Icons/fever.png"
                     },
                     {
                       "heading": "Swollen or tender abdomen",
-                      "description": "Distention or tenderness in the abdomen due to inflammation."
+                      "description": "Distention or tenderness in the abdomen due to inflammation.",
+                      "icon": "/Images/Icons/abdomen.png"
                     }
                   ]
                 },
@@ -2809,19 +2848,23 @@
                   "list": [
                     {
                       "heading": "Gallstones",
-                      "description": "The most common cause in India, particularly in women."
+                      "description": "The most common cause in India, particularly in women.",
+                      "icon": "/Images/Icons/Gallstones.png"
                     },
                     {
                       "heading": "Alcohol Consumption",
-                      "description": "A leading cause in men, especially after heavy drinking."
+                      "description": "A leading cause in men, especially after heavy drinking.",
+                      "icon": "/Images/Icons/Gallstones.png"
                     },
                     {
                       "heading": "High triglyceride levels or calcium levels in the blood",
-                      "description": "Elevated levels can lead to acute pancreatitis."
+                      "description": "Elevated levels can lead to acute pancreatitis.",
+                      "icon": "/Images/Icons/Medication.png"
                     },
                     {
                       "heading": "Medications or post-surgical complications",
-                      "description": "Certain medications or surgeries may lead to acute pancreatitis."
+                      "description": "Certain medications or surgeries may lead to acute pancreatitis.",
+                      "icon": "/Images/Icons/Medication.png"
                     }
                   ]
                 },
@@ -2830,15 +2873,18 @@
                   "list": [
                     {
                       "heading": "Pancreatic necrosis",
-                      "description": "Death of pancreatic tissue due to severe inflammation."
+                      "description": "Death of pancreatic tissue due to severe inflammation.",
+                      "icon": "/Images/Icons/Pancreatic-necrosis.png"
                     },
                     {
                       "heading": "Organ failure",
-                      "description": "In severe cases, other organs may fail."
+                      "description": "In severe cases, other organs may fail.",
+                      "icon": "/Images/Icons/Organ-failure.png"
                     },
                     {
                       "heading": "Infections and abscess formation",
-                      "description": "Bacterial infections may develop in the pancreas."
+                      "description": "Bacterial infections may develop in the pancreas.",
+                      "icon": "/Images/Icons/Infections.png"
                     }
                   ]
                 },
@@ -2847,15 +2893,18 @@
                   "list": [
                     {
                       "heading": "Blood Tests",
-                      "description": "Elevated pancreatic enzyme levels (amylase, lipase) indicate pancreatitis."
+                      "description": "Elevated pancreatic enzyme levels (amylase, lipase) indicate pancreatitis.",
+                      "icon": "/Images/Icons/Blood-Tests.png"
                     },
                     {
                       "heading": "CT or MRI Scans",
-                      "description": "Used to detect inflammation or complications."
+                      "description": "Used to detect inflammation or complications.",
+                      "icon": "/Images/Icons/Blood-Tests.png"
                     },
                     {
                       "heading": "Ultrasound",
-                      "description": "Helps identify gallstones."
+                      "description": "Helps identify gallstones.",
+                      "icon": "/Images/Icons/Blood-Tests.png"
                     }
                   ]
                 },
@@ -3055,23 +3104,28 @@
               "list": [
                 {
                   "heading": "Persistent abdominal discomfort or pain",
-                  "description": "Pain in the upper abdomen, often recurring."
+                  "description": "Pain in the upper abdomen, often recurring.",
+                  "icon": "/Images/Icons/abdomen.png"
                 },
                 {
                   "heading": "Nausea and vomiting",
-                  "description": "Feeling nauseous or vomiting without any apparent reason."
+                  "description": "Feeling nauseous or vomiting without any apparent reason.",
+                  "icon": "/Images/Icons/vomiting.png"
                 },
                 {
                   "heading": "Bloating or a feeling of fullness",
-                  "description": "Discomfort after eating, with a sensation of fullness."
+                  "description": "Discomfort after eating, with a sensation of fullness.",
+                  "icon": "/Images/Icons/Bloating.png"
                 },
                 {
                   "heading": "Unexplained weight loss",
-                  "description": "Losing weight without making changes to diet or exercise."
+                  "description": "Losing weight without making changes to diet or exercise.",
+                  "icon": "/Images/Icons/Weight-loss.png"
                 },
                 {
                   "heading": "Jaundice",
-                  "description": "Yellowing of the skin and eyes, particularly when the cyst blocks the bile duct."
+                  "description": "Yellowing of the skin and eyes, particularly when the cyst blocks the bile duct.",
+                  "icon": "/Images/Icons/Jaundice.png"
                 }
               ]
             },
@@ -3122,19 +3176,23 @@
               "list": [
                 {
                   "heading": "Infection of the cyst or pseudocyst",
-                  "description": "Cysts can become infected, leading to further complications."
+                  "description": "Cysts can become infected, leading to further complications.",
+                  "icon": "/Images/Icons/Infections.png"
                 },
                 {
                   "heading": "Rupture, leading to internal bleeding or peritonitis",
-                  "description": "A rupture can cause life-threatening internal bleeding."
+                  "description": "A rupture can cause life-threatening internal bleeding.",
+                  "icon": "/Images/Icons/Rupture.png"
                 },
                 {
                   "heading": "Compression of nearby organs",
-                  "description": "Cysts may press on nearby organs, causing bile duct obstruction."
+                  "description": "Cysts may press on nearby organs, causing bile duct obstruction.",
+                  "icon": "/Images/Icons/Organ-failure.png"
                 },
                 {
                   "heading": "Progression to pancreatic cancer",
-                  "description": "Certain neoplastic cysts may progress to cancer if left untreated."
+                  "description": "Certain neoplastic cysts may progress to cancer if left untreated.",
+                  "icon": "/Images/Icons/Organ-failure.png"
                 }
               ]
             },
@@ -3144,19 +3202,23 @@
               "list": [
                 {
                   "heading": "Ultrasound",
-                  "description": "A preliminary imaging technique to locate cysts."
+                  "description": "A preliminary imaging technique to locate cysts.",
+                  "icon": "/Images/Icons/Imaging-Tests.png"
                 },
                 {
                   "heading": "CT or MRI Scans",
-                  "description": "Provides detailed imaging to assess the size, location, and type of cyst."
+                  "description": "Provides detailed imaging to assess the size, location, and type of cyst.",
+                  "icon": "/Images/Icons/Imaging-Tests.png"
                 },
                 {
                   "heading": "Endoscopic Ultrasound (EUS)",
-                  "description": "Enables precise visualization and fine-needle aspiration for fluid analysis."
+                  "description": "Enables precise visualization and fine-needle aspiration for fluid analysis.",
+                  "icon": "/Images/Icons/Endoscopy.png"
                 },
                 {
                   "heading": "Biomarker Tests",
-                  "description": "To determine malignancy risk from cyst fluid samples."
+                  "description": "To determine malignancy risk from cyst fluid samples.",
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 }
               ]
             },
@@ -3221,31 +3283,38 @@
               "list": [
                 {
                   "heading": "Persistent abdominal or back pain",
-                  "description": "Pain often present in the upper abdomen or back."
+                  "description": "Pain often present in the upper abdomen or back.",
+                  "icon": "/Images/Icons/abdomen.png"
                 },
                 {
                   "heading": "Unexplained weight loss",
-                  "description": "Significant weight loss without any clear reason."
+                  "description": "Significant weight loss without any clear reason.",
+                  "icon": "/Images/Icons/Weight-loss.png"
                 },
                 {
                   "heading": "Loss of appetite",
-                  "description": "Decreased desire to eat due to discomfort or other symptoms."
+                  "description": "Decreased desire to eat due to discomfort or other symptoms.",
+                  "icon": "/Images/Icons/Loss-of-appetite.png"
                 },
                 {
                   "heading": "Jaundice",
-                  "description": "Yellowing of the skin and eyes due to bile duct obstruction."
+                  "description": "Yellowing of the skin and eyes due to bile duct obstruction.",
+                  "icon": "/Images/Icons/Jaundice.png"
                 },
                 {
                   "heading": "New-onset diabetes or worsening of existing diabetes",
-                  "description": "Pancreatic dysfunction leading to difficulty in regulating blood sugar."
+                  "description": "Pancreatic dysfunction leading to difficulty in regulating blood sugar.",
+                  "icon": "/Images/Icons/Diabetes.png"
                 },
                 {
                   "heading": "Fatigue or weakness",
-                  "description": "Feeling tired and weak due to the cancer and its effects on the body."
+                  "description": "Feeling tired and weak due to the cancer and its effects on the body.",
+                  "icon": "/Images/Icons/Fistula.png"
                 },
                 {
                   "heading": "Dark urine or pale stools",
-                  "description": "Changes in urine and stool color due to bile flow obstruction."
+                  "description": "Changes in urine and stool color due to bile flow obstruction.",
+                  "icon": "/Images/Icons/Stool-Tests.png"
                 }
               ]
             },
@@ -3304,15 +3373,18 @@
               "list": [
                 {
                   "heading": "Blockage of the Bile Duct",
-                  "description": "Leading to jaundice and digestive issues."
+                  "description": "Leading to jaundice and digestive issues.",
+                  "icon": "/Images/Icons/Blockage-of-the-Bile-Duct.png"
                 },
                 {
                   "heading": "Spread to Other Organs",
-                  "description": "Pancreatic cancer often metastasizes early to nearby organs like the liver."
+                  "description": "Pancreatic cancer often metastasizes early to nearby organs like the liver.",
+                  "icon": "/Images/Icons/Organ-failure.png"
                 },
                 {
                   "heading": "Nutritional Deficiencies",
-                  "description": "Caused by malabsorption due to pancreatic dysfunction."
+                  "description": "Caused by malabsorption due to pancreatic dysfunction.",
+                  "icon": "/Images/Icons/Nutritional-Deficiencies.png"
                 }
               ]
             },
@@ -3322,23 +3394,29 @@
               "list": [
                 {
                   "heading": "Imaging Tests",
-                  "description": "CT scans, MRI, and PET scans to locate and stage the tumor."
+                  "description": "CT scans, MRI, and PET scans to locate and stage the tumor.",
+                  "icon": "/Images/Icons/Imaging-Tests.png"
+                  
                 },
                 {
                   "heading": "Endoscopic Ultrasound (EUS)",
-                  "description": "Offers high-definition imaging and enables fine-needle biopsy."
+                  "description": "Offers high-definition imaging and enables fine-needle biopsy.",
+                  "icon": "/Images/Icons/Endoscopy.png"
                 },
                 {
                   "heading": "Biopsy",
-                  "description": "Tissue samples analyzed for confirming malignancy."
+                  "description": "Tissue samples analyzed for confirming malignancy.",
+                  "icon": "/Images/Icons/Imaging-Tests.png"
                 },
                 {
                   "heading": "Blood Tests",
-                  "description": "Tumor markers like CA19-9 can indicate the presence of pancreatic cancer."
+                  "description": "Tumor markers like CA19-9 can indicate the presence of pancreatic cancer.",
+                   "icon": "/Images/Icons/Blood-Tests.png"
                 },
                 {
                   "heading": "Genetic Testing",
-                  "description": "For patients with a family history of pancreatic cancer, identifying inherited mutations can guide treatment."
+                  "description": "For patients with a family history of pancreatic cancer, identifying inherited mutations can guide treatment.",
+                   "icon": "/Images/Icons/Genetics.png"
                 }
               ]
             },
@@ -3347,23 +3425,28 @@
               "list": [
                 {
                   "heading": "Surgery",
-                  "description": "Various surgical options like the Whipple procedure, distal pancreatectomy, or total pancreatectomy may be considered depending on the cancer stage."
+                  "description": "Various surgical options like the Whipple procedure, distal pancreatectomy, or total pancreatectomy may be considered depending on the cancer stage.",
+                   "icon": "/Images/Icons/Surgery.png"
                 },
                 {
                   "heading": "Radiation Therapy",
-                  "description": "High-energy rays are used to target and destroy cancer cells while sparing healthy tissue."
+                  "description": "High-energy rays are used to target and destroy cancer cells while sparing healthy tissue.",
+                   "icon": "/Images/Icons/Radiation.png"
                 },
                 {
                   "heading": "Chemotherapy",
-                  "description": "Drugs like gemcitabine and FOLFIRINOX are used to shrink tumors and manage advanced stages."
+                  "description": "Drugs like gemcitabine and FOLFIRINOX are used to shrink tumors and manage advanced stages.",
+                   "icon": "/Images/Icons/Chemotherapy.png"
                 },
                 {
                   "heading": "Targeted Therapy",
-                  "description": "Focuses on genetic mutations within cancer cells, offering a more personalized approach."
+                  "description": "Focuses on genetic mutations within cancer cells, offering a more personalized approach.",
+                       "icon": "/Images/Icons/Targeted-Therapy.png"
                 },
                 {
                   "heading": "Palliative Care",
-                  "description": "For advanced cases, treatments focus on relieving symptoms, improving quality of life, and offering nutritional support."
+                  "description": "For advanced cases, treatments focus on relieving symptoms, improving quality of life, and offering nutritional support.",
+                    "icon": "/Images/Icons/Palliative-Care.png"
                 }
               ]
             },
@@ -3433,27 +3516,33 @@
               "list": [
                 {
                   "heading": "Frequent diarrhea or loose, fatty stools (steatorrhea)",
-                  "description": "Stools are often loose, fatty, and difficult to control."
+                  "description": "Stools are often loose, fatty, and difficult to control.",
+                  "icon": "/Images/Icons/diarrhea.png"
                 },
                 {
                   "heading": "Bloating and flatulence",
-                  "description": "Excessive gas and bloating due to malabsorption."
+                  "description": "Excessive gas and bloating due to malabsorption.",
+                  "icon": "/Images/Icons/Bloating.png"
                 },
                 {
                   "heading": "Unexplained weight loss despite a normal or increased appetite",
-                  "description": "Despite eating enough, patients may still lose weight due to poor absorption of nutrients."
+                  "description": "Despite eating enough, patients may still lose weight due to poor absorption of nutrients.",
+                  "icon": "/Images/Icons/Weight-loss.png"
                 },
                 {
                   "heading": "Nutritional deficiencies, including vitamin A, D, E, and K",
-                  "description": "Deficiencies in essential vitamins lead to various health issues."
+                  "description": "Deficiencies in essential vitamins lead to various health issues.",
+                  "icon": "/Images/Icons/Nutritional-Deficiencies.png"
                 },
                 {
                   "heading": "Fatigue and weakness",
-                  "description": "Feeling tired and weak due to lack of proper nutrition."
+                  "description": "Feeling tired and weak due to lack of proper nutrition.",
+                  "icon": "/Images/Icons/Fistula.png"
                 },
                 {
                   "heading": "Abdominal pain",
-                  "description": "Pain often due to malabsorption and gastrointestinal disturbances."
+                  "description": "Pain often due to malabsorption and gastrointestinal disturbances.",
+                  "icon": "/Images/Icons/abdomen.png"
                 }
               ]
             },
@@ -3512,19 +3601,23 @@
               "list": [
                 {
                   "heading": "Malnutrition and severe weight loss",
-                  "description": "Inadequate nutrient absorption leads to significant weight loss."
+                  "description": "Inadequate nutrient absorption leads to significant weight loss.",
+                  "icon": "/Images/Icons/Weight-loss.png"
                 },
                 {
                   "heading": "Vitamin deficiencies leading to bone weakness, vision issues, or bleeding problems",
-                  "description": "Lack of fat-soluble vitamins can cause various health problems."
+                  "description": "Lack of fat-soluble vitamins can cause various health problems.",
+                  "icon": "/Images/Icons/Nutritional-Deficiencies.png"
                 },
                 {
                   "heading": "Decreased immune function",
-                  "description": "Nutritional deficiencies can weaken the immune system."
+                  "description": "Nutritional deficiencies can weaken the immune system.",
+                  "icon": "/Images/Icons/Immune-System.png"
                 },
                 {
                   "heading": "Poor quality of life due to persistent symptoms",
-                  "description": "The chronic nature of symptoms can significantly reduce quality of life."
+                  "description": "The chronic nature of symptoms can significantly reduce quality of life.",
+                  "icon": "/Images/Icons/Lifestyle.png"
                 }
               ]
             },
@@ -3555,19 +3648,23 @@
               "list": [
                 {
                   "heading": "Enzyme Replacement Therapy",
-                  "description": "Pancreatic Enzyme Supplements (PERT): These oral supplements restore digestive enzyme levels, improving nutrient absorption."
+                  "description": "Pancreatic Enzyme Supplements (PERT): These oral supplements restore digestive enzyme levels, improving nutrient absorption.",     
+                  "icon": "/Images/Icons/Enzyme-Replacement-Therapy.png"
                 },
                 {
                   "heading": "Nutritional Management",
-                  "description": "Diet plans tailored to improve nutrient absorption and address vitamin deficiencies. Supplementation with fat-soluble vitamins (A, D, E, K) and minerals like calcium."
+                  "description": "Diet plans tailored to improve nutrient absorption and address vitamin deficiencies. Supplementation with fat-soluble vitamins (A, D, E, K) and minerals like calcium.",
+                   "icon": "/Images/Icons/Nutritional-Deficiencies.png"
                 },
                 {
                   "heading": "Addressing Underlying Causes",
-                  "description": "Treating chronic pancreatitis or other root conditions contributing to PEI. Surgical interventions, if necessary, for structural pancreatic abnormalities."
+                  "description": "Treating chronic pancreatitis or other root conditions contributing to PEI. Surgical interventions, if necessary, for structural pancreatic abnormalities.",
+                   "icon": "/Images/Icons/pancreatitis.png"
                 },
                 {
                   "heading": "Lifestyle Modifications",
-                  "description": "Avoidance of alcohol and smoking to prevent further pancreatic damage. Adjusting fat intake for better digestion without overwhelming the pancreas."
+                  "description": "Avoidance of alcohol and smoking to prevent further pancreatic damage. Adjusting fat intake for better digestion without overwhelming the pancreas.",
+                   "icon": "/Images/Icons/Lifestyle.png"
                 }
               ]
             },
@@ -3623,27 +3720,33 @@
               "list": [
                 {
                   "heading": "Persistent abdominal pain or discomfort",
-                  "description": "Pain or discomfort often in the upper abdomen."
+                  "description": "Pain or discomfort often in the upper abdomen.",     
+                  "icon": "/Images/Icons/abdomen.png"
                 },
                 {
                   "heading": "Jaundice (yellowing of the skin and eyes)",
-                  "description": "A common symptom resulting from bile duct involvement."
+                  "description": "A common symptom resulting from bile duct involvement.",     
+                  "icon": "/Images/Icons/Jaundice.png"
                 },
                 {
                   "heading": "Unintended weight loss",
-                  "description": "Loss of weight without trying, often due to malabsorption."
+                  "description": "Loss of weight without trying, often due to malabsorption.",     
+                  "icon": "/Images/Icons/Weight-loss.png"
                 },
                 {
                   "heading": "New-onset diabetes",
-                  "description": "Development of diabetes, as AIP can affect the pancreas’ insulin-producing cells."
+                  "description": "Development of diabetes, as AIP can affect the pancreas’ insulin-producing cells.",     
+                  "icon": "/Images/Icons/Diabetes.png"
                 },
                 {
                   "heading": "Fatigue or general weakness",
-                  "description": "A feeling of tiredness or lack of energy."
+                  "description": "A feeling of tiredness or lack of energy.",     
+                  "icon": "/Images/Icons/Fistula.png"
                 },
                 {
                   "heading": "Digestive issues, including nausea or vomiting",
-                  "description": "Common digestive symptoms due to pancreatic inflammation."
+                  "description": "Common digestive symptoms due to pancreatic inflammation.",     
+                  "icon": "/Images/Icons/vomiting.png"
                 }
               ]
             },
@@ -3673,19 +3776,23 @@
               "list": [
                 {
                   "heading": "Misdiagnosis as pancreatic cancer, leading to unnecessary interventions",
-                  "description": "AIP can often be mistaken for pancreatic cancer due to similar symptoms."
+                  "description": "AIP can often be mistaken for pancreatic cancer due to similar symptoms.",     
+                  "icon": "/Images/Icons/Pancreas-Clinic.png"
                 },
                 {
                   "heading": "Persistent jaundice due to bile duct involvement",
-                  "description": "Chronic jaundice due to obstruction or inflammation of the bile duct."
+                  "description": "Chronic jaundice due to obstruction or inflammation of the bile duct.",     
+                  "icon": "/Images/Icons/Jaundice.png"
                 },
                 {
                   "heading": "Exocrine or endocrine insufficiency (e.g., diabetes) if untreated",
-                  "description": "If left untreated, AIP can lead to a loss of pancreatic function, causing diabetes or digestive issues."
+                  "description": "If left untreated, AIP can lead to a loss of pancreatic function, causing diabetes or digestive issues.",     
+                  "icon": "/Images/Icons/Diabetes.png"
                 },
                 {
                   "heading": "Impact on other organs due to systemic inflammation (Type 1 AIP)",
-                  "description": "Systemic inflammation in Type 1 AIP can affect multiple organs, including the kidneys and salivary glands."
+                  "description": "Systemic inflammation in Type 1 AIP can affect multiple organs, including the kidneys and salivary glands.",     
+                  "icon": "/Images/Icons/Organ-failure.png"
                 }
               ]
             },
@@ -3716,19 +3823,23 @@
               "list": [
                 {
                   "heading": "Corticosteroid Therapy",
-                  "description": "The primary treatment for AIP involves short-term use of steroids to reduce inflammation."
+                  "description": "The primary treatment for AIP involves short-term use of steroids to reduce inflammation.",     
+                  "icon": "/Images/Icons/Corticosteroid.png"
                 },
                 {
                   "heading": "Immunosuppressive Therapy",
-                  "description": "For recurrent or resistant cases, medications like azathioprine or rituximab may be prescribed to manage immune responses."
+                  "description": "For recurrent or resistant cases, medications like azathioprine or rituximab may be prescribed to manage immune responses.",
+                  "icon":"/Images/Icons/Immunosuppressive.png"
                 },
                 {
                   "heading": "Management of Complications",
-                  "description": "Treating bile duct obstruction with stenting or drainage, enzyme replacement therapy for exocrine insufficiency, and blood sugar management for diabetes caused by AIP."
+                  "description": "Treating bile duct obstruction with stenting or drainage, enzyme replacement therapy for exocrine insufficiency, and blood sugar management for diabetes caused by AIP.",
+                  "icon":"/Images/Icons/Stricture-Management.png"
                 },
                 {
                   "heading": "Lifestyle Guidance",
-                  "description": "Regular follow-ups to monitor symptoms and minimize steroid-related side effects. Dietary modifications for better pancreatic health and digestion."
+                  "description": "Regular follow-ups to monitor symptoms and minimize steroid-related side effects. Dietary modifications for better pancreatic health and digestion.",
+                   "icon":"/Images/Icons/Lifestyle.png"
                 }
               ]
             },
@@ -7109,9 +7220,7 @@
     "phoneNumber": "7288842255",
     "address": "C/O Gastroenterology department, KIM's Hospital , 1-8-31/1, Minister Road Krishna Nagar Colony, Ramgopalpet, Begumpet, Secunderabad, Hyderabad, Telangana 500003",
     "map": {
-      "iframelink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15047.476207008736!2d78.46386398715822!3d17.436907700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9be10c4c5013%3A0x5581bd5a2711edb!2sKAGE!5e1!3m2!1sen!2sin!4v1738058832256!5m2!1sen!2sin"
-     
+      "iframelink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15047.476207008736!2d78.46386398715822!3d17.436907700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9be10c4c5013%3A0x5581bd5a2711edb!2sKAGE!5e1!3m2!1sen!2sin!4v1738058832256!5m2!1sen!2sin"
     }
   }
-
 }

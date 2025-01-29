@@ -23,12 +23,26 @@ const Symptoms = ({ symptoms }) => {
         <Grid container>
           {symptoms.list.map((item, index) => (
             <Grid size={{ xs: 12, sm: 12, md: 6 }} key={index}>
-              <List className="p0">
-                <ListItem className="p0">
+              <List >
+                <ListItem disableGutters>
                   <ListItemIcon
-                    sx={{ padding: "0px !important", minWidth: "30px" }}
+                    sx={{ marginRight: "10px", minWidth: "30px" }}
                   >
+                     {item?.icon ? (
+                    <img
+                      src={item.icon}
+                      alt="Hospital Icon"
+                      width="40"
+                      height="40"
+                      style={{
+                        borderRadius: "50%",
+                        objectFit: "contain",
+                      }}
+                    />
+                  ) : (
                     <HealthAndSafetyIcon className="p0" />
+                  )}
+          
                   </ListItemIcon>
                   <ListItemText
                     className="p0"
