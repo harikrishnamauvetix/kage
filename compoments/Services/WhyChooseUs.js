@@ -29,7 +29,7 @@ function WhyChooseSection({ whyChoose }) {
                     flexDirection: "column",
                   }}>
                   <CardContent>
-                    <Typography variant="h6">{step.title}</Typography>
+                    <Typography variant="h6" sx={{ color: "primary.main",}}>{step.title}</Typography>
                     <Typography variant="body2" color="textSecondary">
                       {step.description}
                     </Typography>

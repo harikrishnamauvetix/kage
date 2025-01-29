@@ -69,8 +69,18 @@ const DoctorsList = (props) => {
                     <Box sx={{ height: "180px" }}>
                       <Typography
                         gutterBottom
-                        variant="h5"
-                        component="div"
+                        variant="h6"
+                        sx={{
+                          fontWeight: "bold",
+                          marginBottom: "10px",
+                          color: "primary.main",
+                          height: "60px", // Fixed height for consistency
+                          display: "-webkit-box",
+                          WebkitBoxOrient: "vertical",
+                          WebkitLineClamp: 2, // Limit to 2 lines
+                          overflow: "hidden",
+                          textOverflow: "ellipsis",
+                        }}
                        
                       >
                         {doctor.name}
@@ -101,7 +111,7 @@ const DoctorsList = (props) => {
                     >
                       <Button
                         variant="contained"
-                        sx={{ marginTop: "10px", width: "100%" }}
+                        sx={{ marginTop: "10px", width: "100%" ,backgroundColor:"secondary.main"}}
                       >
                         Know More
                       </Button>

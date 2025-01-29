@@ -72,7 +72,6 @@ const ProceduresList = (props) => {
                         alt="Doctor Profile"
                         width={60}
                         height={60}
-                       
                       />
                     </Icon>
                   </Box>
@@ -85,7 +84,18 @@ const ProceduresList = (props) => {
                     >
                       <Typography
                         gutterBottom
-                        sx={{ fontWeight: "bold", color: "primary.main" }}
+                        variant="h6"
+                        sx={{
+                          fontWeight: "bold",
+                          marginBottom: "10px",
+                          color: "primary.main",
+                          height: "60px", // Fixed height for consistency
+                          display: "-webkit-box",
+                          WebkitBoxOrient: "vertical",
+                          WebkitLineClamp: 2, // Limit to 2 lines
+                          overflow: "hidden",
+                          textOverflow: "ellipsis",
+                        }}
                       >
                         {item.title}
                       </Typography>

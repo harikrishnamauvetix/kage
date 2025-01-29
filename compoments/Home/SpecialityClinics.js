@@ -49,25 +49,16 @@ const SpecialityClinics = (props) => {
                           boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
                         },
                         padding: 2,
-                        marginBottom: 2, // Added margin to separate cards
+                        marginBottom: 1,
                       }}
                     >
-                      <CardContent sx={{ padding: "0px" }}>
-                        <Icon
-                          sx={{
-                            fontSize: "60px",
-                            color: "#1976d2",
-                            marginBottom: 2,
-                          }}
-                        >
-                          <Image
-                        src={service.icon}
-                        alt="Doctor Profile"
-                        width={60}
-                        height={60}
-                       
-                      />
-                        </Icon>
+                      <CardContent sx={{ padding: "0px !important" }}>
+                        <Image
+                          src={service.icon}
+                          alt="Doctor Profile"
+                          width={60}
+                          height={60}
+                        />
                         <Link
                           href={`/speciality-clinics/${service.title
                             .replace(/\s+/g, "-")
@@ -78,7 +69,7 @@ const SpecialityClinics = (props) => {
                             variant="h6"
                             sx={{
                               fontWeight: "bold",
-                              marginBottom: 1,
+                              marginBottom: "10px",
                               color: "primary.main",
                             }}
                           >

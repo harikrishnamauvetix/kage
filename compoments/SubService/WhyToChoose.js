@@ -19,7 +19,7 @@ const WhyToChoose = ({ whytochoose }) => {
             <Grid size={{ xs: 12, sm: 12, md: 4 }} key={index} spacing={2}>
               <Card>
                 <CardContent>
-                  <Typography variant="h6" component="div">
+                  <Typography variant="h6" component="div" sx={{ color: "primary.main",}}>
                     {item.heading}
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
