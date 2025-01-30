@@ -55,7 +55,7 @@ export default function AppointmentForm() {
                   value={formData.name}
                   onChange={(e) => setName(e.target.value)}
                   margin="normal"
-                  defaultValue="name"
+               
                   size="small"
                   required
                 />
@@ -68,7 +68,7 @@ export default function AppointmentForm() {
                   onChange={(e) => setEmail(e.target.value)}
                   margin="normal"
                   type="email"
-                  defaultValue="Small"
+              
                   size="small"
                   required
                 />

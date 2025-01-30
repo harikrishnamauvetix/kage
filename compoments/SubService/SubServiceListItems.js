@@ -7,8 +7,8 @@ const SubServiceListItems = ({ servicelist }) => (
     {servicelist?.map((item, index) => (
       typeof item === "object" && item.heading && item.description ? (
         <ListItem key={index} alignItems="flex-start">
-          <ListItemIcon>
-            <MedicalServicesIcon />
+          <ListItemIcon sx={{minWidth: "30px", color: "primary.main",padding: "0px !important"  }}>
+          <ArrowForwardIosIcon />
           </ListItemIcon>
           <Box>
             <Typography variant="subtitle1">{item.heading}</Typography>
@@ -16,8 +16,8 @@ const SubServiceListItems = ({ servicelist }) => (
           </Box>
         </ListItem>
       ) : (
-        <ListItem key={index} sx={{ padding: "0px" }}>
-          <ListItemIcon sx={{ minWidth: "30px", color: "primary.main" }}>
+        <ListItem key={index} sx={{ padding: "0px !important" }}>
+          <ListItemIcon sx={{ minWidth: "30px", color: "primary.main",padding: "0px !important" }}>
             <ArrowForwardIosIcon />
           </ListItemIcon>
           <ListItemText primary={item} />

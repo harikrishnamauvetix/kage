@@ -15,7 +15,7 @@
   ],
   "about_images": [
     {
-      "image": "Images/Home/about-us.jpg",
+      "image": "Images/Home/about-us.png",
       "alt": "About Us Image"
     }
   ],
@@ -352,7 +352,7 @@
         "Pancreatic fluid collections: What is the ideal imaging technique? World J Gastroenterol. 2015 Dec 28;21(48):13403-10."
       ],
       "awards": [
-        " VAIDYA RATNA AWARD in Sankranti Puraskar 2015 by Suman Art Theaters for services rendered in the field of gastroenterology ",
+        "VAIDYA RATNA AWARD in Sankranti Puraskar 2015 by Suman Art Theaters for services rendered in the field of gastroenterology ",
         "NATIONAL ITEGRATION AWARD on the eve of republic day 2015 for services rendered in the field of gastroenterology "
       ],
       "patientTestimonials": [
@@ -2681,27 +2681,32 @@
                 {
                   "step": 1,
                   "title": "Endoscopic Ultrasound (EUS)",
-                  "description": "High-resolution imaging to detect pancreatic abnormalities."
+                  "description": "High-resolution imaging to detect pancreatic abnormalities.",
+                  "icon": "/Images/Icons/Endoscopy.png"
                 },
                 {
                   "step": 2,
                   "title": "CT/MRI Scans",
-                  "description": "To identify tumors, cysts, and inflammation."
+                  "description": "To identify tumors, cysts, and inflammation.",
+                  "icon": "/Images/Icons/Imaging-Tests.png"
                 },
                 {
                   "step": 3,
                   "title": "ERCP (Endoscopic Retrograde Cholangiopancreatography)",
-                  "description": "To examine and treat bile or pancreatic duct problems."
+                  "description": "To examine and treat bile or pancreatic duct problems.",
+                  "icon": "/Images/Icons/ERCP.png"
                 },
                 {
                   "step": 4,
                   "title": "Blood Tests",
-                  "description": "To measure enzyme levels and detect inflammation."
+                  "description": "To measure enzyme levels and detect inflammation.",
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 },
                 {
                   "step": 5,
                   "title": "Stool Tests",
-                  "description": "To check for signs of enzyme insufficiency."
+                  "description": "To check for signs of enzyme insufficiency.",
+                  "icon": "/Images/Icons/Stool-Tests.png"
                 }
               ]
             }
@@ -2913,15 +2918,18 @@
                   "list": [
                     {
                       "heading": "Supportive Care",
-                      "description": "IV fluids, pain management, and fasting to rest the pancreas."
+                      "description": "IV fluids, pain management, and fasting to rest the pancreas.",
+                      "icon": "/Images/Icons/Stool-Tests.png"
                     },
                     {
                       "heading": "Procedures",
-                      "description": "ERCP to remove gallstones or relieve ductal obstructions."
+                      "description": "ERCP to remove gallstones or relieve ductal obstructions.",
+                      "icon": "/Images/Icons/ERCP.png"
                     },
                     {
                       "heading": "Lifestyle Adjustments",
-                      "description": "Dietary recommendations to prevent recurrence."
+                      "description": "Dietary recommendations to prevent recurrence.",
+                      "icon": "/Images/Icons/Lifestyle.png"
                     }
                   ]
                 }
@@ -2934,19 +2942,23 @@
                   "list": [
                     {
                       "heading": "Persistent abdominal pain",
-                      "description": "Ongoing discomfort due to chronic inflammation."
+                      "description": "Ongoing discomfort due to chronic inflammation.",
+                      "icon": "/Images/Icons/abdomen.png"
                     },
                     {
                       "heading": "Digestive issues (bloating, fatty stools)",
-                      "description": "Difficulty in digesting food leading to bloating and fatty stools."
+                      "description": "Difficulty in digesting food leading to bloating and fatty stools.",
+                      "icon": "/Images/Icons/Bloating.png"
                     },
                     {
                       "heading": "Unexplained weight loss",
-                      "description": "Due to malabsorption of nutrients."
+                      "description": "Due to malabsorption of nutrients.",
+                      "icon": "/Images/Icons/Weight-loss.png"
                     },
                     {
                       "heading": "Diabetes due to pancreatic insufficiency",
-                      "description": "Loss of insulin production by the pancreas."
+                      "description": "Loss of insulin production by the pancreas.",
+                      "icon": "/Images/Icons/Diabetes.png"
                     }
                   ]
                 },
@@ -2955,19 +2967,23 @@
                   "list": [
                     {
                       "heading": "Long-term alcohol consumption",
-                      "description": "Chronic alcohol use is a leading cause."
+                      "description": "Chronic alcohol use is a leading cause.",
+                      "icon": "/Images/Icons/Alcohol.png"
                     },
                     {
                       "heading": "Smoking",
-                      "description": "Smoking increases the risk of chronic pancreatitis."
+                      "description": "Smoking increases the risk of chronic pancreatitis.",
+                      "icon": "/Images/Icons/Alcohol.png"
                     },
                     {
                       "heading": "Genetic predisposition",
-                      "description": "Hereditary pancreatitis can increase risk."
+                      "description": "Hereditary pancreatitis can increase risk.",
+                      "icon": "/Images/Icons/Genetics.png"
                     },
                     {
                       "heading": "Autoimmune conditions",
-                      "description": "Certain autoimmune diseases can lead to chronic pancreatitis."
+                      "description": "Certain autoimmune diseases can lead to chronic pancreatitis.",
+                      "icon": "/Images/Icons/Immune-System.png"
                     }
                   ]
                 },
@@ -2976,15 +2992,18 @@
                   "list": [
                     {
                       "heading": "Malabsorption and malnutrition",
-                      "description": "Chronic pancreatitis can impair nutrient absorption."
+                      "description": "Chronic pancreatitis can impair nutrient absorption.",
+                      "icon": "/Images/Icons/Malabsorption-and-malnutrition.png"
                     },
                     {
                       "heading": "Increased risk of pancreatic cancer",
-                      "description": "Chronic inflammation increases cancer risk."
+                      "description": "Chronic inflammation increases cancer risk.",
+                      "icon": "/Images/Icons/pancreatitis.png"
                     },
                     {
                       "heading": "Chronic pain requiring long-term management",
-                      "description": "Persistent pain is a common issue in chronic pancreatitis."
+                      "description": "Persistent pain is a common issue in chronic pancreatitis.",
+                      "icon": "/Images/Icons/Chronic-pain.png"
                     }
                   ]
                 },
@@ -2993,15 +3012,18 @@
                   "list": [
                     {
                       "heading": "Imaging",
-                      "description": "CT or MRI to detect calcifications or structural damage."
+                      "description": "CT or MRI to detect calcifications or structural damage.",
+                      "icon": "/Images/Icons/Imaging-Tests.png"
                     },
                     {
                       "heading": "Endoscopic Ultrasound (EUS)",
-                      "description": "A detailed evaluation of the pancreas."
+                      "description": "A detailed evaluation of the pancreas.",
+                      "icon": "/Images/Icons/Endoscopy.png"
                     },
                     {
                       "heading": "Stool Tests",
-                      "description": "To assess fat digestion and enzyme insufficiency."
+                      "description": "To assess fat digestion and enzyme insufficiency.",
+                      "icon": "/Images/Icons/Stool-Tests.png"
                     }
                   ]
                 },
@@ -3010,19 +3032,23 @@
                   "list": [
                     {
                       "heading": "Pain Management",
-                      "description": "Medications and nerve block procedures for chronic pain."
+                      "description": "Medications and nerve block procedures for chronic pain.",
+                      "icon": "/Images/Icons/Stool-Tests.png"
                     },
                     {
                       "heading": "Enzyme Replacement Therapy",
-                      "description": "Helps in digesting food by replacing pancreatic enzymes."
+                      "description": "Helps in digesting food by replacing pancreatic enzymes.",
+                      "icon": "/Images/Icons/Enzyme-Replacement-Therapy.png"
                     },
                     {
                       "heading": "Endoscopic or Surgical Interventions",
-                      "description": "To manage ductal strictures or relieve blockages."
+                      "description": "To manage ductal strictures or relieve blockages.",
+                      "icon": "/Images/Icons/Endoscopy.png"
                     },
                     {
                       "heading": "Diabetes Management",
-                      "description": "Insulin therapy for those with endocrine insufficiency."
+                      "description": "Insulin therapy for those with endocrine insufficiency.",
+                      "icon": "/Images/Icons/Diabetes.png"
                     }
                   ]
                 }
@@ -3227,15 +3253,18 @@
               "list": [
                 {
                   "heading": "Non-Surgical Management",
-                  "description": "Small, asymptomatic cysts are monitored through regular imaging or drainage for pseudocysts."
+                  "description": "Small, asymptomatic cysts are monitored through regular imaging or drainage for pseudocysts.",
+                  "icon": "/Images/Icons/Non-Surgical-Management.png"
                 },
                 {
                   "heading": "Surgical Interventions",
-                  "description": "For symptomatic or suspicious cysts, laparoscopic or open surgery may be needed."
+                  "description": "For symptomatic or suspicious cysts, laparoscopic or open surgery may be needed.",
+                  "icon": "/Images/Icons/Surgery.png"
                 },
                 {
                   "heading": "Minimally Invasive Procedures",
-                  "description": "Endoscopic techniques such as ERCP and EUS allow cyst drainage or biopsy with minimal recovery time."
+                  "description": "Endoscopic techniques such as ERCP and EUS allow cyst drainage or biopsy with minimal recovery time.",
+                  "icon": "/Images/Icons/Minimally-Invasive-Procedures.png"
                 }
               ]
             },
@@ -3396,7 +3425,6 @@
                   "heading": "Imaging Tests",
                   "description": "CT scans, MRI, and PET scans to locate and stage the tumor.",
                   "icon": "/Images/Icons/Imaging-Tests.png"
-                  
                 },
                 {
                   "heading": "Endoscopic Ultrasound (EUS)",
@@ -3411,12 +3439,12 @@
                 {
                   "heading": "Blood Tests",
                   "description": "Tumor markers like CA19-9 can indicate the presence of pancreatic cancer.",
-                   "icon": "/Images/Icons/Blood-Tests.png"
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 },
                 {
                   "heading": "Genetic Testing",
                   "description": "For patients with a family history of pancreatic cancer, identifying inherited mutations can guide treatment.",
-                   "icon": "/Images/Icons/Genetics.png"
+                  "icon": "/Images/Icons/Genetics.png"
                 }
               ]
             },
@@ -3426,27 +3454,27 @@
                 {
                   "heading": "Surgery",
                   "description": "Various surgical options like the Whipple procedure, distal pancreatectomy, or total pancreatectomy may be considered depending on the cancer stage.",
-                   "icon": "/Images/Icons/Surgery.png"
+                  "icon": "/Images/Icons/Surgery.png"
                 },
                 {
                   "heading": "Radiation Therapy",
                   "description": "High-energy rays are used to target and destroy cancer cells while sparing healthy tissue.",
-                   "icon": "/Images/Icons/Radiation.png"
+                  "icon": "/Images/Icons/Radiation.png"
                 },
                 {
                   "heading": "Chemotherapy",
                   "description": "Drugs like gemcitabine and FOLFIRINOX are used to shrink tumors and manage advanced stages.",
-                   "icon": "/Images/Icons/Chemotherapy.png"
+                  "icon": "/Images/Icons/Chemotherapy.png"
                 },
                 {
                   "heading": "Targeted Therapy",
                   "description": "Focuses on genetic mutations within cancer cells, offering a more personalized approach.",
-                       "icon": "/Images/Icons/Targeted-Therapy.png"
+                  "icon": "/Images/Icons/Targeted-Therapy.png"
                 },
                 {
                   "heading": "Palliative Care",
                   "description": "For advanced cases, treatments focus on relieving symptoms, improving quality of life, and offering nutritional support.",
-                    "icon": "/Images/Icons/Palliative-Care.png"
+                  "icon": "/Images/Icons/Palliative-Care.png"
                 }
               ]
             },
@@ -3648,23 +3676,23 @@
               "list": [
                 {
                   "heading": "Enzyme Replacement Therapy",
-                  "description": "Pancreatic Enzyme Supplements (PERT): These oral supplements restore digestive enzyme levels, improving nutrient absorption.",     
+                  "description": "Pancreatic Enzyme Supplements (PERT): These oral supplements restore digestive enzyme levels, improving nutrient absorption.",
                   "icon": "/Images/Icons/Enzyme-Replacement-Therapy.png"
                 },
                 {
                   "heading": "Nutritional Management",
                   "description": "Diet plans tailored to improve nutrient absorption and address vitamin deficiencies. Supplementation with fat-soluble vitamins (A, D, E, K) and minerals like calcium.",
-                   "icon": "/Images/Icons/Nutritional-Deficiencies.png"
+                  "icon": "/Images/Icons/Nutritional-Deficiencies.png"
                 },
                 {
                   "heading": "Addressing Underlying Causes",
                   "description": "Treating chronic pancreatitis or other root conditions contributing to PEI. Surgical interventions, if necessary, for structural pancreatic abnormalities.",
-                   "icon": "/Images/Icons/pancreatitis.png"
+                  "icon": "/Images/Icons/pancreatitis.png"
                 },
                 {
                   "heading": "Lifestyle Modifications",
                   "description": "Avoidance of alcohol and smoking to prevent further pancreatic damage. Adjusting fat intake for better digestion without overwhelming the pancreas.",
-                   "icon": "/Images/Icons/Lifestyle.png"
+                  "icon": "/Images/Icons/Lifestyle.png"
                 }
               ]
             },
@@ -3720,32 +3748,32 @@
               "list": [
                 {
                   "heading": "Persistent abdominal pain or discomfort",
-                  "description": "Pain or discomfort often in the upper abdomen.",     
+                  "description": "Pain or discomfort often in the upper abdomen.",
                   "icon": "/Images/Icons/abdomen.png"
                 },
                 {
                   "heading": "Jaundice (yellowing of the skin and eyes)",
-                  "description": "A common symptom resulting from bile duct involvement.",     
+                  "description": "A common symptom resulting from bile duct involvement.",
                   "icon": "/Images/Icons/Jaundice.png"
                 },
                 {
                   "heading": "Unintended weight loss",
-                  "description": "Loss of weight without trying, often due to malabsorption.",     
+                  "description": "Loss of weight without trying, often due to malabsorption.",
                   "icon": "/Images/Icons/Weight-loss.png"
                 },
                 {
                   "heading": "New-onset diabetes",
-                  "description": "Development of diabetes, as AIP can affect the pancreas’ insulin-producing cells.",     
+                  "description": "Development of diabetes, as AIP can affect the pancreas’ insulin-producing cells.",
                   "icon": "/Images/Icons/Diabetes.png"
                 },
                 {
                   "heading": "Fatigue or general weakness",
-                  "description": "A feeling of tiredness or lack of energy.",     
+                  "description": "A feeling of tiredness or lack of energy.",
                   "icon": "/Images/Icons/Fistula.png"
                 },
                 {
                   "heading": "Digestive issues, including nausea or vomiting",
-                  "description": "Common digestive symptoms due to pancreatic inflammation.",     
+                  "description": "Common digestive symptoms due to pancreatic inflammation.",
                   "icon": "/Images/Icons/vomiting.png"
                 }
               ]
@@ -3776,22 +3804,22 @@
               "list": [
                 {
                   "heading": "Misdiagnosis as pancreatic cancer, leading to unnecessary interventions",
-                  "description": "AIP can often be mistaken for pancreatic cancer due to similar symptoms.",     
+                  "description": "AIP can often be mistaken for pancreatic cancer due to similar symptoms.",
                   "icon": "/Images/Icons/Pancreas-Clinic.png"
                 },
                 {
                   "heading": "Persistent jaundice due to bile duct involvement",
-                  "description": "Chronic jaundice due to obstruction or inflammation of the bile duct.",     
+                  "description": "Chronic jaundice due to obstruction or inflammation of the bile duct.",
                   "icon": "/Images/Icons/Jaundice.png"
                 },
                 {
                   "heading": "Exocrine or endocrine insufficiency (e.g., diabetes) if untreated",
-                  "description": "If left untreated, AIP can lead to a loss of pancreatic function, causing diabetes or digestive issues.",     
+                  "description": "If left untreated, AIP can lead to a loss of pancreatic function, causing diabetes or digestive issues.",
                   "icon": "/Images/Icons/Diabetes.png"
                 },
                 {
                   "heading": "Impact on other organs due to systemic inflammation (Type 1 AIP)",
-                  "description": "Systemic inflammation in Type 1 AIP can affect multiple organs, including the kidneys and salivary glands.",     
+                  "description": "Systemic inflammation in Type 1 AIP can affect multiple organs, including the kidneys and salivary glands.",
                   "icon": "/Images/Icons/Organ-failure.png"
                 }
               ]
@@ -3823,23 +3851,23 @@
               "list": [
                 {
                   "heading": "Corticosteroid Therapy",
-                  "description": "The primary treatment for AIP involves short-term use of steroids to reduce inflammation.",     
+                  "description": "The primary treatment for AIP involves short-term use of steroids to reduce inflammation.",
                   "icon": "/Images/Icons/Corticosteroid.png"
                 },
                 {
                   "heading": "Immunosuppressive Therapy",
                   "description": "For recurrent or resistant cases, medications like azathioprine or rituximab may be prescribed to manage immune responses.",
-                  "icon":"/Images/Icons/Immunosuppressive.png"
+                  "icon": "/Images/Icons/Immunosuppressive.png"
                 },
                 {
                   "heading": "Management of Complications",
                   "description": "Treating bile duct obstruction with stenting or drainage, enzyme replacement therapy for exocrine insufficiency, and blood sugar management for diabetes caused by AIP.",
-                  "icon":"/Images/Icons/Stricture-Management.png"
+                  "icon": "/Images/Icons/Stricture-Management.png"
                 },
                 {
                   "heading": "Lifestyle Guidance",
                   "description": "Regular follow-ups to monitor symptoms and minimize steroid-related side effects. Dietary modifications for better pancreatic health and digestion.",
-                   "icon":"/Images/Icons/Lifestyle.png"
+                  "icon": "/Images/Icons/Lifestyle.png"
                 }
               ]
             },
@@ -4045,19 +4073,23 @@
               "list": [
                 {
                   "heading": "Gastric Bypass (Roux-en-Y)",
-                  "description": "Reduces stomach size and reroutes part of the intestine to limit calorie absorption."
+                  "description": "Reduces stomach size and reroutes part of the intestine to limit calorie absorption.",
+                  "icon": "/Images/Icons/Gastric-Bypass.png"
                 },
                 {
                   "heading": "Sleeve Gastrectomy",
-                  "description": "Removes a portion of the stomach, reducing its size and appetite-regulating hormones."
+                  "description": "Removes a portion of the stomach, reducing its size and appetite-regulating hormones.",
+                  "icon": "/Images/Icons/Sleeve-Gastrectomy.png"
                 },
                 {
                   "heading": "Mini-Gastric Bypass",
-                  "description": "A simpler, quicker alternative to gastric bypass with similar benefits."
+                  "description": "A simpler, quicker alternative to gastric bypass with similar benefits.",
+                  "icon": "/Images/Icons/Mini-Gastric-Bypass.png"
                 },
                 {
                   "heading": "Biliopancreatic Diversion with Duodenal Switch (BPD/DS)",
-                  "description": "Combines stomach size reduction with intestinal rerouting for maximum weight loss."
+                  "description": "Combines stomach size reduction with intestinal rerouting for maximum weight loss.",
+                  "icon": "/Images/Icons/Biliopancreatic.png"
                 }
               ]
             },
@@ -4207,15 +4239,18 @@
               "list": [
                 {
                   "heading": "Endoscopic Sleeve Gastroplasty (ESG)",
-                  "description": "Reduces stomach size using sutures, limiting food intake and promoting a feeling of fullness."
+                  "description": "Reduces stomach size using sutures, limiting food intake and promoting a feeling of fullness.",
+                  "icon": "/Images/Icons/Sleeve-Gastrectomy.png"
                 },
                 {
                   "heading": "Intragastric Balloon Placement",
-                  "description": "A saline-filled balloon is temporarily placed in the stomach to reduce appetite."
+                  "description": "A saline-filled balloon is temporarily placed in the stomach to reduce appetite.",
+                  "icon": "/Images/Icons/Intragastric-Balloon.png"
                 },
                 {
                   "heading": "Aspiration Therapy",
-                  "description": "Allows controlled removal of stomach contents post-meal to limit calorie absorption."
+                  "description": "Allows controlled removal of stomach contents post-meal to limit calorie absorption.",
+                  "icon": "/Images/Icons/Aspiration-Therapy.png"
                 }
               ]
             },
@@ -4456,19 +4491,23 @@
             "list": [
               {
                 "heading": "Endoscopy",
-                "text": "To assess the severity and extent of internal damage"
+                "text": "To assess the severity and extent of internal damage",
+                "icon": "/Images/Icons/Endoscopy.png"
               },
               {
                 "heading": "Imaging (CT or X-ray)",
-                "text": "To detect perforations or strictures"
+                "text": "To detect perforations or strictures",
+                "icon": "/Images/Icons/Imaging-Tests.png"
               },
               {
                 "heading": "Blood tests",
-                "text": "To evaluate infection and overall health"
+                "text": "To evaluate infection and overall health",
+                "icon": "/Images/Icons/Blood-Tests.png"
               },
               {
                 "heading": "Barium swallow test",
-                "text": "To check for structural abnormalities like strictures"
+                "text": "To check for structural abnormalities like strictures",
+                "icon": "/Images/Icons/Stool-Tests.png"
               }
             ]
           },
@@ -4478,32 +4517,38 @@
               {
                 "step": 1,
                 "title": "Emergency Stabilization",
-                "description": "Immediate attention to airway, breathing, and circulation."
+                "description": "Immediate attention to airway, breathing, and circulation.",
+                "icon": "/Images/Icons/Emergency.png"
               },
               {
                 "step": 2,
                 "title": "Endoscopic Intervention",
-                "description": "Early evaluation and, if possible, removal of chemical residues."
+                "description": "Early evaluation and, if possible, removal of chemical residues.",
+                "icon": "/Images/Icons/Endoscopy.png"
               },
               {
                 "step": 3,
                 "title": "Nutritional Support",
-                "description": "Intravenous nutrition or feeding tubes to maintain nourishment during healing."
+                "description": "Intravenous nutrition or feeding tubes to maintain nourishment during healing.",
+                "icon": "/Images/Icons/Nutritional-Deficiencies.png"
               },
               {
                 "step": 4,
                 "title": "Stricture Management",
-                "description": "Esophageal dilation or stenting to treat strictures."
+                "description": "Esophageal dilation or stenting to treat strictures.",
+                "icon": "/Images/Icons/Stricture-Management2.png"
               },
               {
                 "step": 5,
                 "title": "Surgical Repair",
-                "description": "For severe damage or perforations, surgical reconstruction of the esophagus or stomach is performed."
+                "description": "For severe damage or perforations, surgical reconstruction of the esophagus or stomach is performed.",
+                "icon": "/Images/Icons/Surgery.png"
               },
               {
                 "step": 6,
                 "title": "Rehabilitation and Counseling",
-                "description": "Long-term support to help patients regain their quality of life."
+                "description": "Long-term support to help patients regain their quality of life.",
+                "icon": "/Images/Icons/Rehabilitation.png"
               }
             ]
           },
@@ -5681,31 +5726,38 @@
               "list": [
                 {
                   "heading": "Persistent fatigue and weakness",
-                  "description": "Ongoing tiredness and lack of energy."
+                  "description": "Ongoing tiredness and lack of energy.",
+                  "icon": "/Images/Icons/Fistula.png"
                 },
                 {
                   "heading": "Jaundice",
-                  "description": "Yellowing of skin and eyes due to elevated bilirubin levels."
+                  "description": "Yellowing of skin and eyes due to elevated bilirubin levels.",
+                  "icon": "/Images/Icons/Jaundice.png"
                 },
                 {
                   "heading": "Swelling in the legs and abdomen (ascites)",
-                  "description": "Fluid retention causing visible swelling."
+                  "description": "Fluid retention causing visible swelling.",
+                  "icon": "/Images/Icons/Severe-Bleeding.png"
                 },
                 {
                   "heading": "Easy bruising or bleeding",
-                  "description": "Reduced ability to clot blood due to liver dysfunction."
+                  "description": "Reduced ability to clot blood due to liver dysfunction.",
+                  "icon": "/Images/Icons/Severe-Bleeding.png"
                 },
                 {
                   "heading": "Loss of appetite and unintentional weight loss",
-                  "description": "Decreased desire to eat, resulting in weight loss."
+                  "description": "Decreased desire to eat, resulting in weight loss.",
+                  "icon": "/Images/Icons/Loss-of-appetite.png"
                 },
                 {
                   "heading": "Nausea, vomiting, and abdominal discomfort",
-                  "description": "Symptoms due to liver inflammation or damage."
+                  "description": "Symptoms due to liver inflammation or damage.",
+                  "icon": "/Images/Icons/vomiting.png"
                 },
                 {
                   "heading": "Confusion or difficulty concentrating (hepatic encephalopathy)",
-                  "description": "Mental changes caused by the liver's inability to remove toxins from the blood."
+                  "description": "Mental changes caused by the liver's inability to remove toxins from the blood.",
+                  "icon": "/Images/Icons/Medication.png"
                 }
               ]
             },
@@ -5718,7 +5770,8 @@
                 },
                 {
                   "heading": "Alcohol Consumption",
-                  "description": "Excessive drinking over time leads to alcoholic liver disease."
+                  "description": "Excessive drinking over time leads to alcoholic liver disease.",
+                  "icon": "/Images/Icons/Alcohol.png"
                 },
                 {
                   "heading": "Non-Alcoholic Fatty Liver Disease (NAFLD)",
@@ -5730,7 +5783,8 @@
                 },
                 {
                   "heading": "Genetic Disorders",
-                  "description": "Conditions like Wilson’s disease and hemochromatosis."
+                  "description": "Conditions like Wilson’s disease and hemochromatosis.",
+                  "icon": "/Images/Icons/Genetics.png"
                 },
                 {
                   "heading": "Prolonged Drug Use",
@@ -5743,15 +5797,18 @@
               "list": [
                 {
                   "heading": "Family history of liver disease",
-                  "description": "Genetic predisposition to liver conditions."
+                  "description": "Genetic predisposition to liver conditions.",
+                  "icon": "/Images/Icons/Advacned-Liver-Care-and-Transplant-Clinic.png"
                 },
                 {
                   "heading": "Long-term alcohol consumption",
-                  "description": "Chronic alcohol use increases liver disease risk."
+                  "description": "Chronic alcohol use increases liver disease risk.",
+                  "icon": "/Images/Icons/Alcohol.png"
                 },
                 {
                   "heading": "Obesity or diabetes",
-                  "description": "Metabolic conditions that strain liver health."
+                  "description": "Metabolic conditions that strain liver health.",
+                  "icon": "/Images/Icons/Obesity-Clinic.png"
                 },
                 {
                   "heading": "Exposure to hepatitis viruses",
@@ -5759,11 +5816,13 @@
                 },
                 {
                   "heading": "Unregulated use of herbal or alternative medicines",
-                  "description": "Some substances may harm the liver over time."
+                  "description": "Some substances may harm the liver over time.",
+                  "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Poor lifestyle habits",
-                  "description": "Factors like an unhealthy diet and lack of exercise."
+                  "description": "Factors like an unhealthy diet and lack of exercise.",
+                  "icon": "/Images/Icons/Dietary-Guidance.png"
                 }
               ]
             },
@@ -5793,11 +5852,13 @@
               "list": [
                 {
                   "heading": "Blood Tests",
-                  "description": "Liver function tests (LFTs) to measure enzyme levels and protein production."
+                  "description": "Liver function tests (LFTs) to measure enzyme levels and protein production.",
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 },
                 {
                   "heading": "Imaging",
-                  "description": "Ultrasound, CT scans, and MRI for detailed liver structure analysis."
+                  "description": "Ultrasound, CT scans, and MRI for detailed liver structure analysis.",
+                  "icon": "/Images/Icons/Imaging-Tests.png"
                 },
                 {
                   "heading": "FibroScan",
@@ -5814,15 +5875,18 @@
               "list": [
                 {
                   "heading": "Lifestyle Modifications",
-                  "description": "A healthy diet, alcohol cessation, and weight management."
+                  "description": "A healthy diet, alcohol cessation, and weight management.",
+                  "icon": "/Images/Icons/Lifestyle.png"
                 },
                 {
                   "heading": "Medications",
-                  "description": "Antiviral drugs for hepatitis, immunosuppressants for autoimmune hepatitis, and other supportive therapies."
+                  "description": "Antiviral drugs for hepatitis, immunosuppressants for autoimmune hepatitis, and other supportive therapies.",
+                  "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Endoscopic Procedures",
-                  "description": "To manage varices and portal hypertension."
+                  "description": "To manage varices and portal hypertension.",
+                  "icon": "/Images/Icons/Endoscopy.png"
                 },
                 {
                   "heading": "Liver Transplant",
@@ -5870,27 +5934,33 @@
               "list": [
                 {
                   "heading": "Jaundice",
-                  "description": "Yellow skin and eyes."
+                  "description": "Yellow skin and eyes.",
+                  "icon": "/Images/Icons/Jaundice.png"
                 },
                 {
                   "heading": "Dark-colored urine and pale stools",
-                  "description": "Indicating liver dysfunction."
+                  "description": "Indicating liver dysfunction.",
+                  "icon": "/Images/Icons/Stool-Tests.png"
                 },
                 {
                   "heading": "Loss of appetite",
-                  "description": "Reduced desire to eat."
+                  "description": "Reduced desire to eat.",
+                  "icon": "/Images/Icons/Loss-of-appetite.png"
                 },
                 {
                   "heading": "Nausea and vomiting",
-                  "description": "Common symptoms of liver inflammation."
+                  "description": "Common symptoms of liver inflammation.",
+                  "icon": "/Images/Icons/vomiting.png"
                 },
                 {
                   "heading": "Fever, joint pain, and fatigue",
-                  "description": "General discomfort and tiredness."
+                  "description": "General discomfort and tiredness.",
+                  "icon": "/Images/Icons/fever.png"
                 },
                 {
                   "heading": "Abdominal pain and bloating",
-                  "description": "Discomfort in the liver region."
+                  "description": "Discomfort in the liver region.",
+                  "icon": "/Images/Icons/abdomen.png"
                 }
               ]
             },
@@ -6019,7 +6089,8 @@
               "list": [
                 {
                   "heading": "Fatigue and general weakness",
-                  "description": "Common symptoms due to liver dysfunction."
+                  "description": "Common symptoms due to liver dysfunction.",
+                  "icon": "/Images/Icons/Fistula.png"
                 },
                 {
                   "heading": "Pain or discomfort in the upper right abdomen",
@@ -6027,7 +6098,8 @@
                 },
                 {
                   "heading": "Unexplained weight loss",
-                  "description": "Unintended loss of weight, typically related to liver health."
+                  "description": "Unintended loss of weight, typically related to liver health.",
+                  "icon": "/Images/Icons/Weight-loss.png"
                 },
                 {
                   "heading": "Enlarged liver (hepatomegaly)",
@@ -6035,7 +6107,8 @@
                 },
                 {
                   "heading": "Jaundice",
-                  "description": "Yellowing of the skin and eyes, seen in advanced cases."
+                  "description": "Yellowing of the skin and eyes, seen in advanced cases.",
+                  "icon": "/Images/Icons/Jaundice.png"
                 }
               ]
             },
@@ -6119,19 +6192,23 @@
               "list": [
                 {
                   "heading": "Liver Function Tests (LFTs)",
-                  "description": "To evaluate enzyme levels and liver function."
+                  "description": "To evaluate enzyme levels and liver function.",
+                  "icon": "/Images/Icons/.png"
                 },
                 {
                   "heading": "Imaging Tests",
-                  "description": "Ultrasound, MRI, and FibroScan to assess fat and fibrosis."
+                  "description": "Ultrasound, MRI, and FibroScan to assess fat and fibrosis.",
+                  "icon": "/Images/Icons/Imaging-Tests.png"
                 },
                 {
                   "heading": "Blood Tests",
-                  "description": "Lipid profile and fasting blood sugar levels to assess risk factors."
+                  "description": "Lipid profile and fasting blood sugar levels to assess risk factors.",
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 },
                 {
                   "heading": "Liver Biopsy",
-                  "description": "To confirm NASH and determine the extent of liver damage."
+                  "description": "To confirm NASH and determine the extent of liver damage.",
+                  "icon": "/Images/Icons/Bariatric-Endoscopy.png"
                 }
               ]
             },
@@ -6140,19 +6217,23 @@
               "list": [
                 {
                   "heading": "Lifestyle Changes",
-                  "description": "Weight loss through a healthy diet and exercise is the primary treatment."
+                  "description": "Weight loss through a healthy diet and exercise is the primary treatment.",
+                  "icon": "/Images/Icons/Lifestyle.png"
                 },
                 {
                   "heading": "Medications",
-                  "description": "To control diabetes, cholesterol, and liver inflammation."
+                  "description": "To control diabetes, cholesterol, and liver inflammation.",
+                  "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Dietary Counseling",
-                  "description": "Customized nutrition plans to reduce fat and improve liver health."
+                  "description": "Customized nutrition plans to reduce fat and improve liver health.",
+                  "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Regular Monitoring",
-                  "description": "Long-term follow-up to assess progress and prevent complications."
+                  "description": "Long-term follow-up to assess progress and prevent complications.",
+                  "icon": "/Images/Icons/Medication.png"
                 }
               ]
             },
@@ -6196,27 +6277,33 @@
               "list": [
                 {
                   "heading": "Unexplained weight loss and loss of appetite",
-                  "description": "A common symptom in liver cancer patients due to liver dysfunction."
+                  "description": "A common symptom in liver cancer patients due to liver dysfunction.",
+                  "icon": "/Images/Icons/Weight-loss.png"
                 },
                 {
                   "heading": "Persistent abdominal pain or discomfort",
-                  "description": "Often related to the growth of tumors in the liver."
+                  "description": "Often related to the growth of tumors in the liver.",
+                  "icon": "/Images/Icons/abdomen.png"
                 },
                 {
                   "heading": "Jaundice (yellowing of skin and eyes)",
-                  "description": "A result of liver dysfunction or tumor blockage."
+                  "description": "A result of liver dysfunction or tumor blockage.",
+                  "icon": "/Images/Icons/Jaundice.png"
                 },
                 {
                   "heading": "Swelling in the abdomen (ascites)",
-                  "description": "Due to fluid buildup as a result of liver damage."
+                  "description": "Due to fluid buildup as a result of liver damage.",
+                  "icon": "/Images/Icons/abdomen.png"
                 },
                 {
                   "heading": "Enlarged liver or lumps in the abdomen",
-                  "description": "An enlargement of the liver caused by tumors."
+                  "description": "An enlargement of the liver caused by tumors.",
+                  "icon": "/Images/Icons/abdomen.png"
                 },
                 {
                   "heading": "Fatigue and weakness",
-                  "description": "A common symptom due to the cancer's impact on overall health."
+                  "description": "A common symptom due to the cancer's impact on overall health.",
+                  "icon": "/Images/Icons/Fistula.png"
                 }
               ]
             },
@@ -6292,19 +6379,23 @@
               "list": [
                 {
                   "heading": "Blood Tests",
-                  "description": "AFP (Alpha-Fetoprotein) levels as tumor markers."
+                  "description": "AFP (Alpha-Fetoprotein) levels as tumor markers.",
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 },
                 {
                   "heading": "Imaging Tests",
-                  "description": "Ultrasound, CT, and MRI scans for detailed imaging of the liver."
+                  "description": "Ultrasound, CT, and MRI scans for detailed imaging of the liver.",
+                  "icon": "/Images/Icons/Imaging-Tests.png"
                 },
                 {
                   "heading": "Liver Biopsy",
-                  "description": "To confirm the presence and type of cancer."
+                  "description": "To confirm the presence and type of cancer.",
+                  "icon": "/Images/Icons/bii.png"
                 },
                 {
                   "heading": "Endoscopic Ultrasound (EUS)",
-                  "description": "For better visualization of small tumors."
+                  "description": "For better visualization of small tumors.",
+                  "icon": "/Images/Icons/Endoscopy.png"
                 }
               ]
             },
@@ -6373,7 +6464,8 @@
               "list": [
                 {
                   "heading": "Abdominal swelling due to fluid accumulation (ascites)",
-                  "description": "Accumulation of fluid in the abdomen, causing noticeable swelling."
+                  "description": "Accumulation of fluid in the abdomen, causing noticeable swelling.",
+                  "icon": "/Images/Icons/abdomen.png"
                 },
                 {
                   "heading": "Enlarged spleen (splenomegaly)",
@@ -6381,7 +6473,8 @@
                 },
                 {
                   "heading": "Blood in stools or vomiting blood (variceal bleeding)",
-                  "description": "Bleeding from enlarged veins in the esophagus or stomach."
+                  "description": "Bleeding from enlarged veins in the esophagus or stomach.",
+                  "icon": "/Images/Icons/Blood-in-stool.png"
                 },
                 {
                   "heading": "Low platelet count",
@@ -6389,11 +6482,13 @@
                 },
                 {
                   "heading": "Abdominal pain or discomfort",
-                  "description": "Pain or discomfort in the abdomen due to portal hypertension."
+                  "description": "Pain or discomfort in the abdomen due to portal hypertension.",
+                  "icon": "/Images/Icons/abdomen.png"
                 },
                 {
                   "heading": "Fatigue and confusion (hepatic encephalopathy)",
-                  "description": "Mental confusion and tiredness due to liver dysfunction."
+                  "description": "Mental confusion and tiredness due to liver dysfunction.",
+                  "icon": "/Images/Icons/Fistula.png"
                 }
               ]
             },
@@ -6473,11 +6568,13 @@
               "list": [
                 {
                   "heading": "Imaging Tests",
-                  "description": "Ultrasound, Doppler studies, and CT/MRI scans to assess blood flow in the portal vein."
+                  "description": "Ultrasound, Doppler studies, and CT/MRI scans to assess blood flow in the portal vein.",
+                  "icon": "/Images/Icons/Imaging-Tests.png"
                 },
                 {
                   "heading": "Endoscopy",
-                  "description": "Used to detect varices (swollen veins) in the esophagus or stomach."
+                  "description": "Used to detect varices (swollen veins) in the esophagus or stomach.",
+                  "icon": "/Images/Icons/Endoscopy.png"
                 },
                 {
                   "heading": "Liver Biopsy",
@@ -6494,11 +6591,13 @@
               "list": [
                 {
                   "heading": "Medications",
-                  "description": "Beta-blockers are used to reduce portal pressure and prevent bleeding."
+                  "description": "Beta-blockers are used to reduce portal pressure and prevent bleeding.",
+                  "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Endoscopic Therapy",
-                  "description": "Band ligation or sclerotherapy to manage variceal bleeding."
+                  "description": "Band ligation or sclerotherapy to manage variceal bleeding.",
+                  "icon": "/Images/Icons/Endoscopy.png"
                 },
                 {
                   "heading": "TIPS Procedure (Transjugular Intrahepatic Portosystemic Shunt)",
@@ -6554,27 +6653,33 @@
               "list": [
                 {
                   "heading": "Fatigue and weakness",
-                  "description": "Feeling tired and weak due to liver damage."
+                  "description": "Feeling tired and weak due to liver damage.",
+                  "icon": "/Images/Icons/Fistula.png"
                 },
                 {
                   "heading": "Jaundice (yellowing of skin and eyes)",
-                  "description": "A yellow tint to the skin and eyes due to liver dysfunction."
+                  "description": "A yellow tint to the skin and eyes due to liver dysfunction.",
+                  "icon": "/Images/Icons/Jaundice.png"
                 },
                 {
                   "heading": "Loss of appetite and weight loss",
-                  "description": "Decreased appetite and unintentional weight loss."
+                  "description": "Decreased appetite and unintentional weight loss.",
+                  "icon": "/Images/Icons/Loss-of-appetite.png"
                 },
                 {
                   "heading": "Swelling in the abdomen and legs (ascites and edema)",
-                  "description": "Bloating and fluid retention, especially in the abdomen and legs."
+                  "description": "Bloating and fluid retention, especially in the abdomen and legs.",
+                  "icon": "/Images/Icons/abdomen.png"
                 },
                 {
                   "heading": "Vomiting blood or blood in stools",
-                  "description": "Presence of blood in stools or vomiting, indicating variceal bleeding."
+                  "description": "Presence of blood in stools or vomiting, indicating variceal bleeding.",
+                  "icon": "/Images/Icons/vomiting.png"
                 },
                 {
                   "heading": "Confusion and mental fog (hepatic encephalopathy)",
                   "description": "Cognitive dysfunction due to liver failure."
+                  
                 }
               ]
             },
@@ -6654,7 +6759,8 @@
                 },
                 {
                   "heading": "Blood Tests",
-                  "description": "Blood tests to assess liver enzymes and overall health."
+                  "description": "Blood tests to assess liver enzymes and overall health.",
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 }
               ]
             },
@@ -6663,15 +6769,18 @@
               "list": [
                 {
                   "heading": "Alcohol Cessation Programs",
-                  "description": "Counseling and rehabilitation to help patients stop drinking alcohol."
+                  "description": "Counseling and rehabilitation to help patients stop drinking alcohol.",
+                  "icon": "/Images/Icons/Alcohol.png"
                 },
                 {
                   "heading": "Medications",
-                  "description": "Medications to manage liver inflammation and complications."
+                  "description": "Medications to manage liver inflammation and complications.",
+                  "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Nutritional Support",
-                  "description": "Addressing deficiencies and providing nutrition to support liver recovery."
+                  "description": "Addressing deficiencies and providing nutrition to support liver recovery.",
+                  "icon": "/Images/Icons/Nutritional-Deficiencies.png"
                 },
                 {
                   "heading": "Liver Transplantation",
@@ -6679,7 +6788,8 @@
                 },
                 {
                   "heading": "Lifestyle Management",
-                  "description": "Exercise, diet, and complete abstinence from alcohol."
+                  "description": "Exercise, diet, and complete abstinence from alcohol.",
+                  "icon": "/Images/Icons/Lifestyle.png"
                 }
               ]
             },
@@ -6723,15 +6833,18 @@
               "list": [
                 {
                   "heading": "Jaundice (yellowing of skin and eyes)",
-                  "description": "Yellowing of the skin and eyes due to liver dysfunction."
+                  "description": "Yellowing of the skin and eyes due to liver dysfunction.",
+                  "icon": "/Images/Icons/Jaundice.png"
                 },
                 {
                   "heading": "Nausea and vomiting",
-                  "description": "Persistent nausea and vomiting due to liver failure."
+                  "description": "Persistent nausea and vomiting due to liver failure.",
+                  "icon": "/Images/Icons/vomiting.png"
                 },
                 {
                   "heading": "Abdominal pain or swelling",
-                  "description": "Pain or swelling in the abdomen due to liver dysfunction."
+                  "description": "Pain or swelling in the abdomen due to liver dysfunction.",
+                  "icon": "/Images/Icons/abdomen.png"
                 },
                 {
                   "heading": "Confusion or altered mental state (encephalopathy)",
@@ -6739,11 +6852,13 @@
                 },
                 {
                   "heading": "Bleeding or bruising easily",
-                  "description": "Increased bleeding or easy bruising due to impaired liver function."
+                  "description": "Increased bleeding or easy bruising due to impaired liver function.",
+                  "icon": "/Images/Icons/Blood-in-stool.png"
                 },
                 {
                   "heading": "Fatigue and weakness",
-                  "description": "Severe tiredness and weakness caused by liver failure."
+                  "description": "Severe tiredness and weakness caused by liver failure.",
+                  "icon": "/Images/Icons/Fistula.png"
                 }
               ]
             },
@@ -6827,11 +6942,13 @@
               "list": [
                 {
                   "heading": "Blood Tests",
-                  "description": "Liver function tests, clotting profile, and viral markers to assess liver damage."
+                  "description": "Liver function tests, clotting profile, and viral markers to assess liver damage.",
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 },
                 {
                   "heading": "Imaging",
-                  "description": "Ultrasound, CT scans to identify liver damage."
+                  "description": "Ultrasound, CT scans to identify liver damage.",
+                  "icon": "/Images/Icons/Imaging-Tests.png"
                 },
                 {
                   "heading": "Liver Biopsy",
@@ -6900,7 +7017,8 @@
               "list": [
                 {
                   "heading": "Persistent jaundice after birth",
-                  "description": "Jaundice that lasts longer than usual after birth."
+                  "description": "Jaundice that lasts longer than usual after birth.",
+                  "icon": "/Images/Icons/Jaundice.png"
                 },
                 {
                   "heading": "Pale stools and dark urine",
@@ -6908,7 +7026,8 @@
                 },
                 {
                   "heading": "Abdominal swelling and enlarged liver",
-                  "description": "Swelling in the abdomen and an enlarged liver due to liver dysfunction."
+                  "description": "Swelling in the abdomen and an enlarged liver due to liver dysfunction.",
+                  "icon": "/Images/Icons/abdomen.png"
                 },
                 {
                   "heading": "Poor weight gain and growth",
@@ -6946,11 +7065,13 @@
               "list": [
                 {
                   "heading": "Blood Tests",
-                  "description": "Tests to assess liver function and genetic/metabolic markers."
+                  "description": "Tests to assess liver function and genetic/metabolic markers.",
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 },
                 {
                   "heading": "Imaging Tests",
-                  "description": "Ultrasound, MRI, and HIDA scans to assess bile flow."
+                  "description": "Ultrasound, MRI, and HIDA scans to assess bile flow.",
+                  "icon": "/Images/Icons/Imaging-Tests.png"
                 },
                 {
                   "heading": "Liver Biopsy",
@@ -6967,7 +7088,8 @@
                 },
                 {
                   "heading": "Medications",
-                  "description": "To manage metabolic disorders and infections."
+                  "description": "To manage metabolic disorders and infections.",
+                  "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Nutritional Support",
@@ -7040,19 +7162,23 @@
               "list": [
                 {
                   "heading": "Jaundice",
-                  "description": "Yellowing of the skin and eyes due to liver dysfunction."
+                  "description": "Yellowing of the skin and eyes due to liver dysfunction.",
+                  "icon": "/Images/Icons/Jaundice.png"
                 },
                 {
                   "heading": "Fatigue and weakness",
-                  "description": "Extreme tiredness and weakness from liver disease."
+                  "description": "Extreme tiredness and weakness from liver disease.",
+                  "icon": "/Images/Icons/Fistula.png"
                 },
                 {
                   "heading": "Abdominal pain and swelling",
-                  "description": "Pain or bloating in the abdomen."
+                  "description": "Pain or bloating in the abdomen.",
+                  "icon": "/Images/Icons/Abdominal-pain.png"
                 },
                 {
                   "heading": "Abnormal blood tests (high liver enzymes)",
-                  "description": "High liver enzyme levels seen in blood tests."
+                  "description": "High liver enzyme levels seen in blood tests.",
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 },
                 {
                   "heading": "Early cirrhosis and liver failure",
@@ -7069,15 +7195,18 @@
               "list": [
                 {
                   "heading": "Genetic Testing",
-                  "description": "Testing for genetic mutations responsible for liver disease."
+                  "description": "Testing for genetic mutations responsible for liver disease.",
+                  "icon": "/Images/Icons/Genetics.png"
                 },
                 {
                   "heading": "Blood Tests",
-                  "description": "Assessing liver enzymes, copper, iron, or protein levels."
+                  "description": "Assessing liver enzymes, copper, iron, or protein levels.",
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 },
                 {
                   "heading": "Imaging",
-                  "description": "MRI, ultrasound to detect liver damage."
+                  "description": "MRI, ultrasound to detect liver damage.",
+                  "icon": "/Images/Icons/Imaging-Tests.png"
                 },
                 {
                   "heading": "Liver Biopsy",
@@ -7090,11 +7219,13 @@
               "list": [
                 {
                   "heading": "Medications",
-                  "description": "Chelation therapy for Wilson’s disease or phlebotomy for hemochromatosis."
+                  "description": "Chelation therapy for Wilson’s disease or phlebotomy for hemochromatosis.",
+                  "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Lifestyle Adjustments",
-                  "description": "Dietary changes to manage conditions."
+                  "description": "Dietary changes to manage conditions.",
+                  "icon": "/Images/Icons/Lifestyle.png"
                 },
                 {
                   "heading": "Liver Transplant",

@@ -6,7 +6,7 @@ import {
   ListItemText,
   ListItemIcon,
 } from "@mui/material";
-import HealthAndSafetyIcon from "@mui/icons-material/HealthAndSafety";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Grid from "@mui/material/Grid2";
 const Complications = ({ complications }) => {
   return (
@@ -37,7 +37,7 @@ const Complications = ({ complications }) => {
                       }}
                     />
                   ) : (
-                    <HealthAndSafetyIcon className="p0" />
+                    <ArrowForwardIosIcon className="p0"/>
                   )}
                 </ListItemIcon>
                 <ListItemText

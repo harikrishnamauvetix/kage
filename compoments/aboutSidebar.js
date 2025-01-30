@@ -15,8 +15,11 @@ const AboutsidebarMenu = ({ service }) => {
   console.log(pageLink, "pagelink");
   return (
     <List className="sideSubmenu">
+
+
       <ListItem
         button
+        key={service?.page}
         sx={{
           backgroundColor: isMainPageActive ? "primary.main" : "transparent",
           "&:hover": {
@@ -48,14 +51,14 @@ const AboutsidebarMenu = ({ service }) => {
         </Link>
       </ListItem>
 
-      {service?.subpages?.map((subpage) => {
+      {service?.subpages?.map((subpage,index) => {
         const subpageLink = `/about/${subpage.page.replace(/ /g, "-")}`;
         const isSubpageActive = currentSlug === subpage.page.replace(/ /g, "-");
 
         return (
           <ListItem
             button
-            key={subpage.slug}
+            key={subpage.slug || `${subpage.page}-${index}`}
             sx={{
               backgroundColor: isSubpageActive ? "primary.main" : "transparent",
               "&:hover": {

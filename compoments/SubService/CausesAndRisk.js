@@ -6,7 +6,7 @@ import {
   ListItemText,
   ListItemIcon,
 } from "@mui/material";
-import HealthAndSafetyIcon from "@mui/icons-material/HealthAndSafety";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Grid from "@mui/material/Grid2";
 const CausesAndRisk = ({ causesAndRisk = {} }) => {
   const { heading, list, description } = causesAndRisk;
@@ -37,7 +37,7 @@ const CausesAndRisk = ({ causesAndRisk = {} }) => {
                       }}
                     />
                   ) : (
-                    <HealthAndSafetyIcon />
+                    <ArrowForwardIosIcon />
                   )}
           
                 
