@@ -2270,7 +2270,7 @@
                   "step": 1,
                   "title": "Endoscopy (Colonoscopy and Sigmoidoscopy)",
                   "description": "To visualize and biopsy the intestinal lining.",
-                  "icon": "/Images/Icons/Endoscopy.png"
+                  "icon": "/Images/Icons/Endoscopy-Plus.png"
                 },
                 {
                   "step": 2,
@@ -2312,7 +2312,7 @@
                 "step": 3,
                 "title": "Surgery",
                 "description": "Performed in advanced cases, focusing on removing affected portions or repairing damage.",
-                "icon": "/Images/Icons/Surgery.png"
+                "icon": "/Images/Icons/Surgery-treatment.png"
               },
               {
                 "step": 4,
@@ -2458,7 +2458,7 @@
                 {
                   "heading": "Surgery",
                   "description": "Surgical intervention may be required for complications like bowel obstructions or fistulas.",
-                  "icon": "/Images/Icons/Surgery.png"
+                  "icon": "/Images/Icons/Surgery-treatment.png"
                 }
               ]
             },
@@ -2539,7 +2539,7 @@
                 {
                   "heading": "Environmental Factors",
                   "description": "Diet and lifestyle, including a high-fat diet, may trigger or exacerbate symptoms.",
-                  "icon": "/Images/Icons/Surgery.png"
+                  "icon": "/Images/Icons/Surgery-treatment.png"
                 }
               ]
             },
@@ -2604,7 +2604,7 @@
                 {
                   "heading": "Surgery",
                   "description": "Colectomy (removal of the colon) may be necessary for severe, refractory cases.",
-                  "icon": "/Images/Icons/Surgery.png"
+                  "icon": "/Images/Icons/Surgery-treatment.png"
                 }
               ]
             },
@@ -2682,7 +2682,7 @@
                   "step": 1,
                   "title": "Endoscopic Ultrasound (EUS)",
                   "description": "High-resolution imaging to detect pancreatic abnormalities.",
-                  "icon": "/Images/Icons/Endoscopy.png"
+                  "icon": "/Images/Icons/Endoscopy-Plus.png"
                 },
                 {
                   "step": 2,
@@ -3018,7 +3018,7 @@
                     {
                       "heading": "Endoscopic Ultrasound (EUS)",
                       "description": "A detailed evaluation of the pancreas.",
-                      "icon": "/Images/Icons/Endoscopy.png"
+                      "icon": "/Images/Icons/Endoscopy-Plus.png"
                     },
                     {
                       "heading": "Stool Tests",
@@ -3043,7 +3043,7 @@
                     {
                       "heading": "Endoscopic or Surgical Interventions",
                       "description": "To manage ductal strictures or relieve blockages.",
-                      "icon": "/Images/Icons/Endoscopy.png"
+                      "icon": "/Images/Icons/Endoscopy-Plus.png"
                     },
                     {
                       "heading": "Diabetes Management",
@@ -3239,7 +3239,7 @@
                 {
                   "heading": "Endoscopic Ultrasound (EUS)",
                   "description": "Enables precise visualization and fine-needle aspiration for fluid analysis.",
-                  "icon": "/Images/Icons/Endoscopy.png"
+                  "icon": "/Images/Icons/Endoscopy-Plus.png"
                 },
                 {
                   "heading": "Biomarker Tests",
@@ -3259,7 +3259,7 @@
                 {
                   "heading": "Surgical Interventions",
                   "description": "For symptomatic or suspicious cysts, laparoscopic or open surgery may be needed.",
-                  "icon": "/Images/Icons/Surgery.png"
+                  "icon": "/Images/Icons/Surgery-treatment.png"
                 },
                 {
                   "heading": "Minimally Invasive Procedures",
@@ -3429,7 +3429,7 @@
                 {
                   "heading": "Endoscopic Ultrasound (EUS)",
                   "description": "Offers high-definition imaging and enables fine-needle biopsy.",
-                  "icon": "/Images/Icons/Endoscopy.png"
+                  "icon": "/Images/Icons/Endoscopy-Plus.png"
                 },
                 {
                   "heading": "Biopsy",
@@ -3454,7 +3454,7 @@
                 {
                   "heading": "Surgery",
                   "description": "Various surgical options like the Whipple procedure, distal pancreatectomy, or total pancreatectomy may be considered depending on the cancer stage.",
-                  "icon": "/Images/Icons/Surgery.png"
+                  "icon": "/Images/Icons/Surgery-treatment.png"
                 },
                 {
                   "heading": "Radiation Therapy",
@@ -4492,7 +4492,7 @@
               {
                 "heading": "Endoscopy",
                 "text": "To assess the severity and extent of internal damage",
-                "icon": "/Images/Icons/Endoscopy.png"
+                "icon": "/Images/Icons/Endoscopy-Plus.png"
               },
               {
                 "heading": "Imaging (CT or X-ray)",
@@ -4524,7 +4524,7 @@
                 "step": 2,
                 "title": "Endoscopic Intervention",
                 "description": "Early evaluation and, if possible, removal of chemical residues.",
-                "icon": "/Images/Icons/Endoscopy.png"
+                "icon": "/Images/Icons/Endoscopy-Plus.png"
               },
               {
                 "step": 3,
@@ -4542,7 +4542,7 @@
                 "step": 5,
                 "title": "Surgical Repair",
                 "description": "For severe damage or perforations, surgical reconstruction of the esophagus or stomach is performed.",
-                "icon": "/Images/Icons/Surgery.png"
+                "icon": "/Images/Icons/Surgery-treatment.png"
               },
               {
                 "step": 6,
@@ -5002,27 +5002,32 @@
                 {
                   "step": 1,
                   "title": "High-Resolution Manometry (HRM)",
-                  "description": "Measures pressure and muscle activity in the esophagus or anorectal region to evaluate motility."
+                  "description": "Measures pressure and muscle activity in the esophagus or anorectal region to evaluate motility.",
+                "icon": "/Images/Icons/Nutritional-Deficiencies.png"
                 },
                 {
                   "step": 2,
                   "title": "Impedance Testing",
-                  "description": "Evaluates esophageal function and acid reflux."
+                  "description": "Evaluates esophageal function and acid reflux.",
+                    "icon": "/Images/Icons/Impedance-Testing.png"
                 },
                 {
                   "step": 3,
                   "title": "Gastric Emptying Studies",
-                  "description": "Assesses stomach emptying in patients with suspected gastroparesis."
+                  "description": "Assesses stomach emptying in patients with suspected gastroparesis.",
+                    "icon": "/Images/Icons/Gastric-Emptying-Studies.png"
                 },
                 {
                   "step": 4,
                   "title": "SmartPill Testing",
-                  "description": "A wireless capsule that measures GI motility throughout the digestive tract."
+                  "description": "A wireless capsule that measures GI motility throughout the digestive tract.",
+                    "icon": "/Images/Icons/SmartPill.png"
                 },
                 {
                   "step": 5,
                   "title": "Endoscopic Evaluation",
-                  "description": "To rule out structural abnormalities in the digestive tract."
+                  "description": "To rule out structural abnormalities in the digestive tract.",
+                    "icon": "/Images/Icons/Endoscopy-Plus.png"
                 }
               ]
             }
@@ -5033,27 +5038,32 @@
               {
                 "step": 1,
                 "title": "Lifestyle Modifications",
-                "description": "Diet counseling to manage symptoms and stress reduction techniques."
+                "description": "Diet counseling to manage symptoms and stress reduction techniques.",
+                    "icon": "/Images/Icons/Lifestyle.png"
               },
               {
                 "step": 2,
                 "title": "Medical Management",
-                "description": "Prokinetic medications to improve motility, antispasmodics for symptom relief, and laxatives or fiber supplements for constipation."
+                "description": "Prokinetic medications to improve motility, antispasmodics for symptom relief, and laxatives or fiber supplements for constipation.",
+                    "icon": "/Images/Icons/Medication.png"
               },
               {
                 "step": 3,
                 "title": "Endoscopic Interventions",
-                "description": "Including procedures like Peroral Endoscopic Myotomy (POEM) for achalasia and Botox injections for gastroparesis."
+                "description": "Including procedures like Peroral Endoscopic Myotomy (POEM) for achalasia and Botox injections for gastroparesis.",
+                    "icon": "/Images/Icons/Endoscopic-AME"
               },
               {
                 "step": 4,
                 "title": "Surgical Treatments",
-                "description": "For severe or refractory cases, including fundoplication for GERD or surgical gastric bypass for gastroparesis."
+                "description": "For severe or refractory cases, including fundoplication for GERD or surgical gastric bypass for gastroparesis.",
+                    "icon": "/Images/Icons/Surgery-treatment.png"
               },
               {
                 "step": 5,
                 "title": "Pelvic Floor Rehabilitation",
-                "description": "Specialized therapies for fecal incontinence or chronic constipation caused by pelvic floor dysfunction."
+                "description": "Specialized therapies for fecal incontinence or chronic constipation caused by pelvic floor dysfunction.",
+                    "icon": "/Images/Icons/Rehabilitation.png"
               }
             ]
           },
@@ -5107,23 +5117,29 @@
               "list": [
                 {
                   "heading": "Difficulty swallowing (dysphagia)",
-                  "description": "A primary symptom where individuals struggle to swallow food or liquids."
+                  "description": "A primary symptom where individuals struggle to swallow food or liquids.",
+                    "icon": "/Images/Icons/Difficulty-swallowing.png"
+             
                 },
                 {
                   "heading": "Regurgitation of undigested food",
-                  "description": "Food or liquids may come back up into the throat without being digested."
+                  "description": "Food or liquids may come back up into the throat without being digested.",
+                    "icon": "/Images/Icons/Regurgitation-of-undigested-food.png"
                 },
                 {
                   "heading": "Chest pain, especially after eating",
-                  "description": "Pain or discomfort in the chest caused by trapped food in the esophagus."
+                  "description": "Pain or discomfort in the chest caused by trapped food in the esophagus.",
+                    "icon": "/Images/Icons/Chest-pain.png"
                 },
                 {
                   "heading": "Weight loss",
-                  "description": "Unintended loss of weight due to difficulty eating and reduced intake."
+                  "description": "Unintended loss of weight due to difficulty eating and reduced intake.",
+                    "icon": "/Images/Icons/Weight-loss.png"
                 },
                 {
                   "heading": "Persistent cough or choking",
-                  "description": "Coughing or choking episodes, often triggered by regurgitation."
+                  "description": "Coughing or choking episodes, often triggered by regurgitation.",
+                    "icon": "/Images/Icons/Persistent-cough-or-choking.png"
                 }
               ]
             },
@@ -5183,19 +5199,23 @@
               "list": [
                 {
                   "heading": "Medications",
-                  "description": "Nitrates or calcium channel blockers to relax the LES."
+                  "description": "Nitrates or calcium channel blockers to relax the LES.",
+                    "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Botox Injections",
-                  "description": "Provides temporary relief by relaxing esophageal muscles."
+                  "description": "Provides temporary relief by relaxing esophageal muscles.",
+                    "icon": "/Images/Icons/Botox-Injections.png"
                 },
                 {
                   "heading": "Endoscopic Procedures",
-                  "description": "Minimally invasive procedures like Peroral Endoscopic Myotomy (POEM) to cut the LES muscle."
+                  "description": "Minimally invasive procedures like Peroral Endoscopic Myotomy (POEM) to cut the LES muscle.",
+                    "icon": "/Images/Icons/Endoscopic-AME.png"
                 },
                 {
                   "heading": "Surgery",
-                  "description": "Laparoscopic procedures like Heller Myotomy to release the tight LES muscle."
+                  "description": "Laparoscopic procedures like Heller Myotomy to release the tight LES muscle.",
+                    "icon": "/Images/Icons/Surgery-treatment.png"
                 }
               ]
             },
@@ -5218,19 +5238,23 @@
               "list": [
                 {
                   "heading": "Nausea and vomiting, especially after meals",
-                  "description": "Frequent nausea and episodes of vomiting following food consumption."
+                  "description": "Frequent nausea and episodes of vomiting following food consumption.",
+                    "icon": "/Images/Icons/vomiting.png"
                 },
                 {
                   "heading": "Abdominal bloating and pain",
-                  "description": "The stomach may feel distended and painful due to delayed emptying."
+                  "description": "The stomach may feel distended and painful due to delayed emptying.",
+                    "icon": "/Images/Icons/Bloating.png"
                 },
                 {
                   "heading": "Feeling full quickly when eating",
-                  "description": "Individuals may struggle to eat normal portions without discomfort."
+                  "description": "Individuals may struggle to eat normal portions without discomfort.",
+                    "icon": "/Images/Icons/abdomen.png"
                 },
                 {
                   "heading": "Weight loss or malnutrition",
-                  "description": "Reduced food intake can result in significant weight loss and nutrient deficiencies."
+                  "description": "Reduced food intake can result in significant weight loss and nutrient deficiencies.",
+                    "icon": "/Images/Icons/Weight-loss.png"
                 }
               ]
             },
@@ -5270,19 +5294,23 @@
               "list": [
                 {
                   "heading": "Abdominal pain or cramping",
-                  "description": "Pain or discomfort, typically relieved after bowel movements."
+                  "description": "Pain or discomfort, typically relieved after bowel movements.",
+                    "icon": "/Images/Icons/abdominal-pain-ibs.png"
                 },
                 {
                   "heading": "Chronic diarrhea or constipation",
-                  "description": "Persistent or alternating diarrhea and constipation are hallmark symptoms."
+                  "description": "Persistent or alternating diarrhea and constipation are hallmark symptoms.",
+                    "icon": "/Images/Icons/Chronicpain-ibs.png"
                 },
                 {
                   "heading": "Bloating and excessive gas",
-                  "description": "A frequent sensation of fullness and increased gas production."
+                  "description": "A frequent sensation of fullness and increased gas production.",
+                    "icon": "/Images/Icons/Bloating-ibs.png"
                 },
                 {
                   "heading": "Mucus in stool",
-                  "description": "Noticeable mucus discharge during bowel movements."
+                  "description": "Noticeable mucus discharge during bowel movements.",
+                    "icon": "/Images/Icons/Persistent-diarrhea-ibs.png"
                 }
               ]
             },
@@ -5342,15 +5370,18 @@
               "list": [
                 {
                   "heading": "Dietary Changes",
-                  "description": "A low FODMAP diet helps reduce triggers and alleviate symptoms."
+                  "description": "A low FODMAP diet helps reduce triggers and alleviate symptoms.",
+                    "icon": "/Images/Icons/Dietary-Guidance.png"
                 },
                 {
                   "heading": "Medications",
-                  "description": "Includes antispasmodics, fiber supplements, and drugs for diarrhea or constipation."
+                  "description": "Includes antispasmodics, fiber supplements, and drugs for diarrhea or constipation.",
+                    "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Lifestyle Modifications",
-                  "description": "Stress reduction, regular exercise, and improved sleep support overall health."
+                  "description": "Stress reduction, regular exercise, and improved sleep support overall health.",
+                    "icon": "/Images/Icons/Lifestyle.png"
                 }
               ]
             },
@@ -5373,19 +5404,23 @@
               "list": [
                 {
                   "heading": "Fewer than three bowel movements per week",
-                  "description": "An infrequent pattern of bowel movements compared to normal."
+                  "description": "An infrequent pattern of bowel movements compared to normal.",
+                    "icon": "/Images/Icons/Bowel-cc.png"
                 },
                 {
                   "heading": "Hard or lumpy stools",
-                  "description": "Stools that are difficult to pass due to their texture."
+                  "description": "Stools that are difficult to pass due to their texture.",
+                    "icon": "/Images/Icons/Blood-in-stool-cc.png"
                 },
                 {
                   "heading": "Straining during bowel movements",
-                  "description": "Excessive effort required to pass stool."
+                  "description": "Excessive effort required to pass stool.",
+                    "icon": "/Images/Icons/Straining-during-bowel-movements.png"
                 },
                 {
                   "heading": "Incomplete evacuation sensation",
-                  "description": "A feeling that the bowel hasn’t completely emptied."
+                  "description": "A feeling that the bowel hasn’t completely emptied.",
+                    "icon": "/Images/Icons/Incomplete-evacuation-sensation.png"
                 }
               ]
             },
@@ -5449,15 +5484,18 @@
               "list": [
                 {
                   "heading": "Lifestyle Changes",
-                  "description": "Increasing fiber and water intake, combined with regular exercise."
+                  "description": "Increasing fiber and water intake, combined with regular exercise.",
+                    "icon": "/Images/Icons/Lifestyle.png"
                 },
                 {
                   "heading": "Medications",
-                  "description": "Laxatives, stool softeners, or prescription motility agents help manage symptoms."
+                  "description": "Laxatives, stool softeners, or prescription motility agents help manage symptoms.",
+                    "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Pelvic Floor Rehabilitation",
-                  "description": "Biofeedback therapy to improve muscle coordination during defecation."
+                  "description": "Biofeedback therapy to improve muscle coordination during defecation.",
+                    "icon": "/Images/Icons/Rehabilitation.png"
                 }
               ]
             },
@@ -5544,15 +5582,18 @@
               "list": [
                 {
                   "heading": "Lifestyle Modifications",
-                  "description": "Includes diet changes to improve stool consistency and avoid triggers."
+                  "description": "Includes diet changes to improve stool consistency and avoid triggers.",
+                    "icon": "/Images/Icons/Lifestyle.png"
                 },
                 {
                   "heading": "Pelvic Floor Therapy",
-                  "description": "Exercises and biofeedback to strengthen and improve muscle control."
+                  "description": "Exercises and biofeedback to strengthen and improve muscle control.",
+                    "icon": "/Images/Icons/Targeted-Therapy.png"
                 },
                 {
                   "heading": "Surgical Interventions",
-                  "description": "Procedures like sphincter repair or sacral nerve stimulation for severe cases."
+                  "description": "Procedures like sphincter repair or sacral nerve stimulation for severe cases.",
+                    "icon": "/Images/Icons/Surgery-treatment.png"
                 }
               ]
             },
@@ -5886,7 +5927,7 @@
                 {
                   "heading": "Endoscopic Procedures",
                   "description": "To manage varices and portal hypertension.",
-                  "icon": "/Images/Icons/Endoscopy.png"
+                  "icon": "/Images/Icons/Endoscopy-Plus.png"
                 },
                 {
                   "heading": "Liver Transplant",
@@ -6094,7 +6135,8 @@
                 },
                 {
                   "heading": "Pain or discomfort in the upper right abdomen",
-                  "description": "Pain often associated with liver enlargement."
+                  "description": "Pain often associated with liver enlargement.",
+                  "icon": "/Images/Icons/Pain-or-discomfort-in-the-upper-right-abdomen.png"
                 },
                 {
                   "heading": "Unexplained weight loss",
@@ -6103,7 +6145,8 @@
                 },
                 {
                   "heading": "Enlarged liver (hepatomegaly)",
-                  "description": "Abnormal enlargement of the liver."
+                  "description": "Abnormal enlargement of the liver.",
+                  "icon": "/Images/Icons/Enlarged-liver.png"
                 },
                 {
                   "heading": "Jaundice",
@@ -6228,12 +6271,12 @@
                 {
                   "heading": "Dietary Counseling",
                   "description": "Customized nutrition plans to reduce fat and improve liver health.",
-                  "icon": "/Images/Icons/Medication.png"
+                  "icon": "/Images/Icons/Dietary-Counseling_2.png.png"
                 },
                 {
                   "heading": "Regular Monitoring",
                   "description": "Long-term follow-up to assess progress and prevent complications.",
-                  "icon": "/Images/Icons/Medication.png"
+                  "icon": "/Images/Icons/Regular-Monitoring.png"
                 }
               ]
             },
@@ -6293,17 +6336,17 @@
                 {
                   "heading": "Swelling in the abdomen (ascites)",
                   "description": "Due to fluid buildup as a result of liver damage.",
-                  "icon": "/Images/Icons/abdomen.png"
+                  "icon": "/Images/Icons/Swelling-in-the-abdomen-(ascites).png"
                 },
                 {
                   "heading": "Enlarged liver or lumps in the abdomen",
                   "description": "An enlargement of the liver caused by tumors.",
-                  "icon": "/Images/Icons/abdomen.png"
+                  "icon": "/Images/Icons/Enlarged-liver-LC.png"
                 },
                 {
                   "heading": "Fatigue and weakness",
                   "description": "A common symptom due to the cancer's impact on overall health.",
-                  "icon": "/Images/Icons/Fistula.png"
+                  "icon": "/Images/Icons/Fatigue-LC.png"
                 }
               ]
             },
@@ -6395,7 +6438,7 @@
                 {
                   "heading": "Endoscopic Ultrasound (EUS)",
                   "description": "For better visualization of small tumors.",
-                  "icon": "/Images/Icons/Endoscopy.png"
+                  "icon": "/Images/Icons/Endoscopy-Plus.png"
                 }
               ]
             },
@@ -6574,7 +6617,7 @@
                 {
                   "heading": "Endoscopy",
                   "description": "Used to detect varices (swollen veins) in the esophagus or stomach.",
-                  "icon": "/Images/Icons/Endoscopy.png"
+                  "icon": "/Images/Icons/Endoscopy-Plus.png"
                 },
                 {
                   "heading": "Liver Biopsy",
@@ -6597,19 +6640,22 @@
                 {
                   "heading": "Endoscopic Therapy",
                   "description": "Band ligation or sclerotherapy to manage variceal bleeding.",
-                  "icon": "/Images/Icons/Endoscopy.png"
+                  "icon": "/Images/Icons/Endoscopy-Plus.png"
                 },
                 {
                   "heading": "TIPS Procedure (Transjugular Intrahepatic Portosystemic Shunt)",
-                  "description": "A minimally invasive procedure to reduce portal vein pressure."
+                  "description": "A minimally invasive procedure to reduce portal vein pressure.",
+                  "icon": "/Images/Icons/TIPS-Procedure.png"
                 },
                 {
                   "heading": "Paracentesis",
-                  "description": "Draining fluid buildup in ascites to reduce abdominal swelling."
+                  "description": "Draining fluid buildup in ascites to reduce abdominal swelling.",
+                  "icon": "/Images/Icons/Paracentesis.png"
                 },
                 {
                   "heading": "Liver Transplant",
-                  "description": "For severe cases of portal hypertension with advanced liver disease."
+                  "description": "For severe cases of portal hypertension with advanced liver disease.",
+                  "icon": "/Images/Icons/Liver-Transplant.png"
                 }
               ]
             },
@@ -7352,6 +7398,7 @@
     "address": "C/O Gastroenterology department, KIM's Hospital , 1-8-31/1, Minister Road Krishna Nagar Colony, Ramgopalpet, Begumpet, Secunderabad, Hyderabad, Telangana 500003",
     "map": {
       "iframelink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15047.476207008736!2d78.46386398715822!3d17.436907700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9be10c4c5013%3A0x5581bd5a2711edb!2sKAGE!5e1!3m2!1sen!2sin!4v1738058832256!5m2!1sen!2sin"
-    }
+    },
+    "contactImage":"/Images/Home/contact.jpg"
   }
 }

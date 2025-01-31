@@ -70,7 +70,7 @@ const Home = () => {
         <PatientVideos patientvideos={websiteJson.Patientvideos} />
         <DoctorVideos doctorvideos={websiteJson.doctorvideos} />
       </Box>
-      <Contactinfo />
+      <Contactinfo Contactinfo={websiteJson.hospitalInfo} />
       {/* <AppointmentForm></AppointmentForm> */}
       <Footer></Footer>
     </Box>

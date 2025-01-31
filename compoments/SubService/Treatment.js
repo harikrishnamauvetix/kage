@@ -2,6 +2,7 @@
 import React from "react";
 import {  Typography, List, ListItem, ListItemText, ListItemIcon } from "@mui/material";
 import HealthAndSafetyIcon from "@mui/icons-material/HealthAndSafety";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Grid from "@mui/material/Grid2";
 const Treatment = ({ treatment }) => {
   return (
@@ -32,7 +33,7 @@ const Treatment = ({ treatment }) => {
                       }}
                     />
                   ) : (
-                    <HealthAndSafetyIcon className="p0" />
+                    <ArrowForwardIosIcon className="p0" />
                   )}
           
                   </ListItemIcon>

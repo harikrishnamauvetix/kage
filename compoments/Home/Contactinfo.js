@@ -5,7 +5,7 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import EmailIcon from "@mui/icons-material/Email";
 import Grid from "@mui/material/Grid2";
-const Contactinfo = () => {
+const Contactinfo = (props) => {
   return (
     <>
       <Container>
@@ -21,7 +21,8 @@ const Contactinfo = () => {
             <Grid size={{ xs: 12, sm: 6, md: 6 }}>
               <Box
                 component="img"
-                src="https://picsum.photos/seed/picsum/800/400" // Replace with actual image path
+                src={props.Contactinfo?.contactImage}
+              
                 alt="KIMS Cuddles"
                 sx={{
                   width: "100%",
@@ -61,26 +62,27 @@ const Contactinfo = () => {
                         Address:
                       </Typography>
                       <Typography>
-                      1-8-31/1, Minister Rd, Krishna Nagar Colony, Begumpet, Secunderabad - 500003 Telangana INDIA.
+                    {props.Contactinfo?.address}
                       </Typography>
                     </Box>
                   </ListItem>
-                  <ListItem>
+                  {/* <ListItem>
                     <PhoneIcon sx={{ mr: 1 }} />
                     <Box>
                       <Typography variant="subtitle1" fontWeight="bold">
                         Contact Number:
                       </Typography>
-                      <Typography>040 4488 5333</Typography>
+                      <Typography> {props.Contactinfo?.address}</Typography>
                     </Box>
-                  </ListItem>
+                  </ListItem> */}
                   <ListItem>
                     <CalendarMonthIcon sx={{ mr: 1 }} />
                     <Box>
                       <Typography variant="subtitle1" fontWeight="bold">
                         Appointment Number:
                       </Typography>
-                      <Typography>7288842255</Typography>
+                      <Typography> {props.Contactinfo?.phoneNumber}</Typography>
+                  
                     </Box>
                   </ListItem>
                   <ListItem>
@@ -89,7 +91,7 @@ const Contactinfo = () => {
                       <Typography variant="subtitle1" fontWeight="bold">
                         Email:
                       </Typography>
-                      <Typography>appointments.kage@gmail.com</Typography>
+                      <Typography> {props.Contactinfo?.emailid}</Typography>
                     </Box>
                   </ListItem>
                 </List>

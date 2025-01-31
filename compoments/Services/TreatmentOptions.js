@@ -6,7 +6,7 @@ import {
   ListItemIcon,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
 function TreatmentOptions({ treatments }) {
   if (!treatments?.heading || !treatments?.steps?.length) return null;
@@ -37,7 +37,7 @@ function TreatmentOptions({ treatments }) {
                       }}
                     />
                   ) : (
-                    <MedicalServicesIcon fontSize="large" color="primary" />
+                    <ArrowForwardIosIcon fontSize="large" color="primary" />
                   )}
                 </ListItemIcon>
                 <ListItemText
