@@ -16,7 +16,7 @@ import {
 import Grid from "@mui/material/Grid2";
 import Image from "next/image";
 import Link from "next/link";
-const ProceduresList = (props) => {
+const Services = (props) => {
   return (
     <>
       <Box
@@ -24,7 +24,7 @@ const ProceduresList = (props) => {
         sx={{
           pt: { xs: 4, sm: 4 },
           pb: { xs: 8, sm: 4 },
-          backgroundColor: "background.default",
+
           color: "black",
         }}
       >
@@ -44,11 +44,11 @@ const ProceduresList = (props) => {
             }}
           >
             <Typography component="h2" variant="h4" color="secondary.main">
-            Advanced Procedures
+              Services
             </Typography>
           </Box>
           <Grid container spacing={2}>
-            {props?.advancedprocedures?.map((item, index) => (
+            {props?.services?.map((item, index) => (
               <Grid size={{ xs: 12, sm: 6, md: 4 }} key={index}>
                 <Stack
                   direction="column"
@@ -77,7 +77,7 @@ const ProceduresList = (props) => {
                   </Box>
                   <Box sx={{ px: 1 }}>
                     <Link
-                      href={`/advanced-procedures/${item.title
+                      href={`/services/${item.title
                         .replace(/\s+/g, "-")
                         .toLowerCase()}`}
                       passHref
@@ -100,29 +100,24 @@ const ProceduresList = (props) => {
                         {item.title}
                       </Typography>
                     </Link>
-
-                    {item.sections?.[0]?.content &&
-                    Array.isArray(item.sections[0].content) ? (
-                      <Typography
-                        key={0}
-                        variant="body1"
-                        sx={{ color: "#000", marginBottom: "10px" }}
-                      >
-                        {item.sections[0].content[0].length > 100
-                          ? `${item.sections[0].content[0].slice(0, 100)}...`
-                          : item.sections[0].content[0]}
-                      </Typography>
-                    ) : (
-                      <Typography
-                        variant="body1"
-                        sx={{ color: "#000", marginBottom: "10px" }}
-                      >
-                        {item.sections?.[0]?.content}
-                      </Typography>
-                    )}
+                    {item.content &&
+                      item.content.map((contentItem, cIndex) => (
+                        <div key={cIndex}>
+                          <Typography
+                            variant="body1"
+                            gutterBottom
+                            sx={{ textAlign: "justify" }}
+                          >
+                            {/* {contentItem?.description} */}
+                            {contentItem?.description.length > 100
+                              ? `${contentItem?.description.slice(0, 100)}...`
+                              : contentItem?.description}
+                          </Typography>
+                        </div>
+                      ))}
 
                     <Link
-                      href={`/advanced-procedures/${item.title
+                      href={`/services/${item.title
                         .replace(/\s+/g, "-")
                         .toLowerCase()}`}
                       passHref
@@ -148,4 +143,4 @@ const ProceduresList = (props) => {
   );
 };
 
-export default ProceduresList;
+export default Services;

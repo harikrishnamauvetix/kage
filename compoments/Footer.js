@@ -65,7 +65,7 @@ export default function Footer() {
             <Typography variant="h6" gutterBottom>
               Speciality Clinics
             </Typography>
-            {websiteJson?.services?.map((service) => (
+            {websiteJson?.specialityclinics?.map((service) => (
               <Grid item xs={12} sm={6} md={6} key={service.title}>
                 <Link
                   href={`/speciality-clinics/${service.title

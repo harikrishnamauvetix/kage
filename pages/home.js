@@ -38,6 +38,7 @@ import DoctorVideos from "@/compoments/Home/DoctorVideos";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import DoctorsLists from "../compoments/Doctors/DoctorsLists";
 import AboutSection from "@/compoments/Home/AboutSection";
+import Services from "@/compoments/Home/Services";
 
 const Home = () => {
   return (
@@ -63,10 +64,11 @@ const Home = () => {
         </Swiper>
         <AboutSection homeabout={websiteJson} />
 
-        <SpecialityClinics specialityclinics={websiteJson.services} />
+        <SpecialityClinics specialityclinics={websiteJson.specialityclinics} />
 
         <DoctorsLists doctorsList={websiteJson.doctorsList}></DoctorsLists>
-        <ProceduresList procedures={websiteJson.procedures}></ProceduresList>
+        <ProceduresList advancedprocedures={websiteJson.advancedprocedures}></ProceduresList>
+        <Services services={websiteJson.services} />
         <PatientVideos patientvideos={websiteJson.Patientvideos} />
         <DoctorVideos doctorvideos={websiteJson.doctorvideos} />
       </Box>

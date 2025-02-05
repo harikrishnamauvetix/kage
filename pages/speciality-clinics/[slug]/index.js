@@ -34,8 +34,8 @@ export default function ServicePage() {
   useEffect(() => {
     if (!slug) return;
 
-    if (websiteJson && websiteJson.services) {
-      const foundSpeciality = websiteJson.services.find(
+    if (websiteJson && websiteJson.specialityclinics) {
+      const foundSpeciality = websiteJson.specialityclinics.find(
         (item) => item.title.replace(/\s+/g, "-").toLowerCase() === slug
       );
       setService(foundSpeciality);

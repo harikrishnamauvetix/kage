@@ -37,9 +37,9 @@ export default function specialityList() {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo pagename={"Procedures"} />
+      <Breadcrumbsinfo pagename={"Advanced Procedures"} />
 
-      <ProceduresList procedures={websiteJson.procedures}></ProceduresList>
+      <ProceduresList advancedprocedures={websiteJson.advancedprocedures}></ProceduresList>
       <PatientVideos  patientvideos={websiteJson?.Patientvideos}/>
       <Footer></Footer>
     </>

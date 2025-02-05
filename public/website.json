@@ -927,7 +927,7 @@
       "rating": 4
     }
   ],
-  "procedures": [
+  "advancedprocedures": [
     {
       "icon": "/Images/Icons/POEM.png",
       "title": "POEM (Peroral Endoscopic Myotomy)",
@@ -978,11 +978,11 @@
             "Chest pain or discomfort",
             "Weight loss due to trouble eating",
             "Reflux or heartburn"
-          ],
-          "content_2": "A comprehensive consultation at KIMS Advanced Gastroenterology & Endoscopy - KAGE with our expert gastroenterologists will help determine if POEM is the best treatment for your condition."
+          ]
         },
         {
           "heading": "What to Expect After POEM",
+          "content": "While POEM is a minimally invasive procedure, it's important to be prepared for some initial recovery. Here's what you can expect:",
           "recovery": [
             {
               "stage": "Immediate Recovery",
@@ -1074,9 +1074,23 @@
         },
         {
           "heading": "Conditions Treated with EMR",
-          "content": "#Conditions Treated with EMR",
-          "symptoms": [],
-          "content_2": "- Early-Stage GI Cancers: For cancers of the esophagus, stomach, and colon that are still confined to the mucosal layer, EMR offers an effective way to remove the tumor while preserving healthy tissue.\n- Precancerous Lesions: Polyps or abnormal growths that have the potential to develop into cancer can be safely and efficiently removed with EMR.\n- Benign Growths: Non-cancerous tumors or lesions in the GI tract can also be treated using this technique, preventing further complications."
+          "steps": [
+            {
+              "step": 1,
+              "title": "Early-Stage GI Cancers",
+              "description": "For cancers of the esophagus, stomach, and colon that are still confined to the mucosal layer, EMR offers an effective way to remove the tumor while preserving healthy tissue."
+            },
+            {
+              "step": 2,
+              "title": "Precancerous Lesions",
+              "description": "Polyps or abnormal growths that have the potential to develop into cancer can be safely and efficiently removed with EMR."
+            },
+            {
+              "step": 3,
+              "title": "Benign Growths",
+              "description": "Non-cancerous tumors or lesions in the GI tract can also be treated using this technique, preventing further complications."
+            }
+          ]
         },
         {
           "heading": "What to Expect After EMR",
@@ -1166,9 +1180,23 @@
         },
         {
           "heading": "Conditions Treated with ESD",
-          "content": "#Conditions Treated with ESD",
-          "symptoms": [],
-          "content_2": "- Early-Stage Gastrointestinal Cancers: When cancers are confined to the mucosal layer of the GI tract, ESD allows for the precise removal of the tumor without the need for invasive surgery.\n- Benign Tumors and Polyps: Non-cancerous growths in the esophagus, stomach, or colon can be effectively removed using ESD, preventing future complications.\n- Precancerous Lesions: ESD is also effective in removing precancerous growths or lesions, reducing the risk of these lesions developing into cancer in the future."
+          "steps": [
+            {
+              "step": 1,
+              "title": "Early-Stage Gastrointestinal Cancers",
+              "description": "When cancers are confined to the mucosal layer of the GI tract, ESD allows for the precise removal of the tumor without the need for invasive surgery."
+            },
+            {
+              "step": 2,
+              "title": "Benign Tumors and Polyps",
+              "description": "Non-cancerous growths in the esophagus, stomach, or colon can be effectively removed using ESD, preventing future complications."
+            },
+            {
+              "step": 3,
+              "title": "Precancerous Lesions",
+              "description": "ESD is also effective in removing precancerous growths or lesions, reducing the risk of these lesions developing into cancer in the future."
+            }
+          ]
         },
         {
           "heading": "What to Expect After ESD",
@@ -1258,11 +1286,40 @@
         },
         {
           "heading": "Conditions Treated with STER",
-          "content": "STER is typically used to treat a range of conditions, including:\n\n- Gastrointestinal Tumors: Benign or early-stage malignant tumors in the GI tract that are difficult to remove through traditional methods.\n- Esophageal Lesions: Abnormal growths in the esophagus, such as early-stage cancers or large benign tumors.\n- Stomach and Colonic Tumors: Lesions located in the stomach or colon that require precise removal without disrupting surrounding healthy tissue."
+          "steps": [
+            {
+              "step": 1,
+              "title": "Gastrointestinal Tumors",
+              "description": "Benign or early-stage malignant tumors in the GI tract that are difficult to remove through traditional methods can be treated with STER."
+            },
+            {
+              "step": 2,
+              "title": "Esophageal Lesions",
+              "description": "Abnormal growths in the esophagus, such as early-stage cancers or large benign tumors, can be effectively removed using STER."
+            },
+            {
+              "step": 3,
+              "title": "Stomach and Colonic Tumors",
+              "description": "Lesions located in the stomach or colon that require precise removal without disrupting surrounding healthy tissue can be treated with STER."
+            }
+          ]
         },
         {
           "heading": "What to Expect After STER",
-          "content": "- Quick Recovery: Most patients recover quickly, with many being able to go home the same day as the procedure. Follow-up visits are scheduled to monitor recovery and ensure there are no signs of recurrence.\n\n- Post-Procedure Care: After the procedure, you may be asked to follow specific guidelines for diet and activity to aid healing. Any necessary follow-up procedures or treatments will be discussed during your recovery appointments.\n\n- Minimal Complications: STER is a low-risk procedure, with rare complications such as bleeding or perforation. These are carefully managed by the team at KIMS Advanced Gastroenterology & Endoscopy - KAGE, ensuring the best outcomes for our patients."
+          "recovery": [
+            {
+              "stage": "Quick Recovery",
+              "description": "Most patients recover quickly, with many being able to go home the same day as the procedure. Follow-up visits are scheduled to monitor recovery and ensure there are no signs of recurrence."
+            },
+            {
+              "stage": "Post-Procedure Care",
+              "description": "After the procedure, you may be asked to follow specific guidelines for diet and activity to aid healing. Any necessary follow-up procedures or treatments will be discussed during your recovery appointments."
+            },
+            {
+              "stage": "Minimal Complications",
+              "description": "STER is a low-risk procedure, with rare complications such as bleeding or perforation. These are carefully managed by the team at KIMS Advanced Gastroenterology & Endoscopy (KAGE), ensuring the best outcomes for our patients."
+            }
+          ]
         },
         {
           "heading": "Frequently Asked Questions",
@@ -1287,7 +1344,10 @@
         },
         {
           "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for Your STER Procedure?",
-          "content": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are committed to providing you with the latest and most effective treatments for gastrointestinal issues. Our expert team uses cutting-edge technology like STER to ensure precise, minimally invasive treatment for tumors in the GI tract. Whether you're dealing with early-stage cancer or benign tumors, we’re here to help you every step of the way.\n\nContact KIMS Advanced Gastroenterology & Endoscopy - KAGE today to schedule a consultation and learn how STER can help treat your GI tract issues with less pain, fewer complications, and a faster recovery."
+          "content": [
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are committed to providing you with the latest and most effective treatments for gastrointestinal issues. Our expert team uses cutting-edge technology like STER to ensure precise, minimally invasive treatment for tumors in the GI tract. Whether you're dealing with early-stage cancer or benign tumors, we’re here to help you every step of the way."
+          ],
+          "call_to_action": "Contact KIMS Advanced Gastroenterology & Endoscopy - KAGE today to schedule a consultation and learn how STER can help treat your GI tract issues with less pain, fewer complications, and a faster recovery."
         }
       ]
     },
@@ -1334,11 +1394,40 @@
         },
         {
           "heading": "Conditions Treated with ARMA",
-          "content": "ARMA is most commonly used to treat the following conditions:\n\n- Gastroesophageal Reflux Disease (GERD): Chronic acid reflux that causes damage to the esophagus, leading to symptoms like heartburn, regurgitation, and difficulty swallowing.\n- Esophageal Damage from GERD: If GERD has led to complications such as esophageal inflammation, ulcers, or even Barrett’s esophagus, ARMA can help reverse or prevent further damage.\n- Persistent Heartburn: For patients who suffer from chronic heartburn despite lifestyle changes and medication, ARMA offers a treatment option to address the underlying tissue damage."
+          "steps": [
+            {
+              "step": 1,
+              "title": "Gastroesophageal Reflux Disease (GERD)",
+              "description": "Chronic acid reflux that causes damage to the esophagus, leading to symptoms like heartburn, regurgitation, and difficulty swallowing."
+            },
+            {
+              "step": 2,
+              "title": "Esophageal Damage from GERD",
+              "description": "If GERD has led to complications such as esophageal inflammation, ulcers, or even Barrett’s esophagus, ARMA can help reverse or prevent further damage."
+            },
+            {
+              "step": 3,
+              "title": "Persistent Heartburn",
+              "description": "For patients who suffer from chronic heartburn despite lifestyle changes and medication, ARMA offers a treatment option to address the underlying tissue damage."
+            }
+          ]
         },
         {
           "heading": "What to Expect After ARMA",
-          "content": "- Quick Recovery: Most patients can return to normal activities within a few days after the procedure. Since it’s minimally invasive, the healing process is quicker compared to traditional surgery.\n\n- Post-Procedure Care: After the procedure, you’ll be asked to follow a modified diet and avoid certain activities to help your esophagus heal. A follow-up visit will be scheduled to monitor your recovery and assess symptom improvement.\n\n- Minimal Complications: ARMA is a low-risk procedure, with rare complications such as infection or bleeding. These risks are closely managed by the expert team at KIMS Advanced Gastroenterology & Endoscopy - KAGE to ensure the best outcomes."
+          "recovery": [
+            {
+              "stage": "Quick Recovery",
+              "description": "Most patients can return to normal activities within a few days after the procedure. Since it’s minimally invasive, the healing process is quicker compared to traditional surgery."
+            },
+            {
+              "stage": "Post-Procedure Care",
+              "description": "After the procedure, you’ll be asked to follow a modified diet and avoid certain activities to help your esophagus heal. A follow-up visit will be scheduled to monitor your recovery and assess symptom improvement."
+            },
+            {
+              "stage": "Minimal Complications",
+              "description": "ARMA is a low-risk procedure, with rare complications such as infection or bleeding. These risks are closely managed by the expert team at KIMS Advanced Gastroenterology & Endoscopy (KAGE) to ensure the best outcomes."
+            }
+          ]
         },
         {
           "heading": "Frequently Asked Questions",
@@ -1363,7 +1452,10 @@
         },
         {
           "heading": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for Your ARMA Procedure?",
-          "content": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are committed to offering you the most advanced treatments for gastrointestinal disorders. Our experienced gastroenterologists specialize in ARMA and other cutting-edge procedures, ensuring the best possible outcomes with personalized care. By choosing KIMS Advanced Gastroenterology & Endoscopy - KAGE, you’re not only selecting a clinic with state-of-the-art technology but also a team dedicated to your health and well-being. If you’re dealing with GERD and the damaging effects it can have on your esophagus, ARMA may be the solution you’ve been looking for. Contact KIMS Advanced Gastroenterology & Endoscopy - KAGE today to schedule a consultation and find out how this groundbreaking procedure can help restore your digestive health."
+          "content": [
+            "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we are committed to offering you the most advanced treatments for gastrointestinal disorders. Our experienced gastroenterologists specialize in ARMA and other cutting-edge procedures, ensuring the best possible outcomes with personalized care. By choosing KIMS Advanced Gastroenterology & Endoscopy - KAGE, you’re not only selecting a clinic with state-of-the-art technology but also a team dedicated to your health and well-being."
+          ],
+          "call_to_action": "If you’re dealing with GERD and the damaging effects it can have on your esophagus, ARMA may be the solution you’ve been looking for. Contact KIMS Advanced Gastroenterology & Endoscopy - KAGE today to schedule a consultation and find out how this groundbreaking procedure can help restore your digestive health."
         }
       ]
     },
@@ -1410,11 +1502,40 @@
         },
         {
           "heading": "Conditions Treated with GERDx",
-          "content": "GERDx is ideal for patients suffering from:\n\n- Chronic GERD: When lifestyle modifications and medications no longer provide relief, GERDx offers a targeted solution for controlling symptoms and healing esophageal damage.\n- Esophageal Inflammation and Damage: GERDx is effective in treating the inflammation, ulcers, or scarring in the esophagus caused by long-term acid reflux.\n- Barrett’s Esophagus: A condition caused by chronic GERD, where the lining of the esophagus changes. GERDx can help reduce the risk of progression to esophageal cancer by removing damaged tissue."
+          "steps": [
+            {
+              "step": 1,
+              "title": "Chronic GERD",
+              "description": "When lifestyle modifications and medications no longer provide relief, GERDx offers a targeted solution for controlling symptoms and healing esophageal damage."
+            },
+            {
+              "step": 2,
+              "title": "Esophageal Inflammation and Damage",
+              "description": "GERDx is effective in treating the inflammation, ulcers, or scarring in the esophagus caused by long-term acid reflux."
+            },
+            {
+              "step": 3,
+              "title": "Barrett’s Esophagus",
+              "description": "A condition caused by chronic GERD, where the lining of the esophagus changes. GERDx can help reduce the risk of progression to esophageal cancer by removing damaged tissue."
+            }
+          ]
         },
         {
           "heading": "What to Expect After GERDx",
-          "content": "- Quick Recovery: Most patients recover quickly and can return to normal activities within 1-2 days after the procedure. Since it’s minimally invasive, there’s less discomfort and faster healing compared to traditional surgery.\n\n- Post-Procedure Guidelines: After GERDx, you may need to follow specific dietary and activity recommendations for a short period to help the healing process. You’ll be given detailed instructions on how to care for yourself post-procedure.\n\n- Follow-Up Care: Regular follow-up visits will be scheduled to monitor your recovery and ensure that the esophagus is healing properly. Additional treatments may be necessary based on your recovery and ongoing symptoms."
+          "recovery": [
+            {
+              "stage": "Quick Recovery",
+              "description": "Most patients recover quickly and can return to normal activities within 1-2 days after the procedure. Since it’s minimally invasive, there’s less discomfort and faster healing compared to traditional surgery."
+            },
+            {
+              "stage": "Post-Procedure Guidelines",
+              "description": "After GERDx, you may need to follow specific dietary and activity recommendations for a short period to help the healing process. You’ll be given detailed instructions on how to care for yourself post-procedure."
+            },
+            {
+              "stage": "Follow-Up Care",
+              "description": "Regular follow-up visits will be scheduled to monitor your recovery and ensure that the esophagus is healing properly. Additional treatments may be necessary based on your recovery and ongoing symptoms."
+            }
+          ]
         },
         {
           "heading": "Frequently Asked Questions",
@@ -1486,7 +1607,28 @@
         },
         {
           "heading": "Conditions Treated with FTRD",
-          "content": "FTRD is primarily used to treat:\n\n- Benign Polyps: Growths in the colon or rectum that may have the potential to develop into cancer if left untreated.\n- Colorectal Tumors: Non-cancerous tumors that may need to be removed to prevent further complications.\n- Precancerous Lesions: Abnormal growths or cells that have the potential to become cancerous over time.\n- Early-stage Colorectal Cancer: In some cases, FTRD can be used to remove early-stage cancers confined to the colon or rectum."
+          "steps": [
+            {
+              "step": 1,
+              "title": "Benign Polyps",
+              "description": "Growths in the colon or rectum that may have the potential to develop into cancer if left untreated."
+            },
+            {
+              "step": 2,
+              "title": "Colorectal Tumors",
+              "description": "Non-cancerous tumors that may need to be removed to prevent further complications."
+            },
+            {
+              "step": 3,
+              "title": "Precancerous Lesions",
+              "description": "Abnormal growths or cells that have the potential to become cancerous over time."
+            },
+            {
+              "step": 4,
+              "title": "Early-stage Colorectal Cancer",
+              "description": "In some cases, FTRD can be used to remove early-stage cancers confined to the colon or rectum."
+            }
+          ]
         },
         {
           "heading": "What to Expect After FTRD",
@@ -1566,7 +1708,33 @@
         },
         {
           "heading": "Conditions Treated with EUS Biliary Drainage",
-          "content": "EUS-guided biliary drainage is commonly used to treat a variety of conditions affecting the biliary system, including:\n\n- Cholestasis: A condition where bile flow is reduced or blocked, causing bile to accumulate in the liver.\n- Cholangiocarcinoma: A type of cancer that affects the bile ducts, leading to obstruction and bile flow issues.\n- Gallstones: Large gallstones that become lodged in the bile duct, causing a blockage.\n- Biliary Strictures: Narrowing of the bile ducts, often due to chronic inflammation or scarring.\n- Pancreatic Cancer: Tumors in the pancreas that may block the bile ducts and affect bile flow."
+          "steps": [
+            {
+              "step": 1,
+              "title": "Cholestasis",
+              "description": "A condition where bile flow is reduced or blocked, causing bile to accumulate in the liver."
+            },
+            {
+              "step": 2,
+              "title": "Cholangiocarcinoma",
+              "description": "A type of cancer that affects the bile ducts, leading to obstruction and bile flow issues."
+            },
+            {
+              "step": 3,
+              "title": "Gallstones",
+              "description": "Large gallstones that become lodged in the bile duct, causing a blockage."
+            },
+            {
+              "step": 4,
+              "title": "Biliary Strictures",
+              "description": "Narrowing of the bile ducts, often due to chronic inflammation or scarring."
+            },
+            {
+              "step": 5,
+              "title": "Pancreatic Cancer",
+              "description": "Tumors in the pancreas that may block the bile ducts and affect bile flow."
+            }
+          ]
         },
         {
           "heading": "What to Expect After EUS Biliary Drainage",
@@ -1650,7 +1818,33 @@
         },
         {
           "heading": "Conditions Treated with EUS-GJ",
-          "content": "EUS-GJ is particularly beneficial for patients who have gastrointestinal tract conditions that cause blockages or severe narrowing, including:\n\n- Gastric Outlet Obstruction: A condition where the passage from the stomach to the small intestine is blocked, leading to issues with food passage and digestion.\n- Cancer: Malignant tumors, particularly in the stomach, pancreas, or duodenum, can cause obstruction and prevent normal food movement through the digestive system.\n- Peptic Ulcers and Scar Tissue: Chronic ulcers or scarring caused by previous surgeries can create blockages in the digestive tract.\n- Crohn's Disease: Inflammatory bowel disease like Crohn's can cause narrowing of the intestines, leading to blockages and difficulties in digestion.\n- Pancreatitis: Chronic inflammation of the pancreas may lead to severe complications like duodenal obstructions, which EUS-GJ can effectively bypass."
+          "steps": [
+            {
+              "step": 1,
+              "title": "Gastric Outlet Obstruction",
+              "description": "A condition where the passage from the stomach to the small intestine is blocked, leading to issues with food passage and digestion."
+            },
+            {
+              "step": 2,
+              "title": "Cancer",
+              "description": "Malignant tumors, particularly in the stomach, pancreas, or duodenum, can cause obstruction and prevent normal food movement through the digestive system."
+            },
+            {
+              "step": 3,
+              "title": "Peptic Ulcers and Scar Tissue",
+              "description": "Chronic ulcers or scarring caused by previous surgeries can create blockages in the digestive tract."
+            },
+            {
+              "step": 4,
+              "title": "Crohn's Disease",
+              "description": "Inflammatory bowel disease like Crohn's can cause narrowing of the intestines, leading to blockages and difficulties in digestion."
+            },
+            {
+              "step": 5,
+              "title": "Pancreatitis",
+              "description": "Chronic inflammation of the pancreas may lead to severe complications like duodenal obstructions, which EUS-GJ can effectively bypass."
+            }
+          ]
         },
         {
           "heading": "What to Expect After EUS-GJ",
@@ -1734,7 +1928,33 @@
         },
         {
           "heading": "Conditions Treated with EUS-RF Ablation",
-          "content": "EUS-RF Ablation is primarily used for treating a variety of tumors, lesions, and abnormal growths within the digestive tract. It is particularly effective for patients with:\n\n- Gastrointestinal Cancers: Including tumors in the esophagus, stomach, pancreas, and colon.\n- Pre-cancerous Lesions: Early stages of cancer or abnormal tissue growth that have not yet spread.\n- Pancreatic Tumors: EUS-RF Ablation can be used to treat tumors in the pancreas that are difficult to access using traditional surgery.\n- Barrett’s Esophagus: A condition that increases the risk of esophageal cancer, where EUS-RF Ablation helps remove abnormal cells.\n- Benign Tumors: Non-cancerous growths in the digestive tract that require removal to improve function or alleviate symptoms."
+          "steps": [
+            {
+              "step": 1,
+              "title": "Gastrointestinal Cancers",
+              "description": "Including tumors in the esophagus, stomach, pancreas, and colon."
+            },
+            {
+              "step": 2,
+              "title": "Pre-cancerous Lesions",
+              "description": "Early stages of cancer or abnormal tissue growth that have not yet spread."
+            },
+            {
+              "step": 3,
+              "title": "Pancreatic Tumors",
+              "description": "EUS-RF Ablation can be used to treat tumors in the pancreas that are difficult to access using traditional surgery."
+            },
+            {
+              "step": 4,
+              "title": "Barrett’s Esophagus",
+              "description": "A condition that increases the risk of esophageal cancer, where EUS-RF Ablation helps remove abnormal cells."
+            },
+            {
+              "step": 5,
+              "title": "Benign Tumors",
+              "description": "Non-cancerous growths in the digestive tract that require removal to improve function or alleviate symptoms."
+            }
+          ]
         },
         {
           "heading": "What to Expect After EUS-RF Ablation",
@@ -1818,7 +2038,28 @@
         },
         {
           "heading": "Conditions Treated with EUS Cystogastrostomy",
-          "content": "EUS Cystogastrostomy is primarily used to treat cysts within the pancreas or gastrointestinal tract. These may include:\n\n- Pancreatic Cysts: Fluid-filled sacs within the pancreas that may cause pain, infection, or other complications.\n- Pseudocysts: Typically formed after pancreatic inflammation or injury, these cysts can lead to abdominal pain or infection if not treated.\n- Mucinous Cysts: Potentially precancerous cysts found in the pancreas that require drainage to prevent complications.\n- Other Gastrointestinal Cysts: Cysts in the stomach or surrounding areas that can cause discomfort or other health issues."
+          "steps": [
+            {
+              "step": 1,
+              "title": "Pancreatic Cysts",
+              "description": "Fluid-filled sacs within the pancreas that may cause pain, infection, or other complications."
+            },
+            {
+              "step": 2,
+              "title": "Pseudocysts",
+              "description": "Typically formed after pancreatic inflammation or injury, these cysts can lead to abdominal pain or infection if not treated."
+            },
+            {
+              "step": 3,
+              "title": "Mucinous Cysts",
+              "description": "Potentially precancerous cysts found in the pancreas that require drainage to prevent complications."
+            },
+            {
+              "step": 4,
+              "title": "Other Gastrointestinal Cysts",
+              "description": "Cysts in the stomach or surrounding areas that can cause discomfort or other health issues."
+            }
+          ]
         },
         {
           "heading": "What to Expect After EUS Cystogastrostomy",
@@ -1907,7 +2148,23 @@
         },
         {
           "heading": "Conditions Treated with Endoscopic Necrosectomy",
-          "content": "Endoscopic Necrosectomy is primarily used to treat patients with severe pancreatic necrosis, including those with:\n\n- Infected Pancreatic Necrosis: This occurs when part of the pancreas dies due to severe inflammation or pancreatitis, leading to infection.\n- Pancreatic Abscesses: Pockets of infection that can form in the pancreas as a result of necrosis.\n- Pancreatic Fluid Collections: Fluid-filled areas that form in the pancreas after injury or pancreatitis and can become infected or infected with necrotic tissue."
+          "steps": [
+            {
+              "step": 1,
+              "title": "Infected Pancreatic Necrosis",
+              "description": "This occurs when part of the pancreas dies due to severe inflammation or pancreatitis, leading to infection."
+            },
+            {
+              "step": 2,
+              "title": "Pancreatic Abscesses",
+              "description": "Pockets of infection that can form in the pancreas as a result of necrosis."
+            },
+            {
+              "step": 3,
+              "title": "Pancreatic Fluid Collections",
+              "description": "Fluid-filled areas that form in the pancreas after injury or pancreatitis and can become infected or infected with necrotic tissue."
+            }
+          ]
         },
         {
           "heading": "What to Expect After Endoscopic Necrosectomy",
@@ -1991,8 +2248,39 @@
         },
         {
           "heading": "Conditions Treated with ERCP",
-          "content": "ERCP is highly effective for diagnosing and treating a range of biliary and pancreatic conditions, including:\n\n- Gallstones: Stones that form in the gallbladder and may block the bile ducts, causing pain, nausea, or jaundice.\n- Bile Duct Obstruction: Blockages in the bile duct due to stones, tumors, or strictures.\n- Pancreatitis: Inflammation of the pancreas, often caused by gallstones or blockages in the bile duct.\n- Biliary Strictures: Narrowing of the bile duct due to scarring or inflammation.\n- Pancreatic Duct Abnormalities: Issues such as blockages or narrowing in the pancreatic duct that affect the flow of digestive enzymes.\n- Sphincter of Oddi Dysfunction: Dysfunction of the muscle controlling the flow of bile and pancreatic juices into the small intestine."
-        },
+          "steps": [
+            {
+              "step": 1,
+              "title": "Gallstones",
+              "description": "Stones that form in the gallbladder and may block the bile ducts, causing pain, nausea, or jaundice."
+            },
+            {
+              "step": 2,
+              "title": "Bile Duct Obstruction",
+              "description": "Blockages in the bile duct due to stones, tumors, or strictures."
+            },
+            {
+              "step": 3,
+              "title": "Pancreatitis",
+              "description": "Inflammation of the pancreas, often caused by gallstones or blockages in the bile duct."
+            },
+            {
+              "step": 4,
+              "title": "Biliary Strictures",
+              "description": "Narrowing of the bile duct due to scarring or inflammation."
+            },
+            {
+              "step": 5,
+              "title": "Pancreatic Duct Abnormalities",
+              "description": "Issues such as blockages or narrowing in the pancreatic duct that affect the flow of digestive enzymes."
+            },
+            {
+              "step": 6,
+              "title": "Sphincter of Oddi Dysfunction",
+              "description": "Dysfunction of the muscle controlling the flow of bile and pancreatic juices into the small intestine."
+            }
+          ]
+        },        
         {
           "heading": "Benefits of ERCP",
           "content": "- Minimally Invasive: Unlike traditional surgery, ERCP requires only small incisions or no incisions at all, reducing the risk of infection and shortening recovery time.\n\n- Diagnostic and Therapeutic: ERCP not only provides an accurate diagnosis but also allows for immediate treatment, such as stone removal or stent placement, in a single procedure.\n\n- Quick Recovery: Most patients experience minimal downtime and can resume normal activities within a short time, typically within a day or two.\n\n- Real-Time Imaging: The use of X-ray during the procedure allows for immediate visualization, ensuring precise treatment of the bile and pancreatic ducts."
@@ -2058,7 +2346,28 @@
         },
         {
           "heading": "Conditions Treated with ESG",
-          "content": "ESG is a highly effective solution for those struggling with obesity and related conditions, including:\n\n- Obesity: For patients with a BMI (Body Mass Index) of 30 or higher who have struggled to lose weight through traditional methods such as diet and exercise.\n- Type 2 Diabetes: Weight loss from ESG can help improve insulin sensitivity and may even lead to a reduction in the need for diabetes medications.\n- Hypertension: ESG has been shown to help lower blood pressure by promoting weight loss.\n- Sleep Apnea: As excess weight is a common cause of sleep apnea, reducing weight through ESG can improve sleep quality and breathing."
+          "steps": [
+            {
+              "step": 1,
+              "title": "Obesity",
+              "description": "For patients with a BMI (Body Mass Index) of 30 or higher who have struggled to lose weight through traditional methods such as diet and exercise."
+            },
+            {
+              "step": 2,
+              "title": "Type 2 Diabetes",
+              "description": "Weight loss from ESG can help improve insulin sensitivity and may even lead to a reduction in the need for diabetes medications."
+            },
+            {
+              "step": 3,
+              "title": "Hypertension",
+              "description": "ESG has been shown to help lower blood pressure by promoting weight loss."
+            },
+            {
+              "step": 4,
+              "title": "Sleep Apnea",
+              "description": "As excess weight is a common cause of sleep apnea, reducing weight through ESG can improve sleep quality and breathing."
+            }
+          ]
         },
         {
           "heading": "The ESG Procedure: What to Expect",
@@ -2151,7 +2460,43 @@
         },
         {
           "heading": "Conditions Treated with Biofeedback Therapy",
-          "content": "Biofeedback therapy is effective in managing a wide range of physical and psychological conditions, including:\n\n- Stress & Anxiety: Biofeedback can help you manage stress by teaching you how to lower your heart rate and relax your muscles, leading to a calmer mind and body.\n- Chronic Pain: Patients with conditions such as fibromyalgia, migraines, and tension headaches can benefit from biofeedback by learning to relax muscles and reduce pain.\n- Insomnia: By learning how to control your stress response, biofeedback can promote relaxation and improve sleep quality.\n- High Blood Pressure: Biofeedback helps patients reduce stress and regulate their heart rate, contributing to lower blood pressure.\n- Irritable Bowel Syndrome (IBS): Biofeedback can improve gastrointestinal symptoms by teaching relaxation techniques to reduce stress-induced flare-ups.\n- Urinary Incontinence: Biofeedback helps individuals strengthen pelvic muscles, improving bladder control.\n- Post-Traumatic Stress Disorder (PTSD): For those struggling with PTSD, biofeedback can teach relaxation techniques to help manage triggers and anxiety."
+          "steps": [
+            {
+              "step": 1,
+              "title": "Stress & Anxiety",
+              "description": "Biofeedback can help you manage stress by teaching you how to lower your heart rate and relax your muscles, leading to a calmer mind and body."
+            },
+            {
+              "step": 2,
+              "title": "Chronic Pain",
+              "description": "Patients with conditions such as fibromyalgia, migraines, and tension headaches can benefit from biofeedback by learning to relax muscles and reduce pain."
+            },
+            {
+              "step": 3,
+              "title": "Insomnia",
+              "description": "By learning how to control your stress response, biofeedback can promote relaxation and improve sleep quality."
+            },
+            {
+              "step": 4,
+              "title": "High Blood Pressure",
+              "description": "Biofeedback helps patients reduce stress and regulate their heart rate, contributing to lower blood pressure."
+            },
+            {
+              "step": 5,
+              "title": "Irritable Bowel Syndrome (IBS)",
+              "description": "Biofeedback can improve gastrointestinal symptoms by teaching relaxation techniques to reduce stress-induced flare-ups."
+            },
+            {
+              "step": 6,
+              "title": "Urinary Incontinence",
+              "description": "Biofeedback helps individuals strengthen pelvic muscles, improving bladder control."
+            },
+            {
+              "step": 7,
+              "title": "Post-Traumatic Stress Disorder (PTSD)",
+              "description": "For those struggling with PTSD, biofeedback can teach relaxation techniques to help manage triggers and anxiety."
+            }
+          ]
         },
         {
           "heading": "The Biofeedback Therapy Process: What to Expect",
@@ -2223,7 +2568,7 @@
       ]
     }
   ],
-  "services": [
+  "specialityclinics": [
     {
       "id": 1,
       "title": "IBD Clinic",
@@ -5003,31 +5348,31 @@
                   "step": 1,
                   "title": "High-Resolution Manometry (HRM)",
                   "description": "Measures pressure and muscle activity in the esophagus or anorectal region to evaluate motility.",
-                "icon": "/Images/Icons/Nutritional-Deficiencies.png"
+                  "icon": "/Images/Icons/Nutritional-Deficiencies.png"
                 },
                 {
                   "step": 2,
                   "title": "Impedance Testing",
                   "description": "Evaluates esophageal function and acid reflux.",
-                    "icon": "/Images/Icons/Impedance-Testing.png"
+                  "icon": "/Images/Icons/Impedance-Testing.png"
                 },
                 {
                   "step": 3,
                   "title": "Gastric Emptying Studies",
                   "description": "Assesses stomach emptying in patients with suspected gastroparesis.",
-                    "icon": "/Images/Icons/Gastric-Emptying-Studies.png"
+                  "icon": "/Images/Icons/Gastric-Emptying-Studies.png"
                 },
                 {
                   "step": 4,
                   "title": "SmartPill Testing",
                   "description": "A wireless capsule that measures GI motility throughout the digestive tract.",
-                    "icon": "/Images/Icons/SmartPill.png"
+                  "icon": "/Images/Icons/SmartPill.png"
                 },
                 {
                   "step": 5,
                   "title": "Endoscopic Evaluation",
                   "description": "To rule out structural abnormalities in the digestive tract.",
-                    "icon": "/Images/Icons/Endoscopy-Plus.png"
+                  "icon": "/Images/Icons/Endoscopy-Plus.png"
                 }
               ]
             }
@@ -5039,31 +5384,31 @@
                 "step": 1,
                 "title": "Lifestyle Modifications",
                 "description": "Diet counseling to manage symptoms and stress reduction techniques.",
-                    "icon": "/Images/Icons/Lifestyle.png"
+                "icon": "/Images/Icons/Lifestyle.png"
               },
               {
                 "step": 2,
                 "title": "Medical Management",
                 "description": "Prokinetic medications to improve motility, antispasmodics for symptom relief, and laxatives or fiber supplements for constipation.",
-                    "icon": "/Images/Icons/Medication.png"
+                "icon": "/Images/Icons/Medication.png"
               },
               {
                 "step": 3,
                 "title": "Endoscopic Interventions",
                 "description": "Including procedures like Peroral Endoscopic Myotomy (POEM) for achalasia and Botox injections for gastroparesis.",
-                    "icon": "/Images/Icons/Endoscopic-AME"
+                "icon": "/Images/Icons/Endoscopic-AME"
               },
               {
                 "step": 4,
                 "title": "Surgical Treatments",
                 "description": "For severe or refractory cases, including fundoplication for GERD or surgical gastric bypass for gastroparesis.",
-                    "icon": "/Images/Icons/Surgery-treatment.png"
+                "icon": "/Images/Icons/Surgery-treatment.png"
               },
               {
                 "step": 5,
                 "title": "Pelvic Floor Rehabilitation",
                 "description": "Specialized therapies for fecal incontinence or chronic constipation caused by pelvic floor dysfunction.",
-                    "icon": "/Images/Icons/Rehabilitation.png"
+                "icon": "/Images/Icons/Rehabilitation.png"
               }
             ]
           },
@@ -5118,28 +5463,27 @@
                 {
                   "heading": "Difficulty swallowing (dysphagia)",
                   "description": "A primary symptom where individuals struggle to swallow food or liquids.",
-                    "icon": "/Images/Icons/Difficulty-swallowing.png"
-             
+                  "icon": "/Images/Icons/Difficulty-swallowing.png"
                 },
                 {
                   "heading": "Regurgitation of undigested food",
                   "description": "Food or liquids may come back up into the throat without being digested.",
-                    "icon": "/Images/Icons/Regurgitation-of-undigested-food.png"
+                  "icon": "/Images/Icons/Regurgitation-of-undigested-food.png"
                 },
                 {
                   "heading": "Chest pain, especially after eating",
                   "description": "Pain or discomfort in the chest caused by trapped food in the esophagus.",
-                    "icon": "/Images/Icons/Chest-pain.png"
+                  "icon": "/Images/Icons/Chest-pain.png"
                 },
                 {
                   "heading": "Weight loss",
                   "description": "Unintended loss of weight due to difficulty eating and reduced intake.",
-                    "icon": "/Images/Icons/Weight-loss.png"
+                  "icon": "/Images/Icons/Weight-loss.png"
                 },
                 {
                   "heading": "Persistent cough or choking",
                   "description": "Coughing or choking episodes, often triggered by regurgitation.",
-                    "icon": "/Images/Icons/Persistent-cough-or-choking.png"
+                  "icon": "/Images/Icons/Persistent-cough-or-choking.png"
                 }
               ]
             },
@@ -5200,22 +5544,22 @@
                 {
                   "heading": "Medications",
                   "description": "Nitrates or calcium channel blockers to relax the LES.",
-                    "icon": "/Images/Icons/Medication.png"
+                  "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Botox Injections",
                   "description": "Provides temporary relief by relaxing esophageal muscles.",
-                    "icon": "/Images/Icons/Botox-Injections.png"
+                  "icon": "/Images/Icons/Botox-Injections.png"
                 },
                 {
                   "heading": "Endoscopic Procedures",
                   "description": "Minimally invasive procedures like Peroral Endoscopic Myotomy (POEM) to cut the LES muscle.",
-                    "icon": "/Images/Icons/Endoscopic-AME.png"
+                  "icon": "/Images/Icons/Endoscopic-AME.png"
                 },
                 {
                   "heading": "Surgery",
                   "description": "Laparoscopic procedures like Heller Myotomy to release the tight LES muscle.",
-                    "icon": "/Images/Icons/Surgery-treatment.png"
+                  "icon": "/Images/Icons/Surgery-treatment.png"
                 }
               ]
             },
@@ -5239,22 +5583,22 @@
                 {
                   "heading": "Nausea and vomiting, especially after meals",
                   "description": "Frequent nausea and episodes of vomiting following food consumption.",
-                    "icon": "/Images/Icons/vomiting.png"
+                  "icon": "/Images/Icons/vomiting.png"
                 },
                 {
                   "heading": "Abdominal bloating and pain",
                   "description": "The stomach may feel distended and painful due to delayed emptying.",
-                    "icon": "/Images/Icons/Bloating.png"
+                  "icon": "/Images/Icons/Bloating.png"
                 },
                 {
                   "heading": "Feeling full quickly when eating",
                   "description": "Individuals may struggle to eat normal portions without discomfort.",
-                    "icon": "/Images/Icons/abdomen.png"
+                  "icon": "/Images/Icons/abdomen.png"
                 },
                 {
                   "heading": "Weight loss or malnutrition",
                   "description": "Reduced food intake can result in significant weight loss and nutrient deficiencies.",
-                    "icon": "/Images/Icons/Weight-loss.png"
+                  "icon": "/Images/Icons/Weight-loss.png"
                 }
               ]
             },
@@ -5295,22 +5639,22 @@
                 {
                   "heading": "Abdominal pain or cramping",
                   "description": "Pain or discomfort, typically relieved after bowel movements.",
-                    "icon": "/Images/Icons/abdominal-pain-ibs.png"
+                  "icon": "/Images/Icons/abdominal-pain-ibs.png"
                 },
                 {
                   "heading": "Chronic diarrhea or constipation",
                   "description": "Persistent or alternating diarrhea and constipation are hallmark symptoms.",
-                    "icon": "/Images/Icons/Chronicpain-ibs.png"
+                  "icon": "/Images/Icons/Chronicpain-ibs.png"
                 },
                 {
                   "heading": "Bloating and excessive gas",
                   "description": "A frequent sensation of fullness and increased gas production.",
-                    "icon": "/Images/Icons/Bloating-ibs.png"
+                  "icon": "/Images/Icons/Bloating-ibs.png"
                 },
                 {
                   "heading": "Mucus in stool",
                   "description": "Noticeable mucus discharge during bowel movements.",
-                    "icon": "/Images/Icons/Persistent-diarrhea-ibs.png"
+                  "icon": "/Images/Icons/Persistent-diarrhea-ibs.png"
                 }
               ]
             },
@@ -5371,17 +5715,17 @@
                 {
                   "heading": "Dietary Changes",
                   "description": "A low FODMAP diet helps reduce triggers and alleviate symptoms.",
-                    "icon": "/Images/Icons/Dietary-Guidance.png"
+                  "icon": "/Images/Icons/Dietary-Guidance.png"
                 },
                 {
                   "heading": "Medications",
                   "description": "Includes antispasmodics, fiber supplements, and drugs for diarrhea or constipation.",
-                    "icon": "/Images/Icons/Medication.png"
+                  "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Lifestyle Modifications",
                   "description": "Stress reduction, regular exercise, and improved sleep support overall health.",
-                    "icon": "/Images/Icons/Lifestyle.png"
+                  "icon": "/Images/Icons/Lifestyle.png"
                 }
               ]
             },
@@ -5405,22 +5749,22 @@
                 {
                   "heading": "Fewer than three bowel movements per week",
                   "description": "An infrequent pattern of bowel movements compared to normal.",
-                    "icon": "/Images/Icons/Bowel-cc.png"
+                  "icon": "/Images/Icons/Bowel-cc.png"
                 },
                 {
                   "heading": "Hard or lumpy stools",
                   "description": "Stools that are difficult to pass due to their texture.",
-                    "icon": "/Images/Icons/Blood-in-stool-cc.png"
+                  "icon": "/Images/Icons/Blood-in-stool-cc.png"
                 },
                 {
                   "heading": "Straining during bowel movements",
                   "description": "Excessive effort required to pass stool.",
-                    "icon": "/Images/Icons/Straining-during-bowel-movements.png"
+                  "icon": "/Images/Icons/Straining-during-bowel-movements.png"
                 },
                 {
                   "heading": "Incomplete evacuation sensation",
                   "description": "A feeling that the bowel hasn’t completely emptied.",
-                    "icon": "/Images/Icons/Incomplete-evacuation-sensation.png"
+                  "icon": "/Images/Icons/Incomplete-evacuation-sensation.png"
                 }
               ]
             },
@@ -5485,17 +5829,17 @@
                 {
                   "heading": "Lifestyle Changes",
                   "description": "Increasing fiber and water intake, combined with regular exercise.",
-                    "icon": "/Images/Icons/Lifestyle.png"
+                  "icon": "/Images/Icons/Lifestyle.png"
                 },
                 {
                   "heading": "Medications",
                   "description": "Laxatives, stool softeners, or prescription motility agents help manage symptoms.",
-                    "icon": "/Images/Icons/Medication.png"
+                  "icon": "/Images/Icons/Medication.png"
                 },
                 {
                   "heading": "Pelvic Floor Rehabilitation",
                   "description": "Biofeedback therapy to improve muscle coordination during defecation.",
-                    "icon": "/Images/Icons/Rehabilitation.png"
+                  "icon": "/Images/Icons/Rehabilitation.png"
                 }
               ]
             },
@@ -5583,17 +5927,17 @@
                 {
                   "heading": "Lifestyle Modifications",
                   "description": "Includes diet changes to improve stool consistency and avoid triggers.",
-                    "icon": "/Images/Icons/Lifestyle.png"
+                  "icon": "/Images/Icons/Lifestyle.png"
                 },
                 {
                   "heading": "Pelvic Floor Therapy",
                   "description": "Exercises and biofeedback to strengthen and improve muscle control.",
-                    "icon": "/Images/Icons/Targeted-Therapy.png"
+                  "icon": "/Images/Icons/Targeted-Therapy.png"
                 },
                 {
                   "heading": "Surgical Interventions",
                   "description": "Procedures like sphincter repair or sacral nerve stimulation for severe cases.",
-                    "icon": "/Images/Icons/Surgery-treatment.png"
+                  "icon": "/Images/Icons/Surgery-treatment.png"
                 }
               ]
             },
@@ -6725,7 +7069,6 @@
                 {
                   "heading": "Confusion and mental fog (hepatic encephalopathy)",
                   "description": "Cognitive dysfunction due to liver failure."
-                  
                 }
               ]
             },
@@ -7309,6 +7652,1352 @@
       ]
     }
   ],
+  "services": [
+    {
+      "icon": "/Images/Icons/OlympusX1HDEndoscope.png",
+      "title": "Olympus X1 HD Endoscope & Colonoscope",
+      "pageUrl": "olympus-x1-hd-endoscope-colonoscope",
+      "content": [
+        {
+          "description": "The Olympus X1 HD Endoscope & Colonoscope delivers cutting-edge imaging technology for superior visualization of the gastrointestinal tract. With high-definition optics and innovative imaging modes, it ensures unmatched accuracy for diagnosis and treatment.",
+          "subTopics": [
+            {
+              "title": "Key Features",
+              "description": "Advanced imaging technology for accurate diagnosis and patient comfort.",
+              "listItems": [
+                {
+                  "title": "High-Definition (HD) Imaging",
+                  "description": "Provides crystal-clear visuals of tissues and lesions, aiding in precise diagnoses."
+                },
+                {
+                  "title": "Narrow Band Imaging (NBI)",
+                  "description": "Highlights vascular and mucosal patterns to detect abnormalities early."
+                },
+                {
+                  "title": "Ergonomic Design",
+                  "description": "Ensures seamless maneuvering for enhanced patient safety and comfort."
+                }
+              ]
+            },
+            {
+              "title": "Conditions Diagnosed and Treated",
+              "description": "Common conditions evaluated with the Olympus X1 HD Endoscope & Colonoscope.",
+              "listItems": [
+                {
+                  "title": "Colorectal Cancer",
+                  "description": "Early detection of tumors and lesions in the colon and rectum."
+                },
+                {
+                  "title": "Gastric Ulcers",
+                  "description": "Accurate visualization of stomach lining abnormalities."
+                },
+                {
+                  "title": "Barrett’s Esophagus",
+                  "description": "Identification of pre-cancerous changes in the esophagus."
+                },
+                {
+                  "title": "Inflammatory Bowel Disease (IBD)",
+                  "description": "Monitoring Crohn’s Disease and Ulcerative Colitis."
+                },
+                {
+                  "title": "Polyps and GI Bleeding",
+                  "description": "Removal and assessment of abnormal growths and bleeding in the gastrointestinal tract."
+                }
+              ]
+            },
+            {
+              "title": "Benefits for Patients",
+              "description": "Advantages of using the Olympus X1 HD Endoscope & Colonoscope for diagnostic procedures.",
+              "listItems": [
+                {
+                  "title": "Early and Accurate Detection of GI Disorders",
+                  "description": "Helps in the early detection of GI conditions, improving treatment outcomes."
+                },
+                {
+                  "title": "Less Invasive and Highly Precise Procedures",
+                  "description": "Minimizes patient discomfort while ensuring precise diagnosis."
+                },
+                {
+                  "title": "Improved Comfort and Faster Recovery Time",
+                  "description": "Advanced technology ensures a smoother procedure and faster recovery."
+                }
+              ]
+            },
+            {
+              "title": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
+              "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE – Hyderabad, we leverage the Olympus X1 HD Endoscope & Colonoscope to offer superior diagnostic accuracy. Our expert gastroenterologists combine advanced technology with personalized care to ensure the best outcomes for every patient.",
+              "listItems": [
+                {
+                  "title": "Expert Gastroenterologists",
+                  "description": "Highly trained specialists offering expert care and diagnosis."
+                },
+                {
+                  "title": "State-of-the-Art Technology",
+                  "description": "We use advanced equipment like the Olympus X1 HD Endoscope & Colonoscope for accurate results."
+                },
+                {
+                  "title": "Personalized Care",
+                  "description": "We focus on tailored treatments and the comfort of our patients."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "/Images/Icons/Endoscopy.png",
+      "title": "Endoscopy",
+      "pageUrl": "endoscopy",
+      "content": [
+        {
+          "heading": "Endoscopy - Comprehensive Diagnostic Tool",
+          "description": "Endoscopy is a minimally invasive procedure used to visually examine the digestive tract. A flexible tube with a light and camera (endoscope) is inserted through the mouth or rectum to capture high-definition images for accurate diagnosis.",
+          "subTopics": [
+            {
+              "title": "Procedure",
+              "description": "How the endoscopic procedure is performed.",
+              "listItems": [
+                "A flexible endoscope is inserted through the mouth or rectum.",
+                "High-definition images are captured to diagnose conditions.",
+                "Minimal discomfort is experienced due to sedation."
+              ]
+            },
+            {
+              "title": "Preparation",
+              "description": "Steps to prepare for an endoscopy.",
+              "listItems": [
+                "Fasting for at least 6-8 hours before the procedure.",
+                "Bowel cleansing may be required in some cases.",
+                "Inform the doctor about any medications being taken."
+              ]
+            },
+            {
+              "title": "Risks",
+              "description": "Potential risks associated with endoscopy.",
+              "listItems": [
+                "Mild discomfort or nausea.",
+                "Minimal bleeding at the biopsy site.",
+                "Rare chance of perforation in the digestive tract."
+              ]
+            },
+            {
+              "title": "Benefits",
+              "description": "Advantages of undergoing an endoscopy.",
+              "listItems": [
+                "Accurate diagnosis of digestive disorders.",
+                "Minimally invasive with a quick recovery time.",
+                "Can be used for both diagnosis and treatment."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "/Images/Icons/PediatricEndoscope.png",
+      "title": "Pediatric Endoscope & Colonoscope",
+      "pageUrl": "pediatric-endoscope-colonoscope",
+      "content": [
+        {
+          "description": "The Pediatric Endoscope & Colonoscope is specially designed to address the unique needs of children. With a smaller diameter and advanced imaging, it ensures accurate diagnosis with minimal discomfort.",
+          "subTopics": [
+            {
+              "title": "Key Features",
+              "listItems": [
+                {
+                  "title": "Child-Friendly Design",
+                  "description": "Tailored scopes for pediatric anatomy to ensure safety and comfort."
+                },
+                {
+                  "title": "High-Resolution Imaging",
+                  "description": "Provides clear visuals for precise diagnosis of GI issues."
+                },
+                {
+                  "title": "Minimally Invasive",
+                  "description": "Reduces procedure time and discomfort for young patients."
+                }
+              ]
+            },
+            {
+              "title": "Conditions Diagnosed and Treated",
+              "description": "Common pediatric GI conditions assessed with endoscopy and colonoscopy.",
+              "listItems": [
+                {
+                  "title": "Gastroesophageal Reflux Disease (GERD)",
+                  "description": "Diagnosis of acid reflux and esophageal damage."
+                },
+                {
+                  "title": "Celiac Disease",
+                  "description": "Assessment of gluten intolerance."
+                },
+                {
+                  "title": "Crohn’s Disease and Ulcerative Colitis",
+                  "description": "Monitoring inflammation in the GI tract."
+                },
+                {
+                  "title": "GI Polyps",
+                  "description": "Detection and removal of abnormal growths."
+                },
+                {
+                  "title": "Malabsorption Syndromes",
+                  "description": "Identifying causes of nutrient deficiencies."
+                }
+              ]
+            },
+            {
+              "title": "Benefits for Patients",
+              "description": "Advantages of pediatric endoscopy and colonoscopy.",
+              "listItems": [
+                "Safe, accurate, and child-friendly procedures.",
+                "Minimal discomfort with shorter recovery time.",
+                "Expertise in diagnosing pediatric GI conditions."
+              ]
+            },
+            {
+              "title": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
+              "description": "KAGE’s dedicated Pediatric Gastroenterology Unit in Hyderabad ensures gentle care and precise diagnosis using specialized equipment.",
+              "listItems": [
+                "Experienced team providing gentle care to young patients.",
+                "State-of-the-art specialized pediatric equipment.",
+                "Commitment to the highest standards of treatment."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "/Images/Icons/NasalEndoscope.png",
+      "title": "Ultra-Slim Nasal Endoscope",
+      "pageUrl": "ultra-slim-nasal-endoscope",
+      "content": [
+        {
+          "description": "The Ultra-Slim Nasal Endoscope revolutionizes upper GI diagnostics by offering a painless, sedation-free procedure performed through the nasal route.",
+          "subTopics": [
+            {
+              "title": "Key Features",
+              "description": "Advanced features ensuring a safe and efficient diagnostic experience.",
+              "listItems": [
+                {
+                  "title": "Ultra-Thin Scope",
+                  "description": "Ensures smooth, non-invasive insertion through the nose."
+                },
+                {
+                  "title": "No Sedation Required",
+                  "description": "Suitable for patients who cannot undergo sedation."
+                },
+                {
+                  "title": "High-Definition Visualization",
+                  "description": "Provides clear, real-time imaging of the esophagus, stomach, and duodenum."
+                }
+              ]
+            },
+            {
+              "title": "Conditions Diagnosed and Treated",
+              "description": "Common conditions assessed using the Ultra-Slim Nasal Endoscope.",
+              "listItems": [
+                {
+                  "title": "Gastritis",
+                  "description": "Inflammation of the stomach lining."
+                },
+                {
+                  "title": "Barrett’s Esophagus",
+                  "description": "Early detection of esophageal changes."
+                },
+                {
+                  "title": "Esophageal Strictures",
+                  "description": "Identifying and managing narrowing of the esophagus."
+                },
+                {
+                  "title": "Hiatal Hernia",
+                  "description": "Diagnosing herniation of the stomach into the chest cavity."
+                }
+              ]
+            },
+            {
+              "title": "Benefits for Patients",
+              "description": "Advantages of the Ultra-Slim Nasal Endoscope procedure.",
+              "listItems": [
+                {
+                  "title": "Sedation-Free & Painless",
+                  "description": "The procedure does not require sedation, making it pain-free."
+                },
+                {
+                  "title": "Minimal Downtime",
+                  "description": "Patients can recover quickly with minimal disruption to daily activities."
+                },
+                {
+                  "title": "Enhanced Comfort",
+                  "description": "Ideal for elderly and high-risk patients who prefer a non-invasive approach."
+                }
+              ]
+            },
+            {
+              "title": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
+              "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, Hyderabad, we prioritize patient comfort by offering innovative solutions like the Ultra-Slim Nasal Endoscope. Our specialists ensure accurate diagnoses while providing a hassle-free experience.",
+              "listItems": [
+                {
+                  "title": "Expert Specialists",
+                  "description": "Highly skilled gastroenterologists providing precise diagnostics."
+                },
+                {
+                  "title": "Innovative Technology",
+                  "description": "State-of-the-art equipment ensuring accuracy and comfort."
+                },
+                {
+                  "title": "Patient-Centric Care",
+                  "description": "A commitment to providing a stress-free and painless experience."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "/Images/Icons/Enteroscope.png",
+      "title": "Enteroscope",
+      "pageUrl": "enteroscope",
+      "content": [
+        {
+          "description": "The Enteroscope enables deep exploration of the small intestine, providing exceptional clarity for diagnosing and treating complex small bowel disorders.",
+          "subTopics": [
+            {
+              "title": "Key Features",
+              "description": "Advanced features ensuring a safe and effective diagnostic experience.",
+              "listItems": [
+                {
+                  "title": "High-Definition Visualization",
+                  "description": "Captures clear, accurate images of the small intestine."
+                },
+                {
+                  "title": "Minimally Invasive",
+                  "description": "Ensures maximum patient comfort during procedures."
+                },
+                {
+                  "title": "Versatile Applications",
+                  "description": "Suitable for both diagnostic and therapeutic procedures."
+                }
+              ]
+            },
+            {
+              "title": "Conditions Diagnosed and Treated",
+              "description": "Common conditions assessed using the Enteroscope.",
+              "listItems": [
+                {
+                  "title": "Small Bowel Tumors",
+                  "description": "Detection of masses and lesions."
+                },
+                {
+                  "title": "Crohn’s Disease",
+                  "description": "Assessment and management of inflammation."
+                },
+                {
+                  "title": "GI Bleeding",
+                  "description": "Locating the source of unexplained bleeding."
+                },
+                {
+                  "title": "Celiac Disease",
+                  "description": "Identifying damage due to gluten intolerance."
+                }
+              ]
+            },
+            {
+              "title": "Benefits for Patients",
+              "description": "Advantages of the Enteroscope procedure.",
+              "listItems": [
+                {
+                  "title": "Accurate Diagnosis",
+                  "description": "Ensures precise diagnosis of small bowel disorders."
+                },
+                {
+                  "title": "Minimally Invasive",
+                  "description": "The procedure is less invasive, promoting faster recovery."
+                },
+                {
+                  "title": "Precise Treatment",
+                  "description": "Allows for the accurate identification and treatment of abnormalities."
+                }
+              ]
+            },
+            {
+              "title": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
+              "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE – Hyderabad, our advanced Enteroscopy services ensure accurate diagnosis and treatment of complex small bowel conditions. Backed by modern equipment and experienced specialists, we provide the highest quality care.",
+              "listItems": [
+                {
+                  "title": "Expert Specialists",
+                  "description": "Experienced specialists ensuring the highest quality care."
+                },
+                {
+                  "title": "Advanced Equipment",
+                  "description": "State-of-the-art Enteroscope for accurate diagnosis."
+                },
+                {
+                  "title": "Comprehensive Care",
+                  "description": "Personalized treatment for small bowel disorders."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "/Images/Icons/CapsuleEndoscopy.png",
+      "title": "Capsule Endoscopy",
+      "pageUrl": "capsule-endoscopy",
+      "content": [
+        {
+          "description": "Capsule Endoscopy uses a small, swallowable camera capsule to capture images of the digestive tract, offering a painless and non-invasive diagnostic tool.",
+          "subTopics": [
+            {
+              "title": "Key Features",
+              "description": "Advanced features ensuring a safe and effective diagnostic experience.",
+              "listItems": [
+                {
+                  "title": "Wireless Technology",
+                  "description": "Provides comprehensive imaging without discomfort."
+                },
+                {
+                  "title": "360-Degree View",
+                  "description": "Captures high-resolution images of the small intestine."
+                },
+                {
+                  "title": "Painless Procedure",
+                  "description": "No sedation or invasive techniques required."
+                }
+              ]
+            },
+            {
+              "title": "Conditions Diagnosed and Treated",
+              "description": "Common conditions assessed using Capsule Endoscopy.",
+              "listItems": [
+                {
+                  "title": "GI Bleeding",
+                  "description": "Locating the source of obscure bleeding."
+                },
+                {
+                  "title": "Crohn’s Disease",
+                  "description": "Assessing small bowel inflammation."
+                },
+                {
+                  "title": "Polyps and Tumors",
+                  "description": "Early detection of abnormal growths."
+                },
+                {
+                  "title": "Celiac Disease",
+                  "description": "Evaluation of small bowel damage."
+                }
+              ]
+            },
+            {
+              "title": "Benefits for Patients",
+              "description": "Advantages of the Capsule Endoscopy procedure.",
+              "listItems": [
+                {
+                  "title": "Completely Painless",
+                  "description": "The procedure is non-invasive and painless."
+                },
+                {
+                  "title": "No Hospital Stays Required",
+                  "description": "Accurate diagnosis without the need for a hospital stay."
+                },
+                {
+                  "title": "Ideal for Non-Eligible Patients",
+                  "description": "Perfect for patients who cannot undergo traditional endoscopy."
+                }
+              ]
+            },
+            {
+              "title": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
+              "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, Hyderabad, our Capsule Endoscopy offers a hassle-free solution for diagnosing small intestine disorders. With advanced technology and expert analysis, we ensure accurate results and optimal patient comfort.",
+              "listItems": [
+                {
+                  "title": "Expert Specialists",
+                  "description": "Highly skilled gastroenterologists ensuring precise diagnosis."
+                },
+                {
+                  "title": "Advanced Technology",
+                  "description": "State-of-the-art capsule endoscopy ensuring accuracy and comfort."
+                },
+                {
+                  "title": "Patient-Centered Care",
+                  "description": "A commitment to providing a stress-free and painless diagnostic experience."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "/Images/Icons/FibroScan.png",
+      "title": "FibroScan",
+      "pageUrl": "fibroscan",
+      "content": [
+        {
+          "description": "The FibroScan is a state-of-the-art, non-invasive technology used to assess liver stiffness and fat content. It provides a quick and accurate way to diagnose and monitor liver diseases, especially fibrosis and steatosis.",
+          "subTopics": [
+            {
+              "title": "Key Features",
+              "description": "Advanced features ensuring an efficient and accurate liver evaluation.",
+              "listItems": [
+                {
+                  "title": "Non-Invasive Technology",
+                  "description": "No needles or biopsies required."
+                },
+                {
+                  "title": "Quick Results",
+                  "description": "Provides liver stiffness measurement in minutes."
+                },
+                {
+                  "title": "Highly Accurate",
+                  "description": "Reliable results for detecting fibrosis and fatty liver changes."
+                }
+              ]
+            },
+            {
+              "title": "Conditions Diagnosed and Treated",
+              "description": "Common liver conditions assessed using FibroScan.",
+              "listItems": [
+                {
+                  "title": "Liver Fibrosis",
+                  "description": "Early detection and staging of scarring."
+                },
+                {
+                  "title": "Fatty Liver Disease (NAFLD/NASH)",
+                  "description": "Assessment of fat accumulation."
+                },
+                {
+                  "title": "Cirrhosis",
+                  "description": "Monitoring advanced liver damage."
+                },
+                {
+                  "title": "Hepatitis B & C",
+                  "description": "Evaluating liver stiffness and disease progression."
+                }
+              ]
+            },
+            {
+              "title": "Benefits for Patients",
+              "description": "Advantages of the FibroScan procedure.",
+              "listItems": [
+                {
+                  "title": "Completely Painless",
+                  "description": "Non-invasive and painless procedure."
+                },
+                {
+                  "title": "Fast Results",
+                  "description": "Quick results without the need for hospitalization."
+                },
+                {
+                  "title": "Reduces Need for Biopsies",
+                  "description": "Eliminates the need for invasive liver biopsies."
+                }
+              ]
+            },
+            {
+              "title": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
+              "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE – Hyderabad, we utilize the latest FibroScan technology for accurate and painless liver evaluations. Our expert team ensures early diagnosis and personalized care, helping patients manage liver diseases effectively.",
+              "listItems": [
+                {
+                  "title": "Expert Specialists",
+                  "description": "Skilled gastroenterologists ensuring accurate liver evaluations."
+                },
+                {
+                  "title": "Advanced FibroScan Technology",
+                  "description": "Cutting-edge technology providing reliable liver stiffness and fat content assessments."
+                },
+                {
+                  "title": "Personalized Care",
+                  "description": "We offer individualized care for early diagnosis and effective management."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "/Images/Icons/HighResolutionManometry.png",
+      "title": "High-Resolution Manometry",
+      "pageUrl": "high-resolution-manometry",
+      "content": [
+        {
+          "description": "High-Resolution Manometry (HRM) is an advanced diagnostic test that evaluates the function of the esophagus and anorectal region. It provides precise measurements to identify motility disorders.",
+          "subTopics": [
+            {
+              "title": "Key Features",
+              "description": "Advanced features ensuring accurate evaluation of motility disorders.",
+              "listItems": [
+                {
+                  "title": "Detailed Pressure Mapping",
+                  "description": "Provides real-time measurements of muscle contractions."
+                },
+                {
+                  "title": "Painless and Fast",
+                  "description": "Quick, minimally invasive procedure."
+                },
+                {
+                  "title": "Versatile Application",
+                  "description": "Assess both esophageal and anorectal motility disorders."
+                }
+              ]
+            },
+            {
+              "title": "Conditions Diagnosed and Treated",
+              "description": "Common conditions assessed using High-Resolution Manometry.",
+              "listItems": [
+                {
+                  "title": "Achalasia",
+                  "description": "Difficulty swallowing due to esophageal muscle issues."
+                },
+                {
+                  "title": "GERD (Gastroesophageal Reflux Disease)",
+                  "description": "Evaluates sphincter pressure."
+                },
+                {
+                  "title": "Fecal Incontinence",
+                  "description": "Diagnosing anorectal dysfunction."
+                },
+                {
+                  "title": "Pelvic Floor Disorders",
+                  "description": "Assessing muscle coordination and strength."
+                }
+              ]
+            },
+            {
+              "title": "Benefits for Patients",
+              "description": "Advantages of the High-Resolution Manometry procedure.",
+              "listItems": [
+                {
+                  "title": "Accurate Diagnosis",
+                  "description": "Ensures precise diagnosis of motility disorders."
+                },
+                {
+                  "title": "Minimal Discomfort",
+                  "description": "The procedure causes minimal discomfort and allows quick recovery."
+                },
+                {
+                  "title": "Tailored Treatment Plans",
+                  "description": "Helps in developing specific, targeted treatment plans."
+                }
+              ]
+            },
+            {
+              "title": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
+              "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE – Hyderabad, our advanced High-Resolution Manometry technology ensures precise diagnosis of esophageal and anorectal motility disorders. Combined with expert gastroenterologists, we provide comprehensive care for improved patient outcomes.",
+              "listItems": [
+                {
+                  "title": "Expert Specialists",
+                  "description": "Skilled gastroenterologists ensuring accurate diagnosis."
+                },
+                {
+                  "title": "Advanced Technology",
+                  "description": "State-of-the-art High-Resolution Manometry for precise assessment."
+                },
+                {
+                  "title": "Comprehensive Care",
+                  "description": "Providing comprehensive care for motility disorders with personalized treatment plans."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "/Images/Icons/SpyGlassCholangioscopy.png",
+      "title": "SpyGlass Cholangioscopy",
+      "pageUrl": "spyglass-cholangioscopy",
+      "content": [
+        {
+          "description": "The SpyGlass Cholangioscopy system is an advanced endoscopic technique used to directly visualize the bile ducts and perform targeted interventions.",
+          "subTopics": [
+            {
+              "title": "Key Features",
+              "description": "Advanced features ensuring accurate diagnosis and treatment of biliary conditions.",
+              "listItems": [
+                {
+                  "title": "Direct Visualization",
+                  "description": "High-definition imaging of the bile ducts."
+                },
+                {
+                  "title": "Targeted Interventions",
+                  "description": "Facilitates biopsies and stone removal."
+                },
+                {
+                  "title": "Minimally Invasive",
+                  "description": "Combines diagnosis and treatment into one procedure."
+                }
+              ]
+            },
+            {
+              "title": "Conditions Diagnosed and Treated",
+              "description": "Common conditions assessed using SpyGlass Cholangioscopy.",
+              "listItems": [
+                {
+                  "title": "Bile Duct Stones",
+                  "description": "Detecting and removing stones without surgery."
+                },
+                {
+                  "title": "Biliary Strictures",
+                  "description": "Evaluating and treating narrowing of bile ducts."
+                },
+                {
+                  "title": "Cholangiocarcinoma",
+                  "description": "Early detection and targeted biopsies of bile duct cancer."
+                },
+                {
+                  "title": "Unexplained Biliary Obstructions",
+                  "description": "Direct visualization to identify causes."
+                }
+              ]
+            },
+            {
+              "title": "Benefits for Patients",
+              "description": "Advantages of the SpyGlass Cholangioscopy procedure.",
+              "listItems": [
+                {
+                  "title": "Minimally Invasive",
+                  "description": "Minimally invasive with faster recovery."
+                },
+                {
+                  "title": "Accurate Diagnosis and Treatment",
+                  "description": "Accurate diagnosis and treatment in a single session."
+                },
+                {
+                  "title": "Avoids Open Surgery",
+                  "description": "Avoids open surgery for bile duct evaluation."
+                }
+              ]
+            },
+            {
+              "title": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
+              "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE – Hyderabad, we utilize the advanced SpyGlass Cholangioscopy system to provide precise diagnosis and treatment for biliary conditions. Our expertise ensures superior outcomes with minimal discomfort.",
+              "listItems": [
+                {
+                  "title": "Expert Specialists",
+                  "description": "Experienced specialists ensuring the best outcomes."
+                },
+                {
+                  "title": "Advanced Technology",
+                  "description": "State-of-the-art SpyGlass Cholangioscopy system for precise diagnosis."
+                },
+                {
+                  "title": "Comprehensive Care",
+                  "description": "Minimally invasive solutions with personalized care."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "/Images/Icons/DornierESWL.png",
+      "title": "Dornier ESWL",
+      "pageUrl": "dornier-eswl",
+      "content": [
+        {
+          "description": "The Dornier ESWL (Extracorporeal Shock Wave Lithotripsy) is a non-invasive treatment that uses shock waves to break down kidney, pancreatic, and bile duct stones into smaller fragments for easy passage.",
+          "subTopics": [
+            {
+              "title": "Key Features",
+              "description": "Advanced features ensuring effective stone treatment.",
+              "listItems": [
+                {
+                  "title": "Non-Invasive Treatment",
+                  "description": "No surgical incisions required."
+                },
+                {
+                  "title": "Targeted Shock Waves",
+                  "description": "Precise stone fragmentation with minimal damage."
+                },
+                {
+                  "title": "Short Recovery Time",
+                  "description": "Walk-in, walk-out procedure with quick recovery."
+                }
+              ]
+            },
+            {
+              "title": "Conditions Diagnosed and Treated",
+              "description": "Common conditions treated using Dornier ESWL.",
+              "listItems": [
+                {
+                  "title": "Pancreatic Stones",
+                  "description": "Breaking down stones for easier removal."
+                },
+                {
+                  "title": "Bile Duct Stones",
+                  "description": "Treatment without invasive surgery."
+                },
+                {
+                  "title": "Kidney Stones",
+                  "description": "Effective management of renal stones."
+                }
+              ]
+            },
+            {
+              "title": "Benefits for Patients",
+              "description": "Advantages of the Dornier ESWL procedure.",
+              "listItems": [
+                {
+                  "title": "Completely Non-Invasive and Painless",
+                  "description": "No incisions and no pain involved."
+                },
+                {
+                  "title": "No Hospitalization or Downtime",
+                  "description": "No need for extended hospital stays."
+                },
+                {
+                  "title": "Quick Return to Daily Activities",
+                  "description": "Patients can return to their normal activities quickly."
+                }
+              ]
+            },
+            {
+              "title": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE?",
+              "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE – Hyderabad, our Dornier ESWL system offers a safe and non-surgical solution for stone management. With advanced technology and skilled specialists, we ensure precise treatments and faster recoveries.",
+              "listItems": [
+                {
+                  "title": "Expert Specialists",
+                  "description": "Experienced specialists ensuring the best outcomes."
+                },
+                {
+                  "title": "Advanced Dornier ESWL Technology",
+                  "description": "State-of-the-art technology for precise stone treatment."
+                },
+                {
+                  "title": "Quick Recovery",
+                  "description": "Minimally invasive with quick recovery times."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "/Images/Icons/EHL_Laser_Lithotripsy.png",
+      "title": "EHL & Laser Lithotripsy",
+      "pageUrl": "ehl-laser-lithotripsy",
+      "content": [
+        {
+          "description": "Electrohydraulic Lithotripsy (EHL) and Laser Lithotripsy are advanced, minimally invasive techniques used to fragment and remove stones from the bile duct, pancreatic duct, and urinary tract.",
+          "subTopics": [
+            {
+              "title": "Key Features",
+              "description": "Advanced features ensuring effective stone treatment.",
+              "listItems": [
+                {
+                  "title": "Precision Stone Fragmentation",
+                  "description": "Targeted stone breakdown with minimal tissue damage."
+                },
+                {
+                  "title": "Versatile Applications",
+                  "description": "Effective for stones of all sizes and hardness."
+                },
+                {
+                  "title": "Minimally Invasive",
+                  "description": "Endoscopic procedures with no need for open surgery."
+                }
+              ]
+            },
+            {
+              "title": "Conditions Diagnosed and Treated",
+              "description": "Common conditions treated using EHL & Laser Lithotripsy.",
+              "listItems": [
+                {
+                  "title": "Bile Duct Stones",
+                  "description": "Large or impacted stones in the bile duct."
+                },
+                {
+                  "title": "Pancreatic Duct Stones",
+                  "description": "Stones causing obstruction or pain."
+                },
+                {
+                  "title": "Kidney and Ureteral Stones",
+                  "description": "For stones resistant to other treatments."
+                }
+              ]
+            },
+            {
+              "title": "Benefits for Patients",
+              "description": "Advantages of the EHL & Laser Lithotripsy procedures.",
+              "listItems": [
+                {
+                  "title": "Faster Recovery with Minimal Discomfort",
+                  "description": "Patients experience quick recovery with minimal discomfort."
+                },
+                {
+                  "title": "No Surgical Incisions Required",
+                  "description": "The procedure does not require open surgery."
+                },
+                {
+                  "title": "Safe and Effective for Complex Stone Management",
+                  "description": "An advanced solution for managing difficult stones."
+                }
+              ]
+            },
+            {
+              "title": "Why Choose KAGE?",
+              "description": "At KAGE – Hyderabad, we utilize cutting-edge EHL & Laser Lithotripsy technology for precise and efficient stone removal. Our experienced gastroenterologists ensure that patients receive world-class care with advanced treatment solutions.",
+              "listItems": [
+                {
+                  "title": "Experienced Specialists",
+                  "description": "Skilled gastroenterologists ensuring optimal results."
+                },
+                {
+                  "title": "State-of-the-Art Technology",
+                  "description": "The latest in EHL & Laser Lithotripsy technology for effective treatment."
+                },
+                {
+                  "title": "World-Class Care",
+                  "description": "Providing the highest quality care with advanced solutions."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "/Images/Icons/ERBE_VIO3.png",
+      "title": "ERBE VIO3 with ERBE-JET",
+      "pageUrl": "erbe-vio3-with-erbe-jet",
+      "content": [
+        {
+          "description": "The ERBE VIO3 system with ERBE-JET technology is an innovative electrosurgical unit designed to provide precise tissue cutting, coagulation, and ablation with enhanced safety and control.",
+          "subTopics": [
+            {
+              "title": "Key Features",
+              "description": "Advanced features ensuring precision and safety during procedures.",
+              "listItems": [
+                {
+                  "title": "Advanced Electrosurgery",
+                  "description": "Delivers precise energy for cutting, coagulation, and dissection."
+                },
+                {
+                  "title": "Water-Jet Technology",
+                  "description": "Enables precise tissue separation with minimal damage."
+                },
+                {
+                  "title": "Real-Time Control",
+                  "description": "Intelligent settings for safe and efficient procedures."
+                }
+              ]
+            },
+            {
+              "title": "Conditions Diagnosed and Treated",
+              "description": "Common conditions treated using the ERBE VIO3 with ERBE-JET system.",
+              "listItems": [
+                {
+                  "title": "Endoscopic Resection",
+                  "description": "Removal of polyps, tumors, and abnormal tissues."
+                },
+                {
+                  "title": "GI Bleeding",
+                  "description": "Effective management of bleeding lesions."
+                },
+                {
+                  "title": "Tissue Ablation",
+                  "description": "Non-surgical treatment for abnormal tissue growth."
+                },
+                {
+                  "title": "Stricture Management",
+                  "description": "Precise cutting for narrowing of the GI tract."
+                }
+              ]
+            },
+            {
+              "title": "Benefits for Patients",
+              "description": "Advantages of using the ERBE VIO3 with ERBE-JET system.",
+              "listItems": [
+                {
+                  "title": "Safe, Minimally Invasive Procedures",
+                  "description": "Provides safe, minimally invasive treatments."
+                },
+                {
+                  "title": "Reduced Procedure Time and Faster Recovery",
+                  "description": "Quick procedures and faster recovery times."
+                },
+                {
+                  "title": "Precision Targeting with Minimal Tissue Damage",
+                  "description": "Enhanced control to minimize damage to healthy tissue."
+                }
+              ]
+            },
+            {
+              "title": "Why Choose KAGE?",
+              "description": "At KAGE – Hyderabad, our use of the ERBE VIO3 with ERBE-JET system ensures precision and safety in complex gastroenterological procedures. With advanced technology and expert care, we deliver exceptional patient outcomes.",
+              "listItems": [
+                {
+                  "title": "Advanced Technology",
+                  "description": "Utilizing cutting-edge electrosurgical equipment for the best outcomes."
+                },
+                {
+                  "title": "Experienced Specialists",
+                  "description": "Our skilled specialists ensure safe and effective procedures."
+                },
+                {
+                  "title": "Exceptional Patient Care",
+                  "description": "We prioritize patient safety and comfort throughout all procedures."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "/Images/Icons/BreathTests.png",
+      "title": "Breath Tests",
+      "pageUrl": "breath-tests",
+      "content": [
+        {
+          "description": "Breath Tests are simple, non-invasive diagnostic tools used to detect conditions affecting the gastrointestinal tract. At KAGE, we offer advanced Hydrogen Breath Tests and Urea Breath Tests for accurate diagnosis.",
+          "subTopics": [
+            {
+              "title": "Hydrogen Breath Test",
+              "description": "The Hydrogen Breath Test measures the amount of hydrogen in the breath to diagnose carbohydrate malabsorption and small intestinal bacterial overgrowth (SIBO).",
+              "listItems": [
+                {
+                  "title": "Conditions Diagnosed",
+                  "description": "Conditions assessed using the Hydrogen Breath Test.",
+                  "listItems": [
+                    {
+                      "title": "Lactose Intolerance",
+                      "description": "Diagnosis of lactose malabsorption."
+                    },
+                    {
+                      "title": "Fructose Malabsorption",
+                      "description": "Assessment of fructose intolerance."
+                    },
+                    {
+                      "title": "Small Intestinal Bacterial Overgrowth (SIBO)",
+                      "description": "Identification of excessive bacteria in the small intestine."
+                    }
+                  ]
+                },
+                {
+                  "title": "Benefits",
+                  "description": "Advantages of the Hydrogen Breath Test.",
+                  "listItems": [
+                    {
+                      "title": "Non-invasive and Painless",
+                      "description": "No needles or invasive procedures required."
+                    },
+                    {
+                      "title": "Quick Results with High Accuracy",
+                      "description": "Fast and reliable test results."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Urea Breath Test",
+              "description": "The Urea Breath Test detects Helicobacter pylori infections, a common cause of gastritis and peptic ulcers.",
+              "listItems": [
+                {
+                  "title": "Conditions Diagnosed",
+                  "description": "Conditions assessed using the Urea Breath Test.",
+                  "listItems": [
+                    {
+                      "title": "H. pylori Infection",
+                      "description": "Detection of Helicobacter pylori infection."
+                    },
+                    {
+                      "title": "Chronic Gastritis",
+                      "description": "Assessment of long-term inflammation of the stomach lining."
+                    },
+                    {
+                      "title": "Peptic Ulcers",
+                      "description": "Diagnosis of ulcers caused by H. pylori or other factors."
+                    }
+                  ]
+                },
+                {
+                  "title": "Benefits",
+                  "description": "Advantages of the Urea Breath Test.",
+                  "listItems": [
+                    {
+                      "title": "Safe and Non-invasive with Immediate Results",
+                      "description": "Quick, easy test with no need for invasive procedures."
+                    },
+                    {
+                      "title": "No Need for Invasive Endoscopy in Most Cases",
+                      "description": "Eliminates the need for more invasive diagnostic methods."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Why Choose KAGE?",
+              "description": "At KAGE – Hyderabad, we offer advanced Breath Tests for quick, non-invasive diagnosis of gastrointestinal conditions. Our specialists ensure accurate results and effective treatment plans for a healthier gut.",
+              "listItems": [
+                {
+                  "title": "Accurate and Quick Diagnosis",
+                  "description": "Providing fast and reliable results with non-invasive tests."
+                },
+                {
+                  "title": "Expert Care",
+                  "description": "Our specialists offer personalized care and treatment plans."
+                },
+                {
+                  "title": "Minimally Invasive Options",
+                  "description": "Non-invasive testing options for improved patient comfort."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "/Images/Icons/24HourpHMetry.png",
+      "title": "24-Hour pH Metry",
+      "pageUrl": "24-hour-ph-metry",
+      "content": [
+        {
+          "description": "24-Hour pH Metry is a diagnostic procedure that measures acid levels in the esophagus over a 24-hour period to evaluate acid reflux and related conditions.",
+          "subTopics": [
+            {
+              "title": "Key Features",
+              "description": "Advanced features that ensure accurate diagnosis and patient comfort.",
+              "listItems": [
+                {
+                  "title": "Continuous Monitoring",
+                  "description": "Tracks acid exposure throughout the day."
+                },
+                {
+                  "title": "Accurate Diagnosis",
+                  "description": "Identifies the severity and frequency of acid reflux."
+                },
+                {
+                  "title": "Minimally Invasive",
+                  "description": "Small catheter placement with no major discomfort."
+                }
+              ]
+            },
+            {
+              "title": "Conditions Diagnosed and Treated",
+              "description": "Common conditions evaluated with 24-Hour pH Metry.",
+              "listItems": [
+                {
+                  "title": "GERD (Gastroesophageal Reflux Disease)",
+                  "description": "Measures reflux severity and frequency."
+                },
+                {
+                  "title": "Laryngopharyngeal Reflux (LPR)",
+                  "description": "Detects acid affecting the throat and voice box."
+                },
+                {
+                  "title": "Non-Cardiac Chest Pain",
+                  "description": "Differentiates reflux-related chest pain from cardiac causes."
+                }
+              ]
+            },
+            {
+              "title": "Benefits for Patients",
+              "description": "Advantages of 24-Hour pH Metry for accurate diagnosis and effective treatment.",
+              "listItems": [
+                {
+                  "title": "Accurate Diagnosis of Acid Reflux Conditions",
+                  "description": "Provides precise data on acid reflux severity and frequency."
+                },
+                {
+                  "title": "Helps Tailor Effective Treatment Plans",
+                  "description": "Data from the procedure helps customize treatment."
+                },
+                {
+                  "title": "Minimally Invasive with Minimal Downtime",
+                  "description": "The procedure is minimally invasive with minimal recovery time."
+                }
+              ]
+            },
+            {
+              "title": "Why Choose KAGE?",
+              "description": "At KAGE – Hyderabad, we use advanced 24-Hour pH Metry to diagnose acid reflux with precision. Our expert team ensures a smooth procedure and targeted treatment to improve patient quality of life.",
+              "listItems": [
+                {
+                  "title": "Expert Team",
+                  "description": "Our gastroenterologists ensure a smooth and effective diagnosis."
+                },
+                {
+                  "title": "Advanced Technology",
+                  "description": "State-of-the-art equipment for accurate and reliable results."
+                },
+                {
+                  "title": "Targeted Treatment Plans",
+                  "description": "We provide personalized care based on precise diagnostic data."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "/Images/Icons/FujiEluxeo7000-760Z.png",
+      "title": "Fuji ELUXEO 7000 & 760Z Endoscope and Colonoscope",
+      "pageUrl": "fuji-eluxeo-7000-760z-endoscope-colonoscope",
+      "content": [
+        {
+          "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we believe that precision and clarity are the cornerstones of effective diagnosis and treatment in gastroenterology. The Fuji ELUXEO 7000 and 760Z Endoscope and Colonoscope represent the pinnacle of endoscopic technology, offering unmatched imaging capabilities for diagnosing and treating gastrointestinal disorders.",
+          "subTopics": [
+            {
+              "title": "What is the Fuji ELUXEO 7000 System?",
+              "description": "The Fuji ELUXEO 7000 is an advanced endoscopic imaging system equipped with Multi-Light™ Technology that enhances visualization like never before. It offers unparalleled clarity and accuracy in detecting abnormalities in the digestive tract, enabling early diagnosis of conditions such as colorectal cancer, polyps, ulcers, IBD, and more.",
+              "listItems": [
+                {
+                  "title": "Multi-Light™ Technology",
+                  "description": "Combines multiple wavelengths of light (LED) to enhance tissue contrast and visibility."
+                },
+                {
+                  "title": "Ultra High-Definition (UHD) Imaging",
+                  "description": "Crystal-clear resolution for accurate identification of lesions."
+                },
+                {
+                  "title": "760Z Endoscope & Colonoscope",
+                  "description": "Enhanced maneuverability and control for smooth navigation."
+                },
+                {
+                  "title": "AI-Powered Support",
+                  "description": "Intelligent tools assist in real-time polyp detection and tissue analysis."
+                }
+              ]
+            },
+            {
+              "title": "Why is it Important for Patients?",
+              "description": "The Fuji ELUXEO 7000 system offers numerous benefits for patients, enhancing the overall experience and care.",
+              "listItems": [
+                {
+                  "title": "Early Detection",
+                  "description": "Enables identification of conditions at an early stage, improving treatment outcomes."
+                },
+                {
+                  "title": "Precision Diagnosis",
+                  "description": "High-definition imaging reduces chances of missed lesions or polyps."
+                },
+                {
+                  "title": "Minimally Invasive",
+                  "description": "Provides accurate diagnosis without the need for surgical interventions."
+                },
+                {
+                  "title": "Enhanced Safety",
+                  "description": "Advanced optics and ergonomics ensure smooth and safe procedures."
+                }
+              ]
+            },
+            {
+              "title": "Key Features of Fuji ELUXEO 7000 and 760Z",
+              "description": "The Fuji ELUXEO 7000 and 760Z are equipped with cutting-edge technology to provide high-quality diagnostic outcomes.",
+              "listItems": [
+                {
+                  "title": "Multi-Light™ Technology",
+                  "description": "Combines white light, blue light, and linked color imaging to enhance tissue contrast and detect abnormalities."
+                },
+                {
+                  "title": "Ultra High-Definition (UHD) Imaging",
+                  "description": "Provides clear, high-resolution images for accurate lesion identification."
+                },
+                {
+                  "title": "760Z Endoscope & Colonoscope",
+                  "description": "Superior maneuverability and close-focus optics for a detailed view of tissues."
+                },
+                {
+                  "title": "AI-Powered Support",
+                  "description": "Real-time tools assist in polyp detection and tissue analysis."
+                }
+              ]
+            },
+            {
+              "title": "How Does This Technology Benefit You?",
+              "description": "The Fuji ELUXEO 7000 and 760Z ensure precise diagnoses and quick recoveries.",
+              "listItems": [
+                {
+                  "title": "Accurate Diagnosis",
+                  "description": "Detects early-stage colon cancer, ulcers, IBD, and other gastrointestinal conditions."
+                },
+                {
+                  "title": "Faster Recovery",
+                  "description": "Minimally invasive procedures mean quicker recovery and less downtime."
+                },
+                {
+                  "title": "Peace of Mind",
+                  "description": "World-class technology gives you confidence in your care and treatment."
+                }
+              ]
+            },
+            {
+              "title": "Common Conditions Diagnosed Using Fuji ELUXEO 7000 & 760Z",
+              "description": "The Fuji ELUXEO 7000 and 760Z are highly effective for diagnosing various gastrointestinal conditions.",
+              "listItems": [
+                {
+                  "title": "Colorectal Cancer and Polyps",
+                  "description": "Early detection of tumors and polyps in the colon."
+                },
+                {
+                  "title": "Crohn’s Disease and Ulcerative Colitis",
+                  "description": "Assessment and monitoring of inflammatory bowel diseases."
+                },
+                {
+                  "title": "Gastroesophageal Reflux Disease (GERD)",
+                  "description": "Evaluation of acid reflux and related conditions."
+                },
+                {
+                  "title": "Stomach and Duodenal Ulcers",
+                  "description": "Accurate visualization of ulcers in the stomach and duodenum."
+                },
+                {
+                  "title": "Barrett’s Esophagus",
+                  "description": "Identifying pre-cancerous changes in the esophagus."
+                },
+                {
+                  "title": "Gastritis and Colitis",
+                  "description": "Early diagnosis of inflammation in the stomach and colon."
+                }
+              ]
+            },
+            {
+              "title": "Why Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for Advanced Endoscopy in Hyderabad?",
+              "description": "KIMS Advanced Gastroenterology & Endoscopy - KAGE combines state-of-the-art technology with expert care.",
+              "listItems": [
+                {
+                  "title": "State-of-the-Art Technology",
+                  "description": "KIMS is one of the few centers in Hyderabad equipped with the Fuji ELUXEO 7000 and 760Z."
+                },
+                {
+                  "title": "Expert Team of Gastroenterologists",
+                  "description": "Highly trained specialists in advanced endoscopic procedures."
+                },
+                {
+                  "title": "Patient-Centric Approach",
+                  "description": "Focused on patient comfort, accurate results, and timely treatment."
+                },
+                {
+                  "title": "Early Detection & Intervention",
+                  "description": "Ensures early diagnosis and effective treatment to prevent complications."
+                },
+                {
+                  "title": "Comprehensive Gastroenterology Care",
+                  "description": "Offering seamless care, from diagnosis to treatment, all under one roof."
+                }
+              ]
+            },
+            {
+              "title": "Your Digestive Health Deserves the Best",
+              "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we provide the best in gastrointestinal care using the Fuji ELUXEO 7000 and 760Z system for clear, precise, and effective diagnosis and treatment."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "Patientvideos": [
     {
       "title": "Mr. Samuel Sane | Peroral Endoscopic Myotomy (POEM)  | Dr. Sreekanth Appasani ",
@@ -7399,6 +9088,6 @@
     "map": {
       "iframelink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15047.476207008736!2d78.46386398715822!3d17.436907700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9be10c4c5013%3A0x5581bd5a2711edb!2sKAGE!5e1!3m2!1sen!2sin!4v1738058832256!5m2!1sen!2sin"
     },
-    "contactImage":"/Images/Home/contact.jpg"
+    "contactImage": "/Images/Home/contact.jpg"
   }
 }

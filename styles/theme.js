@@ -16,11 +16,18 @@ const theme = createTheme({
     },
     text: {
       primary: "#000",  // Text color remains black
-      secondary: "#555", // Secondary text color remains consistent
+      secondary: "#000", // Secondary text color remains consistent
     },
   },
   typography: {
     fontFamily: "Open Sans, sans-serif", // Font remains consistent
+ 
+      body2: {
+        color: '#000', // Set global text color for body2 variant
+      },
+      body1: {
+        color: '#000', // Set global text color for body2 variant
+      },
   },
   components: {
     MuiPaper: {

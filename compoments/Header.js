@@ -49,7 +49,7 @@ const Navbar = () => {
     {
       label: "Speciality Clinics",
       href: "/speciality-clinics",
-      subItems: websiteJson?.services?.map((service) => ({
+      subItems: websiteJson?.specialityclinics?.map((service) => ({
         label: service.title,
         href: `/speciality-clinics/${service.title
           .replace(/\s+/g, "-")
@@ -57,11 +57,11 @@ const Navbar = () => {
       })),
     },
     {
-      label: "Procedures",
-      href: "/procedures",
-      subItems: websiteJson?.procedures?.map((procedure) => ({
+      label: "Advanced Procedures",
+      href: "/advanced-procedures",
+      subItems: websiteJson?.advancedprocedures?.map((procedure) => ({
         label: procedure.title,
-        href: `/procedures/${procedure.title
+        href: `/advanced-procedures/${procedure.title
           .replace(/\s+/g, "-")
           .toLowerCase()}`,
       })),
@@ -75,7 +75,7 @@ const Navbar = () => {
 
   return (
     <>
-      <Box
+      {/* <Box
         sx={{
           backgroundColor: "primary.main",
           boxShadow: "none",
@@ -98,7 +98,7 @@ const Navbar = () => {
         >
           <PhoneIcon sx={{ color: "#fff", marginRight: "5px" }} /> Call {websiteJson.hospitalInfo?.phoneNumber} To Book An Appointment
         </Typography>
-      </Box>
+      </Box> */}
       <Box sx={{ backgroundColor: "white", boxShadow: "none" }}>
         <Toolbar sx={{ justifyContent: "space-between", padding: "0 2rem" }}>
           {/* Logo Section */}

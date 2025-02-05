@@ -40,7 +40,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import { Padding } from "@mui/icons-material";
 import PatientVideos from "@/compoments/Home/PatientVideos";
-const Procedures = () => {
+const Advancedprocedures = () => {
   const router = useRouter();
   const { slug } = router.query;
   const [expanded, setExpanded] = useState(false);
@@ -49,11 +49,24 @@ const Procedures = () => {
   // const doctor="dd"
   console.log(websiteJson.items);
   // Fetch doctor details by matching the name from the JSON data
-  const procedures = websiteJson?.procedures?.find(
+  const advancedprocedures = websiteJson?.advancedprocedures?.find(
     (item) => item.title.replace(/\s+/g, "-").toLowerCase() === slug
   );
-
-  if (!procedures) {
+  const renderList = (items, IconComponent) => (
+    <List sx={{ padding: "0px" }}>
+      {items.map((item, idx) => (
+        <ListItem key={idx} sx={{ padding: "0px" }}>
+          {IconComponent && (
+            <ListItemIcon sx={{ padding: "0px", minWidth: "30px" }}>
+              <IconComponent color="primary" />
+            </ListItemIcon>
+          )}
+          <ListItemText primary={item} sx={{ padding: "0px" }} />
+        </ListItem>
+      ))}
+    </List>
+  );
+  if (!advancedprocedures) {
     return (
       <Container>
         <Typography variant="h4" color="error">
@@ -71,7 +84,10 @@ const Procedures = () => {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo service={"Procedures"} pagename={procedures.title} />
+      <Breadcrumbsinfo
+        service={"Advanced Procedures"}
+        pagename={advancedprocedures.title}
+      />
       <Box
         sx={{
           width: "100%",
@@ -106,20 +122,20 @@ const Procedures = () => {
                       color: "secondary.main",
                     }}
                   >
-                    {procedures.title}
+                    {advancedprocedures.title}
                   </Typography>
 
                   <Box mt={2}>
-                    <Typography>{procedures.description}</Typography>
+                    <Typography>{advancedprocedures.description}</Typography>
                     <Typography variant="h5" gutterBottom>
-                      {procedures.subtitle}
+                      {advancedprocedures.subtitle}
                     </Typography>
                   </Box>
                 </Grid>
               </Grid>
             </Container>
             <Container>
-              {procedures.sections.map((section, idx) => (
+              {advancedprocedures.sections.map((section, idx) => (
                 <Box key={idx} sx={{ mb: 4 }}>
                   <Typography
                     variant="h5"
@@ -145,7 +161,8 @@ const Procedures = () => {
                       {section.content}
                     </Typography>
                   )}
-
+                  {section.symptoms &&
+                    renderList(section.symptoms, ArrowForwardIosIcon)}
                   {section.steps && (
                     <List sx={{ padding: "0px" }}>
                       {section.steps.map((step, stepIdx) => (
@@ -160,42 +177,8 @@ const Procedures = () => {
                     </List>
                   )}
 
-                  {section.benefits && (
-                    <List sx={{ padding: "0px" }}>
-                      {section.benefits.map((benefit, benefitIdx) => (
-                        <ListItem key={benefitIdx} sx={{ padding: "0px" }}>
-                          <ListItemIcon
-                            sx={{ padding: "0px", minWidth: "30px" }}
-                          >
-                            <ArrowForwardIosIcon color="primary" />
-                          </ListItemIcon>
-
-                          <ListItemText
-                            primary={benefit}
-                            sx={{ padding: "0px" }}
-                          />
-                        </ListItem>
-                      ))}
-                    </List>
-                  )}
-
-                  {section.symptoms && (
-                    <List sx={{ padding: "0px" }}>
-                      {section.symptoms.map((symptom, symptomIdx) => (
-                        <ListItem key={symptomIdx} sx={{ padding: "0px" }}>
-                          <ListItemIcon
-                            sx={{ padding: "0px", minWidth: "30px" }}
-                          >
-                            <ArrowForwardIosIcon color="primary" />
-                          </ListItemIcon>
-                          <ListItemText
-                            primary={symptom}
-                            sx={{ padding: "0px" }}
-                          />
-                        </ListItem>
-                      ))}
-                    </List>
-                  )}
+                  {section.benefits &&
+                    renderList(section.benefits, ArrowForwardIosIcon)}
 
                   {section.recovery && (
                     <Grid container spacing={2}>
@@ -228,7 +211,7 @@ const Procedures = () => {
                   {section.faq && (
                     <Grid container spacing={2}>
                       {section.faq.map((faq, faqIdx) => (
-                        <Grid size={{ xs: 12, sm: 12, md: 12   }}  key={faqIdx}>
+                        <Grid size={{ xs: 12, sm: 12, md: 12 }} key={faqIdx}>
                           <Accordion
                             expanded={expanded === faqIdx}
                             onChange={handleFaqToggle(faqIdx)}
@@ -259,21 +242,21 @@ const Procedures = () => {
               <Box sx={{ mt: 4 }}>
                 <Typography variant="body1" gutterBottom>
                   {
-                    procedures.sections[procedures.sections.length - 1]
-                      .call_to_action
+                    advancedprocedures.sections[
+                      advancedprocedures.sections.length - 1
+                    ].call_to_action
                   }
                 </Typography>
               </Box>
             </Container>
           </Box>
         </Box>
-        
       </Box>
-      <PatientVideos  patientvideos={websiteJson?.Patientvideos}/>
-    
+      <PatientVideos patientvideos={websiteJson?.Patientvideos} />
+
       <Footer></Footer>
     </>
   );
 };
 
-export default Procedures;
+export default Advancedprocedures;

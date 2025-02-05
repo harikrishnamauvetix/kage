@@ -54,7 +54,7 @@ export default function SubServicePage() {
     const normalizedSubpage = subpage.replace(/-/g, " "); // Normalize subpage as well
 
     // Find the service based on the normalized slug
-    const foundService = websiteJson.services.find(
+    const foundService = websiteJson.specialityclinics.find(
       (s) => s.page.toLowerCase() === normalizedSlug.toLowerCase()
     );
     // console.log("Found Service:", foundService);
