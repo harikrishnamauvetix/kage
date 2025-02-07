@@ -27,17 +27,17 @@ function Faq({ faq }) {
 console.log(faq,"dddd")
   return (
     <>
-      {faq.heading && (
+      {faq?.heading && (
         <>
          <Typography
             variant="h5"
             sx={{ margin: "10px 0", color: "secondary.main" }}
           >
-            {faq.heading }
+            {faq?.heading }
           </Typography>
           <Grid container spacing={2}>
      
-            {faq.faq.map((faq, faqIdx) => (
+            {faq?.faq?.map((faq, faqIdx) => (
               <Grid size={{ xs: 12, sm: 12, md: 12 }} key={faqIdx}>
                 <Accordion
                   expanded={expanded === faqIdx}

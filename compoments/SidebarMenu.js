@@ -21,6 +21,7 @@ const SidebarMenu = ({ service }) => {
   const isMainPageActive = currentSlug === formatSlug(currentSlug) && !currentSubpage;
 
   return (
+    
     <List className="sideSubmenu">
       {/* Main Page Link */}
       <ListItem

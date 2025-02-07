@@ -164,12 +164,15 @@ const Advancedprocedures = () => {
                   {section.symptoms &&
                     renderList(section.symptoms, ArrowForwardIosIcon)}
                   {section.steps && (
-                    <List sx={{ padding: "0px" }}>
+                    <List disablePadding>
                       {section.steps.map((step, stepIdx) => (
-                        <ListItem key={stepIdx} sx={{ padding: "0px" }}>
+                        <ListItem key={stepIdx} disablePadding>
+                          <ListItemIcon disablePadding sx={{minWidth:"30px"}}>
+                            <ArrowForwardIosIcon />
+                          </ListItemIcon>
                           <ListItemText
-                            sx={{ padding: "0px" }}
-                            primary={`${step.step}. ${step.title}`}
+                            disablePadding
+                            primary={step.title}
                             secondary={step.description}
                           />
                         </ListItem>

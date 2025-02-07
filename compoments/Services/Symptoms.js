@@ -30,7 +30,7 @@ function Symptoms({ symptoms }) {
             <Grid item xs={12}>
               <Typography
                 variant="h5"
-                sx={{ margin: "10px 0", color: "secondary.main" }}
+                sx={{ margin: "10px 0", color: "secondary.main",textAlign:"center" }}
               >
                 {symptoms.heading}
               </Typography>

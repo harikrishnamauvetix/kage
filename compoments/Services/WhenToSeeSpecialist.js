@@ -25,12 +25,12 @@ function WhenToSeeSpecialist({ whenToSee }) {
       <Grid container spacing={2}>
         {whenToSee.list.map((item, index) => (
           <Grid size={{ xs: 12, sm: 6, md: 12}} key={index}>
-            <List sx={{ padding: "0" }}>
-              <ListItem sx={{ padding: "0" }}>
+            <List disablePadding>
+              <ListItem disablePadding>
                 <ListItemIcon sx={{ padding: "0px", minWidth: "30px" }}>
                   <ArrowForwardIosIcon color="primary" />
                 </ListItemIcon>
-                <ListItemText primary={item} sx={{ padding: "0" }} />
+                <ListItemText primary={item} disablePadding />
               </ListItem>
             </List>
           </Grid>

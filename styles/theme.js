@@ -1,9 +1,9 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme } from "@mui/material/styles";
 import "@fontsource/open-sans";
 
 const theme = createTheme({
   palette: {
-    mode: 'light', // Set to 'dark' if you prefer the dark mode as default
+    mode: "light", // Set to 'dark' if you prefer the dark mode as default
     primary: {
       main: "#007cb0", // Primary color stays the same
     },
@@ -12,22 +12,22 @@ const theme = createTheme({
     },
     background: {
       default: "#eee", // Background remains the same for both modes
-      paper: "#fff",    // Paper background stays white in both modes
+      paper: "#fff", // Paper background stays white in both modes
     },
     text: {
-      primary: "#000",  // Text color remains black
+      primary: "#000", // Text color remains black
       secondary: "#000", // Secondary text color remains consistent
     },
   },
   typography: {
     fontFamily: "Open Sans, sans-serif", // Font remains consistent
- 
-      body2: {
-        color: '#000', // Set global text color for body2 variant
-      },
-      body1: {
-        color: '#000', // Set global text color for body2 variant
-      },
+
+    body2: {
+      color: "#000", // Set global text color for body2 variant
+    },
+    body1: {
+      color: "#000", // Set global text color for body2 variant
+    },
   },
   components: {
     MuiPaper: {
@@ -35,7 +35,26 @@ const theme = createTheme({
         root: {
           backgroundColor: "#fff", // Paper component background remains white
         },
-        
+      },
+    },
+    MuiListItemText: {
+      styleOverrides: {
+        primary: {
+          fontSize: "1rem",// Adjust as needed
+          fontWeight: "500",
+          lineHeight: "1.5",
+          textAlign: "left",
+          fontFamily: "Open Sans, sans-serif", // Font remains consistent
+
+          // color:"#007cb0"
+        },
+        secondary: {
+          fontSize: "1rem", // Adjust as needed
+          lineHeight: "1.5",
+          textAlign: "left",
+          fontFamily: "Open Sans, sans-serif", // Font remains consistent
+
+        },
       },
     },
     // Ensure other components are unaffected by theme mode changes
@@ -44,7 +63,7 @@ const theme = createTheme({
         root: {
           color: "#fff", // Button text color remains white
           backgroundColor: "#007cb0", // Button background remains the same
-          '&:hover': {
+          "&:hover": {
             backgroundColor: "#005b75", // Button hover state color remains the same
           },
         },
@@ -56,7 +75,6 @@ const theme = createTheme({
         disableRipple: true, // No more ripple, on the whole application 💣!
       },
     },
- 
   },
 });
 

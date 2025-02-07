@@ -22,9 +22,9 @@ function TreatmentOptions({ treatments }) {
       <Grid container spacing={2}>
         {treatments?.steps?.map((step, index) => (
           <Grid size={{ xs: 12, sm: 12, md: 6 }} key={index}>
-            <List>
-              <ListItem sx={{ padding: "0px" }}>
-                <ListItemIcon>
+            <List disablePadding>
+              <ListItem disablePadding>
+                <ListItemIcon disablePadding sx={{minWidth:"30px"}} >
                   {step?.icon ? (
                     <img
                       src={step.icon}
@@ -37,10 +37,10 @@ function TreatmentOptions({ treatments }) {
                       }}
                     />
                   ) : (
-                    <ArrowForwardIosIcon fontSize="large" color="primary" />
+                    <ArrowForwardIosIcon fontSize="large" color="primary" sx={{minWidth:"30px"}}/>
                   )}
                 </ListItemIcon>
-                <ListItemText
+                <ListItemText disablePadding
                   primary={step.title}
                   secondary={step.description}
                 />
