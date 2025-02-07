@@ -22,6 +22,7 @@ import WhyChooseSection from "@/compoments/Services/WhyChooseUs";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import ServicesDetails from "@/compoments/Services/ServicesDetails";
 import PatientVideos from "@/compoments/Home/PatientVideos";
+import Faq from "@/compoments/Services/Faq";
 
 export default function ServicePage() {
   const router = useRouter();
@@ -163,6 +164,8 @@ export default function ServicePage() {
                   <Mutipletreatment
                     treatmentContent={content?.overview?.treatments_mutiple}
                   />
+                  <Faq faq={content?.overview?.faqs}/>
+               
                 </Grid>
               </Grid>
             </Grid>
@@ -171,6 +174,7 @@ export default function ServicePage() {
 
         <WhyChooseSection whyChoose={content?.overview?.why_choose} />
         <TakeChargeSection takeCharge={content?.overview?.take_charge} />
+
         <PatientVideos  patientvideos={websiteJson?.Patientvideos}/>
         {/* <Faqstabcompoment Faqstabcompoment={content?.overview?.faqs}/> */}
       </Container>

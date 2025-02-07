@@ -44,11 +44,11 @@ const Advancedprocedures = () => {
   const router = useRouter();
   const { slug } = router.query;
   const [expanded, setExpanded] = useState(false);
-  // const doctor="dd"
-  console.log(websiteJson);
-  // const doctor="dd"
-  console.log(websiteJson.items);
-  // Fetch doctor details by matching the name from the JSON data
+
+  // console.log(websiteJson);
+
+  // console.log(websiteJson.items);
+
   const advancedprocedures = websiteJson?.advancedprocedures?.find(
     (item) => item.title.replace(/\s+/g, "-").toLowerCase() === slug
   );

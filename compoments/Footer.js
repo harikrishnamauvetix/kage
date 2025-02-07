@@ -39,7 +39,7 @@ export default function Footer() {
                 sx={{ height: 50 }}
               />
             </Box>
-            <Typography variant="body2">
+            <Typography variant="body2" sx={{color:"#fff"}}>
               {websiteJson.footer.companyInfo.description}
             </Typography>
           </Grid>
@@ -74,7 +74,7 @@ export default function Footer() {
                   underline="hover"
                   color="#fff"
                 >
-                  <Typography variant="body1">{service.title}</Typography>
+                  <Typography variant="body1" sx={{color:"#fff"}}>{service.title}</Typography>
                 </Link>
               </Grid>
             ))}

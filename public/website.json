@@ -2280,7 +2280,7 @@
               "description": "Dysfunction of the muscle controlling the flow of bile and pancreatic juices into the small intestine."
             }
           ]
-        },        
+        },
         {
           "heading": "Benefits of ERCP",
           "content": "- Minimally Invasive: Unlike traditional surgery, ERCP requires only small incisions or no incisions at all, reducing the risk of infection and shortening recovery time.\n\n- Diagnostic and Therapeutic: ERCP not only provides an accurate diagnosis but also allows for immediate treatment, such as stone removal or stent placement, in a single procedure.\n\n- Quick Recovery: Most patients experience minimal downtime and can resume normal activities within a short time, typically within a day or two.\n\n- Real-Time Imaging: The use of X-ray during the procedure allows for immediate visualization, ensuring precise treatment of the bile and pancreatic ducts."
@@ -7650,11 +7650,195 @@
           }
         }
       ]
+    },
+    {
+      "id": 7,
+      "title": "Women GI Clinic",
+      "description": "Dedicated Gastrointestinal Care for Women",
+      "icon": "",
+      "page": "Women GI Clinic",
+      "content": {
+        "title": "Women GI Clinic",
+        "description": "Dedicated Gastrointestinal Care for Women",
+        "heading": "Women GI Clinic at KAGE, Hyderabad",
+        "subtext": "Specialized Gastrointestinal Care for Women in Hyderabad",
+        "overview": {
+          "heading": "Overview",
+          "content": [
+            "The Women GI Clinic at KAGE, Hyderabad is dedicated exclusively to the unique gastrointestinal health needs of women. Recognizing that hormonal fluctuations, reproductive factors, and lifestyle differences can influence digestive health, our specialized clinic provides comprehensive care tailored for women.",
+            "Our expert team of gastroenterologists, nutritionists, and women’s health specialists work together to address issues ranging from common digestive discomforts to complex disorders that uniquely affect women."
+          ],
+          "conditions": {
+            "heading": "Common Conditions Addressed",
+            "lists": [
+              {
+                "title": "Irritable Bowel Syndrome (IBS)",
+                "description": "Often exacerbated by hormonal changes and stress."
+              },
+              {
+                "title": "Inflammatory Bowel Disease (IBD)",
+                "description": "Including Crohn’s Disease and Ulcerative Colitis, with special attention to fertility and pregnancy planning."
+              },
+              {
+                "title": "Gastroesophageal Reflux Disease (GERD)",
+                "description": "Tailored management for acid reflux, common during pregnancy or menopause."
+              },
+              {
+                "title": "Pelvic Floor Disorders",
+                "description": "Including constipation and incontinence, with links to childbirth and menopause."
+              },
+              {
+                "title": "Functional Dyspepsia and Bloating",
+                "description": "Addressing non-specific upper GI discomfort that may affect women differently."
+              },
+              {
+                "title": "Gallstones",
+                "description": "With a higher incidence in women, especially those with multiple pregnancies or on hormonal therapies."
+              }
+            ]
+          },
+          "key_services": {
+            "heading": "Our Comprehensive Approach",
+            "list": [
+              {
+               
+                "title": "Personalized Consultations",
+                "description": "Detailed assessments of each patient’s history, symptoms, and hormonal influences, including integrated diagnostic evaluations such as endoscopy, imaging, and laboratory tests designed with women in mind."
+              },
+              {
+              
+                "title": "Tailored Treatment Plans",
+                "description": "Medical management with customized medications, dietary and lifestyle counseling, and minimally invasive procedures for precise diagnosis and treatment."
+              },
+              {
+               
+                "title": "Specialized Support for Life Stages",
+                "description": "Managing GI symptoms during pregnancy, postpartum recovery, and menopause."
+              }
+            ]
+          },
+          "treatments": {
+            "heading": "Benefits for Women Patients",
+            "steps": [
+              {
+                "title": "Focused Expertise",
+                "description": "Dedicated to women’s gastrointestinal issues, ensuring care that is empathetic and highly specialized."
+              },
+              {
+                "title": "State-of-the-Art Technology",
+                "description": "Utilizing advanced endoscopic and diagnostic tools to ensure early detection and precise treatment."
+              },
+              {
+                "title": "Holistic Care",
+                "description": "Integration of nutritional, lifestyle, and psychological support, providing a comprehensive wellness plan."
+              },
+              {
+                "title": "Patient-Centric Environment",
+                "description": "A welcoming, sensitive atmosphere where women feel comfortable discussing their health concerns."
+              }
+            ]
+          },
+          "why_choose": {
+            "heading": "Why Choose KAGE Women GI Clinic?",
+            "description": "At KAGE, Hyderabad, we combine decades of expertise with cutting-edge technology to deliver personalized gastrointestinal care for women. Our clinic is designed to address the specific needs of women at every stage of life, ensuring improved quality of life and enhanced digestive health."
+          },
+          "faqs": {
+            "heading": "Frequently Asked Questions (FAQs)",
+      
+            "faq": [
+              {
+                "question": "What makes women’s GI disorders different from those in men?",
+                "answer": "Women often experience GI disorders differently due to hormonal fluctuations, reproductive factors, and metabolic differences. Our clinic tailors diagnosis and treatment to these unique needs."
+              },
+              {
+                "question": "Are the diagnostic procedures different for women?",
+                "answer": "While the core diagnostic tools are similar, our approach considers factors such as pregnancy, menstrual cycles, and menopause to provide more accurate evaluations."
+              },
+              {
+                "question": "Can you help manage GI symptoms during pregnancy?",
+                "answer": "Absolutely. We provide specialized care for pregnant women, ensuring both maternal and fetal well-being through tailored treatment and lifestyle advice."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "title": "Alcohol Clinic",
+      "description": "Clinic for Alcohol-Related Gastrointestinal and Liver Disorders",
+      "icon": "",
+      "page": "Alcohol Clinic",
+      "content": {
+        "title": "Alcohol Clinic",
+        "description": "Specialized care for alcohol-related gastrointestinal disorders and liver diseases",
+        "heading": "Alcohol Clinic at KIMS Advanced Gastroenterology & Endoscopy - KAGE",
+        "subtext": "Comprehensive Care for Alcohol-Related Gastrointestinal and Liver Diseases in Hyderabad",
+        "overview": {
+          "heading": "Overview",
+          "content": [
+            "The Alcohol Clinic at KAGE, Hyderabad offers specialized care for patients with alcohol-related gastrointestinal disorders and liver diseases.",
+            "Recognizing that alcohol consumption can lead to a spectrum of digestive health issues—from acute gastritis to advanced cirrhosis and alcohol-induced pancreatitis—we provide a comprehensive program that emphasizes early intervention, rehabilitation, and long-term health management."
+          ],
+          "conditions": {
+            "heading": "Common Conditions Addressed",
+            "lists": [
+              { "title": "Alcoholic Liver Disease (ALD)", "description": "Ranging from fatty liver to cirrhosis and hepatocellular carcinoma." },
+              { "title": "Acute Alcoholic Hepatitis", "description": "Inflammatory condition triggered by excessive alcohol consumption." },
+              { "title": "Pancreatitis", "description": "Both acute and chronic forms, often associated with alcohol abuse." },
+              { "title": "Gastritis and Ulcers", "description": "Alcohol-induced inflammation of the stomach lining leading to pain and bleeding." },
+              { "title": "Esophageal Varices", "description": "Complications arising from alcohol-induced portal hypertension." },
+              { "title": "Nutritional Deficiencies", "description": "Often seen in chronic alcohol users, affecting overall gastrointestinal function." }
+            ]
+          },
+          "key_services": {
+            "heading": "Our Comprehensive Approach",
+            "list": [
+              {
+                "title": "Integrated Assessment and Diagnosis",
+                "description": "Thorough evaluation of liver function, pancreatic health, and nutritional status using advanced imaging (ultrasound, FibroScan) and endoscopic procedures."
+              },
+              {
+                "title": "Personalized Treatment Programs",
+                "description": "Medical management with tailored medications, minimally invasive endoscopic and surgical interventions, and customized nutritional support."
+              },
+              {
+                "title": "Alcohol Rehabilitation and Counseling",
+                "description": "Behavioral therapy, support groups, and follow-up care to promote long-term sobriety and prevent relapse."
+              }
+            ]
+          },
+          "treatments": {
+            "heading": "Benefits for Patients",
+            "steps": [
+              { "title": "Holistic Care", "description": "Comprehensive treatment addressing both the physical damage and underlying alcohol dependency." },
+              { "title": "Advanced Diagnostic Tools", "description": "State-of-the-art imaging and endoscopic procedures for accurate assessment and treatment planning." },
+              { "title": "Integrated Rehabilitation", "description": "Combining medical treatment with counseling and nutritional support for long-term recovery." },
+              { "title": "Expert Team", "description": "Specialized hepatologists, gastroenterologists, and addiction counselors working together under one roof." }
+            ]
+          },
+          "why_choose": {
+            "heading": "Why Choose KAGE Alcohol Clinic?",
+            "description": "At KAGE, Hyderabad, our Alcohol Clinic is at the forefront of treating alcohol-related gastrointestinal and liver disorders. With a multidisciplinary team, innovative treatment protocols, and a compassionate, patient-centered approach, we help patients reclaim their health and improve their quality of life through integrated care and lasting support."
+          },
+          "faqs": {
+            "heading": "Frequently Asked Questions (FAQs)",
+            "faq": [
+              { "question": "How do you diagnose alcohol-related GI disorders?", "answer": "We use a combination of blood tests, imaging (ultrasound, FibroScan), endoscopy, and comprehensive patient history to diagnose conditions related to alcohol use." },
+              { "question": "Can treatment reverse liver damage caused by alcohol?", "answer": "Early-stage liver damage, such as fatty liver, can often be reversed with proper treatment and abstinence. Advanced damage like cirrhosis requires ongoing management and, in severe cases, may need liver transplantation." },
+              { "question": "What support do you offer for alcohol rehabilitation?", "answer": "We offer behavioral counseling, support groups, nutritional therapy, and continuous follow-up care to help patients maintain sobriety and manage health complications." }
+            ]
+          }
+        }
+    
+      }
     }
+    
+    
   ],
   "services": [
     {
-      "icon": "/Images/Icons/OlympusX1HDEndoscope.png",
+      "icon": "",
       "title": "Olympus X1 HD Endoscope & Colonoscope",
       "pageUrl": "olympus-x1-hd-endoscope-colonoscope",
       "content": [
@@ -7746,7 +7930,7 @@
       ]
     },
     {
-      "icon": "/Images/Icons/Endoscopy.png",
+      "icon": "",
       "title": "Endoscopy",
       "pageUrl": "endoscopy",
       "content": [
@@ -7795,7 +7979,7 @@
       ]
     },
     {
-      "icon": "/Images/Icons/PediatricEndoscope.png",
+      "icon": "",
       "title": "Pediatric Endoscope & Colonoscope",
       "pageUrl": "pediatric-endoscope-colonoscope",
       "content": [
@@ -7868,7 +8052,7 @@
       ]
     },
     {
-      "icon": "/Images/Icons/NasalEndoscope.png",
+      "icon": "",
       "title": "Ultra-Slim Nasal Endoscope",
       "pageUrl": "ultra-slim-nasal-endoscope",
       "content": [
@@ -7956,7 +8140,7 @@
       ]
     },
     {
-      "icon": "/Images/Icons/Enteroscope.png",
+      "icon": "",
       "title": "Enteroscope",
       "pageUrl": "enteroscope",
       "content": [
@@ -8044,7 +8228,7 @@
       ]
     },
     {
-      "icon": "/Images/Icons/CapsuleEndoscopy.png",
+      "icon": "",
       "title": "Capsule Endoscopy",
       "pageUrl": "capsule-endoscopy",
       "content": [
@@ -8132,7 +8316,7 @@
       ]
     },
     {
-      "icon": "/Images/Icons/FibroScan.png",
+      "icon": "",
       "title": "FibroScan",
       "pageUrl": "fibroscan",
       "content": [
@@ -8220,7 +8404,7 @@
       ]
     },
     {
-      "icon": "/Images/Icons/HighResolutionManometry.png",
+      "icon": "",
       "title": "High-Resolution Manometry",
       "pageUrl": "high-resolution-manometry",
       "content": [
@@ -8308,7 +8492,7 @@
       ]
     },
     {
-      "icon": "/Images/Icons/SpyGlassCholangioscopy.png",
+      "icon": "",
       "title": "SpyGlass Cholangioscopy",
       "pageUrl": "spyglass-cholangioscopy",
       "content": [
@@ -8396,7 +8580,7 @@
       ]
     },
     {
-      "icon": "/Images/Icons/DornierESWL.png",
+      "icon": "",
       "title": "Dornier ESWL",
       "pageUrl": "dornier-eswl",
       "content": [
@@ -8480,7 +8664,7 @@
       ]
     },
     {
-      "icon": "/Images/Icons/EHL_Laser_Lithotripsy.png",
+      "icon": "",
       "title": "EHL & Laser Lithotripsy",
       "pageUrl": "ehl-laser-lithotripsy",
       "content": [
@@ -8564,7 +8748,7 @@
       ]
     },
     {
-      "icon": "/Images/Icons/ERBE_VIO3.png",
+      "icon": "",
       "title": "ERBE VIO3 with ERBE-JET",
       "pageUrl": "erbe-vio3-with-erbe-jet",
       "content": [
@@ -8652,7 +8836,7 @@
       ]
     },
     {
-      "icon": "/Images/Icons/BreathTests.png",
+      "icon": "",
       "title": "Breath Tests",
       "pageUrl": "breath-tests",
       "content": [
@@ -8758,7 +8942,7 @@
       ]
     },
     {
-      "icon": "/Images/Icons/24HourpHMetry.png",
+      "icon": "",
       "title": "24-Hour pH Metry",
       "pageUrl": "24-hour-ph-metry",
       "content": [
@@ -8842,7 +9026,7 @@
       ]
     },
     {
-      "icon": "/Images/Icons/FujiEluxeo7000-760Z.png",
+      "icon": "",
       "title": "Fuji ELUXEO 7000 & 760Z Endoscope and Colonoscope",
       "pageUrl": "fuji-eluxeo-7000-760z-endoscope-colonoscope",
       "content": [
@@ -9027,6 +9211,423 @@
     {
       "title": "Think You Know Jaundice? Get the Facts! | Dr. Sreekanth Appasani",
       "url": "https://www.youtube.com/embed/n8laf4GSDhw"
+    }
+  ],
+  "courseDetails": [
+    {
+      "title": "KAGE Technician Training Programme",
+       "duration": "The course spans a duration of 2 years.",
+      "course_description": [
+        {
+          "title": "Course Details",
+          "listItems": [
+            {
+              "title": "Eligibility",
+              "description": "Candidates must have completed their 12th grade to apply for the course."
+            },
+            {
+              "title": "Course Duration",
+              "description": "The course spans a duration of 2 years."
+            },
+            {
+              "title": "No. of Sessions",
+              "description": "The course is conducted once yearly."
+            },
+            {
+              "title": "No. of Candidates",
+              "description": "Each year, a total of 10 candidates are admitted to the program."
+            },
+            {
+              "title": "Degree Awarded",
+              "description": "Upon successful completion of the course, candidates are awarded the degree of Endoscopy Technician."
+            }
+          ]
+        },
+        {
+          "title": "Curriculum in short",
+          "topics": [
+            "Endoscopes and accessories maintenance",
+            "Assisting diagnostic procedures",
+            "Assisting routine therapeutic procedures",
+            "Assisting complex and advanced therapeutic procedures"
+          ]
+        },
+        {
+          "title": "About Us",
+          "description": [
+            "KIMS hospitals is a renowned healthcare institution known for its excellence in patient care and medical education. With state-of-the-art facilities, cutting-edge technology, and a team of highly skilled medical professionals, KIMS hospitals is committed to providing the best healthcare services.",
+            "The department of gastroenterology was established in 2004 at the beginning of the healthcare institution with an aim to create awareness and provide super-specialty patient care. Various senior faculty like Dr. Nagarjuna Kumar, Dr. Sethu Babu, and Dr. Ajith Kumar were instrumental in steering this place towards professional and academic excellence.",
+            "Apart from routine inpatient and outpatient services, the department aims at academic training to DrNB registrars, endoscopy training fellows, endoscopy technicians, and specialist nurses. We have also recently established specialty clinics for IBD, Pancreas, and Corrosive patients.",
+            "The department can proudly vouch for excellence in advanced endoscopy work. Under the auspices of Dr. Sreekanth Appasani, we have been recognized as a National Skill Development Centre by ERBE for Third Space Endoscopy & Advanced Gastroenterology.",
+            "The department has a total of 13 proficient consultant gastroenterologists, the largest in the state among corporate hospitals."
+          ]
+        },
+        {
+          "title": "faculty",
+          "faculty": [
+            {
+              "name": "Dr. Sethu Babu",
+              "designation": "Head of Department"
+            },
+            {
+              "name": "Dr. Ajit Kumar",
+              "designation": "Academic In-charge"
+            },
+            {
+              "name": "Dr. Sharat Reddy Putta",
+              "designation": "Lead Consultant, Hepatology & Transplant & EUS"
+            },
+            {
+              "name": "Dr. Nitesh Pratap",
+              "designation": "Lead Consultant, Motility & Functional Bowel Diseases"
+            },
+            {
+              "name": "Dr. Sreekanth Appasani",
+              "designation": "Lead Consultant, Advanced Endoscopy"
+            },
+            {
+              "name": "Dr. Ramakrishna Kappa",
+              "designation": "Senior Consultant Gastroenterologist"
+            },
+            {
+              "name": "Dr. Harsha Vardhan Reddy",
+              "designation": "Consultant Gastroenterologist"
+            },
+            {
+              "name": "Dr. Bhaskar Kante",
+              "designation": "Consultant Gastroenterologist, Fellowship (IBD)"
+            },
+            {
+              "name": "Dr. Venu Gongati",
+              "designation": "Consultant Gastroenterologist"
+            },
+            {
+              "name": "Dr. Spoorthi Kolla",
+              "designation": "Consultant Gastroenterologist"
+            },
+            {
+              "name": "Dr. Rajesh Lekkala",
+              "designation": "Consultant Gastroenterologist"
+            },
+            {
+              "name": "Dr. Vishwanath Kamisetty",
+              "designation": "Consultant Gastroenterologist"
+            },
+            {
+              "name": "Dr. Srinu Deshidi",
+              "designation": "Consultant Gastroenterologist"
+            }
+          ]
+        },
+        {
+          "title": "Technician Training Programme at KIMS Secunderabad",
+          "description": [
+            "The department offers a 2-year training course for technical assistance skills in endoscopy. This programme is designed to offer comprehensive training and education in the field of both basic and interventional endoscopy, equipping technicians with the knowledge and skills necessary to become competent assistants in the field under the guidance of renowned gastroenterologists. It’s a paid training course and the participant will be engaged in clinical work along with daily training. A total of 2 students will be taken for this course on a yearly basis."
+          ]
+        },
+        {
+          "title": "Aims",
+          "description": [
+            "The aim is to impart high-quality training in endoscopy to technicians at various levels, including basic procedures (endoscopy, colonoscopy), therapeutics (ERCP, Dilatation, Polypectomy, EUS), and advanced therapeutics (SpyGlass, Lithotripsy, Enteroscopy, EMR, ESD, POEM). The goal is to train technicians who are limited in numbers and availability to make the endoscopy work of gastroenterologists easier, ensuring quality patient care. We will try to accommodate them in our hospital chain after completion, where a need is present if agreeable to them."
+          ]
+        },
+        {
+          "title": "Eligibility Requirements",
+          "description": [
+            "Candidates are selected through an interview process after reviewing the candidates’ applications submitted through the hospital portal. Candidates are expected to have completed and passed their 12th exams before joining this course. Nursing background and science/technical background graduates will be given preference over others."
+          ]
+        },
+        {
+          "title": "Course Fee Structure",
+          "description": [
+            "The course fee is 1 lakh rupees, Rs. 50,000 per annum. Payments are to be done annually at the beginning of each year. Part payments are not accepted. All payments are to be done to the KIMS Hospitals accounts. Payment through cheque, DD, and online transfers are accepted. Cash payments are not accepted."
+          ]
+        },
+        {
+          "title": "Programme Highlights",
+          "listItems": [
+            {
+              "title": "Comprehensive Curriculum",
+              "description": "Our technician training programme covers all aspects of endoscopy, including basics to advanced procedures. They will also develop experience in endoscope maintenance, endoscopy machinery maintenance, and endoscopy recording and reporting software management."
+            },
+            {
+              "title": "Clinical Experience",
+              "description": "Technicians will have exposure to a wide range of endoscopy cases, both common and complex, allowing them to develop expertise in the assistance of various procedures."
+            },
+            {
+              "title": "State-of-the-Art Facilities",
+              "description": "KIMS Hospitals are equipped with advanced medical technology and facilities, including endoscopy suites, diagnostic imaging, and dedicated research laboratories."
+            },
+            {
+              "title": "Faculty Expertise",
+              "description": "Our faculty comprises experienced gastroenterologists who are passionate about teaching and mentoring the technicians as next-generation gastroenterology assistant professionals."
+            }
+          ]
+        },
+        {
+          "title": "course structure",
+          "topics": [
+            "Initial 6 months of the course will be lectures and observation in the endoscopy unit.",
+            "Next six months will be learning to assist the procedures from the qualified technicians.",
+            "At the end of One year, there will be a theory examination to assess their proficiency.",
+            "After clearing the theory, there will be one year of internship with stipend.",
+            "At the end of internship, there will be a practical examination to assess performance and technical competency.",
+            "Trainee needs to maintain a log-book which will be audited quarterly.",
+            "Degree will be awarded as Endoscopy Technician."
+          ]
+        },
+        {
+          "title": "Course Curriculum in detail",
+          "topics": [
+            "Trainee technician will be attached to the endoscopy department, will observe, assist procedures routine and therapeutic.",
+            "Didactic lectures will be taken to the technicians on a fortnightly basis with emphasis on basics of endoscopic anatomy, physiology, pathology and endoscopy, electrocautery, accessories."
+          ]
+        },
+        {
+          "title": "procedures",
+          "topics": [
+            "Diagnostic endoscopy, sigmoidoscopy, colonoscopy",
+            "Therapeutic procedures: Dilatation, Banding, Sclerotherapy, Polypectomy, Clip application, Hemostasis, Peg placement, Argon plasma Coagulation",
+            "ERCP – Biliary and Pancreatic: Cannulation, Sphincterotomy, Dilatation, Stenting, stone extraction",
+            "Spy-Glass Cholangioscopy",
+            "Manometry – Technique, maintenance and reporting",
+            "Endoscopic Ultrasound: Diagnostic and therapeutics such as FNAC, Celiac Plexus Block-Neurolysis, cystogastrostomy",
+            "Third space endoscopy assistance"
+          ]
+        },
+        {
+          "title": "hospital Duties",
+          "topics": [
+            "Clinical work will be endorsed daily in the endoscopy department on a rotational basis, based on their shift pattern and need.",
+            "Trainee needs to attend and take up emergency procedure on calls along with on-call technician.",
+            "Routine work timings: 2 shifts, 8 am - 4 pm & 10 am - 6 pm"
+          ]
+        },
+        {
+          "title": "accommodation food transport",
+          "topics": [
+            "Trainee will be provided access to the hospital canteen and food cards will be provided (payment for same at their own expenses).",
+            "Trainees must make their own arrangements for stay and transport."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Eus Short Term Training Programme",
+      "duration": "2 Weeks (10-15 Days)",
+      "course_description": [
+        {
+          "title": "Course Details",
+          "listItems": [
+            {
+              "title": "Eligibility",
+              "description": "DM/DrNB Medical Gastroenterology."
+            },
+            {
+              "title": "Course Duration",
+              "description": "2 Weeks (10-15 Days)"
+            },
+            {
+              "title": "No. of Sessions",
+              "description": "Monthly Once (12 sessions per Year)"
+            },
+            {
+              "title": "No. of Candidates",
+              "description": "1-2 Candidates per session"
+            }
+          ]
+        },
+        {
+          "title": "Curriculum in short",
+          "topics": [
+            "Hands-on training of Diagnostic EUS and Basic therapeutics in EUS",
+            "Theoretical teaching with didactic lectures on EUS Basics and Therapeutics"
+          ]
+        },
+        {
+          "title": "About Us",
+          "description": [
+            "KIMS Hospitals is a renowned healthcare institution known for its excellence in patient care and medical education. With state-of-the-art facilities, cutting edge technology, and a team of highly skilled medical professionals, KIMS hospitals is committed to providing the best healthcare services.",
+            "The department of Gastroenterology was established in 2004 at the beginning of the healthcare institution with an aim to create awareness and provide superspecialty patient care. Various senior faculty like Dr. Nagarjuna Kumar, Dr. Sethu Babu, Dr. Ajith Kumar were instrumental in steering this place towards professional and academic excellence. Apart from routine inpatient and outpatient services, the department aims at academic training to DrNB registrars, endoscopy training fellows, endoscopy technicians and specialist nurses. We also have recently established the specialty clinics for IBD, Pancreas and Corrosive patients",
+            "The department can proudly vouch for excellence in advanced endoscopy work. Under the auspices of Dr. Sreekanth Appasani, we have been recognized as a National Skill Development Centre by ERBE for Third Space Endoscopy & Advanced Gastroenterology.",
+            "The department has a total of 13 Proficient Consultant Gastroenterologists, largest in the state amongst Corporate Hospitals"
+          ]
+        },
+        {
+          "title": "faculty",
+          "faculty": [
+            {
+              "name": "Dr. Sethu Babu",
+              "designation": "Head of Department"
+            },
+            {
+              "name": "Dr. Ajit Kumar",
+              "designation": "Academic In-charge"
+            },
+            {
+              "name": "Dr. Sharat Reddy Putta",
+              "designation": "Lead Consultant, Hepatology & Transplant & EUS"
+            },
+            {
+              "name": "Dr. Nitesh Pratap",
+              "designation": "Lead Consultant, Motility & Functional Bowel Diseases"
+            },
+            {
+              "name": "Dr. Sreekanth Appasani",
+              "designation": "Lead Consultant, Advanced Endoscopy"
+            },
+            {
+              "name": "Dr. Ramakrishna Kappa",
+              "designation": "Senior Consultant Gastroenterologist"
+            },
+            {
+              "name": "Dr. Harsha Vardhan Reddy",
+              "designation": "Consultant Gastroenterologist"
+            },
+            {
+              "name": "Dr. Bhaskar Kante",
+              "designation": "Consultant Gastroenterologist, Fellowship (IBD)"
+            },
+            {
+              "name": "Dr. Venu Gongati",
+              "designation": "Consultant Gastroenterologist"
+            },
+            {
+              "name": "Dr. Spoorthi Kolla",
+              "designation": "Consultant Gastroenterologist"
+            },
+            {
+              "name": "Dr. Rajesh Lekkala",
+              "designation": "Consultant Gastroenterologist"
+            },
+            {
+              "name": "Dr. Vishwanath Kamisetty",
+              "designation": "Consultant Gastroenterologist"
+            },
+            {
+              "name": "Dr. Srinu Deshidi",
+              "designation": "Consultant Gastroenterologist"
+            },
+            {
+              "name": "Dr. Rohan P Reddy",
+              "designation": "Consultant Gastroenterologist"
+            },
+            {
+              "name": "Dr. Venkatesh Pabbisetty",
+              "designation": "Consultant Gastroenterologist"
+            }
+          ]
+        },
+        {
+          "title": "EUS Short Term Fellowship Programme at KIMS Hospitals, Secunderabad (Department of Gastroenterology)",
+          "description": [
+            "We personally feel EUS is no more a fancy investigation, it has become the common helping hand in the diagnostic armamentarium of gastroenterology complementing clinical and radiological assessments.",
+            "The department offers various training courses of variable time duration for sharpening your endoscopic ultrasound skills. These programs are designed to offer comprehensive training and education in the field of interventional endoscopy equipping fellows with the knowledge and skills necessary to become competent clinicians in the field along with research opportunities under the guidance of renowned gastroenterologists.",
+            "This is a two weeks (10-15 days) training programme which covers basic to therapeutic EUS. It’s a paid training course and the participant will be allowed hands-on training on diagnostic and a few types of therapeutic EUS under supervision from expert faculty. 1-2 candidates will be taken for this course, and it will be conducted on a monthly basis."
+          ]
+        },
+        {
+          "title": "Aims",
+          "description": [
+            "The aim is to impact high quality training in Endoscopic Ultrasound Basics and Therapeutics like FNAC, FN Biopsy, Celiac Plexus Block",
+            "The goal is to train the endoscopists who are starting their career and disseminate the knowledge for quality patient care"
+          ]
+        },
+        {
+          "title": "Eligibility Requirements",
+          "description": [
+            "Candidates are selected through an interview process after reviewing the candidates applications submitted through the hospital portal.",
+            "Candidates are expected to have completed and passed their specialty exams (DM or DrNB) before joining these courses."
+          ]
+        },
+        {
+          "title": "Course Fee Structure",
+          "description": [
+            "The Course Fee is 1.5 lakh Rupees.",
+            "All payments are to be done to the KIMS Hospitals account",
+            "Payment through cheque, DD and online transfers are accepted.",
+            "Cash payments are not accepted. All payments are to be made before joining the course, part payments are not accepted."
+          ]
+        },
+        {
+          "title": "Programme Highlights",
+          "listItems": [
+            {
+              "title": "Comprehensive Curriculum",
+              "description": "Our fellowship programme covers all aspects of training in Endoscopic Ultrasound from basics to therapeutics."
+            },
+            {
+              "title": "Clinical Experience",
+              "description": "Trainees will have exposure to a wide range of clinical cases. Both common and complex, allowing them to develop proficiency in performing the endoscopic ultrasound."
+            },
+            {
+              "title": "State-of-the-Art Facilities",
+              "description": "KIMS Hospitals are equipped with advanced medical technology and facilities, including EUS ME3 with high end Olympus X1, Fuji 7000 series with zoom scopes and ARIETTA 850"
+            },
+            {
+              "title": "Faculty Expertise",
+              "description": "Our faculty comprises of experienced gastroenterologists who are passionate about teaching and mentoring the next generation of gastroenterology professionals."
+            }
+          ]
+        },
+        {
+          "title": "Course Curriculum In-Detail",
+          "topics": [
+            "Trainees will be attached to the endoscopy department mainly and will do procedures routine and therapeutics.",
+            "All procedures, both diagnostic and therapeutic, will be done under the supervision of the teaching consultant.",
+            "Trainees will have relevant theoretical teaching in these areas"
+          ]
+        },
+        {
+          "title": "Hands on Training",
+          "Trainingcontent": [
+            { "title": "Daily morning session", "details": [] },
+            {
+              "title": "Diagnostic EUS",
+              "details": [
+                "10 - 15 cases",
+                "Basics of EUS: Image optimization, Scope Handling, Patient and scope safety management, Station-based approach, Contrast EUS & Elastography"
+              ]
+            },
+            {
+              "title": "Therapeutic EUS",
+              "details": ["4 - 6 cases", "Needle handling", "FNAC & FNBx", "Celiac plexus block"]
+            }
+          ]
+        },
+        {
+          "title": "Lectures",
+          "Trainingcontent": [{ "title": "Daily afternoon session", "details": ["Total of 10 theory classes"] }]
+        },
+        {
+          "title": "Schedule",
+          "topics": [
+            "Day 1: Basics and equipment",
+            "Day 2: Mediastinal station",
+            "Day 3: EG junction station",
+            "Day 4: D1 station",
+            "Day 5: D2 station",
+            "Day 6: Anorectal Station",
+            "Day 7: Needles",
+            "Day 8: FNAC & FNBx, celiac plexus block",
+            "Day 9: Cystogastrostomy, Biliary drainage, gastroenterostomy, RFA",
+            "Day 10: Interaction with outside eminent faculty"
+          ]
+        },
+        {
+          "title": "Certificate",
+          "topics": [
+            "A certificate of completion of EUS basics training will be provided"
+          ]
+        },
+        {
+          "title": "Accommodation, food facilities and transport",
+          "topics": [
+            "Trainee will be provided access to the hospital doctors canteen and food cards will be provided (payment for same at their own expense). Help will be provided in finding accommodation, however trainees have to make their own arrangements for stay and transport.",
+            "Trainees must make their own arrangements for stay and transport."
+          ]
+        }
+      ]
     }
   ],
   "footer": {

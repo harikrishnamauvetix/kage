@@ -33,6 +33,7 @@ import Treatment from "@/compoments/SubService/Treatment";
 import WhyToChoose from "@/compoments/SubService/WhyToChoose";
 import SubServiceListItems from "@/compoments/SubService/SubServiceListItems";
 import PatientVideos from "@/compoments/Home/PatientVideos";
+import Faq from "@/compoments/Services/Faq";
 
 export default function SubServicePage() {
   const router = useRouter();
@@ -266,6 +267,7 @@ export default function SubServicePage() {
                   introduction={subService?.sections?.introduction}
                 />
                 <Treatment treatment={subService?.sections?.Treatment} />
+              
               </Grid>
               
             </Grid>

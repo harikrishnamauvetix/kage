@@ -61,7 +61,7 @@ const Contactinfo = (props) => {
                       <Typography variant="subtitle1" fontWeight="bold">
                         Address:
                       </Typography>
-                      <Typography>
+                      <Typography sx={{color: "#fff"}}>
                     {props.Contactinfo?.address}
                       </Typography>
                     </Box>
@@ -81,7 +81,7 @@ const Contactinfo = (props) => {
                       <Typography variant="subtitle1" fontWeight="bold">
                         Appointment Number:
                       </Typography>
-                      <Typography> {props.Contactinfo?.phoneNumber}</Typography>
+                      <Typography sx={{color:"#fff"}}> {props.Contactinfo?.phoneNumber}</Typography>
                   
                     </Box>
                   </ListItem>
@@ -91,7 +91,7 @@ const Contactinfo = (props) => {
                       <Typography variant="subtitle1" fontWeight="bold">
                         Email:
                       </Typography>
-                      <Typography> {props.Contactinfo?.emailid}</Typography>
+                      <Typography  sx={{color:"#fff"}}> {props.Contactinfo?.emailid}</Typography>
                     </Box>
                   </ListItem>
                 </List>
