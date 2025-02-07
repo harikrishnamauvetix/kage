@@ -66,6 +66,26 @@ const Navbar = () => {
           .toLowerCase()}`,
       })),
     },
+    {
+      label: "Services",
+      href: "/services",
+      subItems: websiteJson?.services?.map((services) => ({
+        label: services.title,
+        href: `/services/${services.title
+          .replace(/\s+/g, "-")
+          .toLowerCase()}`,
+      })),
+    },
+    {
+      label: "Courses",
+      href: "/courses",
+      subItems: websiteJson?.courseDetails?.map((courses) => ({
+        label: courses.title,
+        href: `/courses/${courses.title
+          .replace(/\s+/g, "-")
+          .toLowerCase()}`,
+      })),  
+    },
     { label: "Patient Testimonials", href: "/testimonials" },
     { label: "Doctor Videos", href: "/doctorvideos" },
     // { label: "Health Blogs", href: "blogs" },
