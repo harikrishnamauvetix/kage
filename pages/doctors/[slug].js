@@ -169,17 +169,58 @@ const DoctorDetails = () => {
                 >
                   Achievements
                 </Typography>
-                <List
+                <List disablePadding
                   sx={{
-                    listStyleType: "disc", // Add bullet points
-                    pl: 1, // Padding for the bullets to align properly
+                    listStyleType: "disc", 
+                    marginLeft: "30px"
                   }}
                 >
-                  {doctor?.achievements?.map((achievement, index) => (
-                    <ListItem key={index} sx={{ display: "list-item", py: 0 }}>
-                      <ListItemText primary={achievement} />
-                    </ListItem>
-                  ))}
+                  {Array.isArray(doctor?.achievements) &&
+                    doctor.achievements.map((achievement, index) => {
+                      // If achievement is an object, it has a category
+                      if (
+                        typeof achievement === "object" &&
+                        achievement.category
+                      ) {
+                        return (
+                          <Box key={index} >
+                            <Typography
+                              variant="h6"
+                              sx={{ padding: "10px 0", color: "secondary.main" }}
+                            >
+                              {achievement.category}
+                            </Typography>
+                            <List
+                              sx={{
+                                listStyleType: "disc", 
+                               
+                              }}
+                              disablePadding
+                            >
+                              {achievement.details.map((detail, idx) => (
+                                <ListItem key={idx} sx={{ display: "list-item", padding: 0 }}>
+                                  <ListItemText primary={detail}  disablePadding/>
+                                </ListItem>
+                              ))}
+                            </List>
+                          </Box>
+                        );
+                      }
+                      // If it's a plain string, render it directly
+                      return (
+                        <List disablePadding
+                          key={index}
+                          sx={{
+                            listStyleType: "disc",
+                          
+                          }}
+                        >
+                          <ListItem sx={{ display: "list-item", padding: 0 }}>
+                            <ListItemText primary={achievement} disablePadding />
+                          </ListItem>
+                        </List>
+                      );
+                    })}
                 </List>
                 <Typography
                   variant="h6"
@@ -189,12 +230,12 @@ const DoctorDetails = () => {
                 </Typography>
                 <List
                   sx={{
-                    listStyleType: "disc", // Add bullet points
-                    pl: 1, // Padding for the bullets to align properly
+                    listStyleType: "disc", 
+                    pl: 1, 
                   }}
                 >
                   {doctor?.awards?.map((achievement, index) => (
-                    <ListItem key={index} sx={{ display: "list-item", py: 0 }}>
+                    <ListItem key={index} sx={{ display: "list-item", padding: 0 }}>
                       <ListItemText primary={achievement} />
                     </ListItem>
                   ))}
@@ -204,7 +245,7 @@ const DoctorDetails = () => {
           </Grid>
         </Container>
       </Box>
-      <PatientVideos patientvideos={websiteJson?.Patientvideos}/>
+      <PatientVideos patientvideos={websiteJson?.Patientvideos} />
 
       <Footer></Footer>
     </>

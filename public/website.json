@@ -312,45 +312,35 @@
       "registrationNumber": "TSMC/FMR/14877",
       "profileImage": "Images/doctors/dr-harsha.png",
       "achievements": [
-        "Secured 1st rank in schooling from L.K.G. to 10th std",
-        "Stood 1st in the college during Intermediate Education",
-        "Secured 52nd rank in Medical Entrance in 1st attempt - 1995",
-        "Best outgoing student of the 1997 batch – Andhra Medical College",
-        "Secured 1st rank in NIMSET (MD Entrance) in 1st attempt - 2003",
-        "Secured 1st rank in All India PGI entrance for DM gastroenterology – 2008",
-        "'10' Gold Medals during Graduation in Andhra Medical College",
-        "Best poster award in small bowel section @ ISGCON 2010",
-        "JGH Travel award @ APDW 2011",
-        "Presidential Poster Award @ ACG 2011",
-        "Best Oral Paper @ ISGCON 2011",
-        "Best International Paper Award @ ACG 2012",
-        "Travel Award @ APDW 2012",
-        "Young Investigator Award @ APDW 2012",
-        "Poster of Distinction @ DDW 2013",
-        "Best Poster Award @ ISG 2013",
-        "Best Oral Paper (2nd Prize) @ ISG 2013"
+        {
+          "category": "Diagnostic Endoscopy Procedures",
+          "details": [
+            "Performed and reported more than 4000 diagnostic Upper GI endoscopies.",
+            "Completed about 220 proctosigmoidoscopies and more than 1000 colonoscopies.",
+            "Performed over 400 diagnostic and therapeutic pediatric endoscopies, as the hospital is a referral center for Niloufer Hospital for Women and Children."
+          ]
+        },
+        {
+          "category": "Therapeutic Endoscopy Procedures",
+          "details": [
+            "Managed over 200 esophageal variceal bleeding cases endoscopically using esophageal banding and performed endoscopic sclerotherapy in 10 patients over 2 sessions using polydocanol.",
+            "Biopsied more than 1000 patients from various areas, including the esophagus, stomach, and duodenum. Also performed more than 150 colonic and rectal biopsies.",
+            "Performed esophageal stricture bougie dilatation in over 90 patients across 180 sessions.",
+            "Completed 25 percutaneous endoscopic gastrostomy (PEG) tube placements and 5 achalasia cardia pneumatic balloon dilatations.",
+            "Assisted in 8 pancreatic pseudocyst drainage procedures."
+          ]
+        },
+        {
+          "category": "ERCP and Other Procedures",
+          "details": [
+            "Independently performed over 100 ERCP procedures for various indications such as choledocholithiasis, biliary pancreatitis, cholangiocarcinoma, carcinoma of the head of the pancreas, and pancreatic ascites.",
+            "Performed more than 30 liver biopsies.",
+            "Completed 35 ultrasound-guided liver abscess drainages, including 25 pig-tail placements.",
+            "Performed 25 ultrasound-guided FNAC of the liver."
+          ]
+        }
       ],
-      "publications": [
-        "Benign gastric outlet obstruction – spectrum and management. Tropical Gastroenterology 2011;32(4):259–266.",
-        "An Uncommon Cause of Dysphagia. Dysphagia. 2012 Mar;27(1):145-7.",
-        "Hepatic artery aneurysm: a rare presentation as cholangitis and portal hypertension. Gastrointest Endosc. 2012 Jan;75(1):190.",
-        "Lamotrigine Induced Vanishing Bile Duct Syndrome in a Child. J Pediatr Gastroenterol Nutr. 2012 Dec;55(6):e147-8.",
-        "Fluid replacement in acute pancreatitis. Nutritional Therapy & Metabolism 2012; 30(2);67-78.",
-        "Biliary stent with a tied suture! Gastrointest Endosc. 2012 Sep;76(3):669-71.",
-        "Celiac Disease Complicated By Lymphoma: A Case Report. Trop Gastroenterol. 2014 Jan-Mar;35(1):55-6.",
-        "Celiac disease presenting as recurrent pancreatitis and pseudocyst. JOP. 2012 Sep 10;13(5):533-5.",
-        "Prospective validation of 4-category classification of acute pancreatitis severity. Pancreas. 2013 Apr;42(3):392-6.",
-        "Dynamic nature of organ failure in severe acute pancreatitis. HPB (Oxford). 2013 Jul;15(7):523-8.",
-        "Biodegradable stents: truly biodegradable with good tissue harmony. Endoscopy. 2013 May;45 Suppl 2:E116-7.",
-        "Endoscopic ultrasound assisted etiological localization in acute pancreatitis. Endosc Ultrasound 2013;2:162-4.",
-        "Stents for benign and malignant esophageal strictures. Ann N Y Acad Sci. 2013 Oct;1300:119-43.",
-        "Implementation of the Asia-Pacific Guidelines of Obesity Classification on the APACHEO Scoring System. Dig Dis Sci. 2014 Jun;59(6):1316-21.",
-        "Hypotension in the First Week of Acute Pancreatitis and APACHE II Score Predict Development of Infected Pancreatic Necrosis. Dig Dis Sci. 2015 Feb;60(2):537-42.",
-        "Mega stents - New option for management of leaks following laparoscopic sleeve gastrectomy. Endoscopy. 2014;46 Suppl 1 UCTN:E49-50.",
-        "Role of 13NH3 PET/CT in delineating pancreatic necrosis in acute pancreatitis. Pancreatology. 2014 May-Jun;14(3):154-8.",
-        "Utility of narrow band imaging in predicting histology in celiac disease. Indian J Gastroenterol. 2020 Aug;39(4):370-376.",
-        "Pancreatic fluid collections: What is the ideal imaging technique? World J Gastroenterol. 2015 Dec 28;21(48):13403-10."
-      ],
+    
       "awards": [
         "VAIDYA RATNA AWARD in Sankranti Puraskar 2015 by Suman Art Theaters for services rendered in the field of gastroenterology ",
         "NATIONAL ITEGRATION AWARD on the eve of republic day 2015 for services rendered in the field of gastroenterology "
@@ -439,45 +429,25 @@
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
       "registrationNumber": "APMC/FMR/77039",
       "profileImage": "Images/doctors/dr-bhaskar.png",
-      "achievements": [
-        "Secured 1st rank in schooling from L.K.G. to 10th std",
-        "Stood 1st in the college during Intermediate Education",
-        "Secured 52nd rank in Medical Entrance in 1st attempt - 1995",
-        "Best outgoing student of the 1997 batch – Andhra Medical College",
-        "Secured 1st rank in NIMSET (MD Entrance) in 1st attempt - 2003",
-        "Secured 1st rank in All India PGI entrance for DM gastroenterology – 2008",
-        "'10' Gold Medals during Graduation in Andhra Medical College",
-        "Best poster award in small bowel section @ ISGCON 2010",
-        "JGH Travel award @ APDW 2011",
-        "Presidential Poster Award @ ACG 2011",
-        "Best Oral Paper @ ISGCON 2011",
-        "Best International Paper Award @ ACG 2012",
-        "Travel Award @ APDW 2012",
-        "Young Investigator Award @ APDW 2012",
-        "Poster of Distinction @ DDW 2013",
-        "Best Poster Award @ ISG 2013",
-        "Best Oral Paper (2nd Prize) @ ISG 2013"
-      ],
+     
       "publications": [
-        "Benign gastric outlet obstruction – spectrum and management. Tropical Gastroenterology 2011;32(4):259–266.",
-        "An Uncommon Cause of Dysphagia. Dysphagia. 2012 Mar;27(1):145-7.",
-        "Hepatic artery aneurysm: a rare presentation as cholangitis and portal hypertension. Gastrointest Endosc. 2012 Jan;75(1):190.",
-        "Lamotrigine Induced Vanishing Bile Duct Syndrome in a Child. J Pediatr Gastroenterol Nutr. 2012 Dec;55(6):e147-8.",
-        "Fluid replacement in acute pancreatitis. Nutritional Therapy & Metabolism 2012; 30(2);67-78.",
-        "Biliary stent with a tied suture! Gastrointest Endosc. 2012 Sep;76(3):669-71.",
-        "Celiac Disease Complicated By Lymphoma: A Case Report. Trop Gastroenterol. 2014 Jan-Mar;35(1):55-6.",
-        "Celiac disease presenting as recurrent pancreatitis and pseudocyst. JOP. 2012 Sep 10;13(5):533-5.",
-        "Prospective validation of 4-category classification of acute pancreatitis severity. Pancreas. 2013 Apr;42(3):392-6.",
-        "Dynamic nature of organ failure in severe acute pancreatitis. HPB (Oxford). 2013 Jul;15(7):523-8.",
-        "Biodegradable stents: truly biodegradable with good tissue harmony. Endoscopy. 2013 May;45 Suppl 2:E116-7.",
-        "Endoscopic ultrasound assisted etiological localization in acute pancreatitis. Endosc Ultrasound 2013;2:162-4.",
-        "Stents for benign and malignant esophageal strictures. Ann N Y Acad Sci. 2013 Oct;1300:119-43.",
-        "Implementation of the Asia-Pacific Guidelines of Obesity Classification on the APACHEO Scoring System. Dig Dis Sci. 2014 Jun;59(6):1316-21.",
-        "Hypotension in the First Week of Acute Pancreatitis and APACHE II Score Predict Development of Infected Pancreatic Necrosis. Dig Dis Sci. 2015 Feb;60(2):537-42.",
-        "Mega stents - New option for management of leaks following laparoscopic sleeve gastrectomy. Endoscopy. 2014;46 Suppl 1 UCTN:E49-50.",
-        "Role of 13NH3 PET/CT in delineating pancreatic necrosis in acute pancreatitis. Pancreatology. 2014 May-Jun;14(3):154-8.",
-        "Utility of narrow band imaging in predicting histology in celiac disease. Indian J Gastroenterol. 2020 Aug;39(4):370-376.",
-        "Pancreatic fluid collections: What is the ideal imaging technique? World J Gastroenterol. 2015 Dec 28;21(48):13403-10."
+        "Efficacy and tolerability of Hyperbaric oxygen therapy in stricturing Crohn’s disease: Intestinal Research Journal 2021",
+        "Monotherapy with Thiopurines in Stricturing Crohn’s Disease: A real-life experience from low and middle-income countries. Published in: Indian Journal of Gastroenterology 2022",
+        "Fecal microbiota transplantation with anti-inflammatory diet (FMT-AID) followed by diet alone is effective in inducing and maintaining remission over 1 year in mild to moderate ulcerative colitis: A randomized controlled trial. Published in Gut Journal July 2022",
+        "Real-world analysis on the efficacy and safety of anti-tumor necrosis factor therapy in patients with stricturing Crohn’s disease: Published in Nature Scientific Reports 2021",
+        "Role of EUS in idiopathic ulcerative colitis: Published in EUS Journal 2021",
+        "Correlation of EUS anorectum with disease activity in ulcerative colitis: Poster Presentation in ISGCON 2016 New Delhi",
+        "Can EUS differentiate clinically active Ulcerative colitis: Poster Presentation DDW San Diego 2016",
+        "Efficacy and tolerability of Hyperbaric oxygen therapy in stricturing Crohn’s disease: Poster Presentation AOCC 2020",
+        "Anti-tubercular treatment given to differentiate Crohn’s disease from Intestinal tuberculosis predisposes to stricture formation: Published in Journal of Crohn’s Colitis 2021",
+        "Randomized clinical trial: Exclusive enteral nutrition versus standard of care for acute severe ulcerative colitis: Published in Alimentary Pharmacology and Therapeutics 2021",
+        "Efficacy and tolerability of exclusive enteral nutrition in adult patients with complicated Crohn’s disease: Published in Intestinal Research Journal 2020",
+        "Extra esophageal presentation of GERD chapter in the book titled Gastroesophageal reflux disease",
+        "Case Presentation: IBD and PSC difficult-to-treat case in ECCO 2019, New Delhi",
+        "Stringent screening strategy significantly reduces reactivation rates of tuberculosis in patients with IBD on anti-TNF therapy in tuberculosis regions: Published in Alimentary Pharmacology and Therapeutics 2022",
+        "Minimal risk of lymphoma and nonmelanoma skin cancer despite long-term use of Thiopurines in patients with IBD: A longitudinal cohort analysis from northern India: Published in Journal of Gastroenterology and Hepatology 2022",
+        "Real-world analysis on the efficacy and safety of anti-tumor necrosis factor therapy in patients with stricturing Crohn’s disease: Published in Nature Scientific Reports 2021",
+        "Poster presentation DDW 2022: ‘SIMILAR RISK OF INFECTION WITH SARS-COV-2 IN IMMUNOCOMPROMISED AND IMMUNOCOMPETENT PATIENTS WITH INFLAMMATORY BOWEL DISEASE AND HEALTHY CONTROLS’"
       ],
       "awards": [
         " VAIDYA RATNA AWARD in Sankranti Puraskar 2015 by Suman Art Theaters for services rendered in the field of gastroenterology ",
@@ -568,45 +538,10 @@
       "registrationNumber": "TSMC/FMR/79477",
       "profileImage": "Images/doctors/dr-spoorthi.png",
       "achievements": [
-        "Secured 1st rank in schooling from L.K.G. to 10th std",
-        "Stood 1st in the college during Intermediate Education",
-        "Secured 52nd rank in Medical Entrance in 1st attempt - 1995",
-        "Best outgoing student of the 1997 batch – Andhra Medical College",
-        "Secured 1st rank in NIMSET (MD Entrance) in 1st attempt - 2003",
-        "Secured 1st rank in All India PGI entrance for DM gastroenterology – 2008",
-        "'10' Gold Medals during Graduation in Andhra Medical College",
-        "Best poster award in small bowel section @ ISGCON 2010",
-        "JGH Travel award @ APDW 2011",
-        "Presidential Poster Award @ ACG 2011",
-        "Best Oral Paper @ ISGCON 2011",
-        "Best International Paper Award @ ACG 2012",
-        "Travel Award @ APDW 2012",
-        "Young Investigator Award @ APDW 2012",
-        "Poster of Distinction @ DDW 2013",
-        "Best Poster Award @ ISG 2013",
-        "Best Oral Paper (2nd Prize) @ ISG 2013"
+        "Venu Gongati, Radha Penumatsa, Arshiya Siddiqua, Leela Krishna K. Warfarin induced skin necrosis-A rare complication. Journal of Basic and Clinical Research. 2016; 3(1): 31-33.",
+        "Co- investigator in clinical trials at Osmania medical college in department of Medical gastroenterology ,A phase 3, multicenter, double blind, comparative, active control, parallel group, randomized, study to evaluate the efficacy and safety of acotiamide ER 300mg in Indian adult patients with functional dyspepsis-post prandial distress syndrome."
       ],
-      "publications": [
-        "Benign gastric outlet obstruction – spectrum and management. Tropical Gastroenterology 2011;32(4):259–266.",
-        "An Uncommon Cause of Dysphagia. Dysphagia. 2012 Mar;27(1):145-7.",
-        "Hepatic artery aneurysm: a rare presentation as cholangitis and portal hypertension. Gastrointest Endosc. 2012 Jan;75(1):190.",
-        "Lamotrigine Induced Vanishing Bile Duct Syndrome in a Child. J Pediatr Gastroenterol Nutr. 2012 Dec;55(6):e147-8.",
-        "Fluid replacement in acute pancreatitis. Nutritional Therapy & Metabolism 2012; 30(2);67-78.",
-        "Biliary stent with a tied suture! Gastrointest Endosc. 2012 Sep;76(3):669-71.",
-        "Celiac Disease Complicated By Lymphoma: A Case Report. Trop Gastroenterol. 2014 Jan-Mar;35(1):55-6.",
-        "Celiac disease presenting as recurrent pancreatitis and pseudocyst. JOP. 2012 Sep 10;13(5):533-5.",
-        "Prospective validation of 4-category classification of acute pancreatitis severity. Pancreas. 2013 Apr;42(3):392-6.",
-        "Dynamic nature of organ failure in severe acute pancreatitis. HPB (Oxford). 2013 Jul;15(7):523-8.",
-        "Biodegradable stents: truly biodegradable with good tissue harmony. Endoscopy. 2013 May;45 Suppl 2:E116-7.",
-        "Endoscopic ultrasound assisted etiological localization in acute pancreatitis. Endosc Ultrasound 2013;2:162-4.",
-        "Stents for benign and malignant esophageal strictures. Ann N Y Acad Sci. 2013 Oct;1300:119-43.",
-        "Implementation of the Asia-Pacific Guidelines of Obesity Classification on the APACHEO Scoring System. Dig Dis Sci. 2014 Jun;59(6):1316-21.",
-        "Hypotension in the First Week of Acute Pancreatitis and APACHE II Score Predict Development of Infected Pancreatic Necrosis. Dig Dis Sci. 2015 Feb;60(2):537-42.",
-        "Mega stents - New option for management of leaks following laparoscopic sleeve gastrectomy. Endoscopy. 2014;46 Suppl 1 UCTN:E49-50.",
-        "Role of 13NH3 PET/CT in delineating pancreatic necrosis in acute pancreatitis. Pancreatology. 2014 May-Jun;14(3):154-8.",
-        "Utility of narrow band imaging in predicting histology in celiac disease. Indian J Gastroenterol. 2020 Aug;39(4):370-376.",
-        "Pancreatic fluid collections: What is the ideal imaging technique? World J Gastroenterol. 2015 Dec 28;21(48):13403-10."
-      ],
+    
       "awards": [
         " VAIDYA RATNA AWARD in Sankranti Puraskar 2015 by Suman Art Theaters for services rendered in the field of gastroenterology ",
         "NATIONAL ITEGRATION AWARD on the eve of republic day 2015 for services rendered in the field of gastroenterology "
@@ -696,45 +631,33 @@
       "registrationNumber": "APMC/FMR/80134",
       "profileImage": "Images/doctors/dr-venu.png",
       "achievements": [
-        "Secured 1st rank in schooling from L.K.G. to 10th std",
-        "Stood 1st in the college during Intermediate Education",
-        "Secured 52nd rank in Medical Entrance in 1st attempt - 1995",
-        "Best outgoing student of the 1997 batch – Andhra Medical College",
-        "Secured 1st rank in NIMSET (MD Entrance) in 1st attempt - 2003",
-        "Secured 1st rank in All India PGI entrance for DM gastroenterology – 2008",
-        "'10' Gold Medals during Graduation in Andhra Medical College",
-        "Best poster award in small bowel section @ ISGCON 2010",
-        "JGH Travel award @ APDW 2011",
-        "Presidential Poster Award @ ACG 2011",
-        "Best Oral Paper @ ISGCON 2011",
-        "Best International Paper Award @ ACG 2012",
-        "Travel Award @ APDW 2012",
-        "Young Investigator Award @ APDW 2012",
-        "Poster of Distinction @ DDW 2013",
-        "Best Poster Award @ ISG 2013",
-        "Best Oral Paper (2nd Prize) @ ISG 2013"
+        {
+          "category": "Diagnostic Endoscopy Procedures",
+          "details": [
+            "Performed and reported more than 2000 diagnostic Upper GI endoscopies.",
+            "Completed about 220 proctosigmoidoscopies and more than 500 colonoscopies.",
+            "Performed over 75 diagnostic and therapeutic pediatric endoscopies, as the hospital is a referral center for Niloufer Hospital for Women and Children."
+          ]
+        },
+        {
+          "category": "Therapeutic Endoscopy Procedures",
+          "details": [
+            "Managed over 300 esophageal variceal bleeding cases endoscopically using esophageal banding and performed endoscopic sclerotherapy in 10 patients over 2 sessions using polydocanol.",
+            "Biopsied more than 500 patients from various areas, including the esophagus, stomach, and duodenum. Also performed more than 150 colonic and rectal biopsies.",
+            "Performed esophageal stricture bougie dilatation in over 90 patients across 180 sessions.",
+            "Completed around 10 percutaneous endoscopic gastrostomy (PEG) tube placements and 20 achalasia cardia pneumatic balloon dilatations.",
+            "Performed a significant number of CRE dilatation procedures for esophageal and gastric strictures."
+          ]
+        },
+        {
+          "category": "ERCP and Other Procedures",
+          "details": [
+            "Assisted in more than 200 ERCP procedures.",
+            "Independently performed a significant number of ERCP procedures."
+          ]
+        }
       ],
-      "publications": [
-        "Benign gastric outlet obstruction – spectrum and management. Tropical Gastroenterology 2011;32(4):259–266.",
-        "An Uncommon Cause of Dysphagia. Dysphagia. 2012 Mar;27(1):145-7.",
-        "Hepatic artery aneurysm: a rare presentation as cholangitis and portal hypertension. Gastrointest Endosc. 2012 Jan;75(1):190.",
-        "Lamotrigine Induced Vanishing Bile Duct Syndrome in a Child. J Pediatr Gastroenterol Nutr. 2012 Dec;55(6):e147-8.",
-        "Fluid replacement in acute pancreatitis. Nutritional Therapy & Metabolism 2012; 30(2);67-78.",
-        "Biliary stent with a tied suture! Gastrointest Endosc. 2012 Sep;76(3):669-71.",
-        "Celiac Disease Complicated By Lymphoma: A Case Report. Trop Gastroenterol. 2014 Jan-Mar;35(1):55-6.",
-        "Celiac disease presenting as recurrent pancreatitis and pseudocyst. JOP. 2012 Sep 10;13(5):533-5.",
-        "Prospective validation of 4-category classification of acute pancreatitis severity. Pancreas. 2013 Apr;42(3):392-6.",
-        "Dynamic nature of organ failure in severe acute pancreatitis. HPB (Oxford). 2013 Jul;15(7):523-8.",
-        "Biodegradable stents: truly biodegradable with good tissue harmony. Endoscopy. 2013 May;45 Suppl 2:E116-7.",
-        "Endoscopic ultrasound assisted etiological localization in acute pancreatitis. Endosc Ultrasound 2013;2:162-4.",
-        "Stents for benign and malignant esophageal strictures. Ann N Y Acad Sci. 2013 Oct;1300:119-43.",
-        "Implementation of the Asia-Pacific Guidelines of Obesity Classification on the APACHEO Scoring System. Dig Dis Sci. 2014 Jun;59(6):1316-21.",
-        "Hypotension in the First Week of Acute Pancreatitis and APACHE II Score Predict Development of Infected Pancreatic Necrosis. Dig Dis Sci. 2015 Feb;60(2):537-42.",
-        "Mega stents - New option for management of leaks following laparoscopic sleeve gastrectomy. Endoscopy. 2014;46 Suppl 1 UCTN:E49-50.",
-        "Role of 13NH3 PET/CT in delineating pancreatic necrosis in acute pancreatitis. Pancreatology. 2014 May-Jun;14(3):154-8.",
-        "Utility of narrow band imaging in predicting histology in celiac disease. Indian J Gastroenterol. 2020 Aug;39(4):370-376.",
-        "Pancreatic fluid collections: What is the ideal imaging technique? World J Gastroenterol. 2015 Dec 28;21(48):13403-10."
-      ],
+   
       "awards": [
         " VAIDYA RATNA AWARD in Sankranti Puraskar 2015 by Suman Art Theaters for services rendered in the field of gastroenterology ",
         "NATIONAL ITEGRATION AWARD on the eve of republic day 2015 for services rendered in the field of gastroenterology "
@@ -851,6 +774,33 @@
         {
           "day": "Sunday",
           "timing": "Not Available"
+        }
+      ],
+      "publications": [
+        "A rare cause of Portal hypertension in a 7-year-old child, ISGCON 2020",
+        "A rare case of Protein Losing Enteropathy in young boy, ISGCON 2022",
+        "A case of Portal Cavernoma Cholangiopathy, SAGE 2022",
+        "Pain abdomen in young male with Thalassemia major, GUT CLUB 2022."
+      ],
+      "achievements": [
+        {
+          "category": "Diagnostic Endoscopy Procedures",
+          "details": [
+            "Performed and reported more than 2000 diagnostic Upper GI endoscopies.",
+            "Completed about 200 proctosigmoidoscopies and more than 400 colonoscopies.",
+            "Performed over 75 diagnostic and therapeutic pediatric endoscopies at Niloufer Hospital for Women and Children, one of the largest pediatric referral centers in the country."
+          ]
+        },
+        {
+          "category": "Therapeutic Endoscopy Procedures",
+          "details": [
+            "Managed over 250 esophageal variceal bleeding cases endoscopically using esophageal banding.",
+            "Biopsied more than 500 patients from the esophagus, stomach, and duodenum, and taken more than 150 colonic and rectal biopsies.",
+            "Performed esophageal stricture bougie dilatation in over 90 patients across 180 sessions.",
+            "Completed around 10 percutaneous endoscopic gastrostomy (PEG) tube placements and 20 achalasia cardia pneumatic balloon dilatations.",
+            "Performed a significant number of CRE dilatation procedures for esophageal and gastric strictures.",
+            "Assisted in more than 200 ERCP procedures and independently performed a substantial number of ERCPs."
+          ]
         }
       ]
     },
