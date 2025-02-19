@@ -14,27 +14,37 @@ function Conditions({ conditions }) {
 
   return (
     <Box>
-      <Typography
-        variant="h6"
-        sx={{ margin: "10px 0", color: "secondary.main" }}
-      >
+      <Typography variant="h6" sx={{ color: "secondary.main" }}>
         {conditions.heading}
       </Typography>
 
-      <List disablePadding sx={{ padding: "0px" }}>
+      <List
+        disablePadding
+        component="ul"
+        sx={{
+          padding: 0,
+          listStyleType: "disc",
+          pl: 2,
+        }}
+      >
         {conditions?.conditionsList?.map((condition, index) => (
-          <ListItem key={index} sx={{ padding: "0px" }}>
-            <ListItemIcon sx={{ minWidth: "30px", color: "primary.main" }}>
-              <ArrowForwardIosIcon />
-            </ListItemIcon>
+          <ListItem
+            key={index}
+            component="li"
+            sx={{
+              display: "list-item",
+              padding: 0,
+            }}
+          >
             <ListItemText primary={condition} />
           </ListItem>
         ))}
+
         {conditions?.lists?.map((condition, index) => (
           <ListItem key={index} sx={{ padding: "0px" }}>
             <ListItemText
               sx={{ padding: "0 !important" }}
-              primary={condition?.title }
+              primary={condition?.title}
               secondary={condition.description}
               primaryTypographyProps={{ sx: { color: "primary.main" } }}
             />

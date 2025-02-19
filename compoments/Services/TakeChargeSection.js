@@ -13,12 +13,12 @@ function TakeChargeSection({ takeCharge }) {
   }
 
   return (
-    <Box   >
-     <Stack sx={{margin:"20px 0"}}>
+    <Box  sx={{margin:"20px 0"}} >
+     <Stack >
      
      <Typography
         variant="h6"
-        sx={{ margin: "10px 0", color: "secondary.main" }}
+        sx={{ color: "secondary.main" }}
       >
         {takeCharge.heading}
       </Typography>

@@ -4,6 +4,7 @@ import {
   ListItem,
   ListItemText,
   ListItemIcon,
+  Stack,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
@@ -13,10 +14,10 @@ function TreatmentOptions({ treatments }) {
   if (!treatments?.heading || !treatments?.steps?.length) return null;
 
   return (
-    <>
+    <Stack sx={{margin:"10px 0"}}>
       <Typography
         variant="h6"
-        sx={{ margin: "10px 0", color: "secondary.main" }}
+        sx={{  color: "secondary.main" }}
       >
         {treatments?.heading}
       </Typography>
@@ -63,7 +64,7 @@ function TreatmentOptions({ treatments }) {
           </Grid>
         ))}
       </Grid>
-    </>
+    </Stack>
   );
 }
 

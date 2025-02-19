@@ -11,6 +11,7 @@ import {
   Box,
   Grid2,
   Container,
+  Stack
 } from "@mui/material";
 import websiteJson from "../public/website.json";
 export default function AppointmentForm() {
@@ -32,7 +33,7 @@ export default function AppointmentForm() {
   };
 
   return (
-    <div>
+    <Stack sx={{ marginTop:"50px"}}>
       <Box
         sx={{
           position: "sticky",
@@ -146,6 +147,6 @@ export default function AppointmentForm() {
           </form>
         </>
       </Box>
-    </div>
+    </Stack>
   );
 }

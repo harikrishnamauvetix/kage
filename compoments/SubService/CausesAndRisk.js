@@ -5,55 +5,51 @@ import {
   ListItem,
   ListItemText,
   ListItemIcon,
+  Stack,
 } from "@mui/material";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+
 import Grid from "@mui/material/Grid2";
 const CausesAndRisk = ({ causesAndRisk = {} }) => {
   const { heading, list, description } = causesAndRisk;
 
   return (
     causesAndRisk && (
-      <Grid container>
-        {heading && (
-          <Grid size={{ xs: 12, sm: 12, md: 12 }}>
-            <Typography variant="h6" sx={{ color: "secondary.main" }}>
-              {heading}
-            </Typography>
-          </Grid>
-        )}
-        {list?.map((item, index) => (
-          <List disablePadding key={index}>
-            <ListItem disableGutters>
-              <ListItemIcon sx={{ minWidth: "30px", marginRight: "10px" }}>
-                {item?.icon ? (
-                  <img
-                    src={item.icon}
-                    alt="Hospital Icon"
-                    width="40"
-                    height="40"
-                    style={{
-                      borderRadius: "50%",
-                      objectFit: "contain",
+      <Stack sx={{ margin: "20px 0" }}>
+        <Grid container>
+          {heading && (
+            <Grid size={{ xs: 12, sm: 12, md: 12 }}>
+              <Typography variant="h6" sx={{ color: "secondary.main" }}>
+                {heading}
+              </Typography>
+            </Grid>
+          )}
+          <List disablePadding>
+            {list?.map((item, index) => (
+              <ListItem disablePadding key={index}>
+                <ListItemIcon sx={{ minWidth: "30px", marginRight: "10px" }}>
+                  <CheckCircleIcon
+                    sx={{
+                      color: "primary.main",
                     }}
                   />
-                ) : (
-                  <ArrowForwardIosIcon />
-                )}
-              </ListItemIcon>
-              <ListItemText
-                primary={item.heading}
-                secondary={item.description}
-                primaryTypographyProps={{ sx: { color: "primary.main" } }}
-              />
-            </ListItem>
+                </ListItemIcon>
+                <ListItemText
+                  primary={item.heading}
+                  secondary={item.description}
+                  primaryTypographyProps={{ sx: { color: "primary.main" } }}
+                />
+              </ListItem>
+            ))}
           </List>
-        ))}
-        {description && (
-          <Typography variant="body1" sx={{ color: "text.primary" }}>
-            {description}
-          </Typography>
-        )}
-      </Grid>
+          {description && (
+            <Typography variant="body1" sx={{ color: "text.primary" }}>
+              {description}
+            </Typography>
+          )}
+        </Grid>
+      </Stack>
     )
   );
 };

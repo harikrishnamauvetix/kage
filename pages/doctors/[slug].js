@@ -154,7 +154,7 @@ const DoctorDetails = () => {
                     {doctor.profile.map((profile, index) => (
                       <Typography
                         variant="body1"
-                        sx={{ textAlign: "justify", margin: "10px 0" }}
+                        sx={{ textAlign: "justify", margin: "3px 0" }}
                         key={index}
                       >
                         {profile}
@@ -299,7 +299,7 @@ const DoctorDetails = () => {
             </Grid>
           </Grid>
 
-          <PatientVideos patientvideos={websiteJson?.Patientvideos} />
+          {/* <PatientVideos patientvideos={websiteJson?.Patientvideos} /> */}
         </Container>
       </Box>
 

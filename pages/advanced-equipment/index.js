@@ -38,10 +38,10 @@ import Services from "@/compoments/Home/Services";
     return (
       <>
         <Header></Header>
-        <Breadcrumbsinfo pagename={"Services"} />
-  <Services/>
+        <Breadcrumbsinfo pagename={"Advanced Equipment"} />
+  <Services services={websiteJson.services}/>
        
-        <PatientVideos  patientvideos={websiteJson?.Patientvideos}/>
+        
         <Footer></Footer>
       </>
     );

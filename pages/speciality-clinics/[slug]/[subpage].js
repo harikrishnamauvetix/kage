@@ -148,23 +148,22 @@ export default function SubServicePage() {
                   </Typography>
                 </Grid>
               )}
-             
+
               {subService.sections && subService.sections.introduction && (
-                <Grid container>
-                  <Grid size={{ xs: 12, sm: 12, md: 12 }}>
-                    <Typography
-                      variant="h6"
-                      sx={{ margin: "10px 0", color: "secondary.main" }}
-                    >
-                      {subService.sections.introduction?.heading}
-                    </Typography>
-                    <Typography variant="body1" sx={{ textAlign: "justify" }}>
-                      {subService.sections.introduction?.description}
-                    </Typography>
+                <Stack sx={{ margin: "10px 0" }}>
+                  <Grid container>
+                    <Grid size={{ xs: 12, sm: 12, md: 12 }}>
+                      <Typography variant="h6" sx={{ color: "secondary.main" }}>
+                        {subService.sections.introduction?.heading}
+                      </Typography>
+                      <Typography variant="body1" sx={{ textAlign: "justify" }}>
+                        {subService.sections.introduction?.description}
+                      </Typography>
+                    </Grid>
                   </Grid>
-                </Grid>
+                </Stack>
               )}
-                {subServicelist?.map((item) => {
+              {subServicelist?.map((item) => {
                 const serviceInfo = subService?.sections?.services_info[item];
 
                 if (serviceInfo) {
@@ -173,29 +172,32 @@ export default function SubServicePage() {
                       {serviceInfo?.heading && (
                         <Grid container>
                           <Grid size={{ xs: 12, sm: 12, md: 12 }}>
-                            <Typography
-                              variant="h6"
-                              sx={{
-                                margin: "10px 0",
-                                color: "secondary.main",
-                              }}
-                            >
-                              {serviceInfo?.heading}
-                            </Typography>
-                            <Typography
-                              variant="body1"
-                              sx={{ textAlign: "justify" }}
-                            >
-                              {serviceInfo?.description}
-                            </Typography>
+                            <Stack sx={{ margin: "10px 0" }}>
+                              <Typography
+                                variant="h6"
+                                sx={{
+                                  color: "secondary.main",
+                                }}
+                              >
+                                {serviceInfo?.heading}
+                              </Typography>
+                              <Typography
+                                variant="body1"
+                                sx={{ textAlign: "justify" }}
+                              >
+                                {serviceInfo?.description}
+                              </Typography>
+                            </Stack>
                           </Grid>
                         </Grid>
                       )}
                       <Symptoms symptoms={serviceInfo?.Symptoms} />
                       <CausesAndRisk
+                    
                         causesAndRisk={serviceInfo?.Causes_and_Risk}
                       />
                       <Complications
+                    
                         complications={serviceInfo?.Complications}
                       />
                     </div>
@@ -203,20 +205,22 @@ export default function SubServicePage() {
                 }
                 return null;
               })}
-              <Symptoms symptoms={subService?.sections?.Symptoms} />
+              <Symptoms
+                symptoms={subService?.sections?.Symptoms}
+            
+              />
               <CausesAndRisk
                 causesAndRisk={subService?.sections?.Causes_and_Risk}
+            
               />
               <Complications
                 complications={subService?.sections?.Complications}
+            
               />
 
               {subService?.sections?.conditions && (
-                <>
-                  <Typography
-                    variant="h6"
-                    sx={{ margin: "10px 0", color: "secondary.main" }}
-                  >
+                <Stack sx={{ margin: "10px 0" }}>
+                  <Typography variant="h6" sx={{ color: "secondary.main" }}>
                     {subService?.sections?.conditions?.heading}
                   </Typography>
                   <Typography variant="body2" sx={{ marginBottom: "10px" }}>
@@ -225,28 +229,22 @@ export default function SubServicePage() {
                   <SubServiceListItems
                     servicelist={subService?.sections?.conditions?.list}
                   />
-                </>
+                </Stack>
               )}
 
               {subService?.sections?.procedure && (
-                <>
-                  <Typography
-                    variant="h6"
-                    sx={{ margin: "10px 0", color: "secondary.main" }}
-                  >
+                <Stack sx={{ margin: "10px 0" }}>
+                  <Typography variant="h6" sx={{ color: "secondary.main" }}>
                     {subService?.sections?.procedure.heading}{" "}
                   </Typography>
                   <Typography variant="body1" sx={{ textAlign: "justify" }}>
                     {subService?.sections?.procedure.description}
                   </Typography>
-                </>
+                </Stack>
               )}
               {subService?.sections?.advantages && (
-                <>
-                  <Typography
-                    variant="h6"
-                    sx={{ margin: "10px 0", color: "secondary.main" }}
-                  >
+                <Stack sx={{ margin: "10px 0" }}>
+                  <Typography variant="h6" sx={{ color: "secondary.main" }}>
                     {subService?.sections?.advantages?.heading}
                   </Typography>
                   <List>
@@ -256,26 +254,28 @@ export default function SubServicePage() {
                       />
                     )}
                   </List>
-                </>
+                </Stack>
               )}
               <Diagnosis
                 diagnosis={subService?.sections?.Diagnosis}
                 introduction={subService?.sections?.introduction}
+            
               />
-              <Treatment treatment={subService?.sections?.Treatment} />
+              <Treatment
+                treatment={subService?.sections?.Treatment}
+            
+              />
             </Grid>
             <Grid size={{ xs: 12, sm: 6, md: 1 }}></Grid>
           </Grid>
         </Box>
         <Stack>
           <Grid container>
-            <Grid size={{ xs: 12, sm: 6, md: 10 }}>
-            
-            </Grid>
+            <Grid size={{ xs: 12, sm: 6, md: 10 }}></Grid>
           </Grid>
         </Stack>
 
-        <WhyToChoose whytochoose={subService?.sections?.Why_to_choose}  />
+        <WhyToChoose whytochoose={subService?.sections?.Why_to_choose} />
         {/* <PatientVideos patientvideos={websiteJson?.Patientvideos} /> */}
       </Container>
 

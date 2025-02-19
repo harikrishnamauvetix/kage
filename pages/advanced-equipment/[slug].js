@@ -72,7 +72,7 @@ const Servicespage = () => {
     <>
       <Header></Header>
       <Breadcrumbsinfo
-        service={"Advanced Procedures"}
+        service={"Advanced Equipment"}
         pagename={servicespage.title}
       />
       <Box

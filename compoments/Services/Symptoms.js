@@ -14,8 +14,11 @@ import {
   CardMedia,
   ListItemIcon,
   Breadcrumbs,
+  Stack
 } from "@mui/material";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+
 import Grid from "@mui/material/Grid2";
 function Symptoms({ symptoms }) {
   if (!symptoms) return null;
@@ -23,34 +26,47 @@ function Symptoms({ symptoms }) {
   return (
     <>
       {symptoms?.heading && symptoms?.list?.length > 0 && (
-        <>
+        <Stack
+          sx={{
+            margin: "20px 0",
+          }}
+        >
           <Grid item xs={12}>
             <Typography
               variant="h6"
               sx={{
-                margin: "10px 0",
                 color: "secondary.main",
-              
               }}
             >
               {symptoms.heading}
             </Typography>
           </Grid>
           <Grid container spacing={2}>
-            <Grid size={{ xs: 12, sm: 6, md: 12 }} >
-              {symptoms.list.map((symptom, index) => (
-                <List disablePadding sx={{ padding: "0px" }} key={index}>
-                  <ListItem sx={{ padding: "0px" }}>
-                    <ListItemIcon sx={{ padding: "0px", minWidth: "30px" }}>
-                      <ArrowForwardIosIcon color="primary" />
-                    </ListItemIcon>
+            <Grid size={{ xs: 12, sm: 6, md: 12 }}>
+              <List
+                component="ul"
+                disablePadding
+                sx={{
+                  listStyleType: "disc",
+                  marginLeft: "30px",
+                }}
+              >
+                {symptoms.list.map((symptom, index) => (
+                  <ListItem
+                    component="li"
+                    key={index}
+                    sx={{
+                      padding: "0px",
+                      display: "list-item", // ensures that the bullet is shown
+                    }}
+                  >
                     <ListItemText primary={symptom} sx={{ padding: "0px" }} />
                   </ListItem>
-                </List>
-              ))}
+                ))}
+              </List>
             </Grid>
           </Grid>
-        </>
+        </Stack>
       )}
     </>
   );

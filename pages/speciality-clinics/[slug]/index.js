@@ -74,7 +74,7 @@ export default function ServicePage() {
     return (
       <>
         {content?.heading && (
-          <Grid size={{ xs: 12 }} sx={{ margin: "40px 0 10px 0" }}>
+          <Grid size={{ xs: 12 }} sx={{ margin: "40px 0 0px 0" }}>
             <Typography
               variant="h5"
               gutterBottom
@@ -85,7 +85,7 @@ export default function ServicePage() {
             {content?.subtext && (
               <Typography
                 variant="body1"
-                sx={{ textAlign: "justify" }}
+                sx={{ textAlign: "justify",margin:"0px" }}
                 paragraph
               >
                 {content.subtext}
@@ -100,16 +100,13 @@ export default function ServicePage() {
           {content?.overview?.overview2?.heading &&
             content?.overview?.overview2?.content?.length > 0 && (
               <Grid size={{ xs: 12 }}>
-                <Typography
-                  variant="h6"
-                  sx={{ margin: "10px 0", color: "secondary.main" }}
-                >
+                <Typography variant="h6" sx={{ color: "secondary.main" }}>
                   {content?.overview?.overview2?.heading}
                 </Typography>
                 {content?.overview?.overview2?.content.map((text, index) => (
                   <Typography
                     variant="body1"
-                    sx={{ textAlign: "justify" }}
+                    sx={{ textAlign: "justify" , margin:"0px"}}
                     paragraph
                     key={index}
                   >
@@ -122,37 +119,17 @@ export default function ServicePage() {
         <Stack sx={{ justifyContent: "center" }}>
           <Keyservices keyservicesContent={content?.overview?.key_services} />
 
-          <Symptoms
-            symptoms={content?.overview?.symptoms}
-            sx={{ margin: "20px 0" }}
-          />
-          <HealthRisks
-            healthrisks={content?.overview?.health_risks}
-            sx={{ margin: "20px 0" }}
-          />
-          <DiagnosedSection
-            diagnosed={content?.overview?.diagnosed}
-            sx={{ margin: "20px 0" }}
-          />
-          <Conditions
-            conditions={content?.overview?.conditions}
-            sx={{ margin: "20px 0" }}
-          />
-          <ServicesDetails
-            servicesinfo={content?.overview?.services_details}
-            sx={{ margin: "20px 0" }}
-          />
-          <TreatmentOptions
-            treatments={content?.overview?.treatments}
-            sx={{ margin: "20px 0" }}
-          />
+          <Symptoms symptoms={content?.overview?.symptoms} />
+          <HealthRisks healthrisks={content?.overview?.health_risks} />
+          <DiagnosedSection diagnosed={content?.overview?.diagnosed} />
+          <Conditions conditions={content?.overview?.conditions} />
+          <ServicesDetails servicesinfo={content?.overview?.services_details} />
+          <TreatmentOptions treatments={content?.overview?.treatments} />
           <WhenToSeeSpecialist
             whenToSee={content?.overview?.when_to_see_specialist}
-            sx={{ margin: "20px 0" }}
           />
           <Mutipletreatment
             treatmentContent={content?.overview?.treatments_mutiple}
-            sx={{ margin: "20px 0" }}
           />
           <Faq faq={content?.overview?.faqs} />
         </Stack>
@@ -181,29 +158,33 @@ export default function ServicePage() {
                 <Grid size={{ xs: 12, sm: 6, md: 8 }}>{serviceContent()}</Grid>
               </>
             ) : (
+              <>
+               <Grid size={{ xs: 12, sm: 6, md: 2 }}></Grid>
+                <Grid size={{ xs: 12, sm: 6, md: 8 }}>
+                  <Box
+                    sx={{
+                      display: "flex",
+                      justifyContent: "center",
 
-              <Grid size={{ xs: 12, sm: 6, md: 10 }}>
-                <Box
-                  sx={{
-                    display: "flex",
-                    justifyContent: "center",
-
-                    alignItems: "center", // Horizontally center the content
-                    justifyContent: "center", // Vertically center the content
-                  }}
-                >
-                  <Stack>{serviceContent()}</Stack>
-                </Box>
-                
-              </Grid>
+                      alignItems: "center", // Horizontally center the content
+                      justifyContent: "center", // Vertically center the content
+                    }}
+                  >
+                    <Stack>{serviceContent()}</Stack>
+                  </Box>
+                </Grid>
+                <Grid size={{ xs: 12, sm: 6, md: 2 }}></Grid>
+              </>
             )}
-            
           </Grid>
         </Box>
 
-        <WhyChooseSection whyChoose={content?.overview?.why_choose} />
-        <TakeChargeSection takeCharge={content?.overview?.take_charge} />
+       
         {/* <PatientVideos patientvideos={websiteJson?.Patientvideos} /> */}
+      </Container>
+      <Container>
+      <WhyChooseSection whyChoose={content?.overview?.why_choose} />
+      <TakeChargeSection takeCharge={content?.overview?.take_charge} />
       </Container>
 
       <Footer></Footer>

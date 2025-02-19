@@ -13,6 +13,7 @@ import {
   Accordion,
   AccordionSummary,
   AccordionDetails,
+  Stack,
 } from "@mui/material";
 import React, { useState } from "react";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
@@ -26,12 +27,12 @@ function Faq({ faq }) {
   };
 console.log(faq,"dddd")
   return (
-    <>
+    <Stack sx={{margin:"20px 0"}}>
       {faq?.heading && (
         <>
          <Typography
             variant="h6"
-            sx={{ margin: "10px 0", color: "secondary.main" }}
+            sx={{  color: "secondary.main" }}
           >
             {faq?.heading }
           </Typography>
@@ -59,7 +60,7 @@ console.log(faq,"dddd")
           </Grid>
         </>
       )}
-    </>
+    </Stack>
   );
 }
 

@@ -72,7 +72,7 @@ const Services = (props) => {
                   </Box>
                   <Box sx={{ px: 1 }}>
                     <Link
-                      href={`/services/${item.title
+                      href={`/advanced-equipment/${item.title
                         .replace(/\s+/g, "-")
                         .toLowerCase()}`}
                       passHref
@@ -112,7 +112,7 @@ const Services = (props) => {
                       ))}
 
                     <Link
-                      href={`/services/${item.title
+                      href={`/advanced-equipment/${item.title
                         .replace(/\s+/g, "-")
                         .toLowerCase()}`}
                       passHref

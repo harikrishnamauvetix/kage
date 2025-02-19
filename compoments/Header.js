@@ -68,11 +68,11 @@ const Navbar = () => {
       })),
     },
     {
-      label: "Services",
-      href: "/services",
+      label: "Advanced Equipment",
+      href: "/advanced-equipment",
       subItems: websiteJson?.services?.map((services) => ({
         label: services.title,
-        href: `/services/${services.title
+        href: `/advanced-equipment/${services.title
           .replace(/\s+/g, "-")
           .toLowerCase()}`,
       })),
@@ -248,7 +248,7 @@ const Navbar = () => {
                     onMouseLeave={handleMouseLeave}
                   >
                     <Link href={item.href || "#"} passHref>
-                      <Button color="inherit">{item.label}</Button>
+                      <Button color="inherit" sx={{ minWidth: 'auto',justifyContent:"left" }} >{item.label}</Button>
                     </Link>
                     {item.subItems && openMenu === index && (
                       <Box className="submenu">

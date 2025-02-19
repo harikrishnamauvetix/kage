@@ -18,7 +18,7 @@ const IntroductionSection = ({ section }) => {
       <div>
         {section?.description?.length > 0 &&
           section.description.map((text, index) => (
-            <Typography key={index} variant="body1" sx={{ marginBottom: 1 ,textAlign:"justify"}}>
+            <Typography key={index} variant="body1" sx={{ textAlign:"justify"}}>
               {text}
             </Typography>
           ))}

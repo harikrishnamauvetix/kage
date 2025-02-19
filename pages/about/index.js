@@ -96,7 +96,7 @@ const About = () => {
                             color: "primary.main",
 
                             alignItems: "start",
-                            minHeight: "97px",
+                            minHeight: "65px",
                             display: "flex",
                           }}
                         >

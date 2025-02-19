@@ -3,13 +3,15 @@ import {
   Card,
   CardContent,
   Typography,
-  Grid,
+
   Button,
   Container,
   Box,
 } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
+import Grid from "@mui/material/Grid2";
+
 import websiteJson from "../../public/website.json";
 const CourseList = () => {
   return (
@@ -23,18 +25,9 @@ const CourseList = () => {
           color: "black",
         }}
       >
-        <Container
-          sx={{
-            position: "relative",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            gap: { xs: 3, sm: 6 },
-          }}
-        >
+        <Container>
           <Box
             sx={{
-             
               textAlign: { sm: "left", md: "center" },
             }}
           >
@@ -48,11 +41,10 @@ const CourseList = () => {
             >
               Academics @ KAGE
             </Typography>
-           
           </Box>
-          <Grid container spacing={3}>
+          <Grid container spacing={3}  justifyContent={"center"}>
             {websiteJson?.courseDetails.map((course) => (
-              <Grid item xs={12} sm={6} md={4} key={course.id}>
+              <Grid size={{ xs: 12, sm: 6, md: 4 }} key={course.id}>
                 <Card>
                   <CardContent>
                     <Typography variant="h5" sx={{ color: "primary.main" }}>

@@ -18,6 +18,8 @@ import {
   Grid2,
 } from "@mui/material";
 import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Grid from "@mui/material/Grid2";
 import HealthAndSafetyIcon from "@mui/icons-material/HealthAndSafety";
@@ -62,7 +64,12 @@ const Keyservices = ({ keyservicesContent }) => {
               <List disablePadding sx={{ padding: "0px" }} key={index}>
                 <ListItem sx={{ padding: "0px" }}>
                   <ListItemIcon sx={{ padding: "0px", minWidth: "30px" }}>
-                    <ArrowForwardIosIcon color="primary" />
+                  <CheckCircleIcon
+                          sx={{
+                            color: "primary.main",
+                        
+                          }}
+                        />
                   </ListItemIcon>
                   <ListItemText primary={symptom} sx={{ padding: "0px" }} />
                 </ListItem>

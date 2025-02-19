@@ -19,7 +19,7 @@ const Mutipletreatment = ({ treatmentContent }) => {
         <Grid size={{ xs: 12 }} className="p0">
           <Typography
             variant="h6"
-            sx={{ margin: "10px 0", color: "secondary.main" }}
+            sx={{ color: "secondary.main" }}
           >
             {treatmentContent.heading}
           </Typography>

@@ -21,14 +21,21 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: "Open Sans, sans-serif", // Font remains consistent
-
+    h4: {
+      fontSize: "1.5rem", // Set your desired font size here
+    },
     body2: {
-      color: "#000", // Set global text color for body2 variant
+      color: "#000",
+      padding: "0px",
+      marginBottom: "0px !important",
     },
     body1: {
-      color: "#000", // Set global text color for body2 variant
+      color: "#000",
+      padding: "0px",
+      marginBottom: "0px !important",
     },
   },
+
   components: {
     MuiPaper: {
       styleOverrides: {
@@ -39,8 +46,11 @@ const theme = createTheme({
     },
     MuiListItemText: {
       styleOverrides: {
+        root: {
+          marginLeft:"0px"
+        },
         primary: {
-          fontSize: "1rem",// Adjust as needed
+          fontSize: "1rem", // Adjust as needed
           fontWeight: "500",
           lineHeight: "1.5",
           textAlign: "left",
@@ -53,7 +63,6 @@ const theme = createTheme({
           lineHeight: "1.5",
           textAlign: "left",
           fontFamily: "Open Sans, sans-serif", // Font remains consistent
-
         },
       },
     },
@@ -61,6 +70,7 @@ const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
+          maxWidth: "auto !important",
           color: "#fff", // Button text color remains white
           backgroundColor: "#007cb0", // Button background remains the same
           "&:hover": {
@@ -69,6 +79,17 @@ const theme = createTheme({
         },
       },
     },
+    MuiCardContent: {
+      styleOverrides: {
+        root: {
+          padding:"5px !important",
+          '&:last-child': {
+            padding: 0,
+          },
+        },
+      },
+    },
+   
     MuiButtonBase: {
       defaultProps: {
         // The props to apply

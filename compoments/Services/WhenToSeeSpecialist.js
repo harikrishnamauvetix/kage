@@ -19,7 +19,7 @@ function WhenToSeeSpecialist({ whenToSee }) {
     <Box>
       <Typography
         variant="h6"
-        sx={{ margin: "10px 0", color: "secondary.main" }}
+        sx={{  color: "secondary.main" }}
       >
         {whenToSee.heading}
       </Typography>

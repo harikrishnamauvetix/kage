@@ -5,58 +5,47 @@ import {
   ListItem,
   ListItemText,
   ListItemIcon,
+  Stack,
 } from "@mui/material";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import HealthAndSafetyIcon from "@mui/icons-material/HealthAndSafety";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+
 import Grid from "@mui/material/Grid2";
 const Symptoms = ({ symptoms }) => {
   return (
     symptoms && (
-      <Grid container>
-        <Grid item xs={12}>
-          <Typography
-            variant="h6"
-            sx={{ margin: "10px 0", color: "secondary.main" }}
-          >
-            {symptoms.heading}
-          </Typography>
-        </Grid>
+      <Stack sx={{ margin: "10px 0" }}>
         <Grid container>
-          {symptoms.list.map((item, index) => (
-            <Grid size={{ xs: 12, sm: 12, md: 6 }} key={index}>
-              <List disablePadding >
-                <ListItem disableGutters>
-                  <ListItemIcon
-                    sx={{ marginRight: "10px", minWidth: "30px" }}
-                  >
-                     {item?.icon ? (
-                    <img
-                      src={item.icon}
-                      alt="Hospital Icon"
-                      width="40"
-                      height="40"
-                      style={{
-                        borderRadius: "50%",
-                        objectFit: "contain",
-                      }}
+          <Grid item xs={12}>
+            <Typography variant="h6" sx={{ color: "secondary.main" }}>
+              {symptoms.heading}
+            </Typography>
+          </Grid>
+          <Grid container>
+            {symptoms.list.map((item, index) => (
+              <Grid size={{ xs: 12, sm: 12, md: 6 }} key={index}>
+                <List
+                  component="ul"
+                  disablePadding
+                  sx={{
+                    listStyleType: "disc !important" ,
+                    marginLeft: "30px",
+                  }}
+                >
+                  <ListItem disablePadding>
+                    <ListItemText
+                      className="p0"
+                      primary={item.heading}
+                      secondary={item.description}
+                      primaryTypographyProps={{ sx: { color: "primary.main" } }}
                     />
-                  ) : (
-                    <ArrowForwardIosIcon color="primary" />
-                  )}
-          
-                  </ListItemIcon>
-                  <ListItemText
-                    className="p0"
-                    primary={item.heading}
-                    secondary={item.description}
-                    primaryTypographyProps={{ sx: { color: "primary.main" } }}
-                  />
-                </ListItem>
-              </List>
-            </Grid>
-          ))}
+                  </ListItem>
+                </List>
+              </Grid>
+            ))}
+          </Grid>
         </Grid>
-      </Grid>
+      </Stack>
     )
   );
 };

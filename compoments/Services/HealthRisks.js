@@ -14,21 +14,22 @@ import {
   CardMedia,
   ListItemIcon,
   Breadcrumbs,
+  Stack,
 } from "@mui/material";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Grid from "@mui/material/Grid2";
 
 function HealthRisks({ healthrisks }) {
   if (!healthrisks) return null;
-console.log(healthrisks)
+// console.log(healthrisks)
   return (
-    <>
+    <Stack sx={{margin:"10px 0"}}>
       {healthrisks.heading  && (
         <>
           <Grid item xs={12}>
             <Typography
               variant="h6"
-              sx={{ margin: "10px 0", color: "secondary.main" }}
+              sx={{color: "secondary.main" }}
             >
               {healthrisks.heading}
             </Typography>
@@ -42,6 +43,7 @@ console.log(healthrisks)
                     height: "100%",
                     display: "flex",
                     flexDirection: "column",
+                    padding:"0px"
                   }}
                 >
                   <CardContent>
@@ -58,7 +60,7 @@ console.log(healthrisks)
           </Grid>
         </>
       )}
-    </>
+    </Stack>
   );
 }
 

@@ -34,6 +34,7 @@ const AboutSection = ({ homeabout }) => {
             color: "secondary.main",
             mb: 2,
             position: "relative",
+            
           }}
         >
          KAGE - KIMS Advanced Gastroenterlogy & Endoscopy

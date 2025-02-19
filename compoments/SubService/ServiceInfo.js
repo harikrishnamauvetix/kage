@@ -1,12 +1,13 @@
 
 import React from "react";
-import { Grid, Typography, Box } from "@mui/material";
+import { Grid, Typography, Box ,Stack} from "@mui/material";
 
 const ServiceInfo = ({ serviceInfo }) => {
   return (
+    <Stack sx={{margin:"10px 0"}}>
     <Grid container>
       <Grid item xs={12} md={6}>
-        <Typography variant="h5" sx={{ margin: "10px 0", color: "secondary.main" }}>
+        <Typography variant="h5" sx={{ color: "secondary.main" }}>
           {serviceInfo?.heading}
         </Typography>
         <Typography variant="body1">{serviceInfo?.description}</Typography>
@@ -20,6 +21,7 @@ const ServiceInfo = ({ serviceInfo }) => {
         />
       </Grid>
     </Grid>
+    </Stack>
   );
 };
 

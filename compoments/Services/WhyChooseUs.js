@@ -1,5 +1,6 @@
 import React from "react";
-import { Typography, Card, CardContent, Container, Box } from "@mui/material";
+import { Typography, Card, CardContent, Container, Box, Stack } from "@mui/material";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 import Grid from "@mui/material/Grid2";
 function WhyChooseSection({ whyChoose }) {
@@ -8,17 +9,18 @@ function WhyChooseSection({ whyChoose }) {
   }
 
   return (
-    <Grid container>
+   <Stack sx={{margin:"10px 0"}}>
+     <Grid container>
       <Grid size={{ xs: 12, sm: 12, md: 12 }}>
         {/* Heading */}
         <Typography
           variant="h6"
-          sx={{ margin: "10px 0", color: "secondary.main" }}
+          sx={{  color: "secondary.main" }}
         >
           {whyChoose.heading}
         </Typography>
       </Grid>
-      <Grid container spacing={2}>
+      <Grid container spacing={2} justifyContent={"center"}>
         {whyChoose?.steps?.length > 0
           ? whyChoose.steps.map((step, index) => (
               <Grid  size={{ xs: 12, sm: 12, md: whyChoose.steps.length === 4 ? 6 : 4 }} key={index}>
@@ -52,6 +54,7 @@ function WhyChooseSection({ whyChoose }) {
             )}
       </Grid>
     </Grid>
+   </Stack>
   );
 }
 
