@@ -63,16 +63,24 @@ const Home = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <AboutSection homeabout={websiteJson} />
+       
+          <AboutSection homeabout={websiteJson} />
 
-        <SpecialityClinics specialityclinics={websiteJson.specialityclinics} />
+          <SpecialityClinics
+            specialityclinics={websiteJson.specialityclinics}
+          />
 
-        <DoctorsLists doctorsList={websiteJson.doctorsList}></DoctorsLists>
-        <ProceduresList advancedprocedures={websiteJson.advancedprocedures}></ProceduresList>
-        <Services services={websiteJson.services} />
-        <CourseList courselist={websiteJson.courseDetails}/>
-        <PatientVideos patientvideos={websiteJson.Patientvideos} />
-        <DoctorVideos doctorvideos={websiteJson.doctorvideos} />
+          <DoctorsLists doctorsList={websiteJson.doctorsList}></DoctorsLists>
+          <ProceduresList
+            advancedprocedures={websiteJson.advancedprocedures}
+          ></ProceduresList>
+          <Services services={websiteJson.services} />
+          <CourseList courselist={websiteJson.courseDetails} />
+          <Container>
+          <PatientVideos patientvideos={websiteJson.Patientvideos} />
+          </Container>
+          <DoctorVideos doctorvideos={websiteJson.doctorvideos} />
+
       </Box>
       <Contactinfo Contactinfo={websiteJson.hospitalInfo} />
       {/* <AppointmentForm></AppointmentForm> */}
