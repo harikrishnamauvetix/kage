@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import websiteJson from "../../../public/website.json";
 import Footer from "@/compoments/Footer";
 import Header from "@/compoments/Header";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+
 import SidebarMenu from "@/compoments/SidebarMenu";
 import Grid from "@mui/material/Grid2";
 import Mutipletreatment from "@/compoments/Services/Mutipletreatment";
@@ -74,7 +74,7 @@ export default function ServicePage() {
     return (
       <>
         {content?.heading && (
-          <Grid item xs={12} sx={{ margin: "40px 0 10px 0" }}>
+          <Grid size={{ xs: 12 }} sx={{ margin: "40px 0 10px 0" }}>
             <Typography
               variant="h5"
               gutterBottom
@@ -83,7 +83,13 @@ export default function ServicePage() {
               {content.heading}
             </Typography>
             {content?.subtext && (
-              <Typography variant="h6">{content.subtext}</Typography>
+              <Typography
+                variant="body1"
+                sx={{ textAlign: "justify" }}
+                paragraph
+              >
+                {content.subtext}
+              </Typography>
             )}
           </Grid>
         )}
@@ -93,9 +99,9 @@ export default function ServicePage() {
 
           {content?.overview?.overview2?.heading &&
             content?.overview?.overview2?.content?.length > 0 && (
-              <Grid item xs={12} md={12}>
+              <Grid size={{ xs: 12 }}>
                 <Typography
-                  variant="h5"
+                  variant="h6"
                   sx={{ margin: "10px 0", color: "secondary.main" }}
                 >
                   {content?.overview?.overview2?.heading}
@@ -113,7 +119,44 @@ export default function ServicePage() {
               </Grid>
             )}
         </Grid>
-       
+        <Stack sx={{ justifyContent: "center" }}>
+          <Keyservices keyservicesContent={content?.overview?.key_services} />
+
+          <Symptoms
+            symptoms={content?.overview?.symptoms}
+            sx={{ margin: "20px 0" }}
+          />
+          <HealthRisks
+            healthrisks={content?.overview?.health_risks}
+            sx={{ margin: "20px 0" }}
+          />
+          <DiagnosedSection
+            diagnosed={content?.overview?.diagnosed}
+            sx={{ margin: "20px 0" }}
+          />
+          <Conditions
+            conditions={content?.overview?.conditions}
+            sx={{ margin: "20px 0" }}
+          />
+          <ServicesDetails
+            servicesinfo={content?.overview?.services_details}
+            sx={{ margin: "20px 0" }}
+          />
+          <TreatmentOptions
+            treatments={content?.overview?.treatments}
+            sx={{ margin: "20px 0" }}
+          />
+          <WhenToSeeSpecialist
+            whenToSee={content?.overview?.when_to_see_specialist}
+            sx={{ margin: "20px 0" }}
+          />
+          <Mutipletreatment
+            treatmentContent={content?.overview?.treatments_mutiple}
+            sx={{ margin: "20px 0" }}
+          />
+          <Faq faq={content?.overview?.faqs} />
+        </Stack>
+
         {/* <Faqstabcompoment Faqstabcompoment={content?.overview?.faqs}/> */}
       </>
     );
@@ -127,91 +170,40 @@ export default function ServicePage() {
         pagename={content.heading}
       />
 
-      <Container>
-        <Box
-          sx={{
-            width: "100%",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <Box
-            sx={{
-              width: "80%",
-              maxWidth: "1200px",
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
-            <Grid container>
-              {service?.subpages?.length > 0 ? (
-                <>
-                  <Grid size={{ xs: 12, sm: 6, md: 4 }}>
-                    <SidebarMenu service={service} slug={slug} />
-                  </Grid>
-                  <Grid size={{ xs: 12, sm: 6, md: 8 }}>
-                    {serviceContent()}
-                  </Grid>
-                </>
-              ) : (
-                <Grid size={{ xs: 12, sm: 6, md: 12 }}>
-                  <Box
-                    sx={{
-                      maxWidth: "1200px",
-                      display: "flex",
-                      justifyContent: "center",
-
-                      alignItems: "center", // Horizontally center the content
-                      justifyContent: "center", // Vertically center the content
-                    }}
-                  >
-                    <Stack sx={{ width: "60%" }}>{serviceContent()}</Stack>
-                  </Box>
+      <Container maxWidth="xl">
+        <Box>
+          <Grid container>
+            {service?.subpages?.length > 0 ? (
+              <>
+                <Grid size={{ xs: 12, sm: 6, md: 3 }}>
+                  <SidebarMenu service={service} slug={slug} />
                 </Grid>
-              )}
-            </Grid>
-          </Box>
-        </Box>
-        <Stack
-          sx={{
-            display: "flex",
-            alignItems: "center", // Horizontally center the content
-            justifyContent: "center",
-          }}
-        >
-          <Stack
-            sx={{
-              maxWidth: "1200px",
-              display: "flex",
-              alignItems: "center", // Horizontally center the content
-              justifyContent: "center", // Vertically center the content
-            }}
-          >
-            <Stack sx={{ justifyContent: "center", width: "60%" }}>
-            <Keyservices keyservicesContent={content?.overview?.key_services} />
+                <Grid size={{ xs: 12, sm: 6, md: 8 }}>{serviceContent()}</Grid>
+              </>
+            ) : (
 
-              <Symptoms symptoms={content?.overview?.symptoms} sx={{margin:"20px 0"}} />
-              <HealthRisks healthrisks={content?.overview?.health_risks}  sx={{margin:"20px 0"}} />
-              <DiagnosedSection diagnosed={content?.overview?.diagnosed}  sx={{margin:"20px 0"}}/>
-              <Conditions conditions={content?.overview?.conditions}  sx={{margin:"20px 0"}}/>
-              <ServicesDetails
-                servicesinfo={content?.overview?.services_details}  sx={{margin:"20px 0"}}
-              />
-              <TreatmentOptions treatments={content?.overview?.treatments}  sx={{margin:"20px 0"}}/>
-              <WhenToSeeSpecialist
-                whenToSee={content?.overview?.when_to_see_specialist}  sx={{margin:"20px 0"}}
-              />
-              <Mutipletreatment
-                treatmentContent={content?.overview?.treatments_mutiple}  sx={{margin:"20px 0"}}
-              />
-              <Faq faq={content?.overview?.faqs} />
-            </Stack>
-          </Stack>
-        </Stack>
+              <Grid size={{ xs: 12, sm: 6, md: 10 }}>
+                <Box
+                  sx={{
+                    display: "flex",
+                    justifyContent: "center",
+
+                    alignItems: "center", // Horizontally center the content
+                    justifyContent: "center", // Vertically center the content
+                  }}
+                >
+                  <Stack>{serviceContent()}</Stack>
+                </Box>
+                
+              </Grid>
+            )}
+            
+          </Grid>
+        </Box>
+
         <WhyChooseSection whyChoose={content?.overview?.why_choose} />
         <TakeChargeSection takeCharge={content?.overview?.take_charge} />
-        <PatientVideos patientvideos={websiteJson?.Patientvideos} />
+        {/* <PatientVideos patientvideos={websiteJson?.Patientvideos} /> */}
       </Container>
 
       <Footer></Footer>

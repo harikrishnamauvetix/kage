@@ -15,8 +15,8 @@ import {
   Divider,
   Card,
   CardContent,
-  Rating ,
-  Avatar 
+  Rating,
+  Avatar,
 } from "@mui/material";
 import websiteJson from "../../public/website.json";
 import Link from "next/link";
@@ -24,47 +24,20 @@ import DoctorsLists from "../../compoments/Doctors/DoctorsLists";
 import SendIcon from "@mui/icons-material/Send";
 import Footer from "@/compoments/Footer";
 import Header from "@/compoments/Header";
-
-
+import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 
 const Doctors = () => {
   return (
     <>
       <Header></Header>
-      <Box
-        sx={{
-          backgroundColor: "#f5f5f5", // Replace with your desired color
-          padding: "10px",
-          borderRadius: "8px",
-          marginBottom:"30px"
-        }}
-      >
-        <Container>
-          <Breadcrumbs aria-label="breadcrumb" sx={{ padding: "20px", }}>
-            <Link underline="hover" color="inherit" href="/home">
-              Home
-            </Link>
-           
-            <Link
-              underline="hover"
-              color="text.primary"
-              href="#"
-              aria-current="page"
-            >
-            Doctors
-            </Link>
-          </Breadcrumbs>
+      <Breadcrumbsinfo service={"Doctors"}></Breadcrumbsinfo>
 
-       
-        </Container>
-      </Box>
-      <Container>
+      <Container maxWidth="lg">
         <Grid2 container spacing={2}>
-     
-        <DoctorsLists doctorsList={websiteJson.doctorsList}/>
-
+          <DoctorsLists doctorsList={websiteJson.doctorsList} />
         </Grid2>
       </Container>
+
       <Footer></Footer>
     </>
   );

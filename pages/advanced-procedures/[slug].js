@@ -53,7 +53,7 @@ const Advancedprocedures = () => {
     (item) => item.title.replace(/\s+/g, "-").toLowerCase() === slug
   );
   const renderList = (items, IconComponent) => (
-    <List sx={{ padding: "0px" }}>
+    <List disablePadding sx={{ padding: "0px" }}>
       {items.map((item, idx) => (
         <ListItem key={idx} sx={{ padding: "0px" }}>
           {IconComponent && (
@@ -164,14 +164,14 @@ const Advancedprocedures = () => {
                   {section.symptoms &&
                     renderList(section.symptoms, ArrowForwardIosIcon)}
                   {section.steps && (
-                    <List disablePadding>
+                    <List disablePadding >
                       {section.steps.map((step, stepIdx) => (
-                        <ListItem key={stepIdx} disablePadding>
-                          <ListItemIcon disablePadding sx={{minWidth:"30px"}}>
+                        <ListItem key={stepIdx} >
+                          <ListItemIcon  sx={{minWidth:"30px"}}>
                             <ArrowForwardIosIcon />
                           </ListItemIcon>
                           <ListItemText
-                            disablePadding
+                            
                             primary={step.title}
                             secondary={step.description}
                           />

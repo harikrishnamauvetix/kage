@@ -20,14 +20,14 @@ import Grid from "@mui/material/Grid2";
 
 function HealthRisks({ healthrisks }) {
   if (!healthrisks) return null;
-
+console.log(healthrisks)
   return (
     <>
-      {healthrisks.heading && healthrisks.content?.length > 0 && (
+      {healthrisks.heading  && (
         <>
           <Grid item xs={12}>
             <Typography
-              variant="h5"
+              variant="h6"
               sx={{ margin: "10px 0", color: "secondary.main" }}
             >
               {healthrisks.heading}

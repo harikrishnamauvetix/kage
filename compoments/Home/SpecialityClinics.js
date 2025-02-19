@@ -58,6 +58,8 @@ const SpecialityClinics = (props) => {
                           alt="Doctor Profile"
                           width={60}
                           height={60}
+                         
+                          quality={100}
                         />
                         <Link
                           href={`/speciality-clinics/${service.title

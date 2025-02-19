@@ -40,11 +40,9 @@ import { List, ListItem, ListItemText } from "@mui/material";
 export default function SidebarMenu({ service, slug }) {
   return (
     <List>
-      {/* Add your sidebar menu items here, potentially using data from the 'service' prop */}
       <ListItem button component="a" href={`/services/${slug}`}>
         <ListItemText primary={service?.title} />
       </ListItem>
-      {/* ... more list items */}
     </List>
   );
 }

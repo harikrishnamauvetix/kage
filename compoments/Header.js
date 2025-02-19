@@ -17,7 +17,7 @@ import MailIcon from "@mui/icons-material/Mail";
 import PhoneIcon from "@mui/icons-material/Phone";
 import websiteJson from "../public/website.json";
 import BookAppointmentModal from "./BookAppointmentModal";
-
+import HomeIcon from '@mui/icons-material/Home';
 const Navbar = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const [subMenuAnchorEl, setSubMenuAnchorEl] = useState(null);
@@ -44,6 +44,7 @@ const Navbar = () => {
   const handleOpen = () => setIsModalOpen(true);
   const handleClose = () => setIsModalOpen(false);
   const navItems = [
+    { label: <HomeIcon />, href: "/home" },
     { label: "About us", href: "/about" },
     { label: "Doctors", href: "/doctors" },
     {
@@ -90,7 +91,7 @@ const Navbar = () => {
     { label: "Doctor Videos", href: "/doctorvideos" },
     // { label: "Health Blogs", href: "blogs" },
     // { label: "News & Events", href: "#" },
-    { label: "Contact us", href: "/contact" },
+    // { label: "Contact us", href: "/contact" },
   ];
 
   return (
@@ -128,7 +129,7 @@ const Navbar = () => {
                 component="img"
                 src={websiteJson.hospitalInfo?.companylogo}
                 alt="Logo"
-                sx={{ height: 100 }}
+               
               />
             </Link>
           </Box>

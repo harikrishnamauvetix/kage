@@ -30,7 +30,7 @@ console.log(faq,"dddd")
       {faq?.heading && (
         <>
          <Typography
-            variant="h5"
+            variant="h6"
             sx={{ margin: "10px 0", color: "secondary.main" }}
           >
             {faq?.heading }

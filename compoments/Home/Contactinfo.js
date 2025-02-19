@@ -1,5 +1,12 @@
 import React from "react";
-import { Box, Typography, Paper, Container ,ListItem,List} from "@mui/material";
+import {
+  Box,
+  Typography,
+  Paper,
+  Container,
+  ListItem,
+  List,
+} from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
@@ -22,7 +29,6 @@ const Contactinfo = (props) => {
               <Box
                 component="img"
                 src={props.Contactinfo?.contactImage}
-              
                 alt="KIMS Cuddles"
                 sx={{
                   width: "100%",
@@ -52,7 +58,7 @@ const Contactinfo = (props) => {
                     textAlign: { xs: "center", md: "left" },
                   }}
                 >
-                 Kage
+                  KAGE - KIMS Advanced Gastroenterlogy & Endoscopy
                 </Typography>
                 <List>
                   <ListItem>
@@ -61,8 +67,8 @@ const Contactinfo = (props) => {
                       <Typography variant="subtitle1" fontWeight="bold">
                         Address:
                       </Typography>
-                      <Typography sx={{color: "#fff"}}>
-                    {props.Contactinfo?.address}
+                      <Typography sx={{ color: "#fff" }}>
+                        {props.Contactinfo?.address}
                       </Typography>
                     </Box>
                   </ListItem>
@@ -81,8 +87,10 @@ const Contactinfo = (props) => {
                       <Typography variant="subtitle1" fontWeight="bold">
                         Appointment Number:
                       </Typography>
-                      <Typography sx={{color:"#fff"}}> {props.Contactinfo?.phoneNumber}</Typography>
-                  
+                      <Typography sx={{ color: "#fff" }}>
+                        {" "}
+                        {props.Contactinfo?.phoneNumber}
+                      </Typography>
                     </Box>
                   </ListItem>
                   <ListItem>
@@ -91,7 +99,10 @@ const Contactinfo = (props) => {
                       <Typography variant="subtitle1" fontWeight="bold">
                         Email:
                       </Typography>
-                      <Typography  sx={{color:"#fff"}}> {props.Contactinfo?.emailid}</Typography>
+                      <Typography sx={{ color: "#fff" }}>
+                        {" "}
+                        {props.Contactinfo?.emailid}
+                      </Typography>
                     </Box>
                   </ListItem>
                 </List>

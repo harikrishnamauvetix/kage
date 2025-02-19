@@ -15,7 +15,7 @@ const Symptoms = ({ symptoms }) => {
       <Grid container>
         <Grid item xs={12}>
           <Typography
-            variant="h5"
+            variant="h6"
             sx={{ margin: "10px 0", color: "secondary.main" }}
           >
             {symptoms.heading}
@@ -24,7 +24,7 @@ const Symptoms = ({ symptoms }) => {
         <Grid container>
           {symptoms.list.map((item, index) => (
             <Grid size={{ xs: 12, sm: 12, md: 6 }} key={index}>
-              <List >
+              <List disablePadding >
                 <ListItem disableGutters>
                   <ListItemIcon
                     sx={{ marginRight: "10px", minWidth: "30px" }}
@@ -49,6 +49,7 @@ const Symptoms = ({ symptoms }) => {
                     className="p0"
                     primary={item.heading}
                     secondary={item.description}
+                    primaryTypographyProps={{ sx: { color: "primary.main" } }}
                   />
                 </ListItem>
               </List>

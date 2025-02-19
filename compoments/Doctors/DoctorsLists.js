@@ -31,13 +31,14 @@ const DoctorsList = (props) => {
         <Container>
           <Box>
             <Typography
-              component="h2"
               variant="h4"
-              gutterBottom
-              color="secondary"
-              textAlign="left"
+              sx={{
+                fontWeight: "bold",
+                marginBottom: 2,
+                color: "secondary.main",
+              }}
             >
-              Doctors
+              Expert Team Of Doctors
             </Typography>
           </Box>
           <Grid container spacing={3} justifyContent="center">
@@ -81,24 +82,15 @@ const DoctorsList = (props) => {
                           overflow: "hidden",
                           textOverflow: "ellipsis",
                         }}
-                       
                       >
                         {doctor.name}
                       </Typography>
 
-                      <Typography
-                        variant="body2"
-                        color="text.secondary"
-                       
-                      >
+                      <Typography variant="body2" color="text.secondary">
                         {truncateByWords(doctor.qualifications, 50)}
                       </Typography>
 
-                      <Typography
-                        variant="body2"
-                        color="text.secondary"
-                       
-                      >
+                      <Typography variant="body2" color="text.secondary">
                         {truncateByWords(doctor.designation, 50)}
                       </Typography>
                     </Box>
@@ -111,7 +103,11 @@ const DoctorsList = (props) => {
                     >
                       <Button
                         variant="contained"
-                        sx={{ marginTop: "10px", width: "100%" ,backgroundColor:"secondary.main"}}
+                        sx={{
+                          marginTop: "10px",
+                          width: "100%",
+                          backgroundColor: "secondary.main",
+                        }}
                       >
                         Know More
                       </Button>

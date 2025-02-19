@@ -28,23 +28,18 @@ const Services = (props) => {
           color: "black",
         }}
       >
-        <Container
-          sx={{
-            position: "relative",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            gap: { xs: 3, sm: 6 },
-          }}
-        >
-          <Box
-            sx={{
-              width: { sm: "100%", md: "60%" },
-              textAlign: { sm: "left", md: "center" },
-            }}
-          >
-            <Typography component="h2" variant="h4" color="secondary.main">
-              Services
+        <Container>
+          <Box>
+            <Typography
+              variant="h4"
+              sx={{
+                fontWeight: "bold",
+                marginBottom: 2,
+                color: "secondary.main",
+                textAlign: "left",
+              }}
+            >
+              Advanced Equipments & Diagnosis
             </Typography>
           </Box>
           <Grid container spacing={2}>

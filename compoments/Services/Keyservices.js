@@ -26,7 +26,7 @@ const Keyservices = ({ keyservicesContent }) => {
     keyservicesContent && (
       <Box>
         <Typography
-          variant="h5"
+          variant="h6"
           sx={{ margin: "10px 0", color: "secondary.main" }}
         >
           {keyservicesContent.heading}
@@ -59,7 +59,7 @@ const Keyservices = ({ keyservicesContent }) => {
           ))}
           <Grid size={{ xs: 12, sm: 12, md: 12 }}>
             {keyservicesContent?.keyServiceslist?.map((symptom, index) => (
-              <List sx={{ padding: "0px" }} key={index}>
+              <List disablePadding sx={{ padding: "0px" }} key={index}>
                 <ListItem sx={{ padding: "0px" }}>
                   <ListItemIcon sx={{ padding: "0px", minWidth: "30px" }}>
                     <ArrowForwardIosIcon color="primary" />

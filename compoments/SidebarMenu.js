@@ -22,7 +22,7 @@ const SidebarMenu = ({ service }) => {
 
   return (
     
-    <List className="sideSubmenu">
+    <List  className="sideSubmenu">
       {/* Main Page Link */}
       <ListItem
         button

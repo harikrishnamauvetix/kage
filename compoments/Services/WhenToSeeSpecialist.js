@@ -7,7 +7,8 @@ import {
   ListItemText,
   ListItemIcon,
 } from "@mui/material";
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Grid from "@mui/material/Grid2";
 function WhenToSeeSpecialist({ whenToSee }) {
   if (!whenToSee || !whenToSee.heading || !whenToSee.list?.length) {
@@ -17,24 +18,29 @@ function WhenToSeeSpecialist({ whenToSee }) {
   return (
     <Box>
       <Typography
-        variant="h5"
+        variant="h6"
         sx={{ margin: "10px 0", color: "secondary.main" }}
       >
         {whenToSee.heading}
       </Typography>
       <Grid container spacing={2}>
-        {whenToSee.list.map((item, index) => (
-          <Grid size={{ xs: 12, sm: 6, md: 12}} key={index}>
-            <List disablePadding>
+        <List disablePadding>
+          {whenToSee.list.map((item, index) => (
+            <Grid size={{ xs: 12, sm: 6, md: 12 }} key={index}>
               <ListItem disablePadding>
                 <ListItemIcon sx={{ padding: "0px", minWidth: "30px" }}>
-                  <ArrowForwardIosIcon color="primary" />
+                  <CheckCircleIcon
+                    sx={{
+                      color: "primary.main",
+                      fontSize: 20,
+                    }}
+                  />
                 </ListItemIcon>
-                <ListItemText primary={item} disablePadding />
+                <ListItemText primary={item} />
               </ListItem>
-            </List>
-          </Grid>
-        ))}
+            </Grid>
+          ))}
+        </List>
       </Grid>
     </Box>
   );

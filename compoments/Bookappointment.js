@@ -45,7 +45,18 @@ export default function AppointmentForm() {
         }}
       >
         <>
-          <Typography variant="h6">Book an Appointment</Typography>
+          <Typography
+            variant="h4"
+            sx={{
+              fontWeight: "bold",
+              marginBottom: 2,
+              color: "secondary.main",
+              textAlign: "center",
+            }}
+          >
+         
+            Book an Appointment At KAGE
+          </Typography>
           <form onSubmit={handleSubmit}>
             <Grid2 container spacing={2}>
               <Grid2 size={{ xs: 12, sm: 12, md: 2 }}>
@@ -55,7 +66,6 @@ export default function AppointmentForm() {
                   value={formData.name}
                   onChange={(e) => setName(e.target.value)}
                   margin="normal"
-               
                   size="small"
                   required
                 />
@@ -68,7 +78,6 @@ export default function AppointmentForm() {
                   onChange={(e) => setEmail(e.target.value)}
                   margin="normal"
                   type="email"
-              
                   size="small"
                   required
                 />
@@ -81,23 +90,21 @@ export default function AppointmentForm() {
                   onChange={(e) => setPhoneNumber(e.target.value)}
                   margin="normal"
                   type="tel"
-               
                   size="small"
                   required
                 />
               </Grid2>
               <Grid2 size={{ xs: 12, sm: 12, md: 2 }}>
                 <FormControl fullWidth margin="normal">
-               
+                <InputLabel id="doctor-select-label"  size="small">Select Doctor</InputLabel>
                   <Select
-                   
                     id="doctor-select"
                     name="doctor"
                     value={formData.doctor}
                     onChange={handleChange}
                     label="Select Doctor"
                     required
-                     size="small"
+                    size="small"
                   >
                     {websiteJson.doctorsList.map((doctor) => (
                       <MenuItem key={doctor.id} value={doctor.name}>
@@ -116,7 +123,7 @@ export default function AppointmentForm() {
                   value={formData.date}
                   onChange={handleChange}
                   type="date"
-                   size="small"
+                  size="small"
                   InputLabelProps={{ shrink: true }}
                   required
                 />

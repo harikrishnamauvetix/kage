@@ -32,11 +32,12 @@ import "swiper/css";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import Optimings from "@/compoments/Doctors/Optimings";
 import PatientVideos from "@/compoments/Home/PatientVideos";
+import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 const DoctorDetails = () => {
   const router = useRouter();
   const { slug } = router.query;
   // const doctor="dd"
-  console.log(slug);
+  // console.log(slug);
   // Fetch doctor details by matching the name from the JSON data
   const doctor = websiteJson.doctorsList.find(
     (doc) => doc.name.replace(/\s+/g, "-").toLowerCase() === slug
@@ -59,7 +60,10 @@ const DoctorDetails = () => {
   return (
     <>
       <Header></Header>
-
+      <Breadcrumbsinfo
+        service={"Doctors"}
+        pagename={doctor.name}
+      ></Breadcrumbsinfo>
       <Box
         sx={{
           backgroundColor: "#f5f5f5", // Replace with your desired color
@@ -67,28 +71,11 @@ const DoctorDetails = () => {
           borderRadius: "8px",
         }}
       >
-        <Container>
-          <Breadcrumbs aria-label="breadcrumb" sx={{ padding: "20px" }}>
-            <Link underline="hover" color="inherit" href="/home">
-              Home
-            </Link>
-            <Link underline="hover" color="inherit" href="#">
-              Doctors
-            </Link>
-            <Link
-              underline="hover"
-              color="text.primary"
-              href="#"
-              aria-current="page"
-            >
-              {doctor.name}
-            </Link>
-          </Breadcrumbs>
-
+        <Container maxWidth="xl">
           <Grid
             container
             spacing={2}
-            sx={{ width: "100%", position: "relative", paddingBottom: "50px" }}
+            sx={{ width: "100%", position: "relative", paddingBottom: "20px" }}
           >
             {" "}
             {/* Ensure full width */}
@@ -102,16 +89,20 @@ const DoctorDetails = () => {
                 />
               </Box> */}
             </Grid>
-            <Grid size={{ xs: 12, md: 9 }} sx={{ py: "30px" }}>
+            <Grid size={{ xs: 12, md: 9 }} sx={{ py: "40px" }}>
               <Typography variant="h4">{doctor.name}</Typography>
               <Typography variant="h6">{doctor.designation}</Typography>
+              <Typography variant="h6">{doctor.qualifications}</Typography>
+              <Typography>
+                Registration Number: {doctor.registrationNumber}
+              </Typography>
             </Grid>
           </Grid>
         </Container>
       </Box>
 
       <Box>
-        <Container>
+        <Container maxWidth="xl">
           <Grid
             container
             spacing={2}
@@ -119,7 +110,7 @@ const DoctorDetails = () => {
           >
             {/* Ensure full width */}
             <Grid size={{ xs: 12, md: 3, lg: 3 }}>
-              <Box sx={{ position: "absolute", marginTop: "-200px" }}>
+              <Box sx={{ position: "absolute", marginTop: "-220px" }}>
                 <CardMedia
                   component="img"
                   height="240"
@@ -136,116 +127,181 @@ const DoctorDetails = () => {
                 </Button>
               </Box>
             </Grid>
-            <Grid size={{ xs: 12, md: 9, lg: 9 }}>
+            <Grid size={{ xs: 12, md: 9, lg: 8 }}>
               {/* <Typography variant="h4">{doctor.name}</Typography> */}
-              <Typography variant="h6" sx={{ padding: "10px 0" }}>
-                {doctor.qualifications}
-              </Typography>
-              <Typography>
-                Registration Number: {doctor.registrationNumber}
-              </Typography>
-              <Box mt={2}>
-                <Stack>
-                  <Typography
-                    variant="h6"
-                    sx={{ padding: "10px 0", color: "primary.main" }}
-                  >
-                    OP Timings
-                  </Typography>
-                  <Optimings timing={doctor.opTiming} />
-                </Stack>
 
-                <Typography
-                  variant="h6"
-                  sx={{ padding: "10px 0", color: "primary.main" }}
-                >
-                  Profile
-                </Typography>
-                <Typography></Typography>
-                <Typography></Typography>
-                <Typography
-                  variant="h6"
-                  sx={{ padding: "10px 0", color: "primary.main" }}
-                >
-                  Achievements
-                </Typography>
-                <List disablePadding
-                  sx={{
-                    listStyleType: "disc", 
-                    marginLeft: "30px"
-                  }}
-                >
-                  {Array.isArray(doctor?.achievements) &&
-                    doctor.achievements.map((achievement, index) => {
-                      // If achievement is an object, it has a category
-                      if (
-                        typeof achievement === "object" &&
-                        achievement.category
-                      ) {
-                        return (
-                          <Box key={index} >
-                            <Typography
-                              variant="h6"
-                              sx={{ padding: "10px 0", color: "secondary.main" }}
-                            >
-                              {achievement.category}
-                            </Typography>
+              <Box>
+                {doctor?.opTiming && (
+                  <Stack sx={{margin:"20px 0"}}>
+                    <Typography
+                      variant="h6"
+                      sx={{ padding: "5px 0", color: "primary.main" }}
+                    >
+                      OP Timings
+                    </Typography>
+                    <Optimings timing={doctor.opTiming}  sx={{padding: "10px 0"}}/>
+                  </Stack>
+                )}
+
+                {doctor?.profile && (
+                  <Stack sx={{margin:"20px 0"}}>
+                    <Typography
+                      variant="h6"
+                      sx={{ padding: "5px 0", color: "primary.main" }}
+                    >
+                      Profile
+                    </Typography>
+                    {doctor.profile.map((profile, index) => (
+                      <Typography
+                        variant="body1"
+                        sx={{ textAlign: "justify", margin: "10px 0" }}
+                        key={index}
+                      >
+                        {profile}
+                      </Typography>
+                    ))}
+                  </Stack>
+                )}
+                {doctor?.publications && (
+                  <Stack sx={{margin:"20px 0"}}>
+                    <Typography
+                      variant="h6"
+                      sx={{ padding: "5px 0", color: "primary.main" }}
+                    >
+                      Publications & Research Papers
+                    </Typography>
+                    <List
+                      disablePadding
+                      sx={{
+                        listStyleType: "disc",
+                        marginLeft: "30px",
+                      }}
+                    >
+                      {Array.isArray(doctor?.publications) &&
+                        doctor.publications.map((publications, index) => {
+                          return (
                             <List
-                              sx={{
-                                listStyleType: "disc", 
-                               
-                              }}
                               disablePadding
+                              key={index}
+                              sx={{
+                                listStyleType: "disc",
+                              }}
                             >
-                              {achievement.details.map((detail, idx) => (
-                                <ListItem key={idx} sx={{ display: "list-item", padding: 0 }}>
-                                  <ListItemText primary={detail}  disablePadding/>
-                                </ListItem>
-                              ))}
+                              <ListItem
+                                sx={{ display: "list-item", padding: 0 }}
+                              >
+                                <ListItemText primary={publications} />
+                              </ListItem>
                             </List>
-                          </Box>
-                        );
-                      }
-                      // If it's a plain string, render it directly
-                      return (
-                        <List disablePadding
+                          );
+                        })}
+                    </List>
+                  </Stack>
+                )}
+
+                {doctor?.achievements && (
+                  <Stack sx={{margin:"20px 0"}}>
+                    <Typography
+                      variant="h6"
+                      sx={{ padding: "5px 0", color: "primary.main" }}
+                    >
+                      Achievements
+                    </Typography>
+                    <List
+                      disablePadding
+                      sx={{
+                        listStyleType: "disc",
+                        marginLeft: "30px",
+                      }}
+                    >
+                      {Array.isArray(doctor?.achievements) &&
+                        doctor.achievements.map((achievement, index) => {
+                          // If achievement is an object, it has a category
+                          if (
+                            typeof achievement === "object" &&
+                            achievement.category
+                          ) {
+                            return (
+                              <Box key={index}>
+                                <Typography
+                                  variant="h6"
+                                  sx={{
+                                    padding: "10px 0",
+                                    color: "secondary.main",
+                                  }}
+                                >
+                                  {achievement.category}
+                                </Typography>
+                                <List
+                                  disablePadding
+                                  sx={{
+                                    listStyleType: "disc",
+                                  }}
+                                >
+                                  {achievement.details.map((detail, idx) => (
+                                    <ListItem
+                                      key={idx}
+                                      sx={{ display: "list-item", padding: 0 }}
+                                    >
+                                      <ListItemText primary={detail} />
+                                    </ListItem>
+                                  ))}
+                                </List>
+                              </Box>
+                            );
+                          }
+                          // If it's a plain string, render it directly
+                          return (
+                            <List
+                              disablePadding
+                              key={index}
+                              sx={{
+                                listStyleType: "disc",
+                              }}
+                            >
+                              <ListItem
+                                sx={{ display: "list-item", padding: 0 }}
+                              >
+                                <ListItemText primary={achievement} />
+                              </ListItem>
+                            </List>
+                          );
+                        })}
+                    </List>
+                  </Stack>
+                )}
+                {doctor?.awards && (
+                  <Stack>
+                    <Typography
+                      variant="h6"
+                      sx={{ padding: "5px 0", color: "primary.main" }}
+                    >
+                      Awards
+                    </Typography>
+                    <List
+                      sx={{
+                        listStyleType: "disc",
+                        pl: 1,
+                      }}
+                    >
+                      {doctor?.awards?.map((achievement, index) => (
+                        <ListItem
                           key={index}
-                          sx={{
-                            listStyleType: "disc",
-                          
-                          }}
+                          sx={{ display: "list-item", padding: 0 }}
                         >
-                          <ListItem sx={{ display: "list-item", padding: 0 }}>
-                            <ListItemText primary={achievement} disablePadding />
-                          </ListItem>
-                        </List>
-                      );
-                    })}
-                </List>
-                <Typography
-                  variant="h6"
-                  sx={{ padding: "10px 0", color: "primary.main" }}
-                >
-                  Awards
-                </Typography>
-                <List
-                  sx={{
-                    listStyleType: "disc", 
-                    pl: 1, 
-                  }}
-                >
-                  {doctor?.awards?.map((achievement, index) => (
-                    <ListItem key={index} sx={{ display: "list-item", padding: 0 }}>
-                      <ListItemText primary={achievement} />
-                    </ListItem>
-                  ))}
-                </List>
+                          <ListItemText primary={achievement} />
+                        </ListItem>
+                      ))}
+                    </List>
+                  </Stack>
+                )}
               </Box>
             </Grid>
           </Grid>
+
+          <PatientVideos patientvideos={websiteJson?.Patientvideos} />
         </Container>
       </Box>
-      <PatientVideos patientvideos={websiteJson?.Patientvideos} />
 
       <Footer></Footer>
     </>

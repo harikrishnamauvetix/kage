@@ -13,38 +13,37 @@ const CausesAndRisk = ({ causesAndRisk = {} }) => {
 
   return (
     causesAndRisk && (
-      <Grid container >
+      <Grid container>
         {heading && (
           <Grid size={{ xs: 12, sm: 12, md: 12 }}>
-            <Typography variant="h5" sx={{ color: "secondary.main" }}>
+            <Typography variant="h6" sx={{ color: "secondary.main" }}>
               {heading}
             </Typography>
           </Grid>
         )}
         {list?.map((item, index) => (
-          <List disablePadding>
+          <List disablePadding key={index}>
             <ListItem disableGutters>
-              <ListItemIcon sx={{ minWidth: "30px",marginRight:"10px" }}>
-              {item?.icon ? (
-                    <img
-                      src={item.icon}
-                      alt="Hospital Icon"
-                      width="40"
-                      height="40"
-                      style={{
-                        borderRadius: "50%",
-                        objectFit: "contain",
-                      }}
-                    />
-                  ) : (
-                    <ArrowForwardIosIcon />
-                  )}
-          
-                
+              <ListItemIcon sx={{ minWidth: "30px", marginRight: "10px" }}>
+                {item?.icon ? (
+                  <img
+                    src={item.icon}
+                    alt="Hospital Icon"
+                    width="40"
+                    height="40"
+                    style={{
+                      borderRadius: "50%",
+                      objectFit: "contain",
+                    }}
+                  />
+                ) : (
+                  <ArrowForwardIosIcon />
+                )}
               </ListItemIcon>
               <ListItemText
                 primary={item.heading}
                 secondary={item.description}
+                primaryTypographyProps={{ sx: { color: "primary.main" } }}
               />
             </ListItem>
           </List>

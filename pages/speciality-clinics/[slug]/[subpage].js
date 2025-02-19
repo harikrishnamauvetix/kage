@@ -21,6 +21,7 @@ import {
   ListItemIcon,
   CardActionArea,
   Breadcrumbs,
+  Stack,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import SidebarMenu from "@/compoments/SidebarMenu";
@@ -118,7 +119,7 @@ export default function SubServicePage() {
         pagename={subService?.title}
       />
 
-      <Container>
+      <Container maxWidth="xl">
         <Box
           sx={{
             width: "100%",
@@ -127,155 +128,155 @@ export default function SubServicePage() {
             justifyContent: "center",
           }}
         >
-          <Box
-            sx={{
-              width: "80%",
-              maxWidth: "1200px",
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
-            <Grid container>
-              <Grid size={{ xs: 12, sm: 12, md: 4 }}>
-                <SidebarMenu
-                  service={service}
-                  slug={slug}
-                  subService={subService}
-                />
-              </Grid>
-              <Grid size={{ xs: 12, sm: 12, md: 8 }}>
-                {subService?.title && (
-                  <Grid item xs={12} sx={{ margin: "40px 0 10px 0" }}>
-                    <Typography
-                      variant="h5"
-                      gutterBottom
-                      sx={{ color: "primary.main" }}
-                    >
-                      {subService?.title}
-                    </Typography>
-                  </Grid>
-                )}
-                {subService.sections && subService.sections.introduction && (
-                  <Grid container>
-                    <Grid size={{ xs: 12, sm: 12, md: 12 }}>
-                      <Typography
-                        variant="h5"
-                        sx={{ margin: "10px 0", color: "secondary.main" }}
-                      >
-                        {subService.sections.introduction?.heading}
-                      </Typography>
-                      <Typography variant="body1" sx={{textAlign:"justify"}}>
-                        {subService.sections.introduction?.description}
-                      </Typography>
-                    </Grid>
-                  </Grid>
-                )}
-
-                {subServicelist?.map((item) => {
-                  const serviceInfo = subService?.sections?.services_info[item];
-
-                  if (serviceInfo) {
-                    return (
-                      <div key={item}>
-                        {serviceInfo?.heading && (
-                          <Grid container>
-                            <Grid size={{ xs: 12, sm: 12, md: 12 }}>
-                              <Typography
-                                variant="h5"
-                                sx={{
-                                  margin: "10px 0",
-                                  color: "secondary.main",
-                                }}
-                              >
-                                {serviceInfo?.heading}
-                              </Typography>
-                              <Typography variant="body1" sx={{textAlign:"justify"}}>
-                                {serviceInfo?.description}
-                              </Typography>
-                            </Grid>
-                          </Grid>
-                        )}
-                        <Symptoms symptoms={serviceInfo?.Symptoms} />
-                        <CausesAndRisk
-                          causesAndRisk={serviceInfo?.Causes_and_Risk}
-                        />
-                        <Complications
-                          complications={serviceInfo?.Complications}
-                        />
-                      </div>
-                    );
-                  }
-                  return null;
-                })}
-                <Symptoms symptoms={subService?.sections?.Symptoms} />
-                <CausesAndRisk
-                  causesAndRisk={subService?.sections?.Causes_and_Risk}
-                />
-                <Complications
-                  complications={subService?.sections?.Complications}
-                />
-
-                {subService?.sections?.conditions && (
-                  <>
-                    <Typography
-                      variant="h5"
-                      sx={{ margin: "10px 0", color: "secondary.main" }}
-                    >
-                      {subService?.sections?.conditions?.heading}
-                    </Typography>
-                    <Typography variant="body2" sx={{ marginBottom: "10px" }}>
-                      {subService?.sections?.conditions?.description}
-                    </Typography>
-                    <SubServiceListItems
-                      servicelist={subService?.sections?.conditions?.list}
-                    />
-                  </>
-                )}
-
-                {subService?.sections?.procedure && (
-                  <>
-                    <Typography
-                      variant="h5"
-                      sx={{ margin: "10px 0", color: "secondary.main" }}
-                    >
-                      {subService?.sections?.procedure.heading}{" "}
-                    </Typography>
-                    <Typography variant="body1" sx={{textAlign:"justify"}}>
-                      {subService?.sections?.procedure.description}
-                    </Typography>
-                  </>
-                )}
-                {subService?.sections?.advantages && (
-                  <>
-                    <Typography
-                      variant="h5"
-                      sx={{ margin: "10px 0", color: "secondary.main" }}
-                    >
-                      {subService?.sections?.advantages?.heading}
-                    </Typography>
-                    <List>
-                      {subService?.sections?.advantages && (
-                        <SubServiceListItems
-                        servicelist={subService?.sections?.advantages?.list}
-                        />
-                      )}
-                    </List>
-                  </>
-                )}
-                <Diagnosis
-                  diagnosis={subService?.sections?.Diagnosis}
-                  introduction={subService?.sections?.introduction}
-                />
-                <Treatment treatment={subService?.sections?.Treatment} />
-              
-              </Grid>
-              
+          <Grid container>
+            <Grid size={{ xs: 12, sm: 12, md: 3 }}>
+              <SidebarMenu
+                service={service}
+                slug={slug}
+                subService={subService}
+              />
             </Grid>
-          </Box>
-        
+            <Grid size={{ xs: 12, sm: 6, md: 8 }}>
+              {subService?.title && (
+                <Grid item xs={12} sx={{ margin: "40px 0 0px 0" }}>
+                  <Typography
+                    variant="h5"
+                    gutterBottom
+                    sx={{ color: "primary.main" }}
+                  >
+                    {subService?.title}
+                  </Typography>
+                </Grid>
+              )}
+             
+              {subService.sections && subService.sections.introduction && (
+                <Grid container>
+                  <Grid size={{ xs: 12, sm: 12, md: 12 }}>
+                    <Typography
+                      variant="h6"
+                      sx={{ margin: "10px 0", color: "secondary.main" }}
+                    >
+                      {subService.sections.introduction?.heading}
+                    </Typography>
+                    <Typography variant="body1" sx={{ textAlign: "justify" }}>
+                      {subService.sections.introduction?.description}
+                    </Typography>
+                  </Grid>
+                </Grid>
+              )}
+                {subServicelist?.map((item) => {
+                const serviceInfo = subService?.sections?.services_info[item];
+
+                if (serviceInfo) {
+                  return (
+                    <div key={item}>
+                      {serviceInfo?.heading && (
+                        <Grid container>
+                          <Grid size={{ xs: 12, sm: 12, md: 12 }}>
+                            <Typography
+                              variant="h6"
+                              sx={{
+                                margin: "10px 0",
+                                color: "secondary.main",
+                              }}
+                            >
+                              {serviceInfo?.heading}
+                            </Typography>
+                            <Typography
+                              variant="body1"
+                              sx={{ textAlign: "justify" }}
+                            >
+                              {serviceInfo?.description}
+                            </Typography>
+                          </Grid>
+                        </Grid>
+                      )}
+                      <Symptoms symptoms={serviceInfo?.Symptoms} />
+                      <CausesAndRisk
+                        causesAndRisk={serviceInfo?.Causes_and_Risk}
+                      />
+                      <Complications
+                        complications={serviceInfo?.Complications}
+                      />
+                    </div>
+                  );
+                }
+                return null;
+              })}
+              <Symptoms symptoms={subService?.sections?.Symptoms} />
+              <CausesAndRisk
+                causesAndRisk={subService?.sections?.Causes_and_Risk}
+              />
+              <Complications
+                complications={subService?.sections?.Complications}
+              />
+
+              {subService?.sections?.conditions && (
+                <>
+                  <Typography
+                    variant="h6"
+                    sx={{ margin: "10px 0", color: "secondary.main" }}
+                  >
+                    {subService?.sections?.conditions?.heading}
+                  </Typography>
+                  <Typography variant="body2" sx={{ marginBottom: "10px" }}>
+                    {subService?.sections?.conditions?.description}
+                  </Typography>
+                  <SubServiceListItems
+                    servicelist={subService?.sections?.conditions?.list}
+                  />
+                </>
+              )}
+
+              {subService?.sections?.procedure && (
+                <>
+                  <Typography
+                    variant="h6"
+                    sx={{ margin: "10px 0", color: "secondary.main" }}
+                  >
+                    {subService?.sections?.procedure.heading}{" "}
+                  </Typography>
+                  <Typography variant="body1" sx={{ textAlign: "justify" }}>
+                    {subService?.sections?.procedure.description}
+                  </Typography>
+                </>
+              )}
+              {subService?.sections?.advantages && (
+                <>
+                  <Typography
+                    variant="h6"
+                    sx={{ margin: "10px 0", color: "secondary.main" }}
+                  >
+                    {subService?.sections?.advantages?.heading}
+                  </Typography>
+                  <List>
+                    {subService?.sections?.advantages && (
+                      <SubServiceListItems
+                        servicelist={subService?.sections?.advantages?.list}
+                      />
+                    )}
+                  </List>
+                </>
+              )}
+              <Diagnosis
+                diagnosis={subService?.sections?.Diagnosis}
+                introduction={subService?.sections?.introduction}
+              />
+              <Treatment treatment={subService?.sections?.Treatment} />
+            </Grid>
+            <Grid size={{ xs: 12, sm: 6, md: 1 }}></Grid>
+          </Grid>
         </Box>
-        <WhyToChoose whytochoose={subService?.sections?.Why_to_choose} />
-        <PatientVideos  patientvideos={websiteJson?.Patientvideos}/>
+        <Stack>
+          <Grid container>
+            <Grid size={{ xs: 12, sm: 6, md: 10 }}>
+            
+            </Grid>
+          </Grid>
+        </Stack>
+
+        <WhyToChoose whytochoose={subService?.sections?.Why_to_choose}  />
+        {/* <PatientVideos patientvideos={websiteJson?.Patientvideos} /> */}
       </Container>
 
       <Footer></Footer>

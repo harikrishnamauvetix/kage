@@ -23,12 +23,12 @@ const Breadcrumbsinfo = (props) => {
       <Box
         sx={{
           backgroundColor: "#f5f5f5", // Replace with your desired color
-          padding: "10px",
+      
           borderRadius: "8px",
         }}
       >
-        <Container>
-          <Breadcrumbs aria-label="breadcrumb" sx={{ padding: "20px" }}>
+        <Container maxWidth="xl">
+          <Breadcrumbs aria-label="breadcrumb" sx={{ padding: "5px" }}>
             <Link underline="hover" color="inherit" href="/home">
               Home
             </Link>

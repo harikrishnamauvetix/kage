@@ -27,13 +27,14 @@ const DoctorVideos = (props) => {
         <Container>
           <Box sx={{ mb: 6 }}>
             <Typography
-              component="h2"
               variant="h4"
-              gutterBottom
-              color="secondary"
-              textAlign="left"
+              sx={{
+                fontWeight: "bold",
+                marginBottom: 2,
+                color: "secondary.main",
+              }}
             >
-              Doctor Videos
+              Doctor's Talk's
             </Typography>
             {/* Doctor Videos Section */}
             <Box>

@@ -1,14 +1,14 @@
 import { List, ListItem, ListItemIcon, Typography, Box, ListItemText } from "@mui/material";
 import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 const SubServiceListItems = ({ servicelist }) => (
-  <List>
+  <List disablePadding>
     {servicelist?.map((item, index) => (
       typeof item === "object" && item.heading && item.description ? (
         <ListItem key={index} alignItems="flex-start">
           <ListItemIcon sx={{minWidth: "30px", color: "primary.main",padding: "0px !important"  }}>
-          <ArrowForwardIosIcon />
+          <CheckCircleIcon />
           </ListItemIcon>
           <Box>
             <Typography variant="subtitle1">{item.heading}</Typography>
@@ -18,7 +18,7 @@ const SubServiceListItems = ({ servicelist }) => (
       ) : (
         <ListItem key={index} sx={{ padding: "0px !important" }}>
           <ListItemIcon sx={{ minWidth: "30px", color: "primary.main",padding: "0px !important" }}>
-            <ArrowForwardIosIcon />
+            <CheckCircleIcon />
           </ListItemIcon>
           <ListItemText primary={item} />
         </ListItem>

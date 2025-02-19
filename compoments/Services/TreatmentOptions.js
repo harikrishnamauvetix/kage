@@ -6,7 +6,8 @@ import {
   ListItemIcon,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
 function TreatmentOptions({ treatments }) {
   if (!treatments?.heading || !treatments?.steps?.length) return null;
@@ -14,7 +15,7 @@ function TreatmentOptions({ treatments }) {
   return (
     <>
       <Typography
-        variant="h5"
+        variant="h6"
         sx={{ margin: "10px 0", color: "secondary.main" }}
       >
         {treatments?.heading}
@@ -22,9 +23,15 @@ function TreatmentOptions({ treatments }) {
       <Grid container spacing={2}>
         {treatments?.steps?.map((step, index) => (
           <Grid size={{ xs: 12, sm: 12, md: 6 }} key={index}>
-            <List disablePadding>
+            <List
+              disablePadding
+              sx={{
+                listStyleType: "disc",
+                marginLeft: "30px",
+              }}
+            >
               <ListItem disablePadding>
-                <ListItemIcon disablePadding sx={{minWidth:"30px"}} >
+                <ListItemIcon sx={{ minWidth: "50px" }}>
                   {step?.icon ? (
                     <img
                       src={step.icon}
@@ -37,12 +44,19 @@ function TreatmentOptions({ treatments }) {
                       }}
                     />
                   ) : (
-                    <ArrowForwardIosIcon fontSize="large" color="primary" sx={{minWidth:"30px"}}/>
+                    <CheckCircleIcon
+                      color="primary"
+                      sx={{ minWidth: "30px" }}
+                    />
                   )}
                 </ListItemIcon>
-                <ListItemText disablePadding
+                <ListItemText
                   primary={step.title}
-                  secondary={step.description}
+                  secondary={
+                    step.description || (step.list ? step.list.join("\n") : "")
+                  }
+                  primaryTypographyProps={{ sx: { color: "primary.main" } }}
+                  secondaryTypographyProps={{ sx: { whiteSpace: "pre-line" } }} // Ensures proper line breaks
                 />
               </ListItem>
             </List>

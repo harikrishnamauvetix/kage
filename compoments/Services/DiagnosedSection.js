@@ -17,7 +17,7 @@ function DiagnosedSection({ diagnosed }) {
     <Grid item xs={12} md={12}>
       {/* Diagnosed Heading */}
       <Typography
-        variant="h5"
+        variant="h6"
         sx={{ margin: "10px 0", color: "secondary.main" }}
       >
         {diagnosed.heading}
@@ -34,7 +34,7 @@ function DiagnosedSection({ diagnosed }) {
       {diagnosed.procedures?.heading && (
         <>
           <Typography
-            variant="h5"
+            variant="h6"
             sx={{ margin: "10px 0", color: "secondary.main" }}
           >
             {diagnosed.procedures.heading}
@@ -42,9 +42,9 @@ function DiagnosedSection({ diagnosed }) {
           <Grid container spacing={2}>
             {diagnosed.procedures.steps?.map((step, index) => (
               <Grid size={{ xs: 12, sm: 12, md: 6 }} key={index}>
-                <List>
-                  <ListItem>
-                    <ListItemIcon>
+                <List disablePadding>
+                  <ListItem disablePadding>
+                    <ListItemIcon sx={{minWidth:"50px"}}>
                       {step?.icon ? (
                         <img
                           src={step.icon}
@@ -57,12 +57,13 @@ function DiagnosedSection({ diagnosed }) {
                           }}
                         />
                       ) : (
-                        <MedicalServicesIcon fontSize="large" color="primary" />
+                        <MedicalServicesIcon fontSize="small" color="primary" />
                       )}
                     </ListItemIcon>
                     <ListItemText
                       primary={step.title}
                       secondary={step.description}
+                      primaryTypographyProps={{ sx: { color: "primary.main" } }}
                     />
                   </ListItem>
                 </List>

@@ -23,13 +23,13 @@ function ServicesInfo({ servicesinfo }) {
             >
               {service.heading}
             </Typography>
-            <List disablePadding>
+            <List disablePadding >
               {service.list.map((item, idx) => (
-                <ListItem key={idx} disablePadding>
+                <ListItem key={idx} >
                      <ListItemIcon sx={{ padding: "0px", minWidth: "30px" }}>
                         <ArrowForwardIosIcon color="primary" />
                       </ListItemIcon>
-                  <ListItemText disablePadding primary={item} />
+                  <ListItemText  primary={item} />
                 </ListItem>
               ))}
             </List>

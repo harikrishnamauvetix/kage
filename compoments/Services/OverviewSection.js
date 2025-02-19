@@ -8,7 +8,7 @@ function OverviewSection({ overview }) {
       {overview.heading && overview.content?.length > 0 && (
         <Grid item xs={12}>
           <Typography
-            variant="h5"
+            variant="h6"
             sx={{ margin: "10px 0", color: "secondary.main" }}
           >
             {overview.heading}

@@ -16,7 +16,7 @@ const Treatment = ({ treatment }) => {
         <Grid container>
           {treatment.list.map((item, index) => (
             <Grid ize={{ xs: 12, sm: 12, md: 6 }} key={index} className="p0">
-              <List className="p0">
+              <List disablePadding className="p0">
                 <ListItem className="p0">
                   <ListItemIcon
                     sx={{ marginRight: "10px", minWidth: "30px" }}
@@ -37,7 +37,7 @@ const Treatment = ({ treatment }) => {
                   )}
           
                   </ListItemIcon>
-                  <ListItemText className="p0" primary={item.heading} secondary={item.description} />
+                  <ListItemText className="p0" primary={item.heading} secondary={item.description}   primaryTypographyProps={{ sx: { color: "primary.main" } }}/>
                 </ListItem>
               </List>
             </Grid>

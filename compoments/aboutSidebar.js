@@ -7,16 +7,14 @@ const AboutsidebarMenu = ({ service }) => {
   const router = useRouter();
   const { slug: currentSlug } = router.query;
 
-  console.log(router.route, "currentslug");
+  // console.log(router.route, "currentslug");
   // Define main page and subpage links
-  console.log(service, "pagename");
+  // console.log(service, "pagename");
   const pageLink = `/about/`;
   const isMainPageActive = router.route && !currentSlug;
-  console.log(pageLink, "pagelink");
+  // console.log(pageLink, "pagelink");
   return (
-    <List className="sideSubmenu">
-
-
+    <List disablePadding className="sideSubmenu">
       <ListItem
         button
         key={service?.page}
@@ -35,13 +33,13 @@ const AboutsidebarMenu = ({ service }) => {
               <Typography
                 variant="body1"
                 color={isMainPageActive ? "white" : "textSecondary"}
-                sx={{ fontSize: 14 ,display:"flex",alignItems:"center"}}
+                sx={{ fontSize: 14, display: "flex", alignItems: "center" }}
               >
                 <ArrowForwardIosIcon
                   sx={{
-                    fontSize: 14, 
+                    fontSize: 14,
                     color: isMainPageActive ? "white" : "text.secondary",
-                       marginRight:"5px"
+                    marginRight: "5px",
                   }}
                 />
                 {service?.page || service?.page}
@@ -51,7 +49,7 @@ const AboutsidebarMenu = ({ service }) => {
         </Link>
       </ListItem>
 
-      {service?.subpages?.map((subpage,index) => {
+      {service?.subpages?.map((subpage, index) => {
         const subpageLink = `/about/${subpage.page.replace(/ /g, "-")}`;
         const isSubpageActive = currentSlug === subpage.page.replace(/ /g, "-");
 
@@ -74,13 +72,13 @@ const AboutsidebarMenu = ({ service }) => {
                   <Typography
                     variant="body1"
                     color={isSubpageActive ? "#fff" : "textSecondary"}
-                    sx={{ fontSize: 14 ,display:"flex",alignItems:"center"}}
+                    sx={{ fontSize: 14, display: "flex", alignItems: "center" }}
                   >
                     <ArrowForwardIosIcon
                       sx={{
                         fontSize: 14, // Match the icon size with text
                         color: isSubpageActive ? "#fff" : "text.secondary",
-                        marginRight:"5px"
+                        marginRight: "5px",
                       }}
                     />
                     {subpage.title || "No Subpage Title"}

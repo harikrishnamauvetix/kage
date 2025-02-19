@@ -86,11 +86,11 @@ const CourseDetail = () => {
                       {section.title}
                     </Typography>
                     {section.listItems ? (
-                      <List disablePadding>
+                      <List disablePadding >
                         {section.listItems.map((item, index) => (
-                          <ListItem key={index} disablePadding>
+                          <ListItem key={index} >
                             <ListItemText
-                              disablePadding
+                              
                               primary={
                                 <>
                                   <Typography
@@ -110,9 +110,9 @@ const CourseDetail = () => {
                         ))}
                       </List>
                     ) : section.topics ? (
-                      <List disablePadding>
+                      <List disablePadding >
                         {section.topics.map((topic, index) => (
-                          <ListItem key={index} disablePadding>
+                          <ListItem key={index} >
                             <ListItemIcon
                               sx={{ minWidth: "10px", marginRight: "5px" }}
                             >
@@ -141,7 +141,7 @@ const CourseDetail = () => {
                       <Grid container>
                         {section.faculty.map((topic, index) => (
                           <Grid size={{ xs: 12, sm: 12, md: 6 }} key={index}>
-                            <ListItem disablePadding>
+                            <ListItem >
                               <ListItemIcon
                                 sx={{ minWidth: "10px", marginRight: "5px" }}
                               >
@@ -163,7 +163,7 @@ const CourseDetail = () => {
                                 )}
                               </ListItemIcon>
                               <ListItemText
-                                disablePadding
+                                
                                 primary={topic.name}
                                 secondary={topic.designation}
                               />
@@ -173,8 +173,8 @@ const CourseDetail = () => {
                       </Grid>
                     ) : section?.Trainingcontent ? (
                       section?.Trainingcontent?.map((item, idx) => (
-                        <List key={idx} disablePadding>
-                          <ListItem disablePadding>
+                        <List disablePadding key={idx} >
+                          <ListItem >
                             <ListItemIcon sx={{ minWidth: "10px", marginRight: "5px" }}>
                               <ArrowForwardIosIcon sx={{ color: "secondary.main" }} />
                             </ListItemIcon>
@@ -182,9 +182,9 @@ const CourseDetail = () => {
                           </ListItem>
                           
                           {/* Nested List */}
-                          <List disablePadding sx={{ paddingLeft: 4 }}>
+                          <List disablePadding  sx={{ paddingLeft: 4 }}>
                             {item.details.map((detail, i) => (
-                              <ListItem key={i} disablePadding>
+                              <ListItem key={i} >
                                 <ListItemIcon sx={{ minWidth: "10px", marginRight: "5px" }}>
                                   <ArrowForwardIosIcon sx={{ color: "secondary.main" }} />
                                 </ListItemIcon>

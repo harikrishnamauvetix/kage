@@ -36,7 +36,7 @@ const AboutSection = ({ homeabout }) => {
             position: "relative",
           }}
         >
-          About Us
+         KAGE - KIMS Advanced Gastroenterlogy & Endoscopy
         </Typography>
         {homeabout?.home_intro.map((item, index) => (
           <Typography key={index} sx={{ color: "#000", margin: "16px 0" ,textAlign:"justify"}}>

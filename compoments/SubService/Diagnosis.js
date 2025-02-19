@@ -7,7 +7,7 @@ const Diagnosis = ({ diagnosis, introduction }) => {
     diagnosis && (
       <Grid container>
         <Grid item xs={12} md={12}>
-          <Typography variant="h5" sx={{ margin: "10px 0", color: "secondary.main" }}>
+          <Typography variant="h6" sx={{ margin: "10px 0", color: "secondary.main" }}>
             {diagnosis.heading}
           </Typography>
           <Typography variant="body1" sx={{textAlign:"justify"}}>{introduction?.description}</Typography>

@@ -44,7 +44,7 @@ const Aboutpage = () => {
   //console.log(websiteJson.about.subpages);
   //   const about="ddd";
   // Fetch doctor details by matching the name from the JSON data
-  console.log("Slug:", slug);
+  //console.log("Slug:", slug);
   const about = websiteJson?.about?.subpages?.find((service) => {
     const sanitizedTitle = service.title
       .replace(/\s+/g, "-")
@@ -80,7 +80,7 @@ const Aboutpage = () => {
         pagename={about.title}
       ></Breadcrumbsinfo>
 
-      <Container>
+      <Container maxWidth="xl">
         <Box
           sx={{
             width: "100%",
@@ -91,8 +91,7 @@ const Aboutpage = () => {
         >
           <Box
             sx={{
-              width: "80%", // Adjust width for content responsiveness
-              maxWidth: "1200px", // Limit maximum width for large screens
+            
               display: "flex",
               justifyContent: "center",
             }}
@@ -104,7 +103,7 @@ const Aboutpage = () => {
                   service={websiteJson?.about}
                 ></AboutsidebarMenu>
               </Grid>
-              <Grid size={{ xs: 12, sm: 9, md: 9 }} sx={{ margin: "20px 0" }}>
+              <Grid size={{ xs: 12, sm: 9, md: 8 }} sx={{ margin: "20px 0" }}>
                 <Stack sx={{ margin: "10px 0" }}>
                   {section?.introduction && (
                     <IntroductionSection section={section?.introduction} />
