@@ -12,7 +12,7 @@ function WhyChooseSection({ whyChoose }) {
       <Grid size={{ xs: 12, sm: 12, md: 12 }}>
         {/* Heading */}
         <Typography
-          variant="h5"
+          variant="h6"
           sx={{ margin: "10px 0", color: "secondary.main" }}
         >
           {whyChoose.heading}

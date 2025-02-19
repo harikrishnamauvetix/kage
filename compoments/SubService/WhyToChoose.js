@@ -9,7 +9,7 @@ const WhyToChoose = ({ whytochoose }) => {
           <Grid container spacing={2} sx={{ margin: "30px 0" }}>
             <Grid size={{ xs: 12, sm: 12, md: 12 }} className="p0">
               <Typography
-                variant="h5"
+                variant="h6"
                 sx={{ margin: "10px 0", color: "secondary.main" }}
               >
                 {whytochoose.heading}
