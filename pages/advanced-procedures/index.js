@@ -40,7 +40,7 @@ export default function specialityList() {
       <Breadcrumbsinfo pagename={"Advanced Procedures"} />
 
       <ProceduresList advancedprocedures={websiteJson.advancedprocedures}></ProceduresList>
-      <PatientVideos  patientvideos={websiteJson?.Patientvideos}/>
+      {/* <PatientVideos  patientvideos={websiteJson?.Patientvideos}/> */}
       <Footer></Footer>
     </>
   );

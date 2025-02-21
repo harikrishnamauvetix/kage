@@ -25,7 +25,7 @@ function Faq({ faq }) {
   const handleFaqToggle = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
-console.log(faq,"dddd")
+// console.log(faq,"dddd")
   return (
     <Stack sx={{margin:"20px 0"}}>
       {faq?.heading && (

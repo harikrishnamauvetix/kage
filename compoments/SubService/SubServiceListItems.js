@@ -11,7 +11,7 @@ const SubServiceListItems = ({ servicelist }) => (
           <CheckCircleIcon />
           </ListItemIcon>
           <Box>
-            <Typography variant="subtitle1">{item.heading}</Typography>
+            <Typography variant="subtitle1" sx={{color: "primary.main",}}>{item.heading}</Typography>
             <Typography variant="body2">{item.description}</Typography>
           </Box>
         </ListItem>

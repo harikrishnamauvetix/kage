@@ -21,6 +21,9 @@ import {
   ListItemIcon,
   CardActionArea,
   Breadcrumbs,
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
   Stack,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
@@ -33,18 +36,19 @@ import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import Treatment from "@/compoments/SubService/Treatment";
 import WhyToChoose from "@/compoments/SubService/WhyToChoose";
 import SubServiceListItems from "@/compoments/SubService/SubServiceListItems";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import Faq from "@/compoments/Services/Faq";
 
 export default function SubServicePage() {
   const router = useRouter();
   const { slug, subpage } = router.query;
-  console.log(slug, subpage);
+  // console.log(slug, subpage);
   const [service, setService] = useState(null);
   const [subService, setSubService] = useState(null);
   const [loading, setLoading] = useState(true);
   const [subServicelist, setSubServiceList] = useState(null);
-
+  const [expanded, setExpanded] = useState(false);
   useEffect(() => {
     if (!slug || !subpage) {
       console.log("Slug or subpage is missing");
@@ -85,7 +89,9 @@ export default function SubServicePage() {
 
     setLoading(false);
   }, [slug, subpage]);
-
+  const handleFaqToggle = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
+  };
   if (loading) {
     return (
       <Container>
@@ -193,11 +199,9 @@ export default function SubServicePage() {
                       )}
                       <Symptoms symptoms={serviceInfo?.Symptoms} />
                       <CausesAndRisk
-                    
                         causesAndRisk={serviceInfo?.Causes_and_Risk}
                       />
                       <Complications
-                    
                         complications={serviceInfo?.Complications}
                       />
                     </div>
@@ -205,17 +209,12 @@ export default function SubServicePage() {
                 }
                 return null;
               })}
-              <Symptoms
-                symptoms={subService?.sections?.Symptoms}
-            
-              />
+              <Symptoms symptoms={subService?.sections?.Symptoms} />
               <CausesAndRisk
                 causesAndRisk={subService?.sections?.Causes_and_Risk}
-            
               />
               <Complications
                 complications={subService?.sections?.Complications}
-            
               />
 
               {subService?.sections?.conditions && (
@@ -259,23 +258,93 @@ export default function SubServicePage() {
               <Diagnosis
                 diagnosis={subService?.sections?.Diagnosis}
                 introduction={subService?.sections?.introduction}
-            
               />
-              <Treatment
-                treatment={subService?.sections?.Treatment}
-            
-              />
+              <Treatment treatment={subService?.sections?.Treatment} />
+              {subService?.sections?.Living_with_Pancreatic_Cancer && (
+                <Stack sx={{ margin: "10px 0" }}>
+                  <Typography variant="h6" sx={{ color: "secondary.main" }}>
+                    {
+                      subService?.sections?.Living_with_Pancreatic_Cancer
+                        ?.heading
+                    }
+                  </Typography>
+                  <List>
+                    {subService?.sections?.Living_with_Pancreatic_Cancer && (
+                      <SubServiceListItems
+                        servicelist={
+                          subService?.sections?.Living_with_Pancreatic_Cancer
+                            ?.list
+                        }
+                      />
+                    )}
+                  </List>
+                </Stack>
+              )}
+              {subService?.sections?.faq && (
+                <Grid container spacing={2}>
+                   <Typography variant="h6" sx={{ color: "secondary.main" }}>
+                    {
+                      subService?.sections?.faq
+                        ?.heading
+                    }
+                  </Typography>
+                  {subService?.sections?.faq?.questions.map((faq, faqIdx) => (
+                    <Grid size={{ xs: 12, sm: 12, md: 12 }} key={faqIdx}>
+                      <Accordion
+                        expanded={expanded === faqIdx}
+                        onChange={handleFaqToggle(faqIdx)}
+                      >
+                        <AccordionSummary
+                          expandIcon={<ExpandMoreIcon />}
+                          aria-controls={`panel-${faqIdx}-content`}
+                          id={`panel-${faqIdx}-header`}
+                        >
+                          <ListItemText primary={faq.question} />
+                        </AccordionSummary>
+                        <AccordionDetails>
+                          <ListItemText secondary={faq.answer} />
+                        </AccordionDetails>
+                      </Accordion>
+                    </Grid>
+                  ))}
+                </Grid>
+              )}
             </Grid>
             <Grid size={{ xs: 12, sm: 6, md: 1 }}></Grid>
           </Grid>
         </Box>
         <Stack>
           <Grid container>
-            <Grid size={{ xs: 12, sm: 6, md: 10 }}></Grid>
+            <Grid size={{ xs: 12, sm: 6, md: 1 }}></Grid>
+            <Grid size={{ xs: 12, sm: 6, md: 10 }}>
+              <WhyToChoose whytochoose={subService?.sections?.Why_to_choose} />
+
+              {subService?.sections?.Improving_Lives && (
+                <Stack sx={{ margin: "30px 0" }}>
+                  <Typography variant="h6" sx={{ color: "secondary.main" }}>
+                    {subService?.sections?.Improving_Lives?.heading}
+                  </Typography>
+                  <Typography variant="body2" sx={{ marginBottom: "10px" }}>
+                    {subService?.sections?.Improving_Lives?.description}
+                  </Typography>
+                </Stack>
+              )}
+
+              {subService?.sections?.take_charge && (
+                <Stack sx={{ margin: "30px 0" }}>
+                  <Typography variant="h6" sx={{ color: "secondary.main" }}>
+                    {subService?.sections?.take_charge?.heading}
+                  </Typography>
+                  <Typography variant="body2" sx={{ marginBottom: "10px" }}>
+                    {subService?.sections?.take_charge?.description}
+                  </Typography>
+                </Stack>
+              )}
+            </Grid>
+            <Grid size={{ xs: 12, sm: 6, md: 1 }}></Grid>
           </Grid>
         </Stack>
 
-        <WhyToChoose whytochoose={subService?.sections?.Why_to_choose} />
         {/* <PatientVideos patientvideos={websiteJson?.Patientvideos} /> */}
       </Container>
 

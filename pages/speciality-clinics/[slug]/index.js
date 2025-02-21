@@ -159,8 +159,8 @@ export default function ServicePage() {
               </>
             ) : (
               <>
-               <Grid size={{ xs: 12, sm: 6, md: 2 }}></Grid>
-                <Grid size={{ xs: 12, sm: 6, md: 8 }}>
+               <Grid size={{ xs: 12, sm: 2, md: 2 }}></Grid>
+                <Grid size={{ xs: 12, sm: 8, md: 8 }}>
                   <Box
                     sx={{
                       display: "flex",
@@ -173,7 +173,7 @@ export default function ServicePage() {
                     <Stack>{serviceContent()}</Stack>
                   </Box>
                 </Grid>
-                <Grid size={{ xs: 12, sm: 6, md: 2 }}></Grid>
+                <Grid size={{ xs: 12, sm: 2, md: 2 }}></Grid>
               </>
             )}
           </Grid>

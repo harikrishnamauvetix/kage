@@ -38,7 +38,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
-import { Padding } from "@mui/icons-material";
+import { CheckCircle, Padding } from "@mui/icons-material";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 const Advancedprocedures = () => {
   const router = useRouter();
@@ -88,53 +88,34 @@ const Advancedprocedures = () => {
         service={"Advanced Procedures"}
         pagename={advancedprocedures.title}
       />
-      <Box
-        sx={{
-          width: "100%",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <Box
-          sx={{
-            width: "60%",
-            maxWidth: "1200px",
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <Box>
-            <Container>
-              <Grid
-                container
-                spacing={2}
+      <Box>
+        <Container maxWidth="xl">
+          <Grid container>
+            <Grid size={{ xs: 12, sm: 8, md: 2 }}></Grid>
+            <Grid size={{ xs: 12, sm: 8, md: 8 }}>
+              <Stack
                 sx={{
                   width: "100%",
                   position: "relative",
                   margin: "40px 0 10px 0",
                 }}
               >
-                <Grid size={{ xs: 12, md: 12 }}>
-                  <Typography
-                    variant="h5"
-                    sx={{
-                      color: "secondary.main",
-                    }}
-                  >
-                    {advancedprocedures.title}
-                  </Typography>
+                <Typography
+                  variant="h5"
+                  sx={{
+                    color: "secondary.main",
+                  }}
+                >
+                  {advancedprocedures.title}
+                </Typography>
 
-                  <Box mt={2}>
-                    <Typography>{advancedprocedures.description}</Typography>
-                    <Typography variant="h5" gutterBottom>
-                      {advancedprocedures.subtitle}
-                    </Typography>
-                  </Box>
-                </Grid>
-              </Grid>
-            </Container>
-            <Container>
+                <Box mt={2}>
+                  <Typography>{advancedprocedures.description}</Typography>
+                  <Typography variant="h5" gutterBottom>
+                    {advancedprocedures.subtitle}
+                  </Typography>
+                </Box>
+              </Stack>
               {advancedprocedures.sections.map((section, idx) => (
                 <Box key={idx} sx={{ mb: 4 }}>
                   <Typography
@@ -162,16 +143,15 @@ const Advancedprocedures = () => {
                     </Typography>
                   )}
                   {section.symptoms &&
-                    renderList(section.symptoms, ArrowForwardIosIcon)}
+                    renderList(section.symptoms, CheckCircle)}
                   {section.steps && (
-                    <List disablePadding >
+                    <List disablePadding>
                       {section.steps.map((step, stepIdx) => (
-                        <ListItem key={stepIdx} >
-                          <ListItemIcon  sx={{minWidth:"30px"}}>
-                            <ArrowForwardIosIcon />
+                        <ListItem key={stepIdx} disablePadding>
+                          <ListItemIcon sx={{ minWidth: "30px" }}>
+                            <CheckCircle sx={{ color: "primary.main" }} />
                           </ListItemIcon>
                           <ListItemText
-                            
                             primary={step.title}
                             secondary={step.description}
                           />
@@ -181,7 +161,7 @@ const Advancedprocedures = () => {
                   )}
 
                   {section.benefits &&
-                    renderList(section.benefits, ArrowForwardIosIcon)}
+                    renderList(section.benefits, CheckCircle)}
 
                   {section.recovery && (
                     <Grid container spacing={2}>
@@ -241,21 +221,21 @@ const Advancedprocedures = () => {
                   )}
                 </Box>
               ))}
+              <Typography variant="body1" gutterBottom>
+                {
+                  advancedprocedures.sections[
+                    advancedprocedures.sections.length - 1
+                  ].call_to_action
+                }
+              </Typography>
+            </Grid>
 
-              <Box sx={{ mt: 4 }}>
-                <Typography variant="body1" gutterBottom>
-                  {
-                    advancedprocedures.sections[
-                      advancedprocedures.sections.length - 1
-                    ].call_to_action
-                  }
-                </Typography>
-              </Box>
-            </Container>
-          </Box>
-        </Box>
+            <Grid size={{ xs: 12, sm: 8, md: 2 }}></Grid>
+          </Grid>
+        </Container>
       </Box>
-      <PatientVideos patientvideos={websiteJson?.Patientvideos} />
+
+      {/* <PatientVideos patientvideos={websiteJson?.Patientvideos} /> */}
 
       <Footer></Footer>
     </>

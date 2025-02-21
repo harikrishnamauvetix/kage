@@ -4299,7 +4299,7 @@
                 }
               ]
             },
-            "Contact_Us": {
+            "take_charge": {
               "heading": "Your Health Is Our Priority",
               "description": "With a commitment to excellence, the KIMS Advanced Gastroenterology & Endoscopy - KAGE Pancreas Clinic in Hyderabad is here to help you navigate pancreatic cancer with confidence and hope. Contact Us Today: If you or a loved one is experiencing symptoms of pancreatic cancer, reach out to our team at KIMS Advanced Gastroenterology & Endoscopy - KAGE Hospitals. Early diagnosis and prompt treatment can make all the difference."
             }
@@ -4503,7 +4503,7 @@
               "heading": "Improving Lives Through Expert Care",
               "description": "With the right diagnosis and treatment, PEI symptoms can be effectively managed, allowing patients to lead healthier and more fulfilling lives. At KIMS Advanced Gastroenterology & Endoscopy - KAGE Pancreas Clinic, we’re committed to supporting you every step of the way."
             },
-            "Contact_Us": {
+            "take_charge": {
               "heading": "Contact Us Today",
               "description": "If you or a loved one is experiencing symptoms of PEI, reach out to the KIMS Advanced Gastroenterology & Endoscopy - KAGE Pancreas Clinic in Hyderabad for expert guidance and care."
             }
@@ -4674,11 +4674,11 @@
                 }
               ]
             },
-            "Patient_Care": {
+            "Improving_Lives": {
               "heading": "Patient-Centric Care for Autoimmune Pancreatitis",
               "description": "Living with AIP can be challenging, but with the right care, symptoms can be managed effectively, and complications can be minimized. At KIMS Advanced Gastroenterology & Endoscopy - KAGE Pancreas Clinic, our goal is to restore your health and confidence through compassionate, expert care."
             },
-            "Contact_Us": {
+            "take_charge": {
               "heading": "Contact Us Today",
               "description": "If you or a loved one is experiencing symptoms of AIP, reach out to the KIMS Advanced Gastroenterology & Endoscopy - KAGE Pancreas Clinic in Hyderabad for expert diagnosis and treatment."
             }
@@ -4994,11 +4994,11 @@
                 }
               ]
             },
-            "Step_Into_Healthier_Tomorrow": {
+            "Improving_Lives": {
               "heading": "Step Into a Healthier Tomorrow",
               "description": "Bariatric surgery is the first step toward reclaiming your health and achieving lasting wellness. At KIMS Advanced Gastroenterology & Endoscopy - KAGE Obesity Clinic, we are committed to walking this journey with you."
             },
-            "Contact_Us": {
+            "take_charge": {
               "heading": "Schedule Your Consultation Today",
               "description": "Take the leap toward a healthier life. Contact the KIMS Advanced Gastroenterology & Endoscopy - KAGE Obesity Clinic in Hyderabad to explore if bariatric surgery is right for you."
             },
@@ -5158,7 +5158,7 @@
               "heading": "Schedule Your Appointment",
               "description": "Reach out to the KIMS Advanced Gastroenterology & Endoscopy - KAGE Obesity Clinic in Hyderabad today and explore how endoscopic bariatric procedures can transform your life."
             },
-            "FAQs": {
+            "faq": {
               "heading": "FAQs for Endoscopic Bariatric Procedures",
               "questions": [
                 {
@@ -5916,6 +5916,32 @@
               }
             ]
           },
+          "faqs":{
+            "heading": "FAQs About GI Motility Disorders",
+            "faq": [
+              {
+                "question": "What is the difference between motility disorders and functional GI disorders?",
+                "answer": "Motility disorders are caused by abnormal muscle or nerve function in the GI tract, while functional GI disorders, like IBS, are often diagnosed when tests reveal no structural or motility abnormalities, though symptoms persist."
+              },
+              {
+                "question": "Can lifestyle changes alone manage motility disorders?",
+                "answer": "While diet and lifestyle changes can significantly help manage symptoms, some conditions may require medication, endoscopic procedures, or surgery for effective treatment."
+              },
+              {
+                "question": "Are motility disorders curable?",
+                "answer": "While some motility disorders can be managed successfully with treatment, others may require long-term management to control symptoms and prevent complications."
+              },
+              {
+                "question": "How do I know if I need advanced motility testing?",
+                "answer": "If you experience persistent symptoms like difficulty swallowing, unexplained abdominal pain, or chronic constipation/diarrhea, advanced testing can help diagnose the underlying issue."
+              },
+              {
+                "question": "Why should I choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for motility disorder treatment?",
+                "answer": "KIMS Advanced Gastroenterology & Endoscopy - KAGE combines cutting-edge diagnostics, minimally invasive treatments, and a multidisciplinary approach to provide world-class care tailored to your needs."
+              }
+            ]
+          },
+          
           "take_charge": {
             "heading": "Take the First Step Toward Better Digestive Health!",
             "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, our team of specialists is here to guide you through every step of diagnosing and managing GI motility disorders. Book a consultation today to get started on your journey to improved digestive health."
@@ -6544,9 +6570,9 @@
               }
             ]
           },
-          "faq": {
+          "faqs": {
             "heading": "FAQs for the Advanced Liver Care and Transplant Clinic",
-            "questions": [
+            "faq": [
               {
                 "question": "Who qualifies for a liver transplant?",
                 "answer": "Patients with end-stage liver disease or liver cancer who meet medical and transplant eligibility criteria."

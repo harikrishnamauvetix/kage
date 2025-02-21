@@ -38,7 +38,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
-import { Padding } from "@mui/icons-material";
+import { CheckCircle, Padding } from "@mui/icons-material";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 const Servicespage = () => {
   const router = useRouter();
@@ -75,53 +75,34 @@ const Servicespage = () => {
         service={"Advanced Equipment"}
         pagename={servicespage.title}
       />
-      <Box
-        sx={{
-          width: "100%",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <Box
-          sx={{
-            width: "60%",
-            maxWidth: "1200px",
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <Box>
-            <Container>
-              <Grid
-                container
-                spacing={2}
+      <Box>
+        <Container maxWidth="xl">
+          <Grid container>
+            <Grid size={{ xs: 12, sm: 8, md: 2 }}></Grid>
+            <Grid size={{ xs: 12, sm: 8, md: 8 }}>
+              <Stack
                 sx={{
                   width: "100%",
                   position: "relative",
                   margin: "40px 0 10px 0",
                 }}
               >
-                <Grid size={{ xs: 12, md: 12 }}>
-                  <Typography
-                    variant="h5"
-                    sx={{
-                      color: "secondary.main",
-                    }}
-                  >
-                    {servicespage.title}
-                  </Typography>
+                <Typography
+                  variant="h5"
+                  sx={{
+                    color: "secondary.main",
+                  }}
+                >
+                  {servicespage.title}
+                </Typography>
 
-                  <Box mt={2}>
-                    <Typography>{servicespage.description}</Typography>
-                    <Typography variant="h5" gutterBottom>
-                      {servicespage.subtitle}
-                    </Typography>
-                  </Box>
-                </Grid>
-              </Grid>
-            </Container>
-            <Container>
+                <Box mt={2}>
+                  <Typography>{servicespage.description}</Typography>
+                  <Typography variant="h5" gutterBottom>
+                    {servicespage.subtitle}
+                  </Typography>
+                </Box>
+              </Stack>
               {servicespage?.content?.map((service, index) => (
                 <Box key={index} sx={{ marginBottom: 3 }}>
                   <Box>
@@ -139,17 +120,21 @@ const Servicespage = () => {
                       servicespage.content.map((contentItem, cIndex) => (
                         <div key={cIndex}>
                           <Typography
-                              variant="h5"
+                            variant="h5"
                             gutterBottom
                             sx={{
                               color: "secondary.main",
                               margin: "10px 0",
-                              textAlign:"justify"
+                              textAlign: "justify",
                             }}
                           >
                             {contentItem.heading}
                           </Typography>
-                          <Typography variant="body1" gutterBottom sx={{textAlign:"justify"}}>
+                          <Typography
+                            variant="body1"
+                            gutterBottom
+                            sx={{ textAlign: "justify" }}
+                          >
                             {contentItem.description}
                           </Typography>
                           {/* {console.log( contentItem.subTopics)} */}
@@ -166,12 +151,20 @@ const Servicespage = () => {
                                 >
                                   {subTopic.title}
                                 </Typography>
-                                <Typography variant="body1" gutterBottom sx={{textAlign:"justify"}}>
+                                <Typography
+                                  variant="body1"
+                                  gutterBottom
+                                  sx={{ textAlign: "justify" }}
+                                >
                                   {subTopic.description}
                                 </Typography>
-                                <List>
+                                <List disablePadding>
                                   {subTopic?.listItems?.map((item, lIndex) => (
-                                    <ListItem disableGutters key={lIndex} sx={{textAlign:"justify"}}>
+                                    <ListItem
+                                    disablePadding
+                                      key={lIndex}
+                                      sx={{ textAlign: "justify" }}
+                                    >
                                       <ListItemIcon
                                         sx={{
                                           minWidth: "30px",
@@ -190,7 +183,7 @@ const Servicespage = () => {
                                             }}
                                           />
                                         ) : (
-                                          <ArrowForwardIosIcon />
+                                          <CheckCircle  sx={{color:"primary.main"}}/>
                                         )}
                                       </ListItemIcon>
 
@@ -212,11 +205,12 @@ const Servicespage = () => {
                   </Box>
                 </Box>
               ))}
-            </Container>
-          </Box>
-        </Box>
+            </Grid>
+            <Grid size={{ xs: 12, sm: 8, md: 2 }}></Grid>
+          </Grid>
+        </Container>
       </Box>
-      <PatientVideos patientvideos={websiteJson?.Patientvideos} />
+      {/* <PatientVideos patientvideos={websiteJson?.Patientvideos} /> */}
 
       <Footer></Footer>
     </>
