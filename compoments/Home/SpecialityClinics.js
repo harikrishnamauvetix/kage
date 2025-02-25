@@ -53,14 +53,7 @@ const SpecialityClinics = (props) => {
                       }}
                     >
                       <CardContent sx={{ padding: "0px !important" }}>
-                        <Box
-                          sx={{
-                            border: "1px solid #eee",
-                            borderRadius: "8px",
-                            padding: "2px",
-                            display: "inline-block",
-                          }}
-                        >
+                
                           <Image
                             src={service.icon}
                             alt="Doctor Profile"
@@ -68,7 +61,7 @@ const SpecialityClinics = (props) => {
                             height={60}
                             quality={100}
                           />
-                        </Box>
+                       
 
                         <Link
                           href={`/speciality-clinics/${service.title
@@ -82,6 +75,7 @@ const SpecialityClinics = (props) => {
                               fontWeight: "bold",
                               marginBottom: "10px",
                               color: "primary.main",
+                           height: "55px"
                             }}
                           >
                             {service.title}
