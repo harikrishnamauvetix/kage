@@ -68,8 +68,8 @@ const FellowShipProgram = (props) => {
                       }}
                     >
                       <Image
-                        src={item.icon}
-                        alt="Doctor Profile"
+                        src={item?.icon}
+                        alt="Fellow Ship Program"
                         width={60}
                         height={60}
                       />

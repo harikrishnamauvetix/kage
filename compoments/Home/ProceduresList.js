@@ -64,7 +64,7 @@ const ProceduresList = (props) => {
                     >
                       <Image
                         src={item.icon}
-                        alt="Doctor Profile"
+                        alt="Advanced Procedures"
                         width={60}
                         height={60}
                       />

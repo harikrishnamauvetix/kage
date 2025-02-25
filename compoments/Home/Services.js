@@ -56,19 +56,7 @@ const Services = (props) => {
                   })}
                 >
                   <Box sx={{ color: "primary.main" }}>
-                    <Icon
-                      sx={{
-                        fontSize: "60px",
-                        color: "#1976d2",
-                      }}
-                    >
-                      <Image
-                        src={item.icon}
-                        alt="Doctor Profile"
-                        width={60}
-                        height={60}
-                      />
-                    </Icon>
+                   
                   </Box>
                   <Box sx={{ px: 1 }}>
                     <Link
