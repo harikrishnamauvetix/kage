@@ -3006,7 +3006,7 @@
       "id": 1,
       "title": "IBD Clinic",
       "description": "Clinic for Inflammatory Bowel Disease",
-      "icon": "/Images/Icons/IBD-Clinic.png",
+      "icon": "/Images/Icons/latest-icons/IBD-Clinic.png",
       "page": "IBD Clinic",
       "content": {
         "title": "IBD Clinic",
@@ -3415,7 +3415,7 @@
       "id": 2,
       "title": "Pancreas Clinic",
       "description": "Clinic for Pancreatic disorders In Hyderabad / Secunderabad",
-      "icon": "/Images/Icons/Pancreas-Clinic.png",
+      "icon": "/Images/Icons/latest-icons/Pancreas-Clinic.png",
       "page": "Pancreas Clinic",
       "content": {
         "heading": "Pancreas Clinic at KIMS Advanced Gastroenterology & Endoscopy - KAGE ",
@@ -4690,7 +4690,7 @@
       "id": 3,
       "title": "Obesity Clinic",
       "description": "Clinic for Obesity and related health issues ",
-      "icon": "/Images/Icons/Obesity-Clinic.png",
+      "icon": "/Images/Icons/latest-icons/Obesity-Clinic.png",
       "page": "Obesity Clinic",
       "content": {
         "heading": "KIMS Advanced Gastroenterology & Endoscopy - KAGE Hospitals | Hyderabad",
@@ -5211,7 +5211,7 @@
       "id": 4,
       "title": "Corrosive Injury Clinic",
       "description": "Clinic for treatment of corrosive injuries",
-      "icon": "/Images/Icons/Corrosive-Injury-Clinic.png",
+      "icon": "/Images/Icons/latest-icons/Corrosive-Injury-Clinic.png",
       "page": "Corrosive Injury Clinic",
       "content": {
         "heading": "Corrosive Injury Clinic",
@@ -5412,7 +5412,7 @@
       "id": 5,
       "title": "Advanced Endoscopy Clinic",
       "description": "Clinic for Advanced Endoscopy and related diagnostic and therapeutic services.",
-      "icon": "/Images/Icons/Advacned-Endoscopy-Clinic.png",
+      "icon": "/Images/Icons/latest-icons/advacned-endoscopy-clinic.png",
       "page": "Advanced Endoscopy Clinic",
       "content": {
         "heading": "Advanced Endoscopy Clinic",
@@ -5740,7 +5740,7 @@
       "id": 6,
       "title": "Advanced Motility Clinic",
       "description": "Diagnosing and Treating Digestive Motion Disorders",
-      "icon": "/Images/Icons/Advanced-Motility-Clinic.png",
+      "icon": "/Images/Icons/latest-icons/advanced-motility-clinic.png",
       "page": "Advanced Motility Clinic",
       "content": {
         "heading": "Advanced Motility Clinic",
@@ -6453,7 +6453,7 @@
       "id": 7,
       "title": "Advanced Liver Care and Transplant Clinic",
       "description": "Comprehensive Hepatology and Transplant Services",
-      "icon": "/Images/Icons/Advacned-Liver-Care-and-Transplant-Clinic.png",
+      "icon": "/Images/Icons/latest-icons/advacned-liver-care-and-transplant-clinic.png",
       "page": "Advanced Liver Care and Transplant Clinic",
       "content": {
         "heading": "Advanced Liver Care and Transplant Clinic",
