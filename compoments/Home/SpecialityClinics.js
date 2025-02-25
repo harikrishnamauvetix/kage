@@ -53,14 +53,23 @@ const SpecialityClinics = (props) => {
                       }}
                     >
                       <CardContent sx={{ padding: "0px !important" }}>
-                        <Image
-                          src={service.icon}
-                          alt="Doctor Profile"
-                          width={60}
-                          height={60}
-                         
-                          quality={100}
-                        />
+                        <Box
+                          sx={{
+                            border: "1px solid #eee",
+                            borderRadius: "8px",
+                            padding: "2px",
+                            display: "inline-block",
+                          }}
+                        >
+                          <Image
+                            src={service.icon}
+                            alt="Doctor Profile"
+                            width={60}
+                            height={60}
+                            quality={100}
+                          />
+                        </Box>
+
                         <Link
                           href={`/speciality-clinics/${service.title
                             .replace(/\s+/g, "-")
@@ -99,6 +108,7 @@ const SpecialityClinics = (props) => {
                             variant="contained"
                             sx={{
                               backgroundColor: "secondary.main",
+                              marginTop:"15px"
                             }}
                           >
                             Read more
