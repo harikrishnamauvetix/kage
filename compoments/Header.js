@@ -1,23 +1,32 @@
 import React, { useEffect, useState } from "react";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-import Box from "@mui/material/Box";
+
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
-import MenuItem from "@mui/material/MenuItem";
-import Drawer from "@mui/material/Drawer";
-import IconButton from "@mui/material/IconButton";
+
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import Typography from "@mui/material/Typography";
+
 import Link from "next/link";
 import MailIcon from "@mui/icons-material/Mail";
 import PhoneIcon from "@mui/icons-material/Phone";
 import websiteJson from "../public/website.json";
 import BookAppointmentModal from "./BookAppointmentModal";
-import HomeIcon from '@mui/icons-material/Home';
+import HomeIcon from "@mui/icons-material/Home";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import ExpandLessIcon from "@mui/icons-material/ExpandLess";
+import {
+  IconButton,
+  Drawer,
+  Box,
+  MenuItem,
+  Typography,
+  Collapse,
+} from "@mui/material";
+
 const Navbar = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const [subMenuAnchorEl, setSubMenuAnchorEl] = useState(null);
@@ -40,6 +49,12 @@ const Navbar = () => {
     setDrawerOpen(open);
   };
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const [openMenus, setOpenMenus] = useState({});
+
+  const handleToggleSubMenu = (index) => {
+    setOpenMenus((prev) => ({ ...prev, [index]: !prev[index] }));
+  };
 
   const handleOpen = () => setIsModalOpen(true);
   const handleClose = () => setIsModalOpen(false);
@@ -82,10 +97,8 @@ const Navbar = () => {
       href: "/courses",
       subItems: websiteJson?.courseDetails?.map((courses) => ({
         label: courses.title,
-        href: `/courses/${courses.title
-          .replace(/\s+/g, "-")
-          .toLowerCase()}`,
-      })),  
+        href: `/courses/${courses.title.replace(/\s+/g, "-").toLowerCase()}`,
+      })),
     },
     { label: "Patient Testimonials", href: "/testimonials" },
     { label: "Doctor Videos", href: "/doctorvideos" },
@@ -125,34 +138,41 @@ const Navbar = () => {
           {/* Logo Section */}
           <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
             <Link href="/home" passHref>
-              <Box
+            <Box
                 component="img"
                 src={websiteJson.hospitalInfo?.companylogo}
                 alt="Logo"
-               
+                sx={{ width: { xs: 200, sm: 200, md: 300 ,lg:"auto"}, height: "auto" }}
               />
             </Link>
           </Box>
 
           {!isMobile && (
-          <Box sx={{ padding: 2, bgcolor: "background.paper", borderRadius: 1 }}>
-          {/* Contact Info */}
-          <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
-            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-              <MailIcon sx={{ color: "primary.main" }} aria-label="Email Icon" />
-              <Typography variant="body2" sx={{ color: "text.primary" }}>
-              {websiteJson.hospitalInfo?.emailid}
-              </Typography>
+            <Box
+              sx={{ padding: 2, bgcolor: "background.paper", borderRadius: 1 }}
+            >
+              {/* Contact Info */}
+              <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
+                <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                  <MailIcon
+                    sx={{ color: "primary.main" }}
+                    aria-label="Email Icon"
+                  />
+                  <Typography variant="body2" sx={{ color: "text.primary" }}>
+                    {websiteJson.hospitalInfo?.emailid}
+                  </Typography>
+                </Box>
+                <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                  <PhoneIcon
+                    sx={{ color: "primary.main" }}
+                    aria-label="Phone Icon"
+                  />
+                  <Typography variant="body2" sx={{ color: "text.primary" }}>
+                    Call: {websiteJson.hospitalInfo?.phoneNumber}
+                  </Typography>
+                </Box>
+              </Box>
             </Box>
-            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-              <PhoneIcon sx={{ color: "primary.main" }} aria-label="Phone Icon" />
-              <Typography variant="body2" sx={{ color: "text.primary" }}>
-                Call: {websiteJson.hospitalInfo?.phoneNumber}
-              </Typography>
-            </Box>
-          </Box>
-        </Box>
-        
           )}
         </Toolbar>
       </Box>
@@ -177,7 +197,6 @@ const Navbar = () => {
                 <Box
                   sx={{ width: 250 }}
                   role="presentation"
-                  onClick={toggleDrawer(false)}
                   onKeyDown={toggleDrawer(false)}
                 >
                   <Box
@@ -194,44 +213,40 @@ const Navbar = () => {
                   </Box>
                   {navItems.map((item, index) => (
                     <Box key={index}>
-                      {item.href ? (
-                        <MenuItem component={Link} href={item.href}>
+                      <MenuItem>
+                        <Link href={item.href || "#"} passHref>
                           {item.label}
-                        </MenuItem>
-                      ) : (
-                        <Typography>{item.label}</Typography>
-                      )}
-                      {item.subItems &&
-                        item.subItems.map((subItem, subIndex) => (
-                          <Box key={subIndex} sx={{ pl: 2 }}>
-                            {subItem.href ? (
-                              <MenuItem component={Link} href={subItem.href}>
-                                {subItem.label}
-                              </MenuItem>
+                        </Link>
+                        {item.subItems && (
+                          <IconButton
+                            size="small"
+                            onClick={() => handleToggleSubMenu(index)}
+                          >
+                            {openMenus[index] ? (
+                              <ExpandLessIcon />
                             ) : (
-                              <Typography>{subItem.label}</Typography>
+                              <ExpandMoreIcon />
                             )}
-                            {subItem.subItems &&
-                              subItem.subItems.map(
-                                (nestedItem, nestedIndex) => (
-                                  <Box key={nestedIndex} sx={{ pl: 4 }}>
-                                    {nestedItem.href ? (
-                                      <MenuItem
-                                        component={Link}
-                                        href={nestedItem.href}
-                                      >
-                                        {nestedItem.label}
-                                      </MenuItem>
-                                    ) : (
-                                      <Typography>
-                                        {nestedItem.label}
-                                      </Typography>
-                                    )}
-                                  </Box>
-                                )
-                              )}
+                          </IconButton>
+                        )}
+                      </MenuItem>
+                      {item.subItems && (
+                        <Collapse
+                          in={openMenus[index]}
+                          timeout="auto"
+                          unmountOnExit
+                        >
+                          <Box sx={{ pl: 2 }}>
+                            {item.subItems.map((subItem, subIndex) => (
+                              <MenuItem key={subIndex}>
+                                <Link href={subItem.href || "#"} passHref>
+                                  {subItem.label}
+                                </Link>
+                              </MenuItem>
+                            ))}
                           </Box>
-                        ))}
+                        </Collapse>
+                      )}
                     </Box>
                   ))}
                 </Box>
@@ -248,7 +263,12 @@ const Navbar = () => {
                     onMouseLeave={handleMouseLeave}
                   >
                     <Link href={item.href || "#"} passHref>
-                      <Button color="inherit" sx={{ minWidth: 'auto',justifyContent:"left" }} >{item.label}</Button>
+                      <Button
+                        color="inherit"
+                        sx={{ minWidth: "auto", justifyContent: "left" }}
+                      >
+                        {item.label}
+                      </Button>
                     </Link>
                     {item.subItems && openMenu === index && (
                       <Box className="submenu">

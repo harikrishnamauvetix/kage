@@ -45,20 +45,21 @@ const Services = (props) => {
           <Grid container spacing={2}>
             {props?.services?.map((item, index) => (
               <Grid size={{ xs: 12, sm: 6, md: 4 }} key={index}>
-                <Stack
-                  direction="column"
-                  component={Card}
-                  spacing={1}
-                  useFlexGap
-                  sx={(theme) => ({
-                    padding: "10px",
-                    height: "100%",
-                  })}
+                <Card
+                  sx={{
+                    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+                    borderRadius: "12px",
+                    backgroundColor: "#fff",
+                    transition: "transform 0.3s, box-shadow 0.3s",
+                    "&:hover": {
+                      transform: "scale(1.05)",
+                      boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
+                    },
+                    padding: 2,
+                    marginBottom: 1,
+                  }}
                 >
-                  <Box sx={{ color: "primary.main" }}>
-                   
-                  </Box>
-                  <Box sx={{ px: 1 }}>
+                  <CardContent sx={{ padding: "0px !important" }}>
                     <Link
                       href={`/advanced-equipment/${item.title
                         .replace(/\s+/g, "-")
@@ -109,14 +110,14 @@ const Services = (props) => {
                         variant="contained"
                         sx={{
                           backgroundColor: "secondary.main",
-                          margin: "10px 0",
+                          marginTop: "15px",
                         }}
                       >
                         Read more
                       </Button>
                     </Link>
-                  </Box>
-                </Stack>
+                  </CardContent>
+                </Card>
               </Grid>
             ))}
           </Grid>
