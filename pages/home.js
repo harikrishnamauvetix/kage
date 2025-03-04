@@ -51,7 +51,7 @@ const Home = () => {
           modules={[Navigation, Pagination, A11y]}
           spaceBetween={50}
           slidesPerView={1}
-          navigation
+          navigation={websiteJson.bannerImage.length > 1}
           pagination={{ clickable: true }}
 
           // onSwiper={(swiper) => console.log(swiper)}

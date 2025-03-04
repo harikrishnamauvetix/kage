@@ -82,12 +82,12 @@
           "introduction": {
             "heading": "KIMS Hospitals",
             "description": [
-              "We are one of India's largest corporate healthcare groups, with a strong presence in Telangana, Andhra Pradesh, Maharashtra, and Kerala. Our network of hospitals under the 'KIMS Hospitals' brand provides integrated, multi-disciplinary healthcare services, focusing on tertiary and quaternary care at affordable prices. With 15 multi-specialty hospitals and a combined capacity of over 4,900 beds, we offer a comprehensive range of services across more than 25 specialties and super specialties, including cardiac sciences, oncology, neurosciences, gastroenterology, orthopedics, organ transplantation, renal sciences, and mother & child care.",
-              "Our journey began with a single hospital, and under the visionary leadership of Dr. Bhaskar Rao Bollineni, Founder and Chairman, and Dr. Abhinay Bollineni, Executive Director and CEO, we have grown into a chain of multi-specialty hospitals. The first hospital in our network was established in Nellore in 2000, with around 200 beds. Our flagship hospital in Secunderabad, with a 1,000-bed capacity, is one of the largest private hospitals in India (excluding medical colleges), as noted by the CRISIL Report. Recent acquisitions have expanded our network to cities like Ongole, Vizag, Anantapur, Kurnool, Nagpur, Nashik, and Kannur between fiscal years 2017 and 2025.",
-              "We focus on the southern & western Indian healthcare market, where we understand regional cultures and healthcare needs, providing high-quality care at affordable rates. Each of our hospitals integrates diagnostic services and pharmacies to offer comprehensive care to our patients.",
-              "Dr. Bhaskar Rao Bollineni, a distinguished cardiothoracic surgeon with over 27 years of experience, established the KIMS Hospitals brand with the vision of creating a world-class healthcare system. Under his leadership and that of Dr. Abhinay Bollineni, who joined in 2014 and became CEO in 2019, we have strategically expanded across Andhra Pradesh, Telangana, Maharashtra, and Kerala through greenfield projects, acquisitions, and organic growth.",
-              "Our success is driven by our commitment to affordable, high-quality healthcare and our strong relationships with medical professionals, which have been key to building the KIMS Hospitals brand."
-            ]
+              "We are one of India's largest corporate healthcare groups, with a strong presence in Telangana, Andhra Pradesh, Maharashtra, and Kerala. Our network of hospitals under the 'KIMS Hospitals' brand provides integrated, multi-disciplinary healthcare services, focusing on tertiary and quaternary care at affordable prices. With 15 multi-specialty hospitals and a combined capacity of over 4,900 beds, we offer a comprehensive range of services across more than 25 specialties and super specialties, including cardiac sciences, oncology, neurosciences, gastroenterology, orthopedics, organ transplantation, renal sciences, and mother & child care."
+         ]
+          },
+          "button":{
+            "label":"Know More",
+            "btnUrl":"https://www.kimshospitals.com/"
           }
         }
       },

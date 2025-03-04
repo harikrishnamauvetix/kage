@@ -56,7 +56,7 @@ export default function AppointmentForm() {
             }}
           >
          
-            Book an Appointment At KAGE
+            Book an Appointment 
           </Typography>
           <form onSubmit={handleSubmit}>
             <Grid2 container spacing={2}>

@@ -82,3 +82,6 @@ a {
 .navbar a {
   text-decoration: none;
 }
+.swiper-button-disabled {
+  display: none !important;
+}

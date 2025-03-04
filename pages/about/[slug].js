@@ -91,7 +91,6 @@ const Aboutpage = () => {
         >
           <Box
             sx={{
-            
               display: "flex",
               justifyContent: "center",
             }}
@@ -107,6 +106,23 @@ const Aboutpage = () => {
                 <Stack sx={{ margin: "10px 0" }}>
                   {section?.introduction && (
                     <IntroductionSection section={section?.introduction} />
+                  )}
+                  {section?.button && (
+                    <Link
+                      href={`${section?.button.btnUrl }`}
+                      passHref
+                      target="_blank"
+                    >
+                      <Button
+                        variant="contained"
+                        sx={{
+                          backgroundColor: "secondary.main",
+                      
+                        }}
+                      >
+                       {section?.button.label}
+                      </Button>
+                    </Link>
                   )}
                   {section?.AwardsAccreditation && (
                     <KimsAchievementsTable

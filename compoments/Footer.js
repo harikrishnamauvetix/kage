@@ -16,7 +16,7 @@ export default function Footer() {
       <AppointmentForm />
       <Box
         sx={{
-          backgroundColor: "primary.main",
+          backgroundColor: "#000",
           color: "white",
           paddingTop: 4,
           paddingBottom: 2,
@@ -33,7 +33,7 @@ export default function Footer() {
               <Box sx={{ display: "block", alignItems: "center", gap: 1 }}>
                 <Box
                   component="img"
-                  src="https://kage.co.in/assets/img/KAGE.jpg"
+                  src={websiteJson.hospitalInfo?.companylogo}
                   alt={websiteJson.footer.companyInfo.logoAlt}
                   sx={{ height: 50 }}
                 />
@@ -45,7 +45,7 @@ export default function Footer() {
 
             {/* Column 2: Links */}
             <Grid size={{ xs: 12, sm: 6, md: 4 }}>
-              <Typography variant="h6" gutterBottom>
+              <Typography variant="h6" gutterBottom sx={{color:"#fff"}}>
                 {websiteJson.footer.quickLinks.title}
               </Typography>
               {websiteJson.footer.quickLinks.links.map((link, index) => (
@@ -63,7 +63,7 @@ export default function Footer() {
 
             {/* Column 3: Social Media */}
             <Grid size={{ xs: 12, sm: 6, md: 4 }}>
-              <Typography variant="h6" gutterBottom>
+              <Typography variant="h6" gutterBottom sx={{color:"#fff"}}>
                 {websiteJson.footer.socialMedia.title}
               </Typography>
               <Box>
@@ -85,7 +85,7 @@ export default function Footer() {
               </Box>
             </Grid>
             <Grid size={{ xs: 12, sm: 6, md: 4 }}>
-              <Typography variant="h6" gutterBottom>
+              <Typography variant="h6" gutterBottom sx={{color:"#fff"}}>
                 Speciality Clinics
               </Typography>
               {websiteJson?.specialityclinics?.map((service) => (
@@ -105,13 +105,13 @@ export default function Footer() {
               ))}
             </Grid>
             <Grid size={{ xs: 12, sm: 6, md: 4 }}>
-              <Typography variant="h6" gutterBottom>
+              <Typography variant="h6" gutterBottom sx={{color:"#fff"}}>
               Advanced Equipments & Diagnosis
               </Typography>
               {websiteJson?.services?.map((service) => (
                 <Grid item xs={12} sm={6} md={6} key={service.title}>
                   <Link
-                    href={`/service/${service.title
+                    href={`/advanced-equipment/${service.title
                       .replace(/\s+/g, "-")
                       .toLowerCase()}`}
                     underline="hover"
@@ -125,7 +125,7 @@ export default function Footer() {
               ))}
             </Grid>
             <Grid size={{ xs: 12, sm: 6, md: 4 }}>
-              <Typography variant="h6" gutterBottom>
+              <Typography variant="h6" gutterBottom sx={{color:"#fff"}}>
               Advanced Procedures
               </Typography>
               {websiteJson?.advancedprocedures?.map((procedure) => (
@@ -147,8 +147,8 @@ export default function Footer() {
           </Grid>
 
           {/* Footer Bottom */}
-          <Box sx={{ marginTop: 4, textAlign: "center" }}>
-            <Typography variant="body2">
+          <Box sx={{ marginTop: 4, textAlign: "center" ,}}>
+            <Typography variant="body2" sx={{color:"#fff"}}>
               {websiteJson.footer.footerBottom.text}
             </Typography>
           </Box>
