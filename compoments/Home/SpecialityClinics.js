@@ -37,7 +37,7 @@ const SpecialityClinics = (props) => {
             <Box>
               <Grid container spacing={2} justifyContent="center">
                 {props.specialityclinics?.map((service) => (
-                  <Grid size={{ xs: 12, sm: 4, md: 4 }} key={service.id}>
+                  <Grid size={{ xs: 12, sm: 6, md: 6 ,lg:4,xl:4}} key={service.id}>
                     <Card
                       sx={{
                         boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",

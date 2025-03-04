@@ -27,7 +27,7 @@ const Doctorvideos = () => {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo service={"Doctor's Talk's"} />
+      <Breadcrumbsinfo pagename={"Doctor's Talk's"} />
       <DoctorVideos doctorvideos={websiteJson.doctorvideos} />
       <Footer />
     </>

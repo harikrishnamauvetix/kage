@@ -91,8 +91,8 @@ const Advancedprocedures = () => {
       <Box>
         <Container maxWidth="xl">
           <Grid container>
-            <Grid size={{ xs: 12, sm: 8, md: 2 }}></Grid>
-            <Grid size={{ xs: 12, sm: 8, md: 8 }}>
+            <Grid size={{ xs: 12, sm: 12, md: 12, lg: 2, xl: 2 }}></Grid>
+            <Grid size={{ xs: 12, sm: 12, md: 12, lg: 8, xl: 8 }}>
               <Stack
                 sx={{
                   width: "100%",
@@ -230,7 +230,7 @@ const Advancedprocedures = () => {
               </Typography>
             </Grid>
 
-            <Grid size={{ xs: 12, sm: 8, md: 2 }}></Grid>
+         <Grid size={{ xs: 12, sm: 12, md: 12, lg: 2, xl: 2 }}></Grid>
           </Grid>
         </Container>
       </Box>

@@ -41,14 +41,14 @@ const About = () => {
           }}
         >
           <Grid container>
-            <Grid size={{ xs: 12, sm: 6, md: 3 }}>
+            <Grid size={{ xs: 12, sm: 12, md: 12, lg: 3, xl: 3 }}>
               {/* <SidebarMenu service={service} slug={""} /> */}
               <AboutsidebarMenu
                 service={service}
                 slug={slug}
               ></AboutsidebarMenu>
             </Grid>
-            <Grid size={{ xs: 12, sm: 6, md: 8 }}>
+            <Grid size={{ xs: 12, sm: 12, md: 12, lg: 8, xl: 8 }}>
               <Stack sx={{ margin: "10px 0" }}>
                 <Typography
                   variant="h6"
@@ -76,10 +76,14 @@ const About = () => {
               >
                 {websiteJson.about.specialtyClinics.description}
               </Typography>
-              <Grid container spacing={4}>
+              <Grid container spacing={4} justifyContent={"center"}>
                 {websiteJson.about.specialtyClinics.list.map(
                   (clinic, index) => (
-                    <Grid size={{ xs: 12, sm: 12, md: 4 }} key={index}>
+                    <Grid
+                      size={{ xs: 12, sm: 6, md: 6, lg: 4, xl: 4 }}
+                      key={index}
+
+                    >
                       <Paper
                         elevation={3}
                         sx={{

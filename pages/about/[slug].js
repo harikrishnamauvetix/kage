@@ -96,20 +96,23 @@ const Aboutpage = () => {
             }}
           >
             <Grid container>
-              <Grid size={{ xs: 12, sm: 3, md: 3 }}>
+              <Grid size={{ xs: 12, sm: 12, md: 12, lg: 3, xl: 3 }}>
                 {/* <SidebarMenu /> */}
                 <AboutsidebarMenu
                   service={websiteJson?.about}
                 ></AboutsidebarMenu>
               </Grid>
-              <Grid size={{ xs: 12, sm: 9, md: 8 }} sx={{ margin: "20px 0" }}>
+              <Grid
+                size={{ xs: 12, sm: 12, md: 12, lg: 8, xl: 8 }}
+                sx={{ margin: "20px 0" }}
+              >
                 <Stack sx={{ margin: "10px 0" }}>
                   {section?.introduction && (
                     <IntroductionSection section={section?.introduction} />
                   )}
                   {section?.button && (
                     <Link
-                      href={`${section?.button.btnUrl }`}
+                      href={`${section?.button.btnUrl}`}
                       passHref
                       target="_blank"
                     >
@@ -117,10 +120,9 @@ const Aboutpage = () => {
                         variant="contained"
                         sx={{
                           backgroundColor: "secondary.main",
-                      
                         }}
                       >
-                       {section?.button.label}
+                        {section?.button.label}
                       </Button>
                     </Link>
                   )}

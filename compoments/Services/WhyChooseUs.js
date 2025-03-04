@@ -23,7 +23,7 @@ function WhyChooseSection({ whyChoose }) {
       <Grid container spacing={2} justifyContent={"center"}>
         {whyChoose?.steps?.length > 0
           ? whyChoose.steps.map((step, index) => (
-              <Grid  size={{ xs: 12, sm: 12, md: whyChoose.steps.length === 4 ? 6 : 4 }} key={index}>
+              <Grid  size={{ xs: 12, sm: 6, md:6, lg: whyChoose.steps.length === 4 ? 6 : 4 }} key={index}>
                 {/* Use item instead of size */}
                 <Card
                   sx={{

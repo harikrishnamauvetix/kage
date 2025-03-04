@@ -13,24 +13,25 @@ function TakeChargeSection({ takeCharge }) {
   }
 
   return (
-    <Box  sx={{margin:"20px 0"}} >
-     <Stack >
-     
-     <Typography
-        variant="h6"
-        sx={{ color: "secondary.main" }}
-      >
-        {takeCharge.heading}
-      </Typography>
-      <Typography variant="body1" sx={{ textAlign: "justify" }} paragraph>
-        {takeCharge.description}
-      </Typography>
-      {takeCharge.action && (
-        <Button variant="contained" color="primary" onClick={handleOpen} sx={{margin:"0 auto", display:"flex"}}>
-          {takeCharge.action}
-        </Button>
-      )}
-     </Stack>
+    <Box sx={{ margin: "20px 0" }}>
+      <Stack>
+        <Typography variant="h6" sx={{ color: "secondary.main" }}>
+          {takeCharge.heading}
+        </Typography>
+        <Typography variant="body1" sx={{ textAlign: "justify" }} paragraph>
+          {takeCharge.description}
+        </Typography>
+        {takeCharge.action && (
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={handleOpen}
+            sx={{ margin: "10px auto", display: "flex" }}
+          >
+            {takeCharge.action}
+          </Button>
+        )}
+      </Stack>
       <BookAppointmentModal open={isModalOpen} handleClose={handleClose} />
     </Box>
   );

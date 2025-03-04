@@ -11,7 +11,7 @@ const AboutSection = ({ homeabout }) => {
       alignItems={"center"}
       sx={{ background: "#fff", padding: 4, borderRadius: 2 } }
     >
-      <Grid size={{ xs: 12, sm: 6, md: 6 }}>
+      <Grid size={{ xs: 12, sm: 12, md: 12 ,lg:6,xl:6}}>
         {homeabout?.about_images?.map((slide, index) => (
           <Box
             key={index}
@@ -24,7 +24,7 @@ const AboutSection = ({ homeabout }) => {
       </Grid>
 
       <Grid
-        size={{ xs: 12, sm: 6, md: 6 }}
+        size={{ xs: 12, sm: 12, md: 12 ,lg:6,xl:6}}
         sx={{ textAlign: { xs: "center", md: "left" } }}
       >
         <Typography

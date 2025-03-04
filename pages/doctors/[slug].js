@@ -79,7 +79,7 @@ const DoctorDetails = () => {
           >
             {" "}
             {/* Ensure full width */}
-            <Grid size={{ xs: 12, md: 3 }}>
+            <Grid size={{ xs: 12, md: 12, lg: 3, xl: 3 }}>
               {/* <Box>
                 <CardMedia
                   component="img"
@@ -89,7 +89,7 @@ const DoctorDetails = () => {
                 />
               </Box> */}
             </Grid>
-            <Grid size={{ xs: 12, md: 9 }} sx={{ py: "40px" }}>
+            <Grid size={{ xs: 12, md: 12, lg: 9, xl: 9 }} sx={{ py: "40px" }}>
               <Typography variant="h4">{doctor.name}</Typography>
               <Typography variant="h6">{doctor.designation}</Typography>
               <Typography variant="h6">{doctor.qualifications}</Typography>
@@ -109,8 +109,13 @@ const DoctorDetails = () => {
             sx={{ width: "100%", position: "relative" }}
           >
             {/* Ensure full width */}
-            <Grid size={{ xs: 12, md: 3, lg: 3 }}>
-              <Box sx={{ position: "absolute", marginTop: "-220px" }}>
+            <Grid size={{ xs: 12, md: 12, lg: 3, xl: 3 }}>
+              <Box
+                sx={{
+                  position: { xs: "relative", lg: "absolute" },
+                  marginTop: { xs: "0px", lg: "-220px" },
+                }}
+              >
                 <CardMedia
                   component="img"
                   height="240"
@@ -127,24 +132,27 @@ const DoctorDetails = () => {
                 </Button>
               </Box>
             </Grid>
-            <Grid size={{ xs: 12, md: 9, lg: 8 }}>
+            <Grid size={{ xs: 12, md: 12, lg: 8, xl: 8 }}>
               {/* <Typography variant="h4">{doctor.name}</Typography> */}
 
               <Box>
                 {doctor?.opTiming && (
-                  <Stack sx={{margin:"20px 0"}}>
+                  <Stack sx={{ margin: "20px 0" }}>
                     <Typography
                       variant="h6"
                       sx={{ padding: "5px 0", color: "primary.main" }}
                     >
                       OP Timings
                     </Typography>
-                    <Optimings timing={doctor.opTiming}  sx={{padding: "10px 0"}}/>
+                    <Optimings
+                      timing={doctor.opTiming}
+                      sx={{ padding: "10px 0" }}
+                    />
                   </Stack>
                 )}
 
                 {doctor?.profile && (
-                  <Stack sx={{margin:"20px 0"}}>
+                  <Stack sx={{ margin: "20px 0" }}>
                     <Typography
                       variant="h6"
                       sx={{ padding: "5px 0", color: "primary.main" }}
@@ -163,7 +171,7 @@ const DoctorDetails = () => {
                   </Stack>
                 )}
                 {doctor?.publications && (
-                  <Stack sx={{margin:"20px 0"}}>
+                  <Stack sx={{ margin: "20px 0" }}>
                     <Typography
                       variant="h6"
                       sx={{ padding: "5px 0", color: "primary.main" }}
@@ -200,7 +208,7 @@ const DoctorDetails = () => {
                 )}
 
                 {doctor?.achievements && (
-                  <Stack sx={{margin:"20px 0"}}>
+                  <Stack sx={{ margin: "20px 0" }}>
                     <Typography
                       variant="h6"
                       sx={{ padding: "5px 0", color: "primary.main" }}

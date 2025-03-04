@@ -78,8 +78,8 @@ const Servicespage = () => {
       <Box>
         <Container maxWidth="xl">
           <Grid container>
-            <Grid size={{ xs: 12, sm: 8, md: 2 }}></Grid>
-            <Grid size={{ xs: 12, sm: 8, md: 8 }}>
+            <Grid size={{ xs: 12, sm: 12, md: 12, lg: 2, xl: 2 }}></Grid>
+            <Grid size={{ xs: 12, sm: 12, md: 12, lg: 8, xl: 8 }}>
               <Stack
                 sx={{
                   width: "100%",
@@ -161,7 +161,7 @@ const Servicespage = () => {
                                 <List disablePadding>
                                   {subTopic?.listItems?.map((item, lIndex) => (
                                     <ListItem
-                                    disablePadding
+                                      disablePadding
                                       key={lIndex}
                                       sx={{ textAlign: "justify" }}
                                     >
@@ -183,7 +183,9 @@ const Servicespage = () => {
                                             }}
                                           />
                                         ) : (
-                                          <CheckCircle  sx={{color:"primary.main"}}/>
+                                          <CheckCircle
+                                            sx={{ color: "primary.main" }}
+                                          />
                                         )}
                                       </ListItemIcon>
 
@@ -206,7 +208,7 @@ const Servicespage = () => {
                 </Box>
               ))}
             </Grid>
-            <Grid size={{ xs: 12, sm: 8, md: 2 }}></Grid>
+            <Grid size={{ xs: 12, sm: 12, md: 12, lg: 2, xl: 2 }}></Grid>
           </Grid>
         </Container>
       </Box>

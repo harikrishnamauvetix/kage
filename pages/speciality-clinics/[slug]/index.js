@@ -152,15 +152,15 @@ export default function ServicePage() {
           <Grid container>
             {service?.subpages?.length > 0 ? (
               <>
-                <Grid size={{ xs: 12, sm: 6, md: 3 }}>
+                <Grid size={{ xs: 12, sm: 12, md: 12,lg:3,xl:3 }}>
                   <SidebarMenu service={service} slug={slug} />
                 </Grid>
-                <Grid size={{ xs: 12, sm: 6, md: 8 }}>{serviceContent()}</Grid>
+                <Grid size={{ xs: 12, sm: 12, md: 12 ,lg:8,xl:8}}>{serviceContent()}</Grid>
               </>
             ) : (
               <>
-               <Grid size={{ xs: 12, sm: 2, md: 2 }}></Grid>
-                <Grid size={{ xs: 12, sm: 8, md: 8 }}>
+               <Grid size={{ xs: 12, sm: 12, md: 12 ,lg: 2 }}></Grid>
+                <Grid size={{ xs: 12, sm: 12, md: 12 ,lg: 8 }}>
                   <Box
                     sx={{
                       display: "flex",
@@ -173,7 +173,7 @@ export default function ServicePage() {
                     <Stack>{serviceContent()}</Stack>
                   </Box>
                 </Grid>
-                <Grid size={{ xs: 12, sm: 2, md: 2 }}></Grid>
+                <Grid size={{ xs: 12, sm: 12,md: 12 , lg: 2 }}></Grid>
               </>
             )}
           </Grid>

@@ -45,7 +45,7 @@ const DoctorsList = (props) => {
             {props?.doctorsList?.map((doctor) => (
               <Grid
                 key={doctor.id} // Add a unique key here
-                size={{ xs: 12, sm: 6, md: 3, lg: 3, xl: 3 }}
+                size={{ xs: 12, sm: 6, md: 6, lg: 3, xl: 3 }}
                 sx={{
                   display: "flex",
                   justifyContent: "center",
