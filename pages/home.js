@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState,useContext } from "react";
 import {
   Box,
   Container,
@@ -14,12 +14,11 @@ import {
   Avatar,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-
 import Header from "../compoments/Header";
 
 import AppointmentForm from "@/compoments/Bookappointment";
 import Footer from "@/compoments/Footer";
-import websiteJson from "../public/website.json";
+import data from "../public/website.json";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import SendIcon from "@mui/icons-material/Send";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -27,6 +26,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Link from "next/link";
+import { DataContext } from './_app';
 
 // Import Swiper styles
 import "swiper/css";
@@ -42,6 +42,8 @@ import Services from "@/compoments/Home/Services";
 import CourseList from "@/compoments/Home/CourseList";
 
 const Home = () => {
+  const data = useContext(DataContext);
+
   return (
     <Box>
       <Header></Header>
@@ -51,38 +53,38 @@ const Home = () => {
           modules={[Navigation, Pagination, A11y]}
           spaceBetween={50}
           slidesPerView={1}
-          navigation={websiteJson.bannerImage.length > 1}
+          navigation={data.bannerImage.length > 1}
           pagination={{ clickable: true }}
 
           // onSwiper={(swiper) => console.log(swiper)}
           // onSlideChange={() => console.log('slide change')}
         >
-          {websiteJson.bannerImage.map((slide, index) => (
+          {data.bannerImage.map((slide, index) => (
             <SwiperSlide key={index}>
               <img src={slide.image} alt={slide.alt} width={"100%"} />
             </SwiperSlide>
           ))}
         </Swiper>
        
-          <AboutSection homeabout={websiteJson} />
+          <AboutSection homeabout={data} />
 
           <SpecialityClinics
-            specialityclinics={websiteJson.specialityclinics}
+            specialityclinics={data.specialityclinics}
           />
 
-          <DoctorsLists doctorsList={websiteJson.doctorsList}></DoctorsLists>
+          <DoctorsLists doctorsList={data.doctorsList}></DoctorsLists>
           <ProceduresList
-            advancedprocedures={websiteJson.advancedprocedures}
+            advancedprocedures={data.advancedprocedures}
           ></ProceduresList>
-          <Services services={websiteJson.services} />
-          <CourseList courselist={websiteJson.courseDetails} />
+          <Services services={data.services} />
+          <CourseList courselist={data.courseDetails} />
           <Container>
-          <PatientVideos patientvideos={websiteJson.Patientvideos} />
+          <PatientVideos patientvideos={data.Patientvideos} />
           </Container>
-          <DoctorVideos doctorvideos={websiteJson.doctorvideos} />
+          <DoctorVideos doctorvideos={data.doctorvideos} />
 
       </Box>
-      <Contactinfo Contactinfo={websiteJson.hospitalInfo} />
+      <Contactinfo Contactinfo={data.hospitalInfo} />
       {/* <AppointmentForm></AppointmentForm> */}
       <Footer></Footer>
     </Box>

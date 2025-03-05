@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState,useContext } from "react";
 import { Box, Card, Typography, Icon, Container } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmailIcon from "@mui/icons-material/Email";
@@ -6,10 +6,11 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import Header from "../compoments/Header";
 import Grid from "@mui/material/Grid2";
 import AppointmentForm from "@/compoments/Bookappointment";
-import websiteJson from "../public/website.json";
+import { DataContext } from './_app';
 import Footer from "@/compoments/Footer";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 const ContactUs = () => {
+   const data = useContext(DataContext);
   return (
     <>
       <Header />
@@ -40,7 +41,7 @@ const ContactUs = () => {
                   Address
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  {websiteJson?.hospitalInfo?.address}
+                  {data?.hospitalInfo?.address}
                 </Typography>
               </Card>
             </Grid>
@@ -67,7 +68,7 @@ const ContactUs = () => {
                   Email
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  {websiteJson?.hospitalInfo?.emailid}
+                  {data?.hospitalInfo?.emailid}
                 </Typography>
               </Card>
             </Grid>
@@ -94,7 +95,7 @@ const ContactUs = () => {
                   Phone
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  {websiteJson?.hospitalInfo?.phoneNumber}
+                  {data?.hospitalInfo?.phoneNumber}
                 </Typography>
               </Card>
             </Grid>
@@ -105,10 +106,10 @@ const ContactUs = () => {
               overflow: "hidden",
             }}
           >
-            {console.log(websiteJson?.hospitalInfo)}
-            {websiteJson?.hospitalInfo?.map?.iframelink ? (
+            {console.log(data?.hospitalInfo)}
+            {data?.hospitalInfo?.map?.iframelink ? (
               <iframe
-                src={websiteJson.hospitalInfo.map.iframelink}
+                src={data.hospitalInfo.map.iframelink}
                 width="100%"
                 height="400px"
                 allowFullScreen=""

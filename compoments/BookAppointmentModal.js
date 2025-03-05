@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useContext } from "react";
 import {
   Box,
   Button,
@@ -12,8 +12,9 @@ import {
   Stack,
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
-import websiteJson from "../public/website.json";
+import { DataContext } from '../pages/_app';
 const BookAppointmentModal = ({ open, handleClose }) => {
+       const data = useContext(DataContext);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -125,7 +126,7 @@ const BookAppointmentModal = ({ open, handleClose }) => {
                 required
                 size="small"
               >
-                {websiteJson.doctorsList.map((doctor) => (
+                {data.doctorsList.map((doctor) => (
                   <MenuItem key={doctor.id} value={doctor.name} size="small">
                     {doctor.name}
                   </MenuItem>

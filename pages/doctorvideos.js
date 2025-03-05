@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState,useContext } from "react";
 
-import websiteJson from "../public/website.json";
+import { DataContext } from './_app';
 import {
   Box,
   Container,
@@ -24,11 +24,12 @@ import Footer from "@/compoments/Footer";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import DoctorVideos from "@/compoments/Home/DoctorVideos";
 const Doctorvideos = () => {
+  const data = useContext(DataContext);
   return (
     <>
       <Header></Header>
       <Breadcrumbsinfo pagename={"Doctor's Talk's"} />
-      <DoctorVideos doctorvideos={websiteJson.doctorvideos} />
+      <DoctorVideos doctorvideos={data.doctorvideos} />
       <Footer />
     </>
   );

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState,useContext } from "react";
 import {
   Card,
   CardContent,
@@ -11,8 +11,10 @@ import Image from "next/image";
 import Link from "next/link";
 import Grid from "@mui/material/Grid2";
 
-import websiteJson from "../../public/website.json";
+import { DataContext } from '../../pages/_app';
 const CourseList = () => {
+         const data = useContext(DataContext);
+  
   return (
     <>
       <Box
@@ -42,7 +44,7 @@ const CourseList = () => {
             </Typography>
           </Box>
           <Grid container spacing={3} justifyContent={"center"}>
-            {websiteJson?.courseDetails.map((course) => (
+            {data?.courseDetails.map((course) => (
               <Grid size={{ xs: 12, sm: 6, md: 4 }} key={course.id}>
                 <Card
                   sx={{

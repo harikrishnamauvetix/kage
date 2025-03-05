@@ -54,7 +54,7 @@ export default function SidebarMenu({ service, slug }) {
 // pages/services/[slug].js
 import { useRouter } from "next/router";
 import { Typography, Container, Box, Grid } from "@mui/material";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect ,useContext} from "react";
 import websiteJson from "../../../public/website.json";
 import Footer from "@/compoments/Footer";
 import Header from "@/compoments/Header";

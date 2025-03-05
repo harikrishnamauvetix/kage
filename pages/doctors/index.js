@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState,useContext } from "react";
 import {
   Container,
   Typography,
@@ -18,7 +18,7 @@ import {
   Rating,
   Avatar,
 } from "@mui/material";
-import websiteJson from "../../public/website.json";
+import { DataContext } from '../_app';
 import Link from "next/link";
 import DoctorsLists from "../../compoments/Doctors/DoctorsLists";
 import SendIcon from "@mui/icons-material/Send";
@@ -27,6 +27,8 @@ import Header from "@/compoments/Header";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 
 const Doctors = () => {
+     const data = useContext(DataContext);
+  
   return (
     <>
       <Header></Header>
@@ -34,7 +36,7 @@ const Doctors = () => {
 
       <Container maxWidth="lg">
         <Grid2 container spacing={2}>
-          <DoctorsLists doctorsList={websiteJson.doctorsList} />
+          <DoctorsLists doctorsList={data.doctorsList} />
         </Grid2>
       </Container>
 

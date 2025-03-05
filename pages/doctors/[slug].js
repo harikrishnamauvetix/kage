@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState,useContext } from "react";
 import { useRouter } from "next/router";
 import {
   Container,
@@ -19,7 +19,7 @@ import {
   Avatar,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import websiteJson from "../../public/website.json";
+import { DataContext } from '../_app';
 import Link from "next/link";
 import Header from "@/compoments/Header";
 import AppointmentForm from "@/compoments/Bookappointment";
@@ -34,12 +34,14 @@ import Optimings from "@/compoments/Doctors/Optimings";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 const DoctorDetails = () => {
+     const data = useContext(DataContext);
+  
   const router = useRouter();
   const { slug } = router.query;
   // const doctor="dd"
   // console.log(slug);
   // Fetch doctor details by matching the name from the JSON data
-  const doctor = websiteJson.doctorsList.find(
+  const doctor = data.doctorsList.find(
     (doc) => doc.name.replace(/\s+/g, "-").toLowerCase() === slug
   );
 
@@ -307,7 +309,7 @@ const DoctorDetails = () => {
             </Grid>
           </Grid>
 
-          {/* <PatientVideos patientvideos={websiteJson?.Patientvideos} /> */}
+          {/* <PatientVideos patientvideos={data?.Patientvideos} /> */}
         </Container>
       </Box>
 

@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import React, { useState } from "react";
+import React, { useState,useContext } from "react";
 
 import {
   Container,
@@ -23,7 +23,8 @@ import {
   Avatar,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import websiteJson from "../../public/website.json";
+import { DataContext } from '../_app';
+
 import Link from "next/link";
 import Header from "@/compoments/Header";
 import AppointmentForm from "@/compoments/Bookappointment";
@@ -35,17 +36,19 @@ import AboutsidebarMenu from "@/compoments/aboutSidebar";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 
 const Aboutpage = () => {
+  const data = useContext(DataContext);
+
   const router = useRouter();
   const { slug } = router.query;
   const [expanded, setExpanded] = useState(false);
   // const doctor="dd"
-  //console.log(websiteJson);
+  //console.log(data);
   // const doctor="dd"
-  //console.log(websiteJson.about.subpages);
+  //console.log(data.about.subpages);
   //   const about="ddd";
   // Fetch doctor details by matching the name from the JSON data
   //console.log("Slug:", slug);
-  const about = websiteJson?.about?.subpages?.find((service) => {
+  const about = data?.about?.subpages?.find((service) => {
     const sanitizedTitle = service.title
       .replace(/\s+/g, "-")
       .toLowerCase()
@@ -99,7 +102,7 @@ const Aboutpage = () => {
               <Grid size={{ xs: 12, sm: 12, md: 12, lg: 3, xl: 3 }}>
                 {/* <SidebarMenu /> */}
                 <AboutsidebarMenu
-                  service={websiteJson?.about}
+                  service={data?.about}
                 ></AboutsidebarMenu>
               </Grid>
               <Grid

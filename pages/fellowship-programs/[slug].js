@@ -1,3 +1,5 @@
+import React, { useState, useEffect ,useContext} from "react";
+
 import {
     Grid,
     Typography,
@@ -22,8 +24,8 @@ import {
   import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
   import { AccessAlarm, Description, CheckCircle } from "@mui/icons-material"; // Import icons of your choice
   
-  import { useState, useEffect } from "react";
-  import websiteJson from "../../public/website.json";
+
+  import { DataContext } from '../_app';
   import Footer from "@/compoments/Footer";
   import Header from "@/compoments/Header";
   import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
@@ -33,14 +35,16 @@ import {
   import ProceduresList from "@/compoments/Home/ProceduresList";
   import PatientVideos from "@/compoments/Home/PatientVideos";
   
-  export default function fellowShipProgramList() {
+  export default function FellowShipProgramList() {
+       const data = useContext(DataContext);
+    
     return (
       <>
         <Header></Header>
         <Breadcrumbsinfo pagename={"Fellow Ship Program"} />
   
         
-        <PatientVideos  patientvideos={websiteJson?.Patientvideos}/>
+        <PatientVideos  patientvideos={data?.Patientvideos}/>
         <Footer></Footer>
       </>
     );

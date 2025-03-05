@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useContext } from "react";
 
 import {
   Container,
@@ -12,7 +12,7 @@ import {
   ListItemIcon,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import websiteJson from "../../public/website.json";
+import { DataContext } from '../_app';
 import Header from "@/compoments/Header";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import AppointmentForm from "@/compoments/Bookappointment";
@@ -22,8 +22,9 @@ import AboutsidebarMenu from "@/compoments/aboutSidebar";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 const About = () => {
-  const [service, setService] = useState(websiteJson?.about);
-  const [slug, setslug] = useState(websiteJson?.about.page);
+    const data = useContext(DataContext);
+  const [service, setService] = useState(data?.about);
+  const [slug, setslug] = useState(data?.about.page);
   //  slug
   return (
     <>
@@ -35,7 +36,7 @@ const About = () => {
       <Container maxWidth="xl">
         <Box
           sx={{
-            display: "flex",
+            display: "flex",  
             alignItems: "center",
             justifyContent: "center",
           }}
@@ -59,14 +60,14 @@ const About = () => {
                     textAlign: "left",
                   }}
                 >
-                  {websiteJson.about.subHeading}
+                  {data.about.subHeading}
                 </Typography>
                 <Typography
                   variant="body1"
                   color="text.secondary"
                   sx={{ textAlign: "justify" }}
                 >
-                  {websiteJson.about.Description}
+                  {data.about.Description}
                 </Typography>
               </Stack>
               <Typography
@@ -74,10 +75,10 @@ const About = () => {
                 color="text.secondary"
                 sx={{ textAlign: "justify", margin: "10px 0" }}
               >
-                {websiteJson.about.specialtyClinics.description}
+                {data.about.specialtyClinics.description}
               </Typography>
               <Grid container spacing={4} justifyContent={"center"}>
-                {websiteJson.about.specialtyClinics.list.map(
+                {data.about.specialtyClinics.list.map(
                   (clinic, index) => (
                     <Grid
                       size={{ xs: 12, sm: 6, md: 6, lg: 4, xl: 4 }}
@@ -126,10 +127,10 @@ const About = () => {
                   align="left"
                   sx={{ margin: "10px 0", color: "secondary.main" }}
                 >
-                  {websiteJson.about.stateOfTheArtEndoscopyUnit.heading}
+                  {data.about.stateOfTheArtEndoscopyUnit.heading}
                 </Typography>
                 <List disablePadding>
-                  {websiteJson.about.stateOfTheArtEndoscopyUnit.Details.map(
+                  {data.about.stateOfTheArtEndoscopyUnit.Details.map(
                     (detail, index) => (
                       <ListItem key={index} disablePadding>
                         <Box display="flex" alignItems="center" sx={{ gap: 1 }}>
@@ -156,17 +157,17 @@ const About = () => {
                   textAlign: "left",
                 }}
               >
-                {websiteJson.about.centerOfExcellence.heading}
+                {data.about.centerOfExcellence.heading}
               </Typography>
               <Typography
                 variant="body1"
                 paragraph
                 sx={{ textAlign: "justify" }}
               >
-                {websiteJson.about.centerOfExcellence.description}
+                {data.about.centerOfExcellence.description}
               </Typography>
               <List disablePadding>
-                {websiteJson.about.centerOfExcellence.Certifications.map(
+                {data.about.centerOfExcellence.Certifications.map(
                   (cert, index) => (
                     <ListItem key={index} disablePadding>
                       <Box display="flex" alignItems="center" sx={{ gap: 1 }}>
@@ -195,7 +196,7 @@ const About = () => {
                 paragraph
                 sx={{ textAlign: "justify" }}
               >
-                {websiteJson.about.Mission}
+                {data.about.Mission}
               </Typography>
 
               <Typography
@@ -206,7 +207,7 @@ const About = () => {
                   textAlign: "justify",
                 }}
               >
-                {websiteJson.about.Tagline}
+                {data.about.Tagline}
               </Typography>
             </Grid>
           </Grid>

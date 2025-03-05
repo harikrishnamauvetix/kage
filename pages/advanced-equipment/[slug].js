@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useContext } from "react";
 import { useRouter } from "next/router";
 import {
   Container,
@@ -23,7 +23,7 @@ import {
   ListItemIcon,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import websiteJson from "../../public/website.json";
+import { DataContext } from '../_app';
 import Link from "next/link";
 import Header from "@/compoments/Header";
 import AppointmentForm from "@/compoments/Bookappointment";
@@ -41,15 +41,16 @@ import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import { CheckCircle, Padding } from "@mui/icons-material";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 const Servicespage = () => {
+   const data = useContext(DataContext);
   const router = useRouter();
   const { slug } = router.query;
   const [expanded, setExpanded] = useState(false);
   // const doctor="dd"
-  console.log(websiteJson);
+  console.log(data);
   // const doctor="dd"
-  console.log(websiteJson.services);
+  console.log(data.services);
   // Fetch doctor details by matching the name from the JSON data
-  const servicespage = websiteJson?.services?.find(
+  const servicespage = data?.services?.find(
     (item) => item.title.replace(/\s+/g, "-").toLowerCase() === slug
   );
 
@@ -212,7 +213,7 @@ const Servicespage = () => {
           </Grid>
         </Container>
       </Box>
-      {/* <PatientVideos patientvideos={websiteJson?.Patientvideos} /> */}
+      {/* <PatientVideos patientvideos={data?.Patientvideos} /> */}
 
       <Footer></Footer>
     </>

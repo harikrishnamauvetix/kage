@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useContext } from "react";
 import {
   Button,
   TextField,
@@ -13,8 +13,9 @@ import {
   Container,
   Stack
 } from "@mui/material";
-import websiteJson from "../public/website.json";
+import { DataContext } from '../pages/_app';
 export default function AppointmentForm() {
+       const data = useContext(DataContext);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -107,7 +108,7 @@ export default function AppointmentForm() {
                     required
                     size="small"
                   >
-                    {websiteJson.doctorsList.map((doctor) => (
+                    {data.doctorsList.map((doctor) => (
                       <MenuItem key={doctor.id} value={doctor.name}>
                         {doctor.name}
                       </MenuItem>

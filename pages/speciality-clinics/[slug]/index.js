@@ -1,8 +1,10 @@
+import React, { useState, useEffect ,useContext} from "react";
+
 import { useRouter } from "next/router";
 import { Typography, Container, Box, Stack } from "@mui/material";
 
-import { useState, useEffect } from "react";
-import websiteJson from "../../../public/website.json";
+
+import { DataContext } from '../../_app';
 import Footer from "@/compoments/Footer";
 import Header from "@/compoments/Header";
 
@@ -25,6 +27,7 @@ import PatientVideos from "@/compoments/Home/PatientVideos";
 import Faq from "@/compoments/Services/Faq";
 
 export default function ServicePage() {
+   const data = useContext(DataContext);
   const router = useRouter();
   const { slug } = router.query;
 
@@ -35,14 +38,14 @@ export default function ServicePage() {
   useEffect(() => {
     if (!slug) return;
 
-    if (websiteJson && websiteJson.specialityclinics) {
-      const foundSpeciality = websiteJson.specialityclinics.find(
+    if (data && data.specialityclinics) {
+      const foundSpeciality = data.specialityclinics.find(
         (item) => item.title.replace(/\s+/g, "-").toLowerCase() === slug
       );
       setService(foundSpeciality);
       setLoading(false);
     }
-  }, [slug, websiteJson]);
+  }, [slug, data]);
 
   // Show loading until the data is ready
   if (loading) {
@@ -180,7 +183,7 @@ export default function ServicePage() {
         </Box>
 
        
-        {/* <PatientVideos patientvideos={websiteJson?.Patientvideos} /> */}
+        {/* <PatientVideos patientvideos={data?.Patientvideos} /> */}
       </Container>
       <Container>
       <WhyChooseSection whyChoose={content?.overview?.why_choose} />

@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, { useState,useContext } from "react";
 import { Grid, Typography, Box ,Stack} from "@mui/material";
 
 const Diagnosis = ({ diagnosis, introduction }) => {

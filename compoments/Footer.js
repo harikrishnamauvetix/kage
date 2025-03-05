@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useContext} from "react";
 import { Box, Typography, Link, Container, IconButton } from "@mui/material";
 import {
   Facebook,
@@ -7,11 +7,13 @@ import {
   LinkedIn,
   YouTube,
 } from "@mui/icons-material";
-import websiteJson from "../public/website.json";
+import { DataContext } from '../pages/_app';
 import AppointmentForm from "./Bookappointment";
 import Grid from "@mui/material/Grid2";
 export default function Footer() {
+    const data = useContext(DataContext);
   return (
+    
     <>
       <AppointmentForm />
       <Box
@@ -33,22 +35,22 @@ export default function Footer() {
               <Box sx={{ display: "block", alignItems: "center", gap: 1 }}>
                 <Box
                   component="img"
-                  src={websiteJson.hospitalInfo?.companylogo}
-                  alt={websiteJson.footer.companyInfo.logoAlt}
+                  src={data.hospitalInfo?.companylogo}
+                  alt={data.footer.companyInfo.logoAlt}
                   sx={{ height: 50 }}
                 />
               </Box>
               <Typography variant="body2" sx={{ color: "#fff" }}>
-                {websiteJson.footer.companyInfo.description}
+                {data.footer.companyInfo.description}
               </Typography>
             </Grid>
 
             {/* Column 2: Links */}
             <Grid size={{ xs: 12, sm: 6, md: 4 }}>
               <Typography variant="h6" gutterBottom sx={{color:"#fff"}}>
-                {websiteJson.footer.quickLinks.title}
+                {data.footer.quickLinks.title}
               </Typography>
-              {websiteJson.footer.quickLinks.links.map((link, index) => (
+              {data.footer.quickLinks.links.map((link, index) => (
                 <Link
                   key={index}
                   href={link.href}
@@ -64,10 +66,10 @@ export default function Footer() {
             {/* Column 3: Social Media */}
             <Grid size={{ xs: 12, sm: 6, md: 4 }}>
               <Typography variant="h6" gutterBottom sx={{color:"#fff"}}>
-                {websiteJson.footer.socialMedia.title}
+                {data.footer.socialMedia.title}
               </Typography>
               <Box>
-                {websiteJson.footer.socialMedia.links.map((social, index) => (
+                {data.footer.socialMedia.links.map((social, index) => (
                   <IconButton
                     key={index}
                     href={social.href}
@@ -88,13 +90,13 @@ export default function Footer() {
               <Typography variant="h6" gutterBottom sx={{color:"#fff"}}>
                 Speciality Clinics
               </Typography>
-              {websiteJson?.specialityclinics?.map((service) => (
+              {data?.specialityclinics?.map((service) => (
                 <Grid item xs={12} sm={6} md={6} key={service.title}>
                   <Link
                     href={`/speciality-clinics/${service.title
                       .replace(/\s+/g, "-")
                       .toLowerCase()}`}
-                    underline="hover"
+                 
                     color="#fff"
                   >
                     <Typography variant="body1" sx={{ color: "#fff" }}>
@@ -108,13 +110,13 @@ export default function Footer() {
               <Typography variant="h6" gutterBottom sx={{color:"#fff"}}>
               Advanced Equipments & Diagnosis
               </Typography>
-              {websiteJson?.services?.map((service) => (
+              {data?.services?.map((service) => (
                 <Grid item xs={12} sm={6} md={6} key={service.title}>
                   <Link
                     href={`/advanced-equipment/${service.title
                       .replace(/\s+/g, "-")
                       .toLowerCase()}`}
-                    underline="hover"
+                 
                     color="#fff"
                   >
                     <Typography variant="body1" sx={{ color: "#fff" }}>
@@ -128,13 +130,13 @@ export default function Footer() {
               <Typography variant="h6" gutterBottom sx={{color:"#fff"}}>
               Advanced Procedures
               </Typography>
-              {websiteJson?.advancedprocedures?.map((procedure) => (
+              {data?.advancedprocedures?.map((procedure) => (
                 <Grid item xs={12} sm={6} md={6} key={procedure.title}>
                   <Link
                     href={`/advanced-procedures/${procedure.title
                       .replace(/\s+/g, "-")
                       .toLowerCase()}`}
-                    underline="hover"
+                 
                     color="#fff"
                   >
                     <Typography variant="body1" sx={{ color: "#fff" }}>
@@ -149,7 +151,7 @@ export default function Footer() {
           {/* Footer Bottom */}
           <Box sx={{ marginTop: 4, textAlign: "center" ,}}>
             <Typography variant="body2" sx={{color:"#fff"}}>
-              {websiteJson.footer.footerBottom.text}
+              {data.footer.footerBottom.text}
             </Typography>
           </Box>
         </Container>

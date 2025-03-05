@@ -1,3 +1,4 @@
+import React, { useState, useEffect ,useContext} from "react";
 import {
   Grid,
   Typography,
@@ -22,8 +23,8 @@ import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { AccessAlarm, Description, CheckCircle } from "@mui/icons-material"; // Import icons of your choice
 
-import { useState, useEffect } from "react";
-import websiteJson from "../../public/website.json";
+
+import { DataContext } from '../_app';
 import Footer from "@/compoments/Footer";
 import Header from "@/compoments/Header";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
@@ -33,14 +34,16 @@ import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import ProceduresList from "@/compoments/Home/ProceduresList";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 
-export default function specialityList() {
+export default function AdvancedProcedures() {
+     const data = useContext(DataContext);
+  
   return (
     <>
       <Header></Header>
       <Breadcrumbsinfo pagename={"Advanced Procedures"} />
 
-      <ProceduresList advancedprocedures={websiteJson.advancedprocedures}></ProceduresList>
-      {/* <PatientVideos  patientvideos={websiteJson?.Patientvideos}/> */}
+      <ProceduresList advancedprocedures={data.advancedprocedures}></ProceduresList>
+      {/* <PatientVideos  patientvideos={data?.Patientvideos}/> */}
       <Footer></Footer>
     </>
   );

@@ -22,8 +22,8 @@ import {
   import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
   import { AccessAlarm, Description, CheckCircle } from "@mui/icons-material"; // Import icons of your choice
   
-  import { useState, useEffect } from "react";
-  import websiteJson from "../../public/website.json";
+  import React, { useState, useEffect ,useContext} from "react";
+  import { DataContext } from '../_app';
   import Footer from "@/compoments/Footer";
   import Header from "@/compoments/Header";
   import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
@@ -34,12 +34,14 @@ import {
   import PatientVideos from "@/compoments/Home/PatientVideos";
 import Services from "@/compoments/Home/Services";
   
-  export default function services() {
+  export default function AdvancedEquipment() {
+       const data = useContext(DataContext);
+    
     return (
       <>
         <Header></Header>
         <Breadcrumbsinfo pagename={"Advanced Equipment"} />
-  <Services services={websiteJson.services}/>
+  <Services services={data.services}/>
        
         
         <Footer></Footer>

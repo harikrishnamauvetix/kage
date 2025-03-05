@@ -1,7 +1,8 @@
 import { useRouter } from "next/router";
 
-import { useState, useEffect } from "react";
-import websiteJson from "../../../public/website.json";
+import React, { useState, useEffect ,useContext} from "react";
+
+import { DataContext } from '../../_app';
 import Footer from "@/compoments/Footer";
 import Header from "@/compoments/Header";
 import {
@@ -41,7 +42,9 @@ import PatientVideos from "@/compoments/Home/PatientVideos";
 import Faq from "@/compoments/Services/Faq";
 
 export default function SubServicePage() {
+  const data = useContext(DataContext);
   const router = useRouter();
+  
   const { slug, subpage } = router.query;
   // console.log(slug, subpage);
   const [service, setService] = useState(null);
@@ -60,11 +63,11 @@ export default function SubServicePage() {
     const normalizedSubpage = subpage.replace(/-/g, " "); // Normalize subpage as well
 
     // Find the service based on the normalized slug
-    const foundService = websiteJson.specialityclinics.find(
+    const foundService = data.specialityclinics.find(
       (s) => s.page.toLowerCase() === normalizedSlug.toLowerCase()
     );
     // console.log("Found Service:", foundService);
-    // console.log("websiteJson", websiteJson.services);
+    // console.log("data", data.services);
     // console.log("slug", normalizedSlug);
     // console.log("subpage", normalizedSubpage);
     if (!foundService) {
@@ -345,7 +348,7 @@ export default function SubServicePage() {
           </Grid>
         </Stack>
 
-        {/* <PatientVideos patientvideos={websiteJson?.Patientvideos} /> */}
+        {/* <PatientVideos patientvideos={data?.Patientvideos} /> */}
       </Container>
 
       <Footer></Footer>

@@ -1,21 +1,21 @@
 {
   "bannerImage": [
     {
-      "image": "Images/Home/banner1.jpg",
+      "image": "/Images/Home/banner1.jpg",
       "alt": "Banner Image 1"
     },
     {
-      "image": "Images/Home/banner2.jpg",
+      "image": "/Images/Home/banner2.jpg",
       "alt": "Banner Image 2"
     },
     {
-      "image": "Images/Home/banner3.jpg",
+      "image": "/Images/Home/banner3.jpg",
       "alt": "Banner Image 3"
     }
   ],
   "about_images": [
     {
-      "image": "Images/Home/about-us.png",
+      "image": "/Images/Home/about-us.png",
       "alt": "About Us Image"
     }
   ],

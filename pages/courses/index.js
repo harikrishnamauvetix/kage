@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState,useContext } from "react";
 import {
   Card,
   CardContent,
@@ -7,7 +7,7 @@ import {
   Button,
   Container,
 } from "@mui/material";
-import websiteJson from "../../public/website.json";
+import { DataContext } from '../_app';
 import CourseList from "@/compoments/Home/CourseList";
 import Image from "next/image";
 import Link from "next/link";

@@ -1,5 +1,5 @@
-import React from "react";
-import websiteJson from "../../public/website.json";
+import React, { useState,useContext } from "react";
+import { DataContext } from '../_app';
 import {
   Container,
   Accordion,
@@ -22,15 +22,17 @@ import Header from "@/compoments/Header";
 import Footer from "@/compoments/Footer";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 const CourseDetail = () => {
+     const data = useContext(DataContext);
+  
   const router = useRouter();
   const { slug } = router.query;
 
   // const doctor="dd"
-  // console.log(websiteJson);
+  // console.log(data);
   // const doctor="dd"
-  // console.log(websiteJson.courseDetails);
+  // console.log(data.courseDetails);
   // Fetch doctor details by matching the name from the JSON data
-  const courseDetails = websiteJson?.courseDetails?.find(
+  const courseDetails = data?.courseDetails?.find(
     (course) => course.title.replace(/\s+/g, "-").toLowerCase() === slug
   );
   if (!courseDetails) {

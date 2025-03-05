@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState,useContext } from "react";
 
-import websiteJson from "../public/website.json";
+import { DataContext } from './_app';
 import {
   Box,
   Container,
@@ -24,6 +24,7 @@ import Footer from "@/compoments/Footer";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 const Testimonials = () => {
+   const data = useContext(DataContext);
   return (
     <>
       <Header></Header>
@@ -36,7 +37,7 @@ const Testimonials = () => {
             margin: "20px 0",
           })}
         >
-          <PatientVideos patientvideos={websiteJson.Patientvideos} />
+          <PatientVideos patientvideos={data.Patientvideos} />
         </Grid2>
       </Container>
       <Footer />
