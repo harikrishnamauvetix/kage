@@ -1,4 +1,4 @@
-import { useRouter } from "next/router";
+import { useParams, useRouter } from "next/navigation"; 
 import React, { useState,useContext } from "react";
 
 import {
@@ -39,25 +39,31 @@ const Aboutpage = () => {
   const [expanded, setExpanded] = useState(false);
   const data = useContext(DataContext);
   const router = useRouter();
-  const { slug } = router.query;
-  if (!router.isReady || !data) {
+  // const { slug } = router.query;
+  const params = useParams();
+  if (!params?.slug || !data) {
     return <p>Loading...</p>;
   }
 
+  const slug = params.slug.toLowerCase().trim();
 
-  
   const about = data?.about?.subpages?.find((service) => {
-    const sanitizedTitle = service.title
-      .replace(/\s+/g, "-")
-      .toLowerCase()
-      .trim();
-    const sanitizedSlug = slug?.toLowerCase()?.trim();
+    const sanitizedTitle = service.title.replace(/\s+/g, "-").toLowerCase().trim();
+    return sanitizedTitle === slug;
+  });
+  
+  // const about = data?.about?.subpages?.find((service) => {
+  //   const sanitizedTitle = service.title
+  //     .replace(/\s+/g, "-")
+  //     .toLowerCase()
+  //     .trim();
+  //   const sanitizedSlug = slug?.toLowerCase()?.trim();
 
     // console.log("Sanitized Slug:", sanitizedSlug);
     // console.log("Sanitized Service Title:", sanitizedTitle);
 
-    return sanitizedTitle === sanitizedSlug;
-  });
+  //   return sanitizedTitle === sanitizedSlug;
+  // });
   const section = about?.sections;
   //  console.log(section);
   if (!about) {
