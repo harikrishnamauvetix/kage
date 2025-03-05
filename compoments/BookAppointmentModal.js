@@ -86,7 +86,7 @@ const BookAppointmentModal = ({ open, handleClose }) => {
               margin="normal"
               label="Name"
               name="name"
-              value={formData.name}
+          
               onChange={handleChange}
               required
               size="small"
@@ -96,7 +96,7 @@ const BookAppointmentModal = ({ open, handleClose }) => {
               margin="normal"
               label="Email"
               name="email"
-              value={formData.email}
+            
               onChange={handleChange}
               type="email"
               size="small"
@@ -106,7 +106,7 @@ const BookAppointmentModal = ({ open, handleClose }) => {
               margin="normal"
               label="Phone Number"
               name="phone"
-              value={formData.phone}
+             
               onChange={handleChange}
               type="tel"
               required
@@ -120,13 +120,13 @@ const BookAppointmentModal = ({ open, handleClose }) => {
                 labelId="doctor-label"
                 id="doctor-select"
                 name="doctor"
-                value={formData.doctor}
+               
                 onChange={handleChange}
                 label="Select Doctor"
                 required
                 size="small"
               >
-                {data.doctorsList.map((doctor) => (
+                {data?.doctorsList.map((doctor) => (
                   <MenuItem key={doctor.id} value={doctor.name} size="small">
                     {doctor.name}
                   </MenuItem>
@@ -139,7 +139,7 @@ const BookAppointmentModal = ({ open, handleClose }) => {
               margin="normal"
               label="Date"
               name="date"
-              value={formData.date}
+         
               onChange={handleChange}
               type="date"
               InputLabelProps={{ shrink: true }}

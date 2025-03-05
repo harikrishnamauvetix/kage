@@ -36,18 +36,16 @@ import AboutsidebarMenu from "@/compoments/aboutSidebar";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 
 const Aboutpage = () => {
+  const [expanded, setExpanded] = useState(false);
   const data = useContext(DataContext);
-
   const router = useRouter();
   const { slug } = router.query;
-  const [expanded, setExpanded] = useState(false);
-  // const doctor="dd"
-  //console.log(data);
-  // const doctor="dd"
-  //console.log(data.about.subpages);
-  //   const about="ddd";
-  // Fetch doctor details by matching the name from the JSON data
-  //console.log("Slug:", slug);
+  if (!router.isReady || !data) {
+    return <p>Loading...</p>;
+  }
+
+
+  
   const about = data?.about?.subpages?.find((service) => {
     const sanitizedTitle = service.title
       .replace(/\s+/g, "-")

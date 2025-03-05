@@ -42,7 +42,7 @@ export default function AdvancedProcedures() {
       <Header></Header>
       <Breadcrumbsinfo pagename={"Advanced Procedures"} />
 
-      <ProceduresList advancedprocedures={data.advancedprocedures}></ProceduresList>
+      <ProceduresList advancedprocedures={data?.advancedprocedures}></ProceduresList>
       {/* <PatientVideos  patientvideos={data?.Patientvideos}/> */}
       <Footer></Footer>
     </>

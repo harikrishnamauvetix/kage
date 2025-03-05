@@ -1,4 +1,4 @@
-import React ,{useContext} from "react";
+import React, { useContext } from "react";
 import { Box, Typography, Link, Container, IconButton } from "@mui/material";
 import {
   Facebook,
@@ -7,13 +7,12 @@ import {
   LinkedIn,
   YouTube,
 } from "@mui/icons-material";
-import { DataContext } from '../pages/_app';
+import { DataContext } from "../pages/_app";
 import AppointmentForm from "./Bookappointment";
 import Grid from "@mui/material/Grid2";
 export default function Footer() {
-    const data = useContext(DataContext);
+  const data = useContext(DataContext);
   return (
-    
     <>
       <AppointmentForm />
       <Box
@@ -35,22 +34,22 @@ export default function Footer() {
               <Box sx={{ display: "block", alignItems: "center", gap: 1 }}>
                 <Box
                   component="img"
-                  src={data.hospitalInfo?.companylogo}
-                  alt={data.footer.companyInfo.logoAlt}
+                  src={data?.hospitalInfo?.companylogo}
+                  alt={data?.footer.companyInfo.logoAlt}
                   sx={{ height: 50 }}
                 />
               </Box>
               <Typography variant="body2" sx={{ color: "#fff" }}>
-                {data.footer.companyInfo.description}
+                {data?.footer.companyInfo.description}
               </Typography>
             </Grid>
 
             {/* Column 2: Links */}
             <Grid size={{ xs: 12, sm: 6, md: 4 }}>
-              <Typography variant="h6" gutterBottom sx={{color:"#fff"}}>
-                {data.footer.quickLinks.title}
+              <Typography variant="h6" gutterBottom sx={{ color: "#fff" }}>
+                {data?.footer.quickLinks.title}
               </Typography>
-              {data.footer.quickLinks.links.map((link, index) => (
+              {data?.footer.quickLinks.links.map((link, index) => (
                 <Link
                   key={index}
                   href={link.href}
@@ -65,11 +64,11 @@ export default function Footer() {
 
             {/* Column 3: Social Media */}
             <Grid size={{ xs: 12, sm: 6, md: 4 }}>
-              <Typography variant="h6" gutterBottom sx={{color:"#fff"}}>
-                {data.footer.socialMedia.title}
+              <Typography variant="h6" gutterBottom sx={{ color: "#fff" }}>
+                {data?.footer.socialMedia.title}
               </Typography>
               <Box>
-                {data.footer.socialMedia.links.map((social, index) => (
+                {data?.footer.socialMedia.links.map((social, index) => (
                   <IconButton
                     key={index}
                     href={social.href}
@@ -87,16 +86,15 @@ export default function Footer() {
               </Box>
             </Grid>
             <Grid size={{ xs: 12, sm: 6, md: 4 }}>
-              <Typography variant="h6" gutterBottom sx={{color:"#fff"}}>
+              <Typography variant="h6" gutterBottom sx={{ color: "#fff" }}>
                 Speciality Clinics
               </Typography>
               {data?.specialityclinics?.map((service) => (
                 <Grid item xs={12} sm={6} md={6} key={service.title}>
                   <Link
-                    href={`/speciality-clinics/${service.title
-                      .replace(/\s+/g, "-")
+                    href={`/speciality-clinics/${service?.title
+                      ?.replace(/\s+/g, "-")
                       .toLowerCase()}`}
-                 
                     color="#fff"
                   >
                     <Typography variant="body1" sx={{ color: "#fff" }}>
@@ -107,8 +105,8 @@ export default function Footer() {
               ))}
             </Grid>
             <Grid size={{ xs: 12, sm: 6, md: 4 }}>
-              <Typography variant="h6" gutterBottom sx={{color:"#fff"}}>
-              Advanced Equipments & Diagnosis
+              <Typography variant="h6" gutterBottom sx={{ color: "#fff" }}>
+                Advanced Equipments & Diagnosis
               </Typography>
               {data?.services?.map((service) => (
                 <Grid item xs={12} sm={6} md={6} key={service.title}>
@@ -116,7 +114,6 @@ export default function Footer() {
                     href={`/advanced-equipment/${service.title
                       .replace(/\s+/g, "-")
                       .toLowerCase()}`}
-                 
                     color="#fff"
                   >
                     <Typography variant="body1" sx={{ color: "#fff" }}>
@@ -127,8 +124,8 @@ export default function Footer() {
               ))}
             </Grid>
             <Grid size={{ xs: 12, sm: 6, md: 4 }}>
-              <Typography variant="h6" gutterBottom sx={{color:"#fff"}}>
-              Advanced Procedures
+              <Typography variant="h6" gutterBottom sx={{ color: "#fff" }}>
+                Advanced Procedures
               </Typography>
               {data?.advancedprocedures?.map((procedure) => (
                 <Grid item xs={12} sm={6} md={6} key={procedure.title}>
@@ -136,7 +133,6 @@ export default function Footer() {
                     href={`/advanced-procedures/${procedure.title
                       .replace(/\s+/g, "-")
                       .toLowerCase()}`}
-                 
                     color="#fff"
                   >
                     <Typography variant="body1" sx={{ color: "#fff" }}>
@@ -149,9 +145,9 @@ export default function Footer() {
           </Grid>
 
           {/* Footer Bottom */}
-          <Box sx={{ marginTop: 4, textAlign: "center" ,}}>
-            <Typography variant="body2" sx={{color:"#fff"}}>
-              {data.footer.footerBottom.text}
+          <Box sx={{ marginTop: 4, textAlign: "center" }}>
+            <Typography variant="body2" sx={{ color: "#fff" }}>
+              {data?.footer.footerBottom.text}
             </Typography>
           </Box>
         </Container>

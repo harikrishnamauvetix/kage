@@ -39,7 +39,7 @@ const DoctorVideos = (props) => {
             {/* Doctor Videos Section */}
             <Box>
               <Grid container spacing={2}>
-                {props.doctorvideos.map((video, index) => (
+                {props?.doctorvideos?.map((video, index) => (
                   <Grid size={{ xs: 12, sm: 6, md: 4 }} key={index}>
                     <Card>
                       <div

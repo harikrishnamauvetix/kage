@@ -37,7 +37,7 @@ const Testimonials = () => {
             margin: "20px 0",
           })}
         >
-          <PatientVideos patientvideos={data.Patientvideos} />
+          <PatientVideos patientvideos={data?.Patientvideos} />
         </Grid2>
       </Container>
       <Footer />

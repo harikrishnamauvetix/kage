@@ -109,7 +109,7 @@ const ContactUs = () => {
             {console.log(data?.hospitalInfo)}
             {data?.hospitalInfo?.map?.iframelink ? (
               <iframe
-                src={data.hospitalInfo.map.iframelink}
+                src={data?.hospitalInfo.map.iframelink}
                 width="100%"
                 height="400px"
                 allowFullScreen=""

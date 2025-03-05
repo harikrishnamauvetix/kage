@@ -26,11 +26,13 @@ const CourseDetail = () => {
   
   const router = useRouter();
   const { slug } = router.query;
-
+  if (!router.isReady || !data) {
+    return <p>Loading...</p>;
+  }
   // const doctor="dd"
   // console.log(data);
   // const doctor="dd"
-  // console.log(data.courseDetails);
+  // console.log(data?.courseDetails);
   // Fetch doctor details by matching the name from the JSON data
   const courseDetails = data?.courseDetails?.find(
     (course) => course.title.replace(/\s+/g, "-").toLowerCase() === slug

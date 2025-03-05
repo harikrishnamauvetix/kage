@@ -36,7 +36,7 @@ const Doctors = () => {
 
       <Container maxWidth="lg">
         <Grid2 container spacing={2}>
-          <DoctorsLists doctorsList={data.doctorsList} />
+          <DoctorsLists doctorsList={data?.doctorsList} />
         </Grid2>
       </Container>
 

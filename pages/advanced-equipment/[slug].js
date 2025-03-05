@@ -45,10 +45,13 @@ const Servicespage = () => {
   const router = useRouter();
   const { slug } = router.query;
   const [expanded, setExpanded] = useState(false);
+  if (!router.isReady || !data) {
+    return <p>Loading...</p>;
+  }
   // const doctor="dd"
   console.log(data);
   // const doctor="dd"
-  console.log(data.services);
+  console.log(data?.services);
   // Fetch doctor details by matching the name from the JSON data
   const servicespage = data?.services?.find(
     (item) => item.title.replace(/\s+/g, "-").toLowerCase() === slug

@@ -33,7 +33,7 @@ const PatientVideos = (props) => {
         Patient Testimonials
       </Typography>
       <Grid container spacing={2}>
-        {props.patientvideos.map((video, index) => (
+        {props?.patientvideos?.map((video, index) => (
           <Grid size={{ xs: 12, sm: 6, md: 4 }} key={index}>
             <Card>
               <div

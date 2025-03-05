@@ -48,7 +48,7 @@ const Testimonials = () => {
         <Grid container spacing={2}  sx={(theme) => ({
                 margin:"20px 0"
                 })}>
-          {data.testimonials.map((testimonial) => (
+          {data?.testimonials.map((testimonial) => (
             <Grid size={{ xs: 12, sm: 6, md: 6 }} key={testimonial.index}>
               <Stack
                 direction="column"

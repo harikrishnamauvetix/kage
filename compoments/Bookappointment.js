@@ -65,7 +65,7 @@ export default function AppointmentForm() {
                 <TextField
                   fullWidth
                   label="Name"
-                  value={formData.name}
+                
                   onChange={(e) => setName(e.target.value)}
                   margin="normal"
                   size="small"
@@ -76,7 +76,7 @@ export default function AppointmentForm() {
                 <TextField
                   fullWidth
                   label="Email"
-                  value={formData.email}
+               
                   onChange={(e) => setEmail(e.target.value)}
                   margin="normal"
                   type="email"
@@ -88,7 +88,7 @@ export default function AppointmentForm() {
                 <TextField
                   fullWidth
                   label="Phone Number"
-                  value={formData.phoneNumber}
+                
                   onChange={(e) => setPhoneNumber(e.target.value)}
                   margin="normal"
                   type="tel"
@@ -102,13 +102,13 @@ export default function AppointmentForm() {
                   <Select
                     id="doctor-select"
                     name="doctor"
-                    value={formData.doctor}
+                  
                     onChange={handleChange}
                     label="Select Doctor"
                     required
                     size="small"
                   >
-                    {data.doctorsList.map((doctor) => (
+                    {data?.doctorsList.map((doctor) => (
                       <MenuItem key={doctor.id} value={doctor.name}>
                         {doctor.name}
                       </MenuItem>
@@ -122,7 +122,7 @@ export default function AppointmentForm() {
                   margin="normal"
                   label="Date"
                   name="date"
-                  value={formData.date}
+                
                   onChange={handleChange}
                   type="date"
                   size="small"

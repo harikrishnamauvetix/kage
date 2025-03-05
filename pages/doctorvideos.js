@@ -29,7 +29,7 @@ const Doctorvideos = () => {
     <>
       <Header></Header>
       <Breadcrumbsinfo pagename={"Doctor's Talk's"} />
-      <DoctorVideos doctorvideos={data.doctorvideos} />
+      <DoctorVideos doctorvideos={data?.doctorvideos} />
       <Footer />
     </>
   );

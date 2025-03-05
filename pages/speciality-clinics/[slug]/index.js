@@ -30,22 +30,26 @@ export default function ServicePage() {
    const data = useContext(DataContext);
   const router = useRouter();
   const { slug } = router.query;
-
-  // States to manage service and loading status
   const [service, setService] = useState(null);
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     if (!slug) return;
 
-    if (data && data.specialityclinics) {
-      const foundSpeciality = data.specialityclinics.find(
+    if (data && data?.specialityclinics) {
+      const foundSpeciality = data?.specialityclinics.find(
         (item) => item.title.replace(/\s+/g, "-").toLowerCase() === slug
       );
       setService(foundSpeciality);
       setLoading(false);
     }
   }, [slug, data]);
+  if (!router.isReady || !data) {
+    return <p>Loading...</p>;
+  }
+  // States to manage service and loading status
+
+
+
 
   // Show loading until the data is ready
   if (loading) {

@@ -31,7 +31,7 @@ const About = () => {
       <Header></Header>
       <Breadcrumbsinfo
         service={"About Us"}
-        pagename={service.slug}
+        pagename={service?.slug}
       ></Breadcrumbsinfo>
       <Container maxWidth="xl">
         <Box
@@ -60,14 +60,14 @@ const About = () => {
                     textAlign: "left",
                   }}
                 >
-                  {data.about.subHeading}
+                  {data?.about.subHeading}
                 </Typography>
                 <Typography
                   variant="body1"
                   color="text.secondary"
                   sx={{ textAlign: "justify" }}
                 >
-                  {data.about.Description}
+                  {data?.about.Description}
                 </Typography>
               </Stack>
               <Typography
@@ -75,10 +75,10 @@ const About = () => {
                 color="text.secondary"
                 sx={{ textAlign: "justify", margin: "10px 0" }}
               >
-                {data.about.specialtyClinics.description}
+                {data?.about.specialtyClinics.description}
               </Typography>
               <Grid container spacing={4} justifyContent={"center"}>
-                {data.about.specialtyClinics.list.map(
+                {data?.about.specialtyClinics.list.map(
                   (clinic, index) => (
                     <Grid
                       size={{ xs: 12, sm: 6, md: 6, lg: 4, xl: 4 }}
@@ -127,10 +127,10 @@ const About = () => {
                   align="left"
                   sx={{ margin: "10px 0", color: "secondary.main" }}
                 >
-                  {data.about.stateOfTheArtEndoscopyUnit.heading}
+                  {data?.about.stateOfTheArtEndoscopyUnit.heading}
                 </Typography>
                 <List disablePadding>
-                  {data.about.stateOfTheArtEndoscopyUnit.Details.map(
+                  {data?.about.stateOfTheArtEndoscopyUnit.Details.map(
                     (detail, index) => (
                       <ListItem key={index} disablePadding>
                         <Box display="flex" alignItems="center" sx={{ gap: 1 }}>
@@ -157,17 +157,17 @@ const About = () => {
                   textAlign: "left",
                 }}
               >
-                {data.about.centerOfExcellence.heading}
+                {data?.about.centerOfExcellence.heading}
               </Typography>
               <Typography
                 variant="body1"
                 paragraph
                 sx={{ textAlign: "justify" }}
               >
-                {data.about.centerOfExcellence.description}
+                {data?.about.centerOfExcellence.description}
               </Typography>
               <List disablePadding>
-                {data.about.centerOfExcellence.Certifications.map(
+                {data?.about.centerOfExcellence.Certifications.map(
                   (cert, index) => (
                     <ListItem key={index} disablePadding>
                       <Box display="flex" alignItems="center" sx={{ gap: 1 }}>
@@ -196,7 +196,7 @@ const About = () => {
                 paragraph
                 sx={{ textAlign: "justify" }}
               >
-                {data.about.Mission}
+                {data?.about.Mission}
               </Typography>
 
               <Typography
@@ -207,7 +207,7 @@ const About = () => {
                   textAlign: "justify",
                 }}
               >
-                {data.about.Tagline}
+                {data?.about.Tagline}
               </Typography>
             </Grid>
           </Grid>

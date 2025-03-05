@@ -40,7 +40,7 @@ export default function SpecialityList() {
       <Header></Header>
       <Breadcrumbsinfo pagename={"Speciality Clinics At KAGE"}  />
 
-      <SpecialityClinics specialityclinics={data.specialityclinics} />
+      <SpecialityClinics specialityclinics={data?.specialityclinics} />
 
       <Footer></Footer>
     </>

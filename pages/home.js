@@ -53,13 +53,13 @@ const Home = () => {
           modules={[Navigation, Pagination, A11y]}
           spaceBetween={50}
           slidesPerView={1}
-          navigation={data.bannerImage.length > 1}
+          navigation={data?.bannerImage.length > 1}
           pagination={{ clickable: true }}
 
           // onSwiper={(swiper) => console.log(swiper)}
           // onSlideChange={() => console.log('slide change')}
         >
-          {data.bannerImage.map((slide, index) => (
+          {data?.bannerImage.map((slide, index) => (
             <SwiperSlide key={index}>
               <img src={slide.image} alt={slide.alt} width={"100%"} />
             </SwiperSlide>
@@ -69,22 +69,22 @@ const Home = () => {
           <AboutSection homeabout={data} />
 
           <SpecialityClinics
-            specialityclinics={data.specialityclinics}
+            specialityclinics={data?.specialityclinics}
           />
 
-          <DoctorsLists doctorsList={data.doctorsList}></DoctorsLists>
+          <DoctorsLists doctorsList={data?.doctorsList}></DoctorsLists>
           <ProceduresList
-            advancedprocedures={data.advancedprocedures}
+            advancedprocedures={data?.advancedprocedures}
           ></ProceduresList>
-          <Services services={data.services} />
-          <CourseList courselist={data.courseDetails} />
+          <Services services={data?.services} />
+          <CourseList courselist={data?.courseDetails} />
           <Container>
-          <PatientVideos patientvideos={data.Patientvideos} />
+          <PatientVideos patientvideos={data?.Patientvideos} />
           </Container>
-          <DoctorVideos doctorvideos={data.doctorvideos} />
+          <DoctorVideos doctorvideos={data?.doctorvideos} />
 
       </Box>
-      <Contactinfo Contactinfo={data.hospitalInfo} />
+      <Contactinfo Contactinfo={data?.hospitalInfo} />
       {/* <AppointmentForm></AppointmentForm> */}
       <Footer></Footer>
     </Box>

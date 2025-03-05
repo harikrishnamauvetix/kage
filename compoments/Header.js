@@ -133,7 +133,7 @@ const Navbar = () => {
             alignItems: "center",
           }}
         >
-          <PhoneIcon sx={{ color: "#fff", marginRight: "5px" }} /> Call {data.hospitalInfo?.phoneNumber} To Book An Appointment
+          <PhoneIcon sx={{ color: "#fff", marginRight: "5px" }} /> Call {data?.hospitalInfo?.phoneNumber} To Book An Appointment
         </Typography>
       </Box> */}
       <Box sx={{ backgroundColor: "white", boxShadow: "none" }}>
@@ -143,7 +143,7 @@ const Navbar = () => {
             <Link href="/home" passHref>
             <Box
                 component="img"
-                src={data.hospitalInfo?.companylogo}
+                src={data?.hospitalInfo?.companylogo}
                 alt="Logo"
                 sx={{ width: { xs: 200, sm: 200, md: 300 ,lg:"auto"}, height: "auto" }}
               />
@@ -162,7 +162,7 @@ const Navbar = () => {
                     aria-label="Email Icon"
                   />
                   <Typography variant="body2" sx={{ color: "text.primary" }}>
-                    {data.hospitalInfo?.emailid}
+                    {data?.hospitalInfo?.emailid}
                   </Typography>
                 </Box>
                 <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
@@ -171,7 +171,7 @@ const Navbar = () => {
                     aria-label="Phone Icon"
                   />
                   <Typography variant="body2" sx={{ color: "text.primary" }}>
-                    Call: {data.hospitalInfo?.phoneNumber}
+                    Call: {data?.hospitalInfo?.phoneNumber}
                   </Typography>
                 </Box>
               </Box>

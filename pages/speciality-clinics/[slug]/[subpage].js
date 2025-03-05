@@ -57,17 +57,21 @@ export default function SubServicePage() {
       console.log("Slug or subpage is missing");
       return;
     }
+  if (!router.isReady || !data) {
+    return <p>Loading...</p>;
+  }
+
 
     // Normalize both slug and page to ensure they match despite different formats
     const normalizedSlug = slug.replace(/-/g, " "); // Replace dashes with spaces
     const normalizedSubpage = subpage.replace(/-/g, " "); // Normalize subpage as well
 
     // Find the service based on the normalized slug
-    const foundService = data.specialityclinics.find(
+    const foundService = data?.specialityclinics.find(
       (s) => s.page.toLowerCase() === normalizedSlug.toLowerCase()
     );
     // console.log("Found Service:", foundService);
-    // console.log("data", data.services);
+    // console.log("data", data?.services);
     // console.log("slug", normalizedSlug);
     // console.log("subpage", normalizedSubpage);
     if (!foundService) {

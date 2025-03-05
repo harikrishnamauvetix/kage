@@ -46,10 +46,12 @@ const Advancedprocedures = () => {
   const router = useRouter();
   const { slug } = router.query;
   const [expanded, setExpanded] = useState(false);
-
+  if (!router.isReady || !data) {
+    return <p>Loading...</p>;
+  }
   // console.log(data);
 
-  // console.log(data.items);
+  // console.log(data?.items);
 
   const advancedprocedures = data?.advancedprocedures?.find(
     (item) => item.title.replace(/\s+/g, "-").toLowerCase() === slug
