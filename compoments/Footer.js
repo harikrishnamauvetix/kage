@@ -95,7 +95,8 @@ export default function Footer() {
                     href={`/speciality-clinics/${service?.title
                       ?.replace(/\s+/g, "-")
                       .toLowerCase()}`}
-                    color="#fff"
+                      passHref
+                    underline="none"
                   >
                     <Typography variant="body1" sx={{ color: "#fff" }}>
                       {service.title}
@@ -114,7 +115,8 @@ export default function Footer() {
                     href={`/advanced-equipment/${service.title
                       .replace(/\s+/g, "-")
                       .toLowerCase()}`}
-                    color="#fff"
+                    passHref
+                      underline="none"
                   >
                     <Typography variant="body1" sx={{ color: "#fff" }}>
                       {service.title}
@@ -133,7 +135,9 @@ export default function Footer() {
                     href={`/advanced-procedures/${procedure.title
                       .replace(/\s+/g, "-")
                       .toLowerCase()}`}
-                    color="#fff"
+                      passHref
+                        underline="none"
+                   
                   >
                     <Typography variant="body1" sx={{ color: "#fff" }}>
                       {procedure.title}
