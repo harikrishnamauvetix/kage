@@ -1,4 +1,4 @@
-import React, { useState,useContext } from "react";
+import React, { useState,useContext ,useEffect} from "react";
 import { useParams, useRouter } from "next/navigation"; 
 
 import {
@@ -23,16 +23,22 @@ import AboutsidebarMenu from "@/compoments/aboutSidebar";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 const About = () => {
-    const data = useContext(DataContext);
-    if (!data) {
-      return <Typography variant="h6">Loading...</Typography>;
-    }
-      const router = useRouter();
+  const data = useContext(DataContext);
+  const router = useRouter();
 
-  const [service, setService] = useState(data?.about);
-  const [slug, setslug] = useState(data?.about.page);
-  //  slug
-  console.log(slug)
+  const [service, setService] = useState({});
+  const [slug, setSlug] = useState("");
+
+  useEffect(() => {
+    if (data?.about) {
+      setService(data.about);
+      setSlug(data.about.page || "");
+    }
+  }, [data]);
+
+  if (!data) {
+    return <Typography variant="h6">Loading...</Typography>;
+  }
   return (
     <>
       <Header></Header>
