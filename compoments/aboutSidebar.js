@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 const AboutsidebarMenu = ({ service }) => {
+  console.log(service);
   const router = useRouter();
   const { slug: currentSlug } = router.query;
 

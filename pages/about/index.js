@@ -1,4 +1,5 @@
 import React, { useState,useContext } from "react";
+import { useParams, useRouter } from "next/navigation"; 
 
 import {
   Container,
@@ -23,9 +24,15 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 const About = () => {
     const data = useContext(DataContext);
+    if (!data) {
+      return <Typography variant="h6">Loading...</Typography>;
+    }
+      const router = useRouter();
+
   const [service, setService] = useState(data?.about);
   const [slug, setslug] = useState(data?.about.page);
   //  slug
+  console.log(slug)
   return (
     <>
       <Header></Header>
@@ -217,6 +224,7 @@ const About = () => {
       <Footer></Footer>
     </>
   );
+
 };
 
 export default About;
