@@ -225,6 +225,11 @@ const Servicespage = () => {
     </>
   );
 };
-
-
+export async function getServerSideProps({ params }) {
+  return {
+    props: {
+      slug: params.slug, 
+    },
+  };
+}
 export default Servicespage;
