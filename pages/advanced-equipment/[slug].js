@@ -41,9 +41,11 @@ import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import { CheckCircle, Padding } from "@mui/icons-material";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 const Servicespage = () => {
+  console.log("sss")
    const data = useContext(DataContext);
   const router = useRouter();
   const { slug } = router.query;
+  console.log(slug);
   const [expanded, setExpanded] = useState(false);
   if (!router.isReady || !data) {
     return <p>Loading...</p>;
@@ -72,6 +74,7 @@ const Servicespage = () => {
   const handleFaqToggle = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
+  
   return (
     <>
       <Header></Header>
@@ -222,5 +225,6 @@ const Servicespage = () => {
     </>
   );
 };
+
 
 export default Servicespage;
