@@ -1,4 +1,5 @@
 import React, { useState,useContext } from "react";
+import websiteJson from "../../public/website.json";
 import { useRouter } from "next/router";
 import {
   Container,
@@ -40,30 +41,19 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import { CheckCircle, Padding } from "@mui/icons-material";
 import PatientVideos from "@/compoments/Home/PatientVideos";
-const Servicespage = () => {
-  console.log("sss")
-   const data = useContext(DataContext);
+const Servicespage = ({ servicesPageContent }) => {
   const router = useRouter();
-  const { slug } = router.query;
-  console.log(slug);
   const [expanded, setExpanded] = useState(false);
-  if (!router.isReady || !data) {
+
+  if (router.isFallback) {
     return <p>Loading...</p>;
   }
-  // const doctor="dd"
-  console.log(data);
-  // const doctor="dd"
-  console.log(data?.services);
-  // Fetch doctor details by matching the name from the JSON data
-  const servicespage = data?.services?.find(
-    (item) => item.title.replace(/\s+/g, "-").toLowerCase() === slug
-  );
 
-  if (!servicespage) {
+  if (!servicesPageContent) {
     return (
       <Container>
         <Typography variant="h4" color="error">
-          Doctor not found
+          Service not found
         </Typography>
         <Button variant="contained" onClick={() => router.push("/")}>
           Go Back to Home
@@ -71,16 +61,16 @@ const Servicespage = () => {
       </Container>
     );
   }
+
   const handleFaqToggle = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
-  
   return (
     <>
       <Header></Header>
       <Breadcrumbsinfo
         service={"Advanced Equipment"}
-        pagename={servicespage.title}
+        pagename={servicesPageContent.title}
       />
       <Box>
         <Container maxWidth="xl">
@@ -100,17 +90,17 @@ const Servicespage = () => {
                     color: "secondary.main",
                   }}
                 >
-                  {servicespage.title}
+                  {servicesPageContent.title}
                 </Typography>
 
                 <Box mt={2}>
-                  <Typography>{servicespage.description}</Typography>
+                  <Typography>{servicesPageContent.description}</Typography>
                   <Typography variant="h5" gutterBottom>
-                    {servicespage.subtitle}
+                    {servicesPageContent.subtitle}
                   </Typography>
                 </Box>
               </Stack>
-              {servicespage?.content?.map((service, index) => (
+              {servicesPageContent?.content?.map((service, index) => (
                 <Box key={index} sx={{ marginBottom: 3 }}>
                   <Box>
                     <Typography
@@ -123,8 +113,8 @@ const Servicespage = () => {
                     >
                       {service.title}
                     </Typography>
-                    {servicespage.content &&
-                      servicespage.content.map((contentItem, cIndex) => (
+                    {servicesPageContent.content &&
+                      servicesPageContent.content.map((contentItem, cIndex) => (
                         <div key={cIndex}>
                           <Typography
                             variant="h5"
@@ -225,11 +215,32 @@ const Servicespage = () => {
     </>
   );
 };
-export async function getServerSideProps({ params }) {
+
+// **Generate static paths for each service page**
+export async function getStaticPaths() {
+  const data = websiteJson;
+  const paths = data.services.map((service) => ({
+    params: { slug: service.title.replace(/\s+/g, "-").toLowerCase() },
+  }));
+
+  return { paths, fallback: true };
+}
+
+// **Fetch service data at build time**
+export async function getStaticProps({ params }) {
+  const data = websiteJson;
+  const servicesPageContent = data.services.find(
+    (item) => item.title.replace(/\s+/g, "-").toLowerCase() === params.slug
+  );
+
+  if (!servicesPageContent) {
+    return { notFound: true };
+  }
+
   return {
-    props: {
-      slug: params.slug, 
-    },
+    props: { servicesPageContent },
+ 
   };
 }
+
 export default Servicespage;
