@@ -1,4 +1,6 @@
 import React, { useState,useContext } from "react";
+import websiteJson from "../../public/website.json";
+
 import { useRouter } from "next/router";
 import {
   Container,
@@ -33,17 +35,17 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import Optimings from "@/compoments/Doctors/Optimings";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
-const DoctorDetails = () => {
-     const data = useContext(DataContext);
+const DoctorDetails = ({doctor}) => {
+    //  const data = useContext(DataContext);
   
   const router = useRouter();
   const { slug } = router.query;
   // const doctor="dd"
   // console.log(slug);
   // Fetch doctor details by matching the name from the JSON data
-  const doctor = data?.doctorsList.find(
-    (doc) => doc.name.replace(/\s+/g, "-").toLowerCase() === slug
-  );
+  // const doctor = data?.doctorsList.find(
+  //   (doc) => doc.name.replace(/\s+/g, "-").toLowerCase() === slug
+  // );
 
   // Handle case when doctor is not found
   if (!doctor) {
@@ -317,5 +319,30 @@ const DoctorDetails = () => {
     </>
   );
 };
+export async function getStaticPaths() {
+  const data = websiteJson;
+  const paths = data.doctorsList.map((doc) => ({
+    params: { slug: doc?.name?.replace(/\s+/g, "-").toLowerCase() },
+  }));
 
+  return { paths, fallback: false };
+}
+
+
+export async function getStaticProps({ params }) {
+  const data = websiteJson;
+  console.log(params);
+  const doctor = data.doctorsList.find(
+    (doc) => doc.name.replace(/\s+/g, "-").toLowerCase() === params.slug
+  );
+
+  if (!doctor) {
+    return { notFound: true };
+  }
+
+  return {
+    props: { doctor },
+ 
+  };
+}
 export default DoctorDetails;

@@ -1,4 +1,5 @@
 import React, { useState,useContext } from "react";
+import websiteJson from "../../public/website.json";
 import { useRouter } from "next/router";
 import {
   Container,
@@ -40,22 +41,19 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import { CheckCircle, Padding } from "@mui/icons-material";
 import PatientVideos from "@/compoments/Home/PatientVideos";
-const Advancedprocedures = () => {
-     const data = useContext(DataContext);
+const Advancedprocedures = ({advancedprocedures}) => {
+   
   
   const router = useRouter();
   const { slug } = router.query;
   const [expanded, setExpanded] = useState(false);
-  if (!router.isReady || !data) {
+  if (!advancedprocedures) {
     return <p>Loading...</p>;
   }
   // console.log(data);
 
   // console.log(data?.items);
 
-  const advancedprocedures = data?.advancedprocedures?.find(
-    (item) => item.title.replace(/\s+/g, "-").toLowerCase() === slug
-  );
   const renderList = (items, IconComponent) => (
     <List disablePadding sx={{ padding: "0px" }}>
       {items.map((item, idx) => (
@@ -245,5 +243,31 @@ const Advancedprocedures = () => {
     </>
   );
 };
+
+export async function getStaticPaths() {
+  const data = websiteJson;
+  const paths = data.advancedprocedures.map((service) => ({
+    params: { slug: service.title.replace(/\s+/g, "-").toLowerCase() },
+  }));
+
+  return { paths, fallback: false };
+}
+
+
+export async function getStaticProps({ params }) {
+  const data = websiteJson;
+  const advancedprocedures = data.advancedprocedures.find(
+    (item) => item.title.replace(/\s+/g, "-").toLowerCase() === params.slug
+  );
+
+  if (!advancedprocedures) {
+    return { notFound: true };
+  }
+
+  return {
+    props: { advancedprocedures },
+ 
+  };
+}
 
 export default Advancedprocedures;

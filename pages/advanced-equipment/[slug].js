@@ -216,17 +216,17 @@ const Servicespage = ({ servicesPageContent }) => {
   );
 };
 
-// **Generate static paths for each service page**
+
 export async function getStaticPaths() {
   const data = websiteJson;
   const paths = data.services.map((service) => ({
     params: { slug: service.title.replace(/\s+/g, "-").toLowerCase() },
   }));
 
-  return { paths, fallback: true };
+  return { paths, fallback: false };
 }
 
-// **Fetch service data at build time**
+
 export async function getStaticProps({ params }) {
   const data = websiteJson;
   const servicesPageContent = data.services.find(

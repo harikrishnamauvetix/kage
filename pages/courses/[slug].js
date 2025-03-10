@@ -1,5 +1,5 @@
 import React, { useState,useContext } from "react";
-import { DataContext } from '../_app';
+import websiteJson from "../../public/website.json";
 import {
   Container,
   Accordion,
@@ -21,12 +21,11 @@ import { useRouter } from "next/router";
 import Header from "@/compoments/Header";
 import Footer from "@/compoments/Footer";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
-const CourseDetail = () => {
-     const data = useContext(DataContext);
+const CourseDetail = ({courseDetails}) => {
   
   const router = useRouter();
   const { slug } = router.query;
-  if (!router.isReady || !data) {
+  if (!courseDetails) {
     return <p>Loading...</p>;
   }
   // const doctor="dd"
@@ -34,9 +33,9 @@ const CourseDetail = () => {
   // const doctor="dd"
   // console.log(data?.courseDetails);
   // Fetch doctor details by matching the name from the JSON data
-  const courseDetails = data?.courseDetails?.find(
-    (course) => course.title.replace(/\s+/g, "-").toLowerCase() === slug
-  );
+  // const courseDetails = data?.courseDetails?.find(
+  //   (course) => course.title.replace(/\s+/g, "-").toLowerCase() === slug
+  // );
   if (!courseDetails) {
     return (
       <Container>
@@ -206,5 +205,30 @@ const CourseDetail = () => {
     </>
   );
 };
+export async function getStaticPaths() {
+  const data = websiteJson;
+  const paths = data.courseDetails.map((service) => ({
+    params: { slug: service.title.replace(/\s+/g, "-").toLowerCase() },
+  }));
+
+  return { paths, fallback: false };
+}
+
+
+export async function getStaticProps({ params }) {
+  const data = websiteJson;
+  const courseDetails = data.courseDetails.find(
+    (item) => item.title.replace(/\s+/g, "-").toLowerCase() === params.slug
+  );
+
+  if (!courseDetails) {
+    return { notFound: true };
+  }
+
+  return {
+    props: { courseDetails },
+ 
+  };
+}
 
 export default CourseDetail;

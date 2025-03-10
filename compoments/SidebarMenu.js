@@ -7,17 +7,13 @@ const SidebarMenu = ({ service }) => {
   const router = useRouter();
   const { subpage: currentSubpage } = router.query;
 
-  // Helper function to format slugs
   const formatSlug = (slug) => slug?.replace(/ /g, "-") || "";
 
-  // Extract current slug and base path
   const currentSlug = service?.slug || router.query.slug;
   const basePath = router.pathname.split("/")[1];
-
-  // Generate main page link
+  console.log(currentSlug);
   const pageLink = `/${basePath}/${formatSlug(currentSlug)}`;
 
-  // Check if the main page is active
   const isMainPageActive = currentSlug === formatSlug(currentSlug) && !currentSubpage;
 
   return (

@@ -1,4 +1,5 @@
 import React, { useState, useEffect ,useContext} from "react";
+import websiteJson from "../../../public/website.json";
 
 import { useRouter } from "next/router";
 import { Typography, Container, Box, Stack } from "@mui/material";
@@ -26,38 +27,39 @@ import ServicesDetails from "@/compoments/Services/ServicesDetails";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import Faq from "@/compoments/Services/Faq";
 
-export default function ServicePage() {
-   const data = useContext(DataContext);
+export default function ServicePage({specialityclinics}) {
+ // console.log(specialityclinics);
   const router = useRouter();
   const { slug } = router.query;
-  const [service, setService] = useState(null);
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    if (!slug) return;
+  const [service, setService] = useState(specialityclinics);
 
-    if (data && data?.specialityclinics) {
-      const foundSpeciality = data?.specialityclinics.find(
-        (item) => item.title.replace(/\s+/g, "-").toLowerCase() === slug
-      );
-      setService(foundSpeciality);
-      setLoading(false);
-    }
-  }, [slug, data]);
-  if (!router.isReady || !data) {
-    return <p>Loading...</p>;
-  }
+useEffect(() => {
+  setService(specialityclinics);
+}, [specialityclinics]); 
+
+  console.log(slug);
+  // useEffect(() => {
+  //   if (!slug) return;
+
+  //   if (data && data?.specialityclinics) {
+  //     const foundSpeciality = data?.specialityclinics.find(
+  //       (item) => item.title.replace(/\s+/g, "-").toLowerCase() === slug
+  //     );
+  //     setService(foundSpeciality);
+  //     setLoading(false);
+  //   }
+  // }, [slug, data]);
+  // if (!specialityclinics) {
+  //   return <p>Loading...</p>;
+  // }
   // States to manage service and loading status
 
 
 
 
-  // Show loading until the data is ready
-  if (loading) {
-    return <Typography>Loading...</Typography>;
-  }
 
   // If no service is found, show the "Service not found" message
-  if (!service) {
+  if (!specialityclinics) {
     return (
       <Container>
         <Typography variant="h6">Service not found.</Typography>
@@ -65,7 +67,7 @@ export default function ServicePage() {
     );
   }
 
-  const content = service.content;
+  const content = specialityclinics.content;
 
   if (!content) {
     return (
@@ -197,4 +199,33 @@ export default function ServicePage() {
       <Footer></Footer>
     </>
   );
+
+  
+}
+
+export async function getStaticPaths() {
+  const data = websiteJson;
+  const paths = data.specialityclinics.map((item) => ({
+    params: { slug: item?.title?.replace(/\s+/g, "-").toLowerCase() },
+  }));
+
+  return { paths, fallback: false };
+}
+
+
+export async function getStaticProps({ params }) {
+  const data = websiteJson;
+  console.log(params);
+  const specialityclinics = data.specialityclinics.find(
+    (item) => item.title.replace(/\s+/g, "-").toLowerCase() === params.slug
+  );
+
+  if (!specialityclinics) {
+    return { notFound: true };
+  }
+
+  return {
+    props: { specialityclinics },
+ 
+  };
 }
