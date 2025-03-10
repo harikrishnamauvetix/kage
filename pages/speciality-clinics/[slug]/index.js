@@ -209,7 +209,7 @@ export async function getStaticPaths() {
     params: { slug: item?.title?.replace(/\s+/g, "-").toLowerCase() },
   }));
 
-  return { paths, fallback: false };
+  return { paths, fallback: true };
 }
 
 
