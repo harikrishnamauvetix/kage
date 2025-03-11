@@ -40,7 +40,8 @@ const Doctorvideos = () => {
                 color: "secondary.main",
               }}
             >
-              Doctor's Talk's
+            Doctor&apos;s Talk&apos;s 
+
             </Typography>
             {/* Doctor Videos Section */}
             <Box>
