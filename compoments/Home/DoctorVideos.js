@@ -1,4 +1,4 @@
-import React, { useState,useContext } from "react";
+import React, { useState, useContext } from "react";
 import {
   Box,
   Container,
@@ -39,7 +39,7 @@ const DoctorVideos = (props) => {
             {/* Doctor Videos Section */}
             <Box>
               <Grid container spacing={2}>
-                {props?.doctorvideos?.map((video, index) => (
+                {props?.doctorvideos?.slice(0, 3).map((video, index) => (
                   <Grid size={{ xs: 12, sm: 6, md: 4 }} key={index}>
                     <Card>
                       <div
@@ -76,6 +76,22 @@ const DoctorVideos = (props) => {
                     </Card>
                   </Grid>
                 ))}
+
+                <Grid size={{ xs: 12, sm: 12, md: 12 }}>
+                  <Box display="flex" justifyContent="center" mt={2}>
+                    <Link href="/doctorvideos" passHref>
+                      <Button
+                        variant="contained"
+                        sx={{
+                          backgroundColor: "secondary.main",
+                          textAlign: "center",
+                        }}
+                      >
+                        View More Videos
+                      </Button>
+                    </Link>
+                  </Box>
+                </Grid>
               </Grid>
             </Box>
           </Box>

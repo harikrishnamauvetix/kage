@@ -83,11 +83,11 @@
             "heading": "KIMS Hospitals",
             "description": [
               "We are one of India's largest corporate healthcare groups, with a strong presence in Telangana, Andhra Pradesh, Maharashtra, and Kerala. Our network of hospitals under the 'KIMS Hospitals' brand provides integrated, multi-disciplinary healthcare services, focusing on tertiary and quaternary care at affordable prices. With 15 multi-specialty hospitals and a combined capacity of over 4,900 beds, we offer a comprehensive range of services across more than 25 specialties and super specialties, including cardiac sciences, oncology, neurosciences, gastroenterology, orthopedics, organ transplantation, renal sciences, and mother & child care."
-         ]
+            ]
           },
-          "button":{
-            "label":"Know More",
-            "btnUrl":"https://www.kimshospitals.com/"
+          "button": {
+            "label": "Know More",
+            "btnUrl": "https://www.kimshospitals.com/"
           }
         }
       },
@@ -4742,7 +4742,6 @@
               }
             ]
           },
-     
           "conditions": {
             "heading": "Obesity Isn’t Just a Condition—It’s a Call for Change",
             "lists": [
@@ -4751,7 +4750,6 @@
                 "title": "",
                 "description": "At the KIMS Advanced Gastroenterology & Endoscopy - KAGE Obesity Clinic, we don’t just treat the symptoms—we treat you. Our goal is to empower you to reclaim your health, confidence, and vitality through personalized, sustainable solutions. "
               }
-              
             ]
           },
           "treatments": {
@@ -5906,7 +5904,7 @@
               }
             ]
           },
-          "faqs":{
+          "faqs": {
             "heading": "FAQs About GI Motility Disorders",
             "faq": [
               {
@@ -5931,7 +5929,6 @@
               }
             ]
           },
-          
           "take_charge": {
             "heading": "Take the First Step Toward Better Digestive Health!",
             "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, our team of specialists is here to guide you through every step of diagnosing and managing GI motility disorders. Book a consultation today to get started on your journey to improved digestive health."
@@ -8253,7 +8250,7 @@
       "id": 9,
       "title": "Alcohol Clinic",
       "description": "Clinic for Alcohol-Related Gastrointestinal and Liver Disorders",
-       "icon": "/Images/Icons/latest-icons/alcohol-clinic.png",
+      "icon": "/Images/Icons/latest-icons/alcohol-clinic.png",
       "page": "Alcohol Clinic",
       "content": {
         "title": "Alcohol Clinic",
@@ -9719,6 +9716,10 @@
       "title": "Mrs. G. Chilakamma’s POEM Journey | Dr. Sreekanth Appasani | KIMS Hospitals",
       "description": "Experience the life-changing impact of Peroral Endoscopic Myotomy (POEM) through the inspiring journey of Mrs. G. Chilakamma",
       "url": "https://www.youtube.com/embed/O-W84-YkDVw"
+    },
+    {
+      "title": "Mr. T. Komaraiah | Endoscopic submucosal dissection | Dr. Sreekanth Appasani",
+      "url": "https://www.youtube.com/embed/UP58LrqVeTM"
     }
   ],
   "doctorvideos": [
@@ -9733,6 +9734,90 @@
     {
       "title": "Think You Know Jaundice? Get the Facts! | Dr. Sreekanth Appasani",
       "url": "https://www.youtube.com/embed/n8laf4GSDhw"
+    },
+    {
+      "title": "Third Space Endoscopy – The New Frontier | Dr. Srikanth Appasani ",
+      "url": "https://www.youtube.com/embed/oaHkfVCn40c"
+    },
+    {
+      "title": "Understanding Constipation | Dr. Sreekanth Appasani ",
+      "url": "https://www.youtube.com/embed/wkBh-BmhNYM"
+    },
+    {
+      "title": "Peroral Endoscopic Myotomy (POEM) | Dr. Sreekanth Appasani",
+      "url": "https://www.youtube.com/embed/3ILXhuXQK84"
+    },
+    {
+      "title": "Understanding the Risk of Hepatitis | Dr. Sreekanth Appasani",
+      "url": "https://www.youtube.com/embed/rph3LapCNk8"
+    },
+    {
+      "title": "Latest Treatment Options for Jaundice | Dr. Sreekanth Appasani",
+      "url": "https://www.youtube.com/embed/l8KUZEgnSjQ"
+    },
+    {
+      "title": "Understanding Hepatitis B | Dr. Sreekanth Appasani ",
+      "url": "https://www.youtube.com/embed/IpPsdxzeqNE"
+    },
+    {
+      "title": "Endoscopic Treatment For Achalasia Cardia | Dr. Sreekanth Appasani ",
+      "url": "https://www.youtube.com/embed/7Bf32tFAQqs"
+    },
+    {
+      "title": "Non Surgical Endoscopic Treatment For GI Cancers for Doctors | Dr. Sreekanth Appasani",
+      "url": "https://www.youtube.com/embed/42_TIRInGLc"
+    },
+    {
+      "title": "Non Surgical Endoscopic Treatment For GI Cancers | Dr. Sreekanth Appasani",
+      "url": "https://www.youtube.com/embed/xi9aruol4DE"
+    },
+    {
+      "title": "Know about Gastroesophageal Reflux Disease GERD | Dr. Sreekanth Appasani ",
+      "url": "https://www.youtube.com/embed/fK3sSEPLIQI"
+    },
+    {
+      "title": "Myths & Facts About Jaundice | Dr. Sreekanth Appasani ",
+      "url": "https://www.youtube.com/embed/n8laf4GSDhw"
+    },
+    {
+      "title": "Peroral endoscopic myotomy (POEM) | Dr. Sreekanth Appasani | Mrs. Magdalene Wambui Kagunou",
+      "url": "https://www.youtube.com/embed/g-5ceGkyCVc"
+    },
+    {
+      "title": "Understanding Colonoscopy | Dr. Sreekanth Appasani ",
+      "url": "https://www.youtube.com/embed/NhVtMYmVti0"
+    },
+    {
+      "title": "Understanding Endoscopic and Colonoscopy | Dr. Sreekanth Appasani",
+      "url": "https://www.youtube.com/embed/H5feXXqZC-8"
+    },
+    {
+      "title": "Endoscopic Treatment For Achalasia Cardia for Doctors | ​ Dr. Sreekanth Appasani",
+      "url": "https://www.youtube.com/embed/YweGu3MzXiE"
+    },
+    {
+      "title": "Food, Lifestyle & Gastro Problems | Dr. Sreekanth Appasani",
+      "url": "https://www.youtube.com/embed/UmSAQGUtL-4"
+    },
+    {
+      "title": "Let us Understand Common Gastric Problems Gas, Indigestion, Stomach Pain & Heartburn | Dr. Sreekanth Appasani",
+      "url": "https://www.youtube.com/embed/U0DNuqtO8rY"
+    },
+    {
+      "title": "Know Your Pancreas and its Diseases | Dr. Sreekanth Appasani",
+      "url": "https://www.youtube.com/embed/qAIO5WV4JfE"
+    },
+    {
+      "title": "Tests in Gastroenterology - Blood Tests, Scans, Endoscopy | Dr. Sreekanth Appasani",
+      "url": "https://www.youtube.com/embed/KuG7EeSyUPA"
+    },
+    {
+      "title": "Gastric & Liver Problems in Pregnancy | Dr. Sreekanth Appasani",
+      "url": "https://www.youtube.com/embed/pRU1jmBSI18"
+    },
+    {
+      "title": "Inflammatory Bowel Disease IBD | Dr. Sreekanth Appasani ",
+      "url": "https://www.youtube.com/embed/hXVW2MkDtjU"
     }
   ],
   "courseDetails": [
