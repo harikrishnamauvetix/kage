@@ -1,4 +1,4 @@
-import React, { useState,useContext } from "react";
+import React, { useState, useContext } from "react";
 import {
   Button,
   TextField,
@@ -11,11 +11,11 @@ import {
   Box,
   Grid2,
   Container,
-  Stack
+  Stack,
 } from "@mui/material";
-import { DataContext } from '../pages/_app';
+import { DataContext } from "../pages/_app";
 export default function AppointmentForm() {
-       const data = useContext(DataContext);
+  const data = useContext(DataContext);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -34,7 +34,7 @@ export default function AppointmentForm() {
   };
 
   return (
-    <Stack sx={{ marginTop:"50px"}}>
+    <Stack sx={{ marginTop: "50px" }}>
       <Box
         sx={{
           position: "sticky",
@@ -56,8 +56,7 @@ export default function AppointmentForm() {
               textAlign: "center",
             }}
           >
-         
-            Book an Appointment 
+            Book an Appointment
           </Typography>
           <form onSubmit={handleSubmit}>
             <Grid2 container spacing={2}>
@@ -65,7 +64,6 @@ export default function AppointmentForm() {
                 <TextField
                   fullWidth
                   label="Name"
-                
                   onChange={(e) => setName(e.target.value)}
                   margin="normal"
                   size="small"
@@ -76,7 +74,6 @@ export default function AppointmentForm() {
                 <TextField
                   fullWidth
                   label="Email"
-               
                   onChange={(e) => setEmail(e.target.value)}
                   margin="normal"
                   type="email"
@@ -88,7 +85,6 @@ export default function AppointmentForm() {
                 <TextField
                   fullWidth
                   label="Phone Number"
-                
                   onChange={(e) => setPhoneNumber(e.target.value)}
                   margin="normal"
                   type="tel"
@@ -96,13 +92,33 @@ export default function AppointmentForm() {
                   required
                 />
               </Grid2>
+              <Grid2 size={{ xs: 12, sm: 12, md: 1 }}>
+  <FormControl fullWidth margin="normal">
+    <InputLabel id="doctor-loc">Select Location</InputLabel>
+    <Select
+      labelId="doctor-loc"
+      id="doctor-loc"
+      name="location"
+      onChange={handleChange}
+      label="Select Location"
+      required
+      size="small"
+    >
+      <MenuItem value="secunderabad">Secunderabad</MenuItem>
+    
+    </Select>
+  </FormControl>
+</Grid2>
+
+
               <Grid2 size={{ xs: 12, sm: 12, md: 2 }}>
                 <FormControl fullWidth margin="normal">
-                <InputLabel id="doctor-select-label"  size="small">Select Doctor</InputLabel>
+                  <InputLabel id="doctor-select-label" size="small">
+                    Select Doctor
+                  </InputLabel>
                   <Select
                     id="doctor-select"
                     name="doctor"
-                  
                     onChange={handleChange}
                     label="Select Doctor"
                     required
@@ -122,7 +138,6 @@ export default function AppointmentForm() {
                   margin="normal"
                   label="Date"
                   name="date"
-                
                   onChange={handleChange}
                   type="date"
                   size="small"
@@ -131,7 +146,7 @@ export default function AppointmentForm() {
                 />
               </Grid2>
 
-              <Grid2 size={{ xs: 12, sm: 12, md: 2 }}>
+              <Grid2 size={{ xs: 12, sm: 12, md: 1 }}>
                 <Button
                   fullWidth
                   variant="contained"

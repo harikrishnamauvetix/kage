@@ -1,4 +1,4 @@
-import React, { useState,useContext } from "react";
+import React, { useState, useContext } from "react";
 import {
   Box,
   Button,
@@ -12,9 +12,9 @@ import {
   Stack,
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
-import { DataContext } from '../pages/_app';
+import { DataContext } from "../pages/_app";
 const BookAppointmentModal = ({ open, handleClose }) => {
-       const data = useContext(DataContext);
+  const data = useContext(DataContext);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -86,7 +86,6 @@ const BookAppointmentModal = ({ open, handleClose }) => {
               margin="normal"
               label="Name"
               name="name"
-          
               onChange={handleChange}
               required
               size="small"
@@ -96,7 +95,6 @@ const BookAppointmentModal = ({ open, handleClose }) => {
               margin="normal"
               label="Email"
               name="email"
-            
               onChange={handleChange}
               type="email"
               size="small"
@@ -106,12 +104,27 @@ const BookAppointmentModal = ({ open, handleClose }) => {
               margin="normal"
               label="Phone Number"
               name="phone"
-             
               onChange={handleChange}
               type="tel"
               required
               size="small"
             />
+            <FormControl fullWidth margin="normal">
+              <InputLabel id="doctor-loc">Select Location</InputLabel>
+              <Select
+                margin="normal"
+                labelId="doctor-loc"
+                id="doctor-loc"
+                name="doctor"
+                onChange={handleChange}
+                label="Select Doctor"
+                required
+                size="small"
+              >
+              
+                  <MenuItem value="secunderabad">Secunderabad</MenuItem>
+              </Select>
+            </FormControl>
 
             <FormControl fullWidth margin="normal">
               <InputLabel id="doctor-label">Select Doctor</InputLabel>
@@ -120,7 +133,6 @@ const BookAppointmentModal = ({ open, handleClose }) => {
                 labelId="doctor-label"
                 id="doctor-select"
                 name="doctor"
-               
                 onChange={handleChange}
                 label="Select Doctor"
                 required
@@ -139,7 +151,6 @@ const BookAppointmentModal = ({ open, handleClose }) => {
               margin="normal"
               label="Date"
               name="date"
-         
               onChange={handleChange}
               type="date"
               InputLabelProps={{ shrink: true }}
@@ -147,14 +158,13 @@ const BookAppointmentModal = ({ open, handleClose }) => {
               required
             />
             <TextField
-               fullWidth
-                  margin="normal"
+              fullWidth
+              margin="normal"
               id="outlined-multiline-static"
               label="Write Reasons"
-               size="small"
+              size="small"
               multiline
               rows={3}
-           
             />
           </FormControl>
           <Box mt={2} display="flex" justifyContent="space-between">
