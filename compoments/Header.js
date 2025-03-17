@@ -11,7 +11,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-
+import websiteJson from "../public/website.json";
 import Link from "next/link";
 import MailIcon from "@mui/icons-material/Mail";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -30,7 +30,7 @@ import {
 } from "@mui/material";
 
 const Navbar = () => {
-      const data = useContext(DataContext);
+      const websiteJson = useContext(DataContext);
   const [anchorEl, setAnchorEl] = useState(null);
   const [subMenuAnchorEl, setSubMenuAnchorEl] = useState(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -68,7 +68,7 @@ const Navbar = () => {
     {
       label: "Speciality Clinics",
       href: "/speciality-clinics",
-      subItems: data?.specialityclinics?.map((service) => ({
+      subItems: websiteJson?.specialityclinics?.map((service) => ({
         label: service.title,
         href: `/speciality-clinics/${service.title
           .replace(/\s+/g, "-")
@@ -78,7 +78,7 @@ const Navbar = () => {
     {
       label: "Advanced Procedures",
       href: "/advanced-procedures",
-      subItems: data?.advancedprocedures?.map((procedure) => ({
+      subItems: websiteJson?.advancedprocedures?.map((procedure) => ({
         label: procedure.title,
         href: `/advanced-procedures/${procedure.title
           .replace(/\s+/g, "-")
@@ -88,7 +88,7 @@ const Navbar = () => {
     {
       label: "Advanced Equipment",
       href: "/advanced-equipment",
-      subItems: data?.services?.map((services) => ({
+      subItems: websiteJson?.services?.map((services) => ({
         label: services.title,
         href: `/advanced-equipment/${services.title
           .replace(/\s+/g, "-")
@@ -98,7 +98,7 @@ const Navbar = () => {
     {
       label: "Courses",
       href: "/courses",
-      subItems: data?.courseDetails?.map((courses) => ({
+      subItems: websiteJson?.courseDetails?.map((courses) => ({
         label: courses.title,
         href: `/courses/${courses.title.replace(/\s+/g, "-").toLowerCase()}`,
       })),
@@ -133,7 +133,7 @@ const Navbar = () => {
             alignItems: "center",
           }}
         >
-          <PhoneIcon sx={{ color: "#fff", marginRight: "5px" }} /> Call {data?.hospitalInfo?.phoneNumber} To Book An Appointment
+          <PhoneIcon sx={{ color: "#fff", marginRight: "5px" }} /> Call {websiteJson?.hospitalInfo?.phoneNumber} To Book An Appointment
         </Typography>
       </Box> */}
       <Box sx={{ backgroundColor: "white", boxShadow: "none" }}>
@@ -143,7 +143,7 @@ const Navbar = () => {
             <Link href="/home" passHref>
             <Box
                 component="img"
-                src={data?.hospitalInfo?.companylogo}
+                src={websiteJson?.hospitalInfo?.companylogo}
                 alt="Logo"
                 sx={{ width: { xs: 200, sm: 200, md: 300 ,lg:"auto"}, height: "auto" }}
               />
@@ -162,7 +162,7 @@ const Navbar = () => {
                     aria-label="Email Icon"
                   />
                   <Typography variant="body2" sx={{ color: "text.primary" }}>
-                    {data?.hospitalInfo?.emailid}
+                    {websiteJson?.hospitalInfo?.emailid}
                   </Typography>
                 </Box>
                 <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
@@ -171,7 +171,7 @@ const Navbar = () => {
                     aria-label="Phone Icon"
                   />
                   <Typography variant="body2" sx={{ color: "text.primary" }}>
-                    Call: {data?.hospitalInfo?.phoneNumber}
+                    Call: {websiteJson?.hospitalInfo?.phoneNumber}
                   </Typography>
                 </Box>
               </Box>

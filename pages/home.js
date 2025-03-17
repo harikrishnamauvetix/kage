@@ -40,7 +40,7 @@ import DoctorsLists from "../compoments/Doctors/DoctorsLists";
 import AboutSection from "@/compoments/Home/AboutSection";
 import Services from "@/compoments/Home/Services";
 import CourseList from "@/compoments/Home/CourseList";
-
+import websiteJson from "../public/website.json";
 const Home = () => {
   const data = useContext(DataContext);
 
@@ -53,38 +53,38 @@ const Home = () => {
           modules={[Navigation, Pagination, A11y]}
           spaceBetween={50}
           slidesPerView={1}
-          navigation={data?.bannerImage.length > 1}
+          navigation={websiteJson?.bannerImage.length > 1}
           pagination={{ clickable: true }}
 
           // onSwiper={(swiper) => console.log(swiper)}
           // onSlideChange={() => console.log('slide change')}
         >
-          {data?.bannerImage.map((slide, index) => (
+          {websiteJson?.bannerImage.map((slide, index) => (
             <SwiperSlide key={index}>
               <img src={slide.image} alt={slide.alt} width={"100%"} />
             </SwiperSlide>
           ))}
         </Swiper>
        
-          <AboutSection homeabout={data} />
+          <AboutSection homeabout={websiteJson} />
 
           <SpecialityClinics
-            specialityclinics={data?.specialityclinics}
+            specialityclinics={websiteJson?.specialityclinics}
           />
 
-          <DoctorsLists doctorsList={data?.doctorsList}></DoctorsLists>
+          <DoctorsLists doctorsList={websiteJson?.doctorsList}></DoctorsLists>
           <ProceduresList
-            advancedprocedures={data?.advancedprocedures}
+            advancedprocedures={websiteJson?.advancedprocedures}
           ></ProceduresList>
-          <Services services={data?.services} />
-          <CourseList courselist={data?.courseDetails} />
+          <Services services={websiteJson?.services} />
+          <CourseList courselist={websiteJson?.courseDetails} />
           <Container>
-          <PatientVideos patientvideos={data?.Patientvideos} />
+          <PatientVideos patientvideos={websiteJson?.Patientvideos} />
           </Container>
-          <DoctorVideos doctorvideos={data?.doctorvideos} />
+          <DoctorVideos doctorvideos={websiteJson?.doctorvideos} />
 
       </Box>
-      <Contactinfo Contactinfo={data?.hospitalInfo} />
+      <Contactinfo Contactinfo={websiteJson?.hospitalInfo} />
       {/* <AppointmentForm></AppointmentForm> */}
       <Footer></Footer>
     </Box>
