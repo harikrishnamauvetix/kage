@@ -5400,7 +5400,7 @@
       "id": 5,
       "title": "Advanced Endoscopy Clinic",
       "description": "Clinic for Advanced Endoscopy and related diagnostic and therapeutic services.",
-      "icon": "/Images/Icons/latest-icons/Advacned-Endoscopy-Clinic.png",
+      "icon": "/Images/Icons/latest-icons/aec.png",
       "page": "Advanced Endoscopy Clinic",
       "content": {
         "heading": "Advanced Endoscopy Clinic",
@@ -5728,7 +5728,7 @@
       "id": 6,
       "title": "Advanced Motility Clinic",
       "description": "Diagnosing and Treating Digestive Motion Disorders",
-      "icon": "/Images/Icons/latest-icons/Advanced-Motility-Clinic.png",
+      "icon": "/Images/Icons/latest-icons/amc.png",
       "page": "Advanced Motility Clinic",
       "content": {
         "heading": "Advanced Motility Clinic",
@@ -6440,7 +6440,7 @@
       "id": 7,
       "title": "Advanced Liver Care and Transplant Clinic",
       "description": "Comprehensive Hepatology and Transplant Services",
-      "icon": "/Images/Icons/latest-icons/Advacned-Liver-Care-and-Transplant-Clinic.png",
+      "icon": "/Images/Icons/latest-icons/alc.png",
       "page": "Advanced Liver Care and Transplant Clinic",
       "content": {
         "heading": "Advanced Liver Care and Transplant Clinic",
