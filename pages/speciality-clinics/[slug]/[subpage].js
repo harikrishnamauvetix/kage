@@ -127,7 +127,7 @@ export default function SubServicePage() {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo
+     <Breadcrumbsinfo 
         service={"Speciality Clinics"}
         pagename={subService?.title}
       />

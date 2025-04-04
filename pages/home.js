@@ -47,7 +47,7 @@ const Home = () => {
   return (
     <Box>
       <Header></Header>
-      <Box>
+      <Box sx={{ paddingTop: { xs: "83px", md: "201px" } }}>
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, A11y]}

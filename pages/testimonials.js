@@ -30,8 +30,8 @@ const Testimonials = () => {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo pagename={"Testimonials"} />
-      <Container>
+     <Breadcrumbsinfo  pagename={"Testimonials"} />
+      <Container >
         <Grid
           container
           spacing={2}

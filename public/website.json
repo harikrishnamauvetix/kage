@@ -10268,16 +10268,9 @@
         },
         {
           "text": "Contact",
-          "href": "#"
-        },
-        {
-          "text": "Health Blogs",
-          "href": "#"
-        },
-        {
-          "text": "News & Events",
-          "href": "#"
+          "href": "/contact"
         }
+  
       ]
     },
     "socialMedia": {

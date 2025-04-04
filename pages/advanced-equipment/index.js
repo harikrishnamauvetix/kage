@@ -40,7 +40,7 @@ export default function AdvancedEquipment() {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo pagename={"Advanced Equipment"} />
+     <Breadcrumbsinfo  pagename={"Advanced Equipment"} />
       <Services services={data?.services} />
 
       <Footer></Footer>

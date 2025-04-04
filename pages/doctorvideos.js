@@ -28,7 +28,7 @@ const Doctorvideos = () => {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo pagename={"Doctor's Talk's"} />
+     <Breadcrumbsinfo  pagename={"Doctor's Talk's"} />
       <Stack sx={{ backgroundColor: "background.default", py: 5 }}>
         <Container>
           <Box sx={{ mb: 6 }}>

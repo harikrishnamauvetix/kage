@@ -52,7 +52,7 @@ const CourseDetail = ({courseDetails}) => {
   return (
     <>
       <Header />
-      <Breadcrumbsinfo service={"Courses"} pagename={courseDetails.title} />
+     <Breadcrumbsinfo  service={"Courses"} pagename={courseDetails.title} />
       <Container maxWidth="xl">
         <Grid container>
           <Grid size={{ xs: 12, sm: 12, md: 12, lg: 2, xl: 2 }}></Grid>

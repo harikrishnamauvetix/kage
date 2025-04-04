@@ -42,7 +42,7 @@ const About = () => {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo
+     <Breadcrumbsinfo 
         service={"About Us"}
         pagename={service?.slug}
       ></Breadcrumbsinfo>

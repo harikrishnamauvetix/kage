@@ -82,12 +82,12 @@ const Aboutpage = () => {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo
+     <Breadcrumbsinfo  sx={{ paddingTop:  { xs: "83px", md: "201px" } }}
         service={"About Us"}
         pagename={about.title}
       ></Breadcrumbsinfo>
 
-      <Container maxWidth="xl">
+      <Container maxWidth="xl"  >
         <Box
           sx={{
             width: "100%",

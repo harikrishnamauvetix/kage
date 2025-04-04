@@ -23,7 +23,7 @@ const Breadcrumbsinfo = (props) => {
       <Box
         sx={{
           backgroundColor: "#f5f5f5", // Replace with your desired color
-      
+          paddingTop: { xs: "83px", md: "201px" } ,
           borderRadius: "8px",
         }}
       >

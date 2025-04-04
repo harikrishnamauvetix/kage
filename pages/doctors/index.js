@@ -32,7 +32,7 @@ const Doctors = () => {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo service={"Doctors"}></Breadcrumbsinfo>
+     <Breadcrumbsinfo  service={"Doctors"}></Breadcrumbsinfo>
 
       <Container maxWidth="lg">
         <Grid2 container spacing={2}>

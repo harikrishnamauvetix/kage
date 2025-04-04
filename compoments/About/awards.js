@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 
 const KimsAchievementsTable = ({ section }) => {
-  console.log(section); // Debugging: Check if section is passed correctly
+ // console.log(section); // Debugging: Check if section is passed correctly
 
   return (
     <TableContainer component={Paper}>

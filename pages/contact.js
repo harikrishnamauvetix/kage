@@ -14,7 +14,7 @@ const ContactUs = () => {
   return (
     <>
       <Header />
-      <Breadcrumbsinfo  pagename={"Contact"}  />
+     <Breadcrumbsinfo   pagename={"Contact"}  />
       <Container>
     
         <Box sx={{ margin: "30px 0" }}>
@@ -95,7 +95,7 @@ const ContactUs = () => {
                   Phone
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  {data?.hospitalInfo?.phoneNumber}
+                  {data?.hospitalInfo?.kimsPhonenumber}
                 </Typography>
               </Card>
             </Grid>

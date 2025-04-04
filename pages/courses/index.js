@@ -18,7 +18,7 @@ const CourseListPage = (props) => {
   return (
     <>
       <Header />
-      <Breadcrumbsinfo service={"Courses"} />
+     <Breadcrumbsinfo  service={"Courses"} />
 
         <CourseList courseList={props.courselist}  sx={{ margin:"30px 0"}}/>
      

@@ -111,237 +111,266 @@ const Navbar = () => {
 
   return (
     <>
-      <Box
-        sx={{
-          backgroundColor: "primary.main",
-          boxShadow: "none",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        
-        }}
-      >
-  <Typography
-  variant="body2"
-  component="a"
-  href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber}`}
-  sx={{
-    color: "#fff",
-    padding: {
-      xs: "8px 0",
-      sm: "10px 0",
-    },
-    textAlign: "center",
-    fontSize: {
-      xs: "16px",
-      sm: "18px",
-      md: "20px",
-    },
-    textDecoration: "none",
-    display: "inline-flex", // Important for vertical alignment
-    alignItems: "center",    // Center the icon with text
-    justifyContent: "center", // Center all content horizontally
-  }}
->
-  <PhoneIcon
-    sx={{
-      color: "#fff",
-      fontSize: {
-        xs: "20px",
-        sm: "20px",
-        md: "24px",
-      },
-      mr: 1, // margin right for spacing between icon and text
-    }}
-  />
-  Call {websiteJson?.hospitalInfo?.kimsPhonenumber} To Book An Appointment
-</Typography>
+      <Box sx={{ position: "fixed", zIndex: "99", width: "100%" }}>
+        <Box
+          sx={{
+            backgroundColor: "primary.main",
+            boxShadow: "none",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding:"3px 0"
+          }}
+        >
+          <Typography
+            variant="body2"
+            component="a"
+            href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber}`}
+            sx={{
+              color: "#fff",
+              padding: {
+                xs: "2px 0",
+                sm: "2px 0",
+              },
+              textAlign: "center",
+              fontSize: {
+                xs: "16px",
+                sm: "18px",
+                md: "18px",
+              },
+              textDecoration: "underline",
+              display: "inline-flex", // Important for vertical alignment
+              alignItems: "center", // Center the icon with text
+              justifyContent: "center", // Center all content horizontally
+              transition: "all 0.3s ease",
+              "&:hover": {
+                color: "#e6e6e6",
+                textDecoration: "underline",
+              },
+            }}
+          >
+            <PhoneIcon
+              sx={{
+                color: "#fff",
+                fontSize: {
+                  xs: "18px",
+                  sm: "18px",
+                  md: "18px",
+                },
+                mr: 1, // margin right for spacing between icon and text
+              }}
+            />
+            Call {websiteJson?.hospitalInfo?.kimsPhonenumber} To Book An
+            Appointment
+          </Typography>
+        </Box>
 
-      </Box>
-
-      <Box sx={{ backgroundColor: "white", boxShadow: "none" }}>
-        <Toolbar sx={{ justifyContent: "space-between", padding: "0 2rem" }}>
-          {/* Logo Section */}
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <Link href="/home" passHref>
-              <Box
-                component="img"
-                src={websiteJson?.hospitalInfo?.companylogo}
-                alt="Logo"
-                sx={{
-                  width: { xs: 200, sm: 200, md: 300, lg: "auto" },
-                  height: "auto",
-                }}
-              />
-            </Link>
-          </Box>
-          {isMobile && (
-            <>
-              <IconButton
-                color="inherit"
-                edge="start"
-                onClick={toggleDrawer(true)}
-              >
-                <MenuIcon />
-              </IconButton>
-              <Drawer
-                anchor="left"
-                open={drawerOpen}
-                onClose={toggleDrawer(false)}
-              >
+        <Box sx={{ backgroundColor: "white", boxShadow: "none" }}>
+          <Toolbar sx={{ justifyContent: "space-between", padding: "0 2rem" }}>
+            {/* Logo Section */}
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <Link href="/home" passHref>
                 <Box
-                  sx={{ width: 250 }}
-                  role="presentation"
-                  onKeyDown={toggleDrawer(false)}
+                  component="img"
+                  src={websiteJson?.hospitalInfo?.companylogo}
+                  alt="Logo"
+                  sx={{
+                    width: { xs: 200, sm: 200, md: 300, lg: "auto" },
+                    height: "auto",
+                  }}
+                />
+              </Link>
+            </Box>
+            {isMobile && (
+              <>
+                <IconButton
+                  color="inherit"
+                  edge="start"
+                  onClick={toggleDrawer(true)}
+                >
+                  <MenuIcon />
+                </IconButton>
+                <Drawer
+                  anchor="left"
+                  open={drawerOpen}
+                  onClose={toggleDrawer(false)}
                 >
                   <Box
+                    sx={{ width: 250 }}
+                    role="presentation"
+                    onKeyDown={toggleDrawer(false)}
+                  >
+                    <Box
+                      sx={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        p: 2,
+                      }}
+                    >
+                      <IconButton onClick={toggleDrawer(false)}>
+                        <CloseIcon />
+                      </IconButton>
+                    </Box>
+                    {navItems.map((item, index) => (
+                      <Box key={index}>
+                        <MenuItem>
+                          <Link href={item.href || "#"} passHref>
+                            {item.label}
+                          </Link>
+                          {item.subItems && (
+                            <IconButton
+                              size="small"
+                              onClick={() => handleToggleSubMenu(index)}
+                            >
+                              {openMenus[index] ? (
+                                <ExpandLessIcon />
+                              ) : (
+                                <ExpandMoreIcon />
+                              )}
+                            </IconButton>
+                          )}
+                        </MenuItem>
+                        {item.subItems && (
+                          <Collapse
+                            in={openMenus[index]}
+                            timeout="auto"
+                            unmountOnExit
+                          >
+                            <Box sx={{ pl: 1 }}>
+                              {item.subItems.map((subItem, subIndex) => (
+                                <MenuItem key={subIndex}>
+                                  <Link href={subItem.href || "#"} passHref>
+                                    {subItem.label}
+                                  </Link>
+                                </MenuItem>
+                              ))}
+                            </Box>
+                          </Collapse>
+                        )}
+                      </Box>
+                    ))}
+                  </Box>
+                </Drawer>
+              </>
+            )}
+            {!isMobile && (
+              <Box
+                sx={{
+                  padding: 2,
+                  bgcolor: "background.paper",
+                  borderRadius: 1,
+                }}
+              >
+                {/* Contact Info */}
+                <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
+                  <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                    <MailIcon
+                      sx={{ color: "primary.main" }}
+                      aria-label="Email Icon"
+                    />
+                    <Typography variant="body2" sx={{ color: "text.primary" }}>
+                      {websiteJson?.hospitalInfo?.emailid}
+                    </Typography>
+                  </Box>
+                  <Box
+                    component="a"
+                    href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber}`}
                     sx={{
                       display: "flex",
                       alignItems: "center",
-                      justifyContent: "space-between",
-                      p: 2,
+                      gap: 1,
+                      "&:hover": {
+                        color: "#e6e6e6",
+                        textDecoration: "underline",
+                      },
                     }}
                   >
-                    <IconButton onClick={toggleDrawer(false)}>
-                      <CloseIcon />
-                    </IconButton>
+                    <PhoneIcon
+                      sx={{ color: "primary.main" }}
+                      aria-label="Phone Icon"
+                    />
+                    <Typography
+                      variant="body2"
+                      sx={{
+                        color: "text.primary",
+                        textDecoration: "underline",
+                      }}
+                    >
+                      Call: {websiteJson?.hospitalInfo?.kimsPhonenumber}
+                    </Typography>
                   </Box>
+                </Box>
+              </Box>
+            )}
+          </Toolbar>
+        </Box>
+        {!isMobile && (
+          <AppBar
+            position="sticky"
+            color="primary"
+            sx={{ top: 0, zIndex: "999999999" }}
+          >
+            <Toolbar
+              sx={{ alignItems: "center", justifyContent: "space-between" }}
+            >
+              <>
+                <Box className="navbar" sx={{ display: "flex" }}>
                   {navItems.map((item, index) => (
-                    <Box key={index}>
-                      <MenuItem>
-                        <Link href={item.href || "#"} passHref>
-                          {item.label}
-                        </Link>
-                        {item.subItems && (
-                          <IconButton
-                            size="small"
-                            onClick={() => handleToggleSubMenu(index)}
-                          >
-                            {openMenus[index] ? (
-                              <ExpandLessIcon />
-                            ) : (
-                              <ExpandMoreIcon />
-                            )}
-                          </IconButton>
-                        )}
-                      </MenuItem>
-                      {item.subItems && (
-                        <Collapse
-                          in={openMenus[index]}
-                          timeout="auto"
-                          unmountOnExit
+                    <Box
+                      key={index}
+                      className="menu-item"
+                      onMouseEnter={() => handleMouseEnter(index)}
+                      onMouseLeave={handleMouseLeave}
+                    >
+                      <Link href={item.href || "#"} passHref>
+                        <Button
+                          color="inherit"
+                          sx={{ minWidth: "auto", justifyContent: "left" }}
                         >
-                          <Box sx={{ pl: 2 }}>
-                            {item.subItems.map((subItem, subIndex) => (
-                              <MenuItem key={subIndex}>
-                                <Link href={subItem.href || "#"} passHref>
-                                  {subItem.label}
-                                </Link>
-                              </MenuItem>
-                            ))}
-                          </Box>
-                        </Collapse>
+                          {item.label}
+                        </Button>
+                      </Link>
+                      {item.subItems && openMenu === index && (
+                        <Box className="submenu">
+                          {item.subItems.map((subItem, subIndex) => (
+                            <Link
+                              href={subItem.href || "#"}
+                              passHref
+                              key={subIndex}
+                            >
+                              <Typography className="submenulist">
+                                {subItem.label}
+                              </Typography>
+                            </Link>
+                          ))}
+                        </Box>
                       )}
                     </Box>
                   ))}
                 </Box>
-              </Drawer>
-            </>
-          )}
-          {!isMobile && (
-            <Box
-              sx={{ padding: 2, bgcolor: "background.paper", borderRadius: 1 }}
-            >
-              {/* Contact Info */}
-              <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
-                <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-                  <MailIcon
-                    sx={{ color: "primary.main" }}
-                    aria-label="Email Icon"
-                  />
-                  <Typography variant="body2" sx={{ color: "text.primary" }}>
-                    {websiteJson?.hospitalInfo?.emailid}
-                  </Typography>
-                </Box>
-                <Box
-                  component="a"
-                  href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber}`}
-                  sx={{ display: "flex", alignItems: "center", gap: 1 }}
-                >
-                  <PhoneIcon
-                    sx={{ color: "primary.main" }}
-                    aria-label="Phone Icon"
-                  />
-                  <Typography variant="body2" sx={{ color: "text.primary" }}>
-                    Call: {websiteJson?.hospitalInfo?.phoneNumber}
-                  </Typography>
-                </Box>
-              </Box>
-            </Box>
-          )}
-        </Toolbar>
-      </Box>
-      {!isMobile && (
-        <AppBar position="sticky" color="primary" sx={{ top: 0, zIndex: 1200 }}>
-          <Toolbar
-            sx={{ alignItems: "ceneter", justifyContent: "space-between" }}
-          >
-            <>
-              <Box className="navbar" sx={{ display: "flex" }}>
-                {navItems.map((item, index) => (
-                  <Box
-                    key={index}
-                    className="menu-item"
-                    onMouseEnter={() => handleMouseEnter(index)}
-                    onMouseLeave={handleMouseLeave}
+                <Box>
+                  <Button
+                    variant="contained"
+                    component="a"
+                    href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber}`}
+                    sx={{
+                      backgroundColor: "secondary.main",
+                      justifyContent: "right",
+                      // maxWidth:"200px",
+                      // display:"block"
+                    }}
+                    // onClick={handleOpen}
                   >
-                    <Link href={item.href || "#"} passHref>
-                      <Button
-                        color="inherit"
-                        sx={{ minWidth: "auto", justifyContent: "left" }}
-                      >
-                        {item.label}
-                      </Button>
-                    </Link>
-                    {item.subItems && openMenu === index && (
-                      <Box className="submenu">
-                        {item.subItems.map((subItem, subIndex) => (
-                          <Link
-                            href={subItem.href || "#"}
-                            passHref
-                            key={subIndex}
-                          >
-                            <Typography className="submenulist">
-                              {subItem.label}
-                            </Typography>
-                          </Link>
-                        ))}
-                      </Box>
-                    )}
-                  </Box>
-                ))}
-              </Box>
-              <Box>
-                <Button
-                  variant="contained"
-                  component="a"
-                  href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber}`}
-                  sx={{
-                    backgroundColor: "secondary.main",
-                    justifyContent: "right",
-                    // maxWidth:"200px",
-                    // display:"block"
-                  }}
-                  // onClick={handleOpen}
-                >
-                  Book an Appointment
-                </Button>
-              </Box>
-            </>
-          </Toolbar>
-        </AppBar>
-      )}
-      <BookAppointmentModal open={isModalOpen} handleClose={handleClose} />
+                    Book an Appointment
+                  </Button>
+                </Box>
+              </>
+            </Toolbar>
+          </AppBar>
+        )}
+        <BookAppointmentModal open={isModalOpen} handleClose={handleClose} />
+      </Box>
     </>
   );
 };

@@ -1,4 +1,4 @@
-import React, { useState,useContext } from "react";
+import React, { useState, useContext } from "react";
 import {
   Box,
   Typography,
@@ -83,13 +83,21 @@ const Contactinfo = (props) => {
                   </ListItem> */}
                   <ListItem>
                     <CalendarMonthIcon sx={{ mr: 1 }} />
-                    <Box>
+                    <Box
+                      component="a"
+                
+                      href={`tel:${props.Contactinfo?.kimsPhonenumber}`}
+                    >
                       <Typography variant="subtitle1" fontWeight="bold">
                         Appointment Number:
                       </Typography>
-                      <Typography sx={{ color: "#fff" }}>
-                        {" "}
-                        {props.Contactinfo?.phoneNumber}
+                      <Typography sx={{ color: "#fff" , transition: "all 0.3s ease",
+                         textDecoration: "underline",
+                        "&:hover": {
+                          color: "#e6e6e6",
+                       
+                        },}}>
+                        {props.Contactinfo?.kimsPhonenumber}
                       </Typography>
                     </Box>
                   </ListItem>
@@ -100,7 +108,6 @@ const Contactinfo = (props) => {
                         Email:
                       </Typography>
                       <Typography sx={{ color: "#fff" }}>
-                        {" "}
                         {props.Contactinfo?.emailid}
                       </Typography>
                     </Box>

@@ -151,7 +151,7 @@ useEffect(() => {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo
+     <Breadcrumbsinfo 
         service={"Speciality Clinics"}
         pagename={content.heading}
       />

@@ -68,7 +68,7 @@ const Servicespage = ({ servicesPageContent }) => {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo
+     <Breadcrumbsinfo 
         service={"Advanced Equipment"}
         pagename={servicesPageContent.title}
       />

@@ -15,7 +15,7 @@ export default function Footer() {
   const data = useContext(DataContext);
   return (
     <>
-      <AppointmentForm />
+      {/* <AppointmentForm /> */}
       <Box
         sx={{
           backgroundColor: "#000",
@@ -170,7 +170,7 @@ export default function Footer() {
         target="_blank"
         rel="noopener noreferrer"
         sx={{
-          backgroundColor: "primary.main",
+          backgroundColor: "secondary.main",
           color: "#fff",
           width: 60,
           height: 60,

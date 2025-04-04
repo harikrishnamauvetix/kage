@@ -86,7 +86,7 @@ const Advancedprocedures = ({advancedprocedures}) => {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo
+     <Breadcrumbsinfo 
         service={"Advanced Procedures"}
         pagename={advancedprocedures.title}
       />

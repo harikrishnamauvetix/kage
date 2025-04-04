@@ -64,7 +64,7 @@ const DoctorDetails = ({doctor}) => {
   return (
     <>
       <Header></Header>
-      <Breadcrumbsinfo
+     <Breadcrumbsinfo 
         service={"Doctors"}
         pagename={doctor.name}
       ></Breadcrumbsinfo>

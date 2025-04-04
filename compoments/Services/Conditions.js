@@ -9,7 +9,7 @@ import {
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Grid from "@mui/material/Grid2";
 function Conditions({ conditions }) {
-  console.log(conditions);
+  // console.log(conditions);
   if (!conditions) return null;
 
   return (
