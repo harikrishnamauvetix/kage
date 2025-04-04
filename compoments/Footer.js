@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Box, Typography, Link, Container, IconButton } from "@mui/material";
+import PhoneIcon from "@mui/icons-material/Phone";
 import {
   Facebook,
   Twitter,
@@ -156,6 +157,33 @@ export default function Footer() {
           </Box>
         </Container>
       </Box>
+      <Box
+      sx={{
+        position: "fixed",
+        bottom: 20,
+        right: 10,
+        zIndex: 999999999999,
+      }}
+    >
+      <IconButton
+        href={`tel:${data?.hospitalInfo?.kimsPhonenumber}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        sx={{
+          backgroundColor: "primary.main",
+          color: "#fff",
+          width: 60,
+          height: 60,
+          borderRadius: "50%",
+          boxShadow: 3,
+          '&:hover': {
+            backgroundColor: "primary.dark",
+          },
+        }}
+      >
+        <PhoneIcon sx={{ fontSize: 30 }} />
+      </IconButton>
+    </Box>
     </>
   );
 }

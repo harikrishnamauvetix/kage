@@ -1,5 +1,4 @@
-import React, { useEffect, useState,useContext } from "react";
-
+import React, { useEffect, useState, useContext } from "react";
 
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
@@ -15,7 +14,7 @@ import websiteJson from "../public/website.json";
 import Link from "next/link";
 import MailIcon from "@mui/icons-material/Mail";
 import PhoneIcon from "@mui/icons-material/Phone";
-import { DataContext } from '../pages/_app';
+import { DataContext } from "../pages/_app";
 import BookAppointmentModal from "./BookAppointmentModal";
 import HomeIcon from "@mui/icons-material/Home";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
@@ -30,7 +29,7 @@ import {
 } from "@mui/material";
 
 const Navbar = () => {
-      const websiteJson = useContext(DataContext);
+  // const websiteJson = useContext(DataContext);
   const [anchorEl, setAnchorEl] = useState(null);
   const [subMenuAnchorEl, setSubMenuAnchorEl] = useState(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -112,78 +111,71 @@ const Navbar = () => {
 
   return (
     <>
-      {/* <Box
+      <Box
         sx={{
           backgroundColor: "primary.main",
           boxShadow: "none",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+        
         }}
       >
-        <Typography
-          variant="body2"
-          sx={{
-            color: "#fff",
-            padding: "10px 0",
-            textAlign: "center",
-            fontSize: "20px",
-            justifyContent: "center",
-            display: "flex",
-            alignItems: "center",
-          }}
-        >
-          <PhoneIcon sx={{ color: "#fff", marginRight: "5px" }} /> Call {websiteJson?.hospitalInfo?.phoneNumber} To Book An Appointment
-        </Typography>
-      </Box> */}
+  <Typography
+  variant="body2"
+  component="a"
+  href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber}`}
+  sx={{
+    color: "#fff",
+    padding: {
+      xs: "8px 0",
+      sm: "10px 0",
+    },
+    textAlign: "center",
+    fontSize: {
+      xs: "16px",
+      sm: "18px",
+      md: "20px",
+    },
+    textDecoration: "none",
+    display: "inline-flex", // Important for vertical alignment
+    alignItems: "center",    // Center the icon with text
+    justifyContent: "center", // Center all content horizontally
+  }}
+>
+  <PhoneIcon
+    sx={{
+      color: "#fff",
+      fontSize: {
+        xs: "20px",
+        sm: "20px",
+        md: "24px",
+      },
+      mr: 1, // margin right for spacing between icon and text
+    }}
+  />
+  Call {websiteJson?.hospitalInfo?.kimsPhonenumber} To Book An Appointment
+</Typography>
+
+      </Box>
+
       <Box sx={{ backgroundColor: "white", boxShadow: "none" }}>
         <Toolbar sx={{ justifyContent: "space-between", padding: "0 2rem" }}>
           {/* Logo Section */}
           <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
             <Link href="/home" passHref>
-            <Box
+              <Box
                 component="img"
                 src={websiteJson?.hospitalInfo?.companylogo}
                 alt="Logo"
-                sx={{ width: { xs: 200, sm: 200, md: 300 ,lg:"auto"}, height: "auto" }}
+                sx={{
+                  width: { xs: 200, sm: 200, md: 300, lg: "auto" },
+                  height: "auto",
+                }}
               />
             </Link>
           </Box>
-
-          {!isMobile && (
-            <Box
-              sx={{ padding: 2, bgcolor: "background.paper", borderRadius: 1 }}
-            >
-              {/* Contact Info */}
-              <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
-                <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-                  <MailIcon
-                    sx={{ color: "primary.main" }}
-                    aria-label="Email Icon"
-                  />
-                  <Typography variant="body2" sx={{ color: "text.primary" }}>
-                    {websiteJson?.hospitalInfo?.emailid}
-                  </Typography>
-                </Box>
-                <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-                  <PhoneIcon
-                    sx={{ color: "primary.main" }}
-                    aria-label="Phone Icon"
-                  />
-                  <Typography variant="body2" sx={{ color: "text.primary" }}>
-                    Call: {websiteJson?.hospitalInfo?.phoneNumber}
-                  </Typography>
-                </Box>
-              </Box>
-            </Box>
-          )}
-        </Toolbar>
-      </Box>
-      <AppBar position="sticky" color="primary" sx={{ top: 0, zIndex: 1200 }}>
-        <Toolbar
-          sx={{ alignItems: "ceneter", justifyContent: "space-between" }}
-        >
-          {isMobile ? (
+          {isMobile && (
             <>
               <IconButton
                 color="inherit"
@@ -255,7 +247,45 @@ const Navbar = () => {
                 </Box>
               </Drawer>
             </>
-          ) : (
+          )}
+          {!isMobile && (
+            <Box
+              sx={{ padding: 2, bgcolor: "background.paper", borderRadius: 1 }}
+            >
+              {/* Contact Info */}
+              <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
+                <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                  <MailIcon
+                    sx={{ color: "primary.main" }}
+                    aria-label="Email Icon"
+                  />
+                  <Typography variant="body2" sx={{ color: "text.primary" }}>
+                    {websiteJson?.hospitalInfo?.emailid}
+                  </Typography>
+                </Box>
+                <Box
+                  component="a"
+                  href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber}`}
+                  sx={{ display: "flex", alignItems: "center", gap: 1 }}
+                >
+                  <PhoneIcon
+                    sx={{ color: "primary.main" }}
+                    aria-label="Phone Icon"
+                  />
+                  <Typography variant="body2" sx={{ color: "text.primary" }}>
+                    Call: {websiteJson?.hospitalInfo?.phoneNumber}
+                  </Typography>
+                </Box>
+              </Box>
+            </Box>
+          )}
+        </Toolbar>
+      </Box>
+      {!isMobile && (
+        <AppBar position="sticky" color="primary" sx={{ top: 0, zIndex: 1200 }}>
+          <Toolbar
+            sx={{ alignItems: "ceneter", justifyContent: "space-between" }}
+          >
             <>
               <Box className="navbar" sx={{ display: "flex" }}>
                 {navItems.map((item, index) => (
@@ -294,20 +324,23 @@ const Navbar = () => {
               <Box>
                 <Button
                   variant="contained"
+                  component="a"
+                  href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber}`}
                   sx={{
                     backgroundColor: "secondary.main",
                     justifyContent: "right",
+                    // maxWidth:"200px",
+                    // display:"block"
                   }}
-                  onClick={handleOpen}
+                  // onClick={handleOpen}
                 >
                   Book an Appointment
                 </Button>
               </Box>
             </>
-          )}
-        </Toolbar>
-      </AppBar>
-
+          </Toolbar>
+        </AppBar>
+      )}
       <BookAppointmentModal open={isModalOpen} handleClose={handleClose} />
     </>
   );

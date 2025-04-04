@@ -58,7 +58,19 @@ export default function AppointmentForm() {
           >
             Book an Appointment
           </Typography>
-          <form onSubmit={handleSubmit}>
+          <Typography
+            variant="body2"
+            component="a"
+            href={`tel:${data?.hospitalInfo?.kimsPhonenumber}`}
+            sx={{ textAlign: "center", fontSize: "20px", padding: "20px 0" ,  textDecoration: "none" ,display:"block"}}
+          >
+            For Book Appointment Call Now 
+            <Box component="span" sx={{ color: "secondary.main" ,fontSize:"35px",padding:"0px 10px" ,fontWeight: "bold",}}>
+              {data?.hospitalInfo?.kimsPhonenumber}
+            </Box>
+          </Typography>
+
+          {/* <form onSubmit={handleSubmit}>
             <Grid2 container spacing={2}>
               <Grid2 size={{ xs: 12, sm: 12, md: 2 }}>
                 <TextField
@@ -160,7 +172,7 @@ export default function AppointmentForm() {
                 </Button>
               </Grid2>
             </Grid2>
-          </form>
+          </form> */}
         </>
       </Box>
     </Stack>
