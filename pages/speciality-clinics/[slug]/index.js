@@ -4,6 +4,7 @@ import websiteJson from "../../../public/website.json";
 import { useRouter } from "next/router";
 import { Typography, Container, Box, Stack } from "@mui/material";
 
+import Head from "next/head";
 
 import { DataContext } from '../../_app';
 import Footer from "@/compoments/Footer";
@@ -150,6 +151,10 @@ useEffect(() => {
 
   return (
     <>
+     <Head>
+        <title>{content?.metaTitle} </title>
+        <meta name="description" content={content?.metadescription} />
+      </Head>
       <Header></Header>
      <Breadcrumbsinfo 
         service={"Speciality Clinics"}

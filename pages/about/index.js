@@ -1,4 +1,5 @@
 import React, { useState,useContext ,useEffect} from "react";
+import Head from "next/head";
 import { useParams, useRouter } from "next/navigation"; 
 
 import {
@@ -41,6 +42,10 @@ const About = () => {
   }
   return (
     <>
+     <Head>
+        <title>{data?.about?.metaTitle} </title>
+        <meta name="description" content={data?.about?.metaDescription} />
+      </Head>
       <Header></Header>
      <Breadcrumbsinfo 
         service={"About Us"}

@@ -1,4 +1,5 @@
-import React, { useState,useContext } from "react";
+import Head from "next/head";
+import React, { useState, useContext } from "react";
 import {
   Box,
   Container,
@@ -26,7 +27,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Link from "next/link";
-import { DataContext } from './_app';
+import { DataContext } from "./_app";
 
 // Import Swiper styles
 import "swiper/css";
@@ -46,6 +47,10 @@ const Home = () => {
 
   return (
     <Box>
+      <Head>
+        <title>{data?.homepageseo?.metaTitle} </title>
+        <meta name="description" content={data?.homepageseo?.metaDescription} />
+      </Head>
       <Header></Header>
       <Box sx={{ paddingTop: { xs: "83px", md: "201px" } }}>
         <Swiper
@@ -65,24 +70,21 @@ const Home = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-       
-          <AboutSection homeabout={websiteJson} />
 
-          <SpecialityClinics
-            specialityclinics={websiteJson?.specialityclinics}
-          />
+        <AboutSection homeabout={websiteJson} />
 
-          <DoctorsLists doctorsList={websiteJson?.doctorsList}></DoctorsLists>
-          <ProceduresList
-            advancedprocedures={websiteJson?.advancedprocedures}
-          ></ProceduresList>
-          <Services services={websiteJson?.services} />
-          <CourseList courselist={websiteJson?.courseDetails} />
-          <Container>
+        <SpecialityClinics specialityclinics={websiteJson?.specialityclinics} />
+
+        <DoctorsLists doctorsList={websiteJson?.doctorsList}></DoctorsLists>
+        <ProceduresList
+          advancedprocedures={websiteJson?.advancedprocedures}
+        ></ProceduresList>
+        <Services services={websiteJson?.services} />
+        <CourseList courselist={websiteJson?.courseDetails} />
+        <Container>
           <PatientVideos patientvideos={websiteJson?.Patientvideos} />
-          </Container>
-          <DoctorVideos doctorvideos={websiteJson?.doctorvideos} />
-
+        </Container>
+        <DoctorVideos doctorvideos={websiteJson?.doctorvideos} />
       </Box>
       <Contactinfo Contactinfo={websiteJson?.hospitalInfo} />
       {/* <AppointmentForm></AppointmentForm> */}

@@ -1,4 +1,5 @@
 import React, { useState, useContext } from "react";
+import Head from "next/head";
 
 import { DataContext } from "./_app";
 import {
@@ -27,6 +28,10 @@ const Doctorvideos = () => {
   const data = useContext(DataContext);
   return (
     <>
+    <Head>
+        <title>{data?.doctorvideosPage?.metaTitle} </title>
+        <meta name="description" content={data?.doctorvideosPage?.metadescription} />
+      </Head>
       <Header></Header>
      <Breadcrumbsinfo  pagename={"Doctor's Talk's"} />
       <Stack sx={{ backgroundColor: "background.default", py: 5 }}>

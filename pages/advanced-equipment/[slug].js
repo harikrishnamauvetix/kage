@@ -1,4 +1,5 @@
 import React, { useState,useContext } from "react";
+import Head from "next/head";
 import websiteJson from "../../public/website.json";
 import { useRouter } from "next/router";
 import {
@@ -67,6 +68,11 @@ const Servicespage = ({ servicesPageContent }) => {
   };
   return (
     <>
+    <Head>
+      <title>{servicesPageContent?.metaTitle} </title>
+      <meta name="description" content={servicesPageContent?.metadescription} />
+     
+    </Head>
       <Header></Header>
      <Breadcrumbsinfo 
         service={"Advanced Equipment"}

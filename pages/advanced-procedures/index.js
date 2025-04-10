@@ -1,3 +1,4 @@
+import Head from "next/head";
 import React, { useState, useEffect ,useContext} from "react";
 import {
   Grid,
@@ -39,6 +40,10 @@ export default function AdvancedProcedures() {
   
   return (
     <>
+    <Head>
+    <title>{data?.advancedproceduresPage?.metaTitle} </title>
+    <meta name="description" content={data?.advancedproceduresPage?.metaDescription} />
+    </Head>
       <Header></Header>
      <Breadcrumbsinfo  pagename={"Advanced Procedures"} />
 

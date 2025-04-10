@@ -1,5 +1,5 @@
 import React, { useState, useEffect ,useContext} from "react";
-
+import Head from "next/head";
 import {
     Grid,
     Typography,
@@ -40,6 +40,10 @@ import {
     
     return (
       <>
+       <Head>
+        <title>{data?.doctorsPage?.metaTitle} </title>
+        <meta name="description" content={data?.doctorsPage?.metadescription} />
+      </Head>
         <Header></Header>
        <Breadcrumbsinfo  pagename={"Fellow Ship Program"} />
   

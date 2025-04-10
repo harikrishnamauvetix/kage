@@ -1,5 +1,6 @@
 import React, { useState,useContext } from "react";
 import { Box, Card, Typography, Icon, Container } from "@mui/material";
+import Head from "next/head";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -13,6 +14,10 @@ const ContactUs = () => {
    const data = useContext(DataContext);
   return (
     <>
+    <Head>
+        <title>{data?.contactPage?.metaTitle} </title>
+        <meta name="description" content={data?.contactPage?.metadescription} />
+      </Head>
       <Header />
      <Breadcrumbsinfo   pagename={"Contact"}  />
       <Container>

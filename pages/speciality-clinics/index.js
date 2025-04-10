@@ -1,4 +1,6 @@
 import React, { useState,useContext } from "react";
+import Head from "next/head";
+
 import {
   Grid,
   Typography,
@@ -37,6 +39,10 @@ export default function SpecialityList() {
   
   return (
     <>
+         <Head>
+        <title>{data?.specialityclinicsPage?.metaTitle} </title>
+        <meta name="description" content={data?.specialityclinicsPage?.metadescription} />
+      </Head>
       <Header></Header>
      <Breadcrumbsinfo  pagename={"Speciality Clinics At KAGE"}  />
 

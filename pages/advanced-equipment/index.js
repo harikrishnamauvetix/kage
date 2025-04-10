@@ -18,6 +18,7 @@ import {
   Grid2,
   Stack,
 } from "@mui/material";
+import Head from "next/head";
 import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { AccessAlarm, Description, CheckCircle } from "@mui/icons-material"; // Import icons of your choice
@@ -39,6 +40,11 @@ export default function AdvancedEquipment() {
 
   return (
     <>
+      <Head>
+      <title>{data?.advancedequipementPage?.metaTitle} </title>
+      <meta name="description" content={data?.advancedequipementPage?.metaDescription} />
+     
+    </Head>
       <Header></Header>
      <Breadcrumbsinfo  pagename={"Advanced Equipment"} />
       <Services services={data?.services} />

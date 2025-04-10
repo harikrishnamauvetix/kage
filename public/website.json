@@ -30,10 +30,16 @@
       "description": "With a state-of-the-art Endoscopy Unit and a dedicated team of specialists, KIMS Advanced Gastroenterology & Endoscopy - KAGE ensures precise diagnostics, minimally invasive therapies, and superior outcomes. Choose KIMS Advanced Gastroenterology & Endoscopy - KAGE for advanced care in Gastrointestinal Diseases, Liver Disorders, and beyond."
     }
   ],
+  "homepageseo": {
+    "metaTitle": "Best Gastro Hospital In Hyderabad | KIMS Hospitals | KAGE",
+    "metaDescription": "Get expert care for your digestive health at KAGE - KIMS Advanced Gastroenterology & Endoscopy in Hyderabad. Our team of specialists offers advanced endoscopy, colonoscopy, and liver disease management. Contact us for an appointment"
+  },
   "about": {
     "page": "KAGE",
     "title": "KAGE",
     "slug": "KAGE",
+    "metaTitle": "Best Gastro Doctor In Hyderabad | Expert Gastroenterologists & GI Treatment | KIMS Hospitals, Hyderabad | KAGE",
+    "metaDescription": "KIMS Advanced Gastroenterology & Endoscopy at KIMS Hospitals is a leading gastroenterology hospital in Hyderabad, Telangana, providing expert diagnosis and treatment for all digestive system disorders. Contact us for an appointment.",
     "subHeading": "KIMS Advanced Gastroenterology & Endoscopy - KAGE, Pioneering Gastroenterology and Hepatology in Hyderabad",
     "Description": "KIMS Advanced Gastroenterology & Endoscopy - KAGE is a specialized center dedicated to delivering cutting-edge care in gastroenterology and liver diseases. Combining advanced technology with the expertise of highly skilled specialists, KIMS Advanced Gastroenterology & Endoscopy - KAGE addresses complex digestive disorders with precision and compassion.",
     "specialtyClinics": {
@@ -78,6 +84,8 @@
       {
         "page": "KIMS Hospitals",
         "title": "KIMS Hospitals",
+        "metaTitle": "Best Multi Speciality Hospital In Hyderabad | KIMS Hospitals",
+        "metaDescription": "Looking for the best gastro hospital in Hyderabad? KIMS Advanced Gastroenterology & Endoscopy at KIMS Hospitals, Secunderabad offers comprehensive digestive care, advanced treatments, and experienced gastroenterologists. Learn more today!",
         "sections": {
           "introduction": {
             "heading": "KIMS Hospitals",
@@ -94,6 +102,8 @@
       {
         "page": "Awards & Accreditation",
         "title": "Awards & Accreditation",
+        "metaTitle": "Advanced Digestive Care Hospital In Hyderabad | KIMS Hospitals | KAGE",
+        "metaDescription": "",
         "sections": {
           "introduction": {
             "heading": "Awards & Accreditation",
@@ -175,9 +185,15 @@
       }
     ]
   },
+  "doctorsPage": {
+    "metaTitle": "Best Gastroenterologist In Hyderabad | Expert Liver Doctor & Gastro Care | KIMS Hospitals, Hyderabad | KAGE",
+    "metaDescription": ""
+  },
   "doctorsList": [
     {
       "id": 1,
+      "metaTitle": "Dr.Sreekanth Appasani - Best Gastroenterlogist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
+      "metaDescription": "",
       "name": "Dr. Sreekanth Appasani",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist, Advanced Therapeutic Endoscopist",
@@ -317,6 +333,8 @@
     },
     {
       "id": 2,
+      "metaTitle": "Dr.G Harsha Vardhan Reddy - Best Gastroenterlogist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
+      "metaDescription": "",
       "name": "Dr. Harsha Vardhan Reddy G",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
@@ -451,6 +469,8 @@
     },
     {
       "id": 3,
+      "metaTitle": "Dr.Bhaskar Kante - Best Gastroenterlogist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
+      "metaDescription": "",
       "name": "Dr. Bhaskar Kante",
       "qualifications": "MD (Int. Med), DM (Med. Gastro), Fellowship (IBD AIIMS)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
@@ -565,6 +585,8 @@
     },
     {
       "id": 4,
+      "metaTitle": "Dr.Spoorthi Kolla - Best Gastroenterlogist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
+      "metaDescription": "",
       "name": "Dr. Spoorthi Kolla",
       "qualifications": "M.D (Int. Med), D.M (Med.Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
@@ -661,6 +683,8 @@
     {
       "id": 5,
       "name": "Dr. Venu Gongati",
+      "metaTitle": "Dr.Venu Gongati - Best Gastroenterlogist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
+      "metaDescription": "",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
       "registrationNumber": "APMC/FMR/80134",
@@ -759,6 +783,8 @@
     },
     {
       "id": 6,
+      "metaTitle": "Dr.Viswanath Kamisetty - Best Gastroenterlogist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
+      "metaDescription": "",
       "name": "Dr. Viswanath Kamisetty",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Gastroenterologist & Hepatologist",
@@ -834,6 +860,8 @@
     },
     {
       "id": 7,
+      "metaTitle": "Dr.Harsha Vardhan Telaprolu - Best Gastroenterlogist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
+      "metaDescription": "",
       "name": "Dr. Harsha Vardhan Telaprolu",
       "qualifications": "MD (JIPMER), DM (PIGMER, Chandigarh)",
       "designation": "Consultant Gastroenterologist & Hepatologist, Interventional Endoscopist",
@@ -886,6 +914,34 @@
       ]
     }
   ],
+  "testimonialsPage": {
+    "metaTitle": "Patient Testimonials Of KAGE At KIMS Hospitals, Hyderabad | Best Gastro Hospital In Hyderabad",
+    "metaDescription": ""
+  },
+  "doctorvideosPage": {
+    "metaTitle": "Hear It From Our Doctors | Patient Education At KAGE - KIMS Hospitals, Hyderabad",
+    "metaDescription": ""
+  },
+  "contactPage": {
+    "metaTitle": "Book An Appointment At KAGE - KIMS Hospitals, Hyderabad | Contact Us",
+    "metaDescription": ""
+  },
+  "coursePage": {
+    "metaTitle": "Training At KAGE - KIMS Hospitals, Hyderabad | Hospital Technician Training Program In Hyderabad",
+    "metaDescription": ""
+  },
+  "advancedproceduresPage": {
+    "metaTitle": "Advanced Gastric Procedures | Best Gastro Hospital In Hyderabad | KAGE at KIMS Hospitals",
+    "metaDescription": ""
+  },
+  "specialityclinicsPage": {
+    "metaTitle": "Gastro Department At KIMS Hospitals, Hyderabad | Best Gastro Clinics In Hyderabad - KAGE",
+    "metaDescription": ""
+  },
+  "advancedequipementPage": {
+    "metaTitle": "Advanced Gastric Surgeries | Best Gastro Hospital In Hyderabad | KAGE at KIMS Hospitals",
+    "metaDescription": ""
+  },
   "testimonials": [
     {
       "id": 1,
@@ -3008,6 +3064,8 @@
       "description": "Clinic for Inflammatory Bowel Disease",
       "icon": "/Images/Icons/latest-icons/IBD-Clinic.png",
       "page": "IBD Clinic",
+      "metaTitle": "Book An Appointment At KAGE - KIMS Hospitals, Hyderabad | Contact Us",
+      "metaDescription": "",
       "content": {
         "title": "IBD Clinic",
         "description": "Clinic for Inflammatory Bowel Disease",
@@ -8360,6 +8418,8 @@
       "icon": "",
       "title": "Olympus X1 HD Endoscope & Colonoscope",
       "pageUrl": "olympus-x1-hd-endoscope-colonoscope",
+      "metaTitle": "Advanced Gastric Procedures | Best Gastro Hospital In Hyderabad | KAGE at KIMS Hospitals",
+      "metaDescription": "",
       "content": [
         {
           "description": "The Olympus X1 HD Endoscope & Colonoscope delivers cutting-edge imaging technology for superior visualization of the gastrointestinal tract. With high-definition optics and innovative imaging modes, it ensures unmatched accuracy for diagnosis and treatment.",
@@ -10270,7 +10330,6 @@
           "text": "Contact",
           "href": "/contact"
         }
-  
       ]
     },
     "socialMedia": {
@@ -10302,7 +10361,7 @@
     "companylogo": "/Images/logo-kage.png",
     "emailid": "appointments.kage@gmail.com",
     "phoneNumber": "7288842255",
-    "kimsPhonenumber":"040 - 44885000",
+    "kimsPhonenumber": "040 - 44885000",
     "address": "C/O Gastroenterology department, KIM's Hospital , 1-8-31/1, Minister Road Krishna Nagar Colony, Ramgopalpet, Begumpet, Secunderabad, Hyderabad, Telangana 500003",
     "map": {
       "iframelink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15047.476207008736!2d78.46386398715822!3d17.436907700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9be10c4c5013%3A0x5581bd5a2711edb!2sKAGE!5e1!3m2!1sen!2sin!4v1738058832256!5m2!1sen!2sin"

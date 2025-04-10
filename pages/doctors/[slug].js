@@ -1,6 +1,6 @@
 import React, { useState,useContext } from "react";
 import websiteJson from "../../public/website.json";
-
+import Head from "next/head";
 import { useRouter } from "next/router";
 import {
   Container,
@@ -63,6 +63,10 @@ const DoctorDetails = ({doctor}) => {
 
   return (
     <>
+       <Head>
+        <title>{doctor?.metaTitle} </title>
+        <meta name="description" content={doctor?.metadescription} />
+      </Head>
       <Header></Header>
      <Breadcrumbsinfo 
         service={"Doctors"}

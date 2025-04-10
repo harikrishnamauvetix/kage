@@ -1,4 +1,6 @@
 import React, { useState,useContext } from "react";
+import Head from "next/head";
+
 import {
   Card,
   CardContent,
@@ -15,8 +17,13 @@ import Header from "@/compoments/Header";
 import Footer from "@/compoments/Footer";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 const CourseListPage = (props) => {
+     const data = useContext(DataContext);
   return (
     <>
+      <Head>
+    <title>{data?.coursePage?.metaTitle} </title>
+    <meta name="description" content={data?.coursePage?.metaDescription} />
+    </Head>
       <Header />
      <Breadcrumbsinfo  service={"Courses"} />
 

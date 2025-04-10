@@ -1,4 +1,5 @@
 import React, { useState, useContext } from "react";
+import Head from "next/head";
 
 import { DataContext } from "./_app";
 import {
@@ -29,6 +30,10 @@ const Testimonials = () => {
   const data = useContext(DataContext);
   return (
     <>
+    <Head>
+        <title>{data?.testimonialsPage?.metaTitle} </title>
+        <meta name="description" content={data?.testimonialsPage?.metadescription} />
+      </Head>
       <Header></Header>
      <Breadcrumbsinfo  pagename={"Testimonials"} />
       <Container >

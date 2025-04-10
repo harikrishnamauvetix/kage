@@ -1,4 +1,5 @@
 import { useParams, useRouter } from "next/navigation"; 
+import Head from "next/head";
 import React, { useState,useContext } from "react";
 
 import {
@@ -81,6 +82,11 @@ const Aboutpage = () => {
 
   return (
     <>
+     <Head>
+      <title>{about?.metaTitle} </title>
+      <meta name="description" content={about?.metadescription} />
+     
+    </Head>
       <Header></Header>
      <Breadcrumbsinfo  sx={{ paddingTop:  { xs: "83px", md: "201px" } }}
         service={"About Us"}

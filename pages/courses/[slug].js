@@ -1,4 +1,6 @@
-import React, { useState,useContext } from "react";
+import Head from "next/head";
+
+import React, { useState, useContext } from "react";
 import websiteJson from "../../public/website.json";
 import {
   Container,
@@ -22,7 +24,6 @@ import Header from "@/compoments/Header";
 import Footer from "@/compoments/Footer";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 const CourseDetail = ({courseDetails}) => {
-  
   const router = useRouter();
   const { slug } = router.query;
   if (!courseDetails) {
@@ -51,8 +52,15 @@ const CourseDetail = ({courseDetails}) => {
   console.log(courseDetails);
   return (
     <>
+      <Head>
+        <title>{data?.courseDetails?.metaTitle} </title>
+        <meta
+          name="description"
+          content={data?.courseDetails?.metaDescription}
+        />
+      </Head>
       <Header />
-     <Breadcrumbsinfo  service={"Courses"} pagename={courseDetails.title} />
+      <Breadcrumbsinfo service={"Courses"} pagename={courseDetails.title} />
       <Container maxWidth="xl">
         <Grid container>
           <Grid size={{ xs: 12, sm: 12, md: 12, lg: 2, xl: 2 }}></Grid>
@@ -214,7 +222,6 @@ export async function getStaticPaths() {
   return { paths, fallback: true };
 }
 
-
 export async function getStaticProps({ params }) {
   const data = websiteJson;
   const courseDetails = data.courseDetails.find(
@@ -227,7 +234,6 @@ export async function getStaticProps({ params }) {
 
   return {
     props: { courseDetails },
- 
   };
 }
 

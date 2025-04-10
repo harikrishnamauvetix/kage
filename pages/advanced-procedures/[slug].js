@@ -1,3 +1,4 @@
+import Head from "next/head";
 import React, { useState,useContext } from "react";
 import websiteJson from "../../public/website.json";
 import { useRouter } from "next/router";
@@ -85,6 +86,11 @@ const Advancedprocedures = ({advancedprocedures}) => {
   };
   return (
     <>
+        <Head>
+      <title>{advancedprocedures?.metaTitle} </title>
+      <meta name="description" content={advancedprocedures?.metaDescription} />
+     
+    </Head>
       <Header></Header>
      <Breadcrumbsinfo 
         service={"Advanced Procedures"}
