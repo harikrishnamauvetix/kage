@@ -49,14 +49,14 @@ const CourseDetail = ({courseDetails}) => {
       </Container>
     );
   }
-  console.log(courseDetails);
+  //console.log(courseDetails);
   return (
     <>
       <Head>
-        <title>{data?.courseDetails?.metaTitle} </title>
+        <title>{websiteJson?.courseDetails?.metaTitle} </title>
         <meta
           name="description"
-          content={data?.courseDetails?.metaDescription}
+          content={websiteJson?.courseDetails?.metaDescription}
         />
       </Head>
       <Header />

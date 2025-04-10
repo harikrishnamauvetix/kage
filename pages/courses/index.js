@@ -1,5 +1,6 @@
 import React, { useState,useContext } from "react";
 import Head from "next/head";
+import websiteJson from "../../public/website.json";
 
 import {
   Card,
@@ -21,8 +22,8 @@ const CourseListPage = (props) => {
   return (
     <>
       <Head>
-    <title>{data?.coursePage?.metaTitle} </title>
-    <meta name="description" content={data?.coursePage?.metaDescription} />
+    <title>{websiteJson?.coursePage?.metaTitle} </title>
+    <meta name="description" content={websiteJson?.coursePage?.metaDescription} />
     </Head>
       <Header />
      <Breadcrumbsinfo  service={"Courses"} />
