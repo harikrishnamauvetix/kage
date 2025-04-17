@@ -42,6 +42,7 @@ import AboutSection from "@/compoments/Home/AboutSection";
 import Services from "@/compoments/Home/Services";
 import CourseList from "@/compoments/Home/CourseList";
 import websiteJson from "../public/website.json";
+import CanonicalTag from "@/compoments/CanonicalTag";
 const Home = () => {
   const data = useContext(DataContext);
 
@@ -51,6 +52,7 @@ const Home = () => {
         <title>{data?.homepageseo?.metaTitle} </title>
         <meta name="description" content={data?.homepageseo?.metaDescription} />
       </Head>
+      <CanonicalTag/>
       <Header></Header>
       <Box sx={{ paddingTop: { xs: "86px", md: "201px" } }}>
         <Swiper

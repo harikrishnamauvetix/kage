@@ -10,6 +10,7 @@ import AppointmentForm from "@/compoments/Bookappointment";
 import { DataContext } from './_app';
 import Footer from "@/compoments/Footer";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
+import CanonicalTag from "@/compoments/CanonicalTag";
 const ContactUs = () => {
    const data = useContext(DataContext);
   return (
@@ -18,6 +19,7 @@ const ContactUs = () => {
         <title>{data?.contactPage?.metaTitle} </title>
         <meta name="description" content={data?.contactPage?.metadescription} />
       </Head>
+      <CanonicalTag/>
       <Header />
      <Breadcrumbsinfo   pagename={"Contact"}  />
       <Container>

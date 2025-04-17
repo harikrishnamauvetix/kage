@@ -26,6 +26,7 @@ import Header from "@/compoments/Header";
 import Footer from "@/compoments/Footer";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
+import CanonicalTag from "@/compoments/CanonicalTag";
 const Testimonials = () => {
   const data = useContext(DataContext);
   return (
@@ -34,6 +35,7 @@ const Testimonials = () => {
         <title>{data?.testimonialsPage?.metaTitle} </title>
         <meta name="description" content={data?.testimonialsPage?.metadescription} />
       </Head>
+      <CanonicalTag/>
       <Header></Header>
      <Breadcrumbsinfo  pagename={"Testimonials"} />
       <Container >

@@ -27,6 +27,7 @@ import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import ServicesDetails from "@/compoments/Services/ServicesDetails";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import Faq from "@/compoments/Services/Faq";
+import CanonicalTag from "@/compoments/CanonicalTag";
 
 export default function ServicePage({specialityclinics}) {
  // console.log(specialityclinics);
@@ -88,6 +89,7 @@ useEffect(() => {
         <title>{specialityclinics?.metaTitle} </title>
         <meta name="description" content={specialityclinics?.metadescription} />
       </Head>
+      <CanonicalTag/>
         {content?.heading && (
           <Grid size={{ xs: 12 }} sx={{ margin: "40px 0 0px 0" }}>
             <Typography
@@ -219,7 +221,7 @@ export async function getStaticPaths() {
     params: { slug: item?.title?.replace(/\s+/g, "-").toLowerCase() },
   }));
 
-  return { paths, fallback: true  };
+  return { paths, fallback: false  };
 }
 
 

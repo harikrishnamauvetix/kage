@@ -34,6 +34,7 @@ import SpecialityClinics from "@/compoments/Home/SpecialityClinics";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import ProceduresList from "@/compoments/Home/ProceduresList";
 import PatientVideos from "@/compoments/Home/PatientVideos";
+import CanonicalTag from "@/compoments/CanonicalTag";
 
 export default function AdvancedProcedures() {
      const data = useContext(DataContext);
@@ -44,6 +45,7 @@ export default function AdvancedProcedures() {
     <title>{data?.advancedproceduresPage?.metaTitle} </title>
     <meta name="description" content={data?.advancedproceduresPage?.metaDescription} />
     </Head>
+    <CanonicalTag/>
       <Header></Header>
      <Breadcrumbsinfo  pagename={"Advanced Procedures"} />
 

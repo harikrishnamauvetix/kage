@@ -34,6 +34,7 @@ import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import ProceduresList from "@/compoments/Home/ProceduresList";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import Services from "@/compoments/Home/Services";
+import CanonicalTag from "@/compoments/CanonicalTag";
 
 export default function AdvancedEquipment() {
   const data = useContext(DataContext);
@@ -45,6 +46,7 @@ export default function AdvancedEquipment() {
       <meta name="description" content={data?.advancedequipementPage?.metaDescription} />
      
     </Head>
+    <CanonicalTag/>
       <Header></Header>
      <Breadcrumbsinfo  pagename={"Advanced Equipment"} />
       <Services services={data?.services} />

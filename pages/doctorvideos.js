@@ -24,6 +24,7 @@ import Header from "@/compoments/Header";
 import Footer from "@/compoments/Footer";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import DoctorVideos from "@/compoments/Home/DoctorVideos";
+import CanonicalTag from "@/compoments/CanonicalTag";
 const Doctorvideos = () => {
   const data = useContext(DataContext);
   return (
@@ -32,6 +33,7 @@ const Doctorvideos = () => {
         <title>{data?.doctorvideosPage?.metaTitle} </title>
         <meta name="description" content={data?.doctorvideosPage?.metadescription} />
       </Head>
+      <CanonicalTag/>
       <Header></Header>
      <Breadcrumbsinfo  pagename={"Doctor's Talk's"} />
       <Stack sx={{ backgroundColor: "background.default", py: 5 }}>

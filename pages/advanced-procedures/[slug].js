@@ -42,6 +42,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import { CheckCircle, Padding } from "@mui/icons-material";
 import PatientVideos from "@/compoments/Home/PatientVideos";
+import CanonicalTag from "@/compoments/CanonicalTag";
 const Advancedprocedures = ({ advancedprocedures }) => {
   const router = useRouter();
   const { slug } = router.query;
@@ -91,6 +92,7 @@ const Advancedprocedures = ({ advancedprocedures }) => {
           content={advancedprocedures?.metaDescription}
         />
       </Head>
+      <CanonicalTag/>
       <Header></Header>
       <Breadcrumbsinfo
         service={"Advanced Procedures"}
@@ -256,7 +258,7 @@ export async function getStaticPaths() {
     params: { slug: service.title.replace(/\s+/g, "-").toLowerCase() },
   }));
 
-  return { paths, fallback: true };
+  return { paths, fallback: false };
 }
 
 export async function getStaticProps({ params }) {

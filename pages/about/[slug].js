@@ -35,6 +35,7 @@ import KimsAchievementsTable from "../../compoments/About/awards";
 import SidebarMenu from "@/compoments/SidebarMenu";
 import AboutsidebarMenu from "@/compoments/aboutSidebar";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
+import CanonicalTag from "@/compoments/CanonicalTag";
 
 const Aboutpage = () => {
   const [expanded, setExpanded] = useState(false);
@@ -87,6 +88,7 @@ const Aboutpage = () => {
       <meta name="description" content={about?.metadescription} />
      
     </Head>
+    <CanonicalTag/>
       <Header></Header>
      <Breadcrumbsinfo  sx={{ paddingTop:  { xs: "86px", md: "201px" } }}
         service={"About Us"}

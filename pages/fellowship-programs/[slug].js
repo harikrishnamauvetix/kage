@@ -34,6 +34,7 @@ import {
   import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
   import ProceduresList from "@/compoments/Home/ProceduresList";
   import PatientVideos from "@/compoments/Home/PatientVideos";
+import CanonicalTag from "@/compoments/CanonicalTag";
   
   export default function FellowShipProgramList() {
        const data = useContext(DataContext);
@@ -44,6 +45,7 @@ import {
         <title>{data?.doctorsPage?.metaTitle} </title>
         <meta name="description" content={data?.doctorsPage?.metadescription} />
       </Head>
+      <CanonicalTag/>
         <Header></Header>
        <Breadcrumbsinfo  pagename={"Fellow Ship Program"} />
   

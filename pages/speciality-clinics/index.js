@@ -33,6 +33,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import SidebarMenu from "@/compoments/SidebarMenu";
 import SpecialityClinics from "@/compoments/Home/SpecialityClinics";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
+import CanonicalTag from "@/compoments/CanonicalTag";
 
 export default function SpecialityList() {
      const data = useContext(DataContext);
@@ -43,6 +44,7 @@ export default function SpecialityList() {
         <title>{data?.specialityclinicsPage?.metaTitle} </title>
         <meta name="description" content={data?.specialityclinicsPage?.metadescription} />
       </Head>
+      <CanonicalTag/>
       <Header></Header>
      <Breadcrumbsinfo  pagename={"Speciality Clinics At KAGE"}  />
 

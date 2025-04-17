@@ -26,6 +26,7 @@ import SendIcon from "@mui/icons-material/Send";
 import Footer from "@/compoments/Footer";
 import Header from "@/compoments/Header";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
+import CanonicalTag from "@/compoments/CanonicalTag";
 
 const Doctors = () => {
   const data = useContext(DataContext);
@@ -37,6 +38,7 @@ const Doctors = () => {
         <title>{data?.doctorsPage?.metaTitle} </title>
         <meta name="description" content={data?.doctorsPage?.metadescription} />
       </Head>
+      <CanonicalTag/>
       <Header></Header>
       <Breadcrumbsinfo service={"Doctors"}></Breadcrumbsinfo>
       <Container maxWidth="lg">

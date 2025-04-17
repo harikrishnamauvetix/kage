@@ -23,6 +23,7 @@ import SidebarMenu from "@/compoments/SidebarMenu";
 import AboutsidebarMenu from "@/compoments/aboutSidebar";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
+import CanonicalTag from "@/compoments/CanonicalTag";
 const About = () => {
   const data = useContext(DataContext);
   const router = useRouter();
@@ -46,6 +47,7 @@ const About = () => {
         <title>{data?.about?.metaTitle} </title>
         <meta name="description" content={data?.about?.metaDescription} />
       </Head>
+      <CanonicalTag/>
       <Header></Header>
      <Breadcrumbsinfo 
         service={"About Us"}

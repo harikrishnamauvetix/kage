@@ -23,6 +23,7 @@ import { useRouter } from "next/router";
 import Header from "@/compoments/Header";
 import Footer from "@/compoments/Footer";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
+import CanonicalTag from "@/compoments/CanonicalTag";
 const CourseDetail = ({courseDetails}) => {
   const router = useRouter();
   const { slug } = router.query;
@@ -59,6 +60,7 @@ const CourseDetail = ({courseDetails}) => {
           content={courseDetails?.metaDescription}
         />
       </Head>
+      <CanonicalTag/>
       <Header />
       <Breadcrumbsinfo service={"Courses"} pagename={courseDetails.title} />
       <Container maxWidth="xl">
@@ -219,7 +221,7 @@ export async function getStaticPaths() {
     params: { slug: service.title.replace(/\s+/g, "-").toLowerCase() },
   }));
 
-  return { paths, fallback: true  };
+  return { paths, fallback: false  };
 }
 
 export async function getStaticProps({ params }) {

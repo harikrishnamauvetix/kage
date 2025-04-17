@@ -40,6 +40,7 @@ import SubServiceListItems from "@/compoments/SubService/SubServiceListItems";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import Faq from "@/compoments/Services/Faq";
+import CanonicalTag from "@/compoments/CanonicalTag";
 
 export default function SubServicePage() {
   const data = useContext(DataContext);
@@ -130,6 +131,7 @@ export default function SubServicePage() {
         <title>{subService?.metaTitle} </title>
         <meta name="description" content={subService?.metadescription} />
       </Head>
+      <CanonicalTag/>
       <Header></Header>
      <Breadcrumbsinfo 
         service={"Speciality Clinics"}

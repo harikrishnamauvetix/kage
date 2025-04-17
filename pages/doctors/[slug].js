@@ -35,6 +35,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import Optimings from "@/compoments/Doctors/Optimings";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
+import CanonicalTag from "@/compoments/CanonicalTag";
 const DoctorDetails = ({ doctor }) => {
   //  const data = useContext(DataContext);
 
@@ -67,6 +68,7 @@ const DoctorDetails = ({ doctor }) => {
         <title>{doctor?.metaTitle} </title>
         <meta name="description" content={doctor?.metadescription} />
       </Head>
+      <CanonicalTag/>
       <Header></Header>
       <Breadcrumbsinfo
         service={"Doctors"}
@@ -347,7 +349,7 @@ export async function getStaticPaths() {
     params: { slug: doc?.name?.replace(/\s+/g, "-").toLowerCase() },
   }));
 
-  return { paths, fallback: true };
+  return { paths, fallback: false };
 }
 
 export async function getStaticProps({ params }) {

@@ -17,6 +17,7 @@ import Link from "next/link";
 import Header from "@/compoments/Header";
 import Footer from "@/compoments/Footer";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
+import CanonicalTag from "@/compoments/CanonicalTag";
 const CourseListPage = (props) => {
      const data = useContext(DataContext);
   return (
@@ -25,6 +26,7 @@ const CourseListPage = (props) => {
     <title>{websiteJson?.coursePage?.metaTitle} </title>
     <meta name="description" content={websiteJson?.coursePage?.metaDescription} />
     </Head>
+    <CanonicalTag/>
       <Header />
      <Breadcrumbsinfo  service={"Courses"} />
 
