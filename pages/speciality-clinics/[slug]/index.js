@@ -83,6 +83,11 @@ useEffect(() => {
   const serviceContent = () => {
     return (
       <>
+      
+      <Head>
+        <title>{specialityclinics?.metaTitle} </title>
+        <meta name="description" content={specialityclinics?.metadescription} />
+      </Head>
         {content?.heading && (
           <Grid size={{ xs: 12 }} sx={{ margin: "40px 0 0px 0" }}>
             <Typography
@@ -214,7 +219,7 @@ export async function getStaticPaths() {
     params: { slug: item?.title?.replace(/\s+/g, "-").toLowerCase() },
   }));
 
-  return { paths, fallback: true };
+  return { paths, fallback: true  };
 }
 
 

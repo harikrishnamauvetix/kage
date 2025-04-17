@@ -31,7 +31,7 @@ const theme = createTheme({
     },
     body1: {
       color: "#000",
-      padding: "0px",
+      padding: "5px 0",
       marginBottom: "0px !important",
     },
   },

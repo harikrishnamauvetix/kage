@@ -134,7 +134,7 @@ const Navbar = () => {
               },
               textAlign: "center",
               fontSize: {
-                xs: "16px",
+                xs: "15px",
                 sm: "18px",
                 md: "18px",
               },

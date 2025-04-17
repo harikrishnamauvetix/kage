@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // output: "export",
-  // distDir: 'build', 
+  //output: "export",
   trailingSlash: true,
   images: {
-    unoptimized: true, 
+    unoptimized: true,          // Required for static export if using <Image>
   },
   reactStrictMode: true,
 };

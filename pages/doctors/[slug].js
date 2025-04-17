@@ -1,4 +1,4 @@
-import React, { useState,useContext } from "react";
+import React, { useState, useContext } from "react";
 import websiteJson from "../../public/website.json";
 import Head from "next/head";
 import { useRouter } from "next/router";
@@ -21,7 +21,7 @@ import {
   Avatar,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import { DataContext } from '../_app';
+import { DataContext } from "../_app";
 import Link from "next/link";
 import Header from "@/compoments/Header";
 import AppointmentForm from "@/compoments/Bookappointment";
@@ -35,9 +35,9 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import Optimings from "@/compoments/Doctors/Optimings";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
-const DoctorDetails = ({doctor}) => {
-    //  const data = useContext(DataContext);
-  
+const DoctorDetails = ({ doctor }) => {
+  //  const data = useContext(DataContext);
+
   const router = useRouter();
   const { slug } = router.query;
   // const doctor="dd"
@@ -63,12 +63,12 @@ const DoctorDetails = ({doctor}) => {
 
   return (
     <>
-       <Head>
+      <Head>
         <title>{doctor?.metaTitle} </title>
         <meta name="description" content={doctor?.metadescription} />
       </Head>
       <Header></Header>
-     <Breadcrumbsinfo 
+      <Breadcrumbsinfo
         service={"Doctors"}
         pagename={doctor.name}
       ></Breadcrumbsinfo>
@@ -117,11 +117,14 @@ const DoctorDetails = ({doctor}) => {
             sx={{ width: "100%", position: "relative" }}
           >
             {/* Ensure full width */}
-            <Grid size={{ xs: 12, md: 12, lg: 3, xl: 3 }}>
+            <Grid size={{ xs: 12, md: 3, lg: 3, xl: 3 }}>
               <Box
                 sx={{
                   position: { xs: "relative", lg: "absolute" },
-                  marginTop: { xs: "0px", lg: "-220px" },
+                  marginTop: { xs: "20px", lg: "-220px" },
+                  alignItems:{ xs: 'start'},
+                  justifyItems:{ xs: 'center'},
+                  alignContent: { xs: 'center'},
                 }}
               >
                 <CardMedia
@@ -129,18 +132,33 @@ const DoctorDetails = ({doctor}) => {
                   height="240"
                   image={`/${doctor.profileImage}`}
                   alt={doctor.name}
+                  sx={{
+                    width: {
+                      xs: "auto",
+                      sm: "auto",
+                      md: "100%",   
+                    },
+                  }}
                 />
                 <Button
                   variant="contained"
                   color="primary"
                   onClick={() => router.push("/appointment")}
-                  sx={{ width: "100%", margin: "20px 0" }}
+                  sx={{
+                    width: {
+                      xs: "auto",
+                      sm: "100%",
+                      md: "100%",
+                    },
+
+                    margin: "20px 0",
+                  }}
                 >
                   Book Appointment
                 </Button>
               </Box>
             </Grid>
-            <Grid size={{ xs: 12, md: 12, lg: 8, xl: 8 }}>
+            <Grid size={{ xs: 12, md: 8, lg: 8, xl: 8 }}>
               {/* <Typography variant="h4">{doctor.name}</Typography> */}
 
               <Box>
@@ -332,7 +350,6 @@ export async function getStaticPaths() {
   return { paths, fallback: true };
 }
 
-
 export async function getStaticProps({ params }) {
   const data = websiteJson;
   console.log(params);
@@ -346,7 +363,6 @@ export async function getStaticProps({ params }) {
 
   return {
     props: { doctor },
- 
   };
 }
 export default DoctorDetails;

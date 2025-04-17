@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-
+import Head from "next/head";
 import React, { useState, useEffect ,useContext} from "react";
 
 import { DataContext } from '../../_app';
@@ -126,6 +126,10 @@ export default function SubServicePage() {
 
   return (
     <>
+    <Head>
+        <title>{subService?.metaTitle} </title>
+        <meta name="description" content={subService?.metadescription} />
+      </Head>
       <Header></Header>
      <Breadcrumbsinfo 
         service={"Speciality Clinics"}

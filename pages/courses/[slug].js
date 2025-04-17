@@ -53,10 +53,10 @@ const CourseDetail = ({courseDetails}) => {
   return (
     <>
       <Head>
-        <title>{websiteJson?.courseDetails?.metaTitle} </title>
+        <title>{courseDetails?.metaTitle} </title>
         <meta
           name="description"
-          content={websiteJson?.courseDetails?.metaDescription}
+          content={courseDetails?.metaDescription}
         />
       </Head>
       <Header />
@@ -219,7 +219,7 @@ export async function getStaticPaths() {
     params: { slug: service.title.replace(/\s+/g, "-").toLowerCase() },
   }));
 
-  return { paths, fallback: true };
+  return { paths, fallback: true  };
 }
 
 export async function getStaticProps({ params }) {

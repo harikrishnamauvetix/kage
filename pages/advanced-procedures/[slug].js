@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React, { useState,useContext } from "react";
+import React, { useState, useContext } from "react";
 import websiteJson from "../../public/website.json";
 import { useRouter } from "next/router";
 import {
@@ -25,7 +25,7 @@ import {
   ListItemIcon,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import { DataContext } from '../_app';
+import { DataContext } from "../_app";
 import Link from "next/link";
 import Header from "@/compoments/Header";
 import AppointmentForm from "@/compoments/Bookappointment";
@@ -42,9 +42,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import { CheckCircle, Padding } from "@mui/icons-material";
 import PatientVideos from "@/compoments/Home/PatientVideos";
-const Advancedprocedures = ({advancedprocedures}) => {
-   
-  
+const Advancedprocedures = ({ advancedprocedures }) => {
   const router = useRouter();
   const { slug } = router.query;
   const [expanded, setExpanded] = useState(false);
@@ -86,13 +84,15 @@ const Advancedprocedures = ({advancedprocedures}) => {
   };
   return (
     <>
-        <Head>
-      <title>{advancedprocedures?.metaTitle} </title>
-      <meta name="description" content={advancedprocedures?.metaDescription} />
-     
-    </Head>
+      <Head>
+        <title>{advancedprocedures?.metaTitle} </title>
+        <meta
+          name="description"
+          content={advancedprocedures?.metaDescription}
+        />
+      </Head>
       <Header></Header>
-     <Breadcrumbsinfo 
+      <Breadcrumbsinfo
         service={"Advanced Procedures"}
         pagename={advancedprocedures.title}
       />
@@ -227,18 +227,18 @@ const Advancedprocedures = ({advancedprocedures}) => {
                       {section.content_2}
                     </Typography>
                   )}
+                  <Typography variant="body1">
+                    {
+                      advancedprocedures.sections[
+                        advancedprocedures.sections.length - 1
+                      ].call_to_action
+                    }
+                  </Typography>
                 </Box>
               ))}
-              <Typography variant="body1" gutterBottom>
-                {
-                  advancedprocedures.sections[
-                    advancedprocedures.sections.length - 1
-                  ].call_to_action
-                }
-              </Typography>
             </Grid>
 
-         <Grid size={{ xs: 12, sm: 12, md: 12, lg: 2, xl: 2 }}></Grid>
+            <Grid size={{ xs: 12, sm: 12, md: 12, lg: 2, xl: 2 }}></Grid>
           </Grid>
         </Container>
       </Box>
@@ -259,7 +259,6 @@ export async function getStaticPaths() {
   return { paths, fallback: true };
 }
 
-
 export async function getStaticProps({ params }) {
   const data = websiteJson;
   const advancedprocedures = data.advancedprocedures.find(
@@ -272,7 +271,6 @@ export async function getStaticProps({ params }) {
 
   return {
     props: { advancedprocedures },
- 
   };
 }
 

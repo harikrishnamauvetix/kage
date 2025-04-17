@@ -52,7 +52,7 @@ const Home = () => {
         <meta name="description" content={data?.homepageseo?.metaDescription} />
       </Head>
       <Header></Header>
-      <Box sx={{ paddingTop: { xs: "83px", md: "201px" } }}>
+      <Box sx={{ paddingTop: { xs: "86px", md: "201px" } }}>
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, A11y]}
