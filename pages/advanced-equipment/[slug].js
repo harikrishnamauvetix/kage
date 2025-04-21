@@ -112,7 +112,7 @@ const Servicespage = ({ servicesPageContent }) => {
                 <Box key={index} sx={{ marginBottom: 3 }}>
                   <Box>
                     <Typography
-                      variant="h5"
+                      variant="h1"
                       gutterBottom
                       sx={{
                         color: "secondary.main",

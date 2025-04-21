@@ -72,7 +72,7 @@ const About = () => {
             <Grid size={{ xs: 12, sm: 12, md: 12, lg: 8, xl: 8 }}>
               <Stack sx={{ margin: "10px 0" }}>
                 <Typography
-                  variant="h6"
+                  variant="h1"
                   gutterBottom
                   sx={{
                     margin: "10px 0",
@@ -143,7 +143,7 @@ const About = () => {
               </Grid>
               <Stack sx={{ margin: "30px 0" }}>
                 <Typography
-                  variant="h6"
+                  variant="h2"
                   align="left"
                   sx={{ margin: "10px 0", color: "secondary.main" }}
                 >

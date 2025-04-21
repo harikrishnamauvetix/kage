@@ -7,11 +7,12 @@ const SidebarMenu = ({ service }) => {
   const router = useRouter();
   const { subpage: currentSubpage } = router.query;
 
-  const formatSlug = (slug) => slug?.replace(/ /g, "-") || "";
+  const formatSlug = (slug) => slug?.toLowerCase().replace(/ /g, "-") || "";
+
 
   const currentSlug = service?.slug || router.query.slug;
   const basePath = router.pathname.split("/")[1];
-  console.log(currentSlug);
+  //console.log(currentSlug);
   const pageLink = `/${basePath}/${formatSlug(currentSlug)}`;
 
   const isMainPageActive = currentSlug === formatSlug(currentSlug) && !currentSubpage;

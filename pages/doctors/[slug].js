@@ -100,8 +100,8 @@ const DoctorDetails = ({ doctor }) => {
               </Box> */}
             </Grid>
             <Grid size={{ xs: 12, md: 12, lg: 9, xl: 9 }} sx={{ py: "40px" }}>
-              <Typography variant="h4">{doctor.name}</Typography>
-              <Typography variant="h6">{doctor.designation}</Typography>
+              <Typography variant="h1">{doctor.name}</Typography>
+              <Typography variant="h2">{doctor.designation}</Typography>
               <Typography variant="h6">{doctor.qualifications}</Typography>
               <Typography>
                 Registration Number: {doctor.registrationNumber}
@@ -133,7 +133,7 @@ const DoctorDetails = ({ doctor }) => {
                   component="img"
                   height="240"
                   image={`/${doctor.profileImage}`}
-                  alt={doctor.name}
+                  alt="Best Gastro Hospital In Hyderabad"
                   sx={{
                     width: {
                       xs: "auto",

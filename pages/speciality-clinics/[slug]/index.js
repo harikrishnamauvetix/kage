@@ -39,7 +39,7 @@ useEffect(() => {
   setService(specialityclinics);
 }, [specialityclinics]); 
 
-  console.log(slug);
+  //console.log(slug);
   // useEffect(() => {
   //   if (!slug) return;
 
@@ -93,7 +93,7 @@ useEffect(() => {
         {content?.heading && (
           <Grid size={{ xs: 12 }} sx={{ margin: "40px 0 0px 0" }}>
             <Typography
-              variant="h5"
+              variant="h1"
               gutterBottom
               sx={{ color: "primary.main" }}
             >

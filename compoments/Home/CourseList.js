@@ -33,7 +33,7 @@ const CourseList = () => {
             }}
           >
             <Typography
-              variant="h4"
+              variant="h2"
               sx={{
                 fontWeight: "bold",
                 marginBottom: 2,

@@ -90,7 +90,7 @@ const Aboutpage = () => {
     </Head>
     <CanonicalTag/>
       <Header></Header>
-     <Breadcrumbsinfo  sx={{ paddingTop:  { xs: "86px", md: "201px" } }}
+     <Breadcrumbsinfo  sx={{ paddingTop:  { xs: "89px", sm:"100px",md: "220px" } }}
         service={"About Us"}
         pagename={about.title}
       ></Breadcrumbsinfo>

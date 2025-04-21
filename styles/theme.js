@@ -24,6 +24,12 @@ const theme = createTheme({
     h4: {
       fontSize: "1.5rem", // Set your desired font size here
     },
+    h1: {
+      fontSize: "1.5rem", // Set your desired font size here
+    },
+    h2: {
+      fontSize: "1.5rem", // Set your desired font size here
+    },
     body2: {
       color: "#000",
       padding: "0px",

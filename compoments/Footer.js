@@ -36,7 +36,7 @@ export default function Footer() {
                 <Box
                   component="img"
                   src={data?.hospitalInfo?.companylogo}
-                  alt={data?.footer.companyInfo.logoAlt}
+                  alt="Best Gastro Hospital In Hyderabad"
                   sx={{ height: 50 }}
                 />
               </Box>

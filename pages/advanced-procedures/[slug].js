@@ -111,7 +111,7 @@ const Advancedprocedures = ({ advancedprocedures }) => {
                 }}
               >
                 <Typography
-                  variant="h5"
+                  variant="h1"
                   sx={{
                     color: "secondary.main",
                   }}

@@ -24,7 +24,7 @@ const SpecialityClinics = (props) => {
         <Box sx={{ backgroundColor: "background.default", padding: 4 }}>
           <Container>
             <Typography
-              variant="h4"
+              variant="h2"
               sx={{
                 fontWeight: "bold",
                 marginBottom: 2,
@@ -56,7 +56,7 @@ const SpecialityClinics = (props) => {
                 
                           <Image
                             src={service.icon}
-                            alt="Doctor Profile"
+                            alt="Best Gastro Hospital In Hyderabad"
                             width={60}
                             height={60}
                             quality={100}

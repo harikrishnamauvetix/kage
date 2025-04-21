@@ -19,6 +19,10 @@ import BookAppointmentModal from "./BookAppointmentModal";
 import HomeIcon from "@mui/icons-material/Home";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
+// import MapIcon from '@mui/icons-material/Map';
+import MapIcon from '@mui/icons-material/LocationOn';
+
+
 import {
   IconButton,
   Drawer,
@@ -27,7 +31,7 @@ import {
   Typography,
   Collapse,
 } from "@mui/material";
-
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 const Navbar = () => {
   // const websiteJson = useContext(DataContext);
   const [anchorEl, setAnchorEl] = useState(null);
@@ -61,7 +65,14 @@ const Navbar = () => {
   const handleOpen = () => setIsModalOpen(true);
   const handleClose = () => setIsModalOpen(false);
   const navItems = [
-    { label: <HomeIcon />, href: "/home" },
+    {
+      label: (
+        <HomeIcon
+          sx={{ fontSize: { xs: "16px", sm: "18px", md: "20px", lg: "22px" } }}
+        />
+      ),
+      href: "/home",
+    },
     { label: "About us", href: "/about" },
     { label: "Doctors", href: "/doctors" },
     {
@@ -103,7 +114,7 @@ const Navbar = () => {
       })),
     },
     { label: "Patient Testimonials", href: "/testimonials" },
-    { label: "Doctor Videos", href: "/doctorvideos" },
+    // { label: "Doctor Videos", href: "/doctorvideos" },
     // { label: "Health Blogs", href: "blogs" },
     // { label: "News & Events", href: "#" },
     // { label: "Contact us", href: "/contact" },
@@ -119,7 +130,7 @@ const Navbar = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            padding:"3px 0"
+            padding: "3px 0",
           }}
         >
           <Typography
@@ -134,7 +145,7 @@ const Navbar = () => {
               },
               textAlign: "center",
               fontSize: {
-                xs: "15px",
+                xs: "13px",
                 sm: "18px",
                 md: "18px",
               },
@@ -173,7 +184,7 @@ const Navbar = () => {
                 <Box
                   component="img"
                   src={websiteJson?.hospitalInfo?.companylogo}
-                  alt="Logo"
+                  alt="Best Gastro Hospital In Hyderabad"
                   sx={{
                     width: { xs: 200, sm: 200, md: 300, lg: "auto" },
                     height: "auto",
@@ -263,16 +274,7 @@ const Navbar = () => {
                 }}
               >
                 {/* Contact Info */}
-                <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
-                  <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-                    <MailIcon
-                      sx={{ color: "primary.main" }}
-                      aria-label="Email Icon"
-                    />
-                    <Typography variant="body2" sx={{ color: "text.primary" }}>
-                      {websiteJson?.hospitalInfo?.emailid}
-                    </Typography>
-                  </Box>
+                <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
                   <Box
                     component="a"
                     href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber}`}
@@ -300,6 +302,25 @@ const Navbar = () => {
                       Call: {websiteJson?.hospitalInfo?.kimsPhonenumber}
                     </Typography>
                   </Box>
+                
+                  <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                    <MapIcon
+                      sx={{ color: "primary.main" }}
+                      aria-label="Email Icon"
+                    />
+                    <Typography variant="body2" sx={{ color: "text.primary" }}>
+                    KIMS Hospitals, Secunderabad
+                    </Typography>
+                  </Box>
+                  <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                    <MailIcon
+                      sx={{ color: "primary.main" }}
+                      aria-label="Email Icon"
+                    />
+                    <Typography variant="body2" sx={{ color: "text.primary" }}>
+                      {websiteJson?.hospitalInfo?.emailid}
+                    </Typography>
+                  </Box>
                 </Box>
               </Box>
             )}
@@ -312,7 +333,11 @@ const Navbar = () => {
             sx={{ top: 0, zIndex: "999999999" }}
           >
             <Toolbar
-              sx={{ alignItems: "center", justifyContent: "space-between" }}
+              sx={{
+                alignItems: "center",
+                justifyContent: "space-between",
+                padding: { xs: "0px", md: "0px 5px", lg: "0px 15px" },
+              }}
             >
               <>
                 <Box className="navbar" sx={{ display: "flex" }}>
@@ -323,13 +348,29 @@ const Navbar = () => {
                       onMouseEnter={() => handleMouseEnter(index)}
                       onMouseLeave={handleMouseLeave}
                     >
-                      <Link href={item.href || "#"} passHref>
-                        <Button
-                          color="inherit"
-                          sx={{ minWidth: "auto", justifyContent: "left" }}
+                      <Link href={item.href || "#"} legacyBehavior>
+                        <Box
+                          component="a"
+                          sx={{
+                            display: "flex",
+                            alignItems: "center",
+                            padding: { xs: "5px", md: "5px", lg: "6px 10px" },
+                            fontSize: {
+                              xs: "13px",
+                              sm: "13px",
+                              md: "13px",
+                              lg: "16px",
+                            },
+                            textTransform: "capitalize",
+                            color: "inherit",
+                            textDecoration: "none",
+                          }}
                         >
                           {item.label}
-                        </Button>
+                          {item.subItems && (
+                            <KeyboardArrowDownIcon sx={{ fontSize: "16px" }} />
+                          )}
+                        </Box>
                       </Link>
                       {item.subItems && openMenu === index && (
                         <Box className="submenu">
@@ -357,6 +398,14 @@ const Navbar = () => {
                     sx={{
                       backgroundColor: "secondary.main",
                       justifyContent: "right",
+                      padding: { xs: "5px", md: "5px", lg: "6px 10px" },
+                      fontSize: {
+                        xs: "14px",
+                        sm: "14px",
+                        md: "14px",
+                        lg: "16px",
+                      },
+                      textTransform: "capitalize",
                       // maxWidth:"200px",
                       // display:"block"
                     }}

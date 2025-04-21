@@ -5,7 +5,7 @@ const IntroductionSection = ({ section }) => {
   return (
     <Stack sx={{ marginBottom: 3 }}>
       <Typography
-        variant="h6"
+        variant="h1"
         gutterBottom
         sx={{
           margin: "10px 0",

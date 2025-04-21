@@ -1,8 +1,8 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
-import React, { useState, useEffect ,useContext} from "react";
-
-import { DataContext } from '../../_app';
+import React, { useState, useEffect, useContext } from "react";
+import websiteJson from "../../../public/website.json";
+import { DataContext } from "../../_app";
 import Footer from "@/compoments/Footer";
 import Header from "@/compoments/Header";
 import {
@@ -45,7 +45,7 @@ import CanonicalTag from "@/compoments/CanonicalTag";
 export default function SubServicePage() {
   const data = useContext(DataContext);
   const router = useRouter();
-  
+
   const { slug, subpage } = router.query;
   // console.log(slug, subpage);
   const [service, setService] = useState(null);
@@ -58,10 +58,9 @@ export default function SubServicePage() {
       console.log("Slug or subpage is missing");
       return;
     }
-  if (!router.isReady || !data) {
-    return <p>Loading...</p>;
-  }
-
+    if (!router.isReady || !data) {
+      return <p>Loading...</p>;
+    }
 
     // Normalize both slug and page to ensure they match despite different formats
     const normalizedSlug = slug.replace(/-/g, " "); // Replace dashes with spaces
@@ -127,13 +126,13 @@ export default function SubServicePage() {
 
   return (
     <>
-    <Head>
+      <Head>
         <title>{subService?.metaTitle} </title>
         <meta name="description" content={subService?.metadescription} />
       </Head>
-      <CanonicalTag/>
+      <CanonicalTag />
       <Header></Header>
-     <Breadcrumbsinfo 
+      <Breadcrumbsinfo
         service={"Speciality Clinics"}
         pagename={subService?.title}
       />
@@ -159,7 +158,7 @@ export default function SubServicePage() {
               {subService?.title && (
                 <Grid item xs={12} sx={{ margin: "40px 0 0px 0" }}>
                   <Typography
-                    variant="h5"
+                    variant="h1"
                     gutterBottom
                     sx={{ color: "primary.main" }}
                   >
@@ -295,11 +294,8 @@ export default function SubServicePage() {
               )}
               {subService?.sections?.faq && (
                 <Grid container spacing={2}>
-                   <Typography variant="h6" sx={{ color: "secondary.main" }}>
-                    {
-                      subService?.sections?.faq
-                        ?.heading
-                    }
+                  <Typography variant="h6" sx={{ color: "secondary.main" }}>
+                    {subService?.sections?.faq?.heading}
                   </Typography>
                   {subService?.sections?.faq?.questions.map((faq, faqIdx) => (
                     <Grid size={{ xs: 12, sm: 12, md: 12 }} key={faqIdx}>
@@ -364,4 +360,59 @@ export default function SubServicePage() {
       <Footer></Footer>
     </>
   );
+}
+
+export async function getStaticPaths() {
+  const data = websiteJson;
+
+  if (!data?.specialityclinics) {
+    console.error("specialityclinics not found in websiteJson");
+    return { paths: [], fallback: false };
+  }
+
+  const paths = [];
+
+  data.specialityclinics.forEach((clinic) => {
+    const slug = clinic.page.replace(/\s+/g, "-").toLowerCase();
+
+    clinic.subpages?.forEach((sub) => {
+      const subpage = sub.page.replace(/\s+/g, "-").toLowerCase();
+      paths.push({
+        params: { slug, subpage },
+      });
+    });
+  });
+
+  return {
+    paths,
+    fallback: false,
+  };
+}
+
+export async function getStaticProps({ params }) {
+  const data = websiteJson;
+  const { slug, subpage } = params;
+
+  const normalizedSlug = slug.replace(/-/g, " ");
+  const normalizedSubpage = subpage.replace(/-/g, " ");
+
+  const foundService = data.specialityclinics.find(
+    (s) => s.page.toLowerCase() === normalizedSlug.toLowerCase()
+  );
+
+  if (!foundService) return { notFound: true };
+
+  const foundSubService = foundService.subpages.find(
+    (sub) => sub.page.toLowerCase() === normalizedSubpage.toLowerCase()
+  );
+
+  if (!foundSubService) return { notFound: true };
+
+  return {
+    props: {
+      service: foundService,
+      subService: foundSubService,
+      subServicelist: foundSubService.sections?.listof_sub_sub_services || [],
+    },
+  };
 }

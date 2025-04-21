@@ -31,7 +31,7 @@ const DoctorsList = (props) => {
         <Container>
           <Box>
             <Typography
-              variant="h4"
+              variant="h2"
               sx={{
                 fontWeight: "bold",
                 marginBottom: 2,
@@ -63,7 +63,7 @@ const DoctorsList = (props) => {
                       component="img"
                       height="270"
                       image={`/${doctor.profileImage}`}
-                      alt={doctor.name}
+                      alt="Best Gastro Hospital In Hyderabad"
                     />
                   </Link>
                   <CardContent sx={{ flexGrow: 1 }}>

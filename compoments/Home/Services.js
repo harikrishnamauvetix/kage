@@ -31,7 +31,7 @@ const Services = (props) => {
         <Container>
           <Box>
             <Typography
-              variant="h4"
+              variant="h2"
               sx={{
                 fontWeight: "bold",
                 marginBottom: 2,

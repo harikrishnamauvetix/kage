@@ -68,7 +68,7 @@ const CourseDetail = ({courseDetails}) => {
           <Grid size={{ xs: 12, sm: 12, md: 12, lg: 2, xl: 2 }}></Grid>
           <Grid size={{ xs: 12, sm: 12, md: 12, lg: 8, xl: 8 }}>
             <Box sx={{ margin: "20px 0" }}>
-              <Typography variant="h5" sx={{ color: "secondary.main" }}>
+              <Typography variant="h1" sx={{ color: "secondary.main" }}>
                 {courseDetails.title}
               </Typography>
               {courseDetails.course_description.map((section, idx) => (

@@ -28,7 +28,7 @@ const AboutSection = ({ homeabout }) => {
         sx={{ textAlign: { xs: "center", md: "left" } }}
       >
         <Typography
-          variant="h4"
+          variant="h1"
           sx={{
             fontWeight: "bold",
             color: "secondary.main",
