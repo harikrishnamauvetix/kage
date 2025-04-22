@@ -367,7 +367,7 @@ export async function getStaticPaths() {
 
   if (!data?.specialityclinics) {
     console.error("specialityclinics not found in websiteJson");
-    return { paths: [], fallback: false };
+    return { paths: [], fallback: true };
   }
 
   const paths = [];
@@ -385,7 +385,7 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: false,
+    fallback: true,
   };
 }
 

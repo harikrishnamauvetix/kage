@@ -20,8 +20,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 // import MapIcon from '@mui/icons-material/Map';
-import MapIcon from '@mui/icons-material/LocationOn';
-
+import MapIcon from "@mui/icons-material/LocationOn";
 
 import {
   IconButton,
@@ -68,7 +67,7 @@ const Navbar = () => {
     {
       label: (
         <HomeIcon
-          sx={{ fontSize: { xs: "16px", sm: "18px", md: "20px", lg: "22px" } }}
+          sx={{ fontSize: { xs: "14px", sm: "16px", md: "18px", lg: "18px" } }}
         />
       ),
       href: "/home",
@@ -113,7 +112,7 @@ const Navbar = () => {
         href: `/courses/${courses.title.replace(/\s+/g, "-").toLowerCase()}`,
       })),
     },
-    { label: "Patient Testimonials", href: "/testimonials" },
+    // { label: "Patient Testimonials", href: "/testimonials" },
     // { label: "Doctor Videos", href: "/doctorvideos" },
     // { label: "Health Blogs", href: "blogs" },
     // { label: "News & Events", href: "#" },
@@ -176,24 +175,26 @@ const Navbar = () => {
           </Typography>
         </Box>
 
-        <Box sx={{ backgroundColor: "white", boxShadow: "none" }}>
-          <Toolbar sx={{ justifyContent: "space-between", padding: "0 2rem" }}>
-            {/* Logo Section */}
-            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-              <Link href="/home" passHref>
-                <Box
-                  component="img"
-                  src={websiteJson?.hospitalInfo?.companylogo}
-                  alt="Best Gastro Hospital In Hyderabad"
-                  sx={{
-                    width: { xs: 200, sm: 200, md: 300, lg: "auto" },
-                    height: "auto",
-                  }}
-                />
-              </Link>
-            </Box>
-            {isMobile && (
-              <>
+        {isMobile && (
+          <>
+            <Box sx={{ backgroundColor: "white", boxShadow: "none" }}>
+              <Toolbar
+                sx={{ justifyContent: "space-between", padding: "0 2rem" }}
+              >
+                {/* Logo Section */}
+                <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                  <Link href="/home" passHref>
+                    <Box
+                      component="img"
+                      src={websiteJson?.hospitalInfo?.companylogo}
+                      alt="Best Gastro Hospital In Hyderabad"
+                      sx={{
+                        width: { xs: 200, sm: 200, md: 400, lg: "auto" },
+                        height: "auto",
+                      }}
+                    />
+                  </Link>
+                </Box>
                 <IconButton
                   color="inherit"
                   edge="start"
@@ -263,69 +264,11 @@ const Navbar = () => {
                     ))}
                   </Box>
                 </Drawer>
-              </>
-            )}
-            {!isMobile && (
-              <Box
-                sx={{
-                  padding: 2,
-                  bgcolor: "background.paper",
-                  borderRadius: 1,
-                }}
-              >
-                {/* Contact Info */}
-                <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
-                  <Box
-                    component="a"
-                    href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber}`}
-                    sx={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: 1,
-                      "&:hover": {
-                        color: "#e6e6e6",
-                        textDecoration: "underline",
-                      },
-                    }}
-                  >
-                    <PhoneIcon
-                      sx={{ color: "primary.main" }}
-                      aria-label="Phone Icon"
-                    />
-                    <Typography
-                      variant="body2"
-                      sx={{
-                        color: "text.primary",
-                        textDecoration: "underline",
-                      }}
-                    >
-                      Call: {websiteJson?.hospitalInfo?.kimsPhonenumber}
-                    </Typography>
-                  </Box>
-                
-                  <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-                    <MapIcon
-                      sx={{ color: "primary.main" }}
-                      aria-label="Email Icon"
-                    />
-                    <Typography variant="body2" sx={{ color: "text.primary" }}>
-                    KIMS Hospitals, Secunderabad
-                    </Typography>
-                  </Box>
-                  <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-                    <MailIcon
-                      sx={{ color: "primary.main" }}
-                      aria-label="Email Icon"
-                    />
-                    <Typography variant="body2" sx={{ color: "text.primary" }}>
-                      {websiteJson?.hospitalInfo?.emailid}
-                    </Typography>
-                  </Box>
-                </Box>
-              </Box>
-            )}
-          </Toolbar>
-        </Box>
+              </Toolbar>
+            </Box>
+          </>
+        )}
+
         {!isMobile && (
           <AppBar
             position="sticky"
@@ -336,10 +279,24 @@ const Navbar = () => {
               sx={{
                 alignItems: "center",
                 justifyContent: "space-between",
-                padding: { xs: "0px", md: "0px 5px", lg: "0px 15px" },
+                padding: { xs: "0px", md: "0px 5px", lg: "0px 5px" },
+                backgroundColor: "white",
               }}
             >
               <>
+                <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                  <Link href="/home" passHref>
+                    <Box
+                      component="img"
+                      src={websiteJson?.hospitalInfo?.companylogo}
+                      alt="Best Gastro Hospital In Hyderabad"
+                      sx={{
+                        width: { xs: 100, sm: 100, md: 150, lg: 250 },
+                        height: "auto",
+                      }}
+                    />
+                  </Link>
+                </Box>
                 <Box className="navbar" sx={{ display: "flex" }}>
                   {navItems.map((item, index) => (
                     <Box
@@ -347,6 +304,7 @@ const Navbar = () => {
                       className="menu-item"
                       onMouseEnter={() => handleMouseEnter(index)}
                       onMouseLeave={handleMouseLeave}
+                      sx={{ color: "#000" }}
                     >
                       <Link href={item.href || "#"} legacyBehavior>
                         <Box
@@ -354,12 +312,17 @@ const Navbar = () => {
                           sx={{
                             display: "flex",
                             alignItems: "center",
-                            padding: { xs: "5px", md: "5px", lg: "6px 10px" },
+                            padding: {
+                              md: "2px",
+                              lg: "5px 8px",
+                              xl: "5px 8px",
+                            },
                             fontSize: {
                               xs: "13px",
                               sm: "13px",
                               md: "13px",
-                              lg: "16px",
+                              lg: "15px",
+                              xl: "16px",
                             },
                             textTransform: "capitalize",
                             color: "inherit",

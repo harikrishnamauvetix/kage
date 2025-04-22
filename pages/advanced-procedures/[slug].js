@@ -258,7 +258,7 @@ export async function getStaticPaths() {
     params: { slug: service.title.replace(/\s+/g, "-").toLowerCase() },
   }));
 
-  return { paths, fallback: false };
+  return { paths, fallback: true };
 }
 
 export async function getStaticProps({ params }) {
