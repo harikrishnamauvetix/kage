@@ -129,6 +129,7 @@ export default function SubServicePage() {
       <Head>
         <title>{subService?.metaTitle} </title>
         <meta name="description" content={subService?.metadescription} />
+        <meta name="keywords" content={subService?.keywords} />
       </Head>
       <CanonicalTag />
       <Header></Header>

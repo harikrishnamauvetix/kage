@@ -199,43 +199,7 @@ const DoctorDetails = ({ doctor }) => {
                     ))}
                   </Stack>
                 )}
-                {doctor?.publications && (
-                  <Stack sx={{ margin: "20px 0" }}>
-                    <Typography
-                      variant="h6"
-                      sx={{ padding: "5px 0", color: "primary.main" }}
-                    >
-                      Publications & Research Papers
-                    </Typography>
-                    <List
-                      disablePadding
-                      sx={{
-                        listStyleType: "disc",
-                        marginLeft: "30px",
-                      }}
-                    >
-                      {Array.isArray(doctor?.publications) &&
-                        doctor.publications.map((publications, index) => {
-                          return (
-                            <List
-                              disablePadding
-                              key={index}
-                              sx={{
-                                listStyleType: "disc",
-                              }}
-                            >
-                              <ListItem
-                                sx={{ display: "list-item", padding: 0 }}
-                              >
-                                <ListItemText primary={publications} />
-                              </ListItem>
-                            </List>
-                          );
-                        })}
-                    </List>
-                  </Stack>
-                )}
-                {doctor?.expertise && (
+                  {doctor?.expertise && (
                   <Stack sx={{ margin: "20px 0" }}>
                     {Array.isArray(doctor.expertise) &&
                       doctor.expertise.map((expertise, index) => (
@@ -313,6 +277,43 @@ const DoctorDetails = ({ doctor }) => {
                       ))}
                   </Stack>
                 )}
+                {doctor?.publications && (
+                  <Stack sx={{ margin: "20px 0" }}>
+                    <Typography
+                      variant="h6"
+                      sx={{ padding: "5px 0", color: "primary.main" }}
+                    >
+                      Publications & Research Papers
+                    </Typography>
+                    <List
+                      disablePadding
+                      sx={{
+                        listStyleType: "disc",
+                        marginLeft: "30px",
+                      }}
+                    >
+                      {Array.isArray(doctor?.publications) &&
+                        doctor.publications.map((publications, index) => {
+                          return (
+                            <List
+                              disablePadding
+                              key={index}
+                              sx={{
+                                listStyleType: "disc",
+                              }}
+                            >
+                              <ListItem
+                                sx={{ display: "list-item", padding: 0 }}
+                              >
+                                <ListItemText primary={publications} />
+                              </ListItem>
+                            </List>
+                          );
+                        })}
+                    </List>
+                  </Stack>
+                )}
+              
 
                 {doctor?.achievements && (
                   <Stack sx={{ margin: "20px 0" }}>
