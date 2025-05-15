@@ -68,7 +68,7 @@ const DoctorDetails = ({ doctor }) => {
         <title>{doctor?.metaTitle} </title>
         <meta name="description" content={doctor?.metadescription} />
       </Head>
-      <CanonicalTag/>
+      <CanonicalTag />
       <Header></Header>
       <Breadcrumbsinfo
         service={"Doctors"}
@@ -124,9 +124,9 @@ const DoctorDetails = ({ doctor }) => {
                 sx={{
                   position: { xs: "relative", lg: "absolute" },
                   marginTop: { xs: "20px", lg: "-220px" },
-                  alignItems:{ xs: 'start'},
-                  justifyItems:{ xs: 'center'},
-                  alignContent: { xs: 'center'},
+                  alignItems: { xs: "start" },
+                  justifyItems: { xs: "center" },
+                  alignContent: { xs: "center" },
                 }}
               >
                 <CardMedia
@@ -138,7 +138,7 @@ const DoctorDetails = ({ doctor }) => {
                     width: {
                       xs: "auto",
                       sm: "auto",
-                      md: "100%",   
+                      md: "100%",
                     },
                   }}
                 />
@@ -232,6 +232,84 @@ const DoctorDetails = ({ doctor }) => {
                           );
                         })}
                     </List>
+                  </Stack>
+                )}
+                {doctor?.expertise && (
+                  <Stack sx={{ margin: "20px 0" }}>
+                    {Array.isArray(doctor.expertise) &&
+                      doctor.expertise.map((expertise, index) => (
+                        <Box key={index}>
+                          {expertise.category && (
+                            <Typography
+                              variant="h6"
+                              sx={{
+                                padding: "10px 0",
+                                color: "primary.main",
+                              }}
+                            >
+                              {expertise.category}
+                            </Typography>
+                          )}
+
+                          {/* If top-level details exist */}
+                          {Array.isArray(expertise.details) && (
+                            <List
+                              disablePadding
+                              sx={{
+                                listStyleType: "disc",
+                                marginLeft: "30px",
+                              }}
+                            >
+                              {expertise.details.map((detail, idx) => (
+                                <ListItem
+                                  key={idx}
+                                  sx={{ display: "list-item", padding: 0 }}
+                                >
+                                  <ListItemText primary={detail} />
+                                </ListItem>
+                              ))}
+                            </List>
+                          )}
+
+                          {/* Handle subcategories */}
+                          {Array.isArray(expertise.subcategories) &&
+                            expertise.subcategories.map((sub, subIdx) => (
+                              <Box key={subIdx} sx={{ marginLeft: "20px" }}>
+                                {sub.subcategory && (
+                                  <Typography
+                                    variant="subtitle1"
+                                    sx={{
+                                      padding: "8px 0",
+                                      color: "secondary.main",
+                                    }}
+                                  >
+                                    {sub.subcategory}
+                                  </Typography>
+                                )}
+                                <List
+                                  disablePadding
+                                  sx={{
+                                    listStyleType: "disc",
+                                    marginLeft: "30px",
+                                  }}
+                                >
+                                  {Array.isArray(sub.details) &&
+                                    sub.details.map((item, itemIdx) => (
+                                      <ListItem
+                                        key={itemIdx}
+                                        sx={{
+                                          display: "list-item",
+                                          padding: 0,
+                                        }}
+                                      >
+                                        <ListItemText primary={item} />
+                                      </ListItem>
+                                    ))}
+                                </List>
+                              </Box>
+                            ))}
+                        </Box>
+                      ))}
                   </Stack>
                 )}
 

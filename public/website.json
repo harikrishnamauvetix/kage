@@ -32,14 +32,16 @@
   ],
   "homepageseo": {
     "metaTitle": "Best Gastro Hospital In Hyderabad | KAGE At KIMS Hospitals | Gastrology Department At KIMS",
-    "metaDescription": "Get expert care for your digestive health at KAGE - KIMS Advanced Gastroenterology & Endoscopy in Hyderabad. Our team of specialists offers advanced endoscopy, colonoscopy, and liver disease management. Contact us for an appointment"
+    "metaDescription": "Get expert care for your digestive health at KAGE - KIMS Advanced Gastroenterology & Endoscopy in Hyderabad. Our team of specialists offers advanced endoscopy, colonoscopy, and liver disease management. Contact us for an appointment",
+    "keywords": "gastro hospital Hyderabad, gastroenterology hospital Hyderabad, liver clinic Hyderabad, endoscopy center Hyderabad, GI hospital Hyderabad, digestive diseases hospital Hyderabad"
   },
   "about": {
     "page": "KAGE",
     "title": "KAGE",
     "slug": "KAGE",
     "metaTitle": "Best Gastro Doctor In Hyderabad | Expert Gastroenterologists & GI Treatment | KAGE At KIMS Hospitals, Hyderabad",
-    "metaDescription": "KIMS Advanced Gastroenterology & Endoscopy at KIMS Hospitals is a leading gastroenterology hospital in Hyderabad, Telangana, providing expert diagnosis and treatment for all digestive system disorders. Contact us for an appointment.",
+    "metaDescription": "KIMS Advanced Gastroenterology & Endoscopy - KAGE at KIMS Hospitals is a leading gastroenterology hospital in Hyderabad, Telangana, providing expert diagnosis and treatment for all digestive system disorders. Contact us for an appointment.",
+    "keywords": "about us KAGE KIMS Hyderabad, KAGE KIMS history, KAGE KIMS mission, KAGE KIMS vision, KAGE KIMS values, our team KAGE KIMS, gastroenterology hospital Hyderabad, liver clinic Hyderabad, advanced medical care Hyderabad, endoscopy center Hyderabad, motility clinic Hyderabad.",
     "subHeading": "KIMS Advanced Gastroenterology & Endoscopy - KAGE, Pioneering Gastroenterology and Hepatology in Hyderabad",
     "Description": "KIMS Advanced Gastroenterology & Endoscopy - KAGE is a specialized center dedicated to delivering cutting-edge care in gastroenterology and liver diseases. Combining advanced technology with the expertise of highly skilled specialists, KIMS Advanced Gastroenterology & Endoscopy - KAGE addresses complex digestive disorders with precision and compassion.",
     "specialtyClinics": {
@@ -85,7 +87,8 @@
         "page": "KIMS Hospitals",
         "title": "KIMS Hospitals",
         "metaTitle": "Best Multi Speciality Hospital In Hyderabad | KIMS Hospitals",
-        "metaDescription": "Looking for the best gastro hospital in Hyderabad? KIMS Advanced Gastroenterology & Endoscopy at KIMS Hospitals, Secunderabad offers comprehensive digestive care, advanced treatments, and experienced gastroenterologists. Learn more today!",
+        "metaDescription": "Looking for the best gastro hospital in Hyderabad? KIMS Advanced Gastroenterology & Endoscopy - KAGE at KIMS Hospitals, Secunderabad offers comprehensive digestive care, advanced treatments, and experienced gastroenterologists. Learn more today!",
+        "keywords": "KIMS Hospitals Hyderabad, KIMS Hospital group, about KIMS Hospitals, history of KIMS Hospitals, KIMS Hospitals mission, KIMS Hospitals vision, KIMS Hospitals network, KIMS Hospitals locations, KIMS Hospitals India, best hospitals Hyderabad, leading hospitals Telangana",
         "sections": {
           "introduction": {
             "heading": "KIMS Hospitals",
@@ -104,11 +107,12 @@
         "title": "Awards & Accreditation",
         "metaTitle": "Advanced Digestive Care Hospital In Hyderabad | KAGE At KIMS Hospitals",
         "metaDescription": "We are an award winning best multi speciality hospital in hyderabad offering specialised treatment for gastro and GI ailments. KIMS advanced gastroenterology & endoscopy is the best gastro hospital in Hyderabad, Know why!",
+        "keywords": "Awards and Accreditation - KIMS Hospitals Hyderabad, best hospitals Hyderabad, leading hospitals Telangana",
         "sections": {
           "introduction": {
             "heading": "Awards & Accreditation",
             "description": [
-              "KIMS Secunderabad has received accreditation from National Accreditation Board for Hospitals & Healthcare Providers (NABH) since 2011 & National Accreditation Board for Testing and Calibration Laboratories (NABL) since 2015. KIMS Secunderabad has also received ISO 9001-2015 certification from NSF – International Strategic Registrations."
+              "We are an award winning best multi speciality hospital in hyderabad offering specialised treatment for gastro and GI ailments. KIMS advanced gastroenterology & endoscopy - KAGE is the best gastro hospital in Hyderabad, Know why!"
             ]
           },
           "AwardsAccreditation": [
@@ -187,13 +191,15 @@
   },
   "doctorsPage": {
     "metaTitle": "Best Gastroenterologist In Hyderabad | Expert Liver Doctor & Gastro Care | KIMS Hospitals, Hyderabad | KAGE",
-    "metaDescription": "Looking for the best gastro doctors in Hyderabad? KAGE at KIMS has a team of gastroenterologists who offer specialised treatment for your gut & liver health. Book your appointment today with a doctor near you!"
+    "metaDescription": "Looking for the best gastro doctors in Hyderabad? KAGE at KIMS has a team of gastroenterologists who offer specialised treatment for your gut & liver health. Book your appointment today with a doctor near you!",
+    "keywords": "gastroenterologists Hyderabad, liver specialists Hyderabad, endoscopy doctors Hyderabad, GI doctors Hyderabad, hepatologists Hyderabad, bariatric surgeons Hyderabad, motility specialists Hyderabad, IBD specialists Hyderabad, best doctors Hyderabad, find a doctor Hyderabad"
   },
   "doctorsList": [
     {
       "id": 1,
       "metaTitle": "Dr.Sreekanth Appasani - Best Gastroenterlogist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
       "metaDescription": "Dr.Sreekanth Appasani is a renowned medical gastroenterologist in Hyderabad. He is a consultant interventional gastroenterologist & hepatologist, advanced therapeutic endoscopist at Kims Advanced Gastroenterology & Endoscopy, KIMS Hospitals, Secunderabad. Book your appointment today!",
+      "keywords": "Sreekanth Appasani gastroenterologist Hyderabad, GI doctor Hyderabad Dr. Sreekanth Appasani, liver specialist Hyderabad Dr. Sreekanth Appasani, endoscopy specialist Hyderabad Dr. Sreekanth Appasani,  Dr. Sreekanth Appasani KIMS, Best Gastroenterologist in hyderabad",
       "name": "Dr. Sreekanth Appasani",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist, Advanced Therapeutic Endoscopist",
@@ -335,6 +341,7 @@
       "id": 2,
       "metaTitle": "Dr.G Harsha Vardhan Reddy - Best Gastroenterlogist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
       "metaDescription": "Dr.Harsha Vardhan Reddy G is a consultant interventional gastroenterologist & hepatologist at Kims Advanced Gastroenterology & Endoscopy, KIMS Hospitals, Secunderabad. Book your appointment today!",
+      "keywords": "Harsha Vardhan Reddy gastroenterologist Hyderabad, liver specialist Hyderabad Dr. Harsha Vardhan Reddy, hepatologist Hyderabad Dr. Harsha Vardhan Reddy, endoscopy specialist Hyderabad Dr. Harsha Vardhan Reddy, GI doctor Hyderabad Dr. Harsha Vardhan Reddy",
       "name": "Dr. Harsha Vardhan Reddy G",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
@@ -361,32 +368,45 @@
         "Poster presentation at APDW 2019, Kolkata.",
         "Paper presentation at ISGCON 2018, Kochi."
       ],
-      "achievements": [
+      "expertise": [
         {
-          "category": "Diagnostic Endoscopy Procedures",
-          "details": [
-            "Performed and reported more than 4000 diagnostic Upper GI endoscopies.",
-            "Completed about 220 proctosigmoidoscopies and more than 1000 colonoscopies.",
-            "Performed over 400 diagnostic and therapeutic pediatric endoscopies, as the hospital is a referral center for Niloufer Hospital for Women and Children."
+          "category": "Advanced Therapeutic Endoscopy Expertise",
+          "subcategories": [
+            {
+              "subcategory": "Hepato-Pancreato-Biliary Endoscopic Interventions",
+              "details": [
+                "Expertise in advanced ERCP for complex hepatobiliary and pancreatic diseases.",
+                "Specialized in therapeutic interventions for malignant biliary obstruction including hilar cholangiocarcinoma and pancreatic cancer.",
+                "Proficiency in complex pancreatic duct interventions, including pancreatic ductal stenting and pancreatic necrosectomy.",
+                "killed in biliary and pancreatic stone extraction using advanced lithotripsy techniques."
+              ]
+            },
+            {
+              "subcategory": "Endoscopic Management of Pancreatic Diseases",
+              "details": [
+                "Advanced skills in EUS-guided pancreatic fluid collection drainage and necrosectomy.",
+                "Expertise in EUS-guided Fine Needle Aspiration (FNA) and Fine Needle Biopsy (FNB) for pancreatic cysts and solid masses.",
+                "Proficiency in EUS-guided Cysto-gastrostomy and Endoscopic Transmural Drainage.",
+                "Pioneering EUS-guided Radiofrequency Ablation (RFA) for pancreatic cyst ablation and neuroendocrine tumors."
+              ]
+            },
+            {
+              "subcategory": "Complicated ERCP",
+              "details": [
+                "Skilled in advanced ERCP techniques including metal stent placement and cholangioscopy",
+                "Experience in complex biliary and pancreatic strictures, malignant obstruction management, and bile leak interventions.",
+                "Expertise in hepaticogastrostomy and choledochoduodenostomy for biliary drainage."
+              ]
+            }
           ]
         },
         {
-          "category": "Therapeutic Endoscopy Procedures",
+          "category": "Clinical Experience",
           "details": [
-            "Managed over 200 esophageal variceal bleeding cases endoscopically using esophageal banding and performed endoscopic sclerotherapy in 10 patients over 2 sessions using polydocanol.",
-            "Biopsied more than 1000 patients from various areas, including the esophagus, stomach, and duodenum. Also performed more than 150 colonic and rectal biopsies.",
-            "Performed esophageal stricture bougie dilatation in over 90 patients across 180 sessions.",
-            "Completed 25 percutaneous endoscopic gastrostomy (PEG) tube placements and 5 achalasia cardia pneumatic balloon dilatations.",
-            "Assisted in 8 pancreatic pseudocyst drainage procedures."
-          ]
-        },
-        {
-          "category": "ERCP and Other Procedures",
-          "details": [
-            "Independently performed over 100 ERCP procedures for various indications such as choledocholithiasis, biliary pancreatitis, cholangiocarcinoma, carcinoma of the head of the pancreas, and pancreatic ascites.",
-            "Performed more than 30 liver biopsies.",
-            "Completed 35 ultrasound-guided liver abscess drainages, including 25 pig-tail placements.",
-            "Performed 25 ultrasound-guided FNAC of the liver."
+            "Performed over 10,000 Upper GI Endoscopies and 3,000+ Colonoscopies including complex diagnostic procedures.",
+            "Specialized in managing complicated hepatobiliary and pancreatic cases with multidisciplinary approaches.",
+            "Led high-risk therapeutic endoscopy cases with a focus on patient safety and outcomes.",
+            "Active involvement in liver transplant patient care and post-operative management."
           ]
         }
       ],
@@ -471,6 +491,7 @@
       "id": 3,
       "metaTitle": "Dr.Bhaskar Kante - Best Gastroenterlogist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
       "metaDescription": "Dr.Bhaskar Kante is a consultant interventional gastroenterologist & hepatologist at Kims Advanced Gastroenterology & Endoscopy, KIMS Hospitals, Secunderabad. Book your appointment today!",
+      "keywords": "Bhaskar Kante gastroenterologist Hyderabad,Bhaskar Kante hepatologist Hyderabad,GI doctor Hyderabad Bhaskar Kante,liver specialist Hyderabad Bhaskar Kante,IBD specialist Bhaskar Kante,ERCP specialist Bhaskar Kante,EUS specialist Bhaskar Kante",
       "name": "Dr. Bhaskar Kante",
       "qualifications": "MD (Int. Med), DM (Med. Gastro), Fellowship (IBD AIIMS)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
@@ -587,6 +608,7 @@
       "id": 4,
       "metaTitle": "Dr.Spoorthi Kolla - Best Gastroenterlogist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
       "metaDescription": "Dr.Spoorthi Kolla is a consultant interventional gastroenterologist & hepatologist at Kims Advanced Gastroenterology & Endoscopy, KIMS Hospitals, Secunderabad. Book your appointment today!",
+      "keywords": "Spoorthi Kolla gastroenterologist Hyderabad,GI doctor Hyderabad Dr. Spoorthi Kolla,liver specialist Hyderabad Dr. Spoorthi Kolla,endoscopy specialist Hyderabad Dr. Spoorthi Kolla",
       "name": "Dr. Spoorthi Kolla",
       "qualifications": "M.D (Int. Med), D.M (Med.Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
@@ -685,6 +707,7 @@
       "name": "Dr. Venu Gongati",
       "metaTitle": "Dr.Venu Gongati - Best Gastroenterlogist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
       "metaDescription": "Dr.Venu Gongati is a consultant interventional gastroenterologist & hepatologist at Kims Advanced Gastroenterology & Endoscopy, KIMS Hospitals, Secunderabad. Book your appointment today!",
+      "keywords": "Venu Gongati gastroenterologist Hyderabad,GI doctor Hyderabad Dr. Venu Gongati,liver specialist Hyderabad Dr. Venu Gongati,endoscopy specialist Hyderabad Dr. Venu Gongati",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Interventional Gastroenterologist & Hepatologist",
       "registrationNumber": "APMC/FMR/80134",
@@ -785,6 +808,7 @@
       "id": 6,
       "metaTitle": "Dr.Viswanath Kamisetty - Best Gastroenterlogist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
       "metaDescription": "Dr.Viswanath Kamisetty is a consultant gastroenterologist & hepatologist at Kims Advanced Gastroenterology & Endoscopy, KIMS Hospitals, Secunderabad. Book your appointment today!",
+      "keywords": "Viswanath Kamisetty gastroenterologist Hyderabad,GI doctor Hyderabad Dr. Viswanath Kamisetty,liver specialist Hyderabad Dr. Viswanath Kamisetty,endoscopy specialist Hyderabad Dr. Viswanath Kamisetty",
       "name": "Dr. Viswanath Kamisetty",
       "qualifications": "MD (Int. Med), DM (Med. Gastro)",
       "designation": "Consultant Gastroenterologist & Hepatologist",
@@ -863,6 +887,7 @@
       "metaTitle": "Dr.Harsha Vardhan Telaprolu - Best Gastroenterlogist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
       "metaDescription": "Dr.Harsha Vardhan Telaprolu is a consultant interventional gastroenterologist & hepatologist, interventional endoscopist at Kims Advanced Gastroenterology & Endoscopy, KIMS Hospitals, Secunderabad. Book your appointment today!",
       "name": "Dr. Harsha Vardhan Telaprolu",
+      "keywords": "Harsha Vardhan Telaprolu gastroenterologist Hyderabad,GI doctor Hyderabad Dr. Harsha Vardhan Telaprolu,liver specialist Hyderabad Dr. Harsha Vardhan Telaprolu,endoscopy specialist Hyderabad Dr. Harsha Vardhan Telaprolu",
       "qualifications": "MD (JIPMER), DM (PIGMER, Chandigarh)",
       "designation": "Consultant Gastroenterologist & Hepatologist, Interventional Endoscopist",
       "registrationNumber": "TSMC/FMR/34378",
@@ -916,31 +941,38 @@
   ],
   "testimonialsPage": {
     "metaTitle": "Patient Testimonials Of KAGE At KIMS Hospitals, Hyderabad | Best Gastro Hospital In Hyderabad",
-    "metaDescription": "Hear from our happy patients about the advanced treatment options for gastric related ailments offered at KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals"
+    "metaDescription": "Hear from our happy patients about the advanced treatment options for gastric related ailments offered at KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals",
+    "keywords": "Patient testimonials KIMS, KAGE patients"
   },
   "doctorvideosPage": {
     "metaTitle": "Hear It From Our Doctors | Patient Education At KAGE - KIMS Hospitals, Hyderabad",
-    "metaDescription": "Follow us on social media for expert advice and information on gut health, liver health & digestive health by Dr.Sreekanth Appasani - Leading medical gastroenterlogist and hepatologist in Hyderabad"
+    "metaDescription": "Follow us on social media for expert advice and information on gut health, liver health & digestive health by Dr.Sreekanth Appasani - Leading medical gastroenterlogist and hepatologist in Hyderabad",
+    "keywords": "Educational videos, gastro videos, gastric diseases guide"
   },
   "contactPage": {
     "metaTitle": "Book An Appointment At KAGE At KIMS Hospitals, Hyderabad | Contact Us",
-    "metaDescription": "Book your appointment with the best gastroenterologist in Hyderabad at KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals. Book Now!"
+    "metaDescription": "Book your appointment with the best gastroenterologist in Hyderabad at KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals. Book Now!",
+    "keywords": "Contact us at KAGE, KIMS Hospitals"
   },
   "coursePage": {
     "metaTitle": "Training At KAGE - KIMS Hospitals, Hyderabad | Hospital Technician Training Program In Hyderabad",
-    "metaDescription": "Our technician training programme covers all aspects of endoscopy, including basics to advanced procedures. They will also develop experience in endoscope maintenance, endoscopy machinery maintenance, and endoscopy recording and reporting software management."
+    "metaDescription": "Our technician training programme covers all aspects of endoscopy, including basics to advanced procedures. They will also develop experience in endoscope maintenance, endoscopy machinery maintenance, and endoscopy recording and reporting software management.",
+    "keywords": "KAGE technician training programme, EUS training hyderabad"
   },
   "advancedproceduresPage": {
     "metaTitle": "Advanced Gastric Procedures | Best Gastro Hospital In Hyderabad | KAGE at KIMS Hospitals",
-    "metaDescription": "KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals is your trusted gastroenterology hospital in Hyderabad for upper and lower GI procedures"
+    "metaDescription": "KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals is your trusted gastroenterology hospital in Hyderabad for upper and lower GI procedures",
+    "keywords": "advanced GI procedures Hyderabad, gastroenterology procedures Hyderabad, therapeutic endoscopy Hyderabad, minimally invasive GI procedures Hyderabad, ERCP Hyderabad, EUS Hyderabad, POEM procedure Hyderabad, ESD procedure Hyderabad, gastrointestinal surgery Hyderabad"
   },
   "specialityclinicsPage": {
     "metaTitle": "Gastro Department At KIMS Hospitals, Hyderabad | Best Gastro Clinics In Hyderabad - KAGE At KIMS Hospitals",
-    "metaDescription": "Get specialised treatment for your digestive, liver and gastric diseases at KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals"
+    "metaDescription": "Get specialised treatment for your digestive, liver and gastric diseases at KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals, Hyderabad",
+    "keywords": "gastro hospital hyderabad, gastro department in kims hospitals, ibd clinic, pancreas clinic, obesity clinic, corrosize injury clinic, advanced endoscopy clinic, motility clinic, liver clinic, women gi clinic, alcohol clinic"
   },
   "advancedequipementPage": {
     "metaTitle": "Advanced Gastric Surgeries | Best Gastro Hospital In Hyderabad | KAGE at KIMS Hospitals",
-    "metaDescription": "The most advanced equipments at KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals for your routine & complex gastrointestinal procedures"
+    "metaDescription": "The most advanced equipments at KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals for your routine & complex gastrointestinal procedures",
+    "keywords": "FibroScan Hyderabad, high-resolution manometry Hyderabad, lithotripsy Hyderabad, best gastro department in hyderabad"
   },
   "testimonials": [
     {
@@ -982,7 +1014,8 @@
       "title": "POEM (Peroral Endoscopic Myotomy)",
       "subtitle": "Revolutionizing Treatment for Achalasia with Precision and Care",
       "metaTitle": "POEM Procedure Hospital In Hyderabad | Best Doctor For Peroral Endoscopic Myotomy Procedure - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "",
+      "metaDescription": "POEM (Peroral Endoscopic Myotomy) in Hyderabad at KAGE at KIMS Hospitals, Hyderabad. Minimally invasive treatment for Achalasia and swallowing disorders performed by expert gastroenterologists.",
+      "keywords": "POEM Procedure Hospital In Hyderabad, Best Doctor For Peroral Endoscopic Myotomy Procedure",
       "sections": [
         {
           "heading": "What is POEM?",
@@ -1082,7 +1115,8 @@
       "title": "EMR (Endoscopic Mucosal Resection)",
       "description": "Experience unmatched durability that goes above and beyond with lasting investment.",
       "metaTitle": "EMR Procedure Hospital In Hyderabad | Best Doctor For Endoscopic Mucosal Resection Procedure - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "",
+      "metaDescription": "EMR Procedure in Hyderabad: KAGE at KIMS Hospitals, Hyderabad provides Endoscopic Mucosal Resection for removing lesions from the esophagus, stomach, colon, and duodenum using minimally invasive techniques.",
+      "keywords": "EMR Procedure Hospital In Hyderabad, Best Doctor For Endoscopic Mucosal Resection Procedure",
       "sections": [
         {
           "heading": "EMR (Endoscopic Mucosal Resection)",
@@ -1195,7 +1229,8 @@
       "title": "ESD (Endoscopic Submucosal Dissection)",
       "description": "Integrate our product into your routine with an intuitive and easy-to-use interface.",
       "metaTitle": "ESD Procedure Hospital In Hyderabad | Best Doctor For ESD Procedure - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "",
+      "metaDescription": "ESD Procedure in Hyderabad: KAGE at KIMS Hospitals, Hyderabad provides Endoscopic Submucosal Dissection, offering precise and en-bloc removal of complex lesions in the esophagus, stomach, colon, and rectum with minimal invasiveness.",
+      "keywords": "ESD Procedure Hospital In Hyderabad, Best Doctor For ESD Procedure",
       "sections": [
         {
           "heading": "ESD (Endoscopic Submucosal Dissection)",
@@ -1320,7 +1355,8 @@
       "title": "STER (Submucosal Tunneling Endoscopic Resection)",
       "description": "Stay ahead with features that set new standards, addressing your evolving needs better than the rest.",
       "metaTitle": "STER Procedure Hospital In Hyderabad | Best Doctor For Submucosal Tunneling Endoscopic Resection Procedure - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "",
+      "metaDescription": "STER Procedure in Hyderabad: KAGE at KIMS Hospitals, Hyderabad provides Submucosal Tunneling Endoscopic Resection, offering precise and safe removal of submucosal lesions in the esophagus, stomach, and rectum with minimal invasiveness.",
+      "keywords": "STER Procedure Hospital In Hyderabad, Best Doctor For Submucosal Tunneling Endoscopic Resection Procedure",
       "sections": [
         {
           "heading": "What is STER?",
@@ -1447,7 +1483,8 @@
       "title": "ARMA (Anti-reflux Mucosal Ablation)",
       "description": "A cutting-edge solution for reflux management with long-term relief.",
       "metaTitle": "ARMA Procedure Hospital In Hyderabad | Best Doctor For Anti-reflux Mucosal Ablation Procedure - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "",
+      "metaDescription": "ARMA Procedure in Hyderabad: KAGE at KIMS Hospitals, Hyderabad provides Anti-Reflux Mucosal Ablation as a minimally invasive endoscopic option for patients suffering from chronic GERD and acid reflux.",
+      "keywords": "ARMA Procedure Hospital In Hyderabad, Best Doctor For Anti-reflux Mucosal Ablation Procedure",
       "sections": [
         {
           "heading": "What is ARMA?",
@@ -1574,7 +1611,8 @@
       "title": "GERDx (Anti-Reflux Mucosal Ablation Therapy)",
       "description": "Effective anti-reflux therapy designed to provide relief and improve patient outcomes.",
       "metaTitle": "GERDx Procedure Hospital In Hyderabad | Best Doctor For Anti-Reflux Mucosal Ablation Therapy Procedure - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "",
+      "metaDescription": "Seeking relief from chronic acid reflux in Hyderabad? KAGE at KIMS Hospitals, Hyderabad offers GERDx, an advanced, minimally invasive endoscopic therapy performed by experienced gastroenterologists to treat GERD.",
+      "keywords": "GERDx Procedure Hospital In Hyderabad, Best Doctor For Anti-Reflux Mucosal Ablation Therapy Procedure",
       "sections": [
         {
           "heading": "What is GERDx?",
@@ -1698,7 +1736,8 @@
       "title": "FTRD (Full-Thickness Resection Device)",
       "description": "Innovative technology for precise tissue resection and minimal complications.",
       "metaTitle": "FTRD Procedure Hospital In Hyderabad | Best Doctor For Full-Thickness Resection Device Procedure - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "",
+      "metaDescription": "FTRD Procedure in Hyderabad: KAGE at KIMS Hospitals, Hyderabad provides Full-Thickness Resection using this advanced endoscopic device, enabling precise and complete removal of lesions in the esophagus, stomach, colon, and rectum.",
+      "keywords": "FTRD Procedure Hospital In Hyderabad, Best Doctor For Full-Thickness Resection Device Procedure",
       "sections": [
         {
           "heading": "What is FTRD?",
@@ -1818,7 +1857,8 @@
       "title": "EUS- Biliary Drainage",
       "description": "Advanced procedure for biliary drainage using Endoscopic Ultrasound.",
       "metaTitle": "EUS Procedure Hospital In Hyderabad | Best Doctor For EUS- Biliary Drainage Procedure - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "",
+      "metaDescription": "Seeking EUS-guided biliary drainage in Hyderabad? KAGE at KIMS Hospitals, Hyderabad offers this advanced, minimally invasive endoscopic technique performed by experienced gastroenterologists to treat bile duct obstruction.",
+      "keywords": "EUS Procedure Hospital In Hyderabad, Best Doctor For EUS- Biliary Drainage Procedure",
       "sections": [
         {
           "heading": "What is EUS Biliary Drainage?",
@@ -1969,7 +2009,8 @@
       "title": "EUS- GJ (Gastrojejunostomy)",
       "description": "A minimally invasive approach to treating obstructed gastric bypasses.",
       "metaTitle": "EUS GJ Procedure Hospital In Hyderabad | Best Doctor For EUS - Gastrojejunostomy Procedure - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "",
+      "metaDescription": "EUS-Guided GJ (Gastrojejunostomy) in Hyderabad at KAGE at KIMS Hospitals, Hyderabad. Minimally invasive endoscopic procedure to create a connection between the stomach and small intestine for blocked passages.",
+      "keywords": "EUS GJ Procedure Hospital In Hyderabad, Best Doctor For EUS - Gastrojejunostomy Procedure",
       "sections": [
         {
           "heading": "What is EUS-GJ?",
@@ -2124,7 +2165,8 @@
       "title": "EUS- RF Ablation",
       "description": "Revolutionary treatment option using radiofrequency for enhanced therapeutic results.",
       "metaTitle": "EUS RF Procedure Hospital In Hyderabad | Best Doctor For EUS - RF Ablation Procedure - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "",
+      "metaDescription": "EUS RF Ablation in Hyderabad: KAGE at KIMS Hospitals, Hyderabad provides this advanced endoscopic ultrasound-guided procedure as a less invasive alternative to surgery for treating certain gastrointestinal and pancreatic lesions.",
+      "keywords": "EUS RF Procedure Hospital In Hyderabad, Best Doctor For EUS - RF Ablation Procedure",
       "sections": [
         {
           "heading": "What is EUS-RF Ablation?",
@@ -2283,7 +2325,8 @@
       "title": "EUS Cystogastrostomy",
       "description": "Endoscopic ultrasound-assisted technique for drainage of pancreatic cysts.",
       "metaTitle": "EUS Cystogastrostomy Procedure Hospital In Hyderabad | Best Doctor For EUS Cystogastrostomy Procedure - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "",
+      "metaDescription": "Seeking EUS-guided cystogastrostomy in Hyderabad? KAGE at KIMS Hospitals, Hyderabad offers this advanced, minimally invasive endoscopic technique performed by experienced gastroenterologists to manage pancreatic pseudocysts.",
+      "keywords": "EUS Cystogastrostomy Procedure Hospital In Hyderabad, Best Doctor For EUS Cystogastrostomy Procedure",
       "sections": [
         {
           "heading": "What is EUS Cystogastrostomy?",
@@ -2437,7 +2480,8 @@
       "title": "Endoscopic Necrosectomy",
       "description": "Minimally invasive procedure for managing pancreatic necrosis.",
       "metaTitle": "Endoscopic Necrosectomy Procedure Hospital In Hyderabad | Best Doctor For Endoscopic Necrosectomy Procedure - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "",
+      "metaDescription": "Endoscopic Necrosectomy in Hyderabad at KAGE at KIMS Hospitals, Hyderabad. Minimally invasive endoscopic procedure to remove infected necrotic tissue from the pancreas in cases of severe pancreatitis.",
+      "keywords": "Endoscopic Necrosectomy Procedure Hospital In Hyderabad, Best Doctor For Endoscopic Necrosectomy Procedure",
       "sections": [
         {
           "heading": "What is Endoscopic Necrosectomy?",
@@ -2591,7 +2635,8 @@
       "title": "ERCP- Endoscopic Retrograde Cholangiopancreatography",
       "description": "A diagnostic and therapeutic procedure to treat biliary and pancreatic disorders.",
       "metaTitle": "ERCP Procedure Hospital In Hyderabad | Best Doctor For ERCP- Endoscopic Retrograde Cholangiopancreatography Procedure - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "",
+      "metaDescription": "ERCP (Endoscopic Retrograde Cholangiopancreatography) in Hyderabad at KAGE at KIMS Hospitals, Hyderabad. Expert diagnosis and treatment for conditions of the bile ducts, gallbladder, and pancreatic ducts using minimally invasive endoscopy.",
+      "keywords": "ERCP Procedure Hospital In Hyderabad, Best Doctor For ERCP- Endoscopic Retrograde Cholangiopancreatography Procedure",
       "sections": [
         {
           "heading": "What is ERCP?",
@@ -2760,6 +2805,7 @@
       "subtitle": "Advanced Diagnostics and Treatment for Bile and Pancreatic Duct Issues",
       "metaTitle": "Cholangiopancreatography Procedure Hospital In Hyderabad | Best Doctor For Cholangiopancreatography Procedure - KAGE At KIMS Hospitals, Hyderabad",
       "metaDescription": "",
+      "keywords": "Cholangiopancreatography Procedure Hospital In Hyderabad, Best Doctor For Cholangiopancreatography Procedure",
       "sections": [
         {
           "heading": "What is ERCP?",
@@ -2877,7 +2923,8 @@
       "title": "Bariatric Endoscopy- ESG (Endoscopic Sleeve Gastrectomy)",
       "description": "A minimally invasive bariatric procedure for weight loss.",
       "metaTitle": "Bariatric Endoscopy- ESG Procedure Hospital In Hyderabad | Best Doctor For Bariatric Endoscopy - Endoscopic Sleeve Gastrectomy Procedure - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "",
+      "metaDescription": "Seeking non-surgical weight loss in Hyderabad? KAGE at KIMS Hospitals, Hyderabad offers ESG, an advanced endoscopic bariatric procedure performed by experienced gastroenterologists to help you achieve significant weight loss.",
+      "keywords": "Bariatric Endoscopy- ESG Procedure Hospital In Hyderabad, Best Doctor For Bariatric Endoscopy - Endoscopic Sleeve Gastrectomy Procedure",
       "sections": [
         {
           "heading": "What is Endoscopic Sleeve Gastroplasty (ESG)?",
@@ -3044,7 +3091,8 @@
       "title": "Biofeedback",
       "description": "A non-invasive approach to managing stress and improving overall health.",
       "metaTitle": "Biofeedback Procedure Hospital In Hyderabad | Best Doctor For Biofeedback Procedure - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "",
+      "metaDescription": "Biofeedback Therapy in Hyderabad at KAGE at KIMS Hospitals, Hyderabad. Learn to control bodily functions for improved digestive health, stress management, and pelvic floor issues through non-invasive techniques.",
+      "keywords": "Biofeedback Procedure Hospital In Hyderabad, Best Doctor For Biofeedback Procedure",
       "sections": [
         {
           "heading": "Biofeedback Therapy",
@@ -3214,6 +3262,7 @@
       "page": "IBD Clinic",
       "metaTitle": "Treatment For Inflammatory Bowel Disease In Hyderabad | Best Hospital For IBD In Hyderabad - KAGE At KIMS Hospitals",
       "metaDescription": "KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals offers a specialized IBD Clinic with leading gastroenterologists experienced in managing Crohn's disease and ulcerative colitis. Get personalized treatment plans for your IBD",
+      "keywords": "IBD clinic, Crohns disease treatment in hyderabad, Ulcerative colitis treatment in hyderabad, kage kims",
       "content": {
         "title": "IBD Clinic",
         "description": "Clinic for Inflammatory Bowel Disease",
@@ -3344,6 +3393,7 @@
           "title": "Crohns Disease",
           "metaTitle": "Treatment For Crohn's Disease  In Hyderabad | Crohn's Disease Doctor In Hyderabad - KAGE At KIMS Hospitals",
           "metaDescription": "KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals offers a specialized IBD Clinic with leading gastroenterologists experienced in managing Crohn's disease. Get personalized treatment plans for your IBD",
+          "keywords": "Core Condition and Location: Crohn's Disease Hyderabad, Crohn's Disease treatment Hyderabad, Crohn's Disease specialist Hyderabad, gastroenterologist for Crohn's Hyderabad",
           "sections": {
             "introduction": {
               "heading": "What Is Crohn’s Disease?",
@@ -3476,6 +3526,7 @@
           "title": "Ulcerative Colitis In Hyderabad / Secunderabad",
           "metaTitle": "Treatment For Ulcerative Colitis In Hyderabad | Best Hospital For Ulcerative Colitis Treatment In Hyderabad - KAGE At KIMS Hospitals",
           "metaDescription": "KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals offers a specialized IBD Clinic with leading gastroenterologists experienced in managing ulcerative colitis. Get personalized treatment plans for your IBD",
+          "keywords": "Ulcerative Colitis Hyderabad, Ulcerative Colitis treatment Hyderabad, Ulcerative Colitis specialist Hyderabad, Ulcerative Colitis management Hyderabad, Ulcerative Colitis diagnosis Hyderabad, Ulcerative Colitis diet Hyderabad, Ulcerative Colitis medication Hyderabad, gastroenterologist for Ulcerative Colitis Hyderabad",
           "sections": {
             "introduction": {
               "heading": "What Is Ulcerative Colitis?",
@@ -3629,6 +3680,7 @@
       "page": "Pancreas Clinic",
       "metaTitle": "Treatment For Pancrease Diseases In Hyderabad | Best Hospital For Pancreas Treatment In Hyderabad - KAGE At KIMS Hospitals",
       "metaDescription": "KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals offers a specialized Pancreas Clinic with leading gastroenterologists experienced in managing pancreatic diseases. Get your personalized treatment plan",
+      "keywords": "Pancreas Clinic Hyderabad, pancreas specialist Hyderabad, Pancreatic diseases treatment Hyderabad, Pancreatitis treatment Hyderabad, Pancreatic cancer treatment Hyderabad, Pancreatic cysts treatment Hyderabad, gastroenterologist for pancreas Hyderabad",
       "content": {
         "heading": "Pancreas Clinic at KIMS Advanced Gastroenterology & Endoscopy - KAGE ",
         "overview": {
@@ -3802,6 +3854,7 @@
           "title": "Acute and Chronic Pancreatitis In Hyderabad / Secunderabad",
           "metaTitle": "Treatment For Pancreatitis In Hyderabad | Best Hospital For Pancreatitis Treatment In Hyderabad - KAGE At KIMS Hospitals",
           "metaDescription": "KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals offers a specialized Pancreas Clinic with leading gastroenterologists experienced in managing acute & chronic pancreatitis. Get your personalized treatment plan",
+          "keywords": "Pancreas Clinic Hyderabad, pancreas specialist Hyderabad, Pancreatic diseases treatment Hyderabad, Pancreatitis treatment Hyderabad, Pancreatic cancer treatment Hyderabad, Pancreatic cysts treatment Hyderabad, gastroenterologist for pancreas Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Understanding Pancreatitis",
@@ -4100,6 +4153,7 @@
           "title": "Pancreatic Cysts and Pseudocysts In Hyderabad / Secunderabad",
           "metaTitle": "Treatment For Pancreatic Cysts In Hyderabad | Best Hospital For Pancreatic Cysts Treatment In Hyderabad - KAGE At KIMS Hospitals",
           "metaDescription": "KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals offers a specialized Pancreas Clinic with leading gastroenterologists experienced in managing Pancreatic Cysts and Pseudocysts. Get your personalized treatment plan",
+          "keywords": "Core Conditions and Location: Pancreatic Cysts Hyderabad, Pancreatic Pseudocysts Hyderabad,  Pancreatic Cyst treatment Hyderabad, Pancreatic Pseudocyst treatment Hyderabad, Pancreas Clinic Hyderabad Cysts, Pancreas Clinic Hyderabad Pseudocysts, pancreatic cyst management Hyderabad, pancreatic pseudocyst management Hyderabad, gastroenterologist for pancreatic cysts Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -4294,6 +4348,7 @@
           "title": "Pancreatic Cancer In Hyderabad / Secunderabad",
           "metaTitle": "Treatment For Pancreatic Cancer In Hyderabad | Best Hospital For Pancreatic Cancer Treatment In Hyderabad - KAGE At KIMS Hospitals",
           "metaDescription": "KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals offers a specialized Pancreas Clinic with leading gastroenterologists experienced in managing pancreatic cancer. Get your personalized treatment plan",
+          "keywords": "Pancreatic Cancer Hyderabad, Pancreatic Cancer treatment Hyderabad, Pancreatic Cancer specialist Hyderabad,  multidisciplinary pancreatic cancer team Hyderabad, pancreatic oncologist Hyderabad, pancreatic surgery Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -4734,6 +4789,7 @@
           "title": "Autoimmune Pancreatitis (AIP) In Hyderabad / Secunderabad",
           "metaTitle": "Treatment For Autoimmune Pancreatitis In Hyderabad | Best Hospital For Autoimmine Pancreatitis Treatment In Hyderabad - KAGE At KIMS Hospitals",
           "metaDescription": "KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals offers a specialized Pancreas Clinic with leading gastroenterologists experienced in managing Autoimmune Pancreatitis - AIP. Get your personalized treatment plan",
+          "keywords": "Autoimmune Pancreatitis Hyderabad, AIP treatment Hyderabad, Type 1 AIP Hyderabad, Type 2 AIP Hyderabad, steroid treatment AIP Hyderabad, immunosuppressants AIP Hyderabad, Pancreas Clinic Hyderabad AIP, AIP diagnosis Hyderabad, symptoms of AIP Hyderabad, gastroenterologist for AIP Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -4916,6 +4972,7 @@
       "page": "Obesity Clinic",
       "metaTitle": "Best Obesity Treatment In Hyderabad | Best Hospital For Weight Loss Surgery In Hyderabad - KAGE At KIMS Hospitals",
       "metaDescription": "Explore bariatric surgery options at KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals in Hyderabad. Our experienced surgeons offer advanced weight loss surgery procedures to help you achieve significant and lasting results.",
+      "keywords": "obesity clinic Hyderabad, weight loss clinic Hyderabad, medical weight loss Hyderabad, bariatric medicine Hyderabad, weight management Hyderabad, non-surgical weight loss Hyderabad, obesity treatment Hyderabad, diet clinic Hyderabad, lifestyle modification obesity Hyderabad",
       "content": {
         "heading": "KIMS Advanced Gastroenterology & Endoscopy - KAGE Hospitals | Hyderabad",
         "sub_heading": "",
@@ -5092,6 +5149,7 @@
           "title": "Bariatric Surgery",
           "metaTitle": "Best Doctor For Weight Loss Surgery In Hyderabad | Best Bariatric Surgery Hospital In Hyderabad - KAGE At KIMS Hospitals",
           "metaDescription": "Best Doctor For Weight Loss Surgery In Hyderabad | Best Bariatric Surgery Hospital In Hyderabad - KAGE At KIMS Hospitals",
+          "keywords": "bariatric surgery Hyderabad, weight loss surgery Hyderabad, gastric bypass Hyderabad, sleeve gastrectomy Hyderabad, obesity surgery Hyderabad, surgical weight loss Hyderabad, bariatric surgeons Hyderabad, eligibility for bariatric surgery, benefits of bariatric surgery",
           "sections": {
             "introduction": {
               "heading": "Transforming Lives Through Advanced Bariatric Surgery",
@@ -5259,7 +5317,8 @@
           "page": "Endoscopic Bariatric Procedures",
           "title": "Endoscopic Bariatric Procedures",
           "metaTitle": "Endoscopic Bariatric Surgery In Hyderabad | Best Weight Loss Surgery Hospital In Hyderabad - KAGE At KIMS Hospitals",
-          "metaDescription": "",
+          "metaDescription": "Explore endoscopy lapasroscopic bariatric surgery options at KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals in Hyderabad. Our experienced surgeons offer laproscopic weight loss surgery procedures to help you achieve significant and lasting results.",
+          "keywords": "endoscopic bariatric procedures Hyderabad, non-surgical weight loss Hyderabad, ESG Hyderabad, endoscopic sleeve gastroplasty Hyderabad, intragastric balloon Hyderabad, weight loss endoscopy Hyderabad, minimally invasive weight loss Hyderabad, obesity treatment without surgery Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Weight Loss Without Surgery: The Power of Endoscopic Bariatrics",
@@ -5430,7 +5489,8 @@
       "icon": "/Images/Icons/latest-icons/Corrosive-Injury-Clinic.png",
       "page": "Corrosive Injury Clinic",
       "metaTitle": "Corrosive Injuries Treatment In Hyderabad | Best Hospital For Surgical Management Of Corrosive Injuries In Hyderabad - KAGE At KIMS Hospitals",
-      "metaDescription": "",
+      "metaDescription": "Specialized Corrosive Injury Clinic in Hyderabad at KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals. Expert care for acid & alkali burns, esophageal strictures, and swallowing difficulties. Find relief and recovery here",
+      "keywords": "Corrosive Injury Clinic Hyderabad, acid burn treatment Hyderabad, alkali burn treatment Hyderabad, esophageal stricture treatment Hyderabad, swallowing difficulties after burns Hyderabad, chemical burn treatment Hyderabad, acid ingestion treatment Hyderabad, alkali ingestion treatment Hyderabad",
       "content": {
         "heading": "Corrosive Injury Clinic",
         "sub_heading": "KIMS Advanced Gastroenterology & Endoscopy - KAGE Hospitals | Hyderabad",
@@ -5633,7 +5693,8 @@
       "icon": "/Images/Icons/latest-icons/aec.png",
       "page": "Advanced Endoscopy Clinic",
       "metaTitle": "Best Endoscopy Treatment In Hyderabad | Best Hospital For Endoscopy Tests & Upper GI Endoscopy In Hyderabad - KAGE At KIMS Hospitals",
-      "metaDescription": "",
+      "metaDescription": "Explore minimally invasive diagnostic and treatment options for digestive disorders in Hyderabad at KIMS KAGE's Advanced Endoscopy Clinic - offering comprehensive diagnostic and therapeutic services by experienced gastroenterologists.",
+      "keywords": "advanced endoscopy clinic Hyderabad, endoscopy center Hyderabad, therapeutic endoscopy Hyderabad, minimally invasive GI procedures Hyderabad, diagnostic endoscopy Hyderabad, ERCP Hyderabad, EUS Hyderabad, ESD Hyderabad, POEM procedure Hyderabad, capsule endoscopy Hyderabad, double balloon enteroscopy Hyderabad",
       "content": {
         "heading": "Advanced Endoscopy Clinic",
         "sub_heading": "KIMS Advanced Gastroenterology & Endoscopy - KAGE Hospitals | Hyderabad",
@@ -5779,7 +5840,8 @@
           "page": "Endoscopic Ultrasound (EUS)",
           "title": "Endoscopic Ultrasound (EUS): Precision in GI Imaging",
           "metaTitle": "Endoscopic Ultrasound Procedure In Hyderabad | Best Hospital For Endoscopic Ultrasound In Hyderabad - KAGE At KIMS Hospitals",
-          "metaDescription": "",
+          "metaDescription": "Endoscopic Ultrasound (EUS) in Hyderabad: KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals offers this advanced procedure for diagnosing and staging cancers, evaluating gallstones, and investigating other digestive issues.",
+          "keywords": "Endoscopic Ultrasound Hyderabad, EUS Hyderabad, EUS pancreas Hyderabad, EUS bile ducts Hyderabad, minimally invasive ultrasound Hyderabad, endoscopic ultrasound diagnosis Hyderabad, EUS therapeutic procedures Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -5820,7 +5882,8 @@
           "page": "Endoscopic Retrograde Cholangiopancreatography (ERCP)",
           "title": "Endoscopic Retrograde Cholangiopancreatography (ERCP)",
           "metaTitle": "Endoscopic Retrograde Cholangiopancreatography (ERCP) Procedure In Hyderabad | Best Hospital For ERCP In Hyderabad - KAGE At KIMS Hospitals",
-          "metaDescription": "",
+          "metaDescription": "Advanced ERCP services are available at KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals in Hyderabad. Our skilled endoscopists use ERCP for accurate diagnosis and effective treatment of biliary and pancreatic diseases.",
+          "keywords": "ERCP Hyderabad, Endoscopic Retrograde Cholangiopancreatography Hyderabad, bile duct treatment Hyderabad, gallstones treatment Hyderabad ERCP, pancreatic duct problems ERCP Hyderabad, cholangiopancreatography Hyderabad, advanced endoscopy ERCP Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -5857,7 +5920,8 @@
           "page": "Capsule Endoscopy",
           "title": "Capsule Endoscopy",
           "metaTitle": "Capsule Endoscopy Procedure In Hyderabad | Best Hospital For Capsule Endoscopy In Hyderabad - KAGE At KIMS Hospitals",
-          "metaDescription": "",
+          "metaDescription": "Capsule Endoscopy in Hyderabad: KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals offers this advanced, pill-sized camera to diagnose Crohn's disease, small bowel bleeding, and other intestinal conditions without traditional endoscopy.",
+          "keywords": "Capsule Endoscopy Hyderabad, small intestine endoscopy Hyderabad,  non-invasive endoscopy Hyderabad, swallowable camera endoscopy Hyderabad, Crohn's disease diagnosis Hyderabad, GI bleeding diagnosis Hyderabad, obscure GI bleeding Hyderabad, gastroenterologist capsule endoscopy Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -5894,7 +5958,8 @@
           "page": "Therapeutic Endoscopy",
           "title": "Therapeutic Endoscopy",
           "metaTitle": "Therapeutic Endoscopy Procedure In Hyderabad | Best Hospital For Therapeutic Endoscopy In Hyderabad - KAGE At KIMS Hospitals",
-          "metaDescription": "",
+          "metaDescription": "Therapeutic Endoscopy in Hyderabad: KAGE - KIMS Advanced Gastroenterology & Endoscopy, KIMS Hospitals offers advanced endoscopic treatments for esophageal dilation, polyp removal, hemostasis, and other gastrointestinal conditions.",
+          "keywords": "Therapeutic Endoscopy Hyderabad, endoscopic treatment Hyderabad,  polyp removal endoscopy Hyderabad, stricture dilation endoscopy Hyderabad, GI bleeding treatment endoscopy Hyderabad, minimally invasive GI treatment Hyderabad, advanced therapeutic endoscopy Hyderabad, gastroenterologist therapeutic endoscopy Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -5931,7 +5996,8 @@
           "page": "Double Balloon Enteroscopy (DBE)",
           "title": "Double Balloon Enteroscopy (DBE)",
           "metaTitle": "Double Balloon Enteroscopy (DBE) Procedure In Hyderabad | Best Hospital For Double Balloon Enteroscopy (DBE) In Hyderabad - KAGE At KIMS Hospitals",
-          "metaDescription": "",
+          "metaDescription": "Double-Balloon Enteroscopy (DBE) in Hyderabad: KAGE at KIMS Hospitals, Hyderabad provides this specialized procedure for diagnosing and treating bleeding, Crohn's disease, and other small intestinal conditions with greater reach",
+          "keywords": "Double-Balloon Enteroscopy Hyderabad, DBE Hyderabad, small bowel endoscopy Hyderabad, obscure GI bleeding DBE Hyderabad, Crohn's disease DBE Hyderabad, small bowel tumor diagnosis Hyderabad, small bowel stricture treatment Hyderabad, gastroenterologist DBE Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -5973,7 +6039,8 @@
       "icon": "/Images/Icons/latest-icons/amc.png",
       "page": "Advanced Motility Clinic",
       "metaTitle": "Motility Disorder Treatment In Hyderabad | Best Doctor For Motility Disorders In Hyderabad - KAGE At KIMS Hospitals",
-      "metaDescription": "",
+      "metaDescription": "Advanced Motility Clinic in Hyderabad: KAGE at KIMS Hospitals, Hyderabad provides specialized testing and treatment for gastroparesis, chronic constipation, fecal incontinence, and other motility disorders.",
+      "keywords": "IBS treatment Hyderabad, gastroparesis treatment Hyderabad, achalasia treatment Hyderabad, chronic constipation treatment Hyderabad, fecal incontinence treatment Hyderabad, swallowing disorders treatment Hyderabad,  Advanced Motility Clinic Hyderabad, digestive motility disorders Hyderabad",
       "content": {
         "heading": "Advanced Motility Clinic",
         "sub_heading": "KIMS Advanced Gastroenterology & Endoscopy - KAGE Hospitals | Hyderabad",
@@ -6184,7 +6251,8 @@
           "page": "Achalasia",
           "title": "Achalasia",
           "metaTitle": "Achalasia Cardia Treatment In Hyderabad | Best Doctor For Achalasia Cardia In Hyderabad - KAGE At KIMS Hospitals",
-          "metaDescription": "",
+          "metaDescription": "Achalasia treatment in Hyderabad at KAGE at KIMS Hospitals, Hyderabad's Advanced Motility Clinic. Expert diagnosis and the latest treatments, including POEM and pneumatic dilation, for swallowing difficulties.",
+          "keywords": "Achalasia treatment Hyderabad, swallowing difficulties Hyderabad,  POEM surgery Hyderabad, pneumatic dilation Hyderabad,  Achalasia diagnosis Hyderabad, esophageal motility disorders Hyderabad, gastroenterologist for Achalasia Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -6306,7 +6374,8 @@
           "page": "Gastroparesis",
           "title": "Gastroparesis",
           "metaTitle": "Gastroparesis Treatment In Hyderabad | Best Doctor For Gastroparesis In Hyderabad - KAGE At KIMS Hospitals",
-          "metaDescription": "",
+          "metaDescription": "Gastroparesis Treatment in Hyderabad: KAGE at KIMS Hospitals, Hyderabad's Advanced Motility team provides expert diagnosis and treatment for slow stomach emptying, nausea, bloating, and abdominal pain associated with Gastroparesis.",
+          "keywords": "Gastroparesis treatment Hyderabad, slow stomach emptying Hyderabad,  nausea vomiting gastroparesis Hyderabad,  gastroparesis diagnosis Hyderabad, gastric emptying study Hyderabad, gastroenterologist for gastroparesis Hyderabad, diabetic gastroparesis treatment Hyderabad, idiopathic gastroparesis treatment Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -6364,7 +6433,8 @@
           "page": "Irritable Bowel Syndrome (IBS)",
           "title": "Irritable Bowel Syndrome (IBS)",
           "metaTitle": "Irritable Bowel Syndrome Treatment In Hyderabad | Best Doctor For IBS In Hyderabad - KAGE At KIMS Hospitals",
-          "metaDescription": "",
+          "metaDescription": "Chronic Constipation treatment in Hyderabad at KAGE at KIMS Hospitals, Hyderabad's Advanced Motility Clinic. Expert diagnosis and personalized management strategies to improve bowel regularity and comfort.",
+          "keywords": "IBS treatment Hyderabad, Irritable Bowel Syndrome Hyderabad, IBS diagnosis Hyderabad, motility clinic Hyderabad IBS,  gastroenterologist for IBS Hyderabad, IBS diet Hyderabad, IBS medication Hyderabad, ",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -6475,8 +6545,9 @@
         {
           "page": "Chronic Constipation",
           "title": "Chronic Constipation",
-          "metaTitle": "",
-          "metaDescription": "",
+          "metaTitle": "Constipation Treatment In Hyderabad | Best Doctor For Constipation Treatment In Hyderabad - KAGE At KIMS Hospitals",
+          "metaDescription": "Seeking relief from IBS in Hyderabad? KAGE at KIMS Hospitals, Hyderabad offers specialized diagnosis and comprehensive management of Irritable Bowel Syndrome at our Advanced Motility Clinic to improve your bowel health and comfort.",
+          "keywords": "Chronic Constipation treatment Hyderabad, constipation relief Hyderabad, infrequent bowel movements Hyderabad, straining during bowel movements Hyderabad, gastroenterologist for constipation Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -6592,7 +6663,8 @@
           "page": "Fecal Incontinence",
           "title": "Fecal Incontinence: Regaining Control and Confidence",
           "metaTitle": "Diarhhoea Treatment In Hyderabad | Best Doctor For Diarhhoea Treatment In Hyderabad - KAGE At KIMS Hospitals",
-          "metaDescription": "",
+          "metaDescription": "Get accurate diagnosis and effective strategies to manage fecal incontinence in KAGE at KIMS Hospitals, Hyderabad. Our Advanced Motility Clinic aims to improve your bowel control and overall well-being.",
+          "keywords": "Core Condition and Location: Fecal Incontinence treatment Hyderabad, loss of bowel control Hyderabad, bowel leakage Hyderabad, motility clinic Hyderabad fecal incontinence, gastroenterologist for fecal incontinence Hyderabad, pelvic floor exercises Hyderabad, biofeedback for fecal incontinence Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -6697,7 +6769,8 @@
       "icon": "/Images/Icons/latest-icons/alc.png",
       "page": "Advanced Liver Care and Transplant Clinic",
       "metaTitle": "Liver Transplant In Hyderabad | Best Doctor For Liver Diseases In Hyderabad - KAGE At KIMS Hospitals",
-      "metaDescription": "",
+      "metaDescription": "Liver Treatment in Hyderabad: KAGE at KIMS Hospitals, Hyderabad's Advanced Liver Care and Transplant Clinic provides expert management for hepatitis, cirrhosis, liver failure, liver cancer, and offers liver transplant options.",
+      "keywords": "Liver Clinic Hyderabad, Liver Transplant Hospital Hyderabad, Advanced Liver Care Hyderabad, Hepatitis treatment Hyderabad, Cirrhosis treatment Hyderabad, Fatty Liver treatment Hyderabad, Liver Cancer treatment Hyderabad, Hepatologist Hyderabad",
       "content": {
         "heading": "Advanced Liver Care and Transplant Clinic",
         "sub_heading": "KIMS Advanced Gastroenterology & Endoscopy - KAGE Hospitals | Hyderabad",
@@ -6844,8 +6917,9 @@
         {
           "page": "Chronic Liver Disease",
           "title": "Chronic Liver Disease",
-          "metaTitle": "",
-          "metaDescription": "",
+          "metaTitle": "Liver Disease Treatment In Hyderabad | Best Doctor For Liver Transplant In Hyderabad - KAGE At KIMS Hospitals",
+          "metaDescription": "Chronic Liver Disease Treatment in Hyderabad: KAGE at KIMS Hospitals, Hyderabad's Advanced Liver Care team provides expert management for conditions like cirrhosis, hepatitis B & C, and fatty liver disease.",
+          "keywords": "Chronic Liver Disease Hyderabad, cirrhosis treatment Hyderabad, chronic hepatitis treatment Hyderabad, fatty liver disease treatment Hyderabad, NAFLD treatment Hyderabad, hepatologist Hyderabad chronic liver disease, liver disease management Hyderabad, long-term liver care Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -7054,8 +7128,9 @@
         {
           "page": "Hepatitis (A, B, C, E)",
           "title": "Hepatitis",
-          "metaTitle": "",
-          "metaDescription": "",
+          "metaTitle": "Liver Hepatitis Treatment In Hyderabad | Best Doctor For Hepatitis In Hyderabad - KAGE At KIMS Hospitals",
+          "metaDescription": "Hepatitis Treatment in Hyderabad: KAGE at KIMS Hospitals, Hyderabad's Advanced Liver Care team provides expert diagnosis, antiviral therapies, and vaccination for all types of viral hepatitis (A, B, C, E).",
+          "keywords": "Hepatitis A treatment Hyderabad, Hepatitis B treatment Hyderabad, Hepatitis C treatment Hyderabad, Hepatitis E treatment Hyderabad, viral hepatitis Hyderabad, jaundice treatment Hyderabad, liver inflammation Hyderabad, hepatitis diagnosis Hyderabad, hepatitis vaccination Hyderabad, hepatologist Hyderabad hepatitis",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -7211,8 +7286,9 @@
         {
           "page": "Non Alcoholic Fatty Liver Disease (NAFLD)",
           "title": "Non Alcoholic Fatty Liver Disease (NAFLD)",
-          "metaTitle": "",
-          "metaDescription": "",
+          "metaTitle": "Non Alcoholic Fatty Liver Disease Treatment In Hyderabad | KAGE at KIMS Hospitals | NAFLD Treatment In Hyderabad",
+          "metaDescription": "NAFLD (Non-Alcoholic Fatty Liver Disease) treatment in Hyderabad at KAGE at KIMS Hospitals, Hyderabad's Advanced Liver Care Clinic. Expert diagnosis, management, and lifestyle guidance for fatty liver conditions.",
+          "keywords": "NAFLD treatment Hyderabad, Non-Alcoholic Fatty Liver Disease Hyderabad, fatty liver treatment Hyderabad,  fatty liver symptoms Hyderabad, NAFLD diagnosis Hyderabad, hepatologist Hyderabad fatty liver, liver disease diet Hyderabad, lifestyle changes for NAFLD",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -7403,8 +7479,9 @@
         {
           "page": "Liver Cancer",
           "title": "Liver Cancer",
-          "metaTitle": "",
-          "metaDescription": "",
+          "metaTitle": "Liver Cancer Treatment In Hyderabad | Best Doctor For Liver Cancer In Hyderabad - KAGE At KIMS Hospitals",
+          "metaDescription": "Liver Cancer treatment in Hyderabad at KAGE at KIMS Hospitals, Hyderabad's Advanced Liver Care and Transplant Clinic. Expert diagnosis, comprehensive treatment options, and compassionate support for patients.",
+          "keywords": "Liver Cancer Hyderabad, Liver Cancer treatment Hyderabad, Liver Cancer specialist Hyderabad, Liver Clinic Hyderabad Cancer, liver oncologist Hyderabad, liver surgery Hyderabad, chemotherapy for liver cancer Hyderabad, liver transplant for cancer Hyderabad, hepatologist Hyderabad liver cancer",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -7592,8 +7669,9 @@
         {
           "page": "Portal Hypertension",
           "title": "Portal Hypertension",
-          "metaTitle": "",
-          "metaDescription": "",
+          "metaTitle": "Portal Hypertension Treatment In Hyderabad | Best Doctor For Portal Hypertension In Hyderabad - KAGE At KIMS Hospitals",
+          "metaDescription": "Portal Hypertension Treatment in Hyderabad: KAGE at KIMS Hospitals, Hyderabad's Advanced Liver Care team provides expert management for elevated liver pressure, ascites, variceal bleeding, and other related conditions.",
+          "keywords": "Portal Hypertension Hyderabad, high liver pressure treatment Hyderabad,  ascites treatment Hyderabad, variceal bleeding treatment Hyderabad, liver disease complications Hyderabad, portal vein hypertension treatment, hepatologist Hyderabad portal hypertension, portal hypertension diagnosis Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -7786,8 +7864,9 @@
         {
           "page": "Alcoholic Liver Disease (ALD)",
           "title": "Alcoholic Liver Disease (ALD)",
-          "metaTitle": "",
-          "metaDescription": "",
+          "metaTitle": "Alcohol Liver Disease Treatment In Hyderabad | Best Doctor For Alcohol Liver Disease Treatment In Hyderabad - KAGE At KIMS Hospitals",
+          "metaDescription": "Alcoholic Liver Disease Clinic in Hyderabad: KAGE at KIMS Hospitals, Hyderabad's Advanced Liver Care team provides expert management for all stages of ALD, including fatty liver, alcoholic hepatitis, and cirrhosis.",
+          "keywords": "Core Condition and Location: Alcoholic Liver Disease Hyderabad, ALD treatment Hyderabad, alcohol-related liver damage Hyderabad, fatty liver alcohol Hyderabad, alcoholic hepatitis treatment Hyderabad, cirrhosis due to alcohol Hyderabad, liver disease due to alcohol Hyderabad, alcohol rehabilitation liver disease Hyderabad,,  hepatologist Hyderabad ALD",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -7967,8 +8046,9 @@
         {
           "page": "Acute Liver Failure (ALF)",
           "title": "Acute Liver Failure (ALF)",
-          "metaTitle": "",
-          "metaDescription": "",
+          "metaTitle": "Treatment For Acute Liver Failure In Hyderabad | Best Doctor To Treat Acute Liver Failure In Hyderabad - KAGE At KIMS Hospitals",
+          "metaDescription": "Get rapid diagnosis, comprehensive treatment, and evaluation for liver transplantation in cases of Acute Liver Failure (ALF) in Hyderabad at KAGE at KIMS Hospitals, Hyderabad's. Our Advanced Clinic is equipped for critical care.",
+          "keywords": "Acute Liver Failure Hyderabad, ALF treatment Hyderabad, rapid liver failure diagnosis Hyderabad, urgent liver care Hyderabad, liver transplant for acute failure Hyderabad, hepatologist Hyderabad acute liver failure, critical care liver failure Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -8153,8 +8233,9 @@
         {
           "page": "Biliary Atresia and Other Pediatric Liver Conditions",
           "title": "Biliary Atresia and Other Pediatric Liver Conditions",
-          "metaTitle": "",
-          "metaDescription": "",
+          "metaTitle": "Treatment For Pediatric Liver Diseases In Hyderabad | Best Doctor For Liver Diseases In Kids In Hyderabad - KAGE At KIMS Hospitals",
+          "metaDescription": "Pediatric Liver Clinic in Hyderabad: KAGE at KIMS Hospitals, Hyderabad's Advanced Liver Care team provides expert management & treatment for Biliary Atresia, childhood hepatitis, genetic liver disorders, and other pediatric liver conditions.",
+          "keywords": "Biliary Atresia Hyderabad, pediatric liver disease Hyderabad, childhood liver problems Hyderabad, genetic liver disorders in children Hyderabad, neonatal liver disease Hyderabad, infant liver problems Hyderabad, pediatric hepatologist Hyderabad, liver transplant for children Hyderabad",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -8279,8 +8360,9 @@
         {
           "page": "Genetic Liver Disorders",
           "title": "Genetic Liver Disorders",
-          "metaTitle": "",
-          "metaDescription": "",
+          "metaTitle": "Genetic Liver Disorders Treatment In Hyderabad | Best Doctor For Genetic Liver Disorders In Hyderabad - KAGE At KIMS Hospitals",
+          "metaDescription": "Genetic Liver Disease Clinic in Hyderabad: KAGE at KIMS Hospitals, Hyderabad's Advanced Liver Care team provides expert management for conditions like Wilson's disease, hemochromatosis, alpha-1 antitrypsin deficiency, and more.",
+          "keywords": "Genetic Liver Disorders Hyderabad, inherited liver disease Hyderabad, Wilson's disease treatment Hyderabad, hemochromatosis treatment Hyderabad, alpha-1 antitrypsin deficiency Hyderabad, genetic testing liver disease Hyderabad, genetic counseling liver disease Hyderabad, family screening liver disorders Hyderabad. ",
           "sections": {
             "introduction": {
               "heading": "Overview",
@@ -8419,7 +8501,8 @@
       "icon": "/Images/Icons/latest-icons/women-gi-clinic.png",
       "page": "Women GI Clinic",
       "metaTitle": "Gastrointestinal Care For Women | Best Doctor For GI Treatment In Hyderabad - KAGE At KIMS Hospitals",
-      "metaDescription": "",
+      "metaDescription": "Women's Digestive Health Clinic in Hyderabad: KAGE at KIMS Hospitals, Hyderabad provides expert care for bloating, abdominal pain, bowel changes, and other gastrointestinal issues affecting women.",
+      "keywords": "Women's GI Clinic Hyderabad, women's digestive health Hyderabad, IBS in women Hyderabad, bloating in women Hyderabad, pelvic pain GI issues Hyderabad, constipation in women Hyderabad, gastroenterologist women's health Hyderabad, female digestive problems Hyderabad, hormonal effects on GI system women ",
       "content": {
         "title": "Women GI Clinic",
         "description": "Dedicated Gastrointestinal Care for Women",
@@ -8529,7 +8612,8 @@
       "icon": "/Images/Icons/latest-icons/alcohol-clinic.png",
       "page": "Alcohol Clinic",
       "metaTitle": "Alcohol Related Liver Diseases Treatment In Hyderabad | Best Doctor For Alcohol Related Gastrointestinal Diseases In Hyderabad - KAGE At KIMS Hospitals",
-      "metaDescription": "",
+      "metaDescription": "Seeking help for alcohol addiction in Hyderabad? KAGE at KIMS Hospitals, Hyderabad offers expert assessment, personalized treatment plans, and ongoing support at our dedicated Alcohol Clinic.",
+      "keywords": "Alcohol Clinic Hyderabad, alcohol addiction treatment Hyderabad, alcohol rehabilitation Hyderabad, de-addiction center Hyderabad, alcohol detox Hyderabad, counseling for alcohol abuse Hyderabad, therapy for alcohol addiction Hyderabad, support groups alcohol Hyderabad ",
       "content": {
         "title": "Alcohol Clinic",
         "description": "Specialized care for alcohol-related gastrointestinal disorders and liver diseases",
@@ -8639,7 +8723,8 @@
       "title": "Olympus X1 HD Endoscope & Colonoscope",
       "pageUrl": "olympus-x1-hd-endoscope-colonoscope",
       "metaTitle": "Olympus X1 HD Endoscope & Colonoscope - Advanced Gastroenterology Clinic In Hyderabad | KAGE At KIMS Hospitals - Best Hospital For Gastric Diseases Treatment",
-      "metaDescription": "",
+      "metaDescription": "For enhanced diagnostic accuracy in endoscopy and colonoscopy in Hyderabad, KAGE at KIMS Hospitals, Hyderabad features the Olympus X1 HD Endoscope & Colonoscope, providing superior imaging for optimal patient care.",
+      "keywords": "Olympus X1 HD Endoscope & Colonoscope - Advanced Gastroenterology Clinic In Hyderabad",
       "content": [
         {
           "description": "The Olympus X1 HD Endoscope & Colonoscope delivers cutting-edge imaging technology for superior visualization of the gastrointestinal tract. With high-definition optics and innovative imaging modes, it ensures unmatched accuracy for diagnosis and treatment.",
@@ -8733,7 +8818,8 @@
       "title": "Endoscopy",
       "pageUrl": "endoscopy",
       "metaTitle": "Endoscopy - Advanced Gastroenterology Clinic In Hyderabad | KAGE At KIMS Hospitals - Best Hospital For Gastric Diseases Treatment",
-      "metaDescription": "",
+      "metaDescription": "For minimally invasive diagnosis and treatment of digestive conditions in Hyderabad, KAGE at KIMS Hospitals, Hyderabad is equipped with the latest endoscopic technologies, providing detailed visualization and precise interventions.",
+      "keywords": "Endoscopy - Advanced Gastroenterology Clinic In Hyderabad",
       "content": [
         {
           "heading": "Endoscopy - Comprehensive Diagnostic Tool",
@@ -8784,7 +8870,8 @@
       "title": "Pediatric Endoscope & Colonoscope",
       "pageUrl": "pediatric-endoscope-colonoscope",
       "metaTitle": "Pediatric Endoscope & Colonoscope - Advanced Gastroenterology Clinic In Hyderabad | KAGE At KIMS Hospitals - Best Hospital For Gastric Diseases Treatment",
-      "metaDescription": "",
+      "metaDescription": "Pediatric Endoscopy in Hyderabad: KAGE at KIMS Hospitals, Hyderabad features specialized endoscopes and colonoscopes tailored for the unique needs of children, ensuring accurate diagnosis and comfortable procedures.",
+      "keywords": "Pediatric Endoscope & Colonoscope, Advanced Gastroenterology Clinic In Hyderabad",
       "content": [
         {
           "description": "The Pediatric Endoscope & Colonoscope is specially designed to address the unique needs of children. With a smaller diameter and advanced imaging, it ensures accurate diagnosis with minimal discomfort.",
@@ -8859,7 +8946,8 @@
       "title": "Ultra-Slim Nasal Endoscope",
       "pageUrl": "ultra-slim-nasal-endoscope",
       "metaTitle": "Ultra-Slim Nasal Endoscope - Advanced Gastroenterology Clinic In Hyderabad | KAGE At KIMS Hospitals - Best Hospital For Gastric Diseases Treatment",
-      "metaDescription": "",
+      "metaDescription": "Ultra-Slim Nasal Endoscope at KAGE at KIMS Hospitals, Hyderabad in Hyderabad. Experience enhanced patient comfort and precise diagnostics with this advanced, minimally invasive technology for nasal and sinus examinations.",
+      "keywords": "Ultra-Slim Nasal Endoscope, Advanced Gastroenterology Clinic In Hyderabad",
       "content": [
         {
           "description": "The Ultra-Slim Nasal Endoscope revolutionizes upper GI diagnostics by offering a painless, sedation-free procedure performed through the nasal route.",
@@ -8949,7 +9037,8 @@
       "title": "Enteroscope",
       "pageUrl": "enteroscope",
       "metaTitle": "Enteroscope - Advanced Gastroenterology Clinic In Hyderabad | KAGE At KIMS Hospitals - Best Hospital For Gastric Diseases Treatment",
-      "metaDescription": "",
+      "metaDescription": "Achieve a deeper understanding of your small intestine health in Hyderabad with enteroscopy at KAGE at KIMS Hospitals, Hyderabad. Our advanced enteroscopes provide enhanced visualization for accurate diagnosis.",
+      "keywords": "Enteroscope - Advanced Gastroenterology Clinic In Hyderabad",
       "content": [
         {
           "description": "The Enteroscope enables deep exploration of the small intestine, providing exceptional clarity for diagnosing and treating complex small bowel disorders.",
@@ -9039,7 +9128,8 @@
       "title": "Capsule Endoscopy",
       "pageUrl": "capsule-endoscopy",
       "metaTitle": "Capsule Endoscopy - Advanced Gastroenterology Clinic In Hyderabad | KAGE At KIMS Hospitals - Best Hospital For Gastric Diseases Treatment",
-      "metaDescription": "",
+      "metaDescription": "Capsule Endoscopy in Hyderabad: KAGE at KIMS Hospitals, Hyderabad offers this non-invasive, pill-sized camera to diagnose Crohn's disease, small bowel bleeding, and other intestinal conditions comfortably.",
+      "keywords": "Capsule Endoscopy - Advanced Gastroenterology Clinic In Hyderabad ",
       "content": [
         {
           "description": "Capsule Endoscopy uses a small, swallowable camera capsule to capture images of the digestive tract, offering a painless and non-invasive diagnostic tool.",
@@ -9129,7 +9219,8 @@
       "title": "FibroScan",
       "pageUrl": "fibroscan",
       "metaTitle": "FibroScan - Advanced Gastroenterology Clinic In Hyderabad | KAGE At KIMS Hospitals - Best Hospital For Gastric Diseases Treatment",
-      "metaDescription": "",
+      "metaDescription": "FibroScan in Hyderabad: KAGE at KIMS Hospitals, Hyderabad offers this non-invasive liver exam to diagnose and monitor liver fibrosis, cirrhosis, and fatty liver disease quickly and accurately.",
+      "keywords": "FibroScan - Advanced Gastroenterology Clinic In Hyderabad ",
       "content": [
         {
           "description": "The FibroScan is a state-of-the-art, non-invasive technology used to assess liver stiffness and fat content. It provides a quick and accurate way to diagnose and monitor liver diseases, especially fibrosis and steatosis.",
@@ -9219,7 +9310,8 @@
       "title": "High-Resolution Manometry",
       "pageUrl": "high-resolution-manometry",
       "metaTitle": "High-Resolution Manometry - Advanced Gastroenterology Clinic In Hyderabad | KAGE At KIMS Hospitals - Best Hospital For Gastric Diseases Treatment",
-      "metaDescription": "",
+      "metaDescription": "Get an accurate diagnosis of esophageal disorders in Hyderabad with High-Resolution Manometry at KAGE at KIMS Hospitals, Hyderabad. Our advanced technology provides detailed information about your esophageal function.",
+      "keywords": "High-Resolution Manometry - Advanced Gastroenterology Clinic In Hyderabad",
       "content": [
         {
           "description": "High-Resolution Manometry (HRM) is an advanced diagnostic test that evaluates the function of the esophagus and anorectal region. It provides precise measurements to identify motility disorders.",
@@ -9309,7 +9401,8 @@
       "title": "SpyGlass Cholangioscopy",
       "pageUrl": "spyglass-cholangioscopy",
       "metaTitle": "SpyGlass Cholangioscopy - Advanced Gastroenterology Clinic In Hyderabad | KAGE At KIMS Hospitals - Best Hospital For Gastric Diseases Treatment",
-      "metaDescription": "",
+      "metaDescription": "Seeking advanced bile duct imaging in Hyderabad? KAGE at KIMS Hospitals, Hyderabad offers SpyGlass Cholangioscopy, a cutting-edge endoscopic procedure performed by experienced gastroenterologists for detailed biliary evaluation.",
+      "keywords": "SpyGlass Cholangioscopy - Advanced Gastroenterology Clinic In Hyderabad",
       "content": [
         {
           "description": "The SpyGlass Cholangioscopy system is an advanced endoscopic technique used to directly visualize the bile ducts and perform targeted interventions.",
@@ -9399,7 +9492,8 @@
       "title": "Dornier ESWL",
       "pageUrl": "dornier-eswl",
       "metaTitle": "Dornier ESWL - Advanced Gastroenterology Clinic In Hyderabad | KAGE At KIMS Hospitals - Best Hospital For Gastric Diseases Treatment",
-      "metaDescription": "",
+      "metaDescription": "For a non-surgical solution to kidney stones in Hyderabad, choose Dornier ESWL at KAGE at KIMS Hospitals, Hyderabad. Our advanced lithotripsy offers a safe path towards becoming stone-free.",
+      "keywords": "Dornier ESWL - Advanced Gastroenterology Clinic In Hyderabad",
       "content": [
         {
           "description": "The Dornier ESWL (Extracorporeal Shock Wave Lithotripsy) is a non-invasive treatment that uses shock waves to break down kidney, pancreatic, and bile duct stones into smaller fragments for easy passage.",
@@ -9485,7 +9579,8 @@
       "title": "EHL & Laser Lithotripsy",
       "pageUrl": "ehl-laser-lithotripsy",
       "metaTitle": "EHL & Laser Lithotripsy - Advanced Gastroenterology Clinic In Hyderabad | KAGE At KIMS Hospitals - Best Hospital For Gastric Diseases Treatment",
-      "metaDescription": "",
+      "metaDescription": "Stone Treatment in Hyderabad: KAGE at KIMS Hospitals, Hyderabad utilizes EHL & Laser Lithotripsy for the minimally invasive removal of kidney stones, ureteral stones, bladder stones, and challenging biliary calculi.",
+      "keywords": "EHL & Laser Lithotripsy - Advanced Gastroenterology Clinic In Hyderabad",
       "content": [
         {
           "description": "Electrohydraulic Lithotripsy (EHL) and Laser Lithotripsy are advanced, minimally invasive techniques used to fragment and remove stones from the bile duct, pancreatic duct, and urinary tract.",
@@ -9571,7 +9666,8 @@
       "title": "ERBE VIO3 with ERBE-JET",
       "pageUrl": "erbe-vio3-with-erbe-jet",
       "metaTitle": "ERBE VIO3 with ERBE - JET - Advanced Gastroenterology Clinic In Hyderabad | KAGE At KIMS Hospitals - Best Hospital For Gastric Diseases Treatment",
-      "metaDescription": "",
+      "metaDescription": "For precise and safe tissue management in minimally invasive surgery and endoscopy in Hyderabad, choose the Erbe VIO 3 with Erbe Jet at KAGE at KIMS Hospitals, Hyderabad. This advanced technology enhances surgical accuracy.",
+      "keywords": "ERBE VIO3 with ERBE - JET - Advanced Gastroenterology Clinic In Hyderabad",
       "content": [
         {
           "description": "The ERBE VIO3 system with ERBE-JET technology is an innovative electrosurgical unit designed to provide precise tissue cutting, coagulation, and ablation with enhanced safety and control.",
@@ -9661,7 +9757,8 @@
       "title": "Breath Tests",
       "pageUrl": "breath-tests",
       "metaTitle": "Breath Tests - Advanced Gastroenterology Clinic In Hyderabad | KAGE At KIMS Hospitals - Best Hospital For Gastric Diseases Treatment",
-      "metaDescription": "",
+      "metaDescription": "Experience a non-invasive and convenient approach to GI diagnosis in Hyderabad with breath tests at KAGE at KIMS Hospitals, Hyderabad. Our advanced testing methods ensure accurate results with minimal discomfort.",
+      "keywords": "Breath Tests - Advanced Gastroenterology Clinic In Hyderabad",
       "content": [
         {
           "description": "Breath Tests are simple, non-invasive diagnostic tools used to detect conditions affecting the gastrointestinal tract. At KAGE, we offer advanced Hydrogen Breath Tests and Urea Breath Tests for accurate diagnosis.",
@@ -9769,7 +9866,8 @@
       "title": "24-Hour pH Metry",
       "pageUrl": "24-hour-ph-metry",
       "metaTitle": "24-Hour pH Metry - Advanced Gastroenterology Clinic In Hyderabad | KAGE At KIMS Hospitals - Best Hospital For Gastric Diseases Treatment",
-      "metaDescription": "",
+      "metaDescription": "Get a comprehensive assessment of your acid reflux in Hyderabad with 24-hour pH metry at KAGE at KIMS Hospitals, Hyderabad. This advanced test helps in accurate diagnosis and personalized treatment planning for GERD.",
+      "keywords": "24-Hour pH Metry - Advanced Gastroenterology Clinic In Hyderabad",
       "content": [
         {
           "description": "24-Hour pH Metry is a diagnostic procedure that measures acid levels in the esophagus over a 24-hour period to evaluate acid reflux and related conditions.",
@@ -9855,7 +9953,8 @@
       "title": "Fuji ELUXEO 7000 & 760Z Endoscope and Colonoscope",
       "pageUrl": "fuji-eluxeo-7000-760z-endoscope-colonoscope",
       "metaTitle": "Fuji ELUXEO 7000 & 760Z Endoscope and Colonoscope - Advanced Gastroenterology Clinic In Hyderabad | KAGE At KIMS Hospitals - Best Hospital For Gastric Diseases Treatment",
-      "metaDescription": "",
+      "metaDescription": "For enhanced diagnostic accuracy in endoscopy and colonoscopy in Hyderabad, KAGE at KIMS Hospitals, Hyderabad features the Fuji Eluxeo 7000 & 760Z, offering superior imaging and advanced features for improved lesion detection.",
+      "keywords": "Fuji ELUXEO 7000 & 760Z Endoscope and Colonoscope - Advanced Gastroenterology Clinic In Hyderabad",
       "content": [
         {
           "description": "At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we believe that precision and clarity are the cornerstones of effective diagnosis and treatment in gastroenterology. The Fuji ELUXEO 7000 and 760Z Endoscope and Colonoscope represent the pinnacle of endoscopic technology, offering unmatched imaging capabilities for diagnosing and treating gastrointestinal disorders.",
@@ -10132,7 +10231,8 @@
     {
       "id": "1",
       "metaTitle": "Technician Training Programme - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "The aim is to impart high-quality training in endoscopy to technicians at various levels, including basic procedures (endoscopy, colonoscopy), therapeutics (ERCP, Dilatation, Polypectomy, EUS), and advanced therapeutics (SpyGlass, Lithotripsy, Enteroscopy, EMR, ESD, POEM)",
+      "metaDescription": "KAGE Technician Training Programme in Hyderabad at KAGE at KIMS Hospitals, Hyderabad. Advance your healthcare career with our comprehensive technician training, equipping you with essential medical skills.",
+      "keywords": "Technician Training Programme - KAGE At KIMS Hospitals, Hyderabad",
       "title": "KAGE Technician Training Programme",
       "duration": "The course spans a duration of 2 years.",
       "course_description": [
@@ -10333,7 +10433,8 @@
     {
       "id": "2",
       "metaTitle": "EUS Short Term Training Programme - KAGE At KIMS Hospitals, Hyderabad",
-      "metaDescription": "The aim is to impact high quality training in Endoscopic Ultrasound Basics and Therapeutics like FNAC, FN Biopsy, Celiac Plexus BlockThe goal is to train the endoscopists who are starting their career and disseminate the knowledge for quality patient care",
+      "metaDescription": "EUS Training Programme in Hyderabad at KAGE at KIMS Hospitals, Hyderabad. Enhance your endoscopy skills with our focused short-term training in Endoscopic Ultrasound (EUS) procedures.",
+      "keywords": "EUS Short Term Training Programme - KAGE At KIMS Hospitals, Hyderabad",
       "title": "Eus Short Term Training Programme",
       "duration": "2 Weeks (10-15 Days)",
       "course_description": [
@@ -10599,7 +10700,6 @@
           "platform": "Instagram",
           "href": "https://www.instagram.com/kagekims"
         },
-       
         {
           "platform": "youtube",
           "href": "https://www.youtube.com/@KIMS-KAGE"

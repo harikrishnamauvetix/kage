@@ -81,6 +81,7 @@ a {
 
 .navbar a {
   text-decoration: none;
+  cursor: pointer;
 }
 .swiper-button-disabled {
   display: none !important;

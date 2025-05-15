@@ -54,7 +54,7 @@ const Home = () => {
       </Head>
       <CanonicalTag/>
       <Header></Header>
-      <Box sx={{ paddingTop: { xs: "89px", sm:"100px",md: "100px" } }}>
+      <Box sx={{ paddingTop: { xs: "89px", sm:"100px",md: "220px" } }}>
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, A11y]}
