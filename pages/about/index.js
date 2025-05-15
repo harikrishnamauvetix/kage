@@ -46,6 +46,8 @@ const About = () => {
      <Head>
         <title>{data?.about?.metaTitle} </title>
         <meta name="description" content={data?.about?.metaDescription} />
+        <meta name="keywords" content={data?.about?.keywords} />
+        
       </Head>
       <CanonicalTag/>
       <Header></Header>

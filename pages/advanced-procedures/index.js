@@ -44,6 +44,7 @@ export default function AdvancedProcedures() {
     <Head>
     <title>{data?.advancedproceduresPage?.metaTitle} </title>
     <meta name="description" content={data?.advancedproceduresPage?.metaDescription} />
+    <meta name="keywords" content={data?.advancedproceduresPage?.keywords} />
     </Head>
     <CanonicalTag/>
       <Header></Header>

@@ -91,6 +91,10 @@ const Advancedprocedures = ({ advancedprocedures }) => {
           name="description"
           content={advancedprocedures?.metaDescription}
         />
+         <meta
+          name="keywords"
+          content={advancedprocedures?.keywords}
+        />
       </Head>
       <CanonicalTag/>
       <Header></Header>

@@ -43,6 +43,7 @@ export default function SpecialityList() {
          <Head>
         <title>{data?.specialityclinicsPage?.metaTitle} </title>
         <meta name="description" content={data?.specialityclinicsPage?.metadescription} />
+        <meta name="keywords" content={data?.specialityclinicsPage?.keywords} />
       </Head>
       <CanonicalTag/>
       <Header></Header>

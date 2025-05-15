@@ -44,6 +44,7 @@ export default function AdvancedEquipment() {
       <Head>
       <title>{data?.advancedequipementPage?.metaTitle} </title>
       <meta name="description" content={data?.advancedequipementPage?.metaDescription} />
+      <meta name="keywords" content={data?.advancedequipementPage?.keywords} />
      
     </Head>
     <CanonicalTag/>

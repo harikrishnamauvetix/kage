@@ -51,6 +51,7 @@ const Home = () => {
       <Head>
         <title>{data?.homepageseo?.metaTitle} </title>
         <meta name="description" content={data?.homepageseo?.metaDescription} />
+        <meta name="keywords" content={data?.homepageseo?.keywords} />
       </Head>
       <CanonicalTag/>
       <Header></Header>

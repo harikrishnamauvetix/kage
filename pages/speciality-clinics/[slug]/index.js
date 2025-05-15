@@ -88,6 +88,7 @@ useEffect(() => {
       <Head>
         <title>{specialityclinics?.metaTitle} </title>
         <meta name="description" content={specialityclinics?.metadescription} />
+        <meta name="keywords" content={specialityclinics?.keywords} />
       </Head>
       <CanonicalTag/>
         {content?.heading && (

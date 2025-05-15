@@ -44,6 +44,7 @@ import CanonicalTag from "@/compoments/CanonicalTag";
        <Head>
         <title>{data?.doctorsPage?.metaTitle} </title>
         <meta name="description" content={data?.doctorsPage?.metadescription} />
+        <meta name="keywords" content={data?.doctorsPage?.keywords} />
       </Head>
       <CanonicalTag/>
         <Header></Header>

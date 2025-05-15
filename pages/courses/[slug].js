@@ -59,6 +59,10 @@ const CourseDetail = ({courseDetails}) => {
           name="description"
           content={courseDetails?.metaDescription}
         />
+         <meta
+          name="keywords"
+          content={courseDetails?.keywords}
+        />
       </Head>
       <CanonicalTag/>
       <Header />

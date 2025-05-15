@@ -32,6 +32,7 @@ const Doctorvideos = () => {
     <Head>
         <title>{data?.doctorvideosPage?.metaTitle} </title>
         <meta name="description" content={data?.doctorvideosPage?.metadescription} />
+        <meta name="keywords" content={data?.doctorvideosPage?.keywords} />
       </Head>
       <CanonicalTag/>
       <Header></Header>

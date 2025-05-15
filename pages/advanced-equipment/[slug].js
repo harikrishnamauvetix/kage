@@ -72,6 +72,7 @@ const Servicespage = ({ servicesPageContent }) => {
     <Head>
       <title>{servicesPageContent?.metaTitle} </title>
       <meta name="description" content={servicesPageContent?.metadescription} />
+      <meta name="keywords" content={servicesPageContent?.keywords} />
      
     </Head>
     <CanonicalTag/>

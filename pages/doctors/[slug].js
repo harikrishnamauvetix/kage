@@ -67,6 +67,7 @@ const DoctorDetails = ({ doctor }) => {
       <Head>
         <title>{doctor?.metaTitle} </title>
         <meta name="description" content={doctor?.metadescription} />
+        <meta name="keywords" content={doctor?.keywords} />
       </Head>
       <CanonicalTag />
       <Header></Header>

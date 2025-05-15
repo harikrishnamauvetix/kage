@@ -86,6 +86,7 @@ const Aboutpage = () => {
      <Head>
       <title>{about?.metaTitle} </title>
       <meta name="description" content={about?.metadescription} />
+      <meta name="keywords" content={about?.keywords} />
      
     </Head>
     <CanonicalTag/>

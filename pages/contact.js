@@ -18,6 +18,7 @@ const ContactUs = () => {
     <Head>
         <title>{data?.contactPage?.metaTitle} </title>
         <meta name="description" content={data?.contactPage?.metadescription} />
+        <meta name="keywords" content={data?.contactPage?.keywords} />
       </Head>
       <CanonicalTag/>
       <Header />

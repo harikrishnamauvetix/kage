@@ -25,6 +25,7 @@ const CourseListPage = (props) => {
       <Head>
     <title>{websiteJson?.coursePage?.metaTitle} </title>
     <meta name="description" content={websiteJson?.coursePage?.metaDescription} />
+    <meta name="keywords" content={websiteJson?.coursePage?.keywords} />
     </Head>
     <CanonicalTag/>
       <Header />

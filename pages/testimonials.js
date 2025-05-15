@@ -34,6 +34,7 @@ const Testimonials = () => {
     <Head>
         <title>{data?.testimonialsPage?.metaTitle} </title>
         <meta name="description" content={data?.testimonialsPage?.metadescription} />
+        <meta name="keywords" content={data?.testimonialsPage?.keywords} />
       </Head>
       <CanonicalTag/>
       <Header></Header>
