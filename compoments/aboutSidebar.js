@@ -3,6 +3,7 @@ import { List, ListItem, ListItemText, Typography } from "@mui/material";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import { generateSlug } from "./slugify";
 const AboutsidebarMenu = ({ service }) => {
   // console.log(service);
   const router = useRouter();
@@ -51,9 +52,12 @@ const AboutsidebarMenu = ({ service }) => {
       </ListItem>
 
       {service?.subpages?.map((subpage, index) => {
-        const subpageLink = `/about/${subpage.page.replace(/ /g, "-")}`;
-        const isSubpageActive = currentSlug === subpage.page.replace(/ /g, "-");
-
+        // const subpageLink = `/about/${subpage.page.replace(/ /g, "-")}`;
+        // const isSubpageActive = currentSlug === subpage.page.replace(/ /g, "-");
+        const subpageSlug = generateSlug(subpage.page);
+        const subpageLink = `/about/${subpageSlug}`;
+        const isSubpageActive = currentSlug === subpageSlug;
+        
         return (
           <ListItem
             button

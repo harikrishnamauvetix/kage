@@ -41,6 +41,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import Faq from "@/compoments/Services/Faq";
 import CanonicalTag from "@/compoments/CanonicalTag";
+import { generateSlug } from "@/compoments/slugify";
 
 export default function SubServicePage() {
   const data = useContext(DataContext);
@@ -106,7 +107,7 @@ export default function SubServicePage() {
     const normalizedSubpage = subpage.replace(/-/g, " ");
   
     const foundService = data?.specialityclinics.find(
-      (s) => s.page.toLowerCase() === normalizedSlug.toLowerCase()
+      (s) => generateSlug(s.page) === generateSlug(slug)
     );
   
     if (!foundService) {
@@ -116,7 +117,7 @@ export default function SubServicePage() {
     }
   
     const foundSubService = foundService.subpages.find(
-      (sub) => sub.page.toLowerCase() === normalizedSubpage.toLowerCase()
+      (sub) => generateSlug(sub.page) === generateSlug(subpage)
     );
     console.log("Found SubService:", foundSubService);
   
@@ -429,17 +430,17 @@ export async function getStaticProps({ params }) {
   const data = websiteJson;
   const { slug, subpage } = params;
 
-  const normalizedSlug = slug.replace(/-/g, " ");
-  const normalizedSubpage = subpage.replace(/-/g, " ");
+  // const normalizedSlug = slug.replace(/-/g, " ");
+  // const normalizedSubpage = subpage.replace(/-/g, " ");
 
   const foundService = data.specialityclinics.find(
-    (s) => s.page.toLowerCase() === normalizedSlug.toLowerCase()
+    (s) =>generateSlug(s.page) === generateSlug(slug)
   );
 
   if (!foundService) return { notFound: true };
 
   const foundSubService = foundService.subpages.find(
-    (sub) => sub.page.toLowerCase() === normalizedSubpage.toLowerCase()
+    (sub) => generateSlug(sub.page) === generateSlug(subpage)
   );
 
   if (!foundSubService) return { notFound: true };

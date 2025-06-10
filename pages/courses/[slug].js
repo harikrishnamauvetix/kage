@@ -24,6 +24,7 @@ import Header from "@/compoments/Header";
 import Footer from "@/compoments/Footer";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import CanonicalTag from "@/compoments/CanonicalTag";
+import { generateSlug } from "@/compoments/slugify";
 const CourseDetail = ({courseDetails}) => {
   const router = useRouter();
   const { slug } = router.query;
@@ -216,7 +217,7 @@ const CourseDetail = ({courseDetails}) => {
 export async function getStaticPaths() {
   const data = websiteJson;
   const paths = data.courseDetails.map((service) => ({
-    params: { slug: service.title.replace(/\s+/g, "-").toLowerCase() },
+    params: { slug:generateSlug(service.title) },
   }));
 
   return { paths, fallback: true  };
@@ -225,7 +226,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const data = websiteJson;
   const courseDetails = data.courseDetails.find(
-    (item) => item.title.replace(/\s+/g, "-").toLowerCase() === params.slug
+    (item) => generateSlug(item.title) === params.slug
   );
 
   if (!courseDetails) {

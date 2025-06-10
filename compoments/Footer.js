@@ -11,6 +11,7 @@ import {
 import { DataContext } from "../pages/_app";
 import AppointmentForm from "./Bookappointment";
 import Grid from "@mui/material/Grid2";
+import { generateSlug } from "./slugify";
 export default function Footer() {
   const data = useContext(DataContext);
   return (
@@ -93,9 +94,7 @@ export default function Footer() {
               {data?.specialityclinics?.map((service) => (
                 <Grid item xs={12} sm={6} md={6} key={service.title}>
                   <Link
-                    href={`/speciality-clinics/${service?.title
-                      ?.replace(/\s+/g, "-")
-                      .toLowerCase()}`}
+                    href={`/speciality-clinics/${generateSlug(service?.title)}`}
                       passHref
                     underline="none"
                   >
@@ -113,9 +112,7 @@ export default function Footer() {
               {data?.services?.map((service) => (
                 <Grid item xs={12} sm={6} md={6} key={service.title}>
                   <Link
-                    href={`/advanced-equipment/${service.title
-                      .replace(/\s+/g, "-")
-                      .toLowerCase()}`}
+                    href={`/advanced-equipment/${generateSlug(service?.title)}`}
                     passHref
                       underline="none"
                   >
@@ -133,9 +130,7 @@ export default function Footer() {
               {data?.advancedprocedures?.map((procedure) => (
                 <Grid item xs={12} sm={6} md={6} key={procedure.title}>
                   <Link
-                    href={`/advanced-procedures/${procedure.title
-                      .replace(/\s+/g, "-")
-                      .toLowerCase()}`}
+                    href={`/advanced-procedures/${generateSlug(procedure.title)}`}
                       passHref
                         underline="none"
                    

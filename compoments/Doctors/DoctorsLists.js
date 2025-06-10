@@ -1,4 +1,4 @@
-import React, { useState,useContext } from "react";
+import React, { useState, useContext } from "react";
 import {
   Box,
   Container,
@@ -17,6 +17,7 @@ import Link from "next/link";
 import Grid from "@mui/material/Grid2";
 
 import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
+import { generateSlug } from "../slugify";
 const DoctorsList = (props) => {
   const truncateByWords = (text, wordLimit = 50) => {
     const words = text.split(" ");
@@ -53,12 +54,7 @@ const DoctorsList = (props) => {
                 }}
               >
                 <Card>
-                  <Link
-                    href={`/doctors/${doctor.name
-                      .replace(/\s+/g, "-")
-                      .toLowerCase()}`}
-                    passHref
-                  >
+                  <Link href={`/doctors/${generateSlug(doctor.name)}`} passHref>
                     <CardMedia
                       component="img"
                       height="270"
@@ -96,9 +92,7 @@ const DoctorsList = (props) => {
                     </Box>
 
                     <Link
-                      href={`/doctors/${doctor.name
-                        .replace(/\s+/g, "-")
-                        .toLowerCase()}`}
+                      href={`/doctors/${generateSlug(doctor.name)}`}
                       passHref
                     >
                       <Button

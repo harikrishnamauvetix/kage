@@ -36,6 +36,7 @@ import Optimings from "@/compoments/Doctors/Optimings";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import CanonicalTag from "@/compoments/CanonicalTag";
+import { generateSlug } from "@/compoments/slugify";
 const DoctorDetails = ({ doctor }) => {
   //  const data = useContext(DataContext);
 
@@ -426,7 +427,7 @@ const DoctorDetails = ({ doctor }) => {
 export async function getStaticPaths() {
   const data = websiteJson;
   const paths = data.doctorsList.map((doc) => ({
-    params: { slug: doc?.name?.replace(/\s+/g, "-").toLowerCase() },
+    params: { slug: generateSlug(doc?.name) },
   }));
 
   return { paths, fallback: true };
@@ -436,7 +437,7 @@ export async function getStaticProps({ params }) {
   const data = websiteJson;
   console.log(params);
   const doctor = data.doctorsList.find(
-    (doc) => doc.name.replace(/\s+/g, "-").toLowerCase() === params.slug
+    (doc) => generateSlug(doc.name) === params.slug
   );
 
   if (!doctor) {

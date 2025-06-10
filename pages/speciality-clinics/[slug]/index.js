@@ -28,6 +28,7 @@ import ServicesDetails from "@/compoments/Services/ServicesDetails";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import Faq from "@/compoments/Services/Faq";
 import CanonicalTag from "@/compoments/CanonicalTag";
+import { generateSlug } from "@/compoments/slugify";
 
 export default function ServicePage({specialityclinics}) {
  // console.log(specialityclinics);
@@ -218,7 +219,7 @@ useEffect(() => {
 export async function getStaticPaths() {
   const data = websiteJson;
   const paths = data.specialityclinics.map((item) => ({
-    params: { slug: item?.title?.replace(/\s+/g, "-").toLowerCase() },
+    params: { slug: generateSlug(item?.title) },
   }));
 
   return { paths, fallback: true  };
@@ -229,7 +230,7 @@ export async function getStaticProps({ params }) {
   const data = websiteJson;
   console.log(params);
   const specialityclinics = data.specialityclinics.find(
-    (item) => item.title.replace(/\s+/g, "-").toLowerCase() === params.slug
+    (item) => generateSlug(item.title) === params.slug
   );
 
   if (!specialityclinics) {

@@ -43,6 +43,7 @@ import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import { CheckCircle, Padding } from "@mui/icons-material";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import CanonicalTag from "@/compoments/CanonicalTag";
+import { generateSlug } from "@/compoments/slugify";
 const Servicespage = ({ servicesPageContent }) => {
   const router = useRouter();
   const [expanded, setExpanded] = useState(false);
@@ -227,7 +228,7 @@ const Servicespage = ({ servicesPageContent }) => {
 export async function getStaticPaths() {
   const data = websiteJson;
   const paths = data.services.map((service) => ({
-    params: { slug: service.title.replace(/\s+/g, "-").toLowerCase() },
+    params: { slug: generateSlug(service.title) },
   }));
 
   return { paths, fallback: true };
@@ -236,7 +237,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const data = websiteJson;
   const servicesPageContent = data.services.find(
-    (item) => item.title.replace(/\s+/g, "-").toLowerCase() === params.slug
+    (item) => generateSlug(item.title) === params.slug
   );
 
   if (!servicesPageContent) {

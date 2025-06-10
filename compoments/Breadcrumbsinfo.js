@@ -17,6 +17,7 @@ import {
 import Link from "next/link";
 import Grid from "@mui/material/Grid2";
 import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
+import { generateSlug } from "./slugify";
 const Breadcrumbsinfo = (props) => {
   return (
     <>
@@ -37,7 +38,7 @@ const Breadcrumbsinfo = (props) => {
               <Link
                 underline="hover"
                 color="inherit"
-                href={`/${props.service.replace(/\s+/g, "-").toLowerCase()}`}
+                href={`/${generateSlug(props.service)}`}
               >
                 {props.service}
               </Link>

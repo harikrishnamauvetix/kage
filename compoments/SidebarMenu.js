@@ -3,19 +3,20 @@ import { List, ListItem, ListItemText, Typography } from "@mui/material";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import { generateSlug } from "./slugify";
 const SidebarMenu = ({ service }) => {
   const router = useRouter();
   const { subpage: currentSubpage } = router.query;
 
-  const formatSlug = (slug) => slug?.toLowerCase().replace(/ /g, "-") || "";
+  // const formatSlug = (slug) => slug?.toLowerCase().replace(/ /g, "-") || "";
 
 
   const currentSlug = service?.slug || router.query.slug;
   const basePath = router.pathname.split("/")[1];
   //console.log(currentSlug);
-  const pageLink = `/${basePath}/${formatSlug(currentSlug)}`;
+  const pageLink = `/${basePath}/${generateSlug(currentSlug)}`;
 
-  const isMainPageActive = currentSlug === formatSlug(currentSlug) && !currentSubpage;
+  const isMainPageActive = currentSlug === generateSlug(currentSlug) && !currentSubpage;
 
   return (
     
@@ -57,8 +58,8 @@ const SidebarMenu = ({ service }) => {
 
       {/* Subpages */}
       {service?.subpages?.map((subpage) => {
-        const subpageLink = `/${basePath}/${formatSlug(currentSlug)}/${formatSlug(subpage?.page)}`;
-        const isSubpageActive = currentSubpage === formatSlug(subpage?.page);
+        const subpageLink = `/${basePath}/${generateSlug(currentSlug)}/${generateSlug(subpage?.page)}`;
+        const isSubpageActive = currentSubpage === generateSlug(subpage?.page);
 
         return (
           <ListItem

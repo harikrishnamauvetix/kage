@@ -1,7 +1,7 @@
-import { useParams, useRouter } from "next/navigation"; 
+import { useParams, useRouter } from "next/navigation";
 import Head from "next/head";
-import React, { useState,useContext } from "react";
-
+import React, { useState, useContext } from "react";
+import websiteJson from "../../public/website.json";
 import {
   Container,
   Typography,
@@ -24,7 +24,7 @@ import {
   Avatar,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import { DataContext } from '../_app';
+import { DataContext } from "../_app";
 
 import Link from "next/link";
 import Header from "@/compoments/Header";
@@ -36,6 +36,7 @@ import SidebarMenu from "@/compoments/SidebarMenu";
 import AboutsidebarMenu from "@/compoments/aboutSidebar";
 import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import CanonicalTag from "@/compoments/CanonicalTag";
+import { generateSlug } from "@/compoments/slugify";
 
 const Aboutpage = () => {
   const [expanded, setExpanded] = useState(false);
@@ -50,10 +51,11 @@ const Aboutpage = () => {
   const slug = params.slug.toLowerCase().trim();
 
   const about = data?.about?.subpages?.find((service) => {
-    const sanitizedTitle = service.title.replace(/\s+/g, "-").toLowerCase().trim();
+    const sanitizedTitle=generateSlug(service.title)
+    
     return sanitizedTitle === slug;
   });
-  
+
   // const about = data?.about?.subpages?.find((service) => {
   //   const sanitizedTitle = service.title
   //     .replace(/\s+/g, "-")
@@ -61,8 +63,8 @@ const Aboutpage = () => {
   //     .trim();
   //   const sanitizedSlug = slug?.toLowerCase()?.trim();
 
-    // console.log("Sanitized Slug:", sanitizedSlug);
-    // console.log("Sanitized Service Title:", sanitizedTitle);
+  // console.log("Sanitized Slug:", sanitizedSlug);
+  // console.log("Sanitized Service Title:", sanitizedTitle);
 
   //   return sanitizedTitle === sanitizedSlug;
   // });
@@ -83,20 +85,20 @@ const Aboutpage = () => {
 
   return (
     <>
-  
       <CanonicalTag
-            title={about?.metaTitle}
-            description={about?.metaDescription}
-            keywords={about?.keywords}
-          />
+        title={about?.metaTitle}
+        description={about?.metaDescription}
+        keywords={about?.keywords}
+      />
 
       <Header></Header>
-     <Breadcrumbsinfo  sx={{ paddingTop:  { xs: "89px", sm:"100px",md: "220px" } }}
+      <Breadcrumbsinfo
+        sx={{ paddingTop: { xs: "89px", sm: "100px", md: "220px" } }}
         service={"About Us"}
         pagename={about.title}
       ></Breadcrumbsinfo>
 
-      <Container maxWidth="xl"  >
+      <Container maxWidth="xl">
         <Box
           sx={{
             width: "100%",
@@ -114,9 +116,7 @@ const Aboutpage = () => {
             <Grid container>
               <Grid size={{ xs: 12, sm: 12, md: 12, lg: 3, xl: 3 }}>
                 {/* <SidebarMenu /> */}
-                <AboutsidebarMenu
-                  service={data?.about}
-                ></AboutsidebarMenu>
+                <AboutsidebarMenu service={data?.about}></AboutsidebarMenu>
               </Grid>
               <Grid
                 size={{ xs: 12, sm: 12, md: 12, lg: 8, xl: 8 }}
@@ -158,5 +158,31 @@ const Aboutpage = () => {
     </>
   );
 };
+
+export async function getStaticPaths() {
+  const data = websiteJson;
+  const paths = data?.about?.subpages?.map((service) => ({
+    params: {
+      slug: generateSlug(service.title)
+    },
+  }));
+
+  return { paths, fallback: true };
+}
+
+export async function getStaticProps({ params }) {
+  const data = websiteJson;
+  const servicesPageContent = data?.about?.subpages?.find(
+    (item) =>  generateSlug(item.title)
+  );
+
+  if (!servicesPageContent) {
+    return { notFound: true };
+  }
+
+  return {
+    props: { servicesPageContent },
+  };
+}
 
 export default Aboutpage;

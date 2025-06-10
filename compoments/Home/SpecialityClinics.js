@@ -1,4 +1,4 @@
-import React, { useState,useContext } from "react";
+import React, { useState, useContext } from "react";
 import {
   Box,
   Container,
@@ -17,6 +17,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Grid from "@mui/material/Grid2";
 import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
+import { generateSlug } from "../slugify";
 const SpecialityClinics = (props) => {
   return (
     <>
@@ -37,7 +38,10 @@ const SpecialityClinics = (props) => {
             <Box>
               <Grid container spacing={2} justifyContent="center">
                 {props.specialityclinics?.map((service) => (
-                  <Grid size={{ xs: 12, sm: 6, md: 6 ,lg:4,xl:4}} key={service.id}>
+                  <Grid
+                    size={{ xs: 12, sm: 6, md: 6, lg: 4, xl: 4 }}
+                    key={service.id}
+                  >
                     <Card
                       sx={{
                         boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
@@ -53,20 +57,18 @@ const SpecialityClinics = (props) => {
                       }}
                     >
                       <CardContent sx={{ padding: "0px !important" }}>
-                
-                          <Image
-                            src={service.icon}
-                            alt="Best Gastro Hospital In Hyderabad"
-                            width={60}
-                            height={60}
-                            quality={100}
-                          />
-                       
+                        <Image
+                          src={service.icon}
+                          alt="Best Gastro Hospital In Hyderabad"
+                          width={60}
+                          height={60}
+                          quality={100}
+                        />
 
                         <Link
-                          href={`/speciality-clinics/${service.title
-                            .replace(/\s+/g, "-")
-                            .toLowerCase()}`}
+                          href={`/speciality-clinics/${generateSlug(
+                            service.title
+                          )}`}
                           passHref
                         >
                           <Typography
@@ -75,7 +77,7 @@ const SpecialityClinics = (props) => {
                               fontWeight: "bold",
                               marginBottom: "10px",
                               color: "primary.main",
-                           height: "55px"
+                              height: "55px",
                             }}
                           >
                             {service.title}
@@ -93,16 +95,16 @@ const SpecialityClinics = (props) => {
                           </Typography>
                         )}
                         <Link
-                          href={`/speciality-clinics/${service.title
-                            .replace(/\s+/g, "-")
-                            .toLowerCase()}`}
+                          href={`/speciality-clinics/${generateSlug(
+                            service.title
+                          )}`}
                           passHref
                         >
                           <Button
                             variant="contained"
                             sx={{
                               backgroundColor: "secondary.main",
-                              marginTop:"15px"
+                              marginTop: "15px",
                             }}
                           >
                             Read more

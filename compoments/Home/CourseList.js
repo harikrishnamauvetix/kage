@@ -12,6 +12,7 @@ import Link from "next/link";
 import Grid from "@mui/material/Grid2";
 
 import { DataContext } from '../../pages/_app';
+import { generateSlug } from "../slugify";
 const CourseList = () => {
          const data = useContext(DataContext);
   
@@ -71,9 +72,7 @@ const CourseList = () => {
                       {course.duration}
                     </Typography>
                     <Link
-                      href={`/courses/${course.title
-                        .replace(/\s+/g, "-")
-                        .toLowerCase()}`}
+                      href={`/courses/${ generateSlug(course.title)}`}
                       passHref
                     >
                       <Button

@@ -43,6 +43,7 @@ import Breadcrumbsinfo from "@/compoments/Breadcrumbsinfo";
 import { CheckCircle, Padding } from "@mui/icons-material";
 import PatientVideos from "@/compoments/Home/PatientVideos";
 import CanonicalTag from "@/compoments/CanonicalTag";
+import { generateSlug } from "@/compoments/slugify";
 const Advancedprocedures = ({ advancedprocedures }) => {
   const router = useRouter();
   const { slug } = router.query;
@@ -253,7 +254,7 @@ const Advancedprocedures = ({ advancedprocedures }) => {
 export async function getStaticPaths() {
   const data = websiteJson;
   const paths = data.advancedprocedures.map((service) => ({
-    params: { slug: service.title.replace(/\s+/g, "-").toLowerCase() },
+    params: { slug: generateSlug(service.title) },
   }));
 
   return { paths, fallback: true };
@@ -262,7 +263,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const data = websiteJson;
   const advancedprocedures = data.advancedprocedures.find(
-    (item) => item.title.replace(/\s+/g, "-").toLowerCase() === params.slug
+    (item) => generateSlug(item.title) === params.slug
   );
 
   if (!advancedprocedures) {

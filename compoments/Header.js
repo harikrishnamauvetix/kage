@@ -32,6 +32,7 @@ import {
 } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { AnalyticsScripts } from "./AnalyticsScripts";
+import { generateSlug } from "./slugify";
 const Navbar = () => {
   // const websiteJson = useContext(DataContext);
   const [anchorEl, setAnchorEl] = useState(null);
@@ -80,9 +81,7 @@ const Navbar = () => {
       href: "/speciality-clinics",
       subItems: websiteJson?.specialityclinics?.map((service) => ({
         label: service.title,
-        href: `/speciality-clinics/${service.title
-          .replace(/\s+/g, "-")
-          .toLowerCase()}`,
+        href: `/speciality-clinics/${generateSlug(service.title)}`,
       })),
     },
     {
@@ -90,9 +89,7 @@ const Navbar = () => {
       href: "/advanced-procedures",
       subItems: websiteJson?.advancedprocedures?.map((procedure) => ({
         label: procedure.title,
-        href: `/advanced-procedures/${procedure.title
-          .replace(/\s+/g, "-")
-          .toLowerCase()}`,
+        href: `/advanced-procedures/${generateSlug(procedure.title)}`,
       })),
     },
     {
@@ -100,9 +97,7 @@ const Navbar = () => {
       href: "/advanced-equipment",
       subItems: websiteJson?.services?.map((services) => ({
         label: services.title,
-        href: `/advanced-equipment/${services.title
-          .replace(/\s+/g, "-")
-          .toLowerCase()}`,
+        href: `/advanced-equipment/${generateSlug(services.title)}`,
       })),
     },
     {
@@ -110,7 +105,7 @@ const Navbar = () => {
       href: "/courses",
       subItems: websiteJson?.courseDetails?.map((courses) => ({
         label: courses.title,
-        href: `/courses/${courses.title.replace(/\s+/g, "-").toLowerCase()}`,
+        href: `/courses/${generateSlug(courses.title)}`,
       })),
     },
     { label: "Patient Testimonials", href: "/testimonials" },

@@ -16,6 +16,7 @@ import {
 import Grid from "@mui/material/Grid2";
 import Image from "next/image";
 import Link from "next/link";
+import { generateSlug } from "../slugify";
 const Services = (props) => {
   return (
     <>
@@ -61,9 +62,7 @@ const Services = (props) => {
                 >
                   <CardContent sx={{ padding: "0px !important" }}>
                     <Link
-                      href={`/advanced-equipment/${item.title
-                        .replace(/\s+/g, "-")
-                        .toLowerCase()}`}
+                      href={`/advanced-equipment/${generateSlug(item.title)}`}
                       passHref
                     >
                       <Typography
@@ -101,9 +100,7 @@ const Services = (props) => {
                       ))}
 
                     <Link
-                      href={`/advanced-equipment/${item.title
-                        .replace(/\s+/g, "-")
-                        .toLowerCase()}`}
+                       href={`/advanced-equipment/${generateSlug(item.title)}`}
                       passHref
                     >
                       <Button
