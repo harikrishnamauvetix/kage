@@ -19,7 +19,7 @@ const CourseList = () => {
   return (
     <>
       <Box
-        id="highlights"
+     
         sx={{
           pt: { xs: 4, sm: 4 },
           pb: { xs: 8, sm: 4 },

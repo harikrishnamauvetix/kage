@@ -21,7 +21,7 @@ const ProceduresList = (props) => {
   return (
     <>
       <Box
-        id="highlights"
+  
         sx={{
           pt: { xs: 4, sm: 4 },
           pb: { xs: 8, sm: 4 },
@@ -104,11 +104,9 @@ const ProceduresList = (props) => {
                       </Typography>
                     )}
 
-                    <Link
-                      href={`/advanced-procedures/${generateSlug(item.title)}`}
-                      passHref
-                    >
                       <Button
+                        component={Link}
+                        href={`/advanced-procedures/${generateSlug(item.title)}`}
                         variant="contained"
                         sx={{
                           backgroundColor: "secondary.main",
@@ -117,7 +115,7 @@ const ProceduresList = (props) => {
                       >
                         Read more
                       </Button>
-                    </Link>
+                    
                   </CardContent>
                 </Card>
               </Grid>

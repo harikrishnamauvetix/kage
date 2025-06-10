@@ -16,7 +16,7 @@ import {
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import Header from "../compoments/Header";
-
+import Image from 'next/image';
 import AppointmentForm from "@/compoments/Bookappointment";
 import Footer from "@/compoments/Footer";
 import data from "../public/website.json";
@@ -69,7 +69,15 @@ const Home = () => {
         >
           {websiteJson?.bannerImage.map((slide, index) => (
             <SwiperSlide key={index}>
-              <img src={slide.image} alt={slide.alt} width={"100%"} />
+               <Image
+                src={slide.image}
+                alt={slide.alt || `Slide ${index + 1}`}
+                layout="responsive"
+                width={1920}
+                height={600}
+                priority={index === 0}
+              />
+              {/* <img src={slide.image} alt={slide.alt} width={"100%"} /> */}
             </SwiperSlide>
           ))}
         </Swiper>

@@ -94,22 +94,20 @@ const SpecialityClinics = (props) => {
                               : service.content.overview.content[0]}
                           </Typography>
                         )}
-                        <Link
+
+                        <Button
                           href={`/speciality-clinics/${generateSlug(
                             service.title
                           )}`}
-                          passHref
+                          variant="contained"
+                          component={Link}
+                          sx={{
+                            backgroundColor: "secondary.main",
+                            marginTop: "15px",
+                          }}
                         >
-                          <Button
-                            variant="contained"
-                            sx={{
-                              backgroundColor: "secondary.main",
-                              marginTop: "15px",
-                            }}
-                          >
-                            Read more
-                          </Button>
-                        </Link>
+                          Read more
+                        </Button>
                       </CardContent>
                     </Card>
                   </Grid>

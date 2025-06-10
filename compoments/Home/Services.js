@@ -1,4 +1,4 @@
-import React, { useState,useContext } from "react";
+import React, { useState, useContext } from "react";
 import {
   Box,
   Container,
@@ -21,7 +21,7 @@ const Services = (props) => {
   return (
     <>
       <Box
-        id="highlights"
+     
         sx={{
           pt: { xs: 4, sm: 4 },
           pb: { xs: 8, sm: 4 },
@@ -99,20 +99,17 @@ const Services = (props) => {
                         </div>
                       ))}
 
-                    <Link
-                       href={`/advanced-equipment/${generateSlug(item.title)}`}
-                      passHref
+                    <Button
+                      component={Link}
+                      href={`/advanced-equipment/${generateSlug(item.title)}`}
+                      variant="contained"
+                      sx={{
+                        backgroundColor: "secondary.main",
+                        marginTop: "15px",
+                      }}
                     >
-                      <Button
-                        variant="contained"
-                        sx={{
-                          backgroundColor: "secondary.main",
-                          marginTop: "15px",
-                        }}
-                      >
-                        Read more
-                      </Button>
-                    </Link>
+                      Read more
+                    </Button>
                   </CardContent>
                 </Card>
               </Grid>
