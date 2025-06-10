@@ -1,4 +1,4 @@
-import React, { useState,useContext } from "react";
+import React, { useState, useContext } from "react";
 import Head from "next/head";
 import websiteJson from "../../public/website.json";
 import { useRouter } from "next/router";
@@ -25,7 +25,7 @@ import {
   ListItemIcon,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import { DataContext } from '../_app';
+import { DataContext } from "../_app";
 import Link from "next/link";
 import Header from "@/compoments/Header";
 import AppointmentForm from "@/compoments/Bookappointment";
@@ -69,15 +69,14 @@ const Servicespage = ({ servicesPageContent }) => {
   };
   return (
     <>
-    <Head>
-      <title>{servicesPageContent?.metaTitle} </title>
-      <meta name="description" content={servicesPageContent?.metadescription} />
-      <meta name="keywords" content={servicesPageContent?.keywords} />
      
-    </Head>
-    <CanonicalTag/>
+      <CanonicalTag
+        title={servicesPageContent?.metaTitle}
+        description={servicesPageContent?.metaDescription}
+        keywords={servicesPageContent?.keywords}
+      />
       <Header></Header>
-     <Breadcrumbsinfo 
+      <Breadcrumbsinfo
         service={"Advanced Equipment"}
         pagename={servicesPageContent.title}
       />
@@ -225,16 +224,14 @@ const Servicespage = ({ servicesPageContent }) => {
   );
 };
 
-
 export async function getStaticPaths() {
   const data = websiteJson;
   const paths = data.services.map((service) => ({
     params: { slug: service.title.replace(/\s+/g, "-").toLowerCase() },
   }));
 
-  return { paths, fallback: true  };
+  return { paths, fallback: true };
 }
-
 
 export async function getStaticProps({ params }) {
   const data = websiteJson;
@@ -248,7 +245,6 @@ export async function getStaticProps({ params }) {
 
   return {
     props: { servicesPageContent },
- 
   };
 }
 

@@ -22,12 +22,12 @@ const CourseListPage = (props) => {
      const data = useContext(DataContext);
   return (
     <>
-      <Head>
-    <title>{websiteJson?.coursePage?.metaTitle} </title>
-    <meta name="description" content={websiteJson?.coursePage?.metaDescription} />
-    <meta name="keywords" content={websiteJson?.coursePage?.keywords} />
-    </Head>
-    <CanonicalTag/>
+
+    <CanonicalTag
+        title={websiteJson?.coursePage?.metaTitle}
+        description={websiteJson?.coursePage?.metaDescription}
+        keywords={websiteJson?.coursePage?.keywords}
+      />
       <Header />
      <Breadcrumbsinfo  service={"Courses"} />
 

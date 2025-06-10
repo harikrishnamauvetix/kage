@@ -48,12 +48,12 @@ const Home = () => {
 
   return (
     <Box>
-      <Head>
-        <title>{data?.homepageseo?.metaTitle} </title>
-        <meta name="description" content={data?.homepageseo?.metaDescription} />
-        <meta name="keywords" content={data?.homepageseo?.keywords} />
-      </Head>
-      <CanonicalTag/>
+     
+      <CanonicalTag
+        title={data?.homepageseo?.metaTitle}
+        description={data?.homepageseo?.metaDescription}
+        keywords={data?.homepageseo?.keywords}
+      />
       <Header></Header>
       <Box sx={{ paddingTop: { xs: "89px", sm:"100px",md: "220px" } }}>
         <Swiper

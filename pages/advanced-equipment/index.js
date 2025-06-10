@@ -41,13 +41,12 @@ export default function AdvancedEquipment() {
 
   return (
     <>
-      <Head>
-      <title>{data?.advancedequipementPage?.metaTitle} </title>
-      <meta name="description" content={data?.advancedequipementPage?.metaDescription} />
-      <meta name="keywords" content={data?.advancedequipementPage?.keywords} />
-     
-    </Head>
-    <CanonicalTag/>
+
+    <CanonicalTag
+        title={data?.advancedequipementPage?.metaTitle}
+        description={data?.advancedequipementPage?.metaDescription}
+        keywords={data?.advancedequipementPage?.keywords}
+      />
       <Header></Header>
      <Breadcrumbsinfo  pagename={"Advanced Equipment"} />
       <Services services={data?.services} />

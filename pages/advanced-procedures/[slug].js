@@ -85,18 +85,12 @@ const Advancedprocedures = ({ advancedprocedures }) => {
   };
   return (
     <>
-      <Head>
-        <title>{advancedprocedures?.metaTitle} </title>
-        <meta
-          name="description"
-          content={advancedprocedures?.metaDescription}
-        />
-         <meta
-          name="keywords"
-          content={advancedprocedures?.keywords}
-        />
-      </Head>
-      <CanonicalTag/>
+
+      <CanonicalTag
+        title={advancedprocedures?.metaTitle}
+        description={advancedprocedures?.metaDescription}
+        keywords={advancedprocedures?.keywords}
+      />
       <Header></Header>
       <Breadcrumbsinfo
         service={"Advanced Procedures"}

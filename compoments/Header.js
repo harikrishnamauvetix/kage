@@ -31,6 +31,7 @@ import {
   Collapse,
 } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { AnalyticsScripts } from "./AnalyticsScripts";
 const Navbar = () => {
   // const websiteJson = useContext(DataContext);
   const [anchorEl, setAnchorEl] = useState(null);
@@ -121,6 +122,7 @@ const Navbar = () => {
 
   return (
     <>
+      <AnalyticsScripts/>
       <Box sx={{ position: "fixed", zIndex: "99", width: "100%" }}>
         <Box
           sx={{

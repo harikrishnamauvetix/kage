@@ -64,12 +64,12 @@ const DoctorDetails = ({ doctor }) => {
 
   return (
     <>
-      <Head>
-        <title>{doctor?.metaTitle} </title>
-        <meta name="description" content={doctor?.metadescription} />
-        <meta name="keywords" content={doctor?.keywords} />
-      </Head>
-      <CanonicalTag />
+  
+      <CanonicalTag
+        title={doctor?.metaTitle}
+        description={doctor?.metaDescription}
+        keywords={doctor?.keywords}
+      />
       <Header></Header>
       <Breadcrumbsinfo
         service={"Doctors"}

@@ -84,13 +84,12 @@ useEffect(() => {
   const serviceContent = () => {
     return (
       <>
-      
-      <Head>
-        <title>{specialityclinics?.metaTitle} </title>
-        <meta name="description" content={specialityclinics?.metadescription} />
-        <meta name="keywords" content={specialityclinics?.keywords} />
-      </Head>
-      <CanonicalTag/>
+          <CanonicalTag
+        title={specialityclinics?.metaTitle}
+        description={specialityclinics?.metaDescription}
+        keywords={specialityclinics?.keywords}
+      />
+    
         {content?.heading && (
           <Grid size={{ xs: 12 }} sx={{ margin: "40px 0 0px 0" }}>
             <Typography

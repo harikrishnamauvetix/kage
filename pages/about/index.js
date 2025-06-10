@@ -1,6 +1,6 @@
-import React, { useState,useContext ,useEffect} from "react";
+import React, { useState, useContext, useEffect } from "react";
 import Head from "next/head";
-import { useParams, useRouter } from "next/navigation"; 
+import { useParams, useRouter } from "next/navigation";
 
 import {
   Container,
@@ -14,7 +14,7 @@ import {
   ListItemIcon,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import { DataContext } from '../_app';
+import { DataContext } from "../_app";
 import Header from "@/compoments/Header";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import AppointmentForm from "@/compoments/Bookappointment";
@@ -43,22 +43,21 @@ const About = () => {
   }
   return (
     <>
-     <Head>
-        <title>{data?.about?.metaTitle} </title>
-        <meta name="description" content={data?.about?.metaDescription} />
-        <meta name="keywords" content={data?.about?.keywords} />
-        
-      </Head>
-      <CanonicalTag/>
+      <CanonicalTag
+        title={data?.about?.metaTitle}
+        description={data?.about?.metaDescription}
+        keywords={data?.about?.keywords}
+      />
+ 
       <Header></Header>
-     <Breadcrumbsinfo 
+      <Breadcrumbsinfo
         service={"About Us"}
         pagename={service?.slug}
       ></Breadcrumbsinfo>
       <Container maxWidth="xl">
         <Box
           sx={{
-            display: "flex",  
+            display: "flex",
             alignItems: "center",
             justifyContent: "center",
           }}
@@ -100,48 +99,45 @@ const About = () => {
                 {data?.about.specialtyClinics.description}
               </Typography>
               <Grid container spacing={4} justifyContent={"center"}>
-                {data?.about.specialtyClinics.list.map(
-                  (clinic, index) => (
-                    <Grid
-                      size={{ xs: 12, sm: 6, md: 6, lg: 4, xl: 4 }}
-                      key={index}
-
+                {data?.about.specialtyClinics.list.map((clinic, index) => (
+                  <Grid
+                    size={{ xs: 12, sm: 6, md: 6, lg: 4, xl: 4 }}
+                    key={index}
+                  >
+                    <Paper
+                      elevation={3}
+                      sx={{
+                        padding: 2,
+                        display: "flex",
+                        flexDirection: "column",
+                        height: "100%",
+                      }}
                     >
-                      <Paper
-                        elevation={3}
+                      <Typography
+                        variant="h6"
+                        gutterBottom
                         sx={{
-                          padding: 2,
+                          color: "primary.main",
+
+                          alignItems: "start",
+                          minHeight: "65px",
                           display: "flex",
-                          flexDirection: "column",
-                          height: "100%",
                         }}
                       >
-                        <Typography
-                          variant="h6"
-                          gutterBottom
-                          sx={{
-                            color: "primary.main",
-
-                            alignItems: "start",
-                            minHeight: "65px",
-                            display: "flex",
-                          }}
-                        >
-                          {clinic.heading}
-                        </Typography>
-                        <Typography
-                          variant="body1"
-                          sx={{
-                            flexGrow: 1,
-                            minHeight: "80px",
-                          }}
-                        >
-                          {clinic.description}
-                        </Typography>
-                      </Paper>
-                    </Grid>
-                  )
-                )}
+                        {clinic.heading}
+                      </Typography>
+                      <Typography
+                        variant="body1"
+                        sx={{
+                          flexGrow: 1,
+                          minHeight: "80px",
+                        }}
+                      >
+                        {clinic.description}
+                      </Typography>
+                    </Paper>
+                  </Grid>
+                ))}
               </Grid>
               <Stack sx={{ margin: "30px 0" }}>
                 <Typography
@@ -239,7 +235,6 @@ const About = () => {
       <Footer></Footer>
     </>
   );
-
 };
 
 export default About;

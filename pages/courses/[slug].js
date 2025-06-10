@@ -53,18 +53,12 @@ const CourseDetail = ({courseDetails}) => {
   //console.log(courseDetails);
   return (
     <>
-      <Head>
-        <title>{courseDetails?.metaTitle} </title>
-        <meta
-          name="description"
-          content={courseDetails?.metaDescription}
-        />
-         <meta
-          name="keywords"
-          content={courseDetails?.keywords}
-        />
-      </Head>
-      <CanonicalTag/>
+      
+      <CanonicalTag
+        title={courseDetails?.metaTitle}
+        description={courseDetails?.metaDescription}
+        keywords={courseDetails?.keywords}
+      />
       <Header />
       <Breadcrumbsinfo service={"Courses"} pagename={courseDetails.title} />
       <Container maxWidth="xl">

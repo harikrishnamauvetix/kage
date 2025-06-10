@@ -15,12 +15,13 @@ const ContactUs = () => {
    const data = useContext(DataContext);
   return (
     <>
-    <Head>
-        <title>{data?.contactPage?.metaTitle} </title>
-        <meta name="description" content={data?.contactPage?.metadescription} />
-        <meta name="keywords" content={data?.contactPage?.keywords} />
-      </Head>
-      <CanonicalTag/>
+  
+      <CanonicalTag
+        title={data?.contactPage?.metaTitle}
+        description={data?.contactPage?.metaDescription}
+        keywords={data?.contactPage?.keywords}
+      />
+    
       <Header />
      <Breadcrumbsinfo   pagename={"Contact"}  />
       <Container>

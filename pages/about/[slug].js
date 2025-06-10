@@ -83,13 +83,13 @@ const Aboutpage = () => {
 
   return (
     <>
-     <Head>
-      <title>{about?.metaTitle} </title>
-      <meta name="description" content={about?.metadescription} />
-      <meta name="keywords" content={about?.keywords} />
-     
-    </Head>
-    <CanonicalTag/>
+  
+      <CanonicalTag
+            title={about?.metaTitle}
+            description={about?.metaDescription}
+            keywords={about?.keywords}
+          />
+
       <Header></Header>
      <Breadcrumbsinfo  sx={{ paddingTop:  { xs: "89px", sm:"100px",md: "220px" } }}
         service={"About Us"}

@@ -29,12 +29,13 @@ const Doctorvideos = () => {
   const data = useContext(DataContext);
   return (
     <>
-    <Head>
-        <title>{data?.doctorvideosPage?.metaTitle} </title>
-        <meta name="description" content={data?.doctorvideosPage?.metadescription} />
-        <meta name="keywords" content={data?.doctorvideosPage?.keywords} />
-      </Head>
-      <CanonicalTag/>
+  
+      <CanonicalTag
+        title={data?.doctorvideosPage?.metaTitle}
+        description={data?.doctorvideosPage?.metaDescription}
+        keywords={data?.doctorvideosPage?.keywords}
+      />
+    
       <Header></Header>
      <Breadcrumbsinfo  pagename={"Doctor's Talk's"} />
       <Stack sx={{ backgroundColor: "background.default", py: 5 }}>

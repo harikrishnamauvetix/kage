@@ -34,12 +34,12 @@ const Doctors = () => {
   return (
     <>
     
-      <Head>
-        <title>{data?.doctorsPage?.metaTitle} </title>
-        <meta name="description" content={data?.doctorsPage?.metadescription} />
-        <meta name="keywords" content={data?.doctorsPage?.keywords} />
-      </Head>
-      <CanonicalTag/>
+ 
+      <CanonicalTag
+        title={data?.doctorsPage?.metaTitle}
+        description={data?.doctorsPage?.metaDescription}
+        keywords={data?.doctorsPage?.keywords}
+      />
       <Header></Header>
       <Breadcrumbsinfo service={"Doctors"}></Breadcrumbsinfo>
       <Container maxWidth="lg">

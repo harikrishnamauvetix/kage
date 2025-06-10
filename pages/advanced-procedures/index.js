@@ -41,12 +41,12 @@ export default function AdvancedProcedures() {
   
   return (
     <>
-    <Head>
-    <title>{data?.advancedproceduresPage?.metaTitle} </title>
-    <meta name="description" content={data?.advancedproceduresPage?.metaDescription} />
-    <meta name="keywords" content={data?.advancedproceduresPage?.keywords} />
-    </Head>
-    <CanonicalTag/>
+
+    <CanonicalTag
+        title={data?.advancedproceduresPage?.metaTitle}
+        description={data?.advancedproceduresPage?.metaDescription}
+        keywords={data?.advancedproceduresPage?.keywords}
+      />
       <Header></Header>
      <Breadcrumbsinfo  pagename={"Advanced Procedures"} />
 

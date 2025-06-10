@@ -40,12 +40,13 @@ export default function SpecialityList() {
   
   return (
     <>
-         <Head>
-        <title>{data?.specialityclinicsPage?.metaTitle} </title>
-        <meta name="description" content={data?.specialityclinicsPage?.metadescription} />
-        <meta name="keywords" content={data?.specialityclinicsPage?.keywords} />
-      </Head>
-      <CanonicalTag/>
+  
+      <CanonicalTag
+        title={data?.specialityclinicsPage?.metaTitle}
+        description={data?.specialityclinicsPage?.metaDescription}
+        keywords={data?.specialityclinicsPage?.keywords}
+      />
+    
       <Header></Header>
      <Breadcrumbsinfo  pagename={"Speciality Clinics At KAGE"}  />
 

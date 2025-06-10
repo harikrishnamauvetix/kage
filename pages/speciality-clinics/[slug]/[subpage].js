@@ -47,45 +47,79 @@ export default function SubServicePage() {
   const router = useRouter();
 
   const { slug, subpage } = router.query;
-  // console.log(slug, subpage);
+  //  console.log(slug, subpage);
   const [service, setService] = useState(null);
   const [subService, setSubService] = useState(null);
   const [loading, setLoading] = useState(true);
   const [subServicelist, setSubServiceList] = useState(null);
   const [expanded, setExpanded] = useState(false);
+  // useEffect(() => {
+  //   if (!slug || !subpage) {
+  //     console.log("Slug or subpage is missing");
+  //     return;
+  //   }
+  //   if (!router.isReady || !data) {
+  //     return <p>Loading...</p>;
+  //   }
+
+  //   // Normalize both slug and page to ensure they match despite different formats
+  //   const normalizedSlug = slug.replace(/-/g, " "); // Replace dashes with spaces
+  //   const normalizedSubpage = subpage.replace(/-/g, " "); // Normalize subpage as well
+
+  //   // Find the service based on the normalized slug
+  //   const foundService = data?.specialityclinics.find(
+  //     (s) => s.page.toLowerCase() === normalizedSlug.toLowerCase()
+  //   );
+  //   // console.log("Found Service:", foundService);
+  //   // console.log("data", data?.services);
+  //   // console.log("slug", normalizedSlug);
+  //   // console.log("subpage", normalizedSubpage);
+  //   if (!foundService) {
+  //     setService(null);
+  //     setLoading(false);
+  //     return;
+  //   }
+
+  //   // Find the subpage based on the normalized subpage
+  //   const foundSubService = foundService.subpages.find(
+  //     (sub) => sub.page.toLowerCase() === normalizedSubpage.toLowerCase()
+  //   );
+  //   console.log("Found SubService:", foundSubService);
+
+  //   if (foundSubService) {
+  //     setService(foundService);
+  //     setSubService(foundSubService);
+  //     setSubServiceList(foundSubService.sections.listof_sub_sub_services);
+  //   } else {
+  //     setSubService(null);
+  //   }
+
+  //   setLoading(false);
+  // }, [slug, subpage]);
+
   useEffect(() => {
-    if (!slug || !subpage) {
-      console.log("Slug or subpage is missing");
-      return;
+    if (!slug || !subpage || !router.isReady || !data) {
+      return; 
     }
-    if (!router.isReady || !data) {
-      return <p>Loading...</p>;
-    }
-
-    // Normalize both slug and page to ensure they match despite different formats
-    const normalizedSlug = slug.replace(/-/g, " "); // Replace dashes with spaces
-    const normalizedSubpage = subpage.replace(/-/g, " "); // Normalize subpage as well
-
-    // Find the service based on the normalized slug
+  
+    const normalizedSlug = slug.replace(/-/g, " ");
+    const normalizedSubpage = subpage.replace(/-/g, " ");
+  
     const foundService = data?.specialityclinics.find(
       (s) => s.page.toLowerCase() === normalizedSlug.toLowerCase()
     );
-    // console.log("Found Service:", foundService);
-    // console.log("data", data?.services);
-    // console.log("slug", normalizedSlug);
-    // console.log("subpage", normalizedSubpage);
+  
     if (!foundService) {
       setService(null);
       setLoading(false);
       return;
     }
-
-    // Find the subpage based on the normalized subpage
+  
     const foundSubService = foundService.subpages.find(
       (sub) => sub.page.toLowerCase() === normalizedSubpage.toLowerCase()
     );
     console.log("Found SubService:", foundSubService);
-
+  
     if (foundSubService) {
       setService(foundService);
       setSubService(foundSubService);
@@ -93,9 +127,10 @@ export default function SubServicePage() {
     } else {
       setSubService(null);
     }
-
+  
     setLoading(false);
-  }, [slug, subpage]);
+  }, [slug, subpage, router.isReady, data]); 
+  
   const handleFaqToggle = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
@@ -123,15 +158,15 @@ export default function SubServicePage() {
       </Container>
     );
   }
-
+//console.log(subService?.metaTitle);
   return (
     <>
-      <Head>
-        <title>{subService?.metaTitle} </title>
-        <meta name="description" content={subService?.metadescription} />
-        <meta name="keywords" content={subService?.keywords} />
-      </Head>
-      <CanonicalTag />
+     
+      <CanonicalTag
+        title={subService?.metaTitle}
+        description={subService?.metaDescription}
+        keywords={subService?.keywords}
+      />
       <Header></Header>
       <Breadcrumbsinfo
         service={"Speciality Clinics"}
