@@ -61,7 +61,7 @@ export default function AppointmentForm() {
           <Typography
             variant="body2"
             component="a"
-            href={`tel:${data?.hospitalInfo?.kimsPhonenumber}`}
+            href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber?.replace(/[\s-]/g, '')}`}
             sx={{ textAlign: "center", fontSize: "20px", padding: "20px 0" ,  textDecoration: "none" ,display:"block"}}
           >
             For Book Appointment Call Now 

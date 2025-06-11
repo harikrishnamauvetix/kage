@@ -132,7 +132,7 @@ const Navbar = () => {
           <Typography
             variant="body2"
             component="a"
-            href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber}`}
+            href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber?.replace(/[\s-]/g, '')}`}
             sx={{
               color: "#fff",
               padding: {
@@ -272,8 +272,8 @@ const Navbar = () => {
                 {/* Contact Info */}
                 <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
                   <Box
-                    component="a"
-                    href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber}`}
+                    component="a"                    
+                    href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber?.replace(/[\s-]/g, '')}`}
                     sx={{
                       display: "flex",
                       alignItems: "center",
@@ -396,7 +396,7 @@ const Navbar = () => {
                   <Button
                     variant="contained"
                     component="a"
-                    href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber}`}
+                    href={`tel:${websiteJson?.hospitalInfo?.kimsPhonenumber?.replace(/[\s-]/g, '')}`}
                     sx={{
                       backgroundColor: "secondary.main",
                       justifyContent: "right",

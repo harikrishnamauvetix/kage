@@ -34,12 +34,14 @@ export default function Footer() {
             {/* Column 1: Company Info */}
             <Grid size={{ xs: 12, sm: 6, md: 4 }}>
               <Box sx={{ display: "block", alignItems: "center", gap: 1 }}>
-                <Box
-                  component="img"
-                  src={data?.hospitalInfo?.companylogo}
-                  alt="Best Gastro Hospital In Hyderabad"
-                  sx={{ height: 50 }}
-                />
+                {data?.hospitalInfo?.companylogo && (
+                  <Box
+                    component="img"
+                    src={data.hospitalInfo.companylogo}
+                    alt="Best Gastro Hospital In Hyderabad"
+                    sx={{ height: 50 }}
+                  />
+                )}
               </Box>
               <Typography variant="body2" sx={{ color: "#fff" }}>
                 {data?.footer.companyInfo.description}
@@ -48,9 +50,12 @@ export default function Footer() {
 
             {/* Column 2: Links */}
             <Grid size={{ xs: 12, sm: 6, md: 4 }}>
-              <Typography variant="h6" gutterBottom sx={{ color: "#fff" }}>
-                {data?.footer.quickLinks.title}
-              </Typography>
+              {data?.footer?.quickLinks && (
+                <Typography variant="h6" gutterBottom sx={{ color: "#fff" }}>
+                  {data.footer.quickLinks.title}
+                </Typography>
+              )}
+
               {data?.footer.quickLinks.links.map((link, index) => (
                 <Link
                   key={index}
@@ -66,9 +71,12 @@ export default function Footer() {
 
             {/* Column 3: Social Media */}
             <Grid size={{ xs: 12, sm: 6, md: 4 }}>
-              <Typography variant="h6" gutterBottom sx={{ color: "#fff" }}>
-                {data?.footer.socialMedia.title}
-              </Typography>
+            {data?.footer?.socialMedia && (
+                <Typography variant="h6" gutterBottom sx={{ color: "#fff" }}>
+                  {data?.footer.socialMedia.title}
+                </Typography>
+              )}
+             
               <Box>
                 {data?.footer.socialMedia.links.map((social, index) => (
                   <IconButton
@@ -95,7 +103,7 @@ export default function Footer() {
                 <Grid item xs={12} sm={6} md={6} key={service.title}>
                   <Link
                     href={`/speciality-clinics/${generateSlug(service?.title)}`}
-                      passHref
+                    passHref
                     underline="none"
                   >
                     <Typography variant="body1" sx={{ color: "#fff" }}>
@@ -114,7 +122,7 @@ export default function Footer() {
                   <Link
                     href={`/advanced-equipment/${generateSlug(service?.title)}`}
                     passHref
-                      underline="none"
+                    underline="none"
                   >
                     <Typography variant="body1" sx={{ color: "#fff" }}>
                       {service.title}
@@ -130,10 +138,11 @@ export default function Footer() {
               {data?.advancedprocedures?.map((procedure) => (
                 <Grid item xs={12} sm={6} md={6} key={procedure.title}>
                   <Link
-                    href={`/advanced-procedures/${generateSlug(procedure.title)}`}
-                      passHref
-                        underline="none"
-                   
+                    href={`/advanced-procedures/${generateSlug(
+                      procedure.title
+                    )}`}
+                    passHref
+                    underline="none"
                   >
                     <Typography variant="body1" sx={{ color: "#fff" }}>
                       {procedure.title}
@@ -153,32 +162,35 @@ export default function Footer() {
         </Container>
       </Box>
       <Box
-      sx={{
-        position: "fixed",
-        bottom: 20,
-        right: 10,
-        zIndex: 999999999999,
-      }}
-    >
-      <IconButton
-        href={`tel:${data?.hospitalInfo?.kimsPhonenumber}`}
-        target="_blank"
-        rel="noopener noreferrer"
         sx={{
-          backgroundColor: "secondary.main",
-          color: "#fff",
-          width: 60,
-          height: 60,
-          borderRadius: "50%",
-          boxShadow: 3,
-          '&:hover': {
-            backgroundColor: "primary.dark",
-          },
+          position: "fixed",
+          bottom: 20,
+          right: 10,
+          zIndex: 999999999999,
         }}
       >
-        <PhoneIcon sx={{ fontSize: 30 }} />
-      </IconButton>
-    </Box>
+        <IconButton
+          href={`tel:${data?.hospitalInfo?.kimsPhonenumber?.replace(
+            /[\s-]/g,
+            ""
+          )}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          sx={{
+            backgroundColor: "secondary.main",
+            color: "#fff",
+            width: 60,
+            height: 60,
+            borderRadius: "50%",
+            boxShadow: 3,
+            "&:hover": {
+              backgroundColor: "primary.dark",
+            },
+          }}
+        >
+          <PhoneIcon sx={{ fontSize: 30 }} />
+        </IconButton>
+      </Box>
     </>
   );
 }

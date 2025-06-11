@@ -85,8 +85,7 @@ const Contactinfo = (props) => {
                     <CalendarMonthIcon sx={{ mr: 1 }} />
                     <Box
                       component="a"
-                
-                      href={`tel:${props.Contactinfo?.kimsPhonenumber}`}
+                      href={`tel:${props.Contactinfo?.kimsPhonenumber?.replace(/[\s-]/g, '')}`}
                     >
                       <Typography variant="subtitle1" fontWeight="bold">
                         Appointment Number:

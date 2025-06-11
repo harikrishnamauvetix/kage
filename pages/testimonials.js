@@ -72,8 +72,7 @@ const Testimonials = () => {
                       >
                         <iframe
                           src={video.url}
-                          title={video.title}
-                          frameBorder="0"
+                          title={video.title}                         
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowFullScreen
                           style={{
@@ -82,6 +81,7 @@ const Testimonials = () => {
                             left: 0,
                             width: "100%",
                             height: "100%",
+                            border: "none",
                           }}
                         />
                       </div>

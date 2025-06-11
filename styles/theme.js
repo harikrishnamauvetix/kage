@@ -76,7 +76,7 @@ const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          maxWidth: "auto !important",
+          // maxWidth: "auto !important",
           color: "#fff", // Button text color remains white
           backgroundColor: "#007cb0", // Button background remains the same
           "&:hover": {
