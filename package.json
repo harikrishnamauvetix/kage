@@ -16,7 +16,7 @@
     "@fontsource/open-sans": "^5.1.0",
     "@mui/icons-material": "^6.1.9",
     "@mui/material": "^6.1.9",
-    "next": "^14.2.21",
+    "next": "^14.2.24",
     "next-sitemap": "^4.2.3",
     "react": "^18",
     "react-dom": "^18",
