@@ -222,7 +222,7 @@ export async function getStaticPaths() {
     params: { slug: generateSlug(item?.title) },
   }));
 
-  return { paths, fallback: true  };
+  return { paths, fallback: false  };
 }
 
 

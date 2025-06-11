@@ -103,8 +103,8 @@ export default function SubServicePage() {
       return; 
     }
   
-    const normalizedSlug = slug.replace(/-/g, " ");
-    const normalizedSubpage = subpage.replace(/-/g, " ");
+    // const normalizedSlug = slug.replace(/-/g, " ");
+    // const normalizedSubpage = subpage.replace(/-/g, " ");
   
     const foundService = data?.specialityclinics.find(
       (s) => generateSlug(s.page) === generateSlug(slug)
@@ -404,16 +404,16 @@ export async function getStaticPaths() {
 
   if (!data?.specialityclinics) {
     console.error("specialityclinics not found in websiteJson");
-    return { paths: [], fallback: true };
+    return { paths: [], fallback: false };
   }
 
   const paths = [];
 
   data.specialityclinics.forEach((clinic) => {
-    const slug = clinic.page.replace(/\s+/g, "-").toLowerCase();
+    const slug = generateSlug(clinic.page);
 
     clinic.subpages?.forEach((sub) => {
-      const subpage = sub.page.replace(/\s+/g, "-").toLowerCase();
+      const subpage = generateSlug(sub.page);
       paths.push({
         params: { slug, subpage },
       });
@@ -422,7 +422,7 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: true,
+    fallback: false,
   };
 }
 

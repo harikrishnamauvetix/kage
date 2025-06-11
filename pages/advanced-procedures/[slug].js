@@ -257,7 +257,7 @@ export async function getStaticPaths() {
     params: { slug: generateSlug(service.title) },
   }));
 
-  return { paths, fallback: true };
+  return { paths, fallback: false };
 }
 
 export async function getStaticProps({ params }) {
