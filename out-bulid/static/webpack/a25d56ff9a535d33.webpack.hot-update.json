@@ -1,0 +1,1 @@
+{"c":["pages/blogs/[slug]","webpack"],"r":["pages/blogs"],"m":["./compoments/Blogs/BlogsList.js","./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?absolutePagePath=C%3A%5Ckimsproject%5Ckage%5Cpages%5Cblogs%5Cindex.js&page=%2Fblogs!","./pages/blogs/index.js"]}

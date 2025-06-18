@@ -2798,7 +2798,7 @@
           "content": "If you are experiencing issues with your bile or pancreatic ducts, ERCP could be the solution for accurate diagnosis and immediate treatment. At KIMS Advanced Gastroenterology & Endoscopy - KAGE, we use the latest techniques and technology to provide the best care for your digestive health.\n\nContact us today to schedule a consultation or learn more about how ERCP can help manage your condition and improve your quality of life."
         }
       ]
-    },   
+    },
     {
       "icon": "/Images/Icons/Bariatric-Endoscopy.png",
       "title": "Bariatric Endoscopy- ESG (Endoscopic Sleeve Gastrectomy)",
@@ -4964,7 +4964,7 @@
                   "step": 1,
                   "title": "Body Composition Analysis",
                   "description": "Assessing fat percentage, muscle mass, and water retention.",
-                  "icon": "/Images/Icons/an"
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 },
                 {
                   "step": 2,
@@ -4976,7 +4976,7 @@
                   "step": 3,
                   "title": "Metabolic Rate Assessment",
                   "description": "Identifying how efficiently your body burns calories.",
-                  "icon": "/Images/Icons/"
+                  "icon": "/Images/Icons/Blood-Tests.png"
                 },
                 {
                   "step": 4,
@@ -6008,7 +6008,7 @@
                   "step": 2,
                   "title": "Impedance Testing",
                   "description": "Evaluates esophageal function and acid reflux.",
-                  "icon": "/Images/Icons/Impedance-Testing.png"
+                  "icon": "/Images/Icons/Nutritional-Deficiencies.png"
                 },
                 {
                   "step": 3,
@@ -6050,7 +6050,7 @@
                 "step": 3,
                 "title": "Endoscopic Interventions",
                 "description": "Including procedures like Peroral Endoscopic Myotomy (POEM) for achalasia and Botox injections for gastroparesis.",
-                "icon": "/Images/Icons/Endoscopic-AME"
+                "icon": "/Images/Icons/Endoscopic-AME.png"
               },
               {
                 "step": 4,
@@ -10601,5 +10601,395 @@
       "iframelink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15047.476207008736!2d78.46386398715822!3d17.436907700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9be10c4c5013%3A0x5581bd5a2711edb!2sKAGE!5e1!3m2!1sen!2sin!4v1738058832256!5m2!1sen!2sin"
     },
     "contactImage": "/Images/Home/contact.jpg"
-  }
+  },
+  "blogs": [
+    {
+      "title": "7 Foods to Avoid for a Leaky Gut: Take Control of Your Health from the Inside Out",
+      "author": "Admin",
+      "date": "2025-06-18",
+      "blogImage": "/Images/Blogs/You-must-avoid-these-foods-for-a-leaky-gut.jpg",
+      "content": [
+        {
+          "heading": "Introduction",
+          "paragraph": "Your gut is more than just a place where digestion happens—it's the foundation of your health. In fact, the gut is often referred to as your \"second brain\" because of how closely it’s tied to your immune system, mood, and energy levels. When the lining of your gut becomes compromised—a condition known as leaky gut syndrome—you may start experiencing a range of uncomfortable symptoms: bloating, fatigue, brain fog, food sensitivities, and even skin breakouts."
+        },
+        {
+          "heading": "Healing Starts with Awareness",
+          "paragraph": "The good news? Healing starts with awareness—and the first step is identifying and removing the foods that may be damaging your gut lining. Let’s walk through 7 common foods to avoid if you want to restore gut integrity and reclaim your vitality."
+        },
+        {
+          "heading": "1. Gluten-Heavy Grains",
+          "paragraph": "Gluten is a protein found in wheat, rye, and barley that can trigger gut inflammation in sensitive individuals. It’s especially problematic for people with celiac disease, but it can also contribute to gut permeability in those who are non-celiac yet gluten-intolerant. Gluten has been shown to increase zonulin, a protein that loosens tight junctions in the gut lining.",
+          "points": [
+            {
+              "subheading": "Avoid",
+              "value": "White bread, wheat pasta, crackers, cakes, and baked goods"
+            },
+            {
+              "subheading": "Swap With",
+              "value": "Quinoa, wild rice, almond flour, coconut flour, and certified gluten-free oats"
+            }
+          ]
+        },
+        {
+          "heading": "2. Refined Sugar",
+          "paragraph": "Too much sugar feeds harmful bacteria and yeast in your gut, creating microbial imbalances and encouraging inflammation. This disrupts the natural harmony of your gut ecosystem and contributes to leaky gut. Even worse, sugar causes spikes in insulin and weakens the immune system over time.",
+          "points": [
+            {
+              "subheading": "Avoid",
+              "value": "Soda, candy, store-bought cookies, sugary breakfast cereals"
+            },
+            {
+              "subheading": "Swap With",
+              "value": "Fresh fruits, raw honey, or monk fruit sweetener"
+            }
+          ]
+        },
+        {
+          "heading": "3. Conventional Dairy Products",
+          "paragraph": "Dairy can be inflammatory for some individuals, especially if you're lactose intolerant or sensitive to casein, the primary protein in cow’s milk. Dairy may also increase mucus production and slow digestion in sensitive guts, worsening symptoms like gas, cramps, and bloating.",
+          "points": [
+            {
+              "subheading": "Avoid",
+              "value": "Cow’s milk, cheese, yogurt, ice cream"
+            },
+            {
+              "subheading": "Swap With",
+              "value": "Coconut milk, almond milk, goat or sheep milk, or lactose-free yogurt"
+            }
+          ]
+        },
+        {
+          "heading": "4. Fried and Fast Foods",
+          "paragraph": "Foods that are deep-fried or heavily processed are usually loaded with trans fats, oxidized oils, and chemical additives. These elements can cause chronic inflammation, reduce beneficial gut bacteria, and damage the gut lining. They also deliver little to no nutritional value.",
+          "points": [
+            {
+              "subheading": "Avoid",
+              "value": "French fries, chicken nuggets, onion rings, frozen fried foods"
+            },
+            {
+              "subheading": "Swap With",
+              "value": "Air-fried vegetables, baked sweet potato wedges, grilled lean meats"
+            }
+          ]
+        },
+        {
+          "heading": "5. Alcohol",
+          "paragraph": "Excessive alcohol intake impairs the gut lining, reduces absorption of nutrients, and disrupts the balance of gut bacteria. It’s particularly harmful when consumed regularly or in large amounts, contributing to both leaky gut and liver strain.",
+          "points": [
+            {
+              "subheading": "Avoid",
+              "value": "Beer, wine, spirits, sugary mixers"
+            },
+            {
+              "subheading": "Swap With",
+              "value": "Sparkling mineral water with lemon, mocktails made with herbal teas, or kombucha in moderation"
+            }
+          ]
+        },
+        {
+          "heading": "6. Processed Vegetable Oils",
+          "paragraph": "Seed oils such as corn, soybean, and sunflower oil are high in omega-6 fatty acids. While omega-6s are essential in moderation, too much can lead to systemic inflammation—especially when omega-3s are lacking. This imbalance has been linked to chronic illness and gut inflammation.",
+          "points": [
+            {
+              "subheading": "Avoid",
+              "value": "Canola oil, vegetable oil blends, margarine, fast-food oils"
+            },
+            {
+              "subheading": "Swap With",
+              "value": "Extra virgin olive oil, avocado oil, or cold-pressed coconut oil"
+            }
+          ]
+        },
+        {
+          "heading": "7. Legumes with High Anti-Nutrients",
+          "paragraph": "Legumes contain lectins and phytic acid, compounds that can irritate the gut lining and hinder nutrient absorption. While beans can be healthy for many people, those with leaky gut may experience bloating, cramps, and fatigue after eating them.",
+          "points": [
+            {
+              "subheading": "Avoid or Limit",
+              "value": "Lentils, chickpeas, soybeans, black beans"
+            },
+            {
+              "subheading": "If Consuming",
+              "value": "Soak, sprout, or pressure-cook beans to reduce anti-nutrients and improve digestibility"
+            }
+          ]
+        },
+        {
+          "heading": "Embrace the Healing Journey",
+          "paragraph": "Healing your gut is not about perfection—it’s about progress. By removing inflammatory foods and replacing them with nutrient-dense, gut-friendly options, you're supporting your body’s ability to repair itself.",
+          "paragraph2": "As you take steps to avoid the foods listed above, also focus on what to add to your plate:",
+          "points": [
+            "Bone broth for collagen",
+            "Fermented vegetables for probiotics",
+            "Fiber-rich fruits and greens",
+            "Omega-3 fatty acids from salmon or chia seeds"
+          ],
+          "paragraph3": "Also, don’t underestimate the power of hydration, movement, quality sleep, and stress management in the gut healing process.",
+          "paragraph4": "Every small choice you make adds up to big change. Trust your gut—it knows the way back to health."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "The Gut-Brain Connection: Are Gut and Mental Health Related?",
+      "author": "Admin",
+      "date": "2025-10-22",
+      "blogImage": "/Images/Blogs/Is-your-mental-health-related-to-your-gut-axis.jpg",
+      "content": [
+        {
+          "heading": "Exploring the Gut-Brain Connection",
+          "paragraph": "Ever had a “gut feeling” about something? Have you noticed how stress can lead to a stomachache? Turns out, these aren’t just figures of speech or coincidences. In recent years, science has uncovered a fascinating and powerful connection between our gut and our brain — one that’s shaping how we understand both physical and mental health. Welcome to the world of the gut-brain connection — a two-way communication system that links the emotional and cognitive centers of the brain with digestive functions. In simple words? Yes, your gut and your mental health are connected. Let’s explore how this connection works, what it means for your overall well-being, and how you can support both your gut and your mind."
+        },
+        {
+          "heading": "What Exactly Is the Gut-Brain Connection?",
+          "paragraph": "Your gut isn’t just about digestion. It’s home to around 100 trillion bacteria, collectively known as your gut microbiome. These tiny organisms help digest food, regulate immune function, and, surprisingly, influence your mood and behavior.",
+          "paragraph2": "The gut and brain are connected through a network called the gut-brain axis. This system includes:",
+          "points": [
+            "The vagus nerve, which sends messages between the brain and the gut.",
+            "Hormones and neurotransmitters like serotonin and dopamine.",
+            "Your immune system responds to both stress and inflammation."
+          ],
+          "paragraph3": "Scientists now call the gut the \"second brain\" — and for good reason."
+        },
+        {
+          "heading": "How Does the Gut Impact Mental Health?",
+          "paragraph": "Your gut microbiome plays a key role in producing brain chemicals like serotonin (mood regulation), dopamine (motivation and reward), and GABA (calm and relaxation).",
+          "paragraph2": "Fun fact? About 90% of your body’s serotonin is made in the gut, not the brain!",
+          "paragraph3": "When your gut bacteria are out of balance (a condition known as dysbiosis), it can lead to:",
+          "points": [
+            "Anxiety",
+            "Depression",
+            "Mood swings",
+            "Brain fog",
+            "Trouble sleeping"
+          ],
+          "paragraph4": "Several studies have shown that people with mental health conditions often have very different gut bacteria compared to those without."
+        },
+        {
+          "heading": "Stress and Anxiety — Can They Mess with Your Gut?",
+          "paragraph": "Absolutely. The relationship goes both ways. Just as your gut affects your mood, your mental state affects your gut.",
+          "paragraph2": "When you’re stressed, anxious, or emotionally overwhelmed, your brain signals your digestive system, often leading to symptoms like:",
+          "points": [
+            "Bloating",
+            "Indigestion",
+            "Constipation or diarrhea",
+            "Loss of appetite (or emotional eating)"
+          ],
+          "paragraph3": "Chronic stress can also alter your gut bacteria, weaken your gut lining, and trigger inflammation — all of which make you feel worse, both physically and mentally. It’s a vicious cycle: stress hurts your gut, and a struggling gut amplifies stress."
+        },
+        {
+          "heading": "How Can You Support Gut and Mental Health?",
+          "paragraph": "Here’s the good news: there are simple, everyday steps you can take to improve your gut health — and in turn, your mental health."
+        },
+        {
+          "heading": "1. Eat More Fiber-Rich Foods",
+          "paragraph": "Think fruits, vegetables, legumes, and whole grains. Fiber feeds the good bacteria in your gut and keeps things moving."
+        },
+        {
+          "heading": "2. Include Fermented Foods",
+          "paragraph": "Foods like yogurt, kefir, kimchi, sauerkraut, and kombucha are natural probiotics — they add more friendly bacteria to your gut."
+        },
+        {
+          "heading": "3. Cut Back on Sugar and Processed Foods",
+          "paragraph": "High sugar intake can fuel harmful bacteria and yeast in your gut, leading to an imbalance."
+        },
+        {
+          "heading": "4. Take Probiotics (If needed)",
+          "paragraph": "Some people benefit from probiotic supplements, especially after antibiotics. But talk to your doctor first."
+        },
+        {
+          "heading": "5. Manage Stress",
+          "paragraph": "Mindfulness, yoga, breathing exercises, journaling, and regular movement all help regulate the gut-brain axis."
+        },
+        {
+          "heading": "6. Sleep Well",
+          "paragraph": "Poor sleep can disturb your microbiome, while good sleep helps regulate both mood and digestion."
+        },
+        {
+          "heading": "7. Stay Hydrated",
+          "paragraph": "Water helps with digestion and maintains the mucosal lining of the gut — your first line of defense."
+        },
+        {
+          "heading": "Who Should Pay Attention to This Connection?",
+          "paragraph": "Honestly, everyone. But especially people who experience:",
+          "points": [
+            "Anxiety or depression",
+            "IBS or digestive issues",
+            "Chronic fatigue or low energy",
+            "Brain fog or poor concentration",
+            "Food intolerances"
+          ],
+          "paragraph2": "If you're working with a therapist, nutritionist, or doctor, it might be worth asking: “Could my gut health be playing a role in how I’m feeling mentally?” It’s a conversation that more and more health professionals are having."
+        },
+        {
+          "heading": "Final Thoughts",
+          "paragraph": "Your brain and gut are in constant conversation — whether you’re aware of it or not. And when one is struggling, the other often feels it too.",
+          "paragraph2": "The exciting part? By taking care of your gut — with food, mindfulness, movement, and rest — you’re not just supporting digestion. You’re supporting your emotional resilience, clarity, and calm.",
+          "paragraph3": "So, the next time you feel anxious or down, don’t just blame your thoughts. Listen to your gut, too. It may have more to say than you think."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "I Tried a 7 Day Gut Reset — Here’s What Happened",
+      "author": "Admin",
+      "date": "2025-11-05",
+      "blogImage": "/Images/Blogs/what-is-the-7-day-gut-reset.jpg",
+      "content": [
+        {
+          "heading": "Day 0: Why I Knew I Needed a Reset",
+          "paragraph": "I didn’t realize how much my gut was affecting me — until I couldn’t ignore it anymore. Every afternoon, I’d feel bloated, sluggish, and honestly, kind of grumpy. My cravings for sugar were out of control, my sleep was erratic, and I just didn’t feel like myself. I wasn’t sick, but I wasn’t thriving either.",
+          "paragraph2": "After some reading and a chat with a nutrition-savvy friend, I decided to try a 7 Day Gut Reset. The idea? Remove the foods that mess with your digestion, add in ones that heal, and rebuild your gut microbiome with the good stuff.",
+          "paragraph3": "Here’s what I did — and what I learned."
+        },
+        {
+          "heading": "Day 1: Out with the Old",
+          "paragraph": "I started by cutting out the obvious gut irritants: sugar, alcohol, dairy, gluten, processed food, and caffeine. That meant no more takeout, no evening glass of wine, no mindless snacking.",
+          "paragraph2": "Instead, I focused on whole, fresh foods — lightly cooked veggies, fruit, lean protein, and lots of water. It wasn’t easy (hello, sugar cravings), but by the end of the day, I already felt a bit lighter."
+        },
+        {
+          "heading": "Day 2: Hydration is Everything",
+          "paragraph": "This day was all about flushing out the bad stuff and soothing my system. I drank lots of water, sipped on ginger and chamomile tea, and added bone broth to my lunch. I skipped the heavy meals and let my stomach rest. My digestion started to feel calmer, and the bloating eased a bit."
+        },
+        {
+          "heading": "Day 3: Probiotics to the Rescue",
+          "paragraph": "I introduced probiotic-rich foods into my meals: a small serving of sauerkraut, plain yogurt with flaxseeds, and a bottle of kombucha. These are filled with good bacteria that help balance the gut microbiome.",
+          "paragraph2": "I also noticed that I didn’t feel as hungry between meals — something that hadn’t happened in a while."
+        },
+        {
+          "heading": "Day 4: Prebiotics Join the Party",
+          "paragraph": "Now that I had good bacteria coming in, it was time to feed them. I added prebiotic foods like bananas, garlic, onions, and oats to my meals. These act as fuel for probiotics and help them thrive.",
+          "paragraph2": "My energy felt more steady. I didn’t crash in the afternoon, and I didn’t reach for sugar out of habit."
+        },
+        {
+          "heading": "Day 5: Let It Flow",
+          "paragraph": "Fiber became the focus. Chia seeds in the morning, lentils for lunch, and roasted vegetables for dinner. I also went for a 30-minute walk to help my digestion. Movement really made a difference — everything started “working” smoothly, if you know what I mean."
+        },
+        {
+          "heading": "Day 6: Gut + Mind Connection",
+          "paragraph": "I read about how the gut and brain are connected — and wow, it’s true. I spent 15 minutes meditating in the morning, and I felt noticeably calmer throughout the day. I also journaled how I was feeling. For the first time in weeks, my mind felt clear and focused."
+        },
+        {
+          "heading": "Day 7: Reflect, Reset, Repeat",
+          "paragraph": "On the final day, I reflected on the week. I felt less bloated, more energized, and weirdly proud of myself. My skin looked clearer, I slept better, and I wasn’t obsessing over sugar or junk food.",
+          "paragraph2": "I wasn’t “perfect” every single moment, but I stuck with it — and it paid off. Most importantly, I realized how much better my body works when I treat it well."
+        },
+        {
+          "heading": "What I Ate During the Week",
+          "points": [
+            "Steamed veggies and leafy greens",
+            "Fruits like berries, apples, and bananas",
+            "Quinoa, oats, and brown rice",
+            "Lean proteins: tofu, salmon, chicken",
+            "Healthy fats: avocado, olive oil, almonds",
+            "Fermented foods: yogurt, kimchi, kombucha",
+            "Herbal teas and lemon water"
+          ]
+        },
+        {
+          "heading": "What I Skipped",
+          "points": [
+            "Sugar",
+            "Soda and alcohol",
+            "Gluten and dairy",
+            "Fried or processed snacks",
+            "Late-night eating"
+          ]
+        },
+        {
+          "heading": "What I Gained from the Gut Reset",
+          "points": [
+            "Less bloating and more regular digestion",
+            "Fewer cravings and stable energy",
+            "Better sleep and mood",
+            "A stronger sense of control over what I eat",
+            "A desire to keep going, even beyond 7 days"
+          ]
+        },
+        {
+          "heading": "Final Thoughts",
+          "paragraph": "The 7 Day Gut Reset wasn’t a miracle — it was a mindful reboot. I gave my body time to recover, my gut a chance to heal, and my habits a needed shake-up. If you’ve been feeling “off,” this simple week-long plan might be exactly what your body is asking for.",
+          "paragraph2": "It's not about punishment or perfection. It’s about paying attention, showing up for yourself, and starting fresh.",
+          "paragraph3": "Would I do it again? Absolutely. In fact, I’m carrying many of these habits forward — and my gut is thanking me every day."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "8 Warning Signs Your Gut Might Be Unhealthy",
+      "author": "Admin",
+      "date": "2025-12-01",
+      "blogImage": "/Images/Blogs/Signs-to-notice-whether-your-gut-is-unhealthy.jpg",
+      "content": [
+        {
+          "heading": "Introduction",
+          "paragraph": "We often focus on eating for weight loss, muscle gain, or energy—but one of the most overlooked aspects of health is the gut. Your gastrointestinal (GI) system plays a major role in digesting food, regulating immunity, producing hormones, and even influencing your mood. When your gut is unhealthy, your entire body feels the impact.",
+          "paragraph2": "But how do you know if your gut is trying to raise the alarm? Here are 8 important signs that may indicate your gut is not functioning at its best."
+        },
+        {
+          "heading": "1. Digestive Problems That Won’t Go Away",
+          "paragraph": "The most obvious signs of gut imbalance are digestive in nature. If you regularly experience gas, bloating, indigestion, constipation, or diarrhea, your gut may be struggling to break down food properly.",
+          "paragraph2": "What it means: Your microbiome (the colony of bacteria in your gut) may be imbalanced, or your digestive enzymes may be low. Chronic symptoms could also suggest food intolerances or inflammation."
+        },
+        {
+          "heading": "2. You’re Constantly Tired or Sluggish",
+          "paragraph": "Even with a decent night’s sleep, do you wake up feeling drained or rely heavily on caffeine? Your gut is responsible for absorbing key nutrients like iron, B12, and magnesium. When gut function is impaired, these nutrients don’t get absorbed properly, leading to fatigue and brain fog.",
+          "paragraph2": "Key point: Tiredness without a clear cause often traces back to poor nutrient absorption and low-grade inflammation."
+        },
+        {
+          "heading": "3. Frequent Infections or Low Immunity",
+          "paragraph": "Your gut is a central part of your immune system. In fact, over two-thirds of your immune tissue is located in your digestive tract. If you find yourself getting sick often or taking longer to recover, your immune system may not be getting the support it needs from your gut.",
+          "paragraph2": "You may notice: Regular colds, frequent infections, or slow healing wounds."
+        },
+        {
+          "heading": "4. Mood Swings, Anxiety, or Depression",
+          "paragraph": "The gut-brain connection is powerful. A healthy gut helps regulate neurotransmitters like serotonin and dopamine, which affect your emotional state. When the gut is inflamed or unbalanced, it can lead to mood instability, anxiety, or feelings of depression.",
+          "paragraph2": "Fun fact: About 90% of serotonin is produced in your gut—not your brain."
+        },
+        {
+          "heading": "5. Unexplained Skin Issues",
+          "paragraph": "Eczema, acne, psoriasis, and rashes are often not just skin-deep. These can be signs of inflammation or dysbiosis (imbalance of gut bacteria). When the gut lining becomes permeable—a condition called leaky gut—toxins can enter the bloodstream and trigger inflammation throughout the body, including the skin.",
+          "paragraph2": "Look for: Flare-ups after meals, persistent skin irritation, or breakouts despite skincare."
+        },
+        {
+          "heading": "6. Sudden Food Sensitivities or Intolerances",
+          "paragraph": "You weren’t always sensitive to dairy or gluten, but suddenly you can’t tolerate them? That’s a sign something in your gut has changed. As the gut becomes inflamed, it may react more strongly to certain foods, especially those that are hard to digest or commonly inflammatory.",
+          "paragraph2": "Symptoms include: Stomach pain, gas, fatigue, or headaches after eating certain foods."
+        },
+        {
+          "heading": "7. Fluctuating Weight Without Trying",
+          "paragraph": "Weight gain or loss that seems unrelated to diet or exercise can also stem from your gut. Certain bacteria in your gut can influence how your body stores fat and manages hunger. Some strains promote fat storage, while others help burn energy more efficiently.",
+          "paragraph2": "Red flag: If you’re gaining weight despite eating healthy or losing weight while feeling malnourished, your gut could be involved."
+        },
+        {
+          "heading": "8. Sugar Cravings That Feel Out of Control",
+          "paragraph": "Craving sweets all the time? Harmful gut bacteria feed on sugar and can drive cravings to keep themselves alive. This creates a vicious cycle: the more sugar you eat, the worse the imbalance becomes—and the more you crave sugar.",
+          "paragraph2": "Tip: Start adding fiber-rich foods to crowd out the bad bacteria and reduce cravings naturally."
+        },
+        {
+          "heading": "What Can You Do About It?",
+          "paragraph": "If you identify with several of the signs above, it may be time to support your gut. The good news is, the gut responds well to the right care. Here are some simple steps to get started:",
+          "points": [
+            "Add fiber to your diet: Fruits, vegetables, beans, and whole grains feed beneficial gut bacteria.",
+            "Reduce processed foods and sugar: These contribute to inflammation and gut imbalance.",
+            "Try fermented foods: Foods like sauerkraut, miso, yogurt, and kombucha introduce good bacteria.",
+            "Stay hydrated: Water helps maintain the lining of your intestines.",
+            "Get enough sleep: Sleep is essential for gut healing and bacterial regulation.",
+            "Manage stress: Chronic stress weakens the gut lining and disrupts the microbiome."
+          ]
+        },
+        {
+          "heading": "When to Seek Help",
+          "paragraph": "If your symptoms persist or are significantly impacting your daily life, consult a healthcare provider or a registered dietitian. They may recommend further testing—such as microbiome analysis, food sensitivity testing, or endoscopic evaluations—to determine the root cause."
+        },
+        {
+          "heading": "Final Thoughts",
+          "paragraph": "Your gut plays a central role in your health—even beyond digestion. If you’re constantly tired, dealing with mood swings, or facing unexplained skin or immune issues, it’s time to look inward—literally.",
+          "paragraph2": "Pay attention to the signals. By making intentional choices and addressing your gut health early, you can create lasting changes that impact your energy, mood, and overall vitality."
+        }
+      ],
+      "tags": []
+    }
+  ]
 }
