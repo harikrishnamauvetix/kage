@@ -10567,6 +10567,10 @@
         {
           "text": "Doctor Videos",
           "href": "/doctorvideos"
+        },
+        {
+          "text": "Blogs",
+          "href": "/blogs"
         }
       ]
     },
