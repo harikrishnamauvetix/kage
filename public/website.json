@@ -969,7 +969,7 @@
       "qualifications": "MBBS,PG (Internal Medicine),DM (Gastroenterology)",
       "designation": "Consultant Medical Gastroenterologist, Hepatologist & Therapeutic Endoscopist",
       "registrationNumber": "",
-      "profileImage": "Images/doctors/dr-srujan.png",
+      "profileImage": "Images/doctors/dr-surijun.png",
       "opTiming": [
         {
           "day": "Monday",
@@ -1084,6 +1084,8 @@
       "name": "Dr. Venkatesh Pabbisetti",
       "designation": "Consultant Medical Gastroenterologist",
       "qualifications": "MBBS,MD (Gen.Medicine),DM (Gastroenterology)",
+      "profileImage": "Images/doctors/dr-venkatesh.jpg",
+
       "opTiming": [
         {
           "day": "Monday",
