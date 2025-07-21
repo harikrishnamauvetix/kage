@@ -882,86 +882,9 @@
         }
       ]
     },
+
     {
       "id": 7,
-      "metaTitle": "Dr.Viswanath Kamisetty - Best Gastroenterlogist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
-      "metaDescription": "Dr.Viswanath Kamisetty is a consultant gastroenterologist & hepatologist at Kims Advanced Gastroenterology & Endoscopy, KIMS Hospitals, Secunderabad. Book your appointment today!",
-      "keywords": "Viswanath Kamisetty gastroenterologist Hyderabad,GI doctor Hyderabad Dr. Viswanath Kamisetty,liver specialist Hyderabad Dr. Viswanath Kamisetty,endoscopy specialist Hyderabad Dr. Viswanath Kamisetty",
-      "name": "Dr. Srujan Kumar Dasyam ",
-      "qualifications": "MD (Int. Med), DM (Med. Gastro)",
-      "designation": "Consultant Gastroenterologist & Hepatologist",
-      "registrationNumber": "TSMC/FMR/09030",
-      "profileImage": "Images/doctors/dr-viswanath.png",
-      "opTiming": [
-        {
-          "day": "Monday",
-          "timing": "9:00am - 5:30pm"
-        },
-        {
-          "day": "Tuesday",
-          "timing": "9:00am - 5:30pm"
-        },
-        {
-          "day": "Wednesday",
-          "timing": "9:00am - 5:30pm"
-        },
-        {
-          "day": "Thursday",
-          "timing": "9:00am - 5:30pm"
-        },
-        {
-          "day": "Friday",
-          "timing": "9:00am - 5:30pm"
-        },
-        {
-          "day": "Saturday",
-          "timing": "9:00am - 5:30pm"
-        },
-        {
-          "day": "Sunday",
-          "timing": "Not Available"
-        }
-      ],
-      "profile": [
-        "Dr. Viswanathh Kamisetty is a highly experienced (10+ years of experience)gastroenterologist in Hyderabad, specializing in gastrointestinal, liver, and pancreatic diseases.",
-        "As a consultant at KAGE – KIMS Advanced Gastroenterology and Endoscopy, KIMS Hospitals, Secunderabad, he is dedicated to providing cutting-edge, evidence-based treatments for a wide range of digestive disorders.",
-        "With over a decade of experience, Dr. Kamisetty is an expert in managing conditions such as GERD, ulcers, fatty liver disease, hepatitis, pancreatitis, inflammatory bowel disease (IBD), and gastrointestinal cancers.",
-        "He is also highly skilled in performing diagnostic and therapeutic endoscopic procedures, including UGI endoscopy, colonoscopy, ERCP, endoscopic ultrasound (EUS), and endoscopic mucosal resection (EMR), ensuring precise diagnosis and effective treatment for complex gastroenterological conditions.",
-        "Known for his patient-centric and compassionate approach, Dr. Kamisetty is committed to early detection, accurate diagnosis, and minimally invasive interventions, helping patients achieve better digestive health.",
-        "His expertise in advanced therapeutic endoscopy and comprehensive liver care makes him one of the best gastro doctors in Hyderabad.",
-        "At KAGE – KIMS Advanced Gastroenterology and Endoscopy, Dr. Kamisetty collaborates with a team of leading specialists, ensuring patients receive personalized, world-class gastroenterology and hepatology care at one of the top gastro hospitals in Hyderabad.",
-        "For expert consultation and advanced digestive care, visit Dr. Viswanathh Kamisetty at KAGE – KIMS Hospitals, Secunderabad."
-      ],
-      "publications": [
-        "The role of urinary spot sodium levels in assessing disease severity of chronic liver disease on admission: Journal of Clinical and Experimental Hepatology, July 2018 Srujan Kumar Dasyam, Shravan Kumar. P, Uma Devi M. DOI: 10.1016/j.jceh.2018.06.405",
-        "A rare case of congenital hyperbilirubinemia in pregnancy - Criggler Najjar Syndrome-II Venkatesh Pabbisetti, Srujan Kumar Dasyam, Keerthi Reddy A, Sai Krishna K. DOI: 10.1016/j.jceh.2018.06.504",
-        "A case report on primary Hepatic Amyloidosis. Venkatesh Pabbisetti, Srujan Kumar Dasyam, Sreedevi Sunkara, Shravan Kumar P. DOI: 10.1016/j.jceh.2018.06.503",
-        "A study of the clinical profile of 30 consecutive cases of poisoning presenting to a rural tertiary care center. Sujata Devi, Ashok Dasari, Srujan Kumar Dasyam, Sai Sripada Rao. Perspectives in Medical Research/ January-April 2014/vol 2/issue 1 (pimr.org.in)"
-      ],
-      "achievements": [
-        {
-          "category": "Diagnostic Endoscopy Procedures",
-          "details": [
-            "Performed and reported more than 2000 diagnostic Upper GI endoscopies.",
-            "Completed about 200 proctosigmoidoscopies and more than 400 colonoscopies.",
-            "Performed over 75 diagnostic and therapeutic pediatric endoscopies at Niloufer Hospital for Women and Children, one of the largest pediatric referral centers in the country."
-          ]
-        },
-        {
-          "category": "Therapeutic Endoscopy Procedures",
-          "details": [
-            "Managed over 250 esophageal variceal bleeding cases endoscopically using esophageal banding.",
-            "Biopsied more than 500 patients from the esophagus, stomach, and duodenum, and taken more than 150 colonic and rectal biopsies.",
-            "Performed esophageal stricture bougie dilatation in over 90 patients across 180 sessions.",
-            "Completed around 10 percutaneous endoscopic gastrostomy (PEG) tube placements and 20 achalasia cardia pneumatic balloon dilatations.",
-            "Performed a significant number of CRE dilatation procedures for esophageal and gastric strictures.",
-            "Assisted in more than 200 ERCP procedures and independently performed a substantial number of ERCPs."
-          ]
-        }
-      ]
-    },
-    {
-      "id": 8,
       "metaTitle": "Dr. Srujan Kumar Dasyam - Best Gastroenterologist & GI Specialist In Hyderabad | KAGE at KIMS Hospitals, Hyderabad",
       "metaDescription": "Dr. Srujan Kumar Dasyam is a consultant gastroenterologist & hepatologist at Kims Advanced Gastroenterology & Endoscopy, KIMS Hospitals, Secunderabad. Book your appointment today!",
       "keywords": "Srujan Kumar Dasyam gastroenterologist Hyderabad,GI doctor Hyderabad Dr. Srujan Kumar Dasyam,liver specialist Hyderabad Dr. Srujan Kumar Dasyam,endoscopy specialist Hyderabad Dr. Srujan Kumar Dasyam",
@@ -1080,12 +1003,11 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "Dr. Venkatesh Pabbisetti",
       "designation": "Consultant Medical Gastroenterologist",
       "qualifications": "MBBS,MD (Gen.Medicine),DM (Gastroenterology)",
-      "profileImage": "Images/doctors/dr-venkatesh.jpg",
-
+      "profileImage": "Images/doctors/dr-venkatesh.png",
       "opTiming": [
         {
           "day": "Monday",
