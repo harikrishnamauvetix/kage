@@ -119,7 +119,7 @@ export default function SubServicePage() {
     const foundSubService = foundService.subpages.find(
       (sub) => generateSlug(sub.page) === generateSlug(subpage)
     );
-    console.log("Found SubService:", foundSubService);
+    //console.log("Found SubService:", foundSubService);
   
     if (foundSubService) {
       setService(foundService);

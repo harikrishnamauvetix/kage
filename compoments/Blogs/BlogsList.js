@@ -18,7 +18,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { generateSlug } from "../slugify";
 const BlogsList = (props) => {
-  console.log(props);
+  //console.log(props);
   return (
     <>
       <Box
@@ -44,7 +44,7 @@ const BlogsList = (props) => {
             </Typography>
           </Box> */}
           <Grid container spacing={2} justifyContent="center">
-            {props?.blogs?.map((item, index) => (
+            {props?.blogs?.slice().reverse().map((item, index) => (
               <Grid item xs={12} sm={12} md={12} lg={8} xl={8} key={index}>
                 <Card
                   sx={{

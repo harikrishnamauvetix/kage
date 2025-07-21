@@ -20,7 +20,8 @@ import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
 import { generateSlug } from "../slugify";
 const DoctorsList = (props) => {
   const truncateByWords = (text, wordLimit = 50) => {
-    const words = text.split(" ");
+
+    const words = text?.split(" ");
     if (words.length > wordLimit) {
       return words.slice(0, wordLimit).join(" ") + "...";
     }
@@ -41,7 +42,7 @@ const DoctorsList = (props) => {
             >
               Expert Team Of Doctors
             </Typography>
-          </Box>
+          </Box>  
           <Grid container spacing={3} justifyContent="center">
             {props?.doctorsList?.map((doctor) => (
               <Grid

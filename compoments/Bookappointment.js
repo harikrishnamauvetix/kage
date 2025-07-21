@@ -30,7 +30,7 @@ export default function AppointmentForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log({ name, email, id, department, phoneNumber, doctor, date });
+    //console.log({ name, email, id, department, phoneNumber, doctor, date });
   };
 
   return (

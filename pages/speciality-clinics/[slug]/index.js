@@ -228,7 +228,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const data = websiteJson;
-  console.log(params);
+  // console.log(params);
   const specialityclinics = data.specialityclinics.find(
     (item) => generateSlug(item.title) === params.slug
   );

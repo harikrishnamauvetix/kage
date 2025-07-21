@@ -65,7 +65,6 @@ const DoctorDetails = ({ doctor }) => {
 
   return (
     <>
-  
       <CanonicalTag
         title={doctor?.metaTitle}
         description={doctor?.metaDescription}
@@ -147,14 +146,23 @@ const DoctorDetails = ({ doctor }) => {
                 <Button
                   variant="contained"
                   color="primary"
-                  onClick={() => router.push("/appointment")}
+                  component="a"
+                  target="_self"
+                  aria-label="Call to book appointment"
+                  href={
+                    websiteJson?.hospitalInfo?.kimsPhonenumber
+                      ? `tel:${websiteJson.hospitalInfo.kimsPhonenumber.replace(
+                          /[\s-]/g,
+                          ""
+                        )}`
+                      : "#"
+                  }
                   sx={{
                     width: {
                       xs: "auto",
                       sm: "100%",
                       md: "100%",
                     },
-
                     margin: "20px 0",
                   }}
                 >
@@ -200,7 +208,7 @@ const DoctorDetails = ({ doctor }) => {
                     ))}
                   </Stack>
                 )}
-                  {doctor?.expertise && (
+                {doctor?.expertise && (
                   <Stack sx={{ margin: "20px 0" }}>
                     {Array.isArray(doctor.expertise) &&
                       doctor.expertise.map((expertise, index) => (
@@ -314,7 +322,6 @@ const DoctorDetails = ({ doctor }) => {
                     </List>
                   </Stack>
                 )}
-              
 
                 {doctor?.achievements && (
                   <Stack sx={{ margin: "20px 0" }}>
@@ -435,7 +442,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const data = websiteJson;
-  console.log(params);
+  //console.log(params);
   const doctor = data.doctorsList.find(
     (doc) => generateSlug(doc.name) === params.slug
   );
